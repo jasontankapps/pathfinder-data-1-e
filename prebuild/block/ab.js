@@ -672,7 +672,7 @@ const makeAbilityBlock = ({
 						logError(`Unable to parse [${line}] as a valid spell`);
 						return "[ERROR]";
 					}
-					return `‹spell/${text}›${extra ? " " + extra : ""}`; 
+					return `‹spell/${text}›${extra ? " " + extra : ""}`;
 				}).join(", ");
 				const level = i && ordinal(i);
 				output.push(

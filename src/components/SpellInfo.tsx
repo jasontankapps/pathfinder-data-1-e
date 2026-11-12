@@ -430,7 +430,7 @@ const parseTargets = (input: Targets) => {
 				targetOrArea ? <p><strong>Target or Area</strong> {targetOrArea}</p> : ""
 			)
 		)}
-		{ effect ? <p><strong>Effect</strong> {effect}</p> : "" }	
+		{ effect ? <p><strong>Effect</strong> {effect}</p> : "" }
 	</>);
 };
 

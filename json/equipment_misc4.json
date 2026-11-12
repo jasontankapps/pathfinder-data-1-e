@@ -886,7 +886,9 @@
 			"‹SOURCE Ultimate Equipment/56;Pathfinder Society Field Guide/47›  ",
 			"::tabular{format=misc a=\"15 gp (common), 130 gp (deluxe)\" b=\"25 lbs. (common), 15 lbs. (deluxe)\" c=x d=kits}",
 			"",
-			"This bundle of essential supplies for exploring ruins and abandoned cities includes two ‹eq-misc/candles›, ‹eq-misc/chalk›, a ‹eq-misc/hammer› and four ‹eq-misc/piton«s›, 50 feet of hemp ‹eq-misc/rope›, a ‹eq-misc/hooded lantern› with 5 flasks of ‹eq-misc/oil›, two ‹eq-misc/sack«s›, two ‹eq-misc/torches›, and four ‹eq-misc/tindertwig«s›. A deluxe dungeoneering kit contains two candles, chalk, a hammer and four pitons, 50 feet of silk rope, two sacks, three ‹eq-misc/sunrod«s›, four tindertwigs, and an ‹eq-misc/everburning torch›."
+			"This bundle of essential supplies for exploring ruins and abandoned cities includes two ‹eq-misc/candles›, ‹eq-misc/chalk›, a ‹eq-misc/hammer› and four ‹eq-misc/piton«s›, 50 feet of hemp ‹eq-misc/rope›, a ‹eq-misc/hooded lantern› with 5 flasks of ‹eq-misc/oil›, two ‹eq-misc/sack«s›, two ‹eq-misc/torches›, and four ‹eq-misc/tindertwig«s›.",
+			"",
+			"A deluxe dungeoneering kit contains two candles, chalk, a hammer and four pitons, 50 feet of silk rope, two sacks, three ‹eq-misc/sunrod«s›, four tindertwigs, and an ‹eq-misc/everburning torch›."
 		]
 	},
 	"dungeoneering_kit_deluxe": {
@@ -1090,7 +1092,11 @@
 			"‹SOURCE Adventurer's Armory 2/17›  ",
 			"::tabular{format=misc a=2700 b=8 d=kits}",
 			"",
-			"This waterproof and flame-resistant case contains items useful to a spellcaster traveling the Elemental Planes, either intentionally or due to some mishap. The kit includes durable guides to each of the four Elemental Planes, describing a few common creatures and hazards found on each plane and pointing out major landmarks. Each guide grants a +2 circumstance bonus on Knowledge (planes) checks and Survival checks for its plane. This kit also contains 3 scrolls of ‹spell/comprehend languages›, 2 scrolls of ‹spell/planar adaptation›, and a scroll of ‹spell/plane shift› attuned to the Material Plane so the kit's owner can return home. The price reflects a kit with divine scrolls; a kit containing arcane scrolls instead costs an additional 2,000 gp"
+			"This waterproof and flame-resistant case contains items useful to a spellcaster traveling the Elemental Planes, either intentionally or due to some mishap. The kit includes durable guides to each of the four Elemental Planes, describing a few common creatures and hazards found on each plane and pointing out major landmarks.",
+			"",
+			"@I-boost Each guide grants a +2 circumstance bonus on ‹skill/Knowledge (planes)› checks and ‹skill/Survival› checks for its plane. This kit also contains 3 scrolls of ‹spell/comprehend languages›, 2 scrolls of ‹spell/planar adaptation›, and a scroll of ‹spell/plane shift› attuned to the Material Plane so the kit's owner can return home.",
+			"",
+			"The price reflects a kit with divine scrolls; a kit containing arcane scrolls instead costs an additional 2,000 gp"
 		]
 	},
 	"elemental_proofing": {
@@ -1182,7 +1188,7 @@
 		"description": [
 			"## Emergency interrogation kit",
 			"‹SOURCE Adventurer's Armory 2/17›  ",
-			"::tabular{format=misc a=1665 b=3 d=kits}",
+			"::tabular{format=misc a=1665 b=3 d=tools}",
 			"",
 			"This wooden box contains the tools to interrogate a captive with ease. The kit includes ‹eq-misc/masterwork manacles› with an ‹eq-misc/average lock›, a vial of ‹eq-misc/gravelly tonic›, 2 ‹magic-wondrous/elixir«s» of truth›, and a scroll of ‹spell/detect thoughts›. In case other methods fail, the kit also includes a scroll of ‹spell/speak with dead›."
 		]
@@ -1314,7 +1320,7 @@
 			"‹SOURCE Demon Hunter's Handbook/7›  ",
 			"::tabular{format=misc a=950 b=44 d=kits}",
 			"",
-			"This reinforced wooden box bears the ‹eq-misc/holy_>symbol› of a specific good-aligned deity, which the buyer may stipulate at the time of purchase. The kit contains 1 dose of ‹magic-wondrous/abjurant salt›, which is used to create good-aligned barriers; 3 vials of ‹eq-weapon/holy water›, which can be used against undead creatures or evil outsiders; and a pouch of silver dust worth 25 gp, which is a material component of the spell ‹spell/consecrate›. An exorcism kit also counts as an altar for the purposes of determining bonuses and penalties for the spell consecrate."
+			"This reinforced wooden box bears the ‹eq-misc/holy_>symbol› of a specific good-aligned deity, which the buyer may stipulate at the time of purchase. The kit contains 1 dose of ‹magic-wondrous/abjurant salt›, which is used to create good-aligned barriers; 3 vials of ‹eq-weapon/holy water›, which can be used against undead creatures or evil outsiders; and a pouch of silver dust worth 25 gp, which is a material component of the spell ‹spell/consecrate›. An exorcism kit also counts as an altar for the purposes of determining bonuses and penalties for the spell *consecrate.*"
 		]
 	},
 	"explorers_emulsion": {
@@ -1749,7 +1755,7 @@
 		"description": [
 			"## Musk kit",
 			"‹SOURCE Advanced Class Guide/205›  ",
-			"::tabular{format=misc a=25 b=1 d=kits}",
+			"::tabular{format=misc a=25 b=1 d=tools}",
 			"",
 			"A musk kit consists of a dozen vials of concentrated fluids, prepared animal glands, and plant compounds. You can use the distinctly scented musks to mark possessions, locations, and trails which can then be identified or followed by ‹umr/scent›. Some hunters dip their arrows or other weapons in the musk in order to use them to mark and track injured prey.",
 			"",
@@ -1777,15 +1783,19 @@
 			"",
 			"This equipment package is designed to provide the most aid to divine casters, such as clerics, druids, oracles, and inquisitors, who prefer to help their companions from behind the front lines of a fight.",
 			"",
-			"@HL[Armor:] ‹eq-armor/Leather armor›, ‹eq-armor/light wooden shield›.",
+			":::block{hl size=simple}",
 			"",
-			"@HL[Weapons:] ‹eq-weapon/Shortspear›, ‹eq-weapon/sling› with 10 ‹eq-weapon/sling_>bullets›.",
+			"::row[Armor]{info=\"‹eq-armor/Leather armor›, ‹eq-armor/light wooden shield›.\"}",
 			"",
-			"@HL[Combat Gear:] ‹eq-misc/Antitoxin›, bead of blessing (as a ‹magic-wondrous/lesser strand of prayer beads› without the bead of healing), ‹eq-weapon/holy water› (2), scrolls of ‹spell/cure light wounds› (2), scroll of ‹spell/endure elements›.",
+			"::row[Weapons]{info=\"‹eq-weapon/Shortspear›, ‹eq-weapon/sling› with 10 ‹eq-weapon/sling_>bullets›.\"}",
 			"",
-			"@HL[Other Gear:] ‹eq-misc/Backpack›, ‹eq-misc/bedroll›, ‹eq-misc/belt pouch›, ‹eq-misc/candles› (5), ‹eq-misc/chalk› (5 pieces), ‹eq-misc/flint and steel›, ‹eq-misc/healer's kit›, ‹eq-misc/holy symbol (silver)›, ‹magic-wondrous/ioun torch›, ‹eq-misc/mess kit›, ‹eq-misc/mirror›, ‹eq-misc/sack›, ‹eq-misc/shovel›, ‹eq-misc/silk rope› (50 ft.), ‹eq-misc/smelling salts›, ‹eq-misc/soap›, ‹eq-misc/spell component pouch›, ‹eq-misc/trail rations› (5 days), ‹eq-misc/waterskin›, 4 sp.",
+			"::row[Combat Gear]{info=\"‹eq-misc/Antitoxin›, bead of blessing (as a ‹magic-wondrous/lesser strand of prayer beads› without the bead of healing), ‹eq-weapon/holy water› (2), scrolls of ‹spell/cure light wounds› (2), scroll of ‹spell/endure elements›.\"}",
 			"",
-			"@HL[Total Weight:] 67 lbs. (39.25 lbs. for a Small character)."
+			"::row[Other Gear]{info=\"‹eq-misc/Backpack›, ‹eq-misc/bedroll›, ‹eq-misc/belt pouch›, ‹eq-misc/candles› (5), ‹eq-misc/chalk› (5 pieces), ‹eq-misc/flint and steel›, ‹eq-misc/healer's kit›, ‹eq-misc/holy symbol (silver)›, ‹magic-wondrous/ioun torch›, ‹eq-misc/mess kit›, ‹eq-misc/mirror›, ‹eq-misc/sack›, ‹eq-misc/shovel›, ‹eq-misc/silk rope› (50 ft.), ‹eq-misc/smelling salts›, ‹eq-misc/soap›, ‹eq-misc/spell component pouch›, ‹eq-misc/trail rations› (5 days), ‹eq-misc/waterskin›, 4 sp.\"}",
+			"",
+			"::row[Total Weight]{info=\"67 lbs. (39.25 lbs. for a Small character).\"}",
+			"",
+			":::"
 		]
 	},
 	"nature_climbing_harness": {
@@ -2707,7 +2717,9 @@
 			"‹SOURCE Pathfinder Society Primer/7;Pathfinder Society Field Guide/47;Ultimate Equipment/57›  ",
 			"::tabular{format=misc a=12 b=22 d=kits}",
 			"",
-			"This kit consists of a ‹eq-misc/backpack›, a ‹eq-misc/bedroll›, a ‹eq-misc/belt pouch›, a clay ‹eq-misc/mug›, a ‹eq-weapon/dagger›, two ‹eq-misc/fishhook«s›, a ‹eq-misc/flint and steel›, a ‹eq-misc/sewing needle›, a ‹eq-misc/signal whistle›, 50 feet of ‹eq-misc/string›, 50 feet of thread, a week's worth of ‹eq-misc/trail rations›, a ‹eq-misc/waterskin›, and a ‹eq-misc/whetstone›. For Small creatures, the weight of a Pathfinder's kit is 7-1/2 pounds. Leaving the bedroll and rations at camp or on a mount reduces the weight by 12 pounds for Medium creatures and by 3 pounds for Small creatures."
+			"This kit consists of a ‹eq-misc/backpack›, a ‹eq-misc/bedroll›, a ‹eq-misc/belt pouch›, a clay ‹eq-misc/mug›, a ‹eq-weapon/dagger›, two ‹eq-misc/fishhook«s›, a ‹eq-misc/flint and steel›, a ‹eq-misc/sewing needle›, a ‹eq-misc/signal whistle›, 50 feet of ‹eq-misc/string›, 50 feet of thread, a week's worth of ‹eq-misc/trail rations›, a ‹eq-misc/waterskin›, and a ‹eq-misc/whetstone›.",
+			"",
+			"For Small creatures, the weight of a Pathfinder's kit is 7&frac12; pounds. Leaving the bedroll and rations at camp or on a mount reduces the weight by 12 pounds for Medium creatures and by 3 pounds for Small creatures."
 		]
 	},
 	"pathstones": {
@@ -2913,7 +2925,9 @@
 			"‹SOURCE Occult Adventures/249›  ",
 			"::tabular{format=misc a=50 b=5 d=kits}",
 			"",
-			"This leather doctor's bag contains all the accoutrements a phrenologist needs to measure skulls. This kit contains several metal skull calipers of various sizes, a labeled chalkware bust of a humanoid head, and numbered charts of skulls of various species. The kit provides a +2 circumstance bonus on Knowledge (arcana) checks for the ‹skill/phrenology› occult skill unlock."
+			"This leather doctor's bag contains all the accoutrements a phrenologist needs to measure skulls. This kit contains several metal skull calipers of various sizes, a labeled chalkware bust of a humanoid head, and numbered charts of skulls of various species.",
+			"",
+			"@I-boost The kit provides a +2 circumstance bonus on ‹skill/Knowledge (arcana)› checks for the *phrenology* occult skill unlock."
 		]
 	},
 	"pickle_extractor": {
@@ -3200,7 +3214,9 @@
 			"‹SOURCE Advanced Class Guide/206›  ",
 			"::tabular{format=misc a=200 b=500 d=kits}",
 			"",
-			"This kit for a ‹eq-misc/heavy wagon› includes specialized boxes and pots for growing a wide range of plants, in addition to space for a couple of animals, such as goats, and their feed. A traveling garden provides food and healing herbs. It functions similar to a ‹eq-misc/healer's kit›, providing up to five uses per day, and is never exhausted. In addition, those who ingest a daily variety of fresh herbs and vegetables from the garden gain a +1 bonus on saving throws against disease."
+			"This kit for a ‹eq-misc/heavy wagon› includes specialized boxes and pots for growing a wide range of plants, in addition to space for a couple of animals, such as goats, and their feed.",
+			"",
+			"@I-def A traveling garden provides food and healing herbs. It functions similar to a ‹eq-misc/healer's kit›, providing up to five uses per day, and is never exhausted. In addition, those who ingest a daily variety of fresh herbs and vegetables from the garden gain a +1 bonus on saving throws against disease."
 		]
 	},
 	"traveling_spellbook": {
@@ -3412,7 +3428,7 @@
 			"‹SOURCE Ultimate Equipment/58›  ",
 			"::tabular{format=misc a=402 b=7 d=kits}",
 			"",
-			"This kit includes a ‹eq-misc/wooden holy symbol›, a necklace of garlic bulbs, a ‹eq-misc/hammer›, a ‹eq-weapon/wooden stake›, 2 flasks of ‹eq-weapon/holy water›, one ‹eq-misc/sunrod›, a potion of ‹spell/lesser restoration›, and a potion of ‹spell/protection from evil›."
+			"This kit includes a ‹eq-misc/wooden holy symbol›, a necklace of ‹eq-misc/garlic› bulbs, a ‹eq-misc/hammer›, a ‹eq-weapon/wooden stake›, 2 flasks of ‹eq-weapon/holy water›, one ‹eq-misc/sunrod›, a potion of ‹spell/lesser restoration›, and a potion of ‹spell/protection from evil›."
 		]
 	},
 	"undead_survivors_kit": {
@@ -3445,7 +3461,9 @@
 			"‹SOURCE Adventurer's Armory 2/17›  ",
 			"::tabular{format=misc a=644 b=30 d=kits}",
 			"",
-			"Pits, fissures, and errant magic might unexpectedly drop a traveler into underground tunnels. This backpack contains a variety of tools to survive an accidental subterranean expedition, including ‹eq-misc/chalk›, a ‹eq-misc/climber's kit›, a ‹eq-misc/compass›, a ‹eq-misc/grappling hook›, a ‹eq-misc/hammer›, 5 ‹eq-misc/piton«s›, 100 feet of ‹eq-misc/silk rope›, and an ‹eq-misc/everburning torch›. The kit also contains a potion of ‹spell/darkvision› in the event light would draw unwanted attention. Since oozes are a common underground hazard, the kit also includes 2 ‹eq-weapon/alkali flask«s› and a dose of ‹eq-misc/bladeguard›. Finally, a guidebook provides helpful information about underground flora and fauna, granting a +2 circumstance bonus on Knowledge (dungeoneering) checks to identify the abilities and weaknesses of creatures encountered in that terrain."
+			"Pits, fissures, and errant magic might unexpectedly drop a traveler into underground tunnels. This backpack contains a variety of tools to survive an accidental subterranean expedition, including ‹eq-misc/chalk›, a ‹eq-misc/climber's kit›, a ‹eq-misc/compass›, a ‹eq-misc/grappling hook›, a ‹eq-misc/hammer›, 5 ‹eq-misc/piton«s›, 100 feet of ‹eq-misc/silk rope›, and an ‹eq-misc/everburning torch›. The kit also contains a potion of ‹spell/darkvision› in the event light would draw unwanted attention. Since oozes are a common underground hazard, the kit also includes 2 ‹eq-weapon/alkali flask«s› and a dose of ‹eq-misc/bladeguard›.",
+			"",
+			"@I-boost Finally, a guidebook provides helpful information about underground flora and fauna, granting a +2 circumstance bonus on ‹skill/Knowledge (dungeoneering)› checks to identify the abilities and weaknesses of creatures encountered in that terrain."
 		]
 	},
 	"underwater_compass": {
@@ -3502,7 +3520,9 @@
 			"‹SOURCE Advanced Race Guide/99›  ",
 			"::tabular{format=misc a=500 b=8 d=kits}",
 			"",
-			"This small, latched wooden case contains numerous tools and devices used in hunting and slaying vampires. It contains 10 cloves of garlic, four ‹rule/masterwork<_w› ‹eq-weapon/wooden stake«s›, a ‹eq-misc/hammer›, a silvered ‹eq-misc/mirror›, 4 vials of ‹eq-weapon/holy water›, 1 application of ‹magic-wondrous/silversheen›, and a ‹eq-misc/masterwork »holy symbol›. It also contains numerous regents and powders used for treating wounds and making wards, salves, and other concoctions. In addition to its general usefulness, when displayed, a vampire slayer's kit grants its owner a +2 bonus on all Charisma-based skill checks made to investigate or seek out vampires."
+			"This small, latched wooden case contains numerous tools and devices used in hunting and slaying vampires. It contains 10 cloves of ‹eq-misc/garlic›, four ‹rule/masterwork<_w› ‹eq-weapon/wooden stake«s›, a ‹eq-misc/hammer›, a silvered ‹eq-misc/mirror›, 4 vials of ‹eq-weapon/holy water›, 1 application of ‹magic-wondrous/silversheen›, and a ‹eq-misc/masterwork »holy symbol›. It also contains numerous regents and powders used for treating wounds and making wards, salves, and other concoctions.",
+			"",
+			"@I-boost In addition to its general usefulness, when displayed, a vampire slayer's kit grants its owner a +2 bonus on all Charisma-based skill checks made to investigate or seek out vampires."
 		]
 	},
 	"vapors_of_easy_breath": {
@@ -3536,19 +3556,23 @@
 			"",
 			"If used as an additional material component when casting a spell the idol affects, a Varisian idol increases the effect of that spell. Using multiple idols to cast a spell has no additional effect. A Varisian idol is destroyed after one use.",
 			"",
-			"@HL[Avaria:] When used to cast ‹spell/bear's endurance›, ‹spell/bull's strength›, ‹spell/cat's grace›, ‹spell/eagle's splendor›, ‹spell/fox's cunning›, or ‹spell/owl's wisdom›, the spell grants a +5 enhancement bonus to the affected ability score.",
+			":::block{hl size=simple}",
 			"",
-			"@HL[Avidais:] When used to cast a spell that allows you to make a dispel check (such as ‹spell/dispel magic› or ‹spell/mage's disjunction›), you gain a +2 bonus on that check.",
+			"::row[Avaria]{info=\"When used to cast ‹spell/bear's endurance›, ‹spell/bull's strength›, ‹spell/cat's grace›, ‹spell/eagle's splendor›, ‹spell/fox's cunning›, or ‹spell/owl's wisdom›, the spell grants a +5 enhancement bonus to the affected ability score.\"}",
 			"",
-			"@HL[Carnasia:] When used to cast any spell of the charm subschool, a threatened target does not gain the usual +5 bonus on its saving throw to resist the effect.",
+			"::row[Avidais]{info=\"When used to cast a spell that allows you to make a dispel check (such as ‹spell/dispel magic› or ‹spell/mage's disjunction›), you gain a +2 bonus on that check.\"}",
 			"",
-			"@HL[Idolis:] When used to cast ‹spell/summon monster› or ‹spell/summon nature's ally›, the summoned creature's maximum hit points increase by +2 for every Hit Die it possesses.",
+			"::row[Carnasia]{info=\"When used to cast any spell of the charm subschool, a threatened target does not gain the usual +5 bonus on its saving throw to resist the effect.\"}",
 			"",
-			"@HL[Ragario:] When used to cast a spell that deals energy damage, you gain a +2 bonus on caster level checks made to overcome spell resistance.",
+			"::row[Idolis]{info=\"When used to cast ‹spell/summon monster› or ‹spell/summon nature's ally›, the summoned creature's maximum hit points increase by +2 for every Hit Die it possesses.\"}",
 			"",
-			"@HL[Vangloris:] When used to cast a spell of the glamer subschool with a duration measured in minutes or less (such as displacement or invisibility), the effects of that spell persist for 1 round longer than normal.",
+			"::row[Ragario]{info=\"When used to cast a spell that deals energy damage, you gain a +2 bonus on caster level checks made to overcome spell resistance.\"}",
 			"",
-			"@HL[Voratalo:] When used to cast a spell of the necromancy school that deals hit point damage, you also deal a number of points of bleed damage equal to the spell level. This bleed effect lasts for 5 rounds."
+			"::row[Vangloris]{info=\"When used to cast a spell of the glamer subschool with a duration measured in minutes or less (such as displacement or invisibility), the effects of that spell persist for 1 round longer than normal.\"}",
+			"",
+			"::row[Voratalo]{info=\"When used to cast a spell of the necromancy school that deals hit point damage, you also deal a number of points of bleed damage equal to the spell level. This bleed effect lasts for 5 rounds.\"}",
+			"",
+			":::"
 		]
 	},
 	"vault_altimeter": {
@@ -3994,7 +4018,7 @@
 			"‹SOURCE Heroes of the Streets/13›  ",
 			"::tabular{format=misc a=3 b=10 d=kits}",
 			"",
-			"This kit includes a badge (tin brooch worth 5 sp), ‹eq-misc/flint and steel›, a ‹eq-misc/shield sconce›, a ‹eq-misc/signal whistle›, and ‹eq-misc/torches› (10)."
+			"This kit includes a badge (tin ‹eq-misc/brooch› worth 5 sp), ‹eq-misc/flint and steel›, a ‹eq-misc/shield sconce›, a ‹eq-misc/signal whistle›, and ‹eq-misc/torches› (10)."
 		]
 	},
 	"water_clock": {
@@ -4281,17 +4305,21 @@
 			"‹SOURCE Adventurer's Armory 2/5›  ",
 			"::tabular{format=misc a=1000 b=\"108.5\" d=kits}",
 			"",
-			"This equipment package is appropriate for any lightly-armored combatant in the wild, such as a barbarian, hunter, or ranger. If the PC can cast spells, add a spell component pouch and holly and mistletoe. The GM might consider altering which weapon is masterwork, based on the PC's specialization. For example, an archery-focused ranger might prefer a masterwork composite longbow over a masterwork greataxe.",
+			"This equipment package is appropriate for any lightly-armored combatant in the wild, such as a barbarian, hunter, or ranger. If the PC can cast spells, add a ‹eq-misc/spell component pouch› and ‹eq-misc/holly and mistletoe›. The GM might consider altering which weapon is masterwork, based on the PC's specialization. For example, an archery-focused ranger might prefer a masterwork composite longbow over a masterwork greataxe.",
 			"",
-			"@HL[Armor:] ‹eq-armor/Light wooden quickdraw shield›, ‹rule/masterwork<_a› ‹eq-armor/studded leather armor›.",
+			":::block{hl size=simple}",
 			"",
-			"@HL[Weapons:] ‹eq-material/Cold iron› ‹eq-weapon/flail›, ‹eq-weapon/composite longbow› with 20 arrows, ‹rule/masterwork<_w› ‹eq-weapon/greataxe›, ‹eq-weapon/short sword›.",
+			"::row[Armor]{info=\"‹eq-armor/Light wooden quickdraw shield›, ‹rule/masterwork<_a› ‹eq-armor/studded leather armor›.\"}",
 			"",
-			"@HL[Combat Gear:] ‹eq-weapon/Alchemist's fire› (2), ‹eq-misc/antitoxin›, potion of ‹spell/keen senses›, ‹eq-misc/sunrod«s› (3).",
+			"::row[Weapons]{info=\"‹eq-material/Cold iron› ‹eq-weapon/flail›, ‹eq-weapon/composite longbow› with 20 arrows, ‹rule/masterwork<_w› ‹eq-weapon/greataxe›, ‹eq-weapon/short sword›.\"}",
 			"",
-			"@HL[Other Gear:] ‹eq-misc/Backpack›, ‹eq-misc/bedroll›, ‹eq-misc/belt pouch›, ‹eq-misc/chalk› (5 pieces), ‹eq-misc/climber's kit›, ‹eq-misc/cold-weather outfit›, ‹eq-misc/fishhook›, ‹eq-misc/flint and steel›, ‹eq-misc/mess kit›, ‹eq-misc/pole› (10 ft.), ‹eq-misc/shovel›, ‹eq-misc/signal whistle›, ‹eq-misc/silk rope› (50 ft.), ‹eq-misc/trail rations› (5 days), ‹eq-misc/waterskin›, 2 sp.",
+			"::row[Combat Gear]{info=\"‹eq-weapon/Alchemist's fire› (2), ‹eq-misc/antitoxin›, potion of ‹spell/keen senses›, ‹eq-misc/sunrod«s› (3).\"}",
 			"",
-			"@HL[Total Weight:] 108.5 lbs. (63.25 lbs. for a Small character)."
+			"::row[Other Gear]{info=\"‹eq-misc/Backpack›, ‹eq-misc/bedroll›, ‹eq-misc/belt pouch›, ‹eq-misc/chalk› (5 pieces), ‹eq-misc/climber's kit›, ‹eq-misc/cold-weather outfit›, ‹eq-misc/fishhook›, ‹eq-misc/flint and steel›, ‹eq-misc/mess kit›, ‹eq-misc/pole› (10 ft.), ‹eq-misc/shovel›, ‹eq-misc/signal whistle›, ‹eq-misc/silk rope› (50 ft.), ‹eq-misc/trail rations› (5 days), ‹eq-misc/waterskin›, 2 sp.\"}",
+			"",
+			"::row[Total Weight]{info=\"108.5 lbs. (63.25 lbs. for a Small character).\"}",
+			"",
+			":::"
 		]
 	},
 	"wind_chime": {

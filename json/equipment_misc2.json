@@ -179,9 +179,11 @@
 		"description": [
 			"## Fire pump",
 			"‹SOURCE Advanced Class Guide/204›  ",
-			"::tabular{format=misc a=200 b=500 d=kits}",
+			"::tabular{format=misc a=200 b=500 d=tools}",
 			"",
-			"This kit for a ‹eq-misc/heavy wagon› provides a water tank, platform pump, and a rotating nozzle. If the operator succeeds at a DC 20 Strength check, the fire pump releases a stream of water that reaches up to 30 feet away. Each person assisting with the pump lowers the DC by 5. Operating or assisting is a full-round action. The pump extinguishes 5 square feet of nonmagical fire per round. The water tank holds enough water for 10 rounds of pumping and takes 10 minutes to refill from a stream, pond, lake, or other body of water."
+			"This kit for a ‹eq-misc/heavy wagon› provides a water tank, platform pump, and a rotating nozzle. If the operator succeeds at a DC 20 Strength check, the fire pump releases a stream of water that reaches up to 30 feet away. Each person assisting with the pump lowers the DC by 5. Operating or assisting is a @HL[full-round action]. The pump extinguishes 5 square feet of nonmagical fire per round.",
+			"",
+			"The water tank holds enough water for 10 rounds of pumping and takes 10 minutes to refill from a stream, pond, lake, or other body of water."
 		]
 	},
 	"fire_ward_gel": {
@@ -774,7 +776,7 @@
 			"",
 			"This large suitcase contains a plethora of items useful to anyone pretending to channel spirits. The case contains ‹eq-misc/candles›, ‹eq-misc/mirror«s›, and 10-foot-long telescoping rods, as well as a selection of specialty items: rigged ‹eq-misc/chalkboard«s› for spirit writing, mundane ‹eq-misc/spirit trumpet«s› for transmitting spirit voices, lengths of gaffed ropes for binding mediums during test seances, and luminous paints and ribbons of fine gauze for fake spectral manifestations.",
 			"",
-			"Using the materials that are included with this kit provides a +2 circumstance bonus on Bluff, Escape Artist, and Sleight of Hand checks to imitate seances, spirit writing, or other occult practices."
+			"@I-boost Using the materials that are included with this kit provides a +2 circumstance bonus on ‹skill/Bluff›, ‹skill/Escape Artist›, and ‹skill/Sleight of Hand› checks to imitate seances, spirit writing, or other occult practices."
 		]
 	},
 	"frightful_war_paint": {
@@ -935,7 +937,9 @@
 			"‹SOURCE Ultimate Equipment/56›  ",
 			"::tabular{format=misc a=\"300 gp (cheating), 75 gp (common)\" b=\"5 lbs. (cheating), 5 lbs. (common)\" c=x d=kits}",
 			"",
-			"Particularly useful for travelers moving through areas too small or remote to support a full-time place for gambling, this small, tightly packed suitcase holds ‹eq-misc/deck«s» of cards›, a betting wheel, numbered cloths, colored wooden chips, and a wide variety of other sorts of specialized equipment necessary for many different games of chance. A cheating gambler's kit is very similar, except its cards are marked and its games are rigged, giving a knowledgeable user a +4 circumstance bonus on Profession (gambler) checks when using these materials. A DC 25 Perception or DC 20 Profession (gambler) check exposes the ruse."
+			"Particularly useful for travelers moving through areas too small or remote to support a full-time place for gambling, this small, tightly packed suitcase holds ‹eq-misc/deck«s» of cards›, a betting wheel, numbered cloths, colored wooden chips, and a wide variety of other sorts of specialized equipment necessary for many different games of chance.",
+			"",
+			"@I-boost A *cheating gambler's kit* is very similar, except its cards are marked and its games are rigged, giving a knowledgeable user a +4 circumstance bonus on ‹skill/Profession› (gambler) checks when using these materials. A DC 25 ‹skill/Perception› or DC 20 Profession (gambler) check exposes the ruse."
 		]
 	},
 	"gamblers_kit_common": {
@@ -1421,21 +1425,7 @@
 			"‹SOURCE Ultimate Equipment/57›  ",
 			"::tabular{format=misc a=26 b=31 d=kits}",
 			"",
-			"This includes a ‹eq-misc/backpack›, a ‹eq-misc/bedroll›, a ‹eq-misc/belt pouch›, a ‹eq-misc/flint and steel›, a ‹eq-misc/gunsmith's kit›, an ‹eq-misc/iron pot›, a ‹eq-misc/mess kit›, a ‹eq-misc/powder horn›, ‹eq-misc/rope›, ‹eq-misc/torches› (10), ‹eq-misc/trail rations› (5 days), and a ‹eq-misc/waterskin›."
-		]
-	},
-	"gunsmiths_kit": {
-		"name": "Gunsmith's kit",
-		"sources": [
-			"Ultimate Equipment",
-			"Ultimate Combat"
-		],
-		"description": [
-			"## Gunsmith's kit",
-			"‹SOURCE Ultimate Equipment/57;Ultimate Combat/141›  ",
-			"::tabular{format=misc a=15 b=2 d=kits}",
-			"",
-			"This small kit has all the tools a person needs to create, repair, and restore firearms, except for the necessary raw materials. Without such a kit, you cannot properly construct or provide upkeep for firearms."
+			"This includes a ‹eq-misc/backpack›, a ‹eq-misc/bedroll›, a ‹eq-misc/belt pouch›, a ‹eq-misc/flint and steel›, a ‹eq-weapon/gunsmith's kit›, an ‹eq-misc/iron pot›, a ‹eq-misc/mess kit›, a ‹eq-misc/powder horn›, ‹eq-misc/rope›, ‹eq-misc/torches› (10), ‹eq-misc/trail rations› (5 days), and a ‹eq-misc/waterskin›."
 		]
 	},
 	"haggis": {
@@ -2216,17 +2206,21 @@
 			"‹SOURCE Adventurer's Armory 2/4›  ",
 			"::tabular{format=misc a=1000 b=102 d=kits}",
 			"",
-			"The holy warrior is prepared to use her might and zeal to take the fight to the enemy, but she understands the importance of having the right equipment to overcome the resistances of her monstrous foes. This equipment package is well-suited to a cleric, inquisitor, paladin, warpriest, or even a fighter with a religious background. It's especially suited to characters who focus on supporting their party members and making them more effective in a fight. Even more than with other equipment packages, the GM should consider substituting the masterwork longsword in this package with a masterwork melee weapon appropriate to the PC's faith. If the PC can cast spells, add a spell component pouch.",
+			"The holy warrior is prepared to use her might and zeal to take the fight to the enemy, but she understands the importance of having the right equipment to overcome the resistances of her monstrous foes. This equipment package is well-suited to a cleric, inquisitor, paladin, warpriest, or even a fighter with a religious background. It's especially suited to characters who focus on supporting their party members and making them more effective in a fight. Even more than with other equipment packages, the GM should consider substituting the masterwork longsword in this package with a masterwork melee weapon appropriate to the PC's faith. If the PC can cast spells, add a ‹eq-misc/spell component pouch›.",
 			"",
-			"@HL[Armor:] ‹eq-armor/Heavy steel shield›, ‹rule/masterwork<_a› ‹eq-armor/breastplate›.",
+			":::block{hl size=simple}",
 			"",
-			"@HL[Weapons:] ‹eq-material/Cold iron› ‹eq-weapon/morningstar›, ‹eq-weapon/heavy crossbow› with 10 bolts, ‹rule/masterwork<_w› ‹eq-weapon/longsword›.",
+			"::row[Armor]{info=\"‹eq-armor/Heavy steel shield›, ‹rule/masterwork<_a› ‹eq-armor/breastplate›.\"}",
 			"",
-			"@HL[Combat Gear:] ‹eq-weapon/Alchemist's fire› (3), ‹eq-weapon/holy water› (4), oil of ‹spell/bless weapon›, potions of ‹spell/cure light wounds› (2), potion of ‹spell/protection from evil›, ‹eq-misc/sunrod«s› (3).",
+			"::row[Weapons]{info=\"‹eq-material/Cold iron› ‹eq-weapon/morningstar›, ‹eq-weapon/heavy crossbow› with 10 bolts, ‹rule/masterwork<_w› ‹eq-weapon/longsword›.\"}",
 			"",
-			"@HL[Other Gear:] ‹eq-misc/Backpack›, ‹eq-misc/bedroll›, ‹eq-misc/belt pouch›, ‹eq-misc/candles› (5), ‹eq-misc/chalk› (5 pieces), ‹eq-misc/crowbar›, ‹eq-misc/flint and steel›, ‹eq-misc/holy symbol (silver)›, ‹eq-misc/mess kit›, ‹eq-misc/sack›, ‹eq-misc/silk rope (50 ft.)›, ‹eq-misc/trail rations› (5 days), ‹eq-misc/waterskin›, 7 gp.",
+			"::row[Combat Gear]{info=\"‹eq-weapon/Alchemist's fire› (3), ‹eq-weapon/holy water› (4), oil of ‹spell/bless weapon›, potions of ‹spell/cure light wounds› (2), potion of ‹spell/protection from evil›, ‹eq-misc/sunrod«s› (3).\"}",
 			"",
-			"@HL[Total Weight:] 102 lbs. (57.25 lbs. for a Small character)."
+			"::row[Other Gear]{info=\"‹eq-misc/Backpack›, ‹eq-misc/bedroll›, ‹eq-misc/belt pouch›, ‹eq-misc/candles› (5), ‹eq-misc/chalk› (5 pieces), ‹eq-misc/crowbar›, ‹eq-misc/flint and steel›, ‹eq-misc/holy symbol (silver)›, ‹eq-misc/mess kit›, ‹eq-misc/sack›, ‹eq-misc/silk rope (50 ft.)›, ‹eq-misc/trail rations› (5 days), ‹eq-misc/waterskin›, 7 gp.\"}",
+			"",
+			"::row[Total Weight]{info=\"102 lbs. (57.25 lbs. for a Small character).\"}",
+			"",
+			":::"
 		]
 	},
 	"homunculus_clay": {
@@ -2964,9 +2958,11 @@
 		"description": [
 			"## Interrogation tools",
 			"‹SOURCE Demon Hunter's Handbook/7›  ",
-			"::tabular{format=misc a=30 b=1 d=kits}",
+			"::tabular{format=misc a=30 b=1 d=tools}",
 			"",
-			"An incredibly useful kit for convincing cultists and evildoers of all kinds to divulge their nefarious plots, interrogation tools appear intentionally gruesome. Various pliers, knives, hooks, shears, and mind-weakening drugs are strapped to the interior of this beaten leather bag. More often than not, the very presence of interrogation tools is enough to induce a prisoner to talk. Unfortunately, these tools also inspire some very convincing lies. Interrogation tools grant a +2 circumstance bonus on Intimidate checks made while questioning prisoners, but they impose a -1 penalty on Sense Motive checks made to determine whether the information gleaned is accurate or not."
+			"An incredibly useful kit for convincing cultists and evildoers of all kinds to divulge their nefarious plots, interrogation tools appear intentionally gruesome. Various pliers, knives, hooks, shears, and mind-weakening drugs are strapped to the interior of this beaten leather bag. More often than not, the very presence of interrogation tools is enough to induce a prisoner to talk. Unfortunately, these tools also inspire some very convincing lies.",
+			"",
+			"@I-boost-down Interrogation tools grant a +2 circumstance bonus on ‹skill/Intimidate› checks made while questioning prisoners, but they impose a -1 penalty on ‹skill/Sense Motive› checks made to determine whether the information gleaned is accurate or not."
 		]
 	},
 	"intuition_serum": {
@@ -3003,7 +2999,7 @@
 			"‹SOURCE Adventurer's Armory 2/17›  ",
 			"::tabular{format=misc a=900 b=4 d=kits}",
 			"",
-			"This kit is designed to help adventurers deal with surprise encounters against magically concealed enemies, and comes in a small, waterproof satchel. The kit contains 2 scrolls of ‹spell/glitterdust›, 6 1/2-pound packages of ‹eq-misc/powder› such as flour, and one packet of ‹magic-wondrous/dust of appearance›."
+			"This kit is designed to help adventurers deal with surprise encounters against magically concealed enemies, and comes in a small, waterproof satchel. The kit contains 2 scrolls of ‹spell/glitterdust›, 6 &frac12;-pound packages of ‹eq-misc/powder› such as flour, and one packet of ‹magic-wondrous/dust of appearance›."
 		]
 	},
 	"invisible_ink_average": {
@@ -3378,7 +3374,7 @@
 			"‹SOURCE Dragonslayer's Handbook/7›  ",
 			"::tabular{format=misc a=751 b=17 d=kits}",
 			"",
-			"This kit is designed for melee-focused warriors who hope to kill or capture a dragon. It includes 50 feet of ‹eq-misc/chain›, a ‹eq-misc/crowbar›, an ‹eq-misc/everburning torch›, an application of ‹eq-misc/fire<_ward_gel› (or ‹eq-misc/frost<_ward_gel›) ward gel, ‹eq-misc/fire-resistant boots›, a potion of ‹spell/resist energy›, three ‹eq-misc/sack«s›, a ‹eq-misc/shield sconce›, a ‹eq-misc/simple lock›, and a ‹eq-misc/weapon cord›."
+			"This kit is designed for melee-focused warriors who hope to kill or capture a dragon. It includes 50 feet of ‹eq-misc/chain›, a ‹eq-misc/crowbar›, an ‹eq-misc/everburning torch›, an application of ‹eq-misc/fire ward gel› (or ‹eq-misc/frost ward gel›), ‹eq-misc/fire-resistant boots›, a potion of ‹spell/resist energy›, three ‹eq-misc/sack«s›, a ‹eq-misc/shield sconce›, a ‹eq-misc/simple lock›, and a ‹eq-misc/weapon cord›."
 		]
 	},
 	"kumis_wineskin": {
@@ -3993,15 +3989,19 @@
 			"‹SOURCE Adventurer's Armory 2/5›  ",
 			"::tabular{format=misc a=1000 b=44 d=kits}",
 			"",
-			"The lore seeker has the equipment necessary to delve into ancient ruins searching for lost knowledge. As this equipment package contains little by way of armor or weapons, it is most appropriate for alchemists, bards, monks, sorcerers, and wizards. If the PC can cast spells, add a spell component pouch and a holy symbol (if required).",
+			"The lore seeker has the equipment necessary to delve into ancient ruins searching for lost knowledge. As this equipment package contains little by way of armor or weapons, it is most appropriate for alchemists, bards, monks, sorcerers, and wizards. If the PC can cast spells, add a ‹eq-misc/spell component pouch› and a ‹eq-misc/holy symbol› (if required).",
 			"",
-			"@HL[Weapons:] ‹eq-weapon/Light crossbow› with 10 bolts, ‹eq-weapon/quarterstaff›, ‹eq-material/silver› ‹eq-weapon/dagger›.",
+			":::block{hl size=simple}",
 			"",
-			"@HL[Combat Gear:] ‹eq-weapon/Alchemist's fire› (3), antitoxin, oil of ‹spell/erase›, potions of ‹spell/cure light wounds› (2), potion of ‹spell/protection from evil›, ‹eq-weapon/tanglefoot bag›, ‹eq-weapon/thunderstone›.",
+			"::row[Weapons]{info=\"‹eq-weapon/Light crossbow› with 10 bolts, ‹eq-weapon/quarterstaff›, ‹eq-material/silver› ‹eq-weapon/dagger›.\"}",
 			"",
-			"@HL[Other Gear:] ‹eq-misc/Backpack›, ‹eq-misc/bedroll›, ‹eq-misc/belt pouch›, ‹eq-misc/candles› (5), ‹eq-misc/chalk› (5 pieces), ‹eq-misc/compass›, ‹eq-misc/crowbar›, ‹eq-misc/everburning torch›, ‹eq-misc/flint and steel›, ‹eq-misc/grappling hook›, ‹eq-misc/ink›, ‹eq-misc/inkpen«s› (2), ‹eq-misc/journal«s› (2), ‹eq-misc/magnifying glass›, ‹eq-misc/mapmaker's kit›, ‹eq-misc/mess kit›, ‹eq-misc/sack›, ‹eq-misc/signal whistle›, ‹eq-misc/silk rope (50 ft.)›, ‹eq-misc/trail rations› (5 days), ‹magic-wondrous/traveler's any-tool›, ‹eq-misc/waterskin›, 8 gp.",
+			"::row[Combat Gear]{info=\"‹eq-weapon/Alchemist's fire› (3), antitoxin, oil of ‹spell/erase›, potions of ‹spell/cure light wounds› (2), potion of ‹spell/protection from evil›, ‹eq-weapon/tanglefoot bag›, ‹eq-weapon/thunderstone›.\"}",
 			"",
-			"@HL[Total Weight:] 44 lbs. (27.75 lbs. for a Small character)."
+			"::row[Other Gear]{info=\"‹eq-misc/Backpack›, ‹eq-misc/bedroll›, ‹eq-misc/belt pouch›, ‹eq-misc/candles› (5), ‹eq-misc/chalk› (5 pieces), ‹eq-misc/compass›, ‹eq-misc/crowbar›, ‹eq-misc/everburning torch›, ‹eq-misc/flint and steel›, ‹eq-misc/grappling hook›, ‹eq-misc/ink›, ‹eq-misc/inkpen«s› (2), ‹eq-misc/journal«s› (2), ‹eq-misc/magnifying glass›, ‹eq-misc/mapmaker's kit›, ‹eq-misc/mess kit›, ‹eq-misc/sack›, ‹eq-misc/signal whistle›, ‹eq-misc/silk rope (50 ft.)›, ‹eq-misc/trail rations› (5 days), ‹magic-wondrous/traveler's any-tool›, ‹eq-misc/waterskin›, 8 gp.\"}",
+			"",
+			"::row[Total Weight]{info=\"44 lbs. (27.75 lbs. for a Small character).\"}",
+			"",
+			":::"
 		]
 	},
 	"love_in_idleness": {
@@ -5057,7 +5057,9 @@
 			"‹SOURCE Advanced Class Guide/204›  ",
 			"::tabular{format=misc a=1000 b=500 d=kits}",
 			"",
-			"This kit for a wagon provides all the equipment needed to care for up to 10 sick or injured people at a time. It includes two large ‹eq-misc/tent«s›, 10 ‹eq-misc/cot«s› with ‹eq-misc/bedroll«s›, a sturdy table, a ‹eq-misc/chirurgeon's kit›, and five ‹eq-misc/healer's kit«s›. It grants anyone using it a +2 bonus on Heal checks to provide first aid, can be used to treat deadly wounds with a single use of a healer's kit instead of two, and doubles the rate at which patients recover in long-term care."
+			"This kit for a wagon provides all the equipment needed to care for up to 10 sick or injured people at a time. It includes two large ‹eq-misc/tent«s›, 10 ‹eq-misc/cot«s› with ‹eq-misc/bedroll«s›, a sturdy table, a ‹eq-misc/chirurgeon's kit›, and five ‹eq-misc/healer's kit«s›.",
+			"",
+			"@I-bonus-aid It grants anyone using it a +2 bonus on ‹skill/Heal› checks to provide first aid, can be used to treat deadly wounds with a single use of a healer's kit instead of two, and doubles the rate at which patients recover in long-term care."
 		]
 	},
 	"mock_armor": {

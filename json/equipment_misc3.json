@@ -7,7 +7,9 @@
 			"‹SOURCE Demon Hunter's Handbook/7›  ",
 			"::tabular{format=misc a=350 b=3 d=kits}",
 			"",
-			"This kit covers all the basics for survival on potentially hostile planes. It contains basic written guides to the Outer Planes, phrasebooks for common outsider languages and tips on the ecology of each plane - though these guides sometimes contain a measure of fanciful or dubious advice. While on a plane other than the Material Plane, a planar traveler's kit grants +2 circumstance bonuses on Survival checks, Knowledge (planes) checks, and Linguistics checks made to communicate with outsiders or decipher outsider texts."
+			"This kit covers all the basics for survival on potentially hostile planes. It contains basic written guides to the Outer Planes, phrasebooks for common outsider languages and tips on the ecology of each plane - though these guides sometimes contain a measure of fanciful or dubious advice.",
+			"",
+			"@I-boost While on a plane other than the Material Plane, a planar traveler's kit grants +2 circumstance bonuses on ‹skill/Survival› checks, ‹skill/Knowledge (planes)› checks, and ‹skill/Linguistics› checks made to communicate with outsiders or decipher outsider texts."
 		]
 	},
 	"pnakotic_record": {
@@ -360,9 +362,11 @@
 		"description": [
 			"## Portable prison",
 			"‹SOURCE Advanced Class Guide/205›  ",
-			"::tabular{format=misc a=200 b=300 d=kits}",
+			"::tabular{format=misc a=200 b=300 d=tools}",
 			"",
-			"This kit for a ‹eq-misc/wagon› provides a set of metal bars with a door for transporting imprisoned people or creatures. Though portable prisons were originally developed by traveling acts to hold ferocious animals, city guards commonly use them to round up criminals, and some bounty hunters hire them to transport large groups of prisoners. Most prisons come with ‹eq-misc/lock«s›; add the cost of the desired lock to the cost of the portable prison. A cage meant for people includes benches and rails for manacles. One meant for animals contains a trough for water and a smaller door for providing food."
+			"This kit for a ‹eq-misc/wagon› provides a set of metal bars with a door for transporting imprisoned people or creatures. Though portable prisons were originally developed by traveling acts to hold ferocious animals, city guards commonly use them to round up criminals, and some bounty hunters hire them to transport large groups of prisoners.",
+			"",
+			"Most prisons come with ‹eq-misc/lock«s›; add the cost of the desired lock to the cost of the portable prison. A cage meant for people includes benches and rails for manacles. One meant for animals contains a trough for water and a smaller door for providing food."
 		]
 	},
 	"portable_ram": {
@@ -825,7 +829,7 @@
 		"description": [
 			"## Pyrography kit",
 			"‹SOURCE Ultimate Equipment/57›  ",
-			"::tabular{format=misc a=1 b=2 d=kits}",
+			"::tabular{format=misc a=1 b=2 d=tools}",
 			"",
 			"Also called a \"woodburning kit,\" this set of metal needles, styluses, and brands is used to draw on leather or wood by burning it. Using the kit requires a fire source; the needle or stylus is heated in the fire and held in a thick leather handle, then used like a pen."
 		]
@@ -849,19 +853,23 @@
 			"‹SOURCE Adventurer's Armory 2/5›  ",
 			"::tabular{format=misc a=1000 b=\"127.5\" d=kits}",
 			"",
-			"If not descended from nobility, the questing knight certainly looks like he fits the part. This equipment package is useful for cavaliers, fighters, and paladins. If the PC can cast spells, add a ‹eq-misc/spell component pouch› and a ‹eq-misc/holy symbol› (if required). If the PC gains a mount from a class feature, remove the horse from the list below and replace the lance with a masterwork lance.",
+			"If not descended from nobility, the questing knight certainly looks like he fits the part. This equipment package is useful for cavaliers, fighters, and paladins. If the PC can cast spells, add a ‹eq-misc/spell component pouch› and a ‹eq-misc/holy symbol› (if required). If the PC gains a mount from a class feature, remove the horse from the list below and replace the lance with a ‹rule/masterwork<_w› lance.",
 			"",
-			"@HL[Armor:] ‹eq-armor/Half-plate›, ‹eq-armor/heavy wooden shield›.",
+			":::block{hl size=simple}",
 			"",
-			"@HL[Weapons:] ‹eq-weapon/Javelin«s› (4), ‹eq-weapon/lance›, ‹eq-weapon/longsword›.",
+			"::row[Armor]{info=\"‹eq-armor/Half-plate›, ‹eq-armor/heavy wooden shield›.\"}",
 			"",
-			"@HL[Combat Gear:] ‹eq-misc/Sunrod«s› (2).",
+			"::row[Weapons]{info=\"‹eq-weapon/Javelin«s› (4), ‹eq-weapon/lance›, ‹eq-weapon/longsword›.\"}",
 			"",
-			"@HL[Other Gear:] ‹eq-misc/Backpack›, ‹eq-misc/banner›, ‹eq-misc/bedroll›, ‹eq-misc/belt pouch›, ‹eq-misc/flask›, ‹eq-misc/flint and steel›, ‹eq-misc/mess kit›, ‹eq-misc/pole› (10 ft.), ‹eq-misc/sack›, ‹eq-misc/shovel›, ‹eq-misc/signet ring›, ‹eq-misc/silk rope (50 ft.)›, ‹eq-misc/trail rations› (5 days), ‹eq-misc/waterskin›, ‹eq-misc/whetstone›, 8 gp.",
+			"::row[Combat Gear]{info=\"‹eq-misc/Sunrod«s› (2).\"}",
 			"",
-			"@HL[Mount:] ‹eq-misc/Heavy horse (combat trained)› with ‹eq-misc/bit and bridle›, ‹eq-misc/military saddle›, and ‹eq-misc/saddlebags›.",
+			"::row[Other Gear]{info=\"‹eq-misc/Backpack›, ‹eq-misc/banner›, ‹eq-misc/bedroll›, ‹eq-misc/belt pouch›, ‹eq-misc/flask›, ‹eq-misc/flint and steel›, ‹eq-misc/mess kit›, ‹eq-misc/pole› (10 ft.), ‹eq-misc/sack›, ‹eq-misc/shovel›, ‹eq-misc/signet ring›, ‹eq-misc/silk rope (50 ft.)›, ‹eq-misc/trail rations› (5 days), ‹eq-misc/waterskin›, ‹eq-misc/whetstone›, 8 gp.\"}",
 			"",
-			"@HL[Total Weight:] 127.5 lbs. (73.75 lbs. for a Small character)."
+			"::row[Mount]{info=\"‹eq-misc/Heavy horse (combat trained)› with ‹eq-misc/bit and bridle›, ‹eq-misc/military saddle›, and ‹eq-misc/saddlebags›.\"}",
+			"",
+			"::row[Total Weight]{info=\"127.5 lbs. (73.75 lbs. for a Small character).\"}",
+			"",
+			":::"
 		]
 	},
 	"quick_change_outfit": {
@@ -2115,17 +2123,21 @@
 			"‹SOURCE Adventurer's Armory 2/5›  ",
 			"::tabular{format=misc a=1000 b=63 d=kits}",
 			"",
-			"Skulking through a city or a dungeon, the shadowy stalker is equipped to strike quickly and fade away. This equipment package is appropriate for stealthy characters such as rangers, rogues, and slayers, and for some bards and investigators. If the PC can cast spells, add a spell component pouch.",
+			"Skulking through a city or a dungeon, the shadowy stalker is equipped to strike quickly and fade away. This equipment package is appropriate for stealthy characters such as rangers, rogues, and slayers, and for some bards and investigators. If the PC can cast spells, add a ‹eq-misc/spell component pouch›.",
 			"",
-			"@HL[Armor:] ‹rule/masterwork<_a› ‹eq-armor/leather armor›.",
+			":::block{hl size=simple}",
 			"",
-			"@HL[Weapons:] ‹eq-weapon/Dagger«s› (3), ‹rule/masterwork«<_weapons› ‹eq-weapon/sickle›, ‹eq-weapon/sap›.",
+			"::row[Armor]{info=\"‹rule/masterwork<_a› ‹eq-armor/leather armor›.\"}",
 			"",
-			"@HL[Combat Gear:] ‹eq-weapon/Alchemist's fire› (3), ‹eq-misc/smokestick«s› (2), ‹eq-misc/sunrod«s› (2).",
+			"::row[Weapons]{info=\"‹eq-weapon/Dagger«s› (3), ‹rule/masterwork«<_weapons› ‹eq-weapon/sickle›, ‹eq-weapon/sap›.\"}",
 			"",
-			"@HL[Other Gear:] ‹eq-misc/Bedroll›, ‹eq-misc/belt pouch›, ‹eq-misc/caltrops›, ‹eq-misc/candles› (5), ‹eq-misc/chalk› (5 pieces), ‹eq-misc/disguise kit›, ‹eq-misc/flint and steel›, ‹eq-misc/glass cutter›, ‹eq-misc/masterwork backpack›, ‹eq-misc/masterwork thieves' tools›, ‹eq-misc/mess kit›, ‹eq-misc/sack›, ‹eq-misc/silk rope (50 ft.)›, ‹magic-wondrous/sleeves of many garments›, ‹eq-misc/trail rations› (5 days), ‹eq-misc/waterskin›, 1 gp.",
+			"::row[Combat Gear]{info=\"‹eq-weapon/Alchemist's fire› (3), ‹eq-misc/smokestick«s› (2), ‹eq-misc/sunrod«s› (2).\"}",
 			"",
-			"@HL[Total Weight:] 63 lbs. (33.25 lbs. for a Small character)."
+			"::row[Other Gear]{info=\"‹eq-misc/Bedroll›, ‹eq-misc/belt pouch›, ‹eq-misc/caltrops›, ‹eq-misc/candles› (5), ‹eq-misc/chalk› (5 pieces), ‹eq-misc/disguise kit›, ‹eq-misc/flint and steel›, ‹eq-misc/glass cutter›, ‹eq-misc/masterwork backpack›, ‹eq-misc/masterwork thieves' tools›, ‹eq-misc/mess kit›, ‹eq-misc/sack›, ‹eq-misc/silk rope (50 ft.)›, ‹magic-wondrous/sleeves of many garments›, ‹eq-misc/trail rations› (5 days), ‹eq-misc/waterskin›, 1 gp.\"}",
+			"",
+			"::row[Total Weight]{info=\"63 lbs. (33.25 lbs. for a Small character).\"}",
+			"",
+			":::"
 		]
 	},
 	"shamans_kit": {
@@ -4198,7 +4210,7 @@
 			"",
 			"A survival kit provides the necessary tools for day-to-day existence in a temperate wilderness. It typically contains a ‹eq-misc/flint and steel›, a ‹eq-misc/mess kit›, two ‹eq-misc/waterskin«s› (enough to hold water for 1 person for 1 day), very basic maps showing major landmarks, and a small utility knife.",
 			"",
-			"A masterwork survival kit contains higher quality gear and a guide to identifying flora and fauna. It grants you a +2 circumstance bonus on Survival checks to get along in the wild, deal with severe weather, keep from getting lost, avoid natural hazards such as quicksand, and predict the weather."
+			"@I-boost A masterwork survival kit contains higher quality gear and a guide to identifying flora and fauna. It grants you a +2 circumstance bonus on ‹skill/Survival› checks to get along in the wild, deal with severe weather, keep from getting lost, avoid natural hazards such as quicksand, and predict the weather."
 		]
 	},
 	"survival_kit_masterwork": {
@@ -4363,7 +4375,9 @@
 			"‹SOURCE Monster Hunter's Handbook/27›  ",
 			"::tabular{format=misc a=80 b=10 d=kits}",
 			"",
-			"This kit consists of hooks, knives, tweezers, and other metal tools, plus various vials of alchemical preservatives, all organized within a sturdy satchel. The tools provide a +2 circumstance bonus on skill checks made to harvest parts or craft trophies and to craft magic items that incorporate such things. Crafted ornaments and parts harvested using taxidermy tools remain potent for twice their usual duration."
+			"This kit consists of hooks, knives, tweezers, and other metal tools, plus various vials of alchemical preservatives, all organized within a sturdy satchel.",
+			"",
+			"@I-boost The tools provide a +2 circumstance bonus on skill checks made to harvest parts or craft trophies and to craft magic items that incorporate such things. Crafted ‹feat/grisly_>ornament«s› and parts ‹rule/harvest«ed<ing_trophies› using taxidermy tools remain potent for twice their usual duration."
 		]
 	},
 	"tea_ceremonial_cup": {

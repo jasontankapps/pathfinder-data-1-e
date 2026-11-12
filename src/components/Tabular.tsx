@@ -469,7 +469,6 @@ const FormatObject: { [x: string]: FormatProps } = {
 							</tr>
 						);
 					}
-						
 				}
 				return <></>
 			})();

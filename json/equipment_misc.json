@@ -479,7 +479,7 @@
 			"‹SOURCE Ultimate Equipment/56;Advanced Player's Guide/184›  ",
 			"::tabular{format=misc a=40 b=24 d=kits}",
 			"",
-			"This kit includes an ‹eq-misc/alchemy crafting kit›, a ‹eq-misc/backpack›, a ‹eq-misc/bedroll›, a ‹eq-misc/belt pouch›, a ‹eq-misc/flint and steel›, ‹eq-misc/ink›, an ‹eq-misc/inkpen›, an ‹eq-misc/iron pot›, a ‹eq-misc/mess kit›, ‹eq-misc/soap›, ‹eq-misc/torches› (10), ‹eq-misc/trail rations› (5 days), and a ‹eq-misc/waterskin›. The kit does not contain a formula book because an alchemist begins play with a formula book and does not need to purchase one."
+			"This kit includes an ‹eq-misc/alchemy crafting kit›, a ‹eq-misc/backpack›, a ‹eq-misc/bedroll›, a ‹eq-misc/belt pouch›, a ‹eq-misc/flint and steel›, ‹eq-misc/ink›, an ‹eq-misc/inkpen›, an ‹eq-misc/iron pot›, a ‹eq-misc/mess kit›, ‹eq-misc/soap›, ‹eq-misc/torches› (10), ‹eq-misc/trail rations› (5 days), and a ‹eq-misc/waterskin›. The kit does not contain a ‹eq-misc/formula book› because an alchemist begins play with a formula book and does not need to purchase one."
 		]
 	},
 	"alchemists_lab": {
@@ -1307,15 +1307,19 @@
 			"‹SOURCE Adventurer's Armory 2/4›  ",
 			"::tabular{format=misc a=1000 b=45 d=kits}",
 			"",
-			"The arcane adept has collected useful magical gear to ensure her success on her adventures, and she prides herself on having just the right tool for the job. This equipment package is appropriate for an arcanist, sorcerer, witch, or wizard. Some bards and summoners might also find it attractive. This equipment package can also work for a magus if the 1st-level scrolls and wand are replaced with a masterwork melee weapon.",
+			"The arcane adept has collected useful magical gear to ensure her success on her adventures, and she prides herself on having just the right tool for the job. This equipment package is appropriate for an arcanist, sorcerer, witch, or wizard. Some bards and summoners might also find it attractive. This equipment package can also work for a magus if the 1st-level scrolls and wand are replaced with a ‹rule/masterwork<_w› melee weapon.",
 			"",
-			"@HL[Weapons:] ‹eq-weapon/Light crossbow› with 10 ‹eq-weapon/bolt«s›, ‹eq-weapon/quarterstaff›.",
+			":::block{size=simple hl}",
 			"",
-			"@HL[Combat Gear:] ‹eq-weapon/Acid› (2), scrolls of ‹spell/comprehend languages› (2), scroll of ‹spell/detect secret doors›, scroll of ‹spell/glitterdust›, scrolls of ‹spell/identify› (2), scroll of ‹spell/mount›, scroll of ‹spell/rope trick›, ‹eq-weapon/thunderstone›, wand of ‹spell/mage armor› (16 charges).",
+			"::row[Weapons]{info=\"‹eq-weapon/Light crossbow› with 10 ‹eq-weapon/bolt«s›, ‹eq-weapon/quarterstaff›.\"}",
 			"",
-			"@HL[Other Gear:] ‹eq-misc/Backpack›, ‹eq-misc/bedroll›, ‹eq-misc/belt pouch›, ‹eq-misc/candles› (5), ‹eq-misc/chalk› (5 pieces), ‹eq-misc/flint and steel›, ‹eq-misc/ink›, ‹eq-misc/inkpen›, ‹magic-wondrous/ioun torch›, ‹eq-misc/journal›, ‹eq-misc/magnifying glass›, ‹eq-misc/mess kit›, ‹eq-misc/scroll box›, ‹eq-misc/silk rope (50 ft.)›, ‹eq-misc/spell component pouch›, ‹eq-misc/trail rations› (5 days), ‹eq-misc/waterskin›, 3 gp.",
+			"::row[Combat Gear]{info=\"‹eq-weapon/Acid› (2), scrolls of ‹spell/comprehend languages› (2), scroll of ‹spell/detect secret doors›, scroll of ‹spell/glitterdust›, scrolls of ‹spell/identify› (2), scroll of ‹spell/mount›, scroll of ‹spell/rope trick›, ‹eq-weapon/thunderstone›, wand of ‹spell/mage armor› (16 charges).\"}",
 			"",
-			"@HL[Total Weight:] 45 lbs. (28.75 lbs. for a Small character)."
+			"::row[Other Gear]{info=\"‹eq-misc/Backpack›, ‹eq-misc/bedroll›, ‹eq-misc/belt pouch›, ‹eq-misc/candles› (5), ‹eq-misc/chalk› (5 pieces), ‹eq-misc/flint and steel›, ‹eq-misc/ink›, ‹eq-misc/inkpen›, ‹magic-wondrous/ioun torch›, ‹eq-misc/journal›, ‹eq-misc/magnifying glass›, ‹eq-misc/mess kit›, ‹eq-misc/scroll box›, ‹eq-misc/silk rope (50 ft.)›, ‹eq-misc/spell component pouch›, ‹eq-misc/trail rations› (5 days), ‹eq-misc/waterskin›, 3 gp.\"}",
+			"",
+			"::row[Total Weight]{info=\"45 lbs. (28.75 lbs. for a Small character).\"}",
+			"",
+			":::"
 		]
 	},
 	"arcane_family_workbook": {
@@ -1339,7 +1343,7 @@
 			"‹SOURCE Advanced Class Guide/202›  ",
 			"::tabular{format=misc a=21 b=34 d=kits}",
 			"",
-			"This kit includes a ‹eq-misc/backpack›, a ‹eq-misc/bedroll›, a ‹eq-misc/belt pouch›, a ‹eq-misc/flint and steel›, ‹eq-misc/ink›, an ‹eq-misc/inkpen›, an ‹eq-misc/iron pot›, a ‹eq-misc/mess kit›, ‹eq-misc/soap›, a ‹eq-misc/spell component pouch›, ‹eq-misc/torches› (10), ‹eq-misc/trail rations› (5 days), and a ‹eq-misc/waterskin›. The kit does not contain a spellbook because an arcanist begins play with a spellbook and does not need to purchase one."
+			"This kit includes a ‹eq-misc/backpack›, a ‹eq-misc/bedroll›, a ‹eq-misc/belt pouch›, a ‹eq-misc/flint and steel›, ‹eq-misc/ink›, an ‹eq-misc/inkpen›, an ‹eq-misc/iron pot›, a ‹eq-misc/mess kit›, ‹eq-misc/soap›, a ‹eq-misc/spell component pouch›, ‹eq-misc/torches› (10), ‹eq-misc/trail rations› (5 days), and a ‹eq-misc/waterskin›. The kit does not contain a ‹eq-misc/spellbook› because an arcanist begins play with a spellbook and does not need to purchase one."
 		]
 	},
 	"arctic_kit": {
@@ -3133,7 +3137,9 @@
 			"‹SOURCE Melee Tactics Toolbox/20›  ",
 			"::tabular{format=misc a=\"105 gp (common), 380 gp (superior)\" b=\"15 lbs. (common), 24 lbs. (superior)\" c=x d=kits}",
 			"",
-			"This kit provides useful tools for bounty hunters. It includes basic maps showing major landmarks, ‹eq-misc/caltrops›, ‹eq-misc/common manacles› with an ‹eq-misc/average lock›, a ‹eq-weapon/net›, a ‹eq-weapon/sap›, and a 10-foot ‹eq-misc/chain›. Bounty hunters are notoriously individualistic, so variant kits are common. One such variant is the superior *bounty hunter's kit,* which replaces the common manacles with ‹eq-misc/masterwork manacles› and the average lock with a ‹eq-misc/good lock›, and includes a ‹eq-misc/footprint book›, a ‹eq-weapon/tanglefoot bag›, and ‹eq-misc/masterwork thieves' tools›."
+			"This kit provides useful tools for bounty hunters. It includes basic maps showing major landmarks, ‹eq-misc/caltrops›, ‹eq-misc/common manacles› with an ‹eq-misc/average lock›, a ‹eq-weapon/net›, a ‹eq-weapon/sap›, and a 10-foot ‹eq-misc/chain›.",
+			"",
+			"Bounty hunters are notoriously individualistic, so variant kits are common. One such variant is the superior *bounty hunter's kit,* which replaces the common manacles with ‹eq-misc/masterwork manacles› and the average lock with a ‹eq-misc/good lock›, and includes a ‹eq-misc/footprint book›, a ‹eq-weapon/tanglefoot bag›, and ‹eq-misc/masterwork thieves' tools›."
 		]
 	},
 	"bounty_hunters_kit_superior": {
@@ -5493,17 +5499,21 @@
 			"‹SOURCE Adventurer's Armory 2/4›  ",
 			"::tabular{format=misc a=1000 b=\"76.5\" d=kits}",
 			"",
-			"The daring bravo is equally adept in social situations and combat, with the right equipment to move fluidly from one to the other. Such adventurers are known as much for their flair and panache as their martial prowess, and the daring bravo's equipment is often ornately ornamented or personalized. This equipment package is good for a bard, fighter, rogue, swashbuckler, or vigilante. Certain cavaliers, investigators, skalds, or even paladins may also find it appealing. If the PC can cast spells, add a spell component pouch.",
+			"The daring bravo is equally adept in social situations and combat, with the right equipment to move fluidly from one to the other. Such adventurers are known as much for their flair and panache as their martial prowess, and the daring bravo's equipment is often ornately ornamented or personalized. This equipment package is good for a bard, fighter, rogue, swashbuckler, or vigilante. Certain cavaliers, investigators, skalds, or even paladins may also find it appealing. If the PC can cast spells, add a ‹eq-misc/spell component pouch›.",
 			"",
-			"@HL[Armor:] ‹rule/masterwork<_a› ‹eq-armor/chain shirt›.",
+			":::block{hl size=simple}",
 			"",
-			"@HL[Weapons:] ‹eq-weapon/Light crossbow› with 10 bolts, ‹rule/masterwork<_w› ‹eq-weapon/rapier›, ‹eq-weapon/sap›, ‹eq-material/alchemical silver› ‹eq-weapon/dagger›.",
+			"::row[Armor]{info=\"‹rule/masterwork<_a› ‹eq-armor/chain shirt›.\"}",
 			"",
-			"@HL[Combat Gear:] ‹eq-weapon/Acid› (2), ‹eq-misc/alchemist's kindness›, potions of ‹spell/cure light wounds› (2), ‹eq-misc/sunrod«s› (3).",
+			"::row[Weapons]{info=\"‹eq-weapon/Light crossbow› with 10 bolts, ‹rule/masterwork<_w› ‹eq-weapon/rapier›, ‹eq-weapon/sap›, ‹eq-material/alchemical silver› ‹eq-weapon/dagger›.\"}",
 			"",
-			"@HL[Other Gear:] ‹eq-misc/Backpack›, ‹eq-misc/bedroll›, ‹eq-misc/belt pouch›, ‹eq-misc/bottle of fine wine›, ‹eq-misc/chalk› (5 pieces), ‹eq-misc/courtier's outfit› with 50 gp in jewelry, ‹eq-misc/flask›, ‹eq-misc/flint and steel›, ‹eq-misc/grooming kit›, ‹eq-misc/masterwork musical instrument›, ‹eq-misc/mess kit›, ‹eq-misc/mirror›, ‹eq-misc/perfume› or ‹eq-misc/cologne›, ‹eq-misc/sack›, ‹eq-misc/signet ring›, ‹eq-misc/silk rope (50 ft.)›, ‹eq-misc/trail rations› (5 days), ‹eq-misc/waterskin›, ‹eq-misc/whetstone›, 5 gp.",
+			"::row[Combat Gear]{info=\"‹eq-weapon/Acid› (2), ‹eq-misc/alchemist's kindness›, potions of ‹spell/cure light wounds› (2), ‹eq-misc/sunrod«s› (3).\"}",
 			"",
-			"@HL[Total Weight:] 76.5 lbs. (40.5 lbs. for a Small character)."
+			"::row[Other Gear]{info=\"‹eq-misc/Backpack›, ‹eq-misc/bedroll›, ‹eq-misc/belt pouch›, ‹eq-misc/bottle of fine wine›, ‹eq-misc/chalk› (5 pieces), ‹eq-misc/courtier's outfit› with 50 gp in jewelry, ‹eq-misc/flask›, ‹eq-misc/flint and steel›, ‹eq-misc/grooming kit›, ‹eq-misc/masterwork musical instrument›, ‹eq-misc/mess kit›, ‹eq-misc/mirror›, ‹eq-misc/perfume› or ‹eq-misc/cologne›, ‹eq-misc/sack›, ‹eq-misc/signet ring›, ‹eq-misc/silk rope (50 ft.)›, ‹eq-misc/trail rations› (5 days), ‹eq-misc/waterskin›, ‹eq-misc/whetstone›, 5 gp.\"}",
+			"",
+			"::row[Total Weight]{info=\"76.5 lbs. (40.5 lbs. for a Small character).\"}",
+			"",
+			":::"
 		]
 	},
 	"darklight_lantern": {

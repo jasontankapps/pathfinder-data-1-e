@@ -123,7 +123,7 @@ const getContainerDirectives = (globalVariable, marker = ":::") => {
 						addToJumpList(title, prefix + id, jl);
 					}
 					return (
-						(clear ? `<div style={{clear:"both"}}></div>\n` : "") + 
+						(clear ? `<div style={{clear:"both"}}></div>\n` : "") +
 						(title ? (
 							`<Block titled${props}><Row><Cell${id ? ` id="${id}"` : ""}>${
 								convertEntities(marked2.parse(convertLinks(title)))

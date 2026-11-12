@@ -2815,7 +2815,7 @@
 	"nagaji_nationalist": {
 		"name": "Nagaji Nationalist",
 		"compilationSources": [ [ "Inner Sea Races" ] ],
-		"category": "Other Races-Nagaji", 
+		"category": "Other Races-Nagaji",
 		"description": [
 			"::trait{title=\"&L&Nagaji Nationalist&FN&\" type=Race req=\"‹race/Nagaji›\" flavor=\"Your loyalty to the nagaji nation of Nagajor is powerful.\" benefit=\"You gain a +1 trait bonus on attack rolls and saving throws against foes that directly threaten the safety of Nagajor.\"}"
 		],

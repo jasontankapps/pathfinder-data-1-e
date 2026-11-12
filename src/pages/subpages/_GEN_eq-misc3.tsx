@@ -1,4 +1,5 @@
 import Link from '../../components/Link';
+import {Block,Row,Cell} from '../../components/Block';
 import ScrollContainer from '../../components/ScrollContainer';
 import InnerLink from '../../components/InnerLink';
 import Tabular from '../../components/Tabular';
@@ -9,7 +10,8 @@ import Icons from '../../components/Icons';
 const _planar_travelers_kit = {title: "Planar traveler's kit", jsx: <><h2 id="eq-misc-planar_travelers_kit-planar-travelers-kit">Planar traveler's kit</h2>
 <p><strong>Sources</strong> <Link to="/source/demon_hunters_handbook">Demon Hunter's Handbook pg. 7</Link>  </p>
 <Tabular format="misc" a="350" b="3" d="kits" />
-<p>This kit covers all the basics for survival on potentially hostile planes. It contains basic written guides to the Outer Planes, phrasebooks for common outsider languages and tips on the ecology of each plane - though these guides sometimes contain a measure of fanciful or dubious advice. While on a plane other than the Material Plane, a planar traveler's kit grants +2 circumstance bonuses on Survival checks, Knowledge (planes) checks, and Linguistics checks made to communicate with outsiders or decipher outsider texts.</p>
+<p>This kit covers all the basics for survival on potentially hostile planes. It contains basic written guides to the Outer Planes, phrasebooks for common outsider languages and tips on the ecology of each plane - though these guides sometimes contain a measure of fanciful or dubious advice.</p>
+<p><Icons id="eq-misc-planar_travelers_kit-boost-icons" wrapper="prefixIcon" list={["boost"]} /> While on a plane other than the Material Plane, a planar traveler's kit grants +2 circumstance bonuses on <Link to="/skill/survival">Survival</Link> checks, <Link to="/skill/knowledge_planes">Knowledge (planes)</Link> checks, and <Link to="/skill/linguistics">Linguistics</Link> checks made to communicate with outsiders or decipher outsider texts.</p>
 </>};
 const _pnakotic_record = {title: "Pnakotic record", jsx: <><h2 id="eq-misc-pnakotic_record-pnakotic-record">Pnakotic record</h2>
 <p><strong>Sources</strong> <Link to="/source/pathfinder_112_the_whisper_out_of_time">Pathfinder #112: The Whisper Out of Time pg. 73</Link>  </p>
@@ -263,8 +265,9 @@ const _portable_bridge = {title: "Portable bridge", jsx: <><h2 id="eq-misc-porta
 </>};
 const _portable_prison = {title: "Portable prison", jsx: <><h2 id="eq-misc-portable_prison-portable-prison">Portable prison</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_class_guide">Advanced Class Guide pg. 205</Link>  </p>
-<Tabular format="misc" a="200" b="300" d="kits" />
-<p>This kit for a <Link to="/eq-misc/wagon">wagon</Link> provides a set of metal bars with a door for transporting imprisoned people or creatures. Though portable prisons were originally developed by traveling acts to hold ferocious animals, city guards commonly use them to round up criminals, and some bounty hunters hire them to transport large groups of prisoners. Most prisons come with <Link to="/eq-misc/lock">locks</Link>; add the cost of the desired lock to the cost of the portable prison. A cage meant for people includes benches and rails for manacles. One meant for animals contains a trough for water and a smaller door for providing food.</p>
+<Tabular format="misc" a="200" b="300" d="tools" />
+<p>This kit for a <Link to="/eq-misc/wagon">wagon</Link> provides a set of metal bars with a door for transporting imprisoned people or creatures. Though portable prisons were originally developed by traveling acts to hold ferocious animals, city guards commonly use them to round up criminals, and some bounty hunters hire them to transport large groups of prisoners.</p>
+<p>Most prisons come with <Link to="/eq-misc/lock">locks</Link>; add the cost of the desired lock to the cost of the portable prison. A cage meant for people includes benches and rails for manacles. One meant for animals contains a trough for water and a smaller door for providing food.</p>
 </>};
 const _portable_ram = {title: "Portable ram", jsx: <><h2 id="eq-misc-portable_ram-portable-ram">Portable ram</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 57</Link>, <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 158</Link>  </p>
@@ -475,7 +478,7 @@ const _pyramid_busters_kit = {title: "Pyramid buster's kit", jsx: <><h2 id="eq-m
 </>};
 const _pyrography_kit = {title: "Pyrography kit", jsx: <><h2 id="eq-misc-pyrography_kit-pyrography-kit">Pyrography kit</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 57</Link>  </p>
-<Tabular format="misc" a="1" b="2" d="kits" />
+<Tabular format="misc" a="1" b="2" d="tools" />
 <p>Also called a "woodburning kit," this set of metal needles, styluses, and brands is used to draw on leather or wood by burning it. Using the kit requires a fire source; the needle or stylus is heated in the fire and held in a thick leather handle, then used like a pen.</p>
 </>};
 const _qadiran_saddle = {title: "Qadiran saddle", jsx: <><h2 id="eq-misc-qadiran_saddle-qadiran-saddle">Qadiran saddle</h2>
@@ -486,13 +489,14 @@ const _qadiran_saddle = {title: "Qadiran saddle", jsx: <><h2 id="eq-misc-qadiran
 const _questing_knight_package = {title: "Questing knight package", jsx: <><h2 id="eq-misc-questing_knight_package-questing-knight-package">Questing knight package</h2>
 <p><strong>Sources</strong> <Link to="/source/adventurers_armory_2">Adventurer's Armory 2 pg. 5</Link>  </p>
 <Tabular format="misc" a="1000" b="127.5" d="kits" />
-<p>If not descended from nobility, the questing knight certainly looks like he fits the part. This equipment package is useful for cavaliers, fighters, and paladins. If the PC can cast spells, add a <Link to="/eq-misc/spell_component_pouch">spell component pouch</Link> and a <Link to="/eq-misc/holy_symbol">holy symbol</Link> (if required). If the PC gains a mount from a class feature, remove the horse from the list below and replace the lance with a masterwork lance.</p>
-<p><strong className="hl">Armor:</strong> <Link to="/eq-armor/half_plate">Half-plate</Link>, <Link to="/eq-armor/heavy_wooden_shield">heavy wooden shield</Link>.</p>
-<p><strong className="hl">Weapons:</strong> <Link to="/eq-weapon/javelin">Javelins</Link> (4), <Link to="/eq-weapon/lance">lance</Link>, <Link to="/eq-weapon/longsword">longsword</Link>.</p>
-<p><strong className="hl">Combat Gear:</strong> <Link to="/eq-misc/sunrod">Sunrods</Link> (2).</p>
-<p><strong className="hl">Other Gear:</strong> <Link to="/eq-misc/backpack">Backpack</Link>, <Link to="/eq-misc/banner">banner</Link>, <Link to="/eq-misc/bedroll">bedroll</Link>, <Link to="/eq-misc/belt_pouch">belt pouch</Link>, <Link to="/eq-misc/flask">flask</Link>, <Link to="/eq-misc/flint_and_steel">flint and steel</Link>, <Link to="/eq-misc/mess_kit">mess kit</Link>, <Link to="/eq-misc/pole">pole</Link> (10 ft.), <Link to="/eq-misc/sack">sack</Link>, <Link to="/eq-misc/shovel">shovel</Link>, <Link to="/eq-misc/signet_ring">signet ring</Link>, <Link to="/eq-misc/silk_rope_50_ft">silk rope (50 ft.)</Link>, <Link to="/eq-misc/trail_rations">trail rations</Link> (5 days), <Link to="/eq-misc/waterskin">waterskin</Link>, <Link to="/eq-misc/whetstone">whetstone</Link>, 8 gp.</p>
-<p><strong className="hl">Mount:</strong> <Link to="/eq-misc/heavy_horse_combat_trained">Heavy horse (combat trained)</Link> with <Link to="/eq-misc/bit_and_bridle">bit and bridle</Link>, <Link to="/eq-misc/military_saddle">military saddle</Link>, and <Link to="/eq-misc/saddlebags">saddlebags</Link>.</p>
-<p><strong className="hl">Total Weight:</strong> 127.5 lbs. (73.75 lbs. for a Small character).</p>
+<p>If not descended from nobility, the questing knight certainly looks like he fits the part. This equipment package is useful for cavaliers, fighters, and paladins. If the PC can cast spells, add a <Link to="/eq-misc/spell_component_pouch">spell component pouch</Link> and a <Link to="/eq-misc/holy_symbol">holy symbol</Link> (if required). If the PC gains a mount from a class feature, remove the horse from the list below and replace the lance with a <Link to="/rule/masterwork_w">masterwork</Link> lance.</p>
+<Block size="simple" hl>
+<Row><Cell>Armor</Cell><Cell><Link to="/eq-armor/half_plate">Half-plate</Link>, <Link to="/eq-armor/heavy_wooden_shield">heavy wooden shield</Link>.</Cell></Row>
+<Row><Cell>Weapons</Cell><Cell><Link to="/eq-weapon/javelin">Javelins</Link> (4), <Link to="/eq-weapon/lance">lance</Link>, <Link to="/eq-weapon/longsword">longsword</Link>.</Cell></Row>
+<Row><Cell>Combat Gear</Cell><Cell><Link to="/eq-misc/sunrod">Sunrods</Link> (2).</Cell></Row>
+<Row><Cell>Other Gear</Cell><Cell><Link to="/eq-misc/backpack">Backpack</Link>, <Link to="/eq-misc/banner">banner</Link>, <Link to="/eq-misc/bedroll">bedroll</Link>, <Link to="/eq-misc/belt_pouch">belt pouch</Link>, <Link to="/eq-misc/flask">flask</Link>, <Link to="/eq-misc/flint_and_steel">flint and steel</Link>, <Link to="/eq-misc/mess_kit">mess kit</Link>, <Link to="/eq-misc/pole">pole</Link> (10 ft.), <Link to="/eq-misc/sack">sack</Link>, <Link to="/eq-misc/shovel">shovel</Link>, <Link to="/eq-misc/signet_ring">signet ring</Link>, <Link to="/eq-misc/silk_rope_50_ft">silk rope (50 ft.)</Link>, <Link to="/eq-misc/trail_rations">trail rations</Link> (5 days), <Link to="/eq-misc/waterskin">waterskin</Link>, <Link to="/eq-misc/whetstone">whetstone</Link>, 8 gp.</Cell></Row>
+<Row><Cell>Mount</Cell><Cell><Link to="/eq-misc/heavy_horse_combat_trained">Heavy horse (combat trained)</Link> with <Link to="/eq-misc/bit_and_bridle">bit and bridle</Link>, <Link to="/eq-misc/military_saddle">military saddle</Link>, and <Link to="/eq-misc/saddlebags">saddlebags</Link>.</Cell></Row>
+<Row><Cell>Total Weight</Cell><Cell>127.5 lbs. (73.75 lbs. for a Small character).</Cell></Row></Block>
 </>};
 const _quick_change_outfit = {title: "Quick-change outfit", jsx: <><h2 id="eq-misc-quick_change_outfit-quick-change-outfit">Quick-change outfit</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_intrigue">Ultimate Intrigue pg. 234</Link>  </p>
@@ -989,12 +993,13 @@ const _shadow_stencil_set = {title: "Shadow stencil set", jsx: <><h2 id="eq-misc
 const _shadowy_stalker_package = {title: "Shadowy stalker package", jsx: <><h2 id="eq-misc-shadowy_stalker_package-shadowy-stalker-package">Shadowy stalker package</h2>
 <p><strong>Sources</strong> <Link to="/source/adventurers_armory_2">Adventurer's Armory 2 pg. 5</Link>  </p>
 <Tabular format="misc" a="1000" b="63" d="kits" />
-<p>Skulking through a city or a dungeon, the shadowy stalker is equipped to strike quickly and fade away. This equipment package is appropriate for stealthy characters such as rangers, rogues, and slayers, and for some bards and investigators. If the PC can cast spells, add a spell component pouch.</p>
-<p><strong className="hl">Armor:</strong> <Link to="/rule/masterwork_a">masterwork</Link> <Link to="/eq-armor/leather_armor">leather armor</Link>.</p>
-<p><strong className="hl">Weapons:</strong> <Link to="/eq-weapon/dagger">Daggers</Link> (3), <Link to="/rule/masterwork_weapons">masterwork</Link> <Link to="/eq-weapon/sickle">sickle</Link>, <Link to="/eq-weapon/sap">sap</Link>.</p>
-<p><strong className="hl">Combat Gear:</strong> <Link to="/eq-weapon/alchemists_fire">Alchemist's fire</Link> (3), <Link to="/eq-misc/smokestick">smokesticks</Link> (2), <Link to="/eq-misc/sunrod">sunrods</Link> (2).</p>
-<p><strong className="hl">Other Gear:</strong> <Link to="/eq-misc/bedroll">Bedroll</Link>, <Link to="/eq-misc/belt_pouch">belt pouch</Link>, <Link to="/eq-misc/caltrops">caltrops</Link>, <Link to="/eq-misc/candles">candles</Link> (5), <Link to="/eq-misc/chalk">chalk</Link> (5 pieces), <Link to="/eq-misc/disguise_kit">disguise kit</Link>, <Link to="/eq-misc/flint_and_steel">flint and steel</Link>, <Link to="/eq-misc/glass_cutter">glass cutter</Link>, <Link to="/eq-misc/masterwork_backpack">masterwork backpack</Link>, <Link to="/eq-misc/masterwork_thieves_tools">masterwork thieves' tools</Link>, <Link to="/eq-misc/mess_kit">mess kit</Link>, <Link to="/eq-misc/sack">sack</Link>, <Link to="/eq-misc/silk_rope_50_ft">silk rope (50 ft.)</Link>, <Link to="/magic-wondrous/sleeves_of_many_garments">sleeves of many garments</Link>, <Link to="/eq-misc/trail_rations">trail rations</Link> (5 days), <Link to="/eq-misc/waterskin">waterskin</Link>, 1 gp.</p>
-<p><strong className="hl">Total Weight:</strong> 63 lbs. (33.25 lbs. for a Small character).</p>
+<p>Skulking through a city or a dungeon, the shadowy stalker is equipped to strike quickly and fade away. This equipment package is appropriate for stealthy characters such as rangers, rogues, and slayers, and for some bards and investigators. If the PC can cast spells, add a <Link to="/eq-misc/spell_component_pouch">spell component pouch</Link>.</p>
+<Block size="simple" hl>
+<Row><Cell>Armor</Cell><Cell><Link to="/rule/masterwork_a">masterwork</Link> <Link to="/eq-armor/leather_armor">leather armor</Link>.</Cell></Row>
+<Row><Cell>Weapons</Cell><Cell><Link to="/eq-weapon/dagger">Daggers</Link> (3), <Link to="/rule/masterwork_weapons">masterwork</Link> <Link to="/eq-weapon/sickle">sickle</Link>, <Link to="/eq-weapon/sap">sap</Link>.</Cell></Row>
+<Row><Cell>Combat Gear</Cell><Cell><Link to="/eq-weapon/alchemists_fire">Alchemist's fire</Link> (3), <Link to="/eq-misc/smokestick">smokesticks</Link> (2), <Link to="/eq-misc/sunrod">sunrods</Link> (2).</Cell></Row>
+<Row><Cell>Other Gear</Cell><Cell><Link to="/eq-misc/bedroll">Bedroll</Link>, <Link to="/eq-misc/belt_pouch">belt pouch</Link>, <Link to="/eq-misc/caltrops">caltrops</Link>, <Link to="/eq-misc/candles">candles</Link> (5), <Link to="/eq-misc/chalk">chalk</Link> (5 pieces), <Link to="/eq-misc/disguise_kit">disguise kit</Link>, <Link to="/eq-misc/flint_and_steel">flint and steel</Link>, <Link to="/eq-misc/glass_cutter">glass cutter</Link>, <Link to="/eq-misc/masterwork_backpack">masterwork backpack</Link>, <Link to="/eq-misc/masterwork_thieves_tools">masterwork thieves' tools</Link>, <Link to="/eq-misc/mess_kit">mess kit</Link>, <Link to="/eq-misc/sack">sack</Link>, <Link to="/eq-misc/silk_rope_50_ft">silk rope (50 ft.)</Link>, <Link to="/magic-wondrous/sleeves_of_many_garments">sleeves of many garments</Link>, <Link to="/eq-misc/trail_rations">trail rations</Link> (5 days), <Link to="/eq-misc/waterskin">waterskin</Link>, 1 gp.</Cell></Row>
+<Row><Cell>Total Weight</Cell><Cell>63 lbs. (33.25 lbs. for a Small character).</Cell></Row></Block>
 </>};
 const _shamans_kit = {title: "Shaman's kit", jsx: <><h2 id="eq-misc-shamans_kit-shamans-kit">Shaman's kit</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_class_guide">Advanced Class Guide pg. 205</Link>  </p>
@@ -2117,7 +2122,7 @@ const _survival_kit_common = {title: "Survival kit (common)", jsx: <><h2 id="eq-
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 58</Link>  </p>
 <Tabular format="misc" a="5 gp (common), 50 gp (masterwork)" b="4 lbs. (common), 5 lbs. (masterwork)" c="x" d="kits" />
 <p>A survival kit provides the necessary tools for day-to-day existence in a temperate wilderness. It typically contains a <Link to="/eq-misc/flint_and_steel">flint and steel</Link>, a <Link to="/eq-misc/mess_kit">mess kit</Link>, two <Link to="/eq-misc/waterskin">waterskins</Link> (enough to hold water for 1 person for 1 day), very basic maps showing major landmarks, and a small utility knife.</p>
-<p>A masterwork survival kit contains higher quality gear and a guide to identifying flora and fauna. It grants you a +2 circumstance bonus on Survival checks to get along in the wild, deal with severe weather, keep from getting lost, avoid natural hazards such as quicksand, and predict the weather.</p>
+<p><Icons id="eq-misc-survival_kit_common-boost-icons" wrapper="prefixIcon" list={["boost"]} /> A masterwork survival kit contains higher quality gear and a guide to identifying flora and fauna. It grants you a +2 circumstance bonus on <Link to="/skill/survival">Survival</Link> checks to get along in the wild, deal with severe weather, keep from getting lost, avoid natural hazards such as quicksand, and predict the weather.</p>
 </>};
 const _swarmsuit = {title: "Swarmsuit", jsx: <><h2 id="eq-misc-swarmsuit-swarmsuit">Swarmsuit</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 58</Link>, <Link to="/source/advanced_players_guide">Advanced Player's Guide pg. 183</Link>  </p>
@@ -2186,7 +2191,8 @@ const _tattoo = {title: "Tattoo", jsx: <><h2 id="eq-misc-tattoo-tattoo">Tattoo</
 const _taxidermy_tools = {title: "Taxidermy tools", jsx: <><h2 id="eq-misc-taxidermy_tools-taxidermy-tools">Taxidermy tools</h2>
 <p><strong>Sources</strong> <Link to="/source/monster_hunters_handbook">Monster Hunter's Handbook pg. 27</Link>  </p>
 <Tabular format="misc" a="80" b="10" d="kits" />
-<p>This kit consists of hooks, knives, tweezers, and other metal tools, plus various vials of alchemical preservatives, all organized within a sturdy satchel. The tools provide a +2 circumstance bonus on skill checks made to harvest parts or craft trophies and to craft magic items that incorporate such things. Crafted ornaments and parts harvested using taxidermy tools remain potent for twice their usual duration.</p>
+<p>This kit consists of hooks, knives, tweezers, and other metal tools, plus various vials of alchemical preservatives, all organized within a sturdy satchel.</p>
+<p><Icons id="eq-misc-taxidermy_tools-boost-icons" wrapper="prefixIcon" list={["boost"]} /> The tools provide a +2 circumstance bonus on skill checks made to harvest parts or craft trophies and to craft magic items that incorporate such things. Crafted <Link to="/feat/grisly_ornament">ornaments</Link> and parts <Link to="/rule/harvesting_trophies">harvested</Link> using taxidermy tools remain potent for twice their usual duration.</p>
 </>};
 const _tea_ceremonial_cup = {title: "Tea (ceremonial, cup)", jsx: <><h2 id="eq-misc-tea_ceremonial_cup-tea">Tea</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 95</Link>, <Link to="/source/adventurers_armory">Adventurer's Armory pg. 19</Link>  </p>
