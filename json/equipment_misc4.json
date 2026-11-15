@@ -403,7 +403,7 @@
 			"‹SOURCE Monster Hunter's Handbook/26›  ",
 			"::tabular{format=misc a=40 b=16 d=gear}",
 			"",
-			"This is a freestanding rack with several hooks for holding decoratively arranged hunting trophies. A creature with the ‹feat/Grisly Ornament› feat can hang one ornament from a display stand, causing it to emanate a fear effect that affects all creatures of that creature's specific variety within 30 feet (DC 15 Will negates). This imposes a -1 penalty (-2 if the trophy creature's CR was 8 or higher) to the same statistic the ornament would otherwise enhance, but the ornament lasts for only 24 hours before decaying. Setting up a stand is a full-round action, while hanging an ornament from one is a move action."
+			"This is a freestanding rack with several hooks for holding decoratively arranged hunting trophies. A creature with the ‹feat/Grisly Ornament› feat can hang one ornament from a display stand, causing it to emanate a fear effect that affects all creatures of that creature's specific variety within 30 feet (DC 15 Will negates). This imposes a -1 penalty (-2 if the trophy creature's CR was 8 or higher) to the same statistic the ornament would otherwise enhance, but the ornament lasts for only 24 hours before decaying. Setting up a stand is a @HL[full-round action], while hanging an ornament from one is a @HL[move action]."
 		]
 	},
 	"dissipating_fan": {
@@ -826,7 +826,7 @@
 			"‹SOURCE Ultimate Equipment/56;Advanced Player's Guide/184;Adventurer's Armory/19›  ",
 			"::tabular{format=misc a=\"0.5\" b=1 d=gear}",
 			"",
-			"A drill can create a 1-inch-diameter hole in stone, wood, or metal as a standard action. Harder materials wear down or break the drill more quickly. Hearing the sound of drilling requires a DC 15 Perception check."
+			"A drill can create a 1-inch-diameter hole in stone, wood, or metal as a @HL[standard action]. Harder materials wear down or break the drill more quickly. Hearing the sound of drilling requires a DC 15 Perception check."
 		]
 	},
 	"drought_powder": {
@@ -903,7 +903,7 @@
 			"‹SOURCE Ultimate Wilderness/243›  ",
 			"::tabular{format=misc a=100 b=20 d=gear}",
 			"",
-			"Sometimes referred to as a \"misery whip,\" this long blade (between 4 and 12 feet) is lined with numerous metal teeth. Thick handholds at each end of the blade allow a Medium or larger creature to grip one end with both hands. When a creature pulls on a handle (a move action) with another creature on the opposite side ready to pull after, those wielders can use the duo saw to cut through an object at exceptional speeds. This maneuver deals 10 points of damage per round of sawing to an object, ignoring up to 5 points of hardness on any nonmetallic substance. These saws are typically employed in the felling of large trees."
+			"Sometimes referred to as a \"misery whip,\" this long blade (between 4 and 12 feet) is lined with numerous metal teeth. Thick handholds at each end of the blade allow a Medium or larger creature to grip one end with both hands. When a creature pulls on a handle (a @HL[move action]) with another creature on the opposite side ready to pull after, those wielders can use the duo saw to cut through an object at exceptional speeds. This maneuver deals 10 points of damage per round of sawing to an object, ignoring up to 5 points of hardness on any nonmetallic substance. These saws are typically employed in the felling of large trees."
 		]
 	},
 	"two_person_saw": { "redirect": "duo_saw" },
@@ -918,7 +918,7 @@
 			"‹SOURCE Adventurer's Armory 2/12;Adventurer's Armory/19›  ",
 			"::tabular{format=misc id=dusk a=35 b=4 d=gear}",
 			"",
-			"This specialized ‹eq-misc/bullseye lantern› has a ruby lens that covers the original lens, providing a deep crimson hue to the lantern's light, allowing for more stealth when used in areas of darkness. This special lens can be set in place or removed as a swift action. While the ruby lens is in place, the lantern only provides ‹rule/dim light› in a 60-foot cone. A dusk lantern's red light is imperceptible to creatures relying on darkvision as their sole form of sight.",
+			"This specialized ‹eq-misc/bullseye lantern› has a ruby lens that covers the original lens, providing a deep crimson hue to the lantern's light, allowing for more stealth when used in areas of darkness. This special lens can be set in place or removed as a @HL[swift action]. While the ruby lens is in place, the lantern only provides ‹rule/dim light› in a 60-foot cone. A dusk lantern's red light is imperceptible to creatures relying on darkvision as their sole form of sight.",
 			"",
 			"::h3[Waterproof Lantern]{jl}",
 			"",
@@ -1472,7 +1472,7 @@
 			"‹SOURCE Ultimate Equipment/56;Adventurer's Armory/19›  ",
 			"::tabular{format=misc a=65 b=2 d=gear}",
 			"",
-			"These manacles are nearly indistinguishable from standard ‹eq-misc/manacles› upon inspection (Perception DC 25). A wearer who knows the location of the secret catch can open them as a standard action; otherwise they act like masterwork manacles. Some appear to be of common quality, though false manacles are always masterwork."
+			"These manacles are nearly indistinguishable from standard ‹eq-misc/manacles› upon inspection (Perception DC 25). A wearer who knows the location of the secret catch can open them as a @HL[standard action]; otherwise they act like masterwork manacles. Some appear to be of common quality, though false manacles are always masterwork."
 		]
 	},
 	"manacles_false": { "redirect": "false_manacles" },
@@ -1484,7 +1484,7 @@
 			"‹SOURCE Adventurer's Armory 2/13›  ",
 			"::tabular{format=misc a=\"100 gp (clockwork), 5 gp (common), 50 gp (masterwork)\" b=\"&frac12& lb. (clockwork), &mdash& (common), &mdash& (masterwork)\" c=x d=gear}",
 			"",
-			"These prosthetics are used as a replacement for lost or missing teeth. False teeth fashioned from wood or animal teeth are more common, while masterwork varieties are sculpted from bone or porcelain. Clockwork false teeth are novelties with mechanisms allowing the teeth to clatter and move on their own. Winding the clockworks is a move action, and the teeth move forward over flat surfaces at a rate of 5 feet per round for 10 rounds after one winding."
+			"These prosthetics are used as a replacement for lost or missing teeth. False teeth fashioned from wood or animal teeth are more common, while masterwork varieties are sculpted from bone or porcelain. Clockwork false teeth are novelties with mechanisms allowing the teeth to clatter and move on their own. Winding the clockworks is a @HL[move action], and the teeth move forward over flat surfaces at a rate of 5 feet per round for 10 rounds after one winding."
 		]
 	},
 	"false_teeth_common": {
@@ -1893,7 +1893,7 @@
 			"",
 			"This large bundle of ropes, pulleys, netting, and latches can be assembled to form two different traps: one to drop a net from above, and another to snag trespassers from below and hoist them into the air. Either configuration requires an overhead structure such as a ceiling, a crossbeam, or a sturdy tree branch to support the trap's mechanisms and counterweights. Net rigging has an effective Strength score of 19 for the purpose of determining how much weight it can lift.",
 			"",
-			"This can be crafted with a DC 25 Craft (traps) check.",
+			"::tabular{format=craft a=25 b=Traps}",
 			"",
 			"::trap[Falling Net Trap]{cr=\"&mdash&\" mechanical pdc=10 dddc=15 trigger=touch manual eff=\"net (entangled and tethered by 10-ft. rope); Reflex DC 15 avoids; multiple targets (all targets in a 10-ft.-square area)\"}",
 			"::trap[Hoisting Net Trap]{cr=\"&mdash&\" mechanical pdc=10 dddc=15 trigger=touch manual eff=\"net (entangled and lifted 10 ft. into the air); Reflex DC 15 avoids; multiple targets (all targets in a 10-ft.-square area)\"}"
@@ -2172,7 +2172,7 @@
 			"‹SOURCE Ultimate Equipment/57;PRPG Core Rulebook/158›  ",
 			"::tabular{format=misc a=\"0.1\" b=1 d=gear}",
 			"",
-			"A 1-pint flask of oil burns for 6 hours in a lantern or lamp. You can also use a flask of oil as a splash weapon. Use the rules for ‹eq-weapon/alchemist's fire›, except that it takes a full-round action to prepare a flask with a fuse. Once it is thrown, there is a 50% chance of the flask igniting successfully.",
+			"A 1-pint flask of oil burns for 6 hours in a lantern or lamp. You can also use a flask of oil as a splash weapon. Use the rules for ‹eq-weapon/alchemist's fire›, except that it takes a @HL[full-round action] to prepare a flask with a fuse. Once it is thrown, there is a 50% chance of the flask igniting successfully.",
 			"",
 			"You can pour a pint of oil on the ground to cover an area 5 feet square, provided that the surface is smooth. If lit, the oil burns for 2 rounds and deals 1d3 points of fire damage to each creature in the area."
 		]
@@ -2491,7 +2491,7 @@
 			"‹SOURCE Ultimate Equipment/57;Adventurer's Armory/19;PRPG Core Rulebook/158;Advanced Player's Guide/181›  ",
 			"::tabular{format=misc a=\"0.4\" b=x d=gear}",
 			"",
-			"A sheet of ordinary paper typically measures 9 inches by 6 inches and is unsuitable for making magical scrolls. It has hardness 0, 1 hit point, and a break DC of 5."
+			"A sheet of ordinary paper typically measures 9 inches by 6 inches and is unsuitable for making magical scrolls. It has ‹rule/hardness› 0, 1 hit point, and a break DC of 5."
 		]
 	},
 	"paper": { "redirect": "paper_sheet" },
@@ -2554,7 +2554,7 @@
 			"‹SOURCE Ultimate Equipment/57;PRPG Core Rulebook/158›  ",
 			"::tabular{format=misc a=\"0.2\" b=x d=gear}",
 			"",
-			"This sheet of thin, treated animal skin is a durable writing surface and is suitable for making magic scrolls. It has hardness 0, 2 hit points, and a break DC of 5."
+			"This sheet of thin, treated animal skin is a durable writing surface and is suitable for making magic scrolls. It has ‹rule/hardness› 0, 2 hit points, and a break DC of 5."
 		]
 	},
 	"parchment": { "redirect": "parchment_sheet" },
@@ -2847,7 +2847,7 @@
 			"‹SOURCE Ultimate Equipment/57;Advanced Player's Guide/181›  ",
 			"::tabular{format=misc a=20 b=4 d=gear}",
 			"",
-			"This 2-foot-long metal tube has right angles at each end with mirrors inside; if you look in one end, you can see out the other end, allowing you safely peer over obstacles, around corners, or into small spaces your head where wouldn't fit. When using a periscope, the end of the tube counts as a Diminutive object, making it much less likely that an observed creature notices you; if you have ‹rule/total »concealment› from the creature except for the end of the periscope, use the tube's Diminutive size modifier on your Stealth check instead of your own size modifier. Distortion from the mirrors gives you a -4 penalty on Perception checks while looking through the periscope. Though the tube is fairly sturdy (hardness 5, 2 hit points), the mirrors inside are fragile (hardness 1, 1 hit point), and any damage that gets through the tube's hardness applies to the tube and the mirrors."
+			"This 2-foot-long metal tube has right angles at each end with mirrors inside; if you look in one end, you can see out the other end, allowing you safely peer over obstacles, around corners, or into small spaces your head where wouldn't fit. When using a periscope, the end of the tube counts as a Diminutive object, making it much less likely that an observed creature notices you; if you have ‹rule/total »concealment› from the creature except for the end of the periscope, use the tube's Diminutive size modifier on your Stealth check instead of your own size modifier. Distortion from the mirrors gives you a -4 penalty on Perception checks while looking through the periscope. Though the tube is fairly sturdy (‹rule/hardness› 5, 2 hit points), the mirrors inside are fragile (‹rule/hardness› 1, 1 hit point), and any damage that gets through the tube's hardness applies to the tube and the mirrors."
 		]
 	},
 	"pesh": {
@@ -3474,7 +3474,7 @@
 			"‹SOURCE Blood of the Sea/19›  ",
 			"::tabular{format=misc a=20 b=\"0.5\" d=gear}",
 			"",
-			"This otherwise ordinary ‹eq-misc/compass› is sealed inside a glass case amid a quantity of clear oil. The oil keeps the glass from cracking at high pressures, allowing the compass to function at any depth up to 1,000 feet. An underwater compass grants you a +2 circumstance bonus on Survival checks to avoid becoming lost and also indicates your depth below the surface to the nearest increment of 20 feet. Underwater compasses are not particularly durable and cannot be roughly handled. An underwater compass has a hardness of 1, 2 hit points, and a break DC of 15."
+			"This otherwise ordinary ‹eq-misc/compass› is sealed inside a glass case amid a quantity of clear oil. The oil keeps the glass from cracking at high pressures, allowing the compass to function at any depth up to 1,000 feet. An underwater compass grants you a +2 circumstance bonus on Survival checks to avoid becoming lost and also indicates your depth below the surface to the nearest increment of 20 feet. Underwater compasses are not particularly durable and cannot be roughly handled. An underwater compass has a ‹rule/hardness› of 1, 2 hit points, and a break DC of 15."
 		]
 	},
 	"underwater_goggles": {
@@ -4150,7 +4150,7 @@
 			"‹SOURCE Ultimate Equipment/58;Advanced Player's Guide/183;Adventurer's Armory/19›  ",
 			"::tabular{format=misc a=\"0.1\" b=x d=gear}",
 			"",
-			"Weapon cords are 2-foot-long leather straps that attach your weapon to your wrist. If you drop your weapon or are disarmed, you can recover it as a move action, and it never moves any farther away from you than an adjacent square. However, you cannot switch to a different weapon without first untying the cord (a full-round action) or cutting it (a move action or an attack, hardness 0, 1 hit point). Unlike with a ‹eq-armorenh/locked gauntlet›, you can still use a hand with a weapon cord, though a dangling weapon may interfere with finer actions."
+			"Weapon cords are 2-foot-long leather straps that attach your weapon to your wrist. If you drop your weapon or are disarmed, you can recover it as a @HL[move action], and it never moves any farther away from you than an adjacent square. However, you cannot switch to a different weapon without first untying the cord (a @HL[full-round action]) or cutting it (a @HL[move action] or an attack, ‹rule/hardness› 0, 1 hit point). Unlike with a ‹eq-armorenh/locked gauntlet›, you can still use a hand with a weapon cord, though a dangling weapon may interfere with finer actions."
 		]
 	},
 	"weasel": {
@@ -4197,7 +4197,7 @@
 			"‹SOURCE Adventurer's Armory 2/13›  ",
 			"::tabular{format=misc a=20 b=25 d=gear}",
 			"",
-			"This device is a chair, typically made from wood, with large wheels attached on either side. A wheelchair can seat a single Medium or Small creature. When seated in a wheelchair, you can propel yourself along a reasonably flat surface at your base speed as a move action, so long as you have at least one hand free. Moving twice in a round or taking the run action requires you to have both hands free. Moving uphill or over rough terrain halves the speed you move in a wheelchair, and certain terrain (such as fallen logs) may be entirely impassable. A wheelchair has hardness 5 and 30 hit points."
+			"This device is a chair, typically made from wood, with large wheels attached on either side. A wheelchair can seat a single Medium or Small creature. When seated in a wheelchair, you can propel yourself along a reasonably flat surface at your base speed as a @HL[move action], so long as you have at least one hand free. Moving twice in a round or taking the run action requires you to have both hands free. Moving uphill or over rough terrain halves the speed you move in a wheelchair, and certain terrain (such as fallen logs) may be entirely impassable. A wheelchair has ‹rule/hardness› 5 and 30 hit points."
 		]
 	},
 	"whet_bone": {
@@ -4412,7 +4412,7 @@
 			"‹SOURCE Dragonslayer's Handbook/27›  ",
 			"::tabular{format=misc a=\"75 gp\" b=\"1-20 lbs.\" c=x d=gear}",
 			"",
-			"This large weight is attached to a sharp steel hook which doubles as a carabiner. Once the steel hook is punched through the skin of a flying creature's wing, the carabiner locks shut. The weight then acts as an anchor, unbalancing the creature's wings, which prevents the creature from flying. The application of wing hobbles causes 1d4 points of piercing damage, and does not permanently disable the creature should the hobble be removed. A wing hobble can be attached to a pinned creature's wing with a successful grapple check. Removing a wing hobble from a creature's wing is a full-round action that provokes attacks of opportunity and requires the use of two hands."
+			"This large weight is attached to a sharp steel hook which doubles as a carabiner. Once the steel hook is punched through the skin of a flying creature's wing, the carabiner locks shut. The weight then acts as an anchor, unbalancing the creature's wings, which prevents the creature from flying. The application of wing hobbles causes 1d4 points of piercing damage, and does not permanently disable the creature should the hobble be removed. A wing hobble can be attached to a pinned creature's wing with a successful grapple check. Removing a wing hobble from a creature's wing is a @HL[full-round action] that provokes attacks of opportunity and requires the use of two hands."
 		]
 	},
 	"wing_hooks": {
@@ -4449,7 +4449,7 @@
 			"‹SOURCE Adventurer's Armory 2/13›  ",
 			"::tabular{format=misc a=10 b=10 d=gear}",
 			"",
-			"Wing sheaths are protective coverings created from thick fabric or canvas. The sheaths are designed to tightly cover a pair of wings to keep them hidden beneath a cloak or loose-fitting clothing. Noticing hidden wings bound within wing sheaths requires a successful DC 20 Perception check. Donning or removing wing sheaths requires 1 minute, or a full-round action with assistance. Wing sheaths can be burst with a successful DC 22 Strength check."
+			"Wing sheaths are protective coverings created from thick fabric or canvas. The sheaths are designed to tightly cover a pair of wings to keep them hidden beneath a cloak or loose-fitting clothing. Noticing hidden wings bound within wing sheaths requires a successful DC 20 Perception check. Donning or removing wing sheaths requires 1 minute, or a @HL[full-round action] with assistance. Wing sheaths can be burst with a successful DC 22 Strength check."
 		]
 	},
 	"wing_staff": {
@@ -4460,7 +4460,7 @@
 			"‹SOURCE Inner Sea Intrigue/50›  ",
 			"::tabular{format=misc a=1000 b=6 d=gear}",
 			"",
-			"This ‹eq-weapon/quarterstaff› can unfold two sails on each side to become a simple glider that takes up no more space than its wielder. With a successful DC 10 Fly check as a full-round action, any Small or Medium creature holding the unfurled glider can glide downward at a 45-degree angle in a straight or diagonal line at a speed of 60 feet per round. Unfolding the wings is a full-round action. The wing staff imposes a -4 penalty on Fly checks because of its poor maneuverability and cannot be used to fly at other angles. A character may gain an advantage in an appropriate terrain tile during a pursuit, such as taking a shortcut by gliding over a forest. A wing staff's sails have AC 9 and hardness 0, and take double damage from acid and fire attacks. The sails have 20 hit points; if they take 9 points of damage, the sails and the staff gain the ‹misc/broken› condition, and the sails don't function until repaired. When the sails are furled, a wing staff functions as a normal quarterstaff and can be enhanced as normal (this doesn't affect the sails), though if the staff gains the broken condition, the sails are also broken."
+			"This ‹eq-weapon/quarterstaff› can unfold two sails on each side to become a simple glider that takes up no more space than its wielder. With a successful DC 10 Fly check as a @HL[full-round action], any Small or Medium creature holding the unfurled glider can glide downward at a 45-degree angle in a straight or diagonal line at a speed of 60 feet per round. Unfolding the wings is a @HL[full-round action]. The wing staff imposes a -4 penalty on Fly checks because of its poor maneuverability and cannot be used to fly at other angles. A character may gain an advantage in an appropriate terrain tile during a pursuit, such as taking a shortcut by gliding over a forest. A wing staff's sails have AC 9 and ‹rule/hardness› 0, and take double damage from acid and fire attacks. The sails have 20 hit points; if they take 9 points of damage, the sails and the staff gain the ‹misc/broken› condition, and the sails don't function until repaired. When the sails are furled, a wing staff functions as a normal quarterstaff and can be enhanced as normal (this doesn't affect the sails), though if the staff gains the broken condition, the sails are also broken."
 		]
 	},
 	"winged_fetish_pharasma": {
@@ -4499,13 +4499,13 @@
 			"‹SOURCE Ultimate Equipment/58›  ",
 			"::tabular{format=misc id=saw a=30 b=x d=gear}",
 			"",
-			"This flexible saw consists of an abrasive wire hooked to two metal rings. By feeding the wire around a deadbolt or small door bar, you can use the rings to quietly saw through the obstruction. The saw takes 10 minutes to cut through a 2-inch piece of wood or a 1-inch iron bar. A wire saw can cut through items with hardness 10 or less. After five uses, the abrasive wire is worn smooth and must be replaced (costing 25 gp).",
+			"This flexible saw consists of an abrasive wire hooked to two metal rings. By feeding the wire around a deadbolt or small door bar, you can use the rings to quietly saw through the obstruction. The saw takes 10 minutes to cut through a 2-inch piece of wood or a 1-inch iron bar. A wire saw can cut through items with ‹rule/hardness› 10 or less. After five uses, the abrasive wire is worn smooth and must be replaced (costing 25 gp).",
 			"",
 			"::h3[Adamantine Wire Saw]{jl}",
 			"",
 			"::tabular{format=misc id=adamant a=150 b=x d=gear}",
 			"",
-			"This works twice as fast as a normal saw when cutting materials with hardness 10 or less, or at normal speed when cutting materials with hardness 11-20. Replacing an adamantine wire saw's wire costs 145 gp."
+			"This works twice as fast as a normal saw when cutting materials with ‹rule/hardness› 10 or less, or at normal speed when cutting materials with hardness 11-20. Replacing an adamantine wire saw's wire costs 145 gp."
 		]
 	},
 	"wire_saw_common": {
@@ -4642,7 +4642,7 @@
 			"‹SOURCE Adventurer's Armory/19›  ",
 			"::tabular{format=misc a=5 b=1 d=gear}",
 			"",
-			"This item works like a standard ‹eq-misc/wrist sheath›, but releasing an item from it is a swift action. Preparing the sheath for this use requires cranking the sheath's tiny gears and springs into place (a full-round action that provokes an attack of opportunity)."
+			"This item works like a standard ‹eq-misc/wrist sheath›, but releasing an item from it is a @HL[swift action]. Preparing the sheath for this use requires cranking the sheath's tiny gears and springs into place (a @HL[full-round action] that provokes an attack of opportunity)."
 		]
 	},
 	"wrist_sheath": {
@@ -4656,7 +4656,7 @@
 			"‹SOURCE Ultimate Equipment/58;Adventurer's Armory/19›  ",
 			"::tabular{format=misc a=1 b=1 d=gear}",
 			"",
-			"This is a sheath designed to be strapped to your forearm and hidden under a long sleeve. The sheath can hold one forearm-length item, such as a ‹eq-weapon/dagger›, ‹eq-weapon/dart›, or wand, or up to five arrows or crossbow bolts. As a move action, you can bend your wrist to cause some or all of these items to drop into your hand (provoking attacks of opportunity as normal). You have a +2 bonus on Sleight of Hand checks made to oppose the Perception check of someone observing or frisking you to determine items in the sheath. You can only wear one wrist sheath per arm."
+			"This is a sheath designed to be strapped to your forearm and hidden under a long sleeve. The sheath can hold one forearm-length item, such as a ‹eq-weapon/dagger›, ‹eq-weapon/dart›, or wand, or up to five arrows or crossbow bolts. As a @HL[move action], you can bend your wrist to cause some or all of these items to drop into your hand (provoking attacks of opportunity as normal). You have a +2 bonus on Sleight of Hand checks made to oppose the Perception check of someone observing or frisking you to determine items in the sheath. You can only wear one wrist sheath per arm."
 		]
 	},
 	"wyrm_pesh": {
@@ -4730,11 +4730,11 @@
 			"‹SOURCE Villain Codex/128›  ",
 			"::tabular{format=misc a=\"55 gp (masterwork), 5 gp (normal)\" b=\"1 lb. (masterwork), 1 lb. (normal)\" c=x d=gear}",
 			"",
-			"This blunt iron hook secures to the user's forearm with a sturdy strap. When this item is hooked onto a rope or a similar object that has been fastened at a downward angle, the owner can use it to climb down the rope at a speed of 30 feet as a move action instead of climbing at her normal speed, but the user must take at least one move action doing so each round or she falls. Using a zip-line hook in this way requires a successful DC 5 Climb check for declinations of 90 degrees (straight down), increasing by 5 for every 15 degrees off that baseline in either direction, to a maximum DC of 30 at a 15- or 165-degree declination. It is impossible to utilize a zip-line hook on a rope without a slope, or to ascend an upward-sloping one.",
+			"This blunt iron hook secures to the user's forearm with a sturdy strap. When this item is hooked onto a rope or a similar object that has been fastened at a downward angle, the owner can use it to climb down the rope at a speed of 30 feet as a @HL[move action] instead of climbing at her normal speed, but the user must take at least one @HL[move action] doing so each round or she falls. Using a zip-line hook in this way requires a successful DC 5 Climb check for declinations of 90 degrees (straight down), increasing by 5 for every 15 degrees off that baseline in either direction, to a maximum DC of 30 at a 15- or 165-degree declination. It is impossible to utilize a zip-line hook on a rope without a slope, or to ascend an upward-sloping one.",
 			"",
 			"Zip-line hooks are designed for use with two hands. A character can use a zip-line hook one-handed, but if she does so, she takes a -8 penalty on her Climb checks. Moving via a zip line is considered rigorous motion for the purpose of casting spells. If a zip line or its rope becomes broken while in use, the character using the zip line falls.",
 			"",
-			"A zip-line hook can be improvised from cloth, leather, or any flexible hook-shaped object. Each time the character uses a move action to move with an improvised zip-line hook, the hook takes 1d6 points of damage from friction. A masterwork zip-line hook grants a +2 circumstance bonus on Climb checks to descend a rope."
+			"A zip-line hook can be improvised from cloth, leather, or any flexible hook-shaped object. Each time the character uses a @HL[move action] to move with an improvised zip-line hook, the hook takes 1d6 points of damage from friction. A masterwork zip-line hook grants a +2 circumstance bonus on Climb checks to descend a rope."
 		]
 	},
 	"zip_line_hook_normal": {

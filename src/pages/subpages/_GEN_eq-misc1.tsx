@@ -54,7 +54,7 @@ const _acrobats_pillar = {title: "Acrobat's pillar", jsx: <><h2 id="eq-misc-acro
 const _adamantine_chain_10_ft = {title: "Adamantine chain (10 ft.)", jsx: <><h2 id="eq-misc-adamantine_chain_10_ft-adamantine-chain-10-ft">Adamantine chain (10 ft.)</h2>
 <p><strong>Sources</strong> <Link to="/source/giant_hunters_handbook">Giant Hunter's Handbook pg. 25</Link>  </p>
 <Tabular format="misc" a="3030" b="2" d="gear" />
-<p>This 10-foot-long chain has hardness 20 and 6 hit points. A successful DC 30 Strength check is required to burst it, making it strong enough to hold many types of giants.</p>
+<p>This 10-foot-long chain has <Link to="/rule/hardness">hardness</Link> 20 and 6 hit points. A successful DC 30 Strength check is required to burst it, making it strong enough to hold many types of giants.</p>
 </>};
 const _adhesive_strip = {title: "Adhesive strip", jsx: <><h2 id="eq-misc-adhesive_strip-adhesive-strip">Adhesive strip</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_wilderness">Ultimate Wilderness pg. 245</Link>  </p>
@@ -66,7 +66,7 @@ const _adhesive_strip = {title: "Adhesive strip", jsx: <><h2 id="eq-misc-adhesiv
 const _adventurers_sash = {title: "Adventurer's sash", jsx: <><h2 id="eq-misc-adventurers_sash-adventurers-sash">Adventurer's sash</h2>
 <p><strong>Sources</strong> <Link to="/source/adventurers_armory_2">Adventurer's Armory 2 pg. 12</Link>, <Link to="/source/seekers_of_secrets">Seekers of Secrets pg. 42</Link>  </p>
 <Tabular format="misc" a="20" b="3" d="gear" />
-<p>This bandolier holds six pouches along its length and a satchel at the hip. Each pouch has a stiff leather flap that can be secured against jostling with a clasp (requiring a move action to open or close) or left unfastened for easier access. The pouches and satchel contain loops and ties for securing additional equipment. The sash buckles at the shoulder, and in an emergency can be freed with a sharp tug as a move action.</p>
+<p>This bandolier holds six pouches along its length and a satchel at the hip. Each pouch has a stiff leather flap that can be secured against jostling with a clasp (requiring a <strong className="hl">move action</strong> to open or close) or left unfastened for easier access. The pouches and satchel contain loops and ties for securing additional equipment. The sash buckles at the shoulder, and in an emergency can be freed with a sharp tug as a <strong className="hl">move action</strong>.</p>
 </>};
 const _age_ointment = {title: "Age ointment", jsx: <><h2 id="eq-misc-age_ointment-age-ointment">Age ointment</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_intrigue">Ultimate Intrigue pg. 235</Link>  </p>
@@ -94,7 +94,9 @@ const _air_tank_per_gallon = {title: "Air tank (per gallon)", jsx: <><h2 id="eq-
 const _air_tank_pressurized = {title: "Air tank, pressurized", jsx: <><h2 id="eq-misc-air_tank_pressurized-air-tank-pressurized">Air tank, pressurized</h2>
 <p><strong>Sources</strong> <Link to="/source/aquatic_adventures">Aquatic Adventures pg. 56</Link>  </p>
 <Tabular format="misc" a="25" b="30" d="gear" />
-<p>An air-breathing adventurer would need to bring over a dozen tanks full of air with her to have enough to breathe for even a single hour. Since this is impractical, alchemists developed a technique to store greater amounts of air in a smaller volume using pressure. Each pressurized air tank is a little smaller than half the size of a tank, but it contains enough air for a swimming character to breathe for 1 hour (the pressurized air itself weighs 7 pounds, so an empty tank weighs only 23 pounds). When a small crank is manipulated as a standard action, the tank releases just enough air for a breath, which the diving character breathes in through a straw-like tube with a semi-permeable end piece that allows air out but not water in. The process of refilling the air tank requires 5 gp of materials and a successful DC 20 Craft (alchemy) check (failure destroys the tank) or the services of a <Link to="/class/kineticist">kineticist</Link> with basic aerokinesis.</p>
+<p>An air-breathing adventurer would need to bring over a dozen tanks full of air with her to have enough to breathe for even a single hour. Since this is impractical, alchemists developed a technique to store greater amounts of air in a smaller volume using pressure.</p>
+<p>Each pressurized air tank is a little smaller than half the size of a tank, but it contains enough air for a swimming character to breathe for 1 hour (the pressurized air itself weighs 7 pounds, so an empty tank weighs only 23 pounds). When a small crank is manipulated as a <strong className="hl">standard action</strong>, the tank releases just enough air for a breath, which the diving character breathes in through a straw-like tube with a semi-permeable end piece that allows air out but not water in.</p>
+<p>The process of refilling the air tank requires 5 gp of materials and a successful DC 20 <Link to="/skill/craft">Craft</Link> (alchemy) check (failure destroys the tank) or the services of a <Link to="/class/kineticist">kineticist</Link> with <Link to="/kinetic/basic_aerokinesis">basic aerokinesis</Link>.</p>
 </>};
 const _alchemical_blood = {title: "Alchemical blood", jsx: <><h2 id="eq-misc-alchemical_blood-alchemical-blood">Alchemical blood</h2>
 <p><strong>Sources</strong> <Link to="/source/monster_codex">Monster Codex pg. 237</Link>  </p>
@@ -199,8 +201,10 @@ const _alchemical_solvent = {title: "Alchemical solvent", jsx: <><h2 id="eq-misc
 const _alchemical_tar_paper = {title: "Alchemical tar paper", jsx: <><h2 id="eq-misc-alchemical_tar_paper-alchemical-tar-paper">Alchemical tar paper</h2>
 <p><strong>Sources</strong> <Link to="/source/black_markets">Black Markets pg. 20</Link>  </p>
 <Tabular format="misc" a="50" b="0.5" d="gear" />
-<p>This 5-foot square of paper is covered in alchemical tar on both sides. Removing its protective wax cover and applying the tar paper to a surface requires a full-round action. Any creature that enters this space must succeed a DC 15 Reflex save or be glued to the floor, unable to move away. A victim can break free with a successful DC 17 Strength check or by dealing 15 points of damage to the tar paper with a slashing weapon. Once free, the creature moves (even if flying) at half speed. Once stepped on, the tar turns brittle and falls away, freeing trapped or hindered creatures, after 2d4 rounds. A creature that succeeds at a DC 10 Perception check notices the tar paper in time to avoid stepping on it. Alchemical tar paper cannot be reused.</p>
-<p>This can be crafted with a DC 20 Craft (traps) check.</p>
+<p>This 5-foot square of paper is covered in alchemical tar on both sides. Removing its protective wax cover and applying the tar paper to a surface requires a <strong className="hl">full-round action</strong>.</p>
+<p>Any creature that enters this space must succeed a DC 15 Reflex save or be glued to the floor, unable to move away. A victim can break free with a successful DC 17 Strength check or by dealing 15 points of damage to the tar paper with a slashing weapon. Once free, the creature moves (even if flying) at half speed.</p>
+<p>Once stepped on, the tar turns brittle and falls away, freeing trapped or hindered creatures, after 2d4 rounds. A creature that succeeds at a DC 10 <Link to="/skill/perception">Perception</Link> check notices the tar paper in time to avoid stepping on it. Alchemical tar paper cannot be reused.</p>
+<Tabular format="craft" a="20" b="Traps" />
 </>};
 const _alchemists_kindness = {title: "Alchemist's kindness", jsx: <><h2 id="eq-misc-alchemists_kindness-alchemists-kindness">Alchemist's kindness</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 101</Link>, <Link to="/source/advanced_players_guide">Advanced Player's Guide pg. 183</Link>  </p>
@@ -424,7 +428,8 @@ const _animal_disguise_kit = {title: "Animal disguise kit", jsx: <><h2 id="eq-mi
 const _animal_glue = {title: "Animal glue", jsx: <><h2 id="eq-misc-animal_glue-animal-glue">Animal glue</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 56</Link>  </p>
 <Tabular format="misc" a="0.5" b="0.5" d="gear" />
-<p>This simple glue is created by extensively boiling animal skin, bones, hooves, horn, and tendons until they turn into an ochre syrup that cools when it hardens. Before you use animal glue, you must heat it until it liquefies. You normally apply it with a brush and hold the pieces together for a minute, at which point it is cooled and hardened. The glue is sufficient to coat 1 square foot of surface, or (because of waste and spills) up to 40 smaller applications of approximately 2 square inches each. Pulling apart a large glued surface (at least 1 square foot) requires a DC 15 Strength check. Pulling apart a small glued surface (anything less than 1 square foot) requires a DC 10 Strength check. Animal glue slowly dissolves in water, reducing the Strength DC needed to break it by 1 per 10 minutes. It softens if heated, even with steam, reducing the Strength DC needed to break it by 1 per minute.</p>
+<p>This simple glue is created by extensively boiling animal skin, bones, hooves, horn, and tendons until they turn into an ochre syrup that cools when it hardens. Before you use animal glue, you must heat it until it liquefies. You normally apply it with a brush and hold the pieces together for a minute, at which point it is cooled and hardened. The glue is sufficient to coat 1 square foot of surface, or (because of waste and spills) up to 40 smaller applications of approximately 2 square inches each. Pulling apart a large glued surface (at least 1 square foot) requires a DC 15 Strength check.</p>
+<p>Pulling apart a small glued surface (anything less than 1 square foot) requires a DC 10 Strength check. Animal glue slowly dissolves in water, reducing the Strength DC needed to break it by 1 per 10 minutes. It softens if heated, even with steam, reducing the Strength DC needed to break it by 1 per minute.</p>
 </>};
 const _animal_harness = {title: "Animal harness", jsx: <><h2 id="eq-misc-animal_harness-animal-harness">Animal harness</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 81</Link>, <Link to="/source/advanced_players_guide">Advanced Player's Guide pg. 185</Link>, <Link to="/source/adventurers_armory">Adventurer's Armory pg. 19</Link>  </p>
@@ -442,7 +447,8 @@ const _animal_repellent = {title: "Animal repellent", jsx: <><h2 id="eq-misc-ani
 const _animal_repellant_sack = {title: "Animal-repellant sack", jsx: <><h2 id="eq-misc-animal_repellant_sack-animal-repellant-sack">Animal-repellant sack</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_wilderness">Ultimate Wilderness pg. 242</Link>  </p>
 <Tabular format="misc" a="1" b="0.5" d="gear" />
-<p>This heavy canvas sack can carry adventuring gear and other supplies. It holds 4 cubic feet of goods and has a leather thong that allows it to be tied shut. The sack is laced with scents that animals find odious, and it is dyed in similarly repellant colors. Creatures with the animal creature type and an Intelligence ability score of 2 or lower avoid contact with an animal-repellant sack and won't tamper with its contents unless they're magically compelled, ordered by a handler, or starving.</p>
+<p>This heavy canvas <Link to="/eq-misc/sack">sack</Link> can carry adventuring gear and other supplies. It holds 4 cubic feet of goods and has a leather thong that allows it to be tied shut.</p>
+<p>The sack is laced with scents that animals find odious, and it is dyed in similarly repellant colors. Creatures with the animal creature type and an Intelligence ability score of 2 or lower avoid contact with an animal-repellant sack and won't tamper with its contents unless they're magically compelled, ordered by a handler, or starving.</p>
 </>};
 const _anointing_oil = {title: "Anointing oil", jsx: <><h2 id="eq-misc-anointing_oil-anointing-oil">Anointing oil</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_race_guide">Advanced Race Guide pg. 87</Link>  </p>
@@ -709,7 +715,7 @@ const _arctic_kit = {title: "Arctic kit", jsx: <><h2 id="eq-misc-arctic_kit-arct
 const _area_map = {title: "Area map", jsx: <><h2 id="eq-misc-area_map-area-map">Area map</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 56</Link>, <Link to="/source/adventurers_armory">Adventurer's Armory pg. 19</Link>  </p>
 <Tabular format="misc" a="50" b="2" d="gear" />
-<p>A geographically relevant map grants a user a +1 circumstance bonus on Survival checks made to navigate in the wilderness. It also can be used to grant the same bonus on Knowledge (dungeoneering) checks made to navigate underground.</p>
+<p><Icons id="eq-misc-area_map-boost-icons" wrapper="prefixIcon" list={["boost"]} /> A geographically relevant map grants a user a +1 circumstance bonus on <Link to="/skill/survival">Survival</Link> checks made to navigate in the wilderness. It also can be used to grant the same bonus on <Link to="/skill/knowledge_dungeoneering">Knowledge (dungeoneering)</Link> checks made to navigate underground.</p>
 </>};
 const _armor_ointment = {title: "Armor ointment", jsx: <><h2 id="eq-misc-armor_ointment-armor-ointment">Armor ointment</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 103</Link>  </p>
@@ -726,14 +732,14 @@ const _armor_truss = {title: "Armor truss", jsx: <><h2 id="eq-misc-armor_truss-a
 const _arrow_grappling = {title: "Arrow (grappling)", jsx: <><h2 id="eq-misc-arrow_grappling-arrow-grappling">Arrow (grappling)</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 56</Link>, <Link to="/source/adventurers_armory">Adventurer's Armory pg. 19</Link>  </p>
 <Tabular format="misc" a="1" b="0.5" d="gear" />
-<p>This small grappling hook is designed to be tied to a <Link to="/eq-misc/silk_rope_50_ft">silk rope</Link> and fired from a bow. When fired, it has a range increment of 30 feet. An equivalent item exists for crossbows.</p>
+<p>This small <Link to="/eq-misc/grappling_hook">grappling hook</Link> is designed to be tied to a <Link to="/eq-misc/silk_rope_50_ft">silk rope</Link> and fired from a bow. When fired, it has a range increment of 30 feet. An equivalent item exists for crossbows.</p>
 </>};
 const _artifical_gills = {title: "Artifical gills", jsx: <><h2 id="eq-misc-artifical_gills-artifical-gills">Artifical gills</h2>
 <p><strong>Sources</strong> <Link to="/source/blood_of_the_sea">Blood of the Sea pg. 18</Link>  </p>
 <Tabular format="misc" a="50" b="15" d="gear" />
 <p>Flexible tubes connect a hand pump and a breathing mask to this reinforced leather backpack. When the hand pump is pressed, the artificial gills draw in oxygen from the surrounding water and feed it through the mask, allowing the wearer to breathe underwater for extended periods of time.</p>
-<p>The hand pump must be regularly depressed, requiring you to have a free hand and use a move action each round. If you do not squeeze the hand pump in a round, you must <Link to="/misc/hold_your_breath">hold your breath</Link> or begin to <Link to="/rule/suffocate">suffocate</Link>. Artificial gills eventually become clogged with particulates and must be disassembled and cleaned after 1 hour of being submerged, although this time can be dramatically shortened by murky or polluted water.</p>
-<p>Artificial gills provide no protection against <Link to="/rule/water_dangers">temperature dangers or pressure damage</Link> in the open seas. If artificial gills are submerged more than 100 feet below the surface, they take 1d6 points of damage per round until they are either brought into shallower water or they rupture from the pressure. Artificial gills have a hardness of 0, 10 hit points, and a break DC of 30.</p>
+<p>The hand pump must be regularly depressed, requiring you to have a free hand and use a <strong className="hl">move action</strong> each round. If you do not squeeze the hand pump in a round, you must <Link to="/misc/hold_your_breath">hold your breath</Link> or begin to <Link to="/rule/suffocate">suffocate</Link>. Artificial gills eventually become clogged with particulates and must be disassembled and cleaned after 1 hour of being submerged, although this time can be dramatically shortened by murky or polluted water.</p>
+<p>Artificial gills provide no protection against <Link to="/rule/water_dangers">temperature dangers or pressure damage</Link> in the open seas. If artificial gills are submerged more than 100 feet below the surface, they take 1d6 points of damage per round until they are either brought into shallower water or they rupture from the pressure. Artificial gills have a <Link to="/rule/hardness">hardness</Link> of 0, 10 hit points, and a break DC of 30.</p>
 </>};
 const _artificers_lab_portable = {title: "Artificer's lab (portable)", jsx: <><h2 id="eq-misc-artificers_lab_portable-artificers-lab-portable">Artificer's lab (portable)</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_race_guide">Advanced Race Guide pg. 27</Link>  </p>
@@ -755,7 +761,9 @@ const _artisans_tools_common = {title: "Artisan's tools (common)", jsx: <><h2 id
 const _artists_poster = {title: "Artist's poster", jsx: <><h2 id="eq-misc-artists_poster-artists-poster">Artist's poster</h2>
 <p><strong>Sources</strong> <Link to="/source/occult_adventures">Occult Adventures pg. 248</Link>  </p>
 <Tabular format="misc" a="15" b="x" d="gear" />
-<p>This illustrated piece of paper typically measures 24 inches wide and 32 inches long. An artist's poster is typically used as an advertisement that can be easily seen by crowds of people. Placing a poster within a settlement grants creatures a +1 circumstance bonus on Diplomacy checks to gather information regarding the subject of the poster. If the settlement's population is greater than 1,000 people, one additional poster must be placed for every additional 1,000 people (or portion thereof) to gain the bonus. The cost of this item includes commissioning an artist of appropriate talent to complete the poster, and copies of the poster beyond the first cost 5 sp each.</p>
+<p>This illustrated piece of paper typically measures 24 inches wide and 32 inches long. An artist's poster is typically used as an advertisement that can be easily seen by crowds of people.</p>
+<p><Icons id="eq-misc-artists_poster-boost-info-icons" wrapper="prefixIcon" list={["boost","info"]} /> Placing a poster within a settlement grants creatures a +1 circumstance bonus on <Link to="/skill/diplomacy">Diplomacy</Link> checks to gather information regarding the subject of the poster. If the settlement's population is greater than 1,000 people, one additional poster must be placed for every additional 1,000 people (or portion thereof) to gain the bonus.</p>
+<p>The cost of this item includes commissioning an artist of appropriate talent to complete the poster, and copies of the poster beyond the first cost 5 sp each.</p>
 </>};
 const _artistic_ale = {title: "Artistic ale", jsx: <><h2 id="eq-misc-artistic_ale-artistic-ale">Artistic ale</h2>
 <p><strong>Sources</strong> <Link to="/source/potions_and_poisons">Potions and Poisons pg. 22</Link>  </p>
@@ -767,12 +775,14 @@ const _artistic_ale = {title: "Artistic ale", jsx: <><h2 id="eq-misc-artistic_al
 const _astrolabe = {title: "Astrolabe", jsx: <><h2 id="eq-misc-astrolabe-astrolabe">Astrolabe</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 56</Link>, <Link to="/source/pathfinder_51_the_hungry_storm">Pathfinder #51: The Hungry Storm pg. 67</Link>, <Link to="/source/pirates_of_the_inner_sea">Pirates of the Inner Sea pg. 21</Link>, <Link to="/source/advanced_players_guide">Advanced Player's Guide pg. 184</Link>, <Link to="/source/adventurers_armory">Adventurer's Armory pg. 19</Link>  </p>
 <Tabular format="misc" a="1000" b="6" d="gear" />
-<p>This device consists of a flat disc upon which two other discs are mounted. The mounted discs can rotate on a central axis, allowing them to spin and move as days pass. The bottom disc represents the latitude of the user; an astrolabe is useless if the user is outside the preset latitude. The upper disc represents the sky, and is filled with astronomical features. Anyone can be shown how to use an astrolabe at night to determine the date and time (which takes 1 minute). When using an astrolabe, you can make a Survival check using your Intelligence modifier instead of your Wisdom modifier to avoid becoming lost.</p>
+<p>This device consists of a flat disc upon which two other discs are mounted. The mounted discs can rotate on a central axis, allowing them to spin and move as days pass. The bottom disc represents the latitude of the user; an astrolabe is useless if the user is outside the preset latitude. The upper disc represents the sky, and is filled with astronomical features.</p>
+<p><Icons id="eq-misc-astrolabe-power-icons" wrapper="prefixIcon" list={["power"]} /> Anyone can be shown how to use an astrolabe at night to determine the date and time (which takes 1 minute). When using an astrolabe, you can make a <Link to="/skill/survival">Survival</Link> check using your Intelligence modifier instead of your Wisdom modifier to avoid becoming lost.</p>
 </>};
 const _aura_goggles = {title: "Aura goggles", jsx: <><h2 id="eq-misc-aura_goggles-aura-goggles">Aura goggles</h2>
 <p><strong>Sources</strong> <Link to="/source/occult_adventures">Occult Adventures pg. 248</Link>  </p>
 <Tabular format="misc" a="15" b="1" d="gear" />
-<p>These leather goggles have dark, purple-hued lenses coated with a special alchemical substance that reveals particular psychic spectrums. To provide any benefit, the goggles must be continuously worn for 1 hour, during which time the wearer takes a -2 penalty on all sight-based Perception checks. After this 1-hour period, the user can remove the goggles to gain a +2 circumstance bonus on Perception checks for the <Link to="/skill/read_aura">read aura</Link> occult skill unlock. This benefit fades after 1 hour.</p>
+<p>These leather goggles have dark, purple-hued lenses coated with a special alchemical substance that reveals particular psychic spectrums.</p>
+<p><Icons id="eq-misc-aura_goggles-down-boost-icons" wrapper="prefixIcon" list={["down","boost"]} /> To provide any benefit, the goggles must be continuously worn for 1 hour, during which time the wearer takes a -2 penalty on all sight-based <Link to="/skill/perception">Perception</Link> checks. After this 1-hour period, the user can remove the goggles to gain a +2 circumstance bonus on Perception checks for the <Link to="/skill/read_aura">read aura</Link> occult skill unlock. This benefit fades after 1 hour.</p>
 </>};
 const _riding_animals = {title: "Riding Animals", jsx: <><h2 id="eq-misc-riding_animals-riding-animals">Riding Animals</h2>
 <p><strong>Sources</strong> <Link to="/source/animal_archive">Animal Archive pg. 14</Link>  </p>
@@ -877,14 +887,17 @@ const _authoritative_vestments = {title: "Authoritative vestments", jsx: <><h2 i
 const _automatic_writing_planchette = {title: "Automatic writing planchette", jsx: <><h2 id="eq-misc-automatic_writing_planchette-automatic-writing-planchette">Automatic writing planchette</h2>
 <p><strong>Sources</strong> <Link to="/source/occult_adventures">Occult Adventures pg. 248</Link>  </p>
 <Tabular format="misc" a="25" b="x" d="gear" />
-<p>This finely crafted, heart-shaped wooden board has two delicate wheels and a small aperture to hold a pencil, which acts as the board's third leg. Typically used on a tabletop covered in butcher's paper, the device scribbles out mysterious messages when employed by a creature using the <Link to="/skill/automatic_writing">automatic writing</Link> occult skill unlock, and provides a +2 circumstance bonus on the Linguistics check. When used to channel certain haunts capable of communication, the planchette doubles the rate of communication with the haunt, and grants the user a +4 circumstance bonus on Linguistics checks to decipher the cryptic messages. These benefits do not stack with those of other items that confer similar benefits (such as a <Link to="/eq-misc/talking_board">talking board</Link>).</p>
+<p>This finely crafted, heart-shaped wooden board has two delicate wheels and a small aperture to hold a pencil, which acts as the board's third leg.</p>
+<p><Icons id="eq-misc-automatic_writing_planchette-boost-icons" wrapper="prefixIcon" list={["boost"]} /> Typically used on a tabletop covered in butcher's paper, the device scribbles out mysterious messages when employed by a creature using the <Link to="/skill/automatic_writing">automatic writing</Link> occult skill unlock, and provides a +2 circumstance bonus on the Linguistics check.</p>
+<p><Icons id="eq-misc-automatic_writing_planchette-boost-icons" wrapper="prefixIcon" list={["boost"]} /> When used to channel certain <Link to="/rule/haunts">haunts</Link> capable of communication, the planchette doubles the rate of communication with the haunt, and grants the user a +4 circumstance bonus on Linguistics checks to decipher the cryptic messages.</p>
+<p>These benefits do not stack with those of other items that confer similar benefits (such as a <Link to="/eq-misc/talking_board">talking board</Link>).</p>
 </>};
 const _autosniper_trap = {title: "Autosniper trap", jsx: <><h2 id="eq-misc-autosniper_trap-autosniper-trap">Autosniper trap</h2>
 <p><strong>Sources</strong> <Link to="/source/black_markets">Black Markets pg. 20</Link>  </p>
 <Tabular format="misc" a="250" b="1" d="gear" />
 <p>This framework consists of a small tripod, a spool of wire, and a series of levels. As part of the action to set up the trap, the autosniper is attached to any Small or Medium crossbow and its wire strung across one or two 5-foot squares within 10 feet. Once set, the autosniper fires the attached crossbow automatically at the first Tiny or larger creature that disturbs its tripwire. An autosniper cannot reload the crossbow to which it is attached.</p>
-<p>The general bulkiness of an autosniper's framework imposes a -2 penalty on any attempts to use its attached crossbow as a ranged weapon. An autosniper can be removed from a crossbow with 1 minute of work.</p>
-<p>This can be crafted with a DC 25 Craft (traps) check.</p>
+<p><Icons id="eq-misc-autosniper_trap-warning-icons" wrapper="prefixIcon" list={["warning"]} /> The general bulkiness of an autosniper's framework imposes a -2 penalty on any attempts to use its attached crossbow as a ranged weapon. An autosniper can be removed from a crossbow with 1 minute of work.</p>
+<Tabular format="craft" a="25" b="Traps" />
 <TrapInfo id="autosniper-trap-trap" cr="&mdash;" pdc="15" dddc="15" manual trigger="touch" eff="Atk +5 ranged (damage varies by crossbow)">Autosniper Trap</TrapInfo>
 </>};
 const _axe_beak_combat_trained = {title: "Axe beak (combat trained)", jsx: <><h2 id="eq-misc-axe_beak_combat_trained-axe-beak-combat-trained">Axe beak (combat trained)</h2>
@@ -908,21 +921,24 @@ const _backpack_common = {hasJL:true,title: "Backpack (common)", jsx: <><div cla
 <p>This leather knapsack has one large pocket that closes with a buckled strap and holds about 2 cubic feet of material. Some may have one or more smaller pockets on the sides.</p>
 <h3 id="eq-misc-backpack_common-masterwork-backpack" data-hash-target>Masterwork Backpack</h3>
 <Tabular format="misc" id="masterwork" a="50" b="4" d="gear" />
-<p>This backpack has numerous pockets for storing items that might be needed while adventuring. Hooks are included for attaching items such as canteens, pouches, or even a rolled-up blanket. It has padded bands that strap across the chest and the waist to distribute its weight more evenly. Like a common backpack, it can hold about 2 cubic feet of material in its main container. When wearing a masterwork backpack, treat your Strength score as +1 higher than normal when calculating your <Link to="/rule/carrying_capacity">carrying capacity</Link>.</p>
+<p>This backpack has numerous pockets for storing items that might be needed while adventuring. Hooks are included for attaching items such as canteens, pouches, or even a rolled-up blanket. It has padded bands that strap across the chest and the waist to distribute its weight more evenly. Like a common backpack, it can hold about 2 cubic feet of material in its main container.</p>
+<p><Icons id="eq-misc-backpack_common-boost-icons" wrapper="prefixIcon" list={["boost"]} /> When wearing a masterwork backpack, treat your Strength score as +1 higher than normal when calculating your <Link to="/rule/carrying_capacity">carrying capacity</Link>.</p>
 <h3 id="eq-misc-backpack_common-carrier-backpack" data-hash-target>Carrier Backpack</h3>
 <Tabular format="misc" id="carry" a="25" b="5" d="gear" />
-<p>Reinforced metal bars allow for this leather backpack to withstand a greater degree of stress than a traditional pack. Along with the standard backpack compartment, this pack has an additional pouch and harness at its top. Used together, the harness and pouch can safely contain a Tiny or smaller creature. While harnessed, the creature can't leave the backpack or see outside of it; it takes a full-round action to remove the harness from a carried creature.</p>
+<p>Reinforced metal bars allow for this leather backpack to withstand a greater degree of stress than a traditional pack. Along with the standard backpack compartment, this pack has an additional pouch and harness at its top. Used together, the harness and pouch can safely contain a Tiny or smaller creature. While harnessed, the creature can't leave the backpack or see outside of it; it takes a <strong className="hl">full-round action</strong> to remove the harness from a carried creature.</p>
 <h3 id="eq-misc-backpack_common-hydration-backpack" data-hash-target>Hydration Backpack</h3>
 <Tabular format="misc" id="hydro" a="40" b="4" d="gear" />
-<p>This mostly leather backpack has a series of awkward metallic tubes, which run from the pack over your shoulders, and a small bladder at its base. A hydration backpack has a large pocket identical to that of a regular backpack that holds 2 cubic feet of material, while the bladder holds 1 gallon of liquid. The ends of the metal tubes can be positioned to allow you to easily dispense and drink liquid stored in the attached bladder. Consuming water in this way grants a +2 circumstance bonus on Constitution checks to avoid nonlethal damage during a forced march.</p>
+<p>This mostly leather backpack has a series of awkward metallic tubes, which run from the pack over your shoulders, and a small bladder at its base. A hydration backpack has a large pocket identical to that of a regular backpack that holds 2 cubic feet of material, while the bladder holds 1 gallon of liquid. The ends of the metal tubes can be positioned to allow you to easily dispense and drink liquid stored in the attached bladder.</p>
+<p><Icons id="eq-misc-backpack_common-def-icons" wrapper="prefixIcon" list={["def"]} /> Consuming water in this way grants a +2 circumstance bonus on Constitution checks to avoid nonlethal damage during a <Link to="/rule/forced_march">forced march</Link>.</p>
 <h3 id="eq-misc-backpack_common-weaponrack-backpack" data-hash-target>Weaponrack Backpack</h3>
 <Tabular format="misc" id="weapon" a="25" b="5" d="gear" />
-<p>This leather backpack includes a small weapons rack. The rack holds up to four weapons, such as battleaxes, longswords, maces, or short swords. Allies adjacent to you can retrieve a weapon from the rack as a move action without provoking attacks of opportunity, as if they were simply drawing a weapon. Like a normal backpack, it can hold 2 cubic feet of material in its main compartment.</p>
+<p>This leather backpack includes a small weapons rack. The rack holds up to four weapons, such as battleaxes, longswords, maces, or short swords. Allies adjacent to you can retrieve a weapon from the rack as a <strong className="hl">move action</strong> without provoking attacks of opportunity, as if they were simply drawing a weapon. Like a normal backpack, it can hold 2 cubic feet of material in its main compartment.</p>
 </>};
 const _badger_plush = {title: "Badger plush", jsx: <><h2 id="eq-misc-badger_plush-badger-plush">Badger plush</h2>
 <p><strong>Sources</strong> <Link to="/source/merchants_manifest">Merchant's Manifest pg. 4</Link>  </p>
 <Tabular format="misc" a="45" b="2" d="gear" />
-<p>This stuffed badger - a well-loved and legally protected animal in Absalom - is realistic enough to fool most other animals into thinking it is real. As a move action, a wielder can use a free hand to present the plush; any Small or smaller animal with an Intelligence score of 1 or 2 that can see it takes a -2 penalty on initiative checks.</p>
+<p>This stuffed badger - a well-loved and legally protected animal in Absalom - is realistic enough to fool most other animals into thinking it is real.</p>
+<p><Icons id="eq-misc-badger_plush-lower-icons" wrapper="prefixIcon" list={["lower"]} /> As a <strong className="hl">move action</strong>, a wielder can use a free hand to present the plush; any Small or smaller animal with an Intelligence score of 1 or 2 that can see it takes a -2 penalty on initiative checks.</p>
 </>};
 const _badger = {title: "Badger", jsx: <><h2 id="eq-misc-badger-badger">Badger</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 80</Link>  </p>
@@ -966,12 +982,14 @@ const _bamboo_palace = {title: "Bamboo palace", jsx: <><h2 id="eq-misc-bamboo_pa
 const _bandolier = {title: "Bandolier", jsx: <><h2 id="eq-misc-bandolier-bandolier">Bandolier</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 56</Link>  </p>
 <Tabular format="misc" a="0.5" b="x" d="gear" />
-<p>This leather belt is worn over one shoulder and runs diagonally across the chest and back. It has small loops or pouches for holding eight objects the size of a flask or small dagger. You can use the "retrieve a stored item" action to take an item from a bandolier. You can wear up to two bandoliers at the same time (any more than this and they get in each other's way and restrict your movement).</p>
+<p>This leather belt is worn over one shoulder and runs diagonally across the chest and back. It has small loops or pouches for holding eight objects the size of a flask or small dagger. You can use the <Link to="/rule/move_actions">"retrieve a stored item" action</Link> to take an item from a bandolier.</p>
+<p>You can wear up to two bandoliers at the same time (any more than this and they get in each other's way and restrict your movement).</p>
 </>};
 const _banner = {title: "Banner", jsx: <><h2 id="eq-misc-banner-banner">Banner</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 56</Link>  </p>
 <Tabular format="misc" a="1-20 gp" b="2 lbs." c="x" d="gear" />
-<p>This is a banner, flag, or pennant. You tie it to a pole, lance, or polearm. Most are woven, dyed, or painted with a pattern or symbol, such as a knight's crest or a country's flag. A simple banner with one field color and a simple insignia such as a weapon or shield costs 1 gp. A banner with two to four field colors and a complex insignia such as a lion or dragon costs 5 gp. A detailed banner with four or more field colors and a very complex insignia, such as a heraldic device with eight or more sections, costs 20 gp.</p>
+<p>This is a banner, flag, or pennant. You tie it to a pole, lance, or polearm. Most are woven, dyed, or painted with a pattern or symbol, such as a knight's crest or a country's flag.</p>
+<p>A simple banner with one field color and a simple insignia such as a weapon or shield costs 1 gp. A banner with two to four field colors and a complex insignia such as a lion or dragon costs 5 gp. A detailed banner with four or more field colors and a very complex insignia, such as a heraldic device with eight or more sections, costs 20 gp.</p>
 </>};
 const _banquet_per_person = {title: "Banquet (per person)", jsx: <><h2 id="eq-misc-banquet_per_person-banquet-per-person">Banquet (per person)</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 95</Link>, <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 159</Link>  </p>
@@ -1001,7 +1019,8 @@ const _barbed_troll_claws = {title: "Barbed troll claws", jsx: <><h2 id="eq-misc
 const _barbed_vest = {title: "Barbed vest", jsx: <><h2 id="eq-misc-barbed_vest-barbed-vest">Barbed vest</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 56</Link>, <Link to="/source/advanced_players_guide">Advanced Player's Guide pg. 181</Link>  </p>
 <Tabular format="misc" a="10" b="4" d="gear" />
-<p>Thin leather flaps keep the hundreds of tiny, fishhook-like needles dotting the surface of this black vest from harming you while you wear it. However, any creature that injures you with a natural or unarmed attack must make a DC 15 Reflex save or take 1 point of damage. If a creature swallows you, it takes 1 point of damage each round until it either spits you up, you escape, or you die (at which point the vest has sustained enough damage that it no longer serves as a threat). The vest can only be worn over light armor or no armor.</p>
+<p><Icons id="eq-misc-barbed_vest-def-icons" wrapper="prefixIcon" list={["def"]} /> Thin leather flaps keep the hundreds of tiny, fishhook-like needles dotting the surface of this black vest from harming you while you wear it. However, any creature that injures you with a natural or unarmed attack must make a DC 15 Reflex save or take 1 point of damage.</p>
+<p>If a creature swallows you, it takes 1 point of damage each round until it either spits you up, you escape, or you die (at which point the vest has sustained enough damage that it no longer serves as a threat). The vest can only be worn over light armor or no armor.</p>
 </>};
 const _bards_kit = {title: "Bard's kit", jsx: <><h2 id="eq-misc-bards_kit-bards-kit">Bard's kit</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 56</Link>  </p>
@@ -1073,7 +1092,8 @@ const _beast_whistle = {title: "Beast whistle", jsx: <><h2 id="eq-misc-beast_whi
 const _beast_hunter_whistle = {title: "Beast-hunter whistle", jsx: <><h2 id="eq-misc-beast_hunter_whistle-beast-hunter-whistle">Beast-hunter whistle</h2>
 <p><strong>Sources</strong> <Link to="/source/monster_hunters_handbook">Monster Hunter's Handbook pg. 26</Link>  </p>
 <Tabular format="misc" a="5" b="x" d="gear" />
-<p>This whistle produces sound at a pitch that can only be heard by aberrations, animals, dragons, fey, and magical beasts. The sound can be detected easily (Perception DC 0) from a quarter-mile away. If the user makes a successful DC 15 Perform (wind) check, all creatures within 30 feet that can hear the whistle must succeed at a DC 10 Fortitude save or be <Link to="/misc/dazzled">dazzled</Link> for 1 round (the -1 penalty applies to hearing-based, rather than sight-based, Perception checks).</p>
+<p>This whistle produces sound at a pitch that can only be heard by aberrations, animals, dragons, fey, and magical beasts. The sound can be detected easily (<Link to="/skill/perception">Perception</Link> DC 0) from a quarter-mile away.</p>
+<p><Icons id="eq-misc-beast_hunter_whistle-aura-lower-icons" wrapper="prefixIcon" list={["aura","lower"]} /> If the user makes a successful DC 15 <Link to="/skill/perform">Perform</Link> (wind) check, all creatures within 30 feet that can hear the whistle must succeed at a DC 10 Fortitude save or be <Link to="/misc/dazzled">dazzled</Link> for 1 round (the -1 penalty applies to hearing-based, rather than sight-based, Perception checks).</p>
 </>};
 const _beast_scent = {title: "Beast-scent", jsx: <><h2 id="eq-misc-beast_scent-beast-scent">Beast-scent</h2>
 <p><strong>Sources</strong> <Link to="/source/adventurers_armory_2">Adventurer's Armory 2 pg. 24</Link>, <Link to="/source/seekers_of_secrets">Seekers of Secrets pg. 42</Link>  </p>
@@ -1097,13 +1117,15 @@ const _bedroll = {title: "Bedroll", jsx: <><h2 id="eq-misc-bedroll-bedroll">Bedr
 const _bell_net = {title: "Bell net", jsx: <><h2 id="eq-misc-bell_net-bell-net">Bell net</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 56</Link>  </p>
 <Tabular format="misc" a="2" b="2" d="gear" />
-<p>Copper bells hang at each the corners of this 5-foot-by-5-foot wire net. A bell net is designed to blanket gear while you sleep, hunt, cook, or otherwise can't give it your full attention, rasing an alarm if your possessions are disturbed. Creatures attempting to access gear protected by a bell net must succeed at a DC 25 Sleight of Hand check to avoid chiming the bells. Hearing the chiming bells of a bell net requires a DC 0 Perception check. Because the many bells chime when you move, traveling with a bell net gives you a -2 penalty on Stealth checks.</p>
+<p>Copper bells hang at each the corners of this 5-foot-by-5-foot wire net.</p>
+<p><Icons id="eq-misc-bell_net-def-icons" wrapper="prefixIcon" list={["def"]} /> A bell net is designed to blanket gear while you sleep, hunt, cook, or otherwise can't give it your full attention, rasing an alarm if your possessions are disturbed. Creatures attempting to access gear protected by a bell net must succeed at a DC 25 <Link to="/skill/sleight_of_hand">Sleight of Hand</Link> check to avoid chiming the bells. Hearing the chiming bells of a bell net requires a DC 0 <Link to="/skill/perception">Perception</Link> check.</p>
+<p><Icons id="eq-misc-bell_net-down-icons" wrapper="prefixIcon" list={["down"]} /> Because the many bells chime when you move, traveling with a bell net gives you a -2 penalty on <Link to="/skill/stealth">Stealth</Link> checks.</p>
 </>};
 const _bell_tripwire_trap = {title: "Bell tripwire trap", jsx: <><h2 id="eq-misc-bell_tripwire_trap-bell-tripwire-trap">Bell tripwire trap</h2>
 <p><strong>Sources</strong> <Link to="/source/ranged_tactics_toolbox">Ranged Tactics Toolbox pg. 20</Link>  </p>
 <Tabular format="misc" a="2" b="2" d="gear" />
 <p>This fine, 10-foot-long tripwire is attached to a loud bell and comes with pitons to fix the trap in place. The trap can be set across doorways, hallways, or narrow passes or between trees or rocks. Arming the trap properly takes 5 minutes; it can be set up in as little as 1 minute, but doing so reduces the DC to notice and disarm the trap by 5. The trap has the following statistics.</p>
-<p>This can be crafted with a DC 15 Craft (traps) check.</p>
+<Tabular format="craft" a="15" b="Traps" />
 <TrapInfo id="bell-tripwire-trap-trap" cr="&mdash;" pdc="20" dddc="20" manual trigger="touch" eff="bell rings (Perception DC 0 to hear)">Bell Tripwire Trap</TrapInfo>
 </>};
 const _bell = {title: "Bell", jsx: <><h2 id="eq-misc-bell-bell">Bell</h2>
@@ -1261,12 +1283,13 @@ const _blightburn_paste = {title: "Blightburn paste", jsx: <><h2 id="eq-misc-bli
 const _blightburn_reader = {title: "Blightburn reader", jsx: <><h2 id="eq-misc-blightburn_reader-blightburn-reader">Blightburn reader</h2>
 <p><strong>Sources</strong> <Link to="/source/heroes_of_the_darklands">Heroes of the Darklands pg. 8</Link>  </p>
 <Tabular format="misc" a="25" b="1" d="gear" />
-<p>A blightburn reader is a small wooden or metal frame, roughly 2 inches wide and 4 inches long, containing a specially prepared alchemical paper pressed between two thin panes of glass. Whenever a character wearing a blightburn reader enters an area with a radiation hazard, the paper within changes from white to black over the course of 1 minute. Once the paper turns black, it is destroyed and must be replaced at a cost of 15 gp before the blightburn reader can be used again.</p>
+<p>A <em>blightburn reader</em> is a small wooden or metal frame, roughly 2 inches wide and 4 inches long, containing a specially prepared alchemical paper pressed between two thin panes of glass.</p>
+<p><Icons id="eq-misc-blightburn_reader-info-icons" wrapper="prefixIcon" list={["info"]} /> Whenever a character wearing a <em>blightburn reader</em> enters an area with a radiation hazard, the paper within changes from white to black over the course of 1 minute. Once the paper turns black, it is destroyed and must be replaced at a cost of 15 gp before the <em>blightburn reader</em> can be used again.</p>
 </>};
 const _block_and_tackle = {title: "Block and tackle", jsx: <><h2 id="eq-misc-block_and_tackle-block-and-tackle">Block and tackle</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 56</Link>, <Link to="/source/advanced_players_guide">Advanced Player's Guide pg. 185</Link>, <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 158</Link>, <Link to="/source/adventurers_armory">Adventurer's Armory pg. 19</Link>  </p>
 <Tabular format="misc" a="5" b="5" d="gear" />
-<p>Whether it is used to hoist treasure from a pit or move supplies, a simple block-and-tackle pulley, when it is properly secured, adds a +5 circumstance bonus on Strength checks to lift heavy objects. Securing the pulley requires 1 minute.</p>
+<p><Icons id="eq-misc-block_and_tackle-boost-icons" wrapper="prefixIcon" list={["boost"]} /> Whether it is used to hoist treasure from a pit or move supplies, a simple block-and-tackle pulley, when it is properly secured, adds a +5 circumstance bonus on Strength checks to lift heavy objects. Securing the pulley requires 1 minute.</p>
 </>};
 const _blood_neutralizer = {title: "Blood neutralizer", jsx: <><h2 id="eq-misc-blood_neutralizer-blood-neutralizer">Blood neutralizer</h2>
 <p><strong>Sources</strong> <Link to="/source/blood_of_the_sea">Blood of the Sea pg. 18</Link>  </p>
@@ -1331,7 +1354,8 @@ const _bloody_mandrake = {title: "Bloody Mandrake", jsx: <><h2 id="eq-misc-blood
 const _blue_book = {title: "Blue book", jsx: <><h2 id="eq-misc-blue_book-blue-book">Blue book</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 56</Link>  </p>
 <Tabular format="misc" a="5" b="1" d="gear" />
-<p>This book details the seedier entertainment establishments in one major city. It contains the names of brothels, burlesque houses, and gambling halls in that city. By consulting the book for 1 hour, for the next 24 hours you gain a +2 circumstance bonus on Knowledge (local), Bluff, and Diplomacy checks to gather or use information in that city. At the GM's discretion, you can use it in settlements near that city for a +1 bonus.</p>
+<p>This book details the seedier entertainment establishments in one major city. It contains the names of brothels, burlesque houses, and gambling halls in that city.</p>
+<p><Icons id="eq-misc-blue_book-boost-icons" wrapper="prefixIcon" list={["boost"]} /> By consulting the book for 1 hour, for the next 24 hours you gain a +2 circumstance bonus on <Link to="/skill/knowledge_local">Knowledge (local)</Link>, <Link to="/skill/bluff">Bluff</Link>, and <Link to="/skill/diplomacy">Diplomacy</Link> checks to gather or use information in that city. At the GM's discretion, you can use it in settlements near that city for a +1 bonus.</p>
 </>};
 const _boars_bellow = {title: "Boar's bellow", jsx: <><h2 id="eq-misc-boars_bellow-boars-bellow">Boar's bellow</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_intrigue">Ultimate Intrigue pg. 236</Link>  </p>
@@ -1401,12 +1425,14 @@ const _boniface_paint = {title: "Boniface paint", jsx: <><h2 id="eq-misc-bonifac
 const _book_lariat = {title: "Book lariat", jsx: <><h2 id="eq-misc-book_lariat-book-lariat">Book lariat</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_class_guide">Advanced Class Guide pg. 202</Link>  </p>
 <Tabular format="misc" a="0.3" b="0.5" d="gear" />
-<p>This braided metal cord comes with a clasp that affixes to the lock of a standard spellbook. The other end of the cord attaches to a belt or belt loop. The cord is 10 feet long and retractable. If you drop your spellbook while it's attached to the lariat, you can recover the spellbook as a standard action. While attached to you, the book can never be farther than 10 feet from you. Unclasping the book requires a move action, or the cord can be cut to free the book (hardness 5, hp 10).</p>
+<p>This braided metal cord comes with a clasp that affixes to the lock of a standard <Link to="/eq-misc/spellbook">spellbook</Link>. The other end of the cord attaches to a belt or belt loop. The cord is 10 feet long and retractable.</p>
+<p><Icons id="eq-misc-book_lariat-def-icons" wrapper="prefixIcon" list={["def"]} /> If you drop your spellbook while it's attached to the lariat, you can recover the spellbook as a <strong className="hl">standard action</strong>. While attached to you, the book can never be farther than 10 feet from you. Unclasping the book requires a <strong className="hl">move action</strong>, or the cord can be cut to free the book (<Link to="/rule/hardness">hardness</Link> 5, hp 10).</p>
 </>};
 const _book_of_letters = {title: "Book of letters", jsx: <><h2 id="eq-misc-book_of_letters-book-of-letters">Book of letters</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 56</Link>  </p>
 <Tabular format="misc" a="50" b="3" d="gear" />
-<p>This portfolio contains examples of official letters along with proper forms of address, etiquette, and turns of phrase. Used by bureaucrats, diplomats, and clerks, it's also useful for counterfeiting official correspondence. It provides a +2 circumstance bonus on Diplomacy checks when dealing with city officials and a +2 circumstance bonus on Linguistics checks when creating forgeries. A book of letters is only accurate for a particular region, such as a country or even a town, and only provides its bonus relating to that region.</p>
+<p><Icons id="eq-misc-book_of_letters-boost-icons" wrapper="prefixIcon" list={["boost"]} /> This portfolio contains examples of official letters along with proper forms of address, etiquette, and turns of phrase. Used by bureaucrats, diplomats, and clerks, it's also useful for counterfeiting official correspondence. It provides a +2 circumstance bonus on <Link to="/skill/diplomacy">Diplomacy</Link> checks when dealing with city officials and a +2 circumstance bonus on <Link to="/skill/linguistics">Linguistics</Link> checks when creating forgeries.</p>
+<p>A book of letters is only accurate for a particular region, such as a country or even a town, and only provides its bonus relating to that region.</p>
 </>};
 const _book_of_puzzles = {title: "Book of puzzles", jsx: <><h2 id="eq-misc-book_of_puzzles-book-of-puzzles">Book of puzzles</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_class_guide">Advanced Class Guide pg. 202</Link>  </p>
@@ -1418,7 +1444,8 @@ const _book_of_puzzles = {title: "Book of puzzles", jsx: <><h2 id="eq-misc-book_
 const _book_of_war_prayers = {title: "Book of war prayers", jsx: <><h2 id="eq-misc-book_of_war_prayers-book-of-war-prayers">Book of war prayers</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_class_guide">Advanced Class Guide pg. 202</Link>  </p>
 <Tabular format="misc" a="50" b="0.5" d="gear" />
-<p>This small, leather-bound collection of war prayers features pages of fine vellum. If you have a Charisma of 13 or higher, or at least 1 rank in Perform (oratory), you can read aloud prayers from the book before battle to hearten others for the trials to come. Reading prayers for this effect takes 10 minutes. You grant those who hear your prayers a +2 morale bonus on the next saving throw against fear they attempt, as long as that saving throw is made in the next 24 hours.</p>
+<p>This small, leather-bound collection of war prayers features pages of fine vellum.</p>
+<p><Icons id="eq-misc-book_of_war_prayers-protect-icons" wrapper="prefixIcon" list={["protect"]} /> If you have a Charisma of 13 or higher, or at least 1 rank in <Link to="/skill/perform">Perform</Link> (oratory), you can read aloud prayers from the book before battle to hearten others for the trials to come. Reading prayers for this effect takes 10 minutes. You grant those who hear your prayers a +2 morale bonus on the next saving throw against fear they attempt, as long as that saving throw is made in the next 24 hours.</p>
 </>};
 const _bore_brush = {title: "Bore brush", jsx: <><h2 id="eq-misc-bore_brush-bore-brush">Bore brush</h2>
 <p><strong>Sources</strong> <Link to="/source/people_of_the_wastes">People of the Wastes pg. 14</Link>  </p>
@@ -1455,7 +1482,8 @@ const _bottled_sunlight = {title: "Bottled sunlight", jsx: <><h2 id="eq-misc-bot
 const _bottom_walkers_anchor = {title: "Bottom-walker's anchor", jsx: <><h2 id="eq-misc-bottom_walkers_anchor-bottom-walkers-anchor">Bottom-walker's anchor</h2>
 <p><strong>Sources</strong> <Link to="/source/aquatic_adventures">Aquatic Adventures pg. 56</Link>  </p>
 <Tabular format="misc" a="5" b="50" d="gear" />
-<p>This dense anchor is attached to a sturdy but easily detachable chain (removing the chain is a move action). Wearing a bottomwalker's anchor all but guarantees an undersea explorer a swiftly sinking <Link to="/rule/buoyancy">buoyancy</Link>, though it also increases her armor check penalty by 1 and decreases her maximum Dexterity bonus by 1 (or sets it at +6, if the wearer didn't have a maximum Dexterity bonus). Compared to simply carrying plenty of dense items, it's unwieldy, but the advantage is that the undersea explorer can detach the anchor in a hurry in order to float to the surface, while unloading a number of dense objects might be a slow process (and could deprive the explorer of valuable gear).</p>
+<p>This dense anchor is attached to a sturdy but easily detachable chain (removing the chain is a <strong className="hl">move action</strong>).</p>
+<p><Icons id="eq-misc-bottom_walkers_anchor-down-icons" wrapper="prefixIcon" list={["down"]} /> Wearing a bottomwalker's anchor all but guarantees an undersea explorer a swiftly sinking <Link to="/rule/buoyancy">buoyancy</Link>, though it also increases her armor check penalty by 1 and decreases her maximum Dexterity bonus by 1 (or sets it at +6, if the wearer didn't have a maximum Dexterity bonus). Compared to simply carrying plenty of dense items, it's unwieldy, but the advantage is that the undersea explorer can detach the anchor in a hurry in order to float to the surface, while unloading a number of dense objects might be a slow process (and could deprive the explorer of valuable gear).</p>
 </>};
 const _boulderhead_bock = {title: "Boulderhead bock", jsx: <><h2 id="eq-misc-boulderhead_bock-boulderhead-bock">Boulderhead bock</h2>
 <p><strong>Sources</strong> <Link to="/source/alchemy_manual">Alchemy Manual pg. 13</Link>  </p>
@@ -1478,7 +1506,8 @@ const _bowling_set = {title: "Bowling set", jsx: <><h2 id="eq-misc-bowling_set-b
 const _braille_bracelet = {title: "Braille bracelet", jsx: <><h2 id="eq-misc-braille_bracelet-braille-bracelet">Braille bracelet</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_class_guide">Advanced Class Guide pg. 202</Link>  </p>
 <Tabular format="misc" a="25" b="x" d="gear" />
-<p>This bracelet contains 10 small clay beads, each carved with a raised symbol. The beads can be removed from the bracelet cord and rearranged in any order. Once arranged, the carvings can be felt with the fingers to determine the symbols' meaning and decipher any message the bracelet is meant to convey. A single bead could impart a simple message, or multiple beads can be strung together to form more complicated messages. Interpreting the beads allows individuals to communicate in absolute silence, even in complete darkness or otherwise unable to see. To use the beads properly, you and your allies must assign each bead a meaning prior to using the bracelet in this way. Recalling the meaning of a single bead requires a successful DC 10 Intelligence check. Conveying more complicated messages increases this check by 2 for each additional bead used. Deciphering the message is practically impossible for a creature that doesn't know the meanings assigned to the beads, increasing the DC by 20.</p>
+<p>This bracelet contains 10 small clay beads, each carved with a raised symbol. The beads can be removed from the bracelet cord and rearranged in any order. Once arranged, the carvings can be felt with the fingers to determine the symbols' meaning and decipher any message the bracelet is meant to convey. A single bead could impart a simple message, or multiple beads can be strung together to form more complicated messages. Interpreting the beads allows individuals to communicate in absolute silence, even in complete darkness or otherwise unable to see.</p>
+<p><Icons id="eq-misc-braille_bracelet-power-icons" wrapper="prefixIcon" list={["power"]} /> To use the beads properly, you and your allies must assign each bead a meaning prior to using the bracelet in this way. Recalling the meaning of a single bead requires a successful DC 10 Intelligence check. Conveying more complicated messages increases this check by 2 for each additional bead used. Deciphering the message is practically impossible for a creature that doesn't know the meanings assigned to the beads, increasing the DC by 20.</p>
 </>};
 const _branding_iron_common = {title: "Branding iron (common)", jsx: <><h2 id="eq-misc-branding_iron_common-branding-iron">Branding iron</h2>
 <p><strong>Sources</strong> <Link to="/source/adventurers_guide">Adventurer's Guide pg. 96</Link>, <Link to="/source/path_of_the_hellknight">Path of the Hellknight pg. 63</Link>  </p>
@@ -1508,7 +1537,7 @@ const _bread = {title: "Bread", jsx: <><h2 id="eq-misc-bread-bread">Bread</h2>
 const _breakaway_chains = {title: "Breakaway chains", jsx: <><h2 id="eq-misc-breakaway_chains-breakaway-chains">Breakaway chains</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 56</Link>, <Link to="/source/adventurers_armory">Adventurer's Armory pg. 19</Link>  </p>
 <Tabular format="misc" a="65" b="2" d="gear" />
-<p>These masterwork chains are easy to break, even though they look like normal chains (Perception DC 25 to notice the difference). A DC 10 Strength check breaks them instantly.</p>
+<p>These masterwork chains are easy to break, even though they look like normal chains (<Link to="/skill/perception">Perception</Link> DC 25 to notice the difference). A DC 10 Strength check breaks them instantly.</p>
 </>};
 const _breakers_kit = {title: "Breaker's kit", jsx: <><h2 id="eq-misc-breakers_kit-breakers-kit">Breaker's kit</h2>
 <p><strong>Sources</strong> <Link to="/source/dungeoneers_handbook">Dungeoneer's Handbook pg. 7</Link>  </p>
@@ -1534,7 +1563,9 @@ const _brewers_kit_masterwork = {title: "Brewer's kit, masterwork", jsx: <><h2 i
 const _broadsheet = {title: "Broadsheet", jsx: <><h2 id="eq-misc-broadsheet-broadsheet">Broadsheet</h2>
 <p><strong>Sources</strong> <Link to="/source/inner_sea_intrigue">Inner Sea Intrigue pg. 50</Link>  </p>
 <Tabular format="misc" a="0.6" b="x" d="gear" />
-<p>Most broadsheets circulate the latest news in the city where they were printed. Most cities in technologically developed nations with printing presses have multiple wealthy or government-backed publishers that put out broadsheets. A broadsheet typically provides information as if the reader had attempted a Diplomacy check to gather information about the topic of the broadsheet (usually news of current politics, scandals, or business) and the result of the check were 10. Rather than 1d4 hours, gathering information in this way takes only as long as is required to read the broadsheet. Broadsheets printed with engraved-plate printing presses are at least a few weeks out of date, but those printed with movable-type presses can contain news from as recently as yesterday.</p>
+<p>Most broadsheets circulate the latest news in the city where they were printed. Most cities in technologically developed nations with printing presses have multiple wealthy or government-backed publishers that put out broadsheets.</p>
+<p><Icons id="eq-misc-broadsheet-info-icons" wrapper="prefixIcon" list={["info"]} /> A broadsheet typically provides information as if the reader had attempted a <Link to="/skill/diplomacy">Diplomacy</Link> check to gather information about the topic of the broadsheet (usually news of current politics, scandals, or business) and the result of the check were 10. Rather than 1d4 hours, gathering information in this way takes only as long as is required to read the broadsheet.</p>
+<p>Broadsheets printed with engraved-plate printing presses are at least a few weeks out of date, but those printed with movable-type presses can contain news from as recently as yesterday.</p>
 </>};
 const _bronze_gong_irori = {title: "Bronze gong", jsx: <><h2 id="eq-misc-bronze_gong_irori-bronze-gong">Bronze gong</h2>
 <p><strong>Sources</strong> <Link to="/source/faiths_of_balance">Faiths of Balance pg. 24</Link>  </p>
@@ -1576,7 +1607,8 @@ const _bunk = {title: "Bunk", jsx: <><h2 id="eq-misc-bunk-bunk">Bunk</h2>
 const _buoy_common = {title: "Buoy (common)", jsx: <><h2 id="eq-misc-buoy_common-buoy">Buoy</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 56</Link>, <Link to="/source/advanced_players_guide">Advanced Player's Guide pg. 181</Link>  </p>
 <Tabular format="misc" a="5 sp (common), 10 gp (superior)" b="16 lbs. (common), 30 lbs. (superior)" c="x" d="gear" />
-<p>A buoy is used to mark a specific spot in a lake, river, or similar body of water, making it possible for you to return to that location at a later date. A common buoy includes a float (typically an air-filled bladder or sealed gourd), a 200-foot length of twine, and a 15-pound stone used as an anchor. The float is usually painted a vivid color, and may have a small flag to attract attention. Though anchor buoys prove quite resilient to normal weather and tides, they offer little challenge to intelligent creatures determined to sabotage them. A superior buoy has a spherical or ovoid hollow metal float (typically copper), a length of chain rather than twine, and a metal anchor rather than a weight.</p>
+<p>A buoy is used to mark a specific spot in a lake, river, or similar body of water, making it possible for you to return to that location at a later date. A common buoy includes a float (typically an air-filled bladder or sealed gourd), a 200-foot length of twine, and a 15-pound stone used as an anchor. The float is usually painted a vivid color, and may have a small flag to attract attention. Though anchor buoys prove quite resilient to normal weather and tides, they offer little challenge to intelligent creatures determined to sabotage them.</p>
+<p>A superior buoy has a spherical or ovoid hollow metal float (typically copper), a length of chain rather than twine, and a metal anchor rather than a weight.</p>
 </>};
 const _buoyant_balloon = {title: "Buoyant balloon", jsx: <><h2 id="eq-misc-buoyant_balloon-buoyant-balloon">Buoyant balloon</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 103</Link>  </p>
@@ -1607,7 +1639,8 @@ const _burner = {title: "Burner", jsx: <><h2 id="eq-misc-burner-burner">Burner</
 const _butterfly_net = {title: "Butterfly net", jsx: <><h2 id="eq-misc-butterfly_net-butterfly-net">Butterfly net</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 56</Link>, <Link to="/source/advanced_players_guide">Advanced Player's Guide pg. 181</Link>  </p>
 <Tabular format="misc" a="5" b="2" d="gear" />
-<p>One end of this 6-foot-long pole supports a wide metal hoop covered by a thin mesh net. You can use this to sift objects from material capable of passing through the net, such as sand or water. You can also use a butterfly net to capture Fine or Diminutive creatures as if it were a <Link to="/eq-weapon/net">net</Link> (weapon), though you don't need to re-fold the butterfly net if you miss, and you use the handle of the butterfly net like you would the rope of a net weapon.</p>
+<p>One end of this 6-foot-long pole supports a wide metal hoop covered by a thin mesh net. You can use this to sift objects from material capable of passing through the net, such as sand or water.</p>
+<p><Icons id="eq-misc-butterfly_net-melee-icons" wrapper="prefixIcon" list={["melee"]} /> You can also use a butterfly net to capture Fine or Diminutive creatures as if it were a <Link to="/eq-weapon/net">net</Link> (weapon), though you don't need to re-fold the butterfly net if you miss, and you use the handle of the butterfly net like you would the rope of a net weapon.</p>
 </>};
 const _cage = {title: "Cage", jsx: <><h2 id="eq-misc-cage-cage">Cage</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 81</Link>, <Link to="/source/adventurers_armory">Adventurer's Armory pg. 19</Link>, <Link to="/source/advanced_players_guide">Advanced Player's Guide pg. 185</Link>  </p>
@@ -1625,13 +1658,16 @@ const _caltrops = {title: "Caltrops", jsx: <><h2 id="eq-misc-caltrops-caltrops">
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 56</Link>, <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 158</Link>  </p>
 <Tabular format="misc" a="1" b="2" d="gear" />
 <p>A caltrop is a four-pronged metal spike crafted so that one prong always faces up no matter how the caltrop comes to rest. You scatter caltrops on the ground in the hope that your enemies step on them or are at least forced to slow down to avoid them. One 2-pound bag of caltrops covers an area 5 feet square.</p>
-<p>Each time a creature moves into an area covered by caltrops (or spends a round fighting while standing in such an area), it runs the risk of stepping on one. Make an attack roll for the caltrops (base attack bonus +0) against the creature. For this attack, the creature's shield, armor, and deflection bonuses do not count. If the creature is wearing shoes or other footwear, it gets a +2 armor bonus to AC. If the attack succeeds, the creature has stepped on a caltrop. The caltrop deals 1 point of damage, and the creature's speed is reduced by half because its foot is wounded. This movement penalty lasts for 24 hours, until the creature is successfully treated with a DC 15 Heal check, or until it receives at least 1 point of magical healing. A charging or running creature must immediately stop if it steps on a caltrop. Any creature moving at half speed or slower can pick its way through a bed of caltrops with no trouble.</p>
+<p><Icons id="eq-misc-caltrops-lower-icons" wrapper="prefixIcon" list={["lower"]} /> Each time a creature moves into an area covered by caltrops (or spends a round fighting while standing in such an area), it runs the risk of stepping on one. Make an attack roll for the caltrops (base attack bonus +0) against the creature. For this attack, the creature's shield, armor, and deflection bonuses do not count. If the creature is wearing shoes or other footwear, it gets a +2 armor bonus to AC. If the attack succeeds, the creature has stepped on a caltrop. The caltrop deals 1 point of damage, and the creature's speed is reduced by half because its foot is wounded. This movement penalty lasts for 24 hours, until the creature is successfully treated with a DC 15 <Link to="/skill/heal">Heal</Link> check, or until it receives at least 1 point of magical healing.</p>
+<p>A <Link to="/rule/charging">charging</Link> or <Link to="/rule/run">running</Link> creature must immediately stop if it steps on a caltrop. Any creature moving at half speed or slower can pick its way through a bed of caltrops with no trouble.</p>
 <p>Caltrops may not work against unusual opponents.</p>
 <p>Also see:</p>
 <ul>
+<li><Link to="/eq-misc/cold_iron_caltrops">Cold iron caltrops</Link></li>
 <li><Link to="/eq-misc/hollow_caltrops">Hollow caltrops</Link></li>
 <li><Link to="/eq-misc/serrated_caltrops">Serrated caltrops</Link></li>
 <li><Link to="/eq-misc/shrapnel_caltrops">Shrapnel caltrops</Link></li>
+<li><Link to="/eq-misc/vicious_caltrops">Vicious caltrops</Link></li>
 </ul>
 </>};
 const _caltrops_cold_iron = {title: "Caltrops, cold iron", jsx: <><h2 id="eq-misc-caltrops_cold_iron-caltrops-cold-iron">Caltrops, cold iron</h2>
@@ -1642,12 +1678,14 @@ const _caltrops_cold_iron = {title: "Caltrops, cold iron", jsx: <><h2 id="eq-mis
 const _caltrops_vicious = {title: "Caltrops, vicious", jsx: <><h2 id="eq-misc-caltrops_vicious-caltrops-vicious">Caltrops, vicious</h2>
 <p><strong>Sources</strong> <Link to="/source/goblins_of_golarion">Goblins of Golarion pg. 12</Link>  </p>
 <Tabular format="misc" a="50" b="4" d="gear" />
-<p>These specially modified <Link to="/eq-misc/caltrops">caltrops</Link> have clusters of needle-sharp spines that are slightly longer and more brittle than those on normal caltrops. Like standard caltrops, a 2-pound bag of vicious caltrops covers a 5-foot-square area. Vicious caltrops work just like normal caltrops, save that they have an attack bonus of +4, do 1d2 points of damage, and require a DC 20 Heal check to fully treat.</p>
+<p>These specially modified <Link to="/eq-misc/caltrops">caltrops</Link> have clusters of needle-sharp spines that are slightly longer and more brittle than those on normal caltrops. Like standard caltrops, a 2-pound bag of vicious caltrops covers a 5-foot-square area.</p>
+<p><Icons id="eq-misc-caltrops_vicious-boost-icons" wrapper="prefixIcon" list={["boost"]} /> Vicious caltrops work just like normal caltrops, save that they have an attack bonus of +4, do 1d2 points of damage, and require a DC 20 <Link to="/skill/heal">Heal</Link> check to fully treat.</p>
 </>};
 const _calumet = {title: "Calumet", jsx: <><h2 id="eq-misc-calumet-calumet">Calumet</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_class_guide">Advanced Class Guide pg. 203</Link>  </p>
 <Tabular format="misc" a="20" b="x" d="gear" />
-<p>A calumet is a two-piece ceremonial smoking pipe with a bowl shaped from stone or clay and an intricately carved wooden stem decorated with dangling fetishes. The pipe is typically carried in a special leather pouch festooned with beads, patterns, and trinkets. The pipe is used to smoke various herbal mixtures required for certain rituals. The communal smoking of a calumet is sometimes incorporated into diplomatic meetings as a sign of solidarity between various parties. You gain a +1 circumstance bonus on Diplomacy checks against anyone you share your calumet with in this way.</p>
+<p>A calumet is a two-piece ceremonial smoking pipe with a bowl shaped from stone or clay and an intricately carved wooden stem decorated with dangling fetishes. The pipe is typically carried in a special leather pouch festooned with beads, patterns, and trinkets. The pipe is used to smoke various herbal mixtures required for certain rituals.</p>
+<p><Icons id="eq-misc-calumet-boost-icons" wrapper="prefixIcon" list={["boost"]} /> The communal smoking of a calumet is sometimes incorporated into diplomatic meetings as a sign of solidarity between various parties. You gain a +1 circumstance bonus on <Link to="/skill/diplomacy">Diplomacy</Link> checks against anyone you share your calumet with in this way.</p>
 </>};
 const _camel = {hasJL:true,title: "Camel", jsx: <><div className="jumpList" id="eq-misc-camel-jumplist"><h2>Jump to:</h2><ul><li><InnerLink toTop to="eq-misc-camel-specific-mounts">Specific Mounts</InnerLink></li></ul></div><h2 id="eq-misc-camel-camel">Camel</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 81</Link>  </p>
@@ -1662,7 +1700,8 @@ const _camel = {hasJL:true,title: "Camel", jsx: <><div className="jumpList" id="
 const _camouflage_blanket = {title: "Camouflage blanket", jsx: <><h2 id="eq-misc-camouflage_blanket-camouflage-blanket">Camouflage blanket</h2>
 <p><strong>Sources</strong> <Link to="/source/ranged_tactics_toolbox">Ranged Tactics Toolbox pg. 20</Link>  </p>
 <Tabular format="misc" a="12" b="2" d="gear" />
-<p>This large, coarse blanket covers a single square and has a multi-colored design that blends in with a specific environment type, such as underground, forests, or plains (see the ranger's <Link to="/ability/favored_terrain">Favored Terrains</Link> table). A character covered by a camouflage blanket in that blanket's matching terrain has <Link to="/rule/concealment">concealment</Link>. Such characters who are also <Link to="/rule/prone">prone</Link> gain a +2 circumstance bonus on Stealth checks. The bonus applies even when the covered character attempts a Stealth check to remain hidden after sniping with a projectile weapon.</p>
+<p>This large, coarse blanket covers a single square and has a multi-colored design that blends in with a specific environment type, such as underground, forests, or plains (see the ranger's <Link to="/ability/favored_terrain">Favored Terrains</Link> table).</p>
+<p><Icons id="eq-misc-camouflage_blanket-def-icons" wrapper="prefixIcon" list={["def"]} /> A character covered by a camouflage blanket in that blanket's matching terrain has <Link to="/rule/concealment">concealment</Link>. Such characters who are also <Link to="/rule/prone">prone</Link> gain a +2 circumstance bonus on <Link to="/skill/stealth">Stealth</Link> checks. The bonus applies even when the covered character attempts a Stealth check to remain hidden after sniping with a projectile weapon.</p>
 </>};
 const _camouflage_lichen = {title: "Camouflage lichen", jsx: <><h2 id="eq-misc-camouflage_lichen-camouflage-lichen">Camouflage lichen</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_race_guide">Advanced Race Guide pg. 147</Link>  </p>
@@ -1674,14 +1713,16 @@ const _camouflage_lichen = {title: "Camouflage lichen", jsx: <><h2 id="eq-misc-c
 const _camouflage_netting = {title: "Camouflage netting", jsx: <><h2 id="eq-misc-camouflage_netting-camouflage-netting">Camouflage netting</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 56</Link>  </p>
 <Tabular format="misc" a="20" b="5" d="gear" />
-<p>This loose mesh of twine and varicolored cloth is used to disguise the presence of creatures or large objects. Camouflage netting must be manufactured to provide camouflage in a single type of terrain, such as snow, sand, forest, grass, swamp, urban, or water. When you hide under the netting in the appropriate terrain, you gain a +4 circumstance bonus on Stealth checks as long as you remain immobile and prone. Covering up with camouflage netting is a full-round action requiring a DC 10 Survival check (failure means you do not cover yourself correctly with the netting and do not gain its bonus on Stealth checks). You have the <Link to="/rule/entangled">entangled</Link> condition when using the netting, except your Dexterity penalty does not affect your initiative or Stealth checks. Taking off camouflage netting is a move action, or a swift action if combined with a move action to stand up from a prone position.</p>
-<p>You may spend 1 minute covering an object with camouflage netting. Make a Survival check with a -10 penalty and use the total as the Stealth check result for the object. Creatures who fail a Perception check against this Stealth DC do not recognize what the object is and usually treat it as a natural part of the terrain. For example, you can conceal a wagon as a rock or patch of brush. Covering a Large object requires two nets. Covering a Huge or Gargantuan object requires five nets and takes 10 minutes of work, and the Survival check penalty is -20 instead of -10. Camouflaging a Colossal object depends on its shape but generally requires at least 10 camouflage nets and takes 1 hour of work, and the Survival check penalty is -30 instead of -10.</p>
-<p>A creature with the <Link to="/umr/scent">scent</Link> ability ignores the effect of camouflage netting and makes checks against your actual Stealth roll when in scent range. Any creature within 10 feet of a Large or larger object hidden by camouflage netting automatically recognizes it as an object covered in camouflage.</p>
+<p>This loose mesh of twine and varicolored cloth is used to disguise the presence of creatures or large objects. Camouflage netting must be manufactured to provide camouflage in a single type of terrain, such as snow, sand, forest, grass, swamp, urban, or water.</p>
+<p><Icons id="eq-misc-camouflage_netting-def-warning-icons" wrapper="prefixIcon" list={["def","warning"]} /> When you hide under the netting in the appropriate terrain, you gain a +4 circumstance bonus on <Link to="/skill/stealth">Stealth</Link> checks as long as you remain immobile and <Link to="/rule/prone">prone</Link>. Covering up with camouflage netting is a <strong className="hl">full-round action</strong> requiring a DC 10 <Link to="/skill/survival">Survival</Link> check (failure means you do not cover yourself correctly with the netting and do not gain its bonus on Stealth checks). You have the <Link to="/rule/entangled">entangled</Link> condition when using the netting, except your Dexterity penalty does not affect your initiative or Stealth checks. Taking off camouflage netting is a <strong className="hl">move action</strong>, or a <strong className="hl">swift action</strong> if combined with a move action to stand up from a prone position.</p>
+<p><Icons id="eq-misc-camouflage_netting-protect-icons" wrapper="prefixIcon" list={["protect"]} /> You may spend 1 minute covering an object with camouflage netting. Make a Survival check with a -10 penalty and use the total as the Stealth check result for the object. Creatures who fail a Perception check against this Stealth DC do not recognize what the object is and usually treat it as a natural part of the terrain. For example, you can conceal a wagon as a rock or patch of brush. Covering a Large object requires two nets. Covering a Huge or Gargantuan object requires five nets and takes 10 minutes of work, and the Survival check penalty is -20 instead of -10. Camouflaging a Colossal object depends on its shape but generally requires at least 10 camouflage nets and takes 1 hour of work, and the Survival check penalty is -30 instead of -10.</p>
+<p><Icons id="eq-misc-camouflage_netting-info-icons" wrapper="prefixIcon" list={["info"]} /> A creature with the <Link to="/umr/scent">scent</Link> ability ignores the effect of camouflage netting and makes checks against your actual Stealth roll when in scent range. Any creature within 10 feet of a Large or larger object hidden by camouflage netting automatically recognizes it as an object covered in camouflage.</p>
 </>};
 const _camouflaged_canvas = {title: "Camouflaged Canvas", jsx: <><h2 id="eq-misc-camouflaged_canvas-camouflaged-canvas">Camouflaged Canvas</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_wilderness">Ultimate Wilderness pg. 242</Link>  </p>
 <Tabular format="misc" a="1" b="1" d="gear" />
-<p>This heavy cloth is dyed to match a single terrain type (chosen from the ranger's list of <Link to="/ability/favored_terrain">favored terrains</Link>). This canvas can be stretched over an area to obfuscate it from creatures wandering by. Creatures unaware of the setup must succeed at a DC 14 Perception check to realize the covered area is actually a canvas sheet. A camouflaged canvas is not waterproof, but it can be treated with oil, resin, or wax to make it water resistant.</p>
+<p>This heavy cloth is dyed to match a single terrain type (chosen from the ranger's list of <Link to="/ability/favored_terrain">favored terrains</Link>). This canvas can be stretched over an area to obfuscate it from creatures wandering by.</p>
+<p><Icons id="eq-misc-camouflaged_canvas-def-icons" wrapper="prefixIcon" list={["def"]} /> Creatures unaware of the setup must succeed at a DC 14 <Link to="/skill/perception">Perception</Link> check to realize the covered area is actually a canvas sheet. A camouflaged canvas is not waterproof, but it can be treated with oil, resin, or wax to make it water resistant.</p>
 <p>Price and weight are for 1 square yard of canvas.</p>
 </>};
 const _campsite_kit = {title: "Campsite kit", jsx: <><h2 id="eq-misc-campsite_kit-campsite-kit">Campsite kit</h2>
@@ -1734,7 +1775,7 @@ const _cane_hollow_common = {title: "Cane, hollow (common)", jsx: <><h2 id="eq-m
 const _cannon_ball = {title: "Cannon ball", jsx: <><h2 id="eq-misc-cannon_ball-cannon-ball">Cannon ball</h2>
 <p><strong>Sources</strong> <Link to="/source/inner_sea_world_guide">Inner Sea World Guide pg. 293</Link>  </p>
 <Tabular format="misc" a="30" b="25" d="gear" />
-<p>A cannon ball is the ammunition of a <Link to="/eq-siegeengine/cannon">cannon</Link> and many other siege firearms. Picking up or drawing a cannon ball requires a move action for Medium and Small creatures, but is a free action for Large and larger creatures.</p>
+<p>A cannon ball is the ammunition of a <Link to="/eq-siegeengine/cannon">cannon</Link> and many other siege firearms. Picking up or drawing a cannon ball requires a <strong className="hl">move action</strong> for Medium and Small creatures, but is a <strong className="hl">free action</strong> for Large and larger creatures.</p>
 </>};
 const _canteen = {title: "Canteen", jsx: <><h2 id="eq-misc-canteen-canteen">Canteen</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 56</Link>  </p>
@@ -1896,7 +1937,7 @@ const _centipede_house = {title: "Centipede (house)", jsx: <><h2 id="eq-misc-cen
 const _chain_10_ft = {title: "Chain (10 ft.)", jsx: <><h2 id="eq-misc-chain_10_ft-chain-10-ft">Chain (10 ft.)</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 56</Link>, <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 158</Link>  </p>
 <Tabular format="misc" a="30" b="2" d="gear" />
-<p>This chain is made of interlocking metal links roughly an inch long, and thick enough to bear large amounts of weight. It has hardness 10 and 5 hit points. It can be burst with a DC 26 Strength check.</p>
+<p>This chain is made of interlocking metal links roughly an inch long, and thick enough to bear large amounts of weight. It has <Link to="/rule/hardness">hardness</Link> 10 and 5 hit points. It can be burst with a DC 26 Strength check.</p>
 </>};
 const _chain_belt = {title: "Chain belt", jsx: <><h2 id="eq-misc-chain_belt-chain-belt">Chain belt</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_race_guide">Advanced Race Guide pg. 177</Link>  </p>
@@ -2071,7 +2112,7 @@ const _climbers_kit = {title: "Climber's kit", jsx: <><h2 id="eq-misc-climbers_k
 const _climbers_plank = {title: "Climber's plank", jsx: <><h2 id="eq-misc-climbers_plank-climbers-plank">Climber's plank</h2>
 <p><strong>Sources</strong> <Link to="/source/adventurers_armory_2">Adventurer's Armory 2 pg. 12</Link>  </p>
 <Tabular format="misc" a="20" b="4" d="gear" />
-<p>A climber's plank is a 1-foot-wide wooden plank with a steel-capped spike carved on one end. The spiked end can be driven into a wall to create a temporary platform. Driving a climber's plank into a wall is a standard action and requires a successful Strength check, with a DC equal to the break DC of the surface material. Removing an embedded climber's plank requires a second Strength check at the same DC. You can easily stand on a pair of climber's planks, but standing on a single plank requires a successful DC 5 Acrobatics check. Climber's planks are sold in pairs.</p>
+<p>A climber's plank is a 1-foot-wide wooden plank with a steel-capped spike carved on one end. The spiked end can be driven into a wall to create a temporary platform. Driving a climber's plank into a wall is a <strong className="hl">standard action</strong> and requires a successful Strength check, with a DC equal to the break DC of the surface material. Removing an embedded climber's plank requires a second Strength check at the same DC. You can easily stand on a pair of climber's planks, but standing on a single plank requires a successful DC 5 Acrobatics check. Climber's planks are sold in pairs.</p>
 </>};
 const _clockwork_dial = {title: "Clockwork dial", jsx: <><h2 id="eq-misc-clockwork_dial-clockwork-dial">Clockwork dial</h2>
 <p><strong>Sources</strong> <Link to="/source/merchants_manifest">Merchant's Manifest pg. 4</Link>  </p>
@@ -2149,7 +2190,7 @@ const _collapsible_bathtub = {title: "Collapsible bathtub", jsx: <><h2 id="eq-mi
 const _collapsible_plank = {title: "Collapsible plank", jsx: <><h2 id="eq-misc-collapsible_plank-collapsible-plank">Collapsible plank</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 56</Link>, <Link to="/source/adventurers_armory">Adventurer's Armory pg. 19</Link>  </p>
 <Tabular format="misc" a="0.4" b="10" d="gear" />
-<p>Hinged in two places, collapsible planks can hold 250 pounds before breaking. The 10-foot-long plank folds down into a 3-foot-by-1-foot-by-6-inch bundle. Folding or unfolding it is a standard action.</p>
+<p>Hinged in two places, collapsible planks can hold 250 pounds before breaking. The 10-foot-long plank folds down into a 3-foot-by-1-foot-by-6-inch bundle. Folding or unfolding it is a <strong className="hl">standard action</strong>.</p>
 </>};
 const _collapsible_rowboat = {title: "Collapsible rowboat", jsx: <><h2 id="eq-misc-collapsible_rowboat-collapsible-rowboat">Collapsible rowboat</h2>
 <p><strong>Sources</strong> <Link to="/source/heroes_of_the_darklands">Heroes of the Darklands pg. 19</Link>  </p>
@@ -2164,7 +2205,7 @@ const _collapsible_trampoline = {title: "Collapsible trampoline", jsx: <><h2 id=
 const _combat_scabbard = {title: "Combat scabbard", jsx: <><h2 id="eq-misc-combat_scabbard-combat-scabbard">Combat scabbard</h2>
 <p><strong>Sources</strong> <Link to="/source/adventurers_armory">Adventurer's Armory pg. 19</Link>  </p>
 <Tabular format="misc" a="1" b="1" d="gear" />
-<p>This scabbard is an <Link to="/misc/improvised_weapon">improvised weapon</Link> designed to allow you to remove it from your belt as a swift action when drawing the weapon it contains. Taking the <Link to="/feat/equipment_trick">Equipment Trick</Link> feat for a scabbard gives you additional combat options for using a scabbard. For the purpose of fighter <Link to="/ability/weapon_groups">weapon groups</Link>, a scabbard for a heavy blade is considered a hammer, and a scabbard for a light blade is considered a close weapon.</p>
+<p>This scabbard is an <Link to="/misc/improvised_weapon">improvised weapon</Link> designed to allow you to remove it from your belt as a <strong className="hl">swift action</strong> when drawing the weapon it contains. Taking the <Link to="/feat/equipment_trick">Equipment Trick</Link> feat for a scabbard gives you additional combat options for using a scabbard. For the purpose of fighter <Link to="/ability/weapon_groups">weapon groups</Link>, a scabbard for a heavy blade is considered a hammer, and a scabbard for a light blade is considered a close weapon.</p>
 </>};
 const _commissioned_broadsheet_setup_and_proof_print = {title: "Commissioned broadsheet (setup and proof print)", jsx: <><h2 id="eq-misc-commissioned_broadsheet_setup_and_proof_print-commissioned-broadsheet">Commissioned broadsheet</h2>
 <p><strong>Sources</strong> <Link to="/source/merchants_manifest">Merchant's Manifest pg. 5</Link>  </p>
