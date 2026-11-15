@@ -1527,7 +1527,7 @@ const _wildborn = {title: "Wildborn", jsx: <><h2 id="arc-barbarian-wildborn-wild
 <Ability id="weapon-and-armor-proficiency" icon={["down","power","warning"]}>
 <Pair single id="weapon-and-armor-proficiency">Weapon and Armor Proficiency</Pair>
 <Pair hl title="Alters">The barbarian's normal weapon and armor proficiencies</Pair>
-<Pair title="Passive Ability">A wildborn is proficient with leather and hide armors (but not shields) and all simple weapons that can be crafted from bone, stone, or wood. If she uses any other kind of weapon or armor, she loses her abilities from this archetype (except illiteracy) for the next 24 hours.</Pair>
+<Pair title="Passive Ability">A wildborn is proficient with leather and hide armors (but not shields) and all simple weapons that can be crafted from <Link to="/eq-material/bone">bone</Link>, <Link to="/eq-material/stone">stone</Link>, or wood. If she uses any other kind of weapon or armor, she loses her abilities from this archetype (except illiteracy) for the next 24 hours.</Pair>
 <Pair title="Ability">A wildborn gains <Link to="/feat/improved_unarmed_strike">Improved Unarmed Strike</Link> and <Link to="/feat/catch_off_guard">Catch Off-Guard</Link> as bonus feats.</Pair>
 </Ability>
 <Ability id="illiteracy" icon={["down"]}>
