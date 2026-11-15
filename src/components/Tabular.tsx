@@ -620,20 +620,27 @@ const FormatObject: { [x: string]: FormatProps } = {
 			);
 		}
 	},
-	craftalch: {
-		required: [ "a" ],
+	craft: {
+		required: [ "a", "b" ],
 		className: "backOnly",
 		formatter: (props) => {
-			const {a} = props;
-			// a=craft alchemy DC
+			const {a, b} = props;
+			// a=craft DC, b=Craft subskill
 			return (
 				<table><tbody>
 					<tr>
 						<th scope="row">Construction</th>
-						<td><Link to="/skills/craft">Craft (Alchemy)</Link> DC {a}</td>
+						<td><Link to="/skills/craft">Craft ({b})</Link> DC {a}</td>
 					</tr>
 				</tbody></table>
 			);
+		}
+	},
+	craftalch: {
+		required: [ "a" ],
+		className: "backOnly",
+		formatter: (props) => {
+			return FormatObject.craft.formatter({b: "Alchemy", ...props})
 		}
 	},
 	planet: {
