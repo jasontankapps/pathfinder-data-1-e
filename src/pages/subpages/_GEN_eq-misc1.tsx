@@ -1765,12 +1765,13 @@ const _candlestick = {title: "Candlestick", jsx: <><h2 id="eq-misc-candlestick-c
 const _cane_common = {title: "Cane (common)", jsx: <><h2 id="eq-misc-cane_common-cane">Cane</h2>
 <p><strong>Sources</strong> <Link to="/source/adventurers_armory_2">Adventurer's Armory 2 pg. 12</Link>  </p>
 <Tabular format="misc" a="1 sp (common), 25 gp (elegant), 2 gp (simple)" b="3 lbs. (common), 4 lbs. (elegant), 3 lbs. (simple)" c="x" d="gear" />
-<p>A cane is a walking stick fashioned from wood. A cane sports either a metal cap or a curved top that's easy to grip. Simple canes are no more than a sturdy branch, while high quality canes are made from fine materials and bear intricate carvings or adornments.</p>
+<p>A cane is a walking stick fashioned from wood. A cane sports either a metal cap or a curved top that's easy to grip.</p>
+<p>Simple canes are no more than a sturdy branch, while high quality canes are made from fine materials and bear intricate carvings or adornments.</p>
 </>};
 const _cane_hollow_common = {title: "Cane, hollow (common)", jsx: <><h2 id="eq-misc-cane_hollow_common-cane-hollow">Cane, hollow</h2>
 <p><strong>Sources</strong> <Link to="/source/adventurers_armory_2">Adventurer's Armory 2 pg. 12</Link>  </p>
 <Tabular format="misc" a="1" b="0" c="M" d="gear" />
-<p>A hollow <Link to="/eq-misc/cane">cane</Link> has a false top that conceals a small compartment within the cane. The compartment is large enough to house a potion or vial. Spotting the secret compartment of a hollow cane requires a successful DC 18 Perception check.</p>
+<p>A hollow <Link to="/eq-misc/cane">cane</Link> has a false top that conceals a small compartment within the cane. The compartment is large enough to house a potion or vial. Spotting the secret compartment of a hollow cane requires a successful DC 18 <Link to="/skill/perception">Perception</Link> check.</p>
 </>};
 const _cannon_ball = {title: "Cannon ball", jsx: <><h2 id="eq-misc-cannon_ball-cannon-ball">Cannon ball</h2>
 <p><strong>Sources</strong> <Link to="/source/inner_sea_world_guide">Inner Sea World Guide pg. 293</Link>  </p>
@@ -1884,7 +1885,8 @@ const _caul = {title: "Caul", jsx: <><h2 id="eq-misc-caul-caul">Caul</h2>
 const _cauldron_mithral = {title: "Cauldron (mithral)", jsx: <><h2 id="eq-misc-cauldron_mithral-cauldron">Cauldron</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 56</Link>  </p>
 <Tabular format="misc" a="1 gp, 2,501 gp (mithral)" b="5 lbs., 2&frac12; lbs. (mithral)" c="x" d="gear" />
-<p>This larger version of an iron pot holds approximately 1 gallon - enough to fill the bellies of four hungry humans for one meal. It can also be used for potion-making and similar activities. A mithral cauldron is lighter, and food rarely sticks to it.</p>
+<p>This larger version of an iron pot holds approximately 1 gallon - enough to fill the bellies of four hungry humans for one meal. It can also be used for potion-making and similar activities.</p>
+<p>A mithral cauldron is lighter, and food rarely sticks to it.</p>
 </>};
 const _cavaliers_kit = {title: "Cavalier's kit", jsx: <><h2 id="eq-misc-cavaliers_kit-cavaliers-kit">Cavalier's kit</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 56</Link>  </p>
@@ -1894,7 +1896,7 @@ const _cavaliers_kit = {title: "Cavalier's kit", jsx: <><h2 id="eq-misc-cavalier
 const _cave_whistle = {title: "Cave whistle", jsx: <><h2 id="eq-misc-cave_whistle-cave-whistle">Cave whistle</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_race_guide">Advanced Race Guide pg. 135</Link>  </p>
 <Tabular format="misc" a="20" b="x" d="gear" />
-<p>Fashioned from the spongy stem of a rare mushroom, this whistle produces a sound that only kobolds and dragons can hear. Kobolds often create complicated codes made up of notes that they use to coordinate ambushes and raids.</p>
+<p>Fashioned from the spongy stem of a rare mushroom, this whistle produces a sound that only <Link to="/race/kobold">kobolds</Link> and dragons can hear. Kobolds often create complicated codes made up of notes that they use to coordinate ambushes and raids.</p>
 </>};
 const _caviar = {title: "Caviar", jsx: <><h2 id="eq-misc-caviar-caviar">Caviar</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 95</Link>  </p>
@@ -1981,7 +1983,9 @@ const _charcoal = {title: "Charcoal", jsx: <><h2 id="eq-misc-charcoal-charcoal">
 const _charda_claws = {title: "Charda claws", jsx: <><h2 id="eq-misc-charda_claws-charda-claws">Charda claws</h2>
 <p><strong>Sources</strong> <Link to="/source/merchants_manifest">Merchant's Manifest pg. 21</Link>  </p>
 <Tabular format="misc" a="150" b="x" d="gear" />
-<p>This tiny set of sculpted claws, made from stone carefully chipped from the Battle of Charda monument, is set upon a fine chain. Once per day when attempting an <Link to="/skill/intimidate">Intimidate</Link> check to demoralize a single opponent in combat, the user can forcefully present the charda claws as part of the action to activate their residual power. Using the claws in this way requires a free hand, but only while the Intimidate check is made. If the Intimidate check was a success and the target is demoralized, the claws grant the wielder a +1 morale bonus on attack rolls against that creature for the duration of the demoralized effect. If the wielder uses the claws but the Intimidate check is not successful, the claws' daily use is expended to no effect.</p>
+<p>This tiny set of sculpted claws, made from stone carefully chipped from the Battle of Charda monument, is set upon a fine chain.</p>
+<p><Icons id="eq-misc-charda_claws-boost-icons" wrapper="prefixIcon" list={["boost"]} /> Once per day when attempting an <Link to="/skill/intimidate">Intimidate</Link> check to demoralize a single opponent in combat, the user can forcefully present the charda claws as part of the action to activate their residual power. Using the claws in this way requires a free hand, but only while the Intimidate check is made. If the Intimidate check was a success and the target is demoralized, the claws grant the wielder a +1 morale bonus on attack rolls against that creature for the duration of the demoralized effect.</p>
+<p>If the wielder uses the claws but the Intimidate check is not successful, the claws' daily use is expended to no effect.</p>
 </>};
 const _chariot = {hasJL:true,title: "Chariot", jsx: <><div className="jumpList" id="eq-misc-chariot-jumplist"><h2>Jump to:</h2><ul><li><InnerLink toTop to="eq-misc-chariot-light-chariots">Light Chariots</InnerLink></li><li><InnerLink toTop to="eq-misc-chariot-medium-chariots">Medium Chariots</InnerLink></li><li><InnerLink toTop to="eq-misc-chariot-heavy-chariots">Heavy Chariots</InnerLink></li></ul></div><h2 id="eq-misc-chariot-chariot">Chariot</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 87</Link>  </p>
@@ -2054,12 +2058,14 @@ const _chroniclers_kit = {title: "Chronicler's kit", jsx: <><h2 id="eq-misc-chro
 const _cipher_rings = {title: "Cipher rings", jsx: <><h2 id="eq-misc-cipher_rings-cipher-rings">Cipher rings</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_class_guide">Advanced Class Guide pg. 203</Link>  </p>
 <Tabular format="misc" a="10" b="x" d="gear" />
-<p>This set of bulky wooden rings is the key to a substitution code set at the rings' creation. A base set comes with two identical rings. Additional rings can be made for 4 gp apiece. Using the cipher rings' code enables you to create or decode a written message (no check required). Deciphering the message without the correct ring requires a DC 25 Linguistics check.</p>
+<p>This set of bulky wooden rings is the key to a substitution code set at the rings' creation. A base set comes with two identical rings. Additional rings can be made for 4 gp apiece.</p>
+<p><Icons id="eq-misc-cipher_rings-power-icons" wrapper="prefixIcon" list={["power"]} /> Using the cipher rings' code enables you to create or decode a written message (no check required). Deciphering the message without the correct ring requires a DC 25 <Link to="/skill/linguistics">Linguistics</Link> check.</p>
 </>};
 const _city_map = {title: "City map", jsx: <><h2 id="eq-misc-city_map-city-map">City map</h2>
 <p><strong>Sources</strong> <Link to="/source/heroes_of_the_streets">Heroes of the Streets pg. 12</Link>  </p>
 <Tabular format="misc" a="40" b="x" d="gear" />
-<p>This map aids in navigating a single city. You can consult the map for 1 minute to gain a +2 bonus when attempting a Knowledge (local) check to identify a location in that city (and can attempt checks for DCs above 10 even if untrained) or when attempting a DC 15 Survival check to avoid getting lost in that city.</p>
+<p>This map aids in navigating a single city.</p>
+<p><Icons id="eq-misc-city_map-boost-icons" wrapper="prefixIcon" list={["boost"]} /> You can consult the map for 1 minute to gain a +2 bonus when attempting a <Link to="/skill/knowledge_local">Knowledge (local)</Link> check to identify a location in that city (and can attempt checks for DCs above 10 even if untrained) or when attempting a DC 15 <Link to="/skill/survival">Survival</Link> check to avoid getting lost in that city.</p>
 </>};
 const _clatterstone = {title: "Clatterstone", jsx: <><h2 id="eq-misc-clatterstone-clatterstone">Clatterstone</h2>
 <p><strong>Sources</strong> <Link to="/source/heroes_of_the_darklands">Heroes of the Darklands pg. 28</Link>  </p>
@@ -2071,7 +2077,7 @@ const _clatterstone = {title: "Clatterstone", jsx: <><h2 id="eq-misc-clatterston
 const _clay_whippoorwill = {title: "Clay whippoorwill", jsx: <><h2 id="eq-misc-clay_whippoorwill-clay-whippoorwill">Clay whippoorwill</h2>
 <p><strong>Sources</strong> <Link to="/source/inner_sea_temples">Inner Sea Temples pg. 42</Link>  </p>
 <Tabular format="misc" a="5" b="0.5" d="gear" />
-<p>In addition to being an instrument suitable for Perform (wind) checks, this elaborately crafted whippoorwill-shaped clay ocarina also doubles the effective range of the secret whistled Nightsong language to a distance of 1,000 feet.</p>
+<p><Icons id="eq-misc-clay_whippoorwill-boost-icons" wrapper="prefixIcon" list={["boost"]} /> In addition to being an instrument suitable for <Link to="/skill/perform">Perform</Link> (wind) checks, this elaborately crafted whippoorwill-shaped clay ocarina also doubles the effective range of the secret whistled Nightsong language to a distance of 1,000 feet.</p>
 </>};
 const _clay = {title: "Clay", jsx: <><h2 id="eq-misc-clay-clay">Clay</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 56</Link>  </p>
@@ -2102,7 +2108,8 @@ const _clerics_vestments = {title: "Cleric's vestments", jsx: <><h2 id="eq-misc-
 const _click_claw = {title: "Click-claw", jsx: <><h2 id="eq-misc-click_claw-click-claw">Click-claw</h2>
 <p><strong>Sources</strong> <Link to="/source/blood_of_the_sea">Blood of the Sea pg. 18</Link>  </p>
 <Tabular format="misc" a="2" b="x" d="gear" />
-<p>This small metallic device resembles a crab's claw. When the item is pinched and released, friction on the claw's inner surface creates a loud clicking noise that carries up to a half mile underwater. The intensity of the sound decreases as the click passes through water, providing a listener familiar with the sound a general sense of the distance and direction of the noise's origin (Perception DC 0, +1 per 100 feet between the click-claw and the listener). Click-claws are particularly useful for keeping a group together in murky water, and many undersea animal handlers train their animals to respond to the noise.</p>
+<p><Icons id="eq-misc-click_claw-power-icons" wrapper="prefixIcon" list={["power"]} /> This small metallic device resembles a crab's claw. When the item is pinched and released, friction on the claw's inner surface creates a loud clicking noise that carries up to a half mile underwater. The intensity of the sound decreases as the click passes through water, providing a listener familiar with the sound a general sense of the distance and direction of the noise's origin (<Link to="/skill/perception">Perception</Link> DC 0, +1 per 100 feet between the click-claw and the listener).</p>
+<p>Click-claws are particularly useful for keeping a group together in murky water, and many undersea animal handlers train their animals to respond to the noise.</p>
 </>};
 const _climbers_kit = {title: "Climber's kit", jsx: <><h2 id="eq-misc-climbers_kit-climbers-kit">Climber's kit</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 77</Link>, <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 158</Link>  </p>
@@ -2112,7 +2119,9 @@ const _climbers_kit = {title: "Climber's kit", jsx: <><h2 id="eq-misc-climbers_k
 const _climbers_plank = {title: "Climber's plank", jsx: <><h2 id="eq-misc-climbers_plank-climbers-plank">Climber's plank</h2>
 <p><strong>Sources</strong> <Link to="/source/adventurers_armory_2">Adventurer's Armory 2 pg. 12</Link>  </p>
 <Tabular format="misc" a="20" b="4" d="gear" />
-<p>A climber's plank is a 1-foot-wide wooden plank with a steel-capped spike carved on one end. The spiked end can be driven into a wall to create a temporary platform. Driving a climber's plank into a wall is a <strong className="hl">standard action</strong> and requires a successful Strength check, with a DC equal to the break DC of the surface material. Removing an embedded climber's plank requires a second Strength check at the same DC. You can easily stand on a pair of climber's planks, but standing on a single plank requires a successful DC 5 Acrobatics check. Climber's planks are sold in pairs.</p>
+<p>A climber's plank is a 1-foot-wide wooden plank with a steel-capped spike carved on one end.</p>
+<p>The spiked end can be driven into a wall to create a temporary platform. Driving a climber's plank into a wall is a <strong className="hl">standard action</strong> and requires a successful Strength check, with a DC equal to the break DC of the surface material. Removing an embedded climber's plank requires a second Strength check at the same DC.</p>
+<p>You can easily stand on a pair of climber's planks, but standing on a single plank requires a successful DC 5 <Link to="/skill/acrobatics">Acrobatics</Link> check. Climber's planks are sold in pairs.</p>
 </>};
 const _clockwork_dial = {title: "Clockwork dial", jsx: <><h2 id="eq-misc-clockwork_dial-clockwork-dial">Clockwork dial</h2>
 <p><strong>Sources</strong> <Link to="/source/merchants_manifest">Merchant's Manifest pg. 4</Link>  </p>
@@ -2122,8 +2131,8 @@ const _clockwork_dial = {title: "Clockwork dial", jsx: <><h2 id="eq-misc-clockwo
 const _clockwork_oar = {title: "Clockwork oar", jsx: <><h2 id="eq-misc-clockwork_oar-clockwork-oar">Clockwork oar</h2>
 <p><strong>Sources</strong> <Link to="/source/merchants_manifest">Merchant's Manifest pg. 16</Link>  </p>
 <Tabular format="misc" a="500" b="50" d="gear" />
-<p>This clockwork device is powered by heatstones and seawater and can turn a ship's <Link to="/eq-misc/oar">oar</Link> with tireless mechanical strokes. When installed on a water vehicle that uses muscle as a means of propulsion, a clockwork oar performs the function of one Medium rower. A broken clockwork oar functions only half as well as an unbroken one, so two broken clockwork oars are required to perform the function of one Medium rower.</p>
-<p>For <Link to="/rule/propulsion_and_driving_checks">driving checks</Link> with a water vehicle powered with only clockwork oars, the driver must attempt Disable Device or Knowledge (engineering) checks instead of the skill checks listed in the vehicle's driving check entry in its stat block. (These checks represent the sailor ensuring that all of the oars are moving in unison and without impediment.) If a water vehicle is powered with one or more clockwork oars but not solely with clockwork oars, the skills used for driving checks remain unchanged.</p>
+<p>This clockwork device is powered by <Link to="/eq-misc/heatstone">heatstones</Link> and seawater and can turn a ship's <Link to="/eq-misc/oar">oar</Link> with tireless mechanical strokes. When installed on a water vehicle that uses muscle as a means of propulsion, a clockwork oar performs the function of one Medium rower. A broken clockwork oar functions only half as well as an unbroken one, so two broken clockwork oars are required to perform the function of one Medium rower.</p>
+<p><Icons id="eq-misc-clockwork_oar-info-icons" wrapper="prefixIcon" list={["info"]} /> For <Link to="/rule/propulsion_and_driving_checks">driving checks</Link> with a water vehicle powered with only clockwork oars, the driver must attempt <Link to="/skill/disable_device">Disable Device</Link> or <Link to="/skill/knowledge_engineering">Knowledge (engineering)</Link> checks instead of the skill checks listed in the vehicle's driving check entry in its stat block. (These checks represent the sailor ensuring that all of the oars are moving in unison and without impediment.) If a water vehicle is powered with one or more clockwork oars but not solely with clockwork oars, the skills used for driving checks remain unchanged.</p>
 </>};
 const _clockwork_prowler_advanced = {title: "Clockwork prowler (advanced)", jsx: <><h2 id="eq-misc-clockwork_prowler_advanced-clockwork-prowler-advanced">Clockwork prowler (advanced)</h2>
 <p><strong>Sources</strong> <Link to="/source/pathfinder_society_field_guide">Pathfinder Society Field Guide pg. 48</Link>  </p>
@@ -2152,12 +2161,16 @@ const _coach_cab_travel_per_mile = {title: "Coach cab (travel, per mile)", jsx: 
 const _cobbled_item = {title: "Cobbled item", jsx: <><h2 id="eq-misc-cobbled_item-cobbled-item">Cobbled item</h2>
 <p><strong>Sources</strong> <Link to="/source/goblins_of_golarion">Goblins of Golarion pg. 12</Link>  </p>
 <Tabular format="misc" a="Special" b="Special" c="x" d="gear" />
-<p>Goblins are masters at crafting things from bits of rubbish. The category of "cobbled item" is a general catch-all to describe any piece of equipment that has been repaired or modified by goblins. Such items are of an inferior quality - whenever they're used as part of a skill check or attack roll, they have a 10% chance of being broken. Cobbled items can never be masterwork items. A cobbled item is of lesser quality than a normal item, and thus costs only 75% as much as the normal item, but is often much bulkier. Any cobbled item of 1 pound or more in weight actually weighs twice as much as a normal item of its type. Any item that normally costs more than 50 gp can never be a cobbled item, nor can alchemical items be cobbled. At the GM's discretion, other items may not be able to be cobbled items either.</p>
+<p><Icons id="eq-misc-cobbled_item-down-icons" wrapper="prefixIcon" list={["down"]} /> Goblins are masters at crafting things from bits of rubbish. The category of "cobbled item" is a general catch-all to describe any piece of equipment that has been repaired or modified by goblins. Such items are of an inferior quality - whenever they're used as part of a skill check or attack roll, they have a 10% chance of being broken. Cobbled items can never be masterwork items.</p>
+<p>A cobbled item is of lesser quality than a normal item, and thus costs only 75% as much as the normal item, but is often much bulkier. Any cobbled item of 1 pound or more in weight actually weighs twice as much as a normal item of its type. Any item that normally costs more than 50 gp can never be a cobbled item, nor can alchemical items be cobbled. At the GM's discretion, other items may not be able to be cobbled items either.</p>
 </>};
 const _code_rod = {title: "Code rod", jsx: <><h2 id="eq-misc-code_rod-code-rod">Code rod</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_intrigue">Ultimate Intrigue pg. 232</Link>  </p>
 <Tabular format="misc" a="0.1" b="1" d="gear" />
-<p>To all appearances, this device is nothing more than a plain rod, such as a dowel, although it can be made in the form of any cylindrical object, such as a <Link to="/eq-misc/cane">cane</Link> or walking stick, curtain rod, <Link to="/eq-misc/scroll_case">scroll case</Link>, <Link to="/eq-misc/wind_chime">wind chime</Link>, or <Link to="/eq-weapon/blowgun">blowgun</Link>. The simplest form of code rod costs 1 sp and weighs 1 pound. If the rod has another use other than as a code rod, it uses the higher price and weight of the two items. Two code rods of matching circumference must be used in pairs to work properly. The second rod can be an item similar to the first, or it can simply be made to the same dimensions. To use a code rod, a long, narrow strip of paper is wrapped around the rod in a spiral pattern such that the edge of the paper touches the previous circuit with each pass, forming a continuous surface. A message is written along the length of the rod, one character to each coil of paper, row by row, until the paper is full. Once the message is completed, the strip of paper is unwound, rendering the message indecipherable. It can then be rolled up and sent to the recipient, who wraps it around the other rod and can then read the message. The users can write in plain language or further encode the message. Someone intercepting the message, if they recognize the use of a code rod, can attempt to find another rod of similar circumference, using Linguistics to crack the code rod's message.</p>
+<p>To all appearances, this device is nothing more than a plain rod, such as a dowel, although it can be made in the form of any cylindrical object, such as a <Link to="/eq-misc/cane">cane</Link> or walking stick, curtain rod, <Link to="/eq-misc/scroll_case">scroll case</Link>, <Link to="/eq-misc/wind_chime">wind chime</Link>, or <Link to="/eq-weapon/blowgun">blowgun</Link>.</p>
+<p>The simplest form of code rod costs 1 sp and weighs 1 pound. If the rod has another use other than as a code rod, it uses the higher price and weight of the two items. Two code rods of matching circumference must be used in pairs to work properly. The second rod can be an item similar to the first, or it can simply be made to the same dimensions.</p>
+<p><Icons id="eq-misc-code_rod-power-icons" wrapper="prefixIcon" list={["power"]} /> To use a code rod, a long, narrow strip of paper is wrapped around the rod in a spiral pattern such that the edge of the paper touches the previous circuit with each pass, forming a continuous surface. A message is written along the length of the rod, one character to each coil of paper, row by row, until the paper is full. Once the message is completed, the strip of paper is unwound, rendering the message indecipherable. It can then be rolled up and sent to the recipient, who wraps it around the other rod and can then read the message. The users can write in plain language or further encode the message.</p>
+<p>Someone intercepting the message, if they recognize the use of a code rod, can attempt to find another rod of similar circumference, using <Link to="/skill/linguistics">Linguistics</Link> to crack the code rod's message.</p>
 </>};
 const _coffee_cup = {title: "Coffee (cup)", jsx: <><h2 id="eq-misc-coffee_cup-coffee-cup">Coffee (cup)</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 95</Link>, <Link to="/source/adventurers_armory">Adventurer's Armory pg. 19</Link>  </p>
@@ -2168,7 +2181,7 @@ const _coffee_cup = {title: "Coffee (cup)", jsx: <><h2 id="eq-misc-coffee_cup-co
 const _coffee_pot = {title: "Coffee pot", jsx: <><h2 id="eq-misc-coffee_pot-coffee-pot">Coffee pot</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 56</Link>  </p>
 <Tabular format="misc" a="3" b="4" d="gear" />
-<p>This tall, teapot-like device contains a small chamber for coffee grounds and a large chamber for water, connected by a small tube. Heating the pot forces boiling water through the tube and into the grounds. A glass knob at the top of the tube allows you to see the color of the brew and stop when it is sufficiently strong. It can brew up to 4 <Link to="/eq-misc/coffee_cup">cups of coffee</Link> at a time. It can also be used to make tea, steep medicinal herbs, or just boil water.</p>
+<p>This tall, teapot-like device contains a small chamber for coffee grounds and a large chamber for water, connected by a small tube. Heating the pot forces boiling water through the tube and into the grounds. A glass knob at the top of the tube allows you to see the color of the brew and stop when it is sufficiently strong. It can brew up to 4 <Link to="/eq-misc/coffee">cups of coffee</Link> at a time. It can also be used to make tea, steep medicinal herbs, or just boil water.</p>
 </>};
 const _coffin_common = {title: "Coffin (common)", jsx: <><h2 id="eq-misc-coffin_common-coffin">Coffin</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 56</Link>, <Link to="/source/adventurers_armory">Adventurer's Armory pg. 19</Link>, <Link to="/source/pathfinder_campaign_setting">Pathfinder Campaign Setting pg. 213</Link>  </p>
@@ -2200,12 +2213,14 @@ const _collapsible_rowboat = {title: "Collapsible rowboat", jsx: <><h2 id="eq-mi
 const _collapsible_trampoline = {title: "Collapsible trampoline", jsx: <><h2 id="eq-misc-collapsible_trampoline-collapsible-trampoline">Collapsible trampoline</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_class_guide">Advanced Class Guide pg. 203</Link>  </p>
 <Tabular format="misc" a="50" b="10" d="gear" />
-<p>This compact trampoline comes apart and rolls up like a tent for easy transport. Setting up or taking apart the trampoline takes 1 minute. When operated by two creatures, the collapsible trampoline confers a +5 bonus on all Acrobatics checks made to jump. If a falling creature lands on the trampoline, it ignores the first 10 feet of falling damage.</p>
+<p>This compact trampoline comes apart and rolls up like a tent for easy transport. Setting up or taking apart the trampoline takes 1 minute.</p>
+<p><Icons id="eq-misc-collapsible_trampoline-boost-def-icons" wrapper="prefixIcon" list={["boost","def"]} /> When operated by two creatures, the collapsible trampoline confers a +5 bonus on all <Link to="/skill/acrobatics">Acrobatics</Link> checks made to jump. If a falling creature lands on the trampoline, it ignores the first 10 feet of falling damage.</p>
 </>};
 const _combat_scabbard = {title: "Combat scabbard", jsx: <><h2 id="eq-misc-combat_scabbard-combat-scabbard">Combat scabbard</h2>
 <p><strong>Sources</strong> <Link to="/source/adventurers_armory">Adventurer's Armory pg. 19</Link>  </p>
 <Tabular format="misc" a="1" b="1" d="gear" />
-<p>This scabbard is an <Link to="/misc/improvised_weapon">improvised weapon</Link> designed to allow you to remove it from your belt as a <strong className="hl">swift action</strong> when drawing the weapon it contains. Taking the <Link to="/feat/equipment_trick">Equipment Trick</Link> feat for a scabbard gives you additional combat options for using a scabbard. For the purpose of fighter <Link to="/ability/weapon_groups">weapon groups</Link>, a scabbard for a heavy blade is considered a hammer, and a scabbard for a light blade is considered a close weapon.</p>
+<p>This scabbard is an <Link to="/misc/improvised_weapon">improvised weapon</Link> designed to allow you to remove it from your belt as a <strong className="hl">swift action</strong> when drawing the weapon it contains. Taking the <Link to="/feat/equipment_trick">Equipment Trick</Link> feat for a scabbard gives you additional combat options for using a scabbard.</p>
+<p>For the purpose of fighter <Link to="/ability/weapon_groups">weapon groups</Link>, a scabbard for a heavy blade is considered a <em>hammer,</em> and a scabbard for a light blade is considered a <em>close</em> weapon.</p>
 </>};
 const _commissioned_broadsheet_setup_and_proof_print = {title: "Commissioned broadsheet (setup and proof print)", jsx: <><h2 id="eq-misc-commissioned_broadsheet_setup_and_proof_print-commissioned-broadsheet">Commissioned broadsheet</h2>
 <p><strong>Sources</strong> <Link to="/source/merchants_manifest">Merchant's Manifest pg. 5</Link>  </p>
@@ -2220,8 +2235,8 @@ const _compact_spellbook = {title: "Compact spellbook", jsx: <><h2 id="eq-misc-c
 </>};
 const _companion_cold_weather_outfit = {title: "Companion cold-weather outfit", jsx: <><h2 id="eq-misc-companion_cold_weather_outfit-companion-cold-weather-outfit">Companion cold-weather outfit</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_wilderness">Ultimate Wilderness pg. 242</Link>  </p>
-<Tabular format="misc" a="15" b="6" d="gear" />
-<p>This vestment works just like a <Link to="/eq-misc/cold_weather_outfit">cold-weather outfit</Link>, granting a +5 circumstance bonus on Fortitude saving throws against exposure to cold weather, except it is custom made for an <Link to="/sidekick/animal_companion">animal companion</Link>. The added cost represents custom tailoring to ensure that the furs used don't cause unwanted reactions from the animal wearing the outfit.</p>
+<Tabular format="misc" a="15" b="6" d="animgear" />
+<p><Icons id="eq-misc-companion_cold_weather_outfit-def-icons" wrapper="prefixIcon" list={["def"]} /> This vestment works just like a <Link to="/eq-misc/cold_weather_outfit">cold-weather outfit</Link>, granting a +5 circumstance bonus on Fortitude saving throws against exposure to cold weather, except it is custom made for an <Link to="/sidekick/animal_companion">animal companion</Link>. The added cost represents custom tailoring to ensure that the furs used don't cause unwanted reactions from the animal wearing the outfit.</p>
 </>};
 const _companion = {title: "Companion", jsx: <><h2 id="eq-misc-companion-companion">Companion</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 99</Link>  </p>
@@ -2231,7 +2246,7 @@ const _companion = {title: "Companion", jsx: <><h2 id="eq-misc-companion-compani
 const _compass = {title: "Compass", jsx: <><h2 id="eq-misc-compass-compass">Compass</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 56</Link>, <Link to="/source/advanced_players_guide">Advanced Player's Guide pg. 184</Link>, <Link to="/source/adventurers_armory">Adventurer's Armory pg. 19</Link>  </p>
 <Tabular format="misc" a="10" b="0.5" d="gear" />
-<p>An ordinary compass that points to the magnetic north pole grants you a +2 circumstance bonus on Survival checks made to avoid becoming lost. You can also use it to grant the same bonus on Knowledge (dungeoneering) checks made to navigate underground.</p>
+<p><Icons id="eq-misc-compass-boost-icons" wrapper="prefixIcon" list={["boost"]} /> An ordinary compass that points to the magnetic north pole grants you a +2 circumstance bonus on <Link to="/skill/survival">Survival</Link> checks made to avoid becoming lost. You can also use it to grant the same bonus on <Link to="/skill/knowledge_dungeoneering">Knowledge (dungeoneering)</Link> checks made to navigate underground.</p>
 </>};
 const _compressed_air = {title: "Compressed air", jsx: <><h2 id="eq-misc-compressed_air-compressed-air">Compressed air</h2>
 <p><strong>Sources</strong> <Link to="/source/people_of_the_stars">People of the Stars pg. 19</Link>  </p>
@@ -2241,22 +2256,27 @@ const _compressed_air = {title: "Compressed air", jsx: <><h2 id="eq-misc-compres
 const _concealable_thieves_tools = {title: "Concealable thieves' tools", jsx: <><h2 id="eq-misc-concealable_thieves_tools-concealable-thieves-tools">Concealable thieves' tools</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_intrigue">Ultimate Intrigue pg. 233</Link>  </p>
 <Tabular format="misc" a="190" b="0.5" d="gear" />
-<p>Smaller and made of stronger materials than most thieves' tools, the items in this kit are much easier to conceal. You gain a +4 bonus on Sleight of Hand skill checks to conceal these tools on your body. They otherwise function as <Link to="/eq-misc/masterwork_thieves_tools">masterwork thieves tools</Link> (granting a +2 circumstance bonus on Disable Device checks).</p>
+<p><Icons id="eq-misc-concealable_thieves_tools-def-icons" wrapper="prefixIcon" list={["def"]} /> Smaller and made of stronger materials than most thieves' tools, the items in this kit are much easier to conceal. You gain a +4 bonus on <Link to="/skill/sleight_of_hand">Sleight of Hand</Link> skill checks to conceal these tools on your body. They otherwise function as <Link to="/eq-misc/masterwork_thieves_tools">masterwork thieves tools</Link> (granting a +2 circumstance bonus on <Link to="/skill/disable_device">Disable Device</Link> checks).</p>
 </>};
 const _concealment_coin = {title: "Concealment coin", jsx: <><h2 id="eq-misc-concealment_coin-concealment-coin">Concealment coin</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_intrigue">Ultimate Intrigue pg. 233</Link>  </p>
 <Tabular format="misc" a="12" b="0.1" d="gear" />
-<p>A concealment coin appears in all respects like a typical coin of the realm and is often crafted from an ordinary coin - though for soft metals like gold, the coin is typically made with an iron or steel interior and then plated with the more valuable metal. Twisting the coin along its edge unscrews the two halves, revealing a thin, hollow space inside. Such coins are often used to hide small messages written on very fine paper for covert delivery. Noticing a concealment coin's true nature requires a successful DC 25 Perception check.</p>
+<p>A concealment coin appears in all respects like a typical coin of the realm and is often crafted from an ordinary coin - though for soft metals like gold, the coin is typically made with an iron or steel interior and then plated with the more valuable metal.</p>
+<p>Twisting the coin along its edge unscrews the two halves, revealing a thin, hollow space inside. Such coins are often used to hide small messages written on very fine paper for covert delivery. Noticing a concealment coin's true nature requires a successful DC 25 <Link to="/skill/perception">Perception</Link> check.</p>
 </>};
 const _contracting_rope = {title: "Contracting rope", jsx: <><h2 id="eq-misc-contracting_rope-contracting-rope">Contracting rope</h2>
 <p><strong>Sources</strong> <Link to="/source/ranged_tactics_toolbox">Ranged Tactics Toolbox pg. 20</Link>  </p>
 <Tabular format="misc" a="50" b="5" d="gear" />
-<p>This 50-foot length of <Link to="/eq-misc/silk_rope">silk rope</Link> is treated with alchemical reagents that give it a distinctly dusty odor. When any part of the rope is touched to an open flame, it suddenly contracts to one-fifth its original length, pulling any creature or object attached to one side to within 10 feet of the other; if multiple creatures are moved into the same square, they fall <Link to="/rule/prone">prone</Link> in randomly determined adjacent squares. Because of the sudden jerk, a creature holding a contracting rope must succeed at a DC 10 Climb check to avoid dropping it as it contracts (unless it is knotted around the creature's waist, clamped in a <Link to="/eq-armorenh/locked_gauntlet">locked gauntlet</Link>, or otherwise firmly attached to the creature). The rope fails to contract if it would pull more than 1,000 pounds horizontally or lift more than 250 pounds vertically. Once activated, the rope slowly unravels to its normal length over the course of 24 hours and can't be activated again until such time has passed.</p>
+<p>This 50-foot length of <Link to="/eq-misc/silk_rope">silk rope</Link> is treated with alchemical reagents that give it a distinctly dusty odor.</p>
+<p><Icons id="eq-misc-contracting_rope-power-icons" wrapper="prefixIcon" list={["power"]} /> When any part of the rope is touched to an open flame, it suddenly contracts to one-fifth its original length, pulling any creature or object attached to one side to within 10 feet of the other; if multiple creatures are moved into the same square, they fall <Link to="/rule/prone">prone</Link> in randomly determined adjacent squares.</p>
+<p>Because of the sudden jerk, a creature holding a contracting rope must succeed at a DC 10 <Link to="/skill/climb">Climb</Link> check to avoid dropping it as it contracts (unless it is knotted around the creature's waist, clamped in a <Link to="/eq-armorenh/locked_gauntlet">locked gauntlet</Link>, or otherwise firmly attached to the creature).</p>
+<p>The rope fails to contract if it would pull more than 1,000 pounds horizontally or lift more than 250 pounds vertically. Once activated, the rope slowly unravels to its normal length over the course of 24 hours and can't be activated again until such time has passed.</p>
 </>};
 const _conversation_tube = {title: "Conversation tube", jsx: <><h2 id="eq-misc-conversation_tube-conversation-tube">Conversation tube</h2>
 <p><strong>Sources</strong> <Link to="/source/adventurers_armory_2">Adventurer's Armory 2 pg. 12</Link>  </p>
 <Tabular format="misc" a="10" b="3" d="gear" />
-<p>Used to carry out a private conversation even in a crowded room or public place, this 5-foot-long, 1/2-inch-wide leather hose widens into a copper bell at each end. To use it, one conversation partner holds her end to her ear while her partner speaks into his end, switching their postures for each reply. Conversing through a conversation tube increases the DC of Perception checks to eavesdrop on the conversation by +5 and negates the risk of lipreading but takes twice as long as conversing normally.</p>
+<p><Icons id="eq-misc-conversation_tube-power-icons" wrapper="prefixIcon" list={["power"]} /> Used to carry out a private conversation even in a crowded room or public place, this 5-foot-long, 1/2-inch-wide leather hose widens into a copper bell at each end. To use it, one conversation partner holds her end to her ear while her partner speaks into his end, switching their postures for each reply.</p>
+<p><Icons id="eq-misc-conversation_tube-def-icons" wrapper="prefixIcon" list={["def"]} /> Conversing through a conversation tube increases the DC of <Link to="/skill/perception">Perception</Link> checks to eavesdrop on the conversation by +5 and negates the risk of lip reading but takes twice as long as conversing normally.</p>
 </>};
 const _convocation_bells = {title: "Convocation bells", jsx: <><h2 id="eq-misc-convocation_bells-convocation-bells">Convocation bells</h2>
 <p><strong>Sources</strong> <Link to="/source/disciples_doctrine">Disciple's Doctrine pg. 28</Link>  </p>
@@ -2279,12 +2299,13 @@ const _cooking_powder = {title: "Cooking powder", jsx: <><h2 id="eq-misc-cooking
 const _cooler_chest = {title: "Cooler chest", jsx: <><h2 id="eq-misc-cooler_chest-cooler-chest">Cooler chest</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_wilderness">Ultimate Wilderness pg. 243</Link>  </p>
 <Tabular format="misc" a="25" b="60" d="gear" />
-<p>This chest can contain up to 4 cubic feet of goods, and it has a lining of insulating material between two sheets of wood. As long as the chest is partially filled with a cold substance - such as cold water or ice - items stored within decompose at half their regular rate. Ice melts on a consistent basis (typically four to six times in a 24-hour period) and must be regularly replenished to maintain the effectiveness of this chest.</p>
+<p>This chest can contain up to 4 cubic feet of goods, and it has a lining of insulating material between two sheets of wood.</p>
+<p><Icons id="eq-misc-cooler_chest-def-icons" wrapper="prefixIcon" list={["def"]} /> As long as the chest is partially filled with a cold substance - such as cold water or ice - items stored within decompose at half their regular rate. Ice melts on a consistent basis (typically four to six times in a 24-hour period) and must be regularly replenished to maintain the effectiveness of this chest.</p>
 </>};
 const _copy_of_a_key = {title: "Copy of a key", jsx: <><h2 id="eq-misc-copy_of_a_key-copy-of-a-key">Copy of a key</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 56</Link>, <Link to="/source/adventurers_armory">Adventurer's Armory pg. 19</Link>  </p>
 <Tabular format="misc" a="1" b="x" d="gear" />
-<p>An artisan can make a working copy of a key in an hour (making a duplicate that looks exactly like the original requires a skilled smith, a DC 25 Craft check, and 1 day).</p>
+<p>An artisan can make a working copy of a key in an hour (making a duplicate that looks exactly like the original requires a skilled smith, a DC 25 <Link to="/skill/craft">Craft</Link> check, and 1 day).</p>
 </>};
 const _coral_boulder = {title: "Coral boulder", jsx: <><h2 id="eq-misc-coral_boulder-coral-boulder">Coral boulder</h2>
 <p><strong>Sources</strong> <Link to="/source/dungeoneers_handbook">Dungeoneer's Handbook pg. 26</Link>  </p>
@@ -2366,7 +2387,9 @@ const _crossword = {title: "Crossword", jsx: <><h2 id="eq-misc-crossword-crosswo
 const _crowbar = {title: "Crowbar", jsx: <><h2 id="eq-misc-crowbar-crowbar">Crowbar</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 56</Link>, <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 158</Link>  </p>
 <Tabular format="misc" a="2" b="5" d="gear" />
-<p>This versatile tool is designed to help pry open whatever the user desires. A crowbar grants a +2 circumstance bonus on Strength checks made to force open a door or chest. If it is used in combat, treat a crowbar as a one-handed <Link to="/misc/improvised_weapon">improvised weapon</Link> that deals bludgeoning damage equal to that of a <Link to="/eq-weapon/club">club</Link> of its size.</p>
+<p>This versatile tool is designed to help pry open whatever the user desires.</p>
+<p><Icons id="eq-misc-crowbar-boost-icons" wrapper="prefixIcon" list={["boost"]} /> A crowbar grants a +2 circumstance bonus on Strength checks made to force open a door or chest.</p>
+<p><Icons id="eq-misc-crowbar-melee-icons" wrapper="prefixIcon" list={["melee"]} /> If it is used in combat, treat a crowbar as a one-handed <Link to="/misc/improvised_weapon">improvised weapon</Link> that deals bludgeoning damage equal to that of a <Link to="/eq-weapon/club">club</Link> of its size.</p>
 </>};
 const _crucible = {title: "Crucible", jsx: <><h2 id="eq-misc-crucible-crucible">Crucible</h2>
 <p><strong>Sources</strong> <Link to="/source/alchemy_manual">Alchemy Manual pg. 5</Link>  </p>
@@ -2382,12 +2405,14 @@ const _crusaders_cross_standard = {title: "Crusader's cross (standard)", jsx: <>
 const _crutch = {title: "Crutch", jsx: <><h2 id="eq-misc-crutch-crutch">Crutch</h2>
 <p><strong>Sources</strong> <Link to="/source/adventurers_armory_2">Adventurer's Armory 2 pg. 12</Link>  </p>
 <Tabular format="misc" a="0.5" b="2" d="gear" />
-<p>A crutch is a simple device composed of wood or metal and held under the arm to assist the injured or impaired with walking. Using a crutch requires a free hand, but does not impede movement speed for an experienced user. A Medium crutch can be wielded as a simple one-handed melee weapon that deals 1d4 points of bludgeoning damage.</p>
+<p>A crutch is a simple device composed of wood or metal and held under the arm to assist the injured or impaired with walking. Using a crutch requires a free hand, but does not impede movement speed for an experienced user.</p>
+<p><Icons id="eq-misc-crutch-melee-icons" wrapper="prefixIcon" list={["melee"]} /> A Medium crutch can be wielded as a simple one-handed melee weapon that deals 1d4 points of bludgeoning damage.</p>
 </>};
 const _cryptography_book = {title: "Cryptography book", jsx: <><h2 id="eq-misc-cryptography_book-cryptography-book">Cryptography book</h2>
 <p><strong>Sources</strong> <Link to="/source/heroes_of_the_streets">Heroes of the Streets pg. 12</Link>  </p>
 <Tabular format="misc" a="100" b="2" d="gear" />
-<p>You can consult this book while attempting a Linguistics check to understand or create a coded message; doing so makes the task take 10 times longer than normal but grants you a +2 circumstance bonus on your check. The DC to decipher a message encoded with a cypher you invent is equal to the result of the Linguistics check you roll when creating the cypher. You can instead use one of the dozen example cyphers in the book, in which case the DC to understand the message without the cypher is 25, and any characters attempting to decipher the message do so automatically if they consult a copy of the same book.</p>
+<p><Icons id="eq-misc-cryptography_book-boost-icons" wrapper="prefixIcon" list={["boost"]} /> You can consult this book while attempting a <Link to="/skill/linguistics">Linguistics</Link> check to understand or create a coded message; doing so makes the task take 10 times longer than normal but grants you a +2 circumstance bonus on your check.</p>
+<p>The DC to decipher a message encoded with a cypher you invent is equal to the result of the Linguistics check you roll when creating the cypher. You can instead use one of the dozen example cyphers in the book, in which case the DC to understand the message without the cypher is 25, and any characters attempting to decipher the message do so automatically if they consult a copy of the same book.</p>
 </>};
 const _crystal_sweet_concoction = {title: "Crystal-sweet concoction", jsx: <><h2 id="eq-misc-crystal_sweet_concoction-crystal-sweet-concoction">Crystal-sweet concoction</h2>
 <p><strong>Sources</strong> <Link to="/source/adventurers_armory_2">Adventurer's Armory 2 pg. 25</Link>  </p>
@@ -2408,7 +2433,9 @@ const _cushion_inserts = {title: "Cushion inserts", jsx: <><h2 id="eq-misc-cushi
 const _cypher_books = {title: "Cypher books", jsx: <><h2 id="eq-misc-cypher_books-cypher-books">Cypher books</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 56</Link>  </p>
 <Tabular format="misc" a="150" b="2" d="gear" />
-<p>These books, always sold in identical pairs, contain numbered grids on each page which simply and easily catalog random lists of words. This allows a user to write messages which substitute letters and numbers that reference the page, row, and column of a particular word found within the cypher book. A creature without access to the appropriate cypher book takes a -10 penalty on Linguistics checks made to decipher each page of a coded message. Writing a message using the cipher takes 10 times as long as writing an uncoded message, and decoding it with the cipher book takes as much time as writing the original coded message.</p>
+<p>These books, always sold in identical pairs, contain numbered grids on each page which simply and easily catalog random lists of words. This allows a user to write messages which substitute letters and numbers that reference the page, row, and column of a particular word found within the cypher book.</p>
+<p><Icons id="eq-misc-cypher_books-lower-icons" wrapper="prefixIcon" list={["lower"]} /> A creature without access to the appropriate cypher book takes a -10 penalty on <Link to="/skill/linguistics">Linguistics</Link> checks made to decipher each page of a coded message.</p>
+<p><Icons id="eq-misc-cypher_books-power-icons" wrapper="prefixIcon" list={["power"]} /> Writing a message using the cipher takes 10 times as long as writing an uncoded message, and decoding it with the cipher book takes as much time as writing the original coded message.</p>
 </>};
 const _dahaks_fire = {title: "Dahak's fire", jsx: <><h2 id="eq-misc-dahaks_fire-dahaks-fire">Dahak's fire</h2>
 <p><strong>Sources</strong> <Link to="/source/dragonslayers_handbook">Dragonslayer's Handbook pg. 18</Link>  </p>
@@ -2466,7 +2493,9 @@ const _darkwood_mwagni_harp = {title: "Darkwood Mwagni harp", jsx: <><h2 id="eq-
 const _darkwood_ancestry_plank = {title: "Darkwood ancestry plank", jsx: <><h2 id="eq-misc-darkwood_ancestry_plank-darkwood-ancestry-plank">Darkwood ancestry plank</h2>
 <p><strong>Sources</strong> <Link to="/source/merchants_manifest">Merchant's Manifest pg. 20</Link>  </p>
 <Tabular format="misc" a="10" b="0.5" d="gear" />
-<p>Ancestor worship is common among the peoples of the Mwangi Expanse, and many display wooden planks in their homes that contain depictions of enormous trees with the names of their ancestors carved onto branches. Ancestry planks made of <Link to="/eq-material/darkwood">darkwood</Link> are much lighter and smaller than their conventional counterparts, which make them appealing to Mwangi adventurers looking to honor their lineages while venturing away from home. Many from the Mwangi Expanse recognize the difficulty in obtaining darkwood and view those who carry darkwood ancestry planks with respect.</p>
+<p>Ancestor worship is common among the peoples of the Mwangi Expanse, and many display wooden planks in their homes that contain depictions of enormous trees with the names of their ancestors carved onto branches.</p>
+<p>Ancestry planks made of <Link to="/eq-material/darkwood">darkwood</Link> are much lighter and smaller than their conventional counterparts, which make them appealing to Mwangi adventurers looking to honor their lineages while venturing away from home.</p>
+<p>Many from the Mwangi Expanse recognize the difficulty in obtaining darkwood and view those who carry darkwood ancestry planks with respect.</p>
 </>};
 const _dartboard_set = {title: "Dartboard set", jsx: <><h2 id="eq-misc-dartboard_set-dartboard-set">Dartboard set</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 92</Link>  </p>
