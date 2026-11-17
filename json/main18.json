@@ -804,6 +804,7 @@
 					[ { "sort": "pirate clothes 1", "data": [ "pirate clothes (basic)", "pirate_clothes_basic" ] }, 0.1, 2 ],
 					[ { "sort": "pirate clothes 2", "data": [ "pirate clothes (fancy)", "pirate_clothes_fancy" ] }, 30, 6 ],
 					[ [ "poncho", "poncho" ], 0.5, 2 ],
+					[ [ "quick-change outfit", "quick_change_outfit" ], { "sort": -1, "data": "Varies" }, 5 ],
 					[ [ "reversible cloak", "reversible_cloak" ], { "sort": 0.2001, "data": "2 sp - 100 gp" }, 1 ],
 					[ { "sort": "royal outfit 1", "data": [ "royal outfit", "royal_outfit" ] }, 200, 15 ],
 					[ { "sort": "royal outfit 2", "data": [ "royal outfit, tear-away", "tear_away_royal_outfit" ] }, 205, 15 ],

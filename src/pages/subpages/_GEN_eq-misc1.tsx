@@ -897,8 +897,8 @@ const _autosniper_trap = {title: "Autosniper trap", jsx: <><h2 id="eq-misc-autos
 <Tabular format="misc" a="250" b="1" d="gear" />
 <p>This framework consists of a small tripod, a spool of wire, and a series of levels. As part of the action to set up the trap, the autosniper is attached to any Small or Medium crossbow and its wire strung across one or two 5-foot squares within 10 feet. Once set, the autosniper fires the attached crossbow automatically at the first Tiny or larger creature that disturbs its tripwire. An autosniper cannot reload the crossbow to which it is attached.</p>
 <p><Icons id="eq-misc-autosniper_trap-warning-icons" wrapper="prefixIcon" list={["warning"]} /> The general bulkiness of an autosniper's framework imposes a -2 penalty on any attempts to use its attached crossbow as a ranged weapon. An autosniper can be removed from a crossbow with 1 minute of work.</p>
-<Tabular format="craft" a="25" b="Traps" />
 <TrapInfo id="autosniper-trap-trap" cr="&mdash;" pdc="15" dddc="15" manual trigger="touch" eff="Atk +5 ranged (damage varies by crossbow)">Autosniper Trap</TrapInfo>
+<Tabular format="craft" a="25" b="Traps" />
 </>};
 const _axe_beak_combat_trained = {title: "Axe beak (combat trained)", jsx: <><h2 id="eq-misc-axe_beak_combat_trained-axe-beak-combat-trained">Axe beak (combat trained)</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 81</Link>  </p>
@@ -1125,8 +1125,8 @@ const _bell_tripwire_trap = {title: "Bell tripwire trap", jsx: <><h2 id="eq-misc
 <p><strong>Sources</strong> <Link to="/source/ranged_tactics_toolbox">Ranged Tactics Toolbox pg. 20</Link>  </p>
 <Tabular format="misc" a="2" b="2" d="gear" />
 <p>This fine, 10-foot-long tripwire is attached to a loud bell and comes with pitons to fix the trap in place. The trap can be set across doorways, hallways, or narrow passes or between trees or rocks. Arming the trap properly takes 5 minutes; it can be set up in as little as 1 minute, but doing so reduces the DC to notice and disarm the trap by 5. The trap has the following statistics.</p>
-<Tabular format="craft" a="15" b="Traps" />
 <TrapInfo id="bell-tripwire-trap-trap" cr="&mdash;" pdc="20" dddc="20" manual trigger="touch" eff="bell rings (Perception DC 0 to hear)">Bell Tripwire Trap</TrapInfo>
+<Tabular format="craft" a="15" b="Traps" />
 </>};
 const _bell = {title: "Bell", jsx: <><h2 id="eq-misc-bell-bell">Bell</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 56</Link>, <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 158</Link>  </p>
@@ -2163,6 +2163,7 @@ const _cobbled_item = {title: "Cobbled item", jsx: <><h2 id="eq-misc-cobbled_ite
 <Tabular format="misc" a="Special" b="Special" c="x" d="gear" />
 <p><Icons id="eq-misc-cobbled_item-down-icons" wrapper="prefixIcon" list={["down"]} /> Goblins are masters at crafting things from bits of rubbish. The category of "cobbled item" is a general catch-all to describe any piece of equipment that has been repaired or modified by goblins. Such items are of an inferior quality - whenever they're used as part of a skill check or attack roll, they have a 10% chance of being broken. Cobbled items can never be masterwork items.</p>
 <p>A cobbled item is of lesser quality than a normal item, and thus costs only 75% as much as the normal item, but is often much bulkier. Any cobbled item of 1 pound or more in weight actually weighs twice as much as a normal item of its type. Any item that normally costs more than 50 gp can never be a cobbled item, nor can alchemical items be cobbled. At the GM's discretion, other items may not be able to be cobbled items either.</p>
+<p><strong className="hl">Also see:</strong> <Link to="/eq-misc/shoddy_item">Shoddy item</Link></p>
 </>};
 const _code_rod = {title: "Code rod", jsx: <><h2 id="eq-misc-code_rod-code-rod">Code rod</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_intrigue">Ultimate Intrigue pg. 232</Link>  </p>

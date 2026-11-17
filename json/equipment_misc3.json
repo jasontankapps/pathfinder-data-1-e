@@ -91,11 +91,13 @@
 			"‹SOURCE Black Markets/21›  ",
 			"::tabular{format=misc a=200 b=x d=gear}",
 			"",
-			"This delicate needle is attached to fine springs and a small reservoir that contracts on itself when the trap is disturbed or grabbed, turning a minor prick into a painful injection. This trap is normally hidden under door latches, drawer handles, and other small openings where it can deliver any injury poison, destroying itself in the process. A roll of natural 1 on the skill check to install the trap exposes its installer to the poison. A poison latch needle cannot be reused.",
+			"This delicate needle is attached to fine springs and a small reservoir that contracts on itself when the trap is disturbed or grabbed, turning a minor prick into a painful injection. This trap is normally hidden under door latches, drawer handles, and other small openings where it can deliver any injury poison, destroying itself in the process.",
 			"",
-			"::tabular{format=craft a=20 b=Traps}",
+			"@I-warning A roll of natural 1 on the skill check to install the trap exposes its installer to the poison. A poison latch needle cannot be reused.",
 			"",
-			"::trap[Poison Latch Needle Trap]{cr=\"&mdash&\" mechanical pdc=20 dddc=20 trigger=touch eff=\"Atk +5 melee (1 damage plus poison)\"}"
+			"::trap[Poison Latch Needle Trap]{cr=\"&mdash&\" mechanical pdc=20 dddc=20 trigger=touch eff=\"Atk +5 melee (1 damage plus poison)\"}",
+			"",
+			"::tabular{format=craft a=20 b=Traps}"
 		]
 	},
 	"poison_lip_paint": {
@@ -106,7 +108,11 @@
 			"‹SOURCE Ultimate Intrigue/233›  ",
 			"::tabular{format=misc a=5 b=x d=gear}",
 			"",
-			"Poison lip paint is a favorite among courtiers who practice the arts of deception and intrigue. It allows the wearer to deliver a dose of contact or ingested poison by means of a kiss. This kiss can be to the hand, cheek, or other exposed skin to deliver a contact poison, but must be on the mouth for an ingested poison. A kiss delivers the full dose of the poison, and that application of poison lip paint then becomes non-poisonous. To use poison lip paint without being exposed to the poison, the wearer must first apply a protective layer of base material. When using an ingested poison, the wearer can instead consume an antidote prior to application. (When the user applies a contact poison, preemptively consuming an antidote results in the wearer's skin harmlessly absorbing the poison, as does immunity to poison.) A kit contains enough base material and lip paint for 10 doses. The poisons must be purchased separately and mixed into the lip paint."
+			"Poison lip paint is a favorite among courtiers who practice the arts of deception and intrigue. It allows the wearer to deliver a dose of contact or ingested poison by means of a kiss. This kiss can be to the hand, cheek, or other exposed skin to deliver a contact poison, but must be on the mouth for an ingested poison. A kiss delivers the full dose of the poison, and that application of poison lip paint then becomes non-poisonous.",
+			"",
+			"@I-warning To use poison lip paint without being exposed to the poison, the wearer must first apply a protective layer of base material. When using an ingested poison, the wearer can instead consume an ‹eq-misc/antidote› prior to application. (When the user applies a contact poison, preemptively consuming an antidote results in the wearer's skin harmlessly absorbing the poison, as does immunity to poison.)",
+			"",
+			"A kit contains enough base material and lip paint for 10 doses. The poisons must be purchased separately and mixed into the lip paint."
 		]
 	},
 	"poison_sealant": {
@@ -208,7 +214,11 @@
 			"‹SOURCE Ultimate Equipment/57›  ",
 			"::tabular{format=misc a=50 b=1 d=gear}",
 			"",
-			"This scabbard contains strips of natural sea sponges on its interior. By carefully pouring a dose of poison into the empty scabbard (a @HL[full-round action]), you saturate the sponges with the toxin, which keeps it viable and wet for up to 4 hours. Preparing the scabbard carries the normal risk of poisoning yourself, just like poisoning a weapon. The next weapon you draw from the scabbard is automatically poisoned as if you had directly applied poison to it (but does not risk poisoning you); this consumes the poison in the scabbard. A scabbard only fits one type of bladed weapon, such as a dagger, shortsword, or longsword. This kind of item is usually illegal in areas that outlaw poison."
+			"This scabbard contains strips of natural sea sponges on its interior. By carefully pouring a dose of poison into the empty scabbard (a @HL[full-round action]), you saturate the sponges with the toxin, which keeps it viable and wet for up to 4 hours.",
+			"",
+			"Preparing the scabbard carries the normal risk of poisoning yourself, just like poisoning a weapon. The next weapon you draw from the scabbard is automatically poisoned as if you had directly applied poison to it (but does not risk poisoning you); this consumes the poison in the scabbard.",
+			"",
+			"A scabbard only fits one type of bladed weapon, such as a dagger, shortsword, or longsword. This kind of item is usually illegal in areas that outlaw poison."
 		]
 	},
 	"pole": {
@@ -244,9 +254,13 @@
 			"‹SOURCE Dungeoneer's Handbook/24›  ",
 			"::tabular{format=misc a=\"12 gp (merchant's), 225 gp (noble's)\" b=\"&frac12& lb.\" c=x d=gear}",
 			"",
-			"A pomander is a waxy concoction of resin, flower essence, powdered spices, musk, and ambergris in a walnut-sized cage and hung by a chain from the neck, a belt, or a bracelet. Merchants and adventurers often use pomanders caged in wood or lead, while nobles use ones cased in precious metals and enamel set with gems. When the pomander is carried openly, its powerful scent (Perception DC 0 to notice) fortifies the senses against unpleasant sensations. Anyone within 10 feet of a pomander gains a +2 resistance bonus on Fortitude saves against effects that ‹misc/nauseate› or ‹misc/sicken›, but suffers a -4 penalty on Perception checks made to detect scents other than the pomander's.",
+			"A pomander is a waxy concoction of resin, flower essence, powdered spices, musk, and ambergris in a walnut-sized cage and hung by a chain from the neck, a belt, or a bracelet. Merchants and adventurers often use pomanders caged in wood or lead, while nobles use ones cased in precious metals and enamel set with gems.",
 			"",
-			"A noble's pomander also overpowers the wearer's own scent; the DC to track him by his own odor increases by 5, but attempts to track him by the pomander's odor have the DC reduced by 5. Regardless of the type, a pomander becomes ineffective after 1d4 weeks of exposure to air, although storing it in an airtight container can extend its lifespan."
+			"@I-aura-protect-down When the pomander is carried openly, its powerful scent (Perception DC 0 to notice) fortifies the senses against unpleasant sensations. Anyone within 10 feet of a pomander gains a +2 resistance bonus on Fortitude saves against effects that ‹misc/nauseate› or ‹misc/sicken›, but suffers a -4 penalty on ‹skill/Perception› checks made to detect scents other than the pomander's.",
+			"",
+			"@I-def A noble's pomander also overpowers the wearer's own scent; the DC to track him by his own odor increases by 5, but attempts to track him by the pomander's odor have the DC reduced by 5.",
+			"",
+			"Regardless of the type, a pomander becomes ineffective after 1d4 weeks of exposure to air, although storing it in an airtight container can extend its lifespan."
 		]
 	},
 	"pomander_nobles": {
@@ -342,11 +356,13 @@
 			"‹SOURCE Ranged Tactics Toolbox/21›  ",
 			"::tabular{format=misc a=125 b=9 d=gear}",
 			"",
-			"This specialized ‹eq-weapon/heavy crossbow› is hooked to a trip line that can be strung across any opening up to 10 feet wide, much like that of a ‹eq-misc/bell tripwire trap›. When the line is tripped, the crossbow fires its bolt toward the space where the line was tripped. The crossbow must have line of effect to the target space for the trap to work. Placing a portable bolt trap requires 10 minutes of effort to properly calibrate the shot and conceal the line and crossbow. The trap can be placed in as little as 1 minute, but doing so imposes a -4 penalty on the crossbow's attack roll, and the DC of the Perception check to notice the trap is reduced by 4. The trap has the following statistics.",
+			"This specialized ‹eq-weapon/heavy crossbow› is hooked to a trip line that can be strung across any opening up to 10 feet wide, much like that of a ‹eq-misc/bell tripwire trap›. When the line is tripped, the crossbow fires its bolt toward the space where the line was tripped. The crossbow must have line of effect to the target space for the trap to work.",
 			"",
-			"::tabular{format=craft a=20 b=Traps}",
+			"Placing a portable bolt trap requires 10 minutes of effort to properly calibrate the shot and conceal the line and crossbow. The trap can be placed in as little as 1 minute, but doing so imposes a -4 penalty on the crossbow's attack roll, and the DC of the ‹skill/Perception› check to notice the trap is reduced by 4.",
 			"",
-			"::trap[Portable Bolt Trap]{cr=\"&frac12&\" mechanical pdc=20 dddc=20 trigger=touch manual eff=\"Atk +10 ranged (1d10/19-20)\"}"
+			"::trap[Portable Bolt Trap]{cr=\"&frac12&\" mechanical pdc=20 dddc=20 trigger=touch manual eff=\"Atk +10 ranged (1d10/19-20)\"}",
+			"",
+			"::tabular{format=craft a=20 b=Traps}"
 		]
 	},
 	"portable_bridge": {
@@ -357,7 +373,7 @@
 			"‹SOURCE Ultimate Equipment/57›  ",
 			"::tabular{format=misc a=200 b=60 d=gear}",
 			"",
-			"When staked down with eight ‹eq-misc/piton«s› (four on each side of the gap), this rope and slat bridge can support up to 1,500 pounds and span a 30-foot gap. It rolls up into a parcel that can be carried slung over the back or by a pack animal. Convincing an animal to cross a portable bridge requires the come or heel trick."
+			"When staked down with eight ‹eq-misc/piton«s› (four on each side of the gap), this rope and slat bridge can support up to 1,500 pounds and span a 30-foot gap. It rolls up into a parcel that can be carried slung over the back or by a pack animal. Convincing an animal to cross a portable bridge requires the *come* or *heel* ‹ability/animal_>trick<s›."
 		]
 	},
 	"portable_prison": {
@@ -384,7 +400,7 @@
 			"‹SOURCE Ultimate Equipment/57;PRPG Core Rulebook/158›  ",
 			"::tabular{format=misc a=10 b=20 d=gear}",
 			"",
-			"This iron-shod wooden beam gives you a +2 circumstance bonus on Strength checks made to break open a door and allows a second person to help, automatically increasing your bonus by +2."
+			"@I-boost This iron-shod wooden beam gives you a +2 circumstance bonus on Strength checks made to break open a door and allows a second person to help, automatically increasing your bonus by +2."
 		]
 	},
 	"portable_solarium": {
@@ -526,7 +542,9 @@
 			"‹SOURCE Ultimate Equipment/57;Adventurer's Armory/19;Pathfinder Society Field Guide/48;Advanced Player's Guide/183›  ",
 			"::tabular{format=misc a=\"0.01\" b=\"0.5\" d=gear}",
 			"",
-			"Powdered chalk, flour, and similar materials are popular with adventurers for their utility in pinpointing invisible creatures. Throwing a bag of powder into a square is an attack against AC 5, and momentarily reveals whether an invisible creature is there. A much more effective method is to spread powder on a surface (which takes 1 full round) and look for footprints."
+			"Powdered chalk, flour, and similar materials are popular with adventurers for their utility in pinpointing invisible creatures.",
+			"",
+			"@I-power Throwing a bag of powder into a square is an attack against AC 5, and momentarily reveals whether an invisible creature is there. A much more effective method is to spread powder on a surface (which takes 1 full round) and look for footprints."
 		]
 	},
 	"powdered_milk": {
@@ -594,7 +612,11 @@
 			"‹SOURCE Occult Adventures/250›  ",
 			"::tabular{format=misc a=30 b=\"0.5\" d=gear}",
 			"",
-			"This chunk of crystal shines with the colors of the rainbow. A prismatic crystal can be used as a focus for the ‹skill/read aura› occult skill unlock to reduce the time needed to read an aura from 10 minutes to 5 minutes. When held by psychic creatures, these crystals also emit light in a small area, increasing the ‹rule/light level› in a 10-foot radius by one step (darkness becomes dim light, and dim light becomes normal light). A prismatic crystal can't increase the light level above normal light."
+			"This chunk of crystal shines with the colors of the rainbow.",
+			"",
+			"@I-boost A prismatic crystal can be used as a focus for the ‹skill/read aura› occult skill unlock to reduce the time needed to read an aura from 10 minutes to 5 minutes.",
+			"",
+			"@I-aura When held by psychic creatures, these crystals also emit light in a small area, increasing the ‹rule/light level› in a 10-foot radius by one step (darkness becomes dim light, and dim light becomes normal light). A prismatic crystal can't increase the light level above normal light."
 		]
 	},
 	"privacy_shelter": {
@@ -637,7 +659,9 @@
 			"‹SOURCE Ultimate Equipment/57;Pirates of the Inner Sea/21;Adventurer's Armory/19›  ",
 			"::tabular{format=misc a=\"10 gp (arm), 1 gp (foot), 1 gp (hand), 20 gp (leg)\" b=\"3 lbs. (arm), 2 lbs. (foot), 1 lb. (hand), 6 lbs. (leg)\" c=x d=gear}",
 			"",
-			"People who lose hands, arms, legs, or feet in combat sometimes replace them with prosthetics: realistic simulations of their missing limbs. Usually carved of wood and painted to match the wearer's skin tone, these items have limited functionality, allowing a legless person to walk at half speed, or enabling an armless person to hold a shield in a fixed position, but little more. Clever individuals have been known to create small compartments in their prosthetics, just large enough to hold very small objects. A prosthetic hand or foot can hold an item with negligible weight, while a prosthetic limb can hold up to 1 or 2 pounds."
+			"People who lose hands, arms, legs, or feet in combat sometimes replace them with prosthetics: realistic simulations of their missing limbs. Usually carved of wood and painted to match the wearer's skin tone, these items have limited functionality, allowing a legless person to walk at half speed, or enabling an armless person to hold a shield in a fixed position, but little more.",
+			"",
+			"Clever individuals have been known to create small compartments in their prosthetics, just large enough to hold very small objects. A prosthetic hand or foot can hold an item with negligible weight, while a prosthetic limb can hold up to 1 or 2 pounds."
 		]
 	},
 	"prosthetic_foot": {
@@ -715,9 +739,9 @@
 			"",
 			"This clay container resembles a ‹eq-weapon/fuse grenade›, but trails a pulley and wire rather than a fuse. Pulling the cord (a @HL[move action]) sparks a ‹eq-misc/flint and steel› within the device, causing the grenade to explode. The pull cord can be attached to a door or drawer within 5 feet, or strung across a 5-foot square, causing the grenade to detonate when its tripwire is disturbed. A pull-cord grenade cannot be reused.",
 			"",
-			"::tabular{format=craft a=25 b=Traps}",
+			"::trap[Pull-cord Grenade Trap]{cr=\"&mdash&\" mechanical pdc=15 dddc=15 trigger=touch eff=\"explosion (2d6 bludgeoning damage and 1d6 fire damage); Reflex DC 15 half; multiple targets (all targets within 10 feet)\"}",
 			"",
-			"::trap[Pull-cord Grenade Trap]{cr=\"&mdash&\" mechanical pdc=15 dddc=15 trigger=touch eff=\"explosion (2d6 bludgeoning damage and 1d6 fire damage); Reflex DC 15 half; multiple targets (all targets within 10 feet)\"}"
+			"::tabular{format=craft a=25 b=Traps}"
 		]
 	},
 	"pulque_cup": {
@@ -807,7 +831,9 @@
 			"‹SOURCE Ultimate Intrigue/234›  ",
 			"::tabular{format=misc a=varies b=\"&mdash&\" c=x d=gear}",
 			"",
-			"Used as a replacement for the heel and sole of a shoe or boot, a puzzle heel can be used to secret away items so you can retrieve them when needed. To open the small compartment inside a puzzle heel, you must press, turn, and twist the heel and sole in a particular pattern. The increased complexity of a puzzle heel grants a circumstance bonus on Sleight of Hand checks to conceal items, depending on the complexity of the opening process. Opening the heel without knowing the sequence requires a successful Disable Device check. A puzzle heel compartment is roughly 5 cubic inches in volume.",
+			"Used as a replacement for the heel and sole of a shoe or boot, a puzzle heel can be used to secret away items so you can retrieve them when needed.",
+			"",
+			"To open the small compartment inside a puzzle heel, you must press, turn, and twist the heel and sole in a particular pattern. The increased complexity of a puzzle heel grants a circumstance bonus on ‹skill/Sleight of Hand› checks to conceal items, depending on the complexity of the opening process. Opening the heel without knowing the sequence requires a successful ‹skill/Disable Device› check. A puzzle heel compartment is roughly 5 cubic inches in volume.",
 			"",
 			"| Complexity | Price | Sleight of Hand bonus | Disable Device DC |",
 			"| --- | --- | --- | --- |",
@@ -884,9 +910,13 @@
 		"description": [
 			"## Quick-change outfit",
 			"‹SOURCE Ultimate Intrigue/234›  ",
-			"::tabular{format=misc a=varies b=\"5 lbs.\" c=x d=gear}",
+			"::tabular{format=misc a=varies b=\"5 lbs.\" c=x d=cloth}",
 			"",
-			"A quick-change outfit is actually two different sets of attire sewn together, one inside the other. The quick-change outfit allows the wearer to rapidly change from one outfit into another by reversing (pulling inside out) the entire outfit. It takes a @HL[full-round action] to slip out of the quick-change outfit, reverse it, and put it back on. The two different outfits can appear to be of any variety, such as a ‹eq-misc/noble's outfit› on one side and a ‹eq-misc/monk's outfit› on the other. The appearance is only superficial, so the outfits do not grant any special bonuses (such as a ‹eq-misc/cold-weather outfit«'s› benefits against exposure to cold). Anyone paying particular attention to the outfit can notice discrepancies (such as odd seams and unusually thick padding) with a successful DC 20 Perception check. The outfit's price is equal to double the price of the more expensive of the two outfits it mimics."
+			"A quick-change outfit is actually two different sets of attire sewn together, one inside the other. The quick-change outfit allows the wearer to rapidly change from one outfit into another by reversing (pulling inside out) the entire outfit. It takes a @HL[full-round action] to slip out of the quick-change outfit, reverse it, and put it back on.",
+			"",
+			"The two different outfits can appear to be of any variety, such as a ‹eq-misc/noble's outfit› on one side and a ‹eq-misc/monk's outfit› on the other. The appearance is only superficial, so the outfits do not grant any special bonuses (such as a ‹eq-misc/cold-weather outfit«'s› benefits against exposure to cold).",
+			"",
+			"Anyone paying particular attention to the outfit can notice discrepancies (such as odd seams and unusually thick padding) with a successful DC 20 ‹skill/Perception› check. The outfit's price is equal to double the price of the more expensive of the two outfits it mimics."
 		]
 	},
 	"quick_pack_table": {
@@ -921,7 +951,11 @@
 			"‹SOURCE Haunted Heroes Handbook/13›  ",
 			"::tabular{format=misc a=400 b=12 d=gear}",
 			"",
-			"A quicksilver barometer consists of a slender glass tube, closed at the top, containing an open, mercury-filled base. Many quicksilver barometers are fitted into elegant or even outlandishly ornate housings made of precious materials. Such housings are not necessary for the device to function, and serve only to increase the base price of the tool into the realm of an art object's value. The device interacts with atmospheric pressure, causing the mercury within the glass tube to lower or rise based on external pressure and temperature. It takes 3 rounds for a quicksilver barometer to settle once placed on a flat surface. While this device is normally used to measure and observe local temperature fluctuations (if used in this manner and studied for at least 10 minutes, a quicksilver barometer grants a +4 circumstance bonus on Survival checks to predict the weather), it also functions in a method similar to a ‹eq-misc/haunt detector›, but with greater accuracy - a quicksilver barometer grants a +4 circumstance bonus on Perception checks to notice haunts."
+			"A quicksilver barometer consists of a slender glass tube, closed at the top, containing an open, mercury-filled base. Many quicksilver barometers are fitted into elegant or even outlandishly ornate housings made of precious materials. Such housings are not necessary for the device to function, and serve only to increase the base price of the tool into the realm of an art object's value.",
+			"",
+			"The device interacts with atmospheric pressure, causing the mercury within the glass tube to lower or rise based on external pressure and temperature. It takes 3 rounds for a quicksilver barometer to settle once placed on a flat surface.",
+			"",
+			"@I-boost While this device is normally used to measure and observe local temperature fluctuations (if used in this manner and studied for at least 10 minutes, a quicksilver barometer grants a +4 circumstance bonus on ‹skill/Survival› checks to predict the weather), it also functions in a method similar to a ‹eq-misc/haunt detector›, but with greater accuracy - a quicksilver barometer grants a +4 circumstance bonus on ‹skill/Perception› checks to notice haunts."
 		]
 	},
 	"quieting_needles": {
@@ -1186,9 +1220,9 @@
 			"‹SOURCE Merchant's Manifest/6›  ",
 			"::tabular{format=misc a=5 b=\"0.5\" d=gear}",
 			"",
-			"This foot-long strip of double-sided alchemical adhesive is sealed with waxed paper. When unsealed (this requires a @HL[move action]) and pressed between two surfaces (this also requires a @HL[move action]), a remora pad creates a firm and waterproof bond between two creatures or objects for up to 24 hours. If two creatures connect themselves in this way, both gain the ‹rule/grapple«d» condition<s›. However, if they are different size categories, only the smaller creature gains this condition.",
+			"@I-info This foot-long strip of double-sided alchemical adhesive is sealed with waxed paper. When unsealed (this requires a @HL[move action]) and pressed between two surfaces (this also requires a @HL[move action]), a remora pad creates a firm and waterproof bond between two creatures or objects for up to 24 hours. If two creatures connect themselves in this way, both gain the ‹rule/grapple«d» condition<s›. However, if they are different size categories, only the smaller creature gains this condition.",
 			"",
-			"This bond survives light buffeting and movement, such as that created by incoming tides or by one attached surface dragging the other along underwater. Sharp tugs can break the seal fairly easily, and a willingly attached creature can pull free of the pad with a successful DC 5 Strength check as a @HL[standard action] (DC 10 as a @HL[swift action]). This weakness makes remora pads fairly ineffective when attempting to grapple a target, though a grappling creature that sticks itself to a target with a remora pad receives a +6 circumstance bonus on grapple combat maneuver checks to sustain the grapple in subsequent rounds (instead of the normal +5 bonus).",
+			"This bond survives light buffeting and movement, such as that created by incoming tides or by one attached surface dragging the other along underwater. Sharp tugs can break the seal fairly easily, and a willingly attached creature can pull free of the pad with a successful DC 5 Strength check as a @HL[standard action] (DC 10 as a @HL[swift action]). This weakness makes remora pads fairly ineffective when attempting to ‹rule/grapple› a target, though a grappling creature that sticks itself to a target with a remora pad receives a +6 circumstance bonus on grapple combat maneuver checks to sustain the grapple in subsequent rounds (instead of the normal +5 bonus).",
 			"",
 			"A remora pad's bond is strong enough to support 200 pounds of material, so bonding two heavier objects together requires multiple pads. Underwater travelers often use remora pads to attach themselves to trained aquatic animals for long journeys."
 		]
@@ -1201,7 +1235,11 @@
 			"‹SOURCE Haunted Heroes Handbook/13›  ",
 			"::tabular{format=misc a=100 b=\"0.5\" d=gear}",
 			"",
-			"This fine alchemical salt has been developed to work against particular types of foes. A batch of repellent salts is attuned to undead or a selected outsider race, such as angels, demons, or devils. As a @HL[full-round action] that provokes attacks of opportunity, a dose of repellent salts can be applied to a 5-foot-square area that functions as ‹rule/difficult terrain› for the salt's attuned creature type. Any creature can sweep the salts aside as a @HL[move action] (or as a @HL[full-round action] for an attuned creature, which deals that creature 2d4 points of acid damage in the process); moderate wind also disperses all repellent salts in a square (including the draft created by a winged creature of at least Medium size that flies within 5 feet of the salts). Alternatively, a vial of repellent salts can be used as a splash weapon against the target creature, with a successful hit dealing 2d4 points of acid damage to the creature struck (or 1 point to an attuned creature within 5 feet of the target and thus exposed to the attack's splash)."
+			"This fine alchemical salt has been developed to work against particular types of foes. A batch of repellent salts is attuned to undead or a selected outsider race, such as angels, demons, or devils.",
+			"",
+			"@I-lower As a @HL[full-round action] that provokes attacks of opportunity, a dose of repellent salts can be applied to a 5-foot-square area that functions as ‹rule/difficult terrain› for the salt's attuned creature type. Any creature can sweep the salts aside as a @HL[move action] (or as a @HL[full-round action] for an attuned creature, which deals that creature 2d4 points of acid damage in the process); moderate wind also disperses all repellent salts in a square (including the draft created by a winged creature of at least Medium size that flies within 5 feet of the salts).",
+			"",
+			"@I-ranged Alternatively, a vial of repellent salts can be used as a ‹rule/splash weapon› against the target creature, with a successful hit dealing 2d4 points of acid damage to the creature struck (or 1 point to an attuned creature within 5 feet of the target and thus exposed to the attack's splash)."
 		]
 	},
 	"retort": {
@@ -1420,7 +1458,9 @@
 			"‹SOURCE Adventurer's Armory 2/13›  ",
 			"::tabular{format=misc a=250 b=30 d=gear}",
 			"",
-			"This large, portable spool of rope or cord contains a clockwork mechanism to reel the rope back in. You can unspool the rope from the mechanism at a rate of 30 feet per round. Activating the mechanism as a @HL[move action] causes the rope to retract at a rate of 100 feet per round, pulling up to 200 pounds of attached weight. The mechanism works more slowly with increased weight, retracting the rope at a rate of 50 feet per round with more than 200 pounds but up to 300 pounds of attached weight. Weight in excess of 300 pounds prevents the mechanism from functioning. A rope recaller is sold with 100 feet of hemp rope already attached, but can hold up to 1,000 feet of rope. Replacing or adding rope to the device requires 1 minute of work for every 100 feet of rope."
+			"This large, portable spool of rope or cord contains a clockwork mechanism to reel the rope back in. You can unspool the rope from the mechanism at a rate of 30 feet per round. Activating the mechanism as a @HL[move action] causes the rope to retract at a rate of 100 feet per round, pulling up to 200 pounds of attached weight. The mechanism works more slowly with increased weight, retracting the rope at a rate of 50 feet per round with more than 200 pounds but up to 300 pounds of attached weight. Weight in excess of 300 pounds prevents the mechanism from functioning.",
+			"",
+			"A rope recaller is sold with 100 feet of ‹eq-misc/hemp rope› already attached, but can hold up to 1,000 feet of rope. Replacing or adding rope to the device requires 1 minute of work for every 100 feet of rope."
 		]
 	},
 	"roperunner": {
@@ -1705,7 +1745,11 @@
 			"‹SOURCE Ultimate Equipment/57;Adventurer's Armory/19;Advanced Player's Guide/185›  ",
 			"::tabular{format=misc a=\"0.04\" b=2 d=gear}",
 			"",
-			"Saws can take many different shapes, from small carpentry saws to the long, two-handled saws used by lumberjacks. You can insert a saw between a door and its frame to cut through wooden bolts or bars, dealing 5 hit points per round plus your Strength modifier to the sawed object as a @HL[full-round action]. Hearing the sawing requires a successful DC 10 Perception check. Saws used to cut ice on rivers have a point on the end to break through the ice before cutting."
+			"Saws can take many different shapes, from small carpentry saws to the long, two-handled saws used by lumberjacks.",
+			"",
+			"@I-power You can insert a saw between a door and its frame to cut through wooden bolts or bars, dealing 5 hit points per round plus your Strength modifier to the sawed object as a @HL[full-round action]. Hearing the sawing requires a successful DC 10 ‹skill/Perception› check.",
+			"",
+			"Saws used to cut ice on rivers have a point on the end to break through the ice before cutting."
 		]
 	},
 	"scarf_pocketed": {
@@ -1902,7 +1946,9 @@
 			"‹SOURCE Ultimate Intrigue/234›  ",
 			"::tabular{format=misc a=\"3 sp\" b=varies c=x d=gear}",
 			"",
-			"This garment is specially designed to have a single spell scribed on the inside of its surface, hidden from prying eyes. Infiltrators and spies often use scroll belts to secure extra magical means of escape when the remainder of their equipment is taken during capture. The belt is reusable, though the normal costs and time required to scribe a spell on the belt for each new spell apply. You must remove the belt and hold it in a free hand in order to use the scroll."
+			"This garment is specially designed to have a single spell scribed on the inside of its surface, hidden from prying eyes. Infiltrators and spies often use *scroll belts* to secure extra magical means of escape when the remainder of their equipment is taken during capture. The belt is reusable, though the normal costs and time required to scribe a spell on the belt for each new spell apply.",
+			"",
+			"@I-magic You must remove the belt and hold it in a free hand in order to use the scroll."
 		]
 	},
 	"scroll_box": {
@@ -1987,7 +2033,13 @@
 			"‹SOURCE Pathfinder #61: Shards of Sin/65›  ",
 			"::tabular{format=misc a=55 b=3 d=gear}",
 			"",
-			"A second-story harness is a series of straps, trusses, and buckles that can be worn over clothing or armor. A second-story harness allows the wearer to, as a @HL[move action], secure herself in place on a vertical surface so that both her hands are free. The wearer can remain in this position without needing to make additional Climb checks, and does not lose her Dexterity bonus to AC as long as she remains anchored. As long as the wearer is anchored in this way, she cannot move and gains a +5 circumstance bonus on Climb checks made to avoid falling whenever she takes damage. The wearer can release herself to start moving again as a @HL[move action]. A second-story harness costs 55 gp and weighs 3 pounds."
+			"A second-story harness is a series of straps, trusses, and buckles that can be worn over clothing or armor.",
+			"",
+			"@I-power A second-story harness allows the wearer to, as a @HL[move action], secure herself in place on a vertical surface so that both her hands are free. The wearer can remain in this position without needing to make additional ‹skill/Climb› checks, and does not lose her Dexterity bonus to AC as long as she remains anchored.",
+			"",
+			"@I-down-boost As long as the wearer is anchored in this way, she cannot move and gains a +5 circumstance bonus on Climb checks made to avoid falling whenever she takes damage.",
+			"",
+			"The wearer can release herself to start moving again as a @HL[move action]."
 		]
 	},
 	"seeing_slime": {
@@ -2046,7 +2098,9 @@
 			"‹SOURCE Ultimate Intrigue/234›  ",
 			"::tabular{format=misc a=7 b=\"0.5\" d=gear}",
 			"",
-			"Sentry seeds are small, hollow, ovoid glass beads with flat sides. A specially crafted pouch, containing enough seeds to fill eight 5-foot squares, allows the user to evenly scatter these seeds across any flat, hard, mostly level surface. When stepped upon, the glass beads break with audible pops (Perception DC 10), warning of potential intruders. Although they are easy to see in the light (Perception DC 10), sentry seeds are difficult to spot in ‹rule/dim light› or darkness (Perception DC 20)."
+			"Sentry seeds are small, hollow, ovoid glass beads with flat sides. A specially crafted pouch, containing enough seeds to fill eight 5-foot squares, allows the user to evenly scatter these seeds across any flat, hard, mostly level surface.",
+			"",
+			"@I-power When stepped upon, the glass beads break with audible pops (‹skill/Perception› DC 10), warning of potential intruders. Although they are easy to see in the light (Perception DC 10), sentry seeds are difficult to spot in ‹rule/dim light› or darkness (Perception DC 20)."
 		]
 	},
 	"serpent_line": {
@@ -2106,7 +2160,7 @@
 			"‹SOURCE Ultimate Equipment/57;Adventurer's Armory/19;Advanced Player's Guide/185;Pirates of the Inner Sea/21›  ",
 			"::tabular{format=misc a=500 b=2 d=gear}",
 			"",
-			"A sextant is used to determine your latitude. Using a sextant with an ‹eq-misc/astrolabe› gives you a +4 circumstance bonus on Survival checks made to prevent getting lost."
+			"@I-boost A sextant is used to determine your latitude. Using a sextant with an ‹eq-misc/astrolabe› gives you a +4 circumstance bonus on ‹skill/Survival› checks made to prevent getting lost."
 		]
 	},
 	"shadow_stencil_set": {
@@ -2233,7 +2287,7 @@
 			"Used most often by ‹race/gnome› sheriffs and rangers, a sheriff's whistle gives off a piercing shriek that can easily be heard up to 1,000 feet away under ordinary circumstances. However, the frequency of the shriek is such that it can only be heard by badgers, dogs, and gnomes."
 		]
 	},
-	"shield_sconce": {
+	"shield_sconce": { 
 		"name": "Shield sconce",
 		"sources": [
 			"Ultimate Equipment",
@@ -2244,7 +2298,7 @@
 			"‹SOURCE Ultimate Equipment/57;Adventurer's Armory/19›  ",
 			"::tabular{format=misc a=1 b=\"0.5\" d=gear}",
 			"",
-			"This metal frame holds a ‹eq-misc/torch› and is designed to be strapped to the front of a light, heavy, or tower shield, allowing you to carry a torch without giving up your shield or occupying your weapon hand."
+			"This metal frame holds a ‹eq-misc/torch› and is designed to be strapped to the front of a ‹eq-armor/light›, ‹eq-armor/heavy›, or ‹eq-armor/tower shield›, allowing you to carry a torch without giving up your shield or occupying your weapon hand."
 		]
 	},
 	"shinobi_shozoku": {
@@ -2296,9 +2350,15 @@
 			"",
 			"A shoddy item is any mundane piece of equipment that has been cleverly but poorly crafted such that its materials and workmanship are worse than expected, but the flaws are concealed. Layers of material are thinner than normal, hasps and hinges are only loosely attached, metals are mixed improperly, resulting in softer alloys, and so forth. Shoddy items are sold for the same price as their well-made counterparts. Manufacturing a shoddy item requires the ‹feat/Craft Shoddy Item› feat in order to successfully conceal the poor workmanship. Shoddy items are never masterwork or made of special materials (though they might appear to be made of a special material), and single-use items can never be made as shoddy items.",
 			"",
-			"Any shoddy item has its hardness reduced by 2 and its hit points reduced by half. Any weapon or piece of armor constructed in a shoddy manner takes damage each time it is used; a weapon takes the same amount of damage it deals in an attack (minus its lower hardness rating), and a piece of armor takes damage identical to its wearer's loss in hit points from an enemy's successful attack (again, after taking the adjusted hardness into account). Items other than weapons and armor have a 10% chance to gain the broken condition with each day of use, and if they have a limited number of uses, they have half as many uses as normal. In either case, shoddy items that gain the broken condition can never have that condition removed (even by using magic or if they later recover hit points) without further successful Craft checks and gp expenditure to fix the initial flaws. Shoddy items that are destroyed cannot be recovered by any means, and are useless for anything more than salvaging some of the raw materials. A shoddy item typically costs the same as a normal item of its kind.",
+			"Any shoddy item has its ‹rule/hardness› reduced by 2 and its hit points reduced by half. Any weapon or piece of armor constructed in a shoddy manner takes damage each time it is used; a weapon takes the same amount of damage it deals in an attack (minus its lower hardness rating), and a piece of armor takes damage identical to its wearer's loss in hit points from an enemy's successful attack (again, after taking the adjusted hardness into account).",
 			"",
-			"A character who succeeds at a DC 15 Appraise (or appropriate Craft) check notices the shoddy condition of an item, but the character must specifically inspect the item to do so."
+			"Items other than weapons and armor have a 10% chance to gain the ‹misc/broken› condition with each day of use, and if they have a limited number of uses, they have half as many uses as normal. In either case, shoddy items that gain the broken condition can never have that condition removed (even by using magic or if they later recover hit points) without further successful ‹skill/Craft› checks and gp expenditure to fix the initial flaws.",
+			"",
+			"Shoddy items that are destroyed cannot be recovered by any means, and are useless for anything more than salvaging some of the raw materials. A shoddy item typically costs the same as a normal item of its kind.",
+			"",
+			"A character who succeeds at a DC 15 ‹skill/Appraise› (or appropriate Craft) check notices the shoddy condition of an item, but the character must specifically inspect the item to do so.",
+			"",
+			"@HL[Also see:] ‹eq-misc/Cobbled item›"
 		]
 	},
 	"shovel_common": {
@@ -2341,7 +2401,11 @@
 			"‹SOURCE Dirty Tactics Toolbox/21›  ",
 			"::tabular{format=misc a=401 b=2 d=gear}",
 			"",
-			"Shrapnel caltrops shatter into fragments that embed themselves into a creature's body when stepped on. Shrapnel caltrops work just like normal ‹eq-misc/caltrops›, except they are considered ‹rule/masterwork weapons› (+1 bonus on attack rolls). Creatures damaged by a shrapnel caltrop must succeed at a DC 15 Reflex save or take 1d2 points of ‹rule/Dexterity damage› in addition to the caltrop's usual damage. The movement penalty inflicted by a shrapnel caltrop cannot be removed until all Dexterity damage dealt by the caltrop is healed, even if the creature receives magical healing or is treated with a successful Heal check. Shrapnel caltrops are destroyed after making one attack rolls. Shrapnel caltrops can't have the ‹eq-misc/hollow<_caltrops› special feature or the ‹eq-misc/serrated<_caltrops› special feature."
+			"Shrapnel caltrops shatter into fragments that embed themselves into a creature's body when stepped on.",
+			"",
+			"@I-lower Shrapnel caltrops work just like normal ‹eq-misc/caltrops›, except they are considered ‹rule/masterwork weapons› (+1 bonus on attack rolls). Creatures damaged by a shrapnel caltrop must succeed at a DC 15 Reflex save or take 1d2 points of ‹rule/Dexterity damage› in addition to the caltrop's usual damage.",
+			"",
+			"The movement penalty inflicted by a shrapnel caltrop cannot be removed until all Dexterity damage dealt by the caltrop is healed, even if the creature receives magical healing or is treated with a successful ‹skill/Heal› check. Shrapnel caltrops are destroyed after making one attack rolls. Shrapnel caltrops can't have the ‹eq-misc/hollow<_caltrops› special feature or the ‹eq-misc/serrated<_caltrops› special feature."
 		]
 	},
 	"shrieking_paste": {
@@ -2371,7 +2435,7 @@
 			"‹SOURCE Ultimate Equipment/57;Adventurer's Armory/19;Advanced Player's Guide/183›  ",
 			"::tabular{format=misc a=1 b=2 d=gear}",
 			"",
-			"Sounding a horn requires a DC 10 Perform (wind) check and can convey concepts such as \"Attack!\", \"Help!\", \"Advance!\", \"Retreat!\", \"Fire!\", and \"Alarm!\" The report of a signal horn can be clearly heard (Perception DC 0) up to a half-mile distant. For each quarter-mile beyond, Perception checks to hear the horn take a -1 penalty."
+			"Sounding a horn requires a DC 10 ‹skill/Perform› (wind) check and can convey concepts such as \"Attack!\", \"Help!\", \"Advance!\", \"Retreat!\", \"Fire!\", and \"Alarm!\" The report of a signal horn can be clearly heard (‹skill/Perception› DC 0) up to a half-mile distant. For each quarter-mile beyond, Perception checks to hear the horn take a -1 penalty."
 		]
 	},
 	"signal_kite_kit": {
@@ -2415,7 +2479,7 @@
 			"‹SOURCE Ultimate Equipment/57;Adventurer's Armory/19;Advanced Player's Guide/181›  ",
 			"::tabular{format=misc a=20 b=0 c=M d=gear}",
 			"",
-			"This ring has a tiny compartment under the setting, typically used to hold poison. Opening and closing a ring is a @HL[move action]; doing so unseen requires a DC 20 Sleight of Hand check."
+			"This ring has a tiny compartment under the setting, typically used to hold poison. Opening and closing a ring is a @HL[move action]; doing so unseen requires a DC 20 ‹skill/Sleight of Hand› check."
 		]
 	},
 	"poison_pill_ring": { "redirect": "poison_pill_signet_ring" },
@@ -2458,7 +2522,7 @@
 			"‹SOURCE Ultimate Wilderness/244›  ",
 			"::tabular{format=misc a=\"0.5\" b=\"0.5\" d=gear}",
 			"",
-			"A silent piton is identical to a regular ‹eq-misc/piton›, except it has been alchemically treated to reduce the noise it generates when driven into a surface. A silent piton staked into a piece of terrain generates sound out to a radius of only 10 feet from the point of impact."
+			"@I-def A silent piton is identical to a regular ‹eq-misc/piton›, except it has been alchemically treated to reduce the noise it generates when driven into a surface. A silent piton staked into a piece of terrain generates sound out to a radius of only 10 feet from the point of impact."
 		]
 	},
 	"silk_kimono": {
@@ -2527,7 +2591,7 @@
 			"‹SOURCE Merchant's Manifest/6›  ",
 			"::tabular{format=misc a=5 b=2 d=gear}",
 			"",
-			"This parasitic, hand-sized, cartilaginous fish attaches to a creature and filters nutrients directly from its host's bloodstream. However, a siphon ray reoxygenates the blood in the process, allowing the host to ‹misc/hold her breath› for twice as long while underwater. A siphon ray must be attached for at least 1 minute before providing this benefit, and every hour a ray remains attached per day, the host must succeed at a DC 15 Fortitude saving throw or become ‹misc/fatigued›. While attached, a siphon ray avoids most attacks as though it were a piece of equipment unless specifically targeted.",
+			"@I-boost-down This parasitic, hand-sized, cartilaginous fish attaches to a creature and filters nutrients directly from its host's bloodstream. However, a siphon ray reoxygenates the blood in the process, allowing the host to ‹misc/hold her breath› for twice as long while underwater. A siphon ray must be attached for at least 1 minute before providing this benefit, and every hour a ray remains attached per day, the host must succeed at a DC 15 Fortitude saving throw or become ‹misc/fatigued›. While attached, a siphon ray avoids most attacks as though it were a piece of equipment unless specifically targeted.",
 			"",
 			"A siphon ray must be kept in at least 1 gallon of salt water when not in use. If it is out of salt water for 1 hour, the siphon ray expires."
 		]
@@ -2567,7 +2631,7 @@
 			"‹SOURCE Ultimate Equipment/57;Adventurer's Armory/19›  ",
 			"::tabular{format=misc a=85 b=x d=gear}",
 			"",
-			"Many door locks have a similar design and thus can be unlocked by a similar key. A skeleton key may be tried on any standard door lock that uses a key, even if you don't have the Disable Device skill. You use the key's Disable Device bonus of +10 rather than your own total; you cannot take 10 when using a skeleton key. The key only gets one roll for any particular lock. If the roll fails, the key is unable to open or close that lock. Inferior skeleton keys may only have a +5 bonus."
+			"Many door locks have a similar design and thus can be unlocked by a similar key. A skeleton key may be tried on any standard door lock that uses a key, even if you don't have the ‹skill/Disable Device› skill. You use the key's Disable Device bonus of +10 rather than your own total; you cannot ‹rule/take 10› when using a skeleton key. The key only gets one roll for any particular lock. If the roll fails, the key is unable to open or close that lock. Inferior skeleton keys may only have a +5 bonus."
 		]
 	},
 	"skeleton_slayers_kit": {
@@ -2723,7 +2787,7 @@
 			"‹SOURCE Ultimate Equipment/57;PRPG Core Rulebook/158›  ",
 			"::tabular{format=misc a=1 b=10 d=gear}",
 			"",
-			"This heavy, two-handed hammer is normally used in carpentry and other construction tasks, and is also useful for driving in tent stakes to help secure campsites in areas with strong winds. If used in combat, treat it as an ‹misc/improvised› ‹eq-weapon/earth breaker›."
+			"This heavy, two-handed ‹eq-misc/hammer› is normally used in carpentry and other construction tasks, and is also useful for driving in tent stakes to help secure campsites in areas with strong winds. If used in combat, treat it as an ‹misc/improvised› ‹eq-weapon/earth breaker›."
 		]
 	},
 	"sleeve_holster": {
@@ -2810,7 +2874,7 @@
 			"‹SOURCE Dragonslayer's Handbook/26›  ",
 			"::tabular{format=misc a=75 b=10 d=gear}",
 			"",
-			"This small cauldron of alchemically treated tar gives off thick, acrid smoke when ignited. The smoke rises to an altitude of 25 feet, then spreads horizontally, creating an artificial smoke ceiling 5 feet thick. The smoke spreads to a 100-foot radius at a rate of 20 feet per round. The cauldron smokes for 5 rounds before burning out. After the cauldron finishes burning, the smoke lasts for 3 more rounds before dissipating. A moderate wind (11+ mph) does not affect the heavy smoke, while a strong wind (21+ mph) disperses the smoke in 2 rounds.",
+			"This small cauldron of alchemically treated tar gives off thick, acrid smoke when ignited. The smoke rises to an altitude of 25 feet, then spreads horizontally, creating an artificial smoke ceiling 5 feet thick. The smoke spreads to a 100-foot radius at a rate of 20 feet per round. The cauldron smokes for 5 rounds before burning out. After the cauldron finishes burning, the smoke lasts for 3 more rounds before dissipating. A moderate ‹rule/wind› (11+ mph) does not affect the heavy smoke, while a strong wind (21+ mph) disperses the smoke in 2 rounds.",
 			"",
 			"The smoke is entirely opaque, which means creatures above the smoke can't see the ground, and those on the ground have a visual ceiling of 25 feet. Creatures on the other side of the smoke have total ‹rule/concealment› (50% miss chance, and the attacker can't use sight to locate the target).",
 			"",
@@ -2860,7 +2924,7 @@
 			"‹SOURCE Ultimate Equipment/57;Advanced Player's Guide/183›  ",
 			"::tabular{format=misc a=10 b=x d=gear}",
 			"",
-			"These spectacles have lenses made of smoked glass that help protect against creatures with ‹umr/gaze› attacks. You are always treated as averting your gaze when dealing with gaze attacks, and you gain a +8 circumstance bonus on saving throws against visual-based attacks (any attack that a ‹misc/blind› creature would be immune to). You take a -4 penalty on Perception checks while wearing the goggles, and all opponents are treated as having ‹rule/concealment› (20% miss chance)."
+			"@I-def-down These spectacles have lenses made of smoked glass that help protect against creatures with ‹umr/gaze› attacks. You are always treated as averting your gaze when dealing with gaze attacks, and you gain a +8 circumstance bonus on saving throws against visual-based attacks (any attack that a ‹misc/blind› creature would be immune to). You take a -4 penalty on ‹skill/Perception› checks while wearing the goggles, and all opponents are treated as having ‹rule/concealment› (20% miss chance)."
 		]
 	},
 	"smokestick": {
@@ -3129,7 +3193,7 @@
 			"‹SOURCE Inner Sea Temples/42›  ",
 			"::tabular{format=misc a=1 b=x d=gear}",
 			"",
-			"When lit, this spiral-shaped ‹eq-misc/candle› burns for 24 hours, but if a haunt manifests or an undead creature comes within 5 feet of a lit soul candle, the candle goes out in a bright, sizzling flash."
+			"@I-magic When lit, this spiral-shaped ‹eq-misc/candle› burns for 24 hours, but if a haunt manifests or an undead creature comes within 5 feet of a lit soul candle, the candle goes out in a bright, sizzling flash."
 		]
 	},
 	"soul_stimulant": {
@@ -3197,7 +3261,9 @@
 			"‹SOURCE Adventurer's Armory/19›  ",
 			"::tabular{format=misc a=1 b=1 d=gear}",
 			"",
-			"This is little more than a handle with a cup, loop, or spur to hold the butt of a ‹eq-weapon/dart›, ‹eq-weapon/javelin›, or ‹eq-weapon/shortspear›. Using a spear-thrower to throw such a weapon doubles the projectile's range increment. Setting a weapon into a spear-thrower is a @HL[move action]; by taking the ‹feat/Rapid Reload› (spear-thrower) feat, you reduce this to a @HL[free action]."
+			"This is little more than a handle with a cup, loop, or spur to hold the butt of a ‹eq-weapon/dart›, ‹eq-weapon/javelin›, or ‹eq-weapon/shortspear›.",
+			"",
+			"@I-boost Using a spear-thrower to throw such a weapon doubles the projectile's range increment. Setting a weapon into a spear-thrower is a @HL[move action]; by taking the ‹feat/Rapid Reload› (spear-thrower) feat, you reduce this to a @HL[free action]."
 		]
 	},
 	"speech_resin": {
@@ -3371,7 +3437,7 @@
 			"‹SOURCE Ultimate Equipment/58;Advanced Player's Guide/183›  ",
 			"::tabular{format=misc a=100 b=4 d=gear}",
 			"",
-			"This 50-foot length of rope is woven of strands of silk from monstrous spiders. Rare to virtually non-existent on the surface world, it is commonly used by the dark elves, though shorter spider's silk rope scraps (generally no more than 10 feet long) occasionally appear among goblins. Spider's silk rope has 6 hit points and can be broken with a DC 25 Strength check."
+			"This 50-foot length of rope is woven of strands of silk from monstrous spiders. Rare to virtually non-existent on the surface world, it is commonly used by the [dark elves](monster/drow), though shorter spider's silk rope scraps (generally no more than 10 feet long) occasionally appear among goblins. Spider's silk rope has 6 hit points and can be broken with a DC 25 Strength check."
 		]
 	},
 	"spiders_silk_rope_fifty_ft": { "redirect": "spiders_silk_rope_50_ft" },
@@ -3401,7 +3467,9 @@
 			"‹SOURCE Dirty Tactics Toolbox/21›  ",
 			"::tabular{format=misc a=300 b=1 d=gear}",
 			"",
-			"A spike hilt can be added to any one-handed or two-handed sword or hafted weapon, which conceals a ‹eq-weapon/dagger› within the larger weapon. An observer who succeeds at a DC 20 Perception check while carefully examining the larger weapon notices the spike hilt. Drawing a dagger from the spike hilt is a @HL[swift action]. This dagger can be made masterwork or turned into a magic weapon at the normal cost."
+			"A spike hilt can be added to any one-handed or two-handed sword or hafted weapon, which conceals a ‹eq-weapon/dagger› within the larger weapon. An observer who succeeds at a DC 20 ‹skill/Perception› check while carefully examining the larger weapon notices the spike hilt.",
+			"",
+			"Drawing a dagger from the spike hilt is a @HL[swift action]. This dagger can be made ‹rule/masterwork<_w› or turned into a magic weapon at the normal cost."
 		]
 	},
 	"spiked_focus_ward": {
@@ -3425,7 +3493,11 @@
 			"‹SOURCE Haunted Heroes Handbook/13›  ",
 			"::tabular{format=misc a=20 b=1 d=gear}",
 			"",
-			"This device resembles an ordinary compass, save that it is filled with alcohol and water, in which bob two pieces of alchemically treated metal (one silver and one iron). A spirit compass can be operated by a creature so as to allow the user to employ Survival in place of Perception to notice haunts (it provides no benefit toward detecting those unusual haunts that are not noticed by Perception checks). A creature that is untrained in Survival takes a -4 penalty on any Survival checks when attempting to use a spirit compass in this manner, representing the action of focusing on the compass rather than one's surroundings."
+			"This device resembles an ordinary ‹eq-misc/compass›, save that it is filled with alcohol and water, in which bob two pieces of alchemically treated metal (one silver and one iron).",
+			"",
+			"@I-boost A *spirit compass* can be operated by a creature so as to allow the user to employ ‹skill/Survival› in place of ‹skill/Perception› to notice haunts (it provides no benefit toward detecting those unusual haunts that are not noticed by Perception checks).",
+			"",
+			"@I-down A creature that is untrained in Survival takes a -4 penalty on any Survival checks when attempting to use a *spirit compass* in this manner, representing the action of focusing on the *compass* rather than one's surroundings."
 		]
 	},
 	"spirit_of_glass": {
@@ -3451,7 +3523,11 @@
 			"‹SOURCE Merchant's Manifest/23›  ",
 			"::tabular{format=misc a=20 b=\"0.5\" d=gear}",
 			"",
-			"These offerings take many forms, such as food, incense, pinwheels, rare teas, perfectly smooth white pebbles, or stone tablets, but they are always kept in pouches tied with ribbon. Travelers in the Dragon Empires leave these offerings at the small shrines or holy sites that can be found scattered along roads. For 1 hour after a traveler leaves a spirit offering, any ‹family/kami› the traveler encounters has its initial attitude improved by one step. This attitude adjustment reverts to normal after 10 minutes unless the creature's attitude is adjusted further during that time, such as via the Diplomacy skill, in which case the kami's attitude does not revert after the offering's effect expires. Once a spirit offering has been used to improved a kami's attitude, it cannot be reused."
+			"These offerings take many forms, such as food, ‹eq-misc/incense›, pinwheels, rare teas, perfectly smooth white pebbles, or stone tablets, but they are always kept in pouches tied with ribbon.",
+			"",
+			"@I-boost Travelers in the Dragon Empires leave these offerings at the small shrines or holy sites that can be found scattered along roads. For 1 hour after a traveler leaves a spirit offering, any ‹family/kami› the traveler encounters has its initial attitude improved by one step. This attitude adjustment reverts to normal after 10 minutes unless the creature's attitude is adjusted further during that time, such as via the ‹skill/Diplomacy› skill, in which case the kami's attitude does not revert after the offering's effect expires.",
+			"",
+			"Once a spirit offering has been used to improved a kami's attitude, it cannot be reused."
 		]
 	},
 	"spirit_planchette_set": {
@@ -3473,7 +3549,11 @@
 			"‹SOURCE Occult Adventures/250›  ",
 			"::tabular{format=misc a=25 b=1 d=gear}",
 			"",
-			"This telescopic horn is constructed of thin sheets of tin rolled into concentric cones, and measures about 3 feet long when fully extended. Primarily used by fraudulent mediums to disguise the true source of mysterious voices in darkened seance chambers, these trumpets add 1 to the DCs of saving throws to disbelieve the effects of the ‹spell/ghost sound› and ‹spell/ventriloquism› spells. When used to channel a haunt capable of communication, a spirit trumpet doubles the rate of communication with the haunt, and grants the user a +4 circumstance bonus on Linguistics checks to decipher the cryptic messages."
+			"This telescopic horn is constructed of thin sheets of tin rolled into concentric cones, and measures about 3 feet long when fully extended.",
+			"",
+			"@I-boost Primarily used by fraudulent mediums to disguise the true source of mysterious voices in darkened seance chambers, these trumpets add 1 to the DCs of saving throws to disbelieve the effects of the ‹spell/ghost sound› and ‹spell/ventriloquism› spells.",
+			"",
+			"@I-boost When used to channel a haunt capable of communication, a spirit trumpet doubles the rate of communication with the haunt, and grants the user a +4 circumstance bonus on ‹skill/Linguistics› checks to decipher the cryptic messages."
 		]
 	},
 	"spirit_vision_ink": {
@@ -3547,7 +3627,7 @@
 			"‹SOURCE Dragonslayer's Handbook/27›  ",
 			"::tabular{format=misc a=75 b=18 d=gear}",
 			"",
-			"This large contraption functions like a ‹eq-misc/hooded lantern›, shedding large amounts of light in a single direction. A spotlight also contains several mirrors which amplify and aim the light. A spotlight creates a 5-foot-wide beam of normal light, which extends to a distance of 90 feet and continues for another 90 feet as ‹rule/dim light›. It does not radiate any light outside the area of the beam. A spotlight does not increase the light level in normal light or bright light. A lantern burns for 1 hour on 1 pint of oil, and requires two hands to move and one hand to aim."
+			"This large contraption functions like a ‹eq-misc/hooded lantern›, shedding large amounts of light in a single direction. A spotlight also contains several mirrors which amplify and aim the light. A spotlight creates a 5-foot-wide beam of normal light, which extends to a distance of 90 feet and continues for another 90 feet as ‹rule/dim light›. It does not radiate any light outside the area of the beam. A spotlight does not increase the light level in normal light or bright light. A spotlight burns for 1 hour on 1 pint of oil, and requires two hands to move and one hand to aim."
 		]
 	},
 	"spys_kit": {
@@ -3580,7 +3660,7 @@
 			"‹SOURCE Ranged Tactics Toolbox/21›  ",
 			"::tabular{format=misc a=4000 b=2 d=gear}",
 			"",
-			"Objects viewed through a masterwork spyglass are magnified to four times their size. Characters using a masterwork spyglass take a -1 penalty on Perception checks per 40 feet of distance to the target (instead of per 20 feet as with a normal ‹eq-misc/spyglass›)."
+			"@I-boost Objects viewed through a masterwork spyglass are magnified to four times their size. Characters using a masterwork spyglass take a -1 penalty on ‹skill/Perception› checks per 40 feet of distance to the target (instead of per 20 feet as with a normal ‹eq-misc/spyglass›)."
 		]
 	},
 	"spyglass": {
@@ -3594,7 +3674,7 @@
 			"‹SOURCE Ultimate Equipment/58;PRPG Core Rulebook/158›  ",
 			"::tabular{format=misc a=1000 b=1 d=gear}",
 			"",
-			"Objects viewed through a spyglass are magnified to twice their size. Characters using a spyglass take a -1 penalty on Perception skill checks per 20 feet of distance to the target, if the target is visible."
+			"@I-down Objects viewed through a spyglass are magnified to twice their size. Characters using a spyglass take a -1 penalty on ‹skill/Perception› skill checks per 20 feet of distance to the target, if the target is visible."
 		]
 	},
 	"squires_outfit": {
@@ -3735,7 +3815,7 @@
 			"‹SOURCE Ultimate Equipment/58;Adventurer's Armory/19›  ",
 			"::tabular{format=misc a=1 b=x d=gear}",
 			"",
-			"Generally used only by the wealthy, fancy stationery is a finer-quality 9-inch-by-6-inch paper, often embossed or engraved with the owner's personal seal."
+			"Generally used only by the wealthy, fancy stationery is a finer-quality 9-inch-by-6-inch ‹eq-misc/paper›, often embossed or engraved with the owner's personal seal."
 		]
 	},
 	"statue_disguise_kit": {
@@ -3785,11 +3865,13 @@
 			"‹SOURCE Ultimate Equipment/58›  ",
 			"::tabular{format=misc a=\"0.2\" id=stilts b=10 d=gear}",
 			"",
-			"This item consists of a pair of wooden poles with a footrest halfway up. By standing on the footrests and holding the tops of the poles you can avoid certain ground-based threats to your feet. For example, you can use stilts to cross water without getting wet, but you would still activate a trap that triggers when you walk in a certain area. Using stilts reduces your base speed from 30 feet to 20 feet, or from 20 feet to 15 feet. You can hop off your stilts as a @HL[move action], or as a @HL[free action] with a successful DC 10 Acrobatics check.",
+			"This item consists of a pair of wooden poles with a footrest halfway up. By standing on the footrests and holding the tops of the poles you can avoid certain ground-based threats to your feet. For example, you can use stilts to cross water without getting wet, but you would still activate a trap that triggers when you walk in a certain area.",
 			"",
-			"You must use both your hands to walk with stilts. Walking with stilts requires a DC 5 Acrobatics check for each move. Failing this check means you do not move for that @HL[move action]; failing by 5 or more means you fall off the stilts. If you want to use one hand for something else while standing on stilts, you must succeed at a DC 10 Acrobatics check or lose the action; if you want to use two hands, the DC increases to 20.",
+			"@I-down Using stilts reduces your base speed from 30 feet to 20 feet, or from 20 feet to 15 feet. You can hop off your stilts as a @HL[move action], or as a @HL[free action] with a successful DC 10 ‹skill/Acrobatics› check.",
 			"",
-			"Stilts for a Medium creature raise you 2 feet above the ground; stilts for a Small creature raise you 1 foot from the ground. You can use taller stilts, but each additional foot of elevation increases the Acrobatics DCs of using stilts by +5. A stilt has ‹rule/hardness› 5 and 10 hit points. If you only have one stilt, your speed drops to 5 feet because you can only hop rather than walk.",
+			"@I-warning You must use both your hands to walk with stilts. Walking with stilts requires a DC 5 Acrobatics check for each move. Failing this check means you do not move for that @HL[move action]; failing by 5 or more means you fall off the stilts. If you want to use one hand for something else while standing on stilts, you must succeed at a DC 10 Acrobatics check or lose the action; if you want to use two hands, the DC increases to 20.",
+			"",
+			"@I-down Stilts for a Medium creature raise you 2 feet above the ground; stilts for a Small creature raise you 1 foot from the ground. You can use taller stilts, but each additional foot of elevation increases the Acrobatics DCs of using stilts by +5. A stilt has ‹rule/hardness› 5 and 10 hit points. If you only have one stilt, your speed drops to 5 feet because you can only hop rather than walk.",
 			"",
 			"::h3[Masterwork Stilts]{jl}",
 			"",
@@ -3878,7 +3960,11 @@
 			"‹SOURCE Haunted Heroes Handbook/13›  ",
 			"::tabular{format=misc a=80 b=5 d=gear}",
 			"",
-			"Heavy gray mist fills the interior of a storm glass, a receptacle lined with thin metal strips and equipped with metal tuning forks jutting from inside the top and bottom of the glass. The forks are attuned to the Material Plane and can detect planar anomalies or intrusions, specifically the presence of outsiders. The mist within a storm glass changes coloration after 1 minute of being within 60 feet of a non-native outsider (including creatures possessed by non-native outsiders), and grants a +2 circumstance bonus on Knowledge (planes) checks to identify such creatures. The color change lasts as long as the jar remains within range of an outsider and for 1d4+1 rounds after leaving the area. Removing the storm glass from the Material Plane (including placing it in extraplanar containers such as a portable hole) causes the gas to permanently revert to a colorless, inert vapor."
+			"Heavy gray mist fills the interior of a *storm glass,* a receptacle lined with thin metal strips and equipped with metal tuning forks jutting from inside the top and bottom of the glass. The forks are attuned to the Material Plane and can detect planar anomalies or intrusions, specifically the presence of outsiders.",
+			"",
+			"@I-power-boost The mist within a *storm glass* changes coloration after 1 minute of being within 60 feet of a non-native outsider (including creatures possessed by non-native outsiders), and grants a +2 circumstance bonus on ‹skill/Knowledge (planes)› checks to identify such creatures. The color change lasts as long as the jar remains within range of an outsider and for 1d4+1 rounds after leaving the area.",
+			"",
+			"@I-warning Removing the *storm glass* from the Material Plane (including placing it in extraplanar containers such as a ‹magic-wondrous/portable hole›) causes the gas to permanently revert to a colorless, inert vapor."
 		]
 	},
 	"stout_solution": {
@@ -3918,7 +4004,9 @@
 			"‹SOURCE Occult Adventures/250›  ",
 			"::tabular{format=misc a=\"5 gp (common), 50 gp (masterwork)\" b=\"1 lb. (common), 1 lb. (masterwork)\" c=x d=gear}",
 			"",
-			"Fashioned of durable canvas and leather straps, this instrument of restraint prevents its wearer from using his arms entirely. Properly binding a creature in a straitjacket requires 1 minute, and the creature must be willing or helpless. This time can be reduced to 5 rounds, but doing so lowers the DC to escape the restraints by 5. A creature wearing a straitjacket gains the ‹rule/grapple«d» condition<s›, except it is able to move. Escaping from the straitjacket requires a successful DC 28 Escape Artist check (DC 30 for a masterwork straitjacket.)"
+			"Fashioned of durable canvas and leather straps, this instrument of restraint prevents its wearer from using his arms entirely. Properly binding a creature in a straitjacket requires 1 minute, and the creature must be willing or helpless. This time can be reduced to 5 rounds, but doing so lowers the DC to escape the restraints by 5.",
+			"",
+			"@I-lower A creature wearing a straitjacket gains the ‹rule/grapple«d» condition<s›, except it is able to move. Escaping from the straitjacket requires a successful DC 28 ‹skill/Escape Artist› check (DC 30 for a masterwork straitjacket.)"
 		]
 	},
 	"straitjacket_masterwork": {
@@ -3988,9 +4076,9 @@
 			"‹SOURCE Ultimate Intrigue/234›  ",
 			"::tabular{format=misc a=\"45 gp (vest), 90 gp (vestment)\" b=\"1 lb. (vest), 2 lbs. (vestment)\" c=x d=gear}",
 			"",
-			"Subversive vests are tailored to the pinnacle of courtly fashion, yet have strategically placed compartments for hiding ‹eq-misc/thieves' tools›. You gain a +2 circumstance bonus on Sleight of Hand checks to conceal thieves' tools within a subversive vest.",
+			"@I-def *Subversive vests* are tailored to the pinnacle of courtly fashion, yet have strategically placed compartments for hiding ‹eq-misc/thieves' tools›. You gain a +2 circumstance bonus on ‹skill/Sleight of Hand› checks to conceal thieves' tools within a *subversive vest.*",
 			"",
-			"A subversive vestment is like a subversive vest, but resembles a clerical vestment and has a greater carrying capacity. In addition to thieves' tools, you can stow two 1-pint ‹eq-misc/flask«s› in specially designed pockets that conceal the items' bulk from common view, with the same circumstance bonus as a subversive vest."
+			"A *subversive vestment* is like a *subversive vest,* but resembles a clerical vestment and has a greater carrying capacity. In addition to thieves' tools, you can stow two 1-pint ‹eq-misc/flask«s› in specially designed pockets that conceal the items' bulk from common view, with the same circumstance bonus as a *subversive vest.*"
 		]
 	},
 	"subversive_vest_vestment": {
@@ -4005,7 +4093,7 @@
 			"‹SOURCE Villain Codex/117›  ",
 			"::tabular{format=misc a=4 b=35 d=gear}",
 			"",
-			"A sucker's barrel is constructed to appear to the casual eye exactly like a normal barrel. However, an inner barrier installed near one of the barrel's ends hides a cavity containing a bladder filled with water. This creates a false bottom such that, when the barrel is full, it weighs and feels the same as a barrel filled completely with more valuable liquid, such as alcohol or oil. In this way, a merchant can \"fill\" a barrel with a smaller quantity of a liquid (typically 75% of the barrel's total capacity) and then sell it as if it were a full barrel's worth."
+			"A *sucker's barrel* is constructed to appear to the casual eye exactly like a normal barrel. However, an inner barrier installed near one of the barrel's ends hides a cavity containing a bladder filled with water. This creates a false bottom such that, when the barrel is full, it weighs and feels the same as a barrel filled completely with more valuable liquid, such as alcohol or oil. In this way, a merchant can \"fill\" a barrel with a smaller quantity of a liquid (typically 75% of the barrel's total capacity) and then sell it as if it were a full barrel's worth."
 		]
 	},
 	"sugar_glass_bottle": {
@@ -4155,7 +4243,11 @@
 			"‹SOURCE Aquatic Adventures/56›  ",
 			"::tabular{format=misc a=\"1 sp (mundane), 8 gp (potion)\" b=\"1 lb. (mundane), &mdash& (potion)\" c=x d=gear}",
 			"",
-			"While ‹eq-misc/potion sponge«s› are a reasonable enough method for air-breathers like undines to prepare to bring a potion underwater, aquatic creatures prefer a solution that allows them to prepare potions, beverages, and other liquids underwater to begin with. A sureseal bladder is made of a thin membrane that won't allow liquid through. By passing a solid spout or tube through the membrane, you can fill the bladder without allowing in any ambient seawater, and the membrane seals behind the spout. Once the bladder is full, the drinker can nip on the end of the membrane in order to sip the drink at her leisure, slowly crumpling the bladder for eventual disposal. The cheaper mundane sureseal bladders hold about 2 cups of liquid and work best for enjoying a favorite drink; the listed weight assumes the mundane sureseal bladder is full. Potions rely on drinking the entire dose, so potion sureseal bladders, while much smaller (just large enough for a potion), are pressurized in order to expel the entire potion at once without losing any of it, allowing the drinker to drink them as a @HL[standard action] just like drinking a potion above the waves. Either type of sureseal bladder can be used only once."
+			"While ‹eq-misc/potion sponge«s› are a reasonable enough method for air-breathers like ‹race/undine«s› to prepare to bring a potion underwater, aquatic creatures prefer a solution that allows them to prepare potions, beverages, and other liquids underwater to begin with.",
+			"",
+			"A sureseal bladder is made of a thin membrane that won't allow liquid through. By passing a solid spout or tube through the membrane, you can fill the bladder without allowing in any ambient seawater, and the membrane seals behind the spout. Once the bladder is full, the drinker can nip on the end of the membrane in order to sip the drink at her leisure, slowly crumpling the bladder for eventual disposal.",
+			"",
+			"The cheaper mundane sureseal bladders hold about 2 cups of liquid and work best for enjoying a favorite drink; the listed weight assumes the mundane sureseal bladder is full. Potions rely on drinking the entire dose, so potion sureseal bladders, while much smaller (just large enough for a potion), are pressurized in order to expel the entire potion at once without losing any of it, allowing the drinker to drink them as a @HL[standard action] just like drinking a potion above the waves. Either type of sureseal bladder can be used only once."
 		]
 	},
 	"sureseal_bladder_potion": {
@@ -4235,7 +4327,7 @@
 			"‹SOURCE Ultimate Equipment/58;Advanced Player's Guide/183›  ",
 			"::tabular{format=misc a=20 b=10 d=gear}",
 			"",
-			"These heavy and overlapping layers of clothing, coupled with a wide hat outfitted with a dense, veil-like netting around its brim, makes it all but impossible for Diminutive and Fine creatures to make physical contact with your body. Wearing a swarmsuit cuts your speed in half, but gives you DR 10/- against swarms of Fine creatures and DR 5/- against swarms of Diminutive creatures."
+			"@I-down-def These heavy and overlapping layers of clothing, coupled with a wide hat outfitted with a dense, veil-like netting around its brim, makes it all but impossible for Diminutive and Fine creatures to make physical contact with your body. Wearing a swarmsuit cuts your speed in half, but gives you DR 10/- against swarms of Fine creatures and DR 5/- against swarms of Diminutive creatures."
 		]
 	},
 	"swashbucklers_kit": {
@@ -4349,11 +4441,13 @@
 			"‹SOURCE Occult Adventures/251›  ",
 			"::tabular{format=misc a=15 b=2 d=gear}",
 			"",
-			"This thin, rectangular wooden board is printed with an arching array of alphabetical letters, numbers, and short affirmative and negative messages. Paired with a small, heart-shaped pointer on short wooden legs, this device enables communication with spiritual entities or the user's deep subconscious mind. A talking board can be used in place of a pencil and paper or a writing planchette when attempting a Linguistics check with the ‹skill/automatic writing› occult skill unlock, and provides a +2 circumstance bonus on such checks. In addition, given the size of the board, the user can work in conjunction with another psychically sensitive creature who can bolster the attempt with a successful aid another check.",
+			"This thin, rectangular wooden board is printed with an arching array of alphabetical letters, numbers, and short affirmative and negative messages. Paired with a small, heart-shaped pointer on short wooden legs, this device enables communication with spiritual entities or the user's deep subconscious mind.",
 			"",
-			"A user can also use the board alone to initiate the recall memory use of the ‹skill/hypnotism› occult skill unlock. The user attempts the skill check as normal, with herself as the subject, and receives a +2 circumstance bonus on the check.",
+			"@I-boost A talking board can be used in place of a pencil and paper or a writing planchette when attempting a ‹skill/Linguistics› check with the ‹skill/automatic writing› occult skill unlock, and provides a +2 circumstance bonus on such checks. In addition, given the size of the board, the user can work in conjunction with another psychically sensitive creature who can bolster the attempt with a successful ‹rule/aid another› check.",
 			"",
-			"When used to channel a haunt capable of communication, a talking board doubles the rate of communication with the haunt, and grants the user a +4 circumstance bonus on Linguistics checks to decipher the cryptic messages.",
+			"@I-boost A user can also use the board alone to initiate the *recall memory* use of the ‹skill/hypnotism› occult skill unlock. The user attempts the skill check as normal, with herself as the subject, and receives a +2 circumstance bonus on the check.",
+			"",
+			"@I-boost When used to channel a haunt capable of communication, a talking board doubles the rate of communication with the haunt, and grants the user a +4 circumstance bonus on Linguistics checks to decipher the cryptic messages.",
 			"",
 			"Though a talking board can be used for some of the same functions as other gear (such as ‹eq-misc/automatic writing planchette«s› and ‹eq-misc/hypnotist's locket«s›), these items can't be used in unison to gain multiple bonuses or increase the rate of communication with a haunt to more than double."
 		]
@@ -4550,7 +4644,11 @@
 			"‹SOURCE Ultimate Wilderness/244›  ",
 			"::tabular{format=misc a=15 b=15 d=gear}",
 			"",
-			"When fastened over a normal tent, this sheet of resilient waterproof animal gut provides an additional layer of protection against harsh weather and pestering insects. Attaching the cover requires 1 minute of work. The occupants of a tent that is fitted with the cover gain a +5 circumstance bonus on saves to resist the adverse effects of dust storms, rain, snow, and other harmful weather conditions. The occupants also gain DR 5/- against swarm damage caused by swarms composed of Diminutive or smaller creatures outside the tent. If an occupant takes no damage from a swarm as a result of this DR, she is not affected by the swarm's distraction ability. The swarm can attempt a DC 20 Reflex save as a @HL[full-round action] to enter the tent and deal full damage in subsequent rounds."
+			"When fastened over a normal tent, this sheet of resilient waterproof animal gut provides an additional layer of protection against harsh weather and pestering insects. Attaching the cover requires 1 minute of work.",
+			"",
+			"@I-def The occupants of a tent that is fitted with the cover gain a +5 circumstance bonus on saves to resist the adverse effects of dust storms, rain, snow, and other harmful weather conditions. The occupants also gain DR 5/- against swarm damage caused by ‹subtype/swarm«s› composed of Diminutive or smaller creatures outside the tent. If an occupant takes no damage from a swarm as a result of this DR, she is not affected by the swarm's *distraction* ability.",
+			"",
+			"@I-warning The swarm can attempt a DC 20 Reflex save as a @HL[full-round action] to enter the tent and deal full damage in subsequent rounds."
 		]
 	},
 	"tent": { "redirect": "tent_small" },
@@ -4566,7 +4664,9 @@
 			"‹SOURCE Advanced Race Guide/27›  ",
 			"::tabular{format=misc a=20 b=15 d=gear}",
 			"",
-			"A hanging tent is a ‹eq-misc/small tent› (able to comfortably house a single Medium creature) with a teardrop shape, which hangs from a sturdy anchor rope. The rope can be tied to a tree limb, grappling hook, or even a piton hammered into a cliff side. Hanging tents are used primarily in mountainous terrain (where no flat surface may be available for camping) and swamps (where no dry ground may be available). Climbing in or out of a hanging tent is a @HL[full-round action] that requires a DC 10 Climb check. Failure indicates another attempt must be made, while failure by 5 or more indicates the camper has fallen from the tent."
+			"A hanging tent is a ‹eq-misc/small tent› (able to comfortably house a single Medium creature) with a teardrop shape, which hangs from a sturdy anchor rope. The rope can be tied to a tree limb, ‹eq-misc/grappling hook›, or even a ‹eq-misc/piton› hammered into a cliff side.",
+			"",
+			"Hanging tents are used primarily in mountainous terrain (where no flat surface may be available for camping) and swamps (where no dry ground may be available). Climbing in or out of a hanging tent is a @HL[full-round action] that requires a DC 10 ‹skill/Climb› check. Failure indicates another attempt must be made, while failure by 5 or more indicates the camper has fallen from the tent."
 		]
 	},
 	"tepache_cup": {
@@ -4759,7 +4859,7 @@
 			"‹SOURCE Ultimate Equipment/58;Pathfinder #8: Seven Days to the Grave/61;Adventurer's Armory/19›  ",
 			"::tabular{format=misc a=50 b=3 d=gear}",
 			"",
-			"When filled with coal and common herbs worth 2 sp, this miniature brazier fills an area 30 feet in diameter with light smoke for 1 hour. Any creature in the area of this smoke gains a +2 circumstance bonus on Fortitude saves to resist inhaled diseases."
+			"@I-aura-protect When filled with coal and common herbs worth 2 sp, this miniature brazier fills an area 30 feet in diameter with light smoke for 1 hour. Any creature in the area of this smoke gains a +2 circumstance bonus on Fortitude saves to resist inhaled diseases."
 		]
 	},
 	"tillers_gum": {
@@ -4887,7 +4987,7 @@
 			"‹SOURCE Ultimate Equipment/58;PRPG Core Rulebook/158›  ",
 			"::tabular{format=misc a=\"0.01\" b=1 d=gear}",
 			"",
-			"A torch burns for 1 hour, shedding normal light in a 20-foot radius and increasing the ‹rule/light level› by one step for an additional 20 feet beyond that area (darkness becomes dim light and dim light becomes normal light). A torch does not increase the light level in normal light or bright light. If a torch is used in combat, treat it as a one-handed improvised weapon that deals bludgeoning damage equal to that of a gauntlet of its size, plus 1 point of fire damage."
+			"A torch burns for 1 hour, shedding normal light in a 20-foot radius and increasing the ‹rule/light level› by one step for an additional 20 feet beyond that area (darkness becomes dim light and dim light becomes normal light). A torch does not increase the light level in normal light or bright light. If a torch is used in combat, treat it as a one-handed ‹misc/improvised weapon› that deals bludgeoning damage equal to that of a ‹eq-weapon/gauntlet› of its size, plus 1 point of fire damage."
 		]
 	},
 	"torches": { "redirect": "torch" },

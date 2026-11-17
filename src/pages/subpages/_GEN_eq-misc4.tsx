@@ -855,9 +855,9 @@ const _net_rigging = {title: "Net rigging", jsx: <><h2 id="eq-misc-net_rigging-n
 <p><strong>Sources</strong> <Link to="/source/black_markets">Black Markets pg. 20</Link>  </p>
 <Tabular format="misc" a="250" b="40" d="gear" />
 <p>This large bundle of ropes, pulleys, netting, and latches can be assembled to form two different traps: one to drop a net from above, and another to snag trespassers from below and hoist them into the air. Either configuration requires an overhead structure such as a ceiling, a crossbeam, or a sturdy tree branch to support the trap's mechanisms and counterweights. Net rigging has an effective Strength score of 19 for the purpose of determining how much weight it can lift.</p>
-<Tabular format="craft" a="25" b="Traps" />
 <TrapInfo id="falling-net-trap-trap" cr="&mdash;" pdc="10" dddc="15" manual trigger="touch" eff="net (entangled and tethered by 10-ft. rope); Reflex DC 15 avoids; multiple targets (all targets in a 10-ft.-square area)">Falling Net Trap</TrapInfo>
 <TrapInfo id="hoisting-net-trap-trap" cr="&mdash;" pdc="10" dddc="15" manual trigger="touch" eff="net (entangled and lifted 10 ft. into the air); Reflex DC 15 avoids; multiple targets (all targets in a 10-ft.-square area)">Hoisting Net Trap</TrapInfo>
+<Tabular format="craft" a="25" b="Traps" />
 </>};
 const _nethyss_dagger = {title: "Nethys's dagger", jsx: <><h2 id="eq-misc-nethyss_dagger-nethyss-dagger">Nethys's dagger</h2>
 <p><strong>Sources</strong> <Link to="/source/heroes_of_the_wild">Heroes of the Wild pg. 10</Link>  </p>

@@ -394,9 +394,9 @@
 			"",
 			"@I-ranged The flask launcher isn't designed to be used as a ranged weapon; treat it as an ‹misc/improvised weapon› with a 10-foot range increment. Reloading the launcher is a @HL[full-round action] that requires two hands and provokes an attack of opportunity.",
 			"",
-			"::tabular{format=craft a=25 b=Traps}",
+			"::trap[Flash Launcher Trap]{cr=\"&mdash&\" mechanical pdc=15 dddc=15 trigger=touch manual eff=\"Atk +5 ranged touch (effects vary by payload)\"}",
 			"",
-			"::trap[Flash Launcher Trap]{cr=\"&mdash&\" mechanical pdc=15 dddc=15 trigger=touch manual eff=\"Atk +5 ranged touch (effects vary by payload)\"}"
+			"::tabular{format=craft a=25 b=Traps}"
 		]
 	},
 	"flask": {

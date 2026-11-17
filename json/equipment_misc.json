@@ -1761,9 +1761,9 @@
 			"",
 			"@I-warning The general bulkiness of an autosniper's framework imposes a -2 penalty on any attempts to use its attached crossbow as a ranged weapon. An autosniper can be removed from a crossbow with 1 minute of work.",
 			"",
-			"::tabular{format=craft a=25 b=Traps}",
+			"::trap[Autosniper Trap]{cr=\"&mdash&\" mechanical pdc=15 dddc=15 trigger=touch manual eff=\"Atk +5 ranged (damage varies by crossbow)\"}",
 			"",
-			"::trap[Autosniper Trap]{cr=\"&mdash&\" mechanical pdc=15 dddc=15 trigger=touch manual eff=\"Atk +5 ranged (damage varies by crossbow)\"}"
+			"::tabular{format=craft a=25 b=Traps}"
 		]
 	},
 	"axe_beak_combat_trained": {
@@ -2343,9 +2343,9 @@
 			"",
 			"This fine, 10-foot-long tripwire is attached to a loud bell and comes with pitons to fix the trap in place. The trap can be set across doorways, hallways, or narrow passes or between trees or rocks. Arming the trap properly takes 5 minutes; it can be set up in as little as 1 minute, but doing so reduces the DC to notice and disarm the trap by 5. The trap has the following statistics.",
 			"",
-			"::tabular{format=craft a=15 b=Traps}",
+			"::trap[Bell Tripwire Trap]{cr=\"&mdash&\" mechanical pdc=20 dddc=20 trigger=touch manual eff=\"bell rings (Perception DC 0 to hear)\"}",
 			"",
-			"::trap[Bell Tripwire Trap]{cr=\"&mdash&\" mechanical pdc=20 dddc=20 trigger=touch manual eff=\"bell rings (Perception DC 0 to hear)\"}"
+			"::tabular{format=craft a=15 b=Traps}"
 		]
 	},
 	"bell": {
@@ -4901,7 +4901,9 @@
 			"",
 			"@I-down Goblins are masters at crafting things from bits of rubbish. The category of \"cobbled item\" is a general catch-all to describe any piece of equipment that has been repaired or modified by goblins. Such items are of an inferior quality - whenever they're used as part of a skill check or attack roll, they have a 10% chance of being broken. Cobbled items can never be masterwork items.",
 			"",
-			"A cobbled item is of lesser quality than a normal item, and thus costs only 75% as much as the normal item, but is often much bulkier. Any cobbled item of 1 pound or more in weight actually weighs twice as much as a normal item of its type. Any item that normally costs more than 50 gp can never be a cobbled item, nor can alchemical items be cobbled. At the GM's discretion, other items may not be able to be cobbled items either."
+			"A cobbled item is of lesser quality than a normal item, and thus costs only 75% as much as the normal item, but is often much bulkier. Any cobbled item of 1 pound or more in weight actually weighs twice as much as a normal item of its type. Any item that normally costs more than 50 gp can never be a cobbled item, nor can alchemical items be cobbled. At the GM's discretion, other items may not be able to be cobbled items either.",
+			"",
+			"@HL[Also see:] ‹eq-misc/Shoddy item›"
 		]
 	},
 	"code_rod": {
