@@ -958,6 +958,7 @@
 		],
 		"disambiguation": true
 	},
+	"light": { "redirect": "light_shield" },
 	"klar": {
 		"name": "Klar",
 		"sources": [
@@ -1157,6 +1158,7 @@
 		],
 		"disambiguation": true
 	},
+	"heavy": { "redirect": "heavy_shield" },
 	"heavy_steel_shield": {
 		"name": "Heavy steel shield",
 		"sources": [
