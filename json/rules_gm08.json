@@ -2762,6 +2762,7 @@
 	"starve": { "redirect": "starvation_and_thirst" },
 	"starving": { "redirect": "starvation_and_thirst" },
 	"thirst": { "redirect": "starvation_and_thirst" },
+	"dehydration": { "redirect": "starvation_and_thirst" },
 	"suffocation": {
 		"name": "Suffocation",
 		"subtitle": "Environmental Rules",
