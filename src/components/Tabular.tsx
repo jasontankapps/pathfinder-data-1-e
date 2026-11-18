@@ -670,6 +670,26 @@ const FormatObject: { [x: string]: FormatProps } = {
 				</tbody></table>
 			);
 		}
+	},
+	simple: {
+		required: ["p", "w"],
+		className: "startAlign",
+		formatter: (props) => {
+			const {id, p, w, v} = props;
+			// p=price w=weight v=verbatim
+			const price = v ? p : translateGp(Number(p) || 0);
+			const weight = v ? w : translateWeight(Number(w));
+			return (
+				<table><tbody>
+					<tr>
+						<th id={id + "-price"}>Price</th>
+						<td headers={id + "-req"}>{price}</td>
+						<th id={id + "-weight"}>Weight</th>
+						<td headers={id + "-cost"}>{weight}</td>
+					</tr>
+				</tbody></table>
+			);
+		}
 	}
 };
 
