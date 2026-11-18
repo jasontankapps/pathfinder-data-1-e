@@ -683,9 +683,97 @@ const FormatObject: { [x: string]: FormatProps } = {
 				<table><tbody>
 					<tr>
 						<th id={id + "-price"}>Price</th>
-						<td headers={id + "-req"}>{price}</td>
+						<td headers={id + "-price"}>{price}</td>
 						<th id={id + "-weight"}>Weight</th>
-						<td headers={id + "-cost"}>{weight}</td>
+						<td headers={id + "-weight"}>{weight}</td>
+					</tr>
+				</tbody></table>
+			);
+		}
+	},
+	siege: {
+		required: ["p", "w", "a", "l", "s", "c"],
+		className: "startAlign",
+		formatter: (props) => {
+			const {id, p, d, e, x, r, m, t, w, a, l, s, c, z} = props;
+			// p=price (weight is always --) d=damage e=critical
+			//   x=range (text) r=range (ft) m=minimum range (ft)
+			//   t=type w=crew a=aim l=load s=speed (ft) c=category z=size
+			const range = x || (r ? (
+				<>{r} ft.{
+					m ? <> ({m} ft. min.)</> : ""
+				}</>
+			) : <>&mdash;</>);
+			const category = (
+				c === "i" ? "Indirect-Fire" : (
+					c === "d" ? "Direct-Fire" : (
+						c === "c" ? "Close Assault" : c
+					)
+				)
+			) + (
+				z ? ` (${
+					z === "h" ? "Huge" : (
+						z === "l" ? "Large" : (
+							z === "g" ? "Gargantuan" : z
+						)
+					)
+				})` : ""
+			);
+			return (
+				<table><tbody>
+					<tr>
+						<th id={id + "-price"} className="hl">Price</th>
+						<td headers={id + "-price"} colSpan={3}>{translateGp(Number(p) || 0)}</td>
+						<th id={id + "-weight"} className="hl">Weight</th>
+						<td headers={id + "-weight"} colSpan={3}>&mdash;</td>
+					</tr>
+					<tr>
+						<th id={id + "-price"} className="hl">Damage</th>
+						<td headers={id + "-dmg"} colSpan={3}>{d || <>&mdash;</>}</td>
+						<th id={id + "-crit"} className="hl">Critical</th>
+						<td headers={id + "-crit"} colSpan={3}>{e || <>&mdash;</>}</td>
+					</tr>
+					<tr>
+						<th id={id + "-range"} className="hl">Range</th>
+						<td headers={id + "-range"} colSpan={5}>{range}</td>
+						<th id={id + "-type"} className="hl">Type</th>
+						<td headers={id + "-type"}>{t || <>&mdash;</>}</td>
+					</tr>
+					<tr>
+						<th id={id + "-crew"}>Crew</th>
+						<td headers={id + "-crew"}>{w}</td>
+						<th id={id + "-aim"}>Aim</th>
+						<td headers={id + "-aim"}>{a}</td>
+						<th id={id + "-load"}>Load</th>
+						<td headers={id + "-load"}>{l}</td>
+						<th id={id + "-speed"}>Speed</th>
+						<td headers={id + "-speed"}>{s} ft.</td>
+					</tr>
+					<tr>
+						<th scope="row" colSpan={2} className="hl">Category</th>
+						<td colSpan={6}>{category}</td>
+					</tr>
+				</tbody></table>
+			);
+		}
+	},
+	siegeammo: {
+		required: ["p", "w"],
+		className: "startAlign",
+		formatter: (props) => {
+			const {id, p, w} = props;
+			// p=price w=weight
+			return (
+				<table><tbody>
+					<tr>
+						<th id={id + "-price"} className="hl">Price</th>
+						<td headers={id + "-price"} colSpan={2}>{translateGp(Number(p) || 0)}</td>
+						<th id={id + "-weight"} className="hl">Weight</th>
+						<td headers={id + "-weight"}>{translateWeight(Number(w))} lbs.</td>
+					</tr>
+					<tr>
+						<th scope="row" className="hl">Category</th>
+						<td colSpan={4}>Ammunition (Siege Engine)</td>
 					</tr>
 				</tbody></table>
 			);
