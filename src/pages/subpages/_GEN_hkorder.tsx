@@ -5,7 +5,7 @@ import {Block,Row,Cell} from '../../components/Block';
 import InnerLink from '../../components/InnerLink';
 import Message from '../../components/Message';
 const _not_found = {title: "Unknown", jsx: <><h2 id="hkorder-not_found-error">Error</h2>
-<p>Unable to find the requested order.</p>
+<p>Unable to find the requested Hellknight order.</p>
 </>};
 const _order_of_the_chain = {title: "Order of the Chain", jsx: <><h2 id="hkorder-order_of_the_chain-order-of-the-chain">Order of the Chain</h2>
 <p><strong>Sources</strong> <Link to="/source/path_of_the_hellknight">Path of the Hellknight pg. 10</Link></p>

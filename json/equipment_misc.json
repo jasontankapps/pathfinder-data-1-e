@@ -1197,7 +1197,7 @@
 			"",
 			"Alternatively, if 1 or more doses of the poison in question can be provided, most alchemists will supply as much *antivenom* as they can produce from the doses for a fee of 10% of the market price of the poison.",
 			"",
-			"::tabular{format=craftalch a=\"varies\"}"
+			"::tabular{format=craftalch a=varies}"
 		]
 	},
 	"anulite_paprika": {

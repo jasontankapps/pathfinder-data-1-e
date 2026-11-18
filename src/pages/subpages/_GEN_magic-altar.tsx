@@ -1,6 +1,6 @@
 import Link from '../../components/Link';
 const _not_found = {title: "Unknown", jsx: <><h2 id="magic-altar-not_found-error">Error</h2>
-<p>Unable to find the requested magic item.</p>
+<p>Unable to find the requested magic altar.</p>
 </>};
 const _altar_of_pharasma = {title: "Altar of Pharasma", jsx: <><h2 id="magic-altar-altar_of_pharasma-altar-of-pharasma">Altar of Pharasma</h2>
 <p><strong>Sources</strong> <Link to="/source/inner_sea_gods">Inner Sea Gods pg. 249</Link><br/><strong>Aura</strong> moderate abjuration and conjuration; <strong>CL</strong> 7th<br/><strong>Slot</strong> none; <strong>Price</strong> 5,380 gp; <strong>Weight</strong> 1,000 lbs.</p>

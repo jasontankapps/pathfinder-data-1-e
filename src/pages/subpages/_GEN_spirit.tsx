@@ -7,7 +7,7 @@ import ScrollContainer from '../../components/ScrollContainer';
 import ByLevelPop from '../../components/ByLevelPop';
 import Icons from '../../components/Icons';
 const _not_found = {title: "Unknown", jsx: <><h2 id="spirit-not_found-error">Error</h2>
-<p>Unable to find the requested spirit.</p>
+<p>Unable to find the requested medium spirit.</p>
 </>};
 const _archmage = {title: "Archmage", jsx: <><h2 id="spirit-archmage-archmage">Archmage</h2>
 <p><strong>Sources</strong> <Link to="/source/occult_adventures">Occult Adventures pg. 33</Link><br/>An archmage spirit is a font of knowledge and arcane power.</p>

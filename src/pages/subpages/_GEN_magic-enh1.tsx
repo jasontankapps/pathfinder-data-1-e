@@ -2,7 +2,7 @@ import {IonIcon} from '@ionic/react';
 import Link, {ThLink} from '../../components/Link';
 import ScrollContainer from '../../components/ScrollContainer';
 const _not_found = {title: "Unknown", jsx: <><h2 id="magic-enh-not_found-error">Error</h2>
-<p>Unable to find the requested magic enhancement.</p>
+<p>Unable to find the requested magical enhancement.</p>
 </>};
 const _advancing_armor = {title: "Advancing (armor)", jsx: <><h2 id="magic-enh-advancing_armor-advancing">Advancing</h2>
 <p><strong>Sources</strong> <Link to="/source/armor_masters_handbook">Armor Master's Handbook pg. 28</Link><br/><strong>Aura</strong> faint necromancy; <strong>CL</strong> 5th<br/><strong>Slot</strong> armor quality; <strong>Price</strong> +1 bonus; <strong>Weight</strong> -</p>
