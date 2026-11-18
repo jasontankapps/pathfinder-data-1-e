@@ -241,7 +241,7 @@ const _silver = {title: "Silver", jsx: <><h2 id="eq-reagent-silver-silver">Silve
 </>};
 const _smokestick = {title: "Smokestick", jsx: <><h2 id="eq-reagent-smokestick-smokestick">Smokestick</h2>
 <p><strong>Sources</strong> <Link to="/source/adventurers_armory">Adventurer's Armory pg. 27</Link></p>
-<Tabular format="alchstats" a="20 gp" b="1/2 lb." c="misc" d="Smokestick" />
+<Tabular format="alchstats" a="20 gp" b="&frac12; lb." c="misc" d="Smokestick" />
 <p>These items work best with spells that create clouds or smoke.</p>
 <h3><Link to="/rule/alchemical_power_components">Power Component</Link></h3><Tabular format="powercomp" a="1 (20 gp)" b={<><em>fog cloud, obscuring mist, pyrotechnics</em></>} c="Uses are listed below." />
 <p><strong className="hl"><Link to="/spell/fog_cloud">Fog Cloud</Link></strong> <strong className="hl">(M):</strong> Increase the radius of the cloud by 5 feet.</p>

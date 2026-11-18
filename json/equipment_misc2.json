@@ -394,7 +394,7 @@
 			"",
 			"@I-ranged The flask launcher isn't designed to be used as a ranged weapon; treat it as an ‹misc/improvised weapon› with a 10-foot range increment. Reloading the launcher is a @HL[full-round action] that requires two hands and provokes an attack of opportunity.",
 			"",
-			"::trap[Flash Launcher Trap]{cr=\"&mdash&\" mechanical pdc=15 dddc=15 trigger=touch manual eff=\"Atk +5 ranged touch (effects vary by payload)\"}",
+			"::trap[Flash Launcher Trap]{start cr=\"&mdash&\" mechanical pdc=15 dddc=15 trigger=touch manual eff=\"Atk +5 ranged touch (effects vary by payload)\"}",
 			"",
 			"::tabular{format=craft a=25 b=Traps}"
 		]
@@ -3300,7 +3300,7 @@
 			"",
 			"This set of small gold-plated scales is inscribed with words from Abadar's holy text.",
 			"",
-			"@I-boost When activated, its presence aids in negotiations, making attempts to change the attitude of another person by one step a @HL[swift action] instead of requiring 1 minute. The user must touch the scales and speak to the intended target as part of the skill check. The item remains activated for 1 hour, or until it has been used to influence a number of creatures equal to 1/2 the effective cleric level of the person who activated it."
+			"@I-boost When activated, its presence aids in negotiations, making attempts to change the attitude of another person by one step a @HL[swift action] instead of requiring 1 minute. The user must touch the scales and speak to the intended target as part of the skill check. The item remains activated for 1 hour, or until it has been used to influence a number of creatures equal to &frac12; the effective cleric level of the person who activated it."
 		]
 	},
 	"just_scale": { "redirect": "just_scale_abadar" },

@@ -247,12 +247,16 @@ const _disguise_kit = {title: "Disguise kit", jsx: <><h2 id="eq-misc-disguise_ki
 const _disguised_holy_text = {title: "Disguised holy text", jsx: <><h2 id="eq-misc-disguised_holy_text-disguised-holy-text">Disguised holy text</h2>
 <p><strong>Sources</strong> <Link to="/source/disciples_doctrine">Disciple's Doctrine pg. 28</Link>  </p>
 <Tabular format="misc" a="1-100 gp" b="1-20 lbs." c="x" d="gear" />
-<p>This book appears to be the <Link to="/eq-misc/holy_text">holy text</Link> of a particular religion, but it is actually a subtly encoded version of the text of an entirely different faith. Such tomes allow the faithful to keep copies of their holy texts hidden in plain sight - especially when those tomes are outlawed or stigmatized. A creature reading a disguised holy text can notice the irregularities of the text with a successful DC 18 Linguistics check; if the result of this check is 25 or higher, the creature cracks the text's cipher and understands its true meaning. A follower of a disguised holy text's true faith gains a +5 bonus on her Linguistics check to decipher the tome. The typical disguised holy text is of average quality, costs 25 gp, and weighs 2 pounds; cheaper or more extravagant versions are available with varying costs and weights.</p>
+<p>This book appears to be the <Link to="/eq-misc/holy_text">holy text</Link> of a particular religion, but it is actually a subtly encoded version of the text of an entirely different faith. Such tomes allow the faithful to keep copies of their holy texts hidden in plain sight - especially when those tomes are outlawed or stigmatized.</p>
+<p><Icons id="eq-misc-disguised_holy_text-info-boost-icons" wrapper="prefixIcon" list={["info","boost"]} /> A creature reading a disguised holy text can notice the irregularities of the text with a successful DC 18 <Link to="/skill/linguistics">Linguistics</Link> check; if the result of this check is 25 or higher, the creature cracks the text's cipher and understands its true meaning. A follower of a disguised holy text's true faith gains a +5 bonus on her Linguistics check to decipher the tome.</p>
+<p>The typical disguised holy text is of average quality, costs 25 gp, and weighs 2 pounds; cheaper or more extravagant versions are available with varying costs and weights.</p>
 </>};
 const _display_stand = {title: "Display stand", jsx: <><h2 id="eq-misc-display_stand-display-stand">Display stand</h2>
 <p><strong>Sources</strong> <Link to="/source/monster_hunters_handbook">Monster Hunter's Handbook pg. 26</Link>  </p>
 <Tabular format="misc" a="40" b="16" d="gear" />
-<p>This is a freestanding rack with several hooks for holding decoratively arranged hunting trophies. A creature with the <Link to="/feat/grisly_ornament">Grisly Ornament</Link> feat can hang one ornament from a display stand, causing it to emanate a fear effect that affects all creatures of that creature's specific variety within 30 feet (DC 15 Will negates). This imposes a -1 penalty (-2 if the trophy creature's CR was 8 or higher) to the same statistic the ornament would otherwise enhance, but the ornament lasts for only 24 hours before decaying. Setting up a stand is a <strong className="hl">full-round action</strong>, while hanging an ornament from one is a <strong className="hl">move action</strong>.</p>
+<p>This is a freestanding rack with several hooks for holding decoratively arranged hunting trophies.</p>
+<p><Icons id="eq-misc-display_stand-aura-lower-icons" wrapper="prefixIcon" list={["aura","lower"]} /> A creature with the <Link to="/feat/grisly_ornament">Grisly Ornament</Link> feat can hang one ornament from a display stand, causing it to emanate a fear effect that affects all creatures of that creature's specific variety within 30 feet (DC 15 Will negates). This imposes a -1 penalty (-2 if the trophy creature's CR was 8 or higher) to the same statistic the ornament would otherwise enhance, but the ornament lasts for only 24 hours before decaying.</p>
+<p>Setting up a stand is a <strong className="hl">full-round action</strong>, while hanging an ornament from one is a <strong className="hl">move action</strong>.</p>
 </>};
 const _dissipating_fan = {title: "Dissipating fan", jsx: <><h2 id="eq-misc-dissipating_fan-dissipating-fan">Dissipating fan</h2>
 <p><strong>Sources</strong> <Link to="/source/adventurers_armory_2">Adventurer's Armory 2 pg. 16</Link>  </p>
@@ -342,7 +346,8 @@ const _donkey_rat = {title: "Donkey rat", jsx: <><h2 id="eq-misc-donkey_rat-donk
 const _dowsing_rod = {title: "Dowsing rod", jsx: <><h2 id="eq-misc-dowsing_rod-dowsing-rod">Dowsing rod</h2>
 <p><strong>Sources</strong> <Link to="/source/occult_adventures">Occult Adventures pg. 248</Link>  </p>
 <Tabular format="misc" a="10" b="1" d="gear" />
-<p>Made from specially crafted materials, a dowsing rod is used by the psychically attuned to locate water, find graves, or uncover minerals. Most commonly manufactured from forked branches cut from hazel, peach, or willow trees, dowsing rods can also come in other forms, such as bent, L-shaped rods of charged cold iron. Though a dowser can use any forked twig found in nature for dowsing, these specially prepared rods provide a +2 circumstance bonus on Survival checks for the <Link to="/skill/dowsing">dowsing</Link> occult skill unlock.</p>
+<p>Made from specially crafted materials, a dowsing rod is used by the psychically attuned to locate water, find graves, or uncover minerals. Most commonly manufactured from forked branches cut from hazel, peach, or willow trees, dowsing rods can also come in other forms, such as bent, L-shaped rods of charged cold iron.</p>
+<p><Icons id="eq-misc-dowsing_rod-boost-icons" wrapper="prefixIcon" list={["boost"]} /> Though a dowser can use any forked twig found in nature for dowsing, these specially prepared rods provide a +2 circumstance bonus on <Link to="/skill/survival">Survival</Link> checks for the <Link to="/skill/dowsing">dowsing</Link> occult skill unlock.</p>
 </>};
 const _draconic_perfume = {title: "Draconic perfume", jsx: <><h2 id="eq-misc-draconic_perfume-draconic-perfume">Draconic perfume</h2>
 <p><strong>Sources</strong> <Link to="/source/dragonslayers_handbook">Dragonslayer's Handbook pg. 18</Link>  </p>
@@ -421,7 +426,7 @@ const _driftwood_icon_gozreh = {title: "Driftwood icon", jsx: <><h2 id="eq-misc-
 const _drill = {title: "Drill", jsx: <><h2 id="eq-misc-drill-drill">Drill</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 56</Link>, <Link to="/source/advanced_players_guide">Advanced Player's Guide pg. 184</Link>, <Link to="/source/adventurers_armory">Adventurer's Armory pg. 19</Link>  </p>
 <Tabular format="misc" a="0.5" b="1" d="gear" />
-<p>A drill can create a 1-inch-diameter hole in stone, wood, or metal as a <strong className="hl">standard action</strong>. Harder materials wear down or break the drill more quickly. Hearing the sound of drilling requires a DC 15 Perception check.</p>
+<p>A drill can create a 1-inch-diameter hole in stone, wood, or metal as a <strong className="hl">standard action</strong>. Harder materials wear down or break the drill more quickly. Hearing the sound of drilling requires a DC 15 <Link to="/skill/perception">Perception</Link> check.</p>
 </>};
 const _drought_powder = {title: "Drought powder", jsx: <><h2 id="eq-misc-drought_powder-drought-powder">Drought powder</h2>
 <p><strong>Sources</strong> <Link to="/source/heroes_of_the_darklands">Heroes of the Darklands pg. 28</Link>  </p>
@@ -458,7 +463,8 @@ const _duo_saw = {title: "Duo saw", jsx: <><h2 id="eq-misc-duo_saw-duo-saw">Duo 
 const _dusk_lantern = {hasJL:true,title: "Dusk lantern", jsx: <><div className="jumpList" id="eq-misc-dusk_lantern-jumplist"><h2>Jump to:</h2><ul><li><InnerLink toTop to="eq-misc-dusk_lantern-waterproof-lantern">Waterproof Lantern</InnerLink></li></ul></div><h2 id="eq-misc-dusk_lantern-dusk-lantern">Dusk lantern</h2>
 <p><strong>Sources</strong> <Link to="/source/adventurers_armory_2">Adventurer's Armory 2 pg. 12</Link>, <Link to="/source/adventurers_armory">Adventurer's Armory pg. 19</Link>  </p>
 <Tabular format="misc" id="dusk" a="35" b="4" d="gear" />
-<p>This specialized <Link to="/eq-misc/bullseye_lantern">bullseye lantern</Link> has a ruby lens that covers the original lens, providing a deep crimson hue to the lantern's light, allowing for more stealth when used in areas of darkness. This special lens can be set in place or removed as a <strong className="hl">swift action</strong>. While the ruby lens is in place, the lantern only provides <Link to="/rule/dim_light">dim light</Link> in a 60-foot cone. A dusk lantern's red light is imperceptible to creatures relying on darkvision as their sole form of sight.</p>
+<p>This specialized <Link to="/eq-misc/bullseye_lantern">bullseye lantern</Link> has a ruby lens that covers the original lens, providing a deep crimson hue to the lantern's light, allowing for more stealth when used in areas of darkness. This special lens can be set in place or removed as a <strong className="hl">swift action</strong>. While the ruby lens is in place, the lantern only provides <Link to="/rule/dim_light">dim light</Link> in a 60-foot cone.</p>
+<p><Icons id="eq-misc-dusk_lantern-info-icons" wrapper="prefixIcon" list={["info"]} /> A dusk lantern's red light is imperceptible to creatures relying on darkvision as their sole form of sight.</p>
 <h3 id="eq-misc-dusk_lantern-waterproof-lantern" data-hash-target>Waterproof Lantern</h3>
 <Tabular format="misc" id="waterproof" a="40" b="4" d="gear" />
 <p>Meant to shelter its flame from both water and wind, this lantern treats severe winds as strong winds, windstorms as severe winds, and hurricanes as windstorms for the purpose of determining whether they extinguish its flame. It holds enough air to burn underwater for 5 rounds before going dark.</p>
@@ -483,16 +489,16 @@ const _dwarven_trail_rations = {title: "Dwarven trail rations", jsx: <><h2 id="e
 const _ear_trumpet_common = {title: "Ear trumpet (common)", jsx: <><h2 id="eq-misc-ear_trumpet_common-ear-trumpet">Ear trumpet</h2>
 <p><strong>Sources</strong> <Link to="/source/ranged_tactics_toolbox">Ranged Tactics Toolbox pg. 20</Link>  </p>
 <Tabular format="misc" id="ear" a="25 gp (common), 100 gp (masterwork)" b="2 lbs. (common), 2 lbs. (masterwork)" c="x" d="gear" />
-<p>This foot-long brass funnel amplifies sounds entering through the broad end for anyone listening at the narrow end. The listener gains a +2 circumstance bonus on sound-based Perception checks but must use one hand to hold the trumpet to the ear in order to gain the benefit. A masterwork ear trumpet's exquisite acoustic properties grant the listener a +4 circumstance bonus instead.</p>
+<p><Icons id="eq-misc-ear_trumpet_common-boost-icons" wrapper="prefixIcon" list={["boost"]} /> This foot-long brass funnel amplifies sounds entering through the broad end for anyone listening at the narrow end. The listener gains a +2 circumstance bonus on sound-based <Link to="/skill/perception">Perception</Link> checks but must use one hand to hold the trumpet to the ear in order to gain the benefit. A masterwork ear trumpet's exquisite acoustic properties grant the listener a +4 circumstance bonus instead.</p>
 <h2 id="eq-misc-ear_trumpet_common-ear-trumpet">Ear trumpet</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 56</Link>  </p>
 <Tabular format="misc" id="trumpet" a="5" b="2" d="gear" />
-<p>By holding this specially crafted ear trumpet to your ear and placing the other end against a door or wall, you reduce the DC penalty for listening through a door or wall by 5.</p>
+<p><Icons id="eq-misc-ear_trumpet_common-boost-icons" wrapper="prefixIcon" list={["boost"]} /> By holding this specially crafted ear trumpet to your ear and placing the other end against a door or wall, you reduce the DC penalty for listening through a door or wall by 5.</p>
 </>};
 const _earplugs = {title: "Earplugs", jsx: <><h2 id="eq-misc-earplugs-earplugs">Earplugs</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 56</Link>, <Link to="/source/advanced_players_guide">Advanced Player's Guide pg. 181</Link>, <Link to="/source/adventurers_armory">Adventurer's Armory pg. 19</Link>  </p>
 <Tabular format="misc" a="0.03" b="x" d="gear" />
-<p>Made of waxed cotton or cork, earplugs give you a +2 circumstance bonus on saves against effects that require hearing, but also cause a -5 penalty on hearing-based Perception checks.</p>
+<p><Icons id="eq-misc-earplugs-def-down-icons" wrapper="prefixIcon" list={["def","down"]} /> Made of waxed cotton or cork, earplugs give you a +2 circumstance bonus on saves against effects that require hearing, but also cause a -5 penalty on hearing-based <Link to="/skill/perception">Perception</Link> checks.</p>
 </>};
 const _ectoplasmic_tracer = {title: "Ectoplasmic tracer", jsx: <><h2 id="eq-misc-ectoplasmic_tracer-ectoplasmic-tracer">Ectoplasmic tracer</h2>
 <p><strong>Sources</strong> <Link to="/source/undead_slayers_handbook">Undead Slayer's Handbook pg. 13</Link>  </p>
@@ -568,7 +574,7 @@ const _embalming_fluid = {title: "Embalming fluid", jsx: <><h2 id="eq-misc-embal
 const _ember_pot = {title: "Ember pot", jsx: <><h2 id="eq-misc-ember_pot-ember-pot">Ember pot</h2>
 <p><strong>Sources</strong> <Link to="/source/people_of_the_north">People of the North pg. 28</Link>  </p>
 <Tabular format="misc" a="0.5" b="1" d="gear" />
-<p>Roughly carved from porous stone that litters the base of the Tusk Mountains, these pots allow Kellid nomads to carry burning coals from one day's campsite to the next, so they can quickly start cook fires wherever they find themselves. Coals placed within an ember pot stay hot for 24 hours, and allow anyone to light a fire in normal conditions without needing to make a Survival check.</p>
+<p>Roughly carved from porous stone that litters the base of the Tusk Mountains, these pots allow Kellid nomads to carry burning coals from one day's campsite to the next, so they can quickly start cook fires wherever they find themselves. Coals placed within an ember pot stay hot for 24 hours, and allow anyone to light a fire in normal conditions without needing to make a <Link to="/skill/survival">Survival</Link> check.</p>
 </>};
 const _emergency_interrogation_kit = {title: "Emergency interrogation kit", jsx: <><h2 id="eq-misc-emergency_interrogation_kit-emergency-interrogation-kit">Emergency interrogation kit</h2>
 <p><strong>Sources</strong> <Link to="/source/adventurers_armory_2">Adventurer's Armory 2 pg. 17</Link>  </p>
@@ -591,10 +597,11 @@ const _entertainers_outfit = {title: "Entertainer's outfit", jsx: <><h2 id="eq-m
 <p>This set of flashy, perhaps even gaudy, clothes is meant for entertaining. Entertainer's outfits come in a wide range of styles, from scandalous to flattering to absurd. While the outfit looks whimsical, its practical design does nothing to inhibit your ability to tumble, dance, walk a tightrope, or run (if the audience turns ugly).</p>
 <Message tearaway />
 </>};
-const _esquire_attache_case = {title: "Esquire attache case", jsx: <><h2 id="eq-misc-esquire_attache_case-esquire-attach-case">Esquire attach&eacute; case</h2>
+const _esquire_attache_case = {title: "Esquire attach&eacute; case", jsx: <><h2 id="eq-misc-esquire_attache_case-esquire-attach-case">Esquire attach&eacute; case</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_intrigue">Ultimate Intrigue pg. 233</Link>  </p>
 <Tabular format="misc" a="100" b="8" d="gear" />
-<p>An esquire attach&eacute; case contains the materials and references for drafting agreements and treaties. Carried by ambassadors and diplomats, these kits hold masterwork writing implements, fine parchments, special inks, and references on the legal languages of specific nations or regions. When purchasing a kit, you must select a nation or region. An esquire attach&eacute; case grants you a +2 circumstance bonus when used to draft diplomatic and legal documents in the chosen nation or region. These are typically Profession (barrister) checks, but may include other checks related to creating documents, such as Knowledge (local), Knowledge (nobility), or Linguistics.</p>
+<p>An esquire attach&eacute; case contains the materials and references for drafting agreements and treaties. Carried by ambassadors and diplomats, these kits hold masterwork writing implements, fine parchments, special inks, and references on the legal languages of specific nations or regions.</p>
+<p><Icons id="eq-misc-esquire_attache_case-boost-icons" wrapper="prefixIcon" list={["boost"]} /> When purchasing a kit, you must select a nation or region. An esquire attach&eacute; case grants you a +2 circumstance bonus when used to draft diplomatic and legal documents in the chosen nation or region. These are typically <Link to="/skill/profession">Profession</Link> (barrister) checks, but may include other checks related to creating documents, such as <Link to="/skill/knowledge_local">Knowledge (local)</Link>, <Link to="/skill/knowledge_nobility">Knowledge (nobility)</Link>, or <Link to="/skill/linguistics">Linguistics</Link>.</p>
 </>};
 const _essence_of_independence = {title: "Essence of independence", jsx: <><h2 id="eq-misc-essence_of_independence-essence-of-independence">Essence of independence</h2>
 <p><strong>Sources</strong> <Link to="/source/alchemy_manual">Alchemy Manual pg. 15</Link>  </p>
@@ -607,7 +614,7 @@ const _essence_of_independence = {title: "Essence of independence", jsx: <><h2 i
 const _everburning_torch = {title: "Everburning torch", jsx: <><h2 id="eq-misc-everburning_torch-everburning-torch">Everburning torch</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 56</Link>, <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 158</Link>  </p>
 <Tabular format="misc" a="110" b="1" d="gear" />
-<p>This otherwise normal torch has a <Link to="/spell/continual_flame">continual flame</Link> spell cast on it. This causes it to shed light like an ordinary torch, but it does not emit heat or deal fire damage if used as a weapon.</p>
+<p>This otherwise normal torch has a <Link to="/spell/continual_flame">continual flame</Link> spell cast on it. This causes it to shed light like an ordinary <Link to="/eq-misc/torch">torch</Link>, but it does not emit heat or deal fire damage if used as a weapon.</p>
 </>};
 const _executioners_outfit = {title: "Executioner's outfit", jsx: <><h2 id="eq-misc-executioners_outfit-executioners-outfit">Executioner's outfit</h2>
 <p><strong>Sources</strong> <Link to="/source/adventurers_armory_2">Adventurer's Armory 2 pg. 20</Link>  </p>
@@ -665,7 +672,8 @@ const _fairy_cap = {title: "Fairy Cap", jsx: <><h2 id="eq-misc-fairy_cap-fairy-c
 const _fake_footprint_shoes = {title: "Fake footprint shoes", jsx: <><h2 id="eq-misc-fake_footprint_shoes-fake-footprint-shoes">Fake footprint shoes</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 56</Link>  </p>
 <Tabular format="misc" a="5" b="2" d="gear" />
-<p>These oversized shoes are worn over normal footwear. They create footprints or bootprints that look like those left by another creature. Each pair creates a specific type of footprint, such as tiger, orc, goblin, or ogre. When walking with these shoes, you may make a Survival check; the check result is the Survival DC for anyone trying to determine whether the tracks are what they appear to be.</p>
+<p>These oversized shoes are worn over normal footwear. They create footprints or bootprints that look like those left by another creature. Each pair creates a specific type of footprint, such as tiger, orc, goblin, or ogre.</p>
+<p><Icons id="eq-misc-fake_footprint_shoes-def-icons" wrapper="prefixIcon" list={["def"]} /> When walking with these shoes, you may make a <Link to="/skill/survival">Survival</Link> check; the check result is the Survival DC for anyone trying to determine whether the tracks are what they appear to be.</p>
 </>};
 const _falcon = {title: "Falcon", jsx: <><h2 id="eq-misc-falcon-falcon">Falcon</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 81</Link>, <Link to="/source/adventurers_armory">Adventurer's Armory pg. 19</Link>  </p>
@@ -686,32 +694,33 @@ const _false_ectoplasm = {title: "False ectoplasm", jsx: <><h2 id="eq-misc-false
 const _false_manacles = {title: "False manacles", jsx: <><h2 id="eq-misc-false_manacles-false-manacles">False manacles</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 56</Link>, <Link to="/source/adventurers_armory">Adventurer's Armory pg. 19</Link>  </p>
 <Tabular format="misc" a="65" b="2" d="gear" />
-<p>These manacles are nearly indistinguishable from standard <Link to="/eq-misc/manacles">manacles</Link> upon inspection (Perception DC 25). A wearer who knows the location of the secret catch can open them as a <strong className="hl">standard action</strong>; otherwise they act like masterwork manacles. Some appear to be of common quality, though false manacles are always masterwork.</p>
+<p>These manacles are nearly indistinguishable from standard <Link to="/eq-misc/manacles">manacles</Link> upon inspection (<Link to="/skill/perception">Perception</Link> DC 25). A wearer who knows the location of the secret catch can open them as a <strong className="hl">standard action</strong>; otherwise they act like masterwork manacles. Some appear to be of common quality, though false manacles are always masterwork.</p>
 </>};
 const _false_teeth_clockwork = {title: "False teeth (clockwork)", jsx: <><h2 id="eq-misc-false_teeth_clockwork-false-teeth">False teeth</h2>
 <p><strong>Sources</strong> <Link to="/source/adventurers_armory_2">Adventurer's Armory 2 pg. 13</Link>  </p>
 <Tabular format="misc" a="100 gp (clockwork), 5 gp (common), 50 gp (masterwork)" b="&frac12; lb. (clockwork), &mdash; (common), &mdash; (masterwork)" c="x" d="gear" />
-<p>These prosthetics are used as a replacement for lost or missing teeth. False teeth fashioned from wood or animal teeth are more common, while masterwork varieties are sculpted from bone or porcelain. Clockwork false teeth are novelties with mechanisms allowing the teeth to clatter and move on their own. Winding the clockworks is a <strong className="hl">move action</strong>, and the teeth move forward over flat surfaces at a rate of 5 feet per round for 10 rounds after one winding.</p>
+<p>These prosthetics are used as a replacement for lost or missing teeth. False teeth fashioned from wood or animal teeth are more common, while masterwork varieties are sculpted from bone or porcelain.</p>
+<p>Clockwork false teeth are novelties with mechanisms allowing the teeth to clatter and move on their own. Winding the clockworks is a <strong className="hl">move action</strong>, and the teeth move forward over flat surfaces at a rate of 5 feet per round for 10 rounds after one winding.</p>
 </>};
 const _false_bottomed_chest = {title: "False-bottomed chest", jsx: <><h2 id="eq-misc-false_bottomed_chest-false-bottomed-chest">False-bottomed chest</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 56</Link>, <Link to="/source/adventurers_armory">Adventurer's Armory pg. 19</Link>  </p>
 <Tabular format="misc" a="52" b="25" d="gear" />
-<p>These chests are typically used by smugglers transporting contraband or those with treasures they would prefer to keep hidden. The secret compartment in this chest is approximately 1 inch deep. Different styles open from the inside, from the underside, or through the back. Detecting the compartment requires a DC 20 Perception check.</p>
+<p>These chests are typically used by smugglers transporting contraband or those with treasures they would prefer to keep hidden. The secret compartment in this chest is approximately 1 inch deep. Different styles open from the inside, from the underside, or through the back. Detecting the compartment requires a DC 20 <Link to="/skill/perception">Perception</Link> check.</p>
 </>};
 const _false_bottomed_cup = {title: "False-bottomed cup", jsx: <><h2 id="eq-misc-false_bottomed_cup-false-bottomed-cup">False-bottomed cup</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 56</Link>, <Link to="/source/adventurers_armory">Adventurer's Armory pg. 19</Link>  </p>
 <Tabular format="misc" a="1" b="x" d="gear" />
-<p>The tiny compartment in the thick bottom of this cup is an excellent place to store a small item or substance. The most insidious are designed with a weighted catch that opens when the cup is tilted back, releasing the hidden substance into the contents of the cup. Spotting the secret compartment in an empty cup requires a DC 15 Perception check.</p>
+<p>The tiny compartment in the thick bottom of this cup is an excellent place to store a small item or substance. The most insidious are designed with a weighted catch that opens when the cup is tilted back, releasing the hidden substance into the contents of the cup. Spotting the secret compartment in an empty cup requires a DC 15 <Link to="/skill/perception">Perception</Link> check.</p>
 </>};
 const _false_bottomed_scabbard = {title: "False-bottomed scabbard", jsx: <><h2 id="eq-misc-false_bottomed_scabbard-false-bottomed-scabbard">False-bottomed scabbard</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 56</Link>, <Link to="/source/adventurers_armory">Adventurer's Armory pg. 19</Link>  </p>
 <Tabular format="misc" a="45" b="1" d="gear" />
-<p>The space at the bottom of this sword scabbard is just large enough to hold a potion flask. Some are accessed from the outside; others open on the inside with a secret catch at the top end. Finding the secret compartment requires a DC 25 Perception check, or DC 20 if you can compare the sword's length to that of the scabbard.</p>
+<p>The space at the bottom of this sword scabbard is just large enough to hold a potion flask. Some are accessed from the outside; others open on the inside with a secret catch at the top end. Finding the secret compartment requires a DC 25 <Link to="/skill/perception">Perception</Link> check, or DC 20 if you can compare the sword's length to that of the scabbard.</p>
 </>};
 const _false_bottomed_wagon = {title: "False-bottomed wagon", jsx: <><h2 id="eq-misc-false_bottomed_wagon-false-bottomed-wagon">False-bottomed wagon</h2>
 <p><strong>Sources</strong> <Link to="/source/heroes_of_the_streets">Heroes of the Streets pg. 12</Link>  </p>
 <Tabular format="misc" a="375" b="400" d="gear" />
-<p>This <Link to="/eq-misc/wagon">wagon</Link> has a hollow below its apparent bottom. The hollow is 6 inches deep and has a capacity of 75 cubic feet. The hollow can be noticed during a search of the wagon with a successful DC 20 Perception check. The wagon otherwise resembles a normal medium wagon.</p>
+<p>This <Link to="/eq-misc/wagon">wagon</Link> has a hollow below its apparent bottom. The hollow is 6 inches deep and has a capacity of 75 cubic feet. The hollow can be noticed during a search of the wagon with a successful DC 20 <Link to="/skill/perception">Perception</Link> check. The wagon otherwise resembles a normal medium wagon.</p>
 </>};
 const _falsehood_fizz = {title: "Falsehood fizz", jsx: <><h2 id="eq-misc-falsehood_fizz-falsehood-fizz">Falsehood fizz</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_intrigue">Ultimate Intrigue pg. 236</Link>  </p>
@@ -728,7 +737,7 @@ const _familiar_satchel = {title: "Familiar satchel", jsx: <><h2 id="eq-misc-fam
 const _fangfile = {title: "Fangfile", jsx: <><h2 id="eq-misc-fangfile-fangfile">Fangfile</h2>
 <p><strong>Sources</strong> <Link to="/source/goblins_of_golarion">Goblins of Golarion pg. 12</Link>  </p>
 <Tabular format="misc" a="3" b="2" d="gear" />
-<p>This narrow metal file is used by goblins to sharpen their teeth. The file ends in a pointed spike in case tooth-sharpening is interrupted by combat - a fangfile can function as a <Link to="/eq-weapon/punching_dagger">punching dagger</Link> when used in combat.</p>
+<p>This narrow metal file is used by goblins to sharpen their teeth. The file ends in a pointed spike in case tooth-sharpening is interrupted by combat - a <em>fangfile</em> can function as a <Link to="/eq-weapon/punching_dagger">punching dagger</Link> when used in combat.</p>
 </>};
 const _fashionable_accessories = {title: "Fashionable accessories", jsx: <><h2 id="eq-misc-fashionable_accessories-fashionable-accessories">Fashionable accessories</h2>
 <p><strong>Sources</strong> <Link to="/source/heroes_of_the_streets">Heroes of the Streets pg. 13</Link>  </p>
@@ -822,7 +831,7 @@ const _nature_climbing_harness = {title: "Nature climbing harness", jsx: <><h2 i
 const _nautical_chart = {title: "Nautical chart", jsx: <><h2 id="eq-misc-nautical_chart-nautical-chart">Nautical chart</h2>
 <p><strong>Sources</strong> <Link to="/source/adventurers_armory_2">Adventurer's Armory 2 pg. 13</Link>, <Link to="/source/pirates_of_the_inner_sea">Pirates of the Inner Sea pg. 21</Link>  </p>
 <Tabular format="misc" a="25" b="x" d="gear" />
-<p>Nautical charts map waterways, showing the depth of water and height of coastlines, as well as currents, harbors, navigational hazards, reefs, and tides. A nautical chart grants a +4 circumstance bonus on Profession (sailor) checks to navigate in the area detailed by the chart.</p>
+<p><Icons id="eq-misc-nautical_chart-boost-icons" wrapper="prefixIcon" list={["boost"]} /> Nautical charts map waterways, showing the depth of water and height of coastlines, as well as currents, harbors, navigational hazards, reefs, and tides. A nautical chart grants a +4 circumstance bonus on <Link to="/skill/profession">Profession</Link> (sailor) checks to navigate in the area detailed by the chart.</p>
 </>};
 const _neck_guard = {title: "Neck guard", jsx: <><h2 id="eq-misc-neck_guard-neck-guard">Neck guard</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_race_guide">Advanced Race Guide pg. 99</Link>  </p>
@@ -855,8 +864,8 @@ const _net_rigging = {title: "Net rigging", jsx: <><h2 id="eq-misc-net_rigging-n
 <p><strong>Sources</strong> <Link to="/source/black_markets">Black Markets pg. 20</Link>  </p>
 <Tabular format="misc" a="250" b="40" d="gear" />
 <p>This large bundle of ropes, pulleys, netting, and latches can be assembled to form two different traps: one to drop a net from above, and another to snag trespassers from below and hoist them into the air. Either configuration requires an overhead structure such as a ceiling, a crossbeam, or a sturdy tree branch to support the trap's mechanisms and counterweights. Net rigging has an effective Strength score of 19 for the purpose of determining how much weight it can lift.</p>
-<TrapInfo id="falling-net-trap-trap" cr="&mdash;" pdc="10" dddc="15" manual trigger="touch" eff="net (entangled and tethered by 10-ft. rope); Reflex DC 15 avoids; multiple targets (all targets in a 10-ft.-square area)">Falling Net Trap</TrapInfo>
-<TrapInfo id="hoisting-net-trap-trap" cr="&mdash;" pdc="10" dddc="15" manual trigger="touch" eff="net (entangled and lifted 10 ft. into the air); Reflex DC 15 avoids; multiple targets (all targets in a 10-ft.-square area)">Hoisting Net Trap</TrapInfo>
+<TrapInfo start id="falling-net-trap-trap" cr="&mdash;" pdc="10" dddc="15" manual trigger="touch" eff="net (entangled and tethered by 10-ft. rope); Reflex DC 15 avoids; multiple targets (all targets in a 10-ft.-square area)">Falling Net Trap</TrapInfo>
+<TrapInfo start id="hoisting-net-trap-trap" cr="&mdash;" pdc="10" dddc="15" manual trigger="touch" eff="net (entangled and lifted 10 ft. into the air); Reflex DC 15 avoids; multiple targets (all targets in a 10-ft.-square area)">Hoisting Net Trap</TrapInfo>
 <Tabular format="craft" a="25" b="Traps" />
 </>};
 const _nethyss_dagger = {title: "Nethys's dagger", jsx: <><h2 id="eq-misc-nethyss_dagger-nethyss-dagger">Nethys's dagger</h2>
@@ -919,7 +928,7 @@ const _nushadir = {title: "Nushadir", jsx: <><h2 id="eq-misc-nushadir-nushadir">
 const _oar = {title: "Oar", jsx: <><h2 id="eq-misc-oar-oar">Oar</h2>
 <p><strong>Sources</strong> <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 159</Link>  </p>
 <Tabular format="misc" a="2" b="10" d="gear" />
-<p>No description was provided for this entry.</p>
+<p>No official description exists this item. Oars are generally used for <Link to="/eq-misc/rowboat">rowboats</Link>, <Link to="/eq-misc/galley">galleys</Link>, and similar watercraft. In a pinch, they may serve as an <Link to="/misc/improvised">improvised</Link> <Link to="/eq-weapon/club">club</Link>.</p>
 </>};
 const _obals = {title: "Obals", jsx: <><h2 id="eq-misc-obals-obals">Obals</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_class_guide">Advanced Class Guide pg. 205</Link>  </p>
@@ -979,7 +988,7 @@ const _oil_of_the_masters = {title: "Oil of the masters", jsx: <><h2 id="eq-misc
 const _oil = {title: "Oil", jsx: <><h2 id="eq-misc-oil-oil">Oil</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 57</Link>, <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 158</Link>  </p>
 <Tabular format="misc" a="0.1" b="1" d="gear" />
-<p>A 1-pint flask of oil burns for 6 hours in a lantern or lamp. You can also use a flask of oil as a splash weapon. Use the rules for <Link to="/eq-weapon/alchemists_fire">alchemist's fire</Link>, except that it takes a <strong className="hl">full-round action</strong> to prepare a flask with a fuse. Once it is thrown, there is a 50% chance of the flask igniting successfully.</p>
+<p>A 1-pint flask of oil burns for 6 hours in a <Link to="/eq-misc/lantern">lantern</Link> or <Link to="/eq-misc/lamp">lamp</Link>. You can also use a flask of oil as a splash weapon. Use the rules for <Link to="/eq-weapon/alchemists_fire">alchemist's fire</Link>, except that it takes a <strong className="hl">full-round action</strong> to prepare a flask with a fuse. Once it is thrown, there is a 50% chance of the flask igniting successfully.</p>
 <p>You can pour a pint of oil on the ground to cover an area 5 feet square, provided that the surface is smooth. If lit, the oil burns for 2 rounds and deals 1d3 points of fire damage to each creature in the area.</p>
 </>};
 const _oldlaw_whiskey_bottle = {title: "Oldlaw whiskey (bottle)", jsx: <><h2 id="eq-misc-oldlaw_whiskey_bottle-oldlaw-whiskey-bottle">Oldlaw whiskey (bottle)</h2>
@@ -1094,7 +1103,8 @@ const _palm_paws = {title: "Palm paws", jsx: <><h2 id="eq-misc-palm_paws-palm-pa
 const _pantograph = {title: "Pantograph", jsx: <><h2 id="eq-misc-pantograph-pantograph">Pantograph</h2>
 <p><strong>Sources</strong> <Link to="/source/adventurers_armory_2">Adventurer's Armory 2 pg. 13</Link>, <Link to="/source/seekers_of_secrets">Seekers of Secrets pg. 42</Link>  </p>
 <Tabular format="misc" a="50" b="2" d="gear" />
-<p>This framework of interlocking metal arms is used to duplicate drawings, allowing enlarging (up to twice the original size) or shrinking (down to half the original size) of the copy in the process. The pantograph is anchored at one end, then fitted with a stylus and a writing implement such as chalk, an ink pen, or a pencil. As the stylus is traced over the drawing or other item to be duplicated, the pantograph reproduces the motions, creating a copy. While handy for making quick, accurate copies of ancient carvings, runes, and drawings, a pantograph is unable to produce a convincing forgery or duplicate magical writings such as scrolls. More elaborate and expensive pantographs allow even larger or smaller copies to be made, or multiple copies to be made at the same time.</p>
+<p>This framework of interlocking metal arms is used to duplicate drawings, allowing enlarging (up to twice the original size) or shrinking (down to half the original size) of the copy in the process. The pantograph is anchored at one end, then fitted with a stylus and a writing implement such as chalk, an ink pen, or a pencil. As the stylus is traced over the drawing or other item to be duplicated, the pantograph reproduces the motions, creating a copy.</p>
+<p>While handy for making quick, accurate copies of ancient carvings, runes, and drawings, a pantograph is unable to produce a convincing forgery or duplicate magical writings such as scrolls. More elaborate and expensive pantographs allow even larger or smaller copies to be made, or multiple copies to be made at the same time.</p>
 </>};
 const _paper_sheet = {title: "Paper (sheet)", jsx: <><h2 id="eq-misc-paper_sheet-paper-sheet">Paper (sheet)</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 57</Link>, <Link to="/source/adventurers_armory">Adventurer's Armory pg. 19</Link>, <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 158</Link>, <Link to="/source/advanced_players_guide">Advanced Player's Guide pg. 181</Link>  </p>
@@ -1110,12 +1120,15 @@ const _paper_wall_paste = {title: "Paper wall paste", jsx: <><h2 id="eq-misc-pap
 const _paper_underwater_sheet = {title: "Paper, underwater (sheet)", jsx: <><h2 id="eq-misc-paper_underwater_sheet-paper-underwater-sheet">Paper, underwater (sheet)</h2>
 <p><strong>Sources</strong> <Link to="/source/blood_of_the_sea">Blood of the Sea pg. 19</Link>  </p>
 <Tabular format="misc" a="0.6" b="x" d="gear" />
-<p>Not all underwater creatures use sight as their primary means of reading text, so underwater paper is significantly thicker than surface paper, allowing the writer to carve the letters into the sheet. This lets creatures with <Link to="/umr/blindsight">blindsight</Link> see the textured writing from afar as well as allowing others to read it by touch, or sometimes from a short distance if they have unusually precise <Link to="/umr/tremorsense">tremorsense</Link>. For underwater societies where vision is more prominent, the writer can fill the carved grooves with colorful ink (and potentially <Link to="/eq-misc/bioluminescent_ink">bioluminescent ink</Link>) and then adhere a transparent waterproof sheet on top to prevent the ink from washing away. This transparent sheet costs an additional 4 sp.</p>
+<p>Not all underwater creatures use sight as their primary means of reading text, so underwater paper is significantly thicker than surface <Link to="/eq-misc/paper">paper</Link>, allowing the writer to carve the letters into the sheet. This lets creatures with <Link to="/umr/blindsight">blindsight</Link> see the textured writing from afar as well as allowing others to read it by touch, or sometimes from a short distance if they have unusually precise <Link to="/umr/tremorsense">tremorsense</Link>.</p>
+<p>For underwater societies where vision is more prominent, the writer can fill the carved grooves with colorful ink (and potentially <Link to="/eq-misc/bioluminescent_ink">bioluminescent ink</Link>) and then adhere a transparent waterproof sheet on top to prevent the ink from washing away. This transparent sheet costs an additional 4 sp.</p>
 </>};
 const _parasol_common = {hasJL:true,title: "Parasol (common)", jsx: <><div className="jumpList" id="eq-misc-parasol_common-jumplist"><h2>Jump to:</h2><ul><li><InnerLink toTop to="eq-misc-parasol_common-umbrella">Umbrella</InnerLink></li></ul></div><h2 id="eq-misc-parasol_common-parasol">Parasol</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 77</Link>  </p>
 <Tabular format="misc" id="parasol" a="1" b="2" d="gear" />
-<p>This folding umbrella is translucent and not waterproof. It cuts down on the heat from direct sunlight. In very hot conditions where the sun is a factor (such as a desert), it gives you a +1 circumstance bonus on your hourly Fortitude saves against <Link to="/rule/heat">heat</Link>, and reduces the damage from a failed save by 1 hit point (minimum 1). It provides insufficient protection in conditions of severe or extreme heat. You must hold a parasol in one hand and use it to shade yourself from the sun. Alternatively, you can hold the parasol and use it to shade another creature of your size or smaller. The listed price is for a simple, functional parasol made of fabric or lacquered paper. A parasol used as a fashion accessory can be far more expensive, depending on the materials used, and can cost from 1 gp to 10 gp.</p>
+<p>This folding umbrella is translucent and not waterproof. It cuts down on the heat from direct sunlight.</p>
+<p><Icons id="eq-misc-parasol_common-def-icons" wrapper="prefixIcon" list={["def"]} /> In very hot conditions where the sun is a factor (such as a desert), it gives you a +1 circumstance bonus on your hourly Fortitude saves against <Link to="/rule/heat">heat</Link>, and reduces the damage from a failed save by 1 hit point (minimum 1). It provides insufficient protection in conditions of severe or extreme heat.</p>
+<p>You must hold a parasol in one hand and use it to shade yourself from the sun. Alternatively, you can hold the parasol and use it to shade another creature of your size or smaller. The listed price is for a simple, functional parasol made of fabric or lacquered paper. A parasol used as a fashion accessory can be far more expensive, depending on the materials used, and can cost from 1 gp to 10 gp.</p>
 <h3 id="eq-misc-parasol_common-umbrella" data-hash-target>Umbrella</h3>
 <Tabular format="misc" id="umbrella" a="2" b="3" d="gear" />
 <p>An umbrella is a heavier, waterproof parasol made of oiled or waxed cloth. It is intended to keep you dry in the rain or snow, but can still protect against sunlight just like a standard parasol.</p>
@@ -1235,7 +1248,10 @@ const _peasants_outfit = {title: "Peasant's outfit", jsx: <><h2 id="eq-misc-peas
 const _peg_leg = {title: "Peg leg", jsx: <><h2 id="eq-misc-peg_leg-peg-leg">Peg leg</h2>
 <p><strong>Sources</strong> <Link to="/source/pirates_of_the_inner_sea">Pirates of the Inner Sea pg. 21</Link>  </p>
 <Tabular format="misc" a="10" b="5" d="gear" />
-<p>A peg leg is a wooden stump with a socket built on one end to fit over an individual's knee. Pirates who lose legs at sea often wear peg legs. A peg leg reduces your base speed by 5 feet and imposes a -4 penalty on Acrobatics, Climb, and Swim checks. You take half damage from <Link to="/eq-misc/caltrops">caltrops</Link>. Pirates often carve hidden compartments into their peg legs - these compartments can hold small items weighing up to 1 or 2 pounds (or a few swigs of grog). If you have two peg legs, your base speed is reduced to half and you take a -10 penalty on Acrobatics, Climb, and Swim checks. You are immune to damage from caltrops.</p>
+<p>A peg leg is a wooden stump with a socket built on one end to fit over an individual's knee. Pirates who lose legs at sea often wear peg legs.</p>
+<p><Icons id="eq-misc-peg_leg-down-def-icons" wrapper="prefixIcon" list={["down","def"]} /> A peg leg reduces your base speed by 5 feet and imposes a -4 penalty on <Link to="/skill/acrobatics">Acrobatics</Link>, <Link to="/skill/climb">Climb</Link>, and <Link to="/skill/swim">Swim</Link> checks. You take half damage from <Link to="/eq-misc/caltrops">caltrops</Link>.</p>
+<p>Pirates often carve hidden compartments into their peg legs - these compartments can hold small items weighing up to 1 or 2 pounds (or a few swigs of grog).</p>
+<p><Icons id="eq-misc-peg_leg-down-def-icons" wrapper="prefixIcon" list={["down","def"]} /> If you have two peg legs, your base speed is reduced to half and you take a -10 penalty on Acrobatics, Climb, and Swim checks. You are immune to damage from caltrops.</p>
 <p>Peg legs presume that the knee joint is intact. If the knee joint is not intact, use the <Link to="/eq-misc/prosthetic_leg">prosthesis</Link> statistics instead.</p>
 </>};
 const _pen_underwater = {title: "Pen, underwater", jsx: <><h2 id="eq-misc-pen_underwater-pen-underwater">Pen, underwater</h2>
@@ -1251,21 +1267,27 @@ const _performers_token = {title: "Performer's token", jsx: <><h2 id="eq-misc-pe
 const _perfume_common_per_dose = {title: "Perfume (common, per dose)", jsx: <><h2 id="eq-misc-perfume_common_per_dose-perfumecologne">Perfume/Cologne</h2>
 <p><strong>Sources</strong> <Link to="/source/inner_sea_world_guide">Inner Sea World Guide pg. 293</Link>, <Link to="/source/pathfinder_campaign_setting">Pathfinder Campaign Setting pg. 213</Link>, <Link to="/source/curse_of_the_crimson_throne_players_guide">Curse of the Crimson Throne Player's Guide pg. 12</Link>  </p>
 <Tabular format="misc" id="crimson" a="1 gp/dose Perfume (common), 100 gp/dose Perfume (exotic), 10 gp/dose Perfume (rare)" b="&mdash; Perfume (common), &mdash; Perfume (exotic), &mdash; Perfume (rare)" c="x" d="gear" />
-<p>Perfume and cologne are common accessories for those who hope to avoid offending through scent. Exotic scents are sold in vials containing 10 applications, with a single dose lasting for 24 hours during which its wearer gains a +2 circumstance bonus on all Diplomacy checks (save for those against creatures who, at the GM's discretion, would not be swayed by scent).</p>
+<p>Perfume and cologne are common accessories for those who hope to avoid offending through scent.</p>
+<p><Icons id="eq-misc-perfume_common_per_dose-boost-icons" wrapper="prefixIcon" list={["boost"]} /> Exotic scents are sold in vials containing 10 applications, with a single dose lasting for 24 hours during which its wearer gains a +2 circumstance bonus on all <Link to="/skill/diplomacy">Diplomacy</Link> checks (save for those against creatures who, at the GM's discretion, would not be swayed by scent).</p>
 <h2 id="eq-misc-perfume_common_per_dose-perfumecologne">Perfume/Cologne</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 57</Link>, <Link to="/source/adventurers_armory">Adventurer's Armory pg. 19</Link>  </p>
 <Tabular format="misc" id="armory" a="5" b="x" d="gear" />
-<p>Most perfumes and colognes are derived from the essential oils of flowers. Perfume or cologne may (at the GM's discretion) provide a +1 circumstance bonus on several Charisma-based skill checks.</p>
+<p><Icons id="eq-misc-perfume_common_per_dose-boost-icons" wrapper="prefixIcon" list={["boost"]} /> Most perfumes and colognes are derived from the essential oils of flowers. Perfume or cologne may (at the GM's discretion) provide a +1 circumstance bonus on several Charisma-based skill checks.</p>
 </>};
 const _perfume_kit = {title: "Perfume kit", jsx: <><h2 id="eq-misc-perfume_kit-perfume-kit">Perfume kit</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_intrigue">Ultimate Intrigue pg. 233</Link>  </p>
 <Tabular format="misc" a="40" b="10" d="gear" />
-<p>A perfume kit consists of an atomizer and a diverse array of perfumes, scented oils, wild flowers, and herbs. Applying scents from a perfume kit takes 1 minute, and grants you a +1 circumstance bonus on Bluff, Diplomacy, Disguise, Handle Animal, Intimidate, or Perform checks, subject to GM discretion. You must choose the type of check when you apply the fragrances. This bonus typically doesn't apply in combat or against hostile creatures, and might not work on creatures without olfactory senses or who would be more offended than entranced by your scent. The bonus lasts for 4 hours. You can gain only one bonus from a perfume kit at a time, and the bonus from perfume does not stack with bonuses from any masterwork tools you possess for the same skill. A perfume kit is exhausted after 10 uses.</p>
+<p>A perfume kit consists of an atomizer and a diverse array of <Link to="/eq-misc/perfume">perfumes</Link>, scented oils, wild flowers, and herbs.</p>
+<p><Icons id="eq-misc-perfume_kit-boost-icons" wrapper="prefixIcon" list={["boost"]} /> Applying scents from a perfume kit takes 1 minute, and grants you a +1 circumstance bonus on <Link to="/skill/bluff">Bluff</Link>, <Link to="/skill/diplomacy">Diplomacy</Link>, <Link to="/skill/disguise">Disguise</Link>, <Link to="/skill/handle_animal">Handle Animal</Link>, <Link to="/skill/intimidate">Intimidate</Link>, or <Link to="/skill/perform">Perform</Link> checks, subject to GM discretion. You must choose the type of check when you apply the fragrances. This bonus typically doesn't apply in combat or against hostile creatures, and might not work on creatures without olfactory senses or who would be more offended than entranced by your scent.</p>
+<p>The bonus lasts for 4 hours. You can gain only one bonus from a perfume kit at a time, and the bonus from perfume does not stack with bonuses from any masterwork tools you possess for the same skill.</p>
+<p>A perfume kit is exhausted after 10 uses.</p>
 </>};
 const _periscope = {title: "Periscope", jsx: <><h2 id="eq-misc-periscope-periscope">Periscope</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 57</Link>, <Link to="/source/advanced_players_guide">Advanced Player's Guide pg. 181</Link>  </p>
 <Tabular format="misc" a="20" b="4" d="gear" />
-<p>This 2-foot-long metal tube has right angles at each end with mirrors inside; if you look in one end, you can see out the other end, allowing you safely peer over obstacles, around corners, or into small spaces your head where wouldn't fit. When using a periscope, the end of the tube counts as a Diminutive object, making it much less likely that an observed creature notices you; if you have <Link to="/rule/concealment">total concealment</Link> from the creature except for the end of the periscope, use the tube's Diminutive size modifier on your Stealth check instead of your own size modifier. Distortion from the mirrors gives you a -4 penalty on Perception checks while looking through the periscope. Though the tube is fairly sturdy (<Link to="/rule/hardness">hardness</Link> 5, 2 hit points), the mirrors inside are fragile (<Link to="/rule/hardness">hardness</Link> 1, 1 hit point), and any damage that gets through the tube's hardness applies to the tube and the mirrors.</p>
+<p>This 2-foot-long metal tube has right angles at each end with mirrors inside; if you look in one end, you can see out the other end, allowing you safely peer over obstacles, around corners, or into small spaces your head where wouldn't fit.</p>
+<p><Icons id="eq-misc-periscope-def-icons" wrapper="prefixIcon" list={["def"]} /> When using a periscope, the end of the tube counts as a Diminutive object, making it much less likely that an observed creature notices you; if you have <Link to="/rule/concealment">total concealment</Link> from the creature except for the end of the periscope, use the tube's Diminutive size modifier on your <Link to="/skill/stealth">Stealth</Link> check instead of your own size modifier.</p>
+<p><Icons id="eq-misc-periscope-down-icons" wrapper="prefixIcon" list={["down"]} /> Distortion from the mirrors gives you a -4 penalty on <Link to="/skill/perception">Perception</Link> checks while looking through the periscope. Though the tube is fairly sturdy (<Link to="/rule/hardness">hardness</Link> 5, 2 hit points), the mirrors inside are fragile (<Link to="/rule/hardness">hardness</Link> 1, 1 hit point), and any damage that gets through the tube's hardness applies to the tube and the mirrors.</p>
 </>};
 const _pesh = {title: "Pesh", jsx: <><h2 id="eq-misc-pesh-pesh">Pesh</h2>
 <p><strong>Sources</strong> <Link to="/source/adventurers_armory">Adventurer's Armory pg. 19</Link>  </p>
@@ -1324,7 +1346,9 @@ const _pickpockets_outfit = {title: "Pickpocket's outfit", jsx: <><h2 id="eq-mis
 const _piecemeal_weapon = {title: "Piecemeal weapon", jsx: <><h2 id="eq-misc-piecemeal_weapon-piecemeal-weapon">Piecemeal weapon</h2>
 <p><strong>Sources</strong> <Link to="/source/inner_sea_intrigue">Inner Sea Intrigue pg. 50</Link>  </p>
 <Tabular format="misc" a="50" b="10" d="gear" />
-<p>This set of belts, buttons, straps, and metal pieces can be disassembled and reassembled with 1 minute of effort to create any light or one-handed melee or martial weapon with which the assembler is proficient (no further Craft check is required). It can be used this way repeatedly. All weapons created with a piecemeal weapon have and cannot lose the <Link to="/misc/broken">broken</Link> condition. A piecemeal weapon can be used to create only a single weapon at a time, and it can't be enhanced to create magical weapons. A light weapon created with a piecemeal weapon grants a +4 bonus on Sleight of Hand checks to hide it on one's person.</p>
+<p>This set of belts, buttons, straps, and metal pieces can be disassembled and reassembled with 1 minute of effort to create any light or one-handed melee or martial weapon with which the assembler is proficient (no further <Link to="/skill/craft">Craft</Link> check is required). It can be used this way repeatedly.</p>
+<p><Icons id="eq-misc-piecemeal_weapon-warning-icons" wrapper="prefixIcon" list={["warning"]} /> All weapons created with a piecemeal weapon have and cannot lose the <Link to="/misc/broken">broken</Link> condition. A piecemeal weapon can be used to create only a single weapon at a time, and it can't be enhanced to create magical weapons.</p>
+<p><Icons id="eq-misc-piecemeal_weapon-def-icons" wrapper="prefixIcon" list={["def"]} /> A light weapon created with a piecemeal weapon grants a +4 bonus on <Link to="/skill/sleight_of_hand">Sleight of Hand</Link> checks to hide it on one's person.</p>
 </>};
 const _pig_grease = {title: "Pig grease", jsx: <><h2 id="eq-misc-pig_grease-pig-grease">Pig grease</h2>
 <p><strong>Sources</strong> <Link to="/source/goblins_of_golarion">Goblins of Golarion pg. 12</Link>  </p>
@@ -1349,7 +1373,7 @@ const _pirate_clothes_basic = {title: "Pirate clothes (basic)", jsx: <><h2 id="e
 const _pitcher = {title: "Pitcher", jsx: <><h2 id="eq-misc-pitcher-pitcher">Pitcher</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 57</Link>, <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 158</Link>  </p>
 <Tabular format="misc" a="0.02" b="5" d="gear" />
-<p>This basic clay pitcher has a handle and an open top with a groove for easy pouring. It holds 1/2 gallon of liquid. The listed weight is for a pitcher filled with water, wine, or ale; empty, it weighs about 1/2 pound.</p>
+<p>This basic clay pitcher has a handle and an open top with a groove for easy pouring. It holds &frac12; gallon of liquid. The listed weight is for a pitcher filled with water, wine, or ale; empty, it weighs about &frac12; pound.</p>
 </>};
 const _piton = {title: "Piton", jsx: <><h2 id="eq-misc-piton-piton">Piton</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 57</Link>, <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 158</Link>  </p>
@@ -1385,7 +1409,8 @@ const _travel_cake_mix = {title: "Travel cake mix", jsx: <><h2 id="eq-misc-trave
 const _travelers_dictionary = {title: "Traveler's dictionary", jsx: <><h2 id="eq-misc-travelers_dictionary-travelers-dictionary">Traveler's dictionary</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 58</Link>  </p>
 <Tabular format="misc" a="50" b="2" d="gear" />
-<p>Each of these books references a specific language and has two sections. The first presents a wide variety of useful phrases and words in Common (arranged by category) followed by a phonetic representation of the same in the language that the book deals with. The second section provides an alphabetical (by phonetic spelling) collection of words and phrases in the second language and their approximate Common translation. Using this book does not grant a bonus on rolls to communicate, but at the GM's discretion it can negate or reduce a penalty if the other creature is patient enough to wait for the translation.</p>
+<p>Each of these books references a specific language and has two sections. The first presents a wide variety of useful phrases and words in Common (arranged by category) followed by a phonetic representation of the same in the language that the book deals with. The second section provides an alphabetical (by phonetic spelling) collection of words and phrases in the second language and their approximate Common translation.</p>
+<p><Icons id="eq-misc-travelers_dictionary-info-icons" wrapper="prefixIcon" list={["info"]} /> Using this book does not grant a bonus on rolls to communicate, but at the GM's discretion it can negate or reduce a penalty if the other creature is patient enough to wait for the translation.</p>
 </>};
 const _travelers_hookah = {title: "Traveler's hookah", jsx: <><h2 id="eq-misc-travelers_hookah-travelers-hookah">Traveler's hookah</h2>
 <p><strong>Sources</strong> <Link to="/source/alchemy_manual">Alchemy Manual pg. 18</Link>  </p>
@@ -1428,12 +1453,14 @@ const _traveling_spellbook = {title: "Traveling spellbook", jsx: <><h2 id="eq-mi
 const _treasure_chest_small = {title: "Treasure chest (small)", jsx: <><h2 id="eq-misc-treasure_chest_small-treasure-chest">Treasure chest</h2>
 <p><strong>Sources</strong> <Link to="/source/adventurers_armory_2">Adventurer's Armory 2 pg. 12</Link>  </p>
 <Tabular format="misc" a="7 gp (medium), 37 gp (huge), 15 gp (large), 3 gp (small)" b="50 lbs. (medium), 250 lbs. (huge), 100 lbs. (large), 25 lbs. (small)" c="x" d="gear" />
-<p>A treasure chest is a common wooden <Link to="/eq-misc/chest">chest</Link> treated with resin to make the wood water-resistant. Metal bands, usually bronze to prevent rusting, are strapped around the treasure chest for extra reinforcement, and the lock is also typically made of bronze. A treasure chest uses the statistics of an ordinary wooden chest, but its hit points increase by 25% and its break DC increases by 2. Treasure chests are waterproof and withstand being buried better than ordinary chests</p>
+<p>A treasure chest is a common wooden <Link to="/eq-misc/chest">chest</Link> treated with resin to make the wood water-resistant. Metal bands, usually bronze to prevent rusting, are strapped around the treasure chest for extra reinforcement, and the <Link to="/eq-misc/lock">lock</Link> is also typically made of bronze.</p>
+<p>A treasure chest uses the statistics of an ordinary wooden chest, but its hit points increase by 25% and its break DC increases by 2. Treasure chests are waterproof and withstand being buried better than ordinary chests</p>
 </>};
 const _trekking_pole = {title: "Trekking pole", jsx: <><h2 id="eq-misc-trekking_pole-trekking-pole">Trekking pole</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_wilderness">Ultimate Wilderness pg. 244</Link>  </p>
 <Tabular format="misc" a="15" b="2" d="gear" />
-<p>This 5-foot-long pole is fitted with a metal spike at its base. A trekking pole is meant to assist with overland movement, particularly long hikes and travel through difficult terrain. If you use a trekking pole as part of overland movement, you increase your distance traveled by 10% (so a creature with a 30-foot base speed travels 3-1/3 miles in 1 hour of walking, instead of just 3 miles). While traveling in areas of impaired movement - such as a trackless desert or a swamp trail - the increase to distance traveled while using a trekking pole increases to 25%.</p>
+<p>This 5-foot-long pole is fitted with a metal spike at its base. A trekking pole is meant to assist with overland movement, particularly long hikes and travel through difficult terrain.</p>
+<p><Icons id="eq-misc-trekking_pole-boost-icons" wrapper="prefixIcon" list={["boost"]} /> If you use a trekking pole as part of overland movement, you increase your distance traveled by 10% (so a creature with a 30-foot base speed travels 3&#8531; miles in 1 hour of walking, instead of just 3 miles). While traveling in areas of impaired movement - such as a trackless desert or a swamp trail - the increase to distance traveled while using a trekking pole increases to 25%.</p>
 </>};
 const _trephine = {title: "Trephine", jsx: <><h2 id="eq-misc-trephine-trephine">Trephine</h2>
 <p><strong>Sources</strong> <Link to="/source/horror_adventures">Horror Adventures pg. 212</Link>  </p>
@@ -1444,7 +1471,7 @@ const _trespassers_boot = {title: "Trespasser's boot", jsx: <><h2 id="eq-misc-tr
 <p><strong>Sources</strong> <Link to="/source/adventurers_armory">Adventurer's Armory pg. 19</Link>  </p>
 <Tabular format="misc" a="0.8" b="2" d="tools" />
 <p><Icons id="eq-misc-trespassers_boot-lower-icons" wrapper="prefixIcon" list={["lower"]} /> Consisting of a small wooden frame with inward-pointing barbed spikes, this trap is placed in a shallow pit just deep enough for a Medium-sized character's lower leg. When someone steps in the square, the boot catches and holds her leg. The target takes damage if she tries to move or if a <Link to="/skill/disable_device">Disable Device</Link> attempt to free her fails by 5 or more.</p>
-<TrapInfo id="trespassers-boot-trap" cr="&frac12;" pdc="20" dddc="20" manual trigger="location" eff="pit spikes (Atk +10 melee, 2d4); spikes hold the target in place; the trap can be escaped with a DC 20 Disable Device check, DC 20 Escape Artist check, or DC 24 Strength check">Trespasser's Boot</TrapInfo>
+<TrapInfo start id="trespassers-boot-trap" cr="&frac12;" pdc="20" dddc="20" manual trigger="location" eff="pit spikes (Atk +10 melee, 2d4); spikes hold the target in place; the trap can be escaped with a DC 20 Disable Device check, DC 20 Escape Artist check, or DC 24 Strength check">Trespasser's Boot</TrapInfo>
 </>};
 const _tribal_standard = {title: "Tribal standard", jsx: <><h2 id="eq-misc-tribal_standard-tribal-standard">Tribal standard</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_race_guide">Advanced Race Guide pg. 141</Link>  </p>
@@ -1527,12 +1554,14 @@ const _underground_survival_kit = {title: "Underground survival kit", jsx: <><h2
 const _underwater_compass = {title: "Underwater compass", jsx: <><h2 id="eq-misc-underwater_compass-underwater-compass">Underwater compass</h2>
 <p><strong>Sources</strong> <Link to="/source/blood_of_the_sea">Blood of the Sea pg. 19</Link>  </p>
 <Tabular format="misc" a="20" b="0.5" d="gear" />
-<p>This otherwise ordinary <Link to="/eq-misc/compass">compass</Link> is sealed inside a glass case amid a quantity of clear oil. The oil keeps the glass from cracking at high pressures, allowing the compass to function at any depth up to 1,000 feet. An underwater compass grants you a +2 circumstance bonus on Survival checks to avoid becoming lost and also indicates your depth below the surface to the nearest increment of 20 feet. Underwater compasses are not particularly durable and cannot be roughly handled. An underwater compass has a <Link to="/rule/hardness">hardness</Link> of 1, 2 hit points, and a break DC of 15.</p>
+<p>This otherwise ordinary <Link to="/eq-misc/compass">compass</Link> is sealed inside a glass case amid a quantity of clear oil. The oil keeps the glass from cracking at high pressures, allowing the compass to function at any depth up to 1,000 feet.</p>
+<p><Icons id="eq-misc-underwater_compass-boost-icons" wrapper="prefixIcon" list={["boost"]} /> An underwater compass grants you a +2 circumstance bonus on Survival checks to avoid becoming lost and also indicates your depth below the surface to the nearest increment of 20 feet.</p>
+<p>Underwater compasses are not particularly durable and cannot be roughly handled. An underwater compass has a <Link to="/rule/hardness">hardness</Link> of 1, 2 hit points, and a break DC of 15.</p>
 </>};
 const _underwater_goggles = {title: "Underwater goggles", jsx: <><h2 id="eq-misc-underwater_goggles-underwater-goggles">Underwater goggles</h2>
 <p><strong>Sources</strong> <Link to="/source/aquatic_adventures">Aquatic Adventures pg. 57</Link>  </p>
 <Tabular format="misc" a="5" b="x" d="gear" />
-<p>These inexpensive, watertight goggles are essential protection for land-dwellers' eyes, particularly in salt water or water high in particulates. Any land-dweller wearing goggles can use visual Perception like an aquatic native.</p>
+<p><Icons id="eq-misc-underwater_goggles-boost-icons" wrapper="prefixIcon" list={["boost"]} /> These inexpensive, watertight goggles are essential protection for land-dwellers' eyes, particularly in salt water or water high in particulates. Any land-dweller wearing goggles can use visual <Link to="/skill/perception">Perception</Link> like an aquatic native.</p>
 </>};
 const _unstable_accelerant = {title: "Unstable accelerant", jsx: <><h2 id="eq-misc-unstable_accelerant-unstable-accelerant">Unstable accelerant</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_race_guide">Advanced Race Guide pg. 123</Link>  </p>
@@ -1562,20 +1591,20 @@ const _varisian_idol = {title: "Varisian idol", jsx: <><h2 id="eq-misc-varisian_
 <p><strong>Sources</strong> <Link to="/source/varisia_birthplace_of_legends">Varisia, Birthplace of Legends pg. 15</Link>, <Link to="/source/rise_of_the_runelords_players_guide">Rise of the Runelords Player's Guide pg. 11</Link>, <Link to="/source/curse_of_the_crimson_throne_players_guide">Curse of the Crimson Throne Player's Guide pg. 12</Link>  </p>
 <Tabular format="misc" a="75" b="1" d="gear" />
 <p>Scavenged from mysterious monuments, these depictions of forgotten figures and nameless spirits are often sold as good luck charms, but most commoners don't know that they can also be used to augment magic. Seven types of Varisian idols exist; those that affect evocation, transmutation, and illusion are the most common. Varisians associate each type of idol with their peoples' names for the various schools of magic.</p>
-<p>If used as an additional material component when casting a spell the idol affects, a Varisian idol increases the effect of that spell. Using multiple idols to cast a spell has no additional effect. A Varisian idol is destroyed after one use.</p>
+<p><Icons id="eq-misc-varisian_idol-boost-icons" wrapper="prefixIcon" list={["boost"]} /> If used as an additional material component when casting a spell the idol affects, a Varisian idol increases the effect of that spell. Using multiple idols to cast a spell has no additional effect. A Varisian idol is destroyed after one use.</p>
 <Block size="simple" hl>
 <Row><Cell>Avaria</Cell><Cell>When used to cast <Link to="/spell/bears_endurance">bear's endurance</Link>, <Link to="/spell/bulls_strength">bull's strength</Link>, <Link to="/spell/cats_grace">cat's grace</Link>, <Link to="/spell/eagles_splendor">eagle's splendor</Link>, <Link to="/spell/foxs_cunning">fox's cunning</Link>, or <Link to="/spell/owls_wisdom">owl's wisdom</Link>, the spell grants a +5 enhancement bonus to the affected ability score.</Cell></Row>
 <Row><Cell>Avidais</Cell><Cell>When used to cast a spell that allows you to make a dispel check (such as <Link to="/spell/dispel_magic">dispel magic</Link> or <Link to="/spell/mages_disjunction">mage's disjunction</Link>), you gain a +2 bonus on that check.</Cell></Row>
 <Row><Cell>Carnasia</Cell><Cell>When used to cast any spell of the charm subschool, a threatened target does not gain the usual +5 bonus on its saving throw to resist the effect.</Cell></Row>
 <Row><Cell>Idolis</Cell><Cell>When used to cast <Link to="/spell/summon_monster">summon monster</Link> or <Link to="/spell/summon_natures_ally">summon nature's ally</Link>, the summoned creature's maximum hit points increase by +2 for every Hit Die it possesses.</Cell></Row>
 <Row><Cell>Ragario</Cell><Cell>When used to cast a spell that deals energy damage, you gain a +2 bonus on caster level checks made to overcome spell resistance.</Cell></Row>
-<Row><Cell>Vangloris</Cell><Cell>When used to cast a spell of the glamer subschool with a duration measured in minutes or less (such as displacement or invisibility), the effects of that spell persist for 1 round longer than normal.</Cell></Row>
-<Row><Cell>Voratalo</Cell><Cell>When used to cast a spell of the necromancy school that deals hit point damage, you also deal a number of points of bleed damage equal to the spell level. This bleed effect lasts for 5 rounds.</Cell></Row></Block>
+<Row><Cell>Vangloris</Cell><Cell>When used to cast a spell of the glamer subschool with a duration measured in minutes or less (such as <Link to="/spell/displacement">displacement</Link> or <Link to="/spell/invisibility">invisibility</Link>), the effects of that spell persist for 1 round longer than normal.</Cell></Row>
+<Row><Cell>Voratalo</Cell><Cell>When used to cast a spell of the necromancy school that deals hit point damage, you also deal a number of points of <Link to="/rule/bleed">bleed</Link> damage equal to the spell level. This bleed effect lasts for 5 rounds.</Cell></Row></Block>
 </>};
 const _vault_altimeter = {title: "Vault altimeter", jsx: <><h2 id="eq-misc-vault_altimeter-vault-altimeter">Vault altimeter</h2>
 <p><strong>Sources</strong> <Link to="/source/heroes_of_the_darklands">Heroes of the Darklands pg. 20</Link>  </p>
 <Tabular format="misc" a="10" b="0.5" d="gear" />
-<p>This altimeter has been specially calibrated for the Darklands and can be used to measure how deep you are beneath the surface. It grants a +2 circumstance bonus on Survival checks to navigate underground.</p>
+<p><Icons id="eq-misc-vault_altimeter-boost-icons" wrapper="prefixIcon" list={["boost"]} /> This altimeter has been specially calibrated for the Darklands and can be used to measure how deep you are beneath the surface. It grants a +2 circumstance bonus on <Link to="/skill/survival">Survival</Link> checks to navigate underground.</p>
 </>};
 const _vector_ink = {title: "Vector ink", jsx: <><h2 id="eq-misc-vector_ink-vector-ink">Vector ink</h2>
 <p><strong>Sources</strong> <Link to="/source/alchemy_manual">Alchemy Manual pg. 9</Link>  </p>
@@ -1592,8 +1621,10 @@ const _veil = {title: "Veil", jsx: <><h2 id="eq-misc-veil-veil">Veil</h2>
 const _venom_trap = {title: "Venom trap", jsx: <><h2 id="eq-misc-venom_trap-venom-trap">Venom trap</h2>
 <p><strong>Sources</strong> <Link to="/source/dirty_tactics_toolbox">Dirty Tactics Toolbox pg. 21</Link>  </p>
 <Tabular format="misc" a="300" b="10" d="gear" />
-<p>A venom trap is a special <Link to="/eq-misc/bear_trap">bear trap</Link> that includes a reservoir that can hold up to 3 doses of injury poison, and a pump system designed to recoat the trap as a trapped target struggles to escape it. The spring-loaded, hinged jaws of the trap are attached to a chain, which in turn is secured to a spike driven into the ground to ensure that the victim cannot simply crawl away. Prying open the jaws or pulling the spike from the ground requires a successful DC 21 Strength check. On a failed check, the jaws are coated in a dose of poison from the reservoir and clamp back shut, making another attack against the trapped target. The venom trap can make only one attack each round. The base CR of a venom trap is 2, but the CR varies depending on the poison used.</p>
-<TrapInfo id="venom-trap-trap" cr="Varies" pdc="15" dddc="21" manual trigger="location" eff="Atk +11 melee (2d6+4 plus poison); sharp jaws spring shut around the creature's ankle and halve the creature's base speed (or hold the creature immobile if the trap is attached to a solid object); the creature can escape with a successful DC 20 Disable Device check, DC 22 Escape Artist check, or DC 26 Strength check">Venom Trap</TrapInfo>
+<p>A venom trap is a special <Link to="/eq-misc/bear_trap">bear trap</Link> that includes a reservoir that can hold up to 3 doses of injury poison, and a pump system designed to recoat the trap as a trapped target struggles to escape it. The spring-loaded, hinged jaws of the trap are attached to a chain, which in turn is secured to a spike driven into the ground to ensure that the victim cannot simply crawl away.</p>
+<p>Prying open the jaws or pulling the spike from the ground requires a successful DC 21 Strength check. On a failed check, the jaws are coated in a dose of poison from the reservoir and clamp back shut, making another attack against the trapped target.</p>
+<p>The venom trap can make only one attack each round. The base CR of a venom trap is 2, but the CR varies depending on the poison used.</p>
+<TrapInfo start id="venom-trap-trap" cr="Varies" pdc="15" dddc="21" manual trigger="location" eff="Atk +11 melee (2d6+4 plus poison); sharp jaws spring shut around the creature's ankle and halve the creature's base speed (or hold the creature immobile if the trap is attached to a solid object); the creature can escape with a successful DC 20 Disable Device check, DC 22 Escape Artist check, or DC 26 Strength check">Venom Trap</TrapInfo>
 </>};
 const _venombane_lozenges = {title: "Venombane lozenges", jsx: <><h2 id="eq-misc-venombane_lozenges-venombane-lozenges">Venombane lozenges</h2>
 <p><strong>Sources</strong> <Link to="/source/potions_and_poisons">Potions and Poisons pg. 31</Link>  </p>
@@ -1604,7 +1635,8 @@ const _venombane_lozenges = {title: "Venombane lozenges", jsx: <><h2 id="eq-misc
 const _ventriloquists_dummy = {title: "Ventriloquist's dummy", jsx: <><h2 id="eq-misc-ventriloquists_dummy-ventriloquists-dummy">Ventriloquist's dummy</h2>
 <p><strong>Sources</strong> <Link to="/source/occult_adventures">Occult Adventures pg. 251</Link>  </p>
 <Tabular format="misc" a="100" b="7" d="gear" />
-<p>A ventriloquist's dummy is made of finely sculpted and painted wood, shaped and dressed like a typical humanoid, and sized at roughly 2 feet. An insert in the back of the dummy allows a Small or Medium creature to manipulate it with one arm. When used as part of a routine, a ventriloquist's dummy adds a +2 circumstance bonus on Perform (comedy) checks.</p>
+<p>A ventriloquist's dummy is made of finely sculpted and painted wood, shaped and dressed like a typical humanoid, and sized at roughly 2 feet. An insert in the back of the dummy allows a Small or Medium creature to manipulate it with one arm.</p>
+<p><Icons id="eq-misc-ventriloquists_dummy-boot-icons" wrapper="prefixIcon" list={["boot"]} /> When used as part of a routine, a ventriloquist's dummy adds a +2 circumstance bonus on <Link to="/skill/perform">Perform</Link> (comedy) checks.</p>
 </>};
 const _vermin_repellent = {title: "Vermin repellent", jsx: <><h2 id="eq-misc-vermin_repellent-vermin-repellent">Vermin repellent</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 101</Link>, <Link to="/source/adventurers_armory">Adventurer's Armory pg. 19</Link>  </p>
@@ -1641,7 +1673,7 @@ const _vigil_cap = {title: "Vigil cap", jsx: <><h2 id="eq-misc-vigil_cap-vigil-c
 </>};
 const _vigilantes_kit = {title: "Vigilante's kit", jsx: <><h2 id="eq-misc-vigilantes_kit-vigilantes-kit">Vigilante's kit</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_intrigue">Ultimate Intrigue pg. 234</Link>  </p>
-<Tabular format="misc" a="8" b="22" d="gear" />
+<Tabular format="misc" a="8" b="22" d="kits" />
 <p>This kit includes a <Link to="/eq-misc/backpack">backpack</Link>, a <Link to="/eq-misc/belt_pouch">belt pouch</Link>, a <Link to="/eq-misc/blanket">blanket</Link>, <Link to="/eq-misc/torches">torches</Link> (10), <Link to="/eq-misc/trail_rations">trail rations</Link> (5 days), and a <Link to="/eq-misc/waterskin">waterskin</Link>.</p>
 </>};
 const _vine_tube = {title: "Vine tube", jsx: <><h2 id="eq-misc-vine_tube-vine-tube">Vine tube</h2>
@@ -1673,7 +1705,8 @@ const _wading_boots = {title: "Wading boots", jsx: <><h2 id="eq-misc-wading_boot
 const _waffle_iron_common = {title: "Waffle iron (common)", jsx: <><h2 id="eq-misc-waffle_iron_common-waffle-iron">Waffle iron</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 58</Link>  </p>
 <Tabular format="misc" a="1 gp (common), 2,501 gp (mithral)" b="5 lbs. (common), 2&frac12; lbs. (mithral)" c="x" d="gear" />
-<p>This pair of hinged metal plates is decorated with studs to add texture to the pastry cakes you cook with it. You pour batter on it, close it, and place it on a fire or stove to cook. Some waffle irons have plates that imprint the waffle with a noble's coat of arms, a religious symbol, or a country's flag. A mithral waffle iron almost always bears a specific insignia rather than the generic waffle pattern. As with other mithral cookware, food rarely sticks to a mithral waffle iron.</p>
+<p>This pair of hinged metal plates is decorated with studs to add texture to the pastry cakes you cook with it. You pour batter on it, close it, and place it on a fire or stove to cook. Some waffle irons have plates that imprint the waffle with a noble's coat of arms, a religious symbol, or a country's flag.</p>
+<p>A mithral waffle iron almost always bears a specific insignia rather than the generic waffle pattern. As with other mithral cookware, food rarely sticks to a mithral waffle iron.</p>
 </>};
 const _wagon = {hasJL:true,title: "Wagon", jsx: <><div className="jumpList" id="eq-misc-wagon-jumplist"><h2>Jump to:</h2><ul><li><InnerLink toTop to="eq-misc-wagon-light-wagon">Light Wagon</InnerLink></li><li><InnerLink toTop to="eq-misc-wagon-medium-wagon">Medium Wagon</InnerLink></li><li><InnerLink toTop to="eq-misc-wagon-heavy-wagon">Heavy Wagon</InnerLink></li><li><InnerLink toTop to="eq-misc-wagon-wagon">Wagon</InnerLink></li></ul></div><h2 id="eq-misc-wagon-wagon">Wagon</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 87</Link>  </p>
@@ -1720,7 +1753,8 @@ const _warding_ash = {title: "Warding ash", jsx: <><h2 id="eq-misc-warding_ash-w
 const _warka_jar = {title: "Warka jar", jsx: <><h2 id="eq-misc-warka_jar-warka-jar">Warka jar</h2>
 <p><strong>Sources</strong> <Link to="/source/merchants_manifest">Merchant's Manifest pg. 26</Link>  </p>
 <Tabular format="misc" a="2" b="0.5" d="gear" />
-<p>This 2-foot-tall, vase-shaped object is inspired by the huge warka towers found in inland areas of Senghor and other parts of the Mwangi Expanse. The warka jar is made of lightweight and elastic juncus stalks woven into a crisscross pattern. A fine mesh hangs inside and collects water condensation. Placing a warka jar outside overnight collects enough fresh water for a single creature to survive for one day. When not in use, the warka jar can be collapsed into a pocket-sized cube for easy transportation.</p>
+<p>This 2-foot-tall, vase-shaped object is inspired by the huge warka towers found in inland areas of Senghor and other parts of the Mwangi Expanse. The warka jar is made of lightweight and elastic juncus stalks woven into a crisscross pattern. A fine mesh hangs inside and collects water condensation.</p>
+<p><Icons id="eq-misc-warka_jar-info-icons" wrapper="prefixIcon" list={["info"]} /> Placing a warka jar outside overnight collects enough fresh water for a single creature to survive for one day. When not in use, the warka jar can be collapsed into a pocket-sized cube for easy transportation.</p>
 </>};
 const _warpriests_kit = {title: "Warpriest's kit", jsx: <><h2 id="eq-misc-warpriests_kit-warpriests-kit">Warpriest's kit</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_class_guide">Advanced Class Guide pg. 206</Link>  </p>
@@ -1777,12 +1811,13 @@ const _waterproof_bag = {title: "Waterproof bag", jsx: <><h2 id="eq-misc-waterpr
 const _waterskin = {title: "Waterskin", jsx: <><h2 id="eq-misc-waterskin-waterskin-or-wineskin">Waterskin (or wineskin)</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 75</Link>, <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 158</Link>  </p>
 <Tabular format="misc" a="1" b="4" d="gear" />
-<p>This bag is made of an animal bladder or treated leather. It is watertight and holds about 1/2 gallon of liquid. The listed weight is for a waterskin full of water; empty, it weighs about 2 pounds.</p>
+<p>This bag is made of an animal bladder or treated leather. It is watertight and holds about &frac12; gallon of liquid. The listed weight is for a waterskin full of water; empty, it weighs about 2 pounds.</p>
 </>};
 const _wax_key_blank = {title: "Wax key blank", jsx: <><h2 id="eq-misc-wax_key_blank-wax-key-blank">Wax key blank</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 58</Link>, <Link to="/source/adventurers_armory">Adventurer's Armory pg. 19</Link>  </p>
 <Tabular format="misc" a="15" b="0.5" d="gear" />
-<p>This two-sided case contains a soft wax that readily takes and keeps an impression of an object pressed between the two halves, creating an excellent mold of the item. A skilled artisan may then make a copy of the item from the mold (destroying the mold in the process). Making an impression surreptitiously requires a DC 25 Sleight of Hand check.</p>
+<p>This two-sided case contains a soft wax that readily takes and keeps an impression of an object pressed between the two halves, creating an excellent mold of the item. A skilled artisan may then make a copy of the item from the mold (destroying the mold in the process).</p>
+<p>Making an impression surreptitiously requires a DC 25 <Link to="/skill/sleight_of_hand">Sleight of Hand</Link> check.</p>
 </>};
 const _weapon_blanch_adamantine = {title: "Weapon blanch (adamantine)", jsx: <><h2 id="eq-misc-weapon_blanch_adamantine-weapon-blanch">Weapon blanch</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 103</Link>, <Link to="/source/advanced_players_guide">Advanced Player's Guide pg. 184</Link>  </p>
@@ -1800,7 +1835,9 @@ const _weapon_blanch_ghost_salt = {title: "Weapon blanch (ghost salt)", jsx: <><
 const _weapon_cord = {title: "Weapon cord", jsx: <><h2 id="eq-misc-weapon_cord-weapon-cord">Weapon cord</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 58</Link>, <Link to="/source/advanced_players_guide">Advanced Player's Guide pg. 183</Link>, <Link to="/source/adventurers_armory">Adventurer's Armory pg. 19</Link>  </p>
 <Tabular format="misc" a="0.1" b="x" d="gear" />
-<p>Weapon cords are 2-foot-long leather straps that attach your weapon to your wrist. If you drop your weapon or are disarmed, you can recover it as a <strong className="hl">move action</strong>, and it never moves any farther away from you than an adjacent square. However, you cannot switch to a different weapon without first untying the cord (a <strong className="hl">full-round action</strong>) or cutting it (a <strong className="hl">move action</strong> or an attack, <Link to="/rule/hardness">hardness</Link> 0, 1 hit point). Unlike with a <Link to="/eq-armorenh/locked_gauntlet">locked gauntlet</Link>, you can still use a hand with a weapon cord, though a dangling weapon may interfere with finer actions.</p>
+<p>Weapon cords are 2-foot-long leather straps that attach your weapon to your wrist.</p>
+<p><Icons id="eq-misc-weapon_cord-info-icons" wrapper="prefixIcon" list={["info"]} /> If you drop your weapon or are disarmed, you can recover it as a <strong className="hl">move action</strong>, and it never moves any farther away from you than an adjacent square. However, you cannot switch to a different weapon without first untying the cord (a <strong className="hl">full-round action</strong>) or cutting it (a <strong className="hl">move action</strong> or an attack, <Link to="/rule/hardness">hardness</Link> 0, 1 hit point).</p>
+<p>Unlike with a <Link to="/eq-armorenh/locked_gauntlet">locked gauntlet</Link>, you can still use a hand with a weapon cord, though a dangling weapon may interfere with finer actions.</p>
 </>};
 const _weasel = {title: "Weasel", jsx: <><h2 id="eq-misc-weasel-weasel">Weasel</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 80</Link>, <Link to="/source/adventurers_armory">Adventurer's Armory pg. 19</Link>  </p>
@@ -1815,12 +1852,12 @@ const _wet_suit = {title: "Wet suit", jsx: <><h2 id="eq-misc-wet_suit-wet-suit">
 const _whale_oil = {title: "Whale oil", jsx: <><h2 id="eq-misc-whale_oil-whale-oil">Whale oil</h2>
 <p><strong>Sources</strong> <Link to="/source/people_of_the_north">People of the North pg. 28</Link>  </p>
 <Tabular format="misc" a="0.2" b="1" d="gear" />
-<p>A common source of illumination in the Lands of the Linnorm Kings, 1 pint of whale oil burns for 10 hours in a lantern or lamp. It otherwise functions as normal <Link to="/eq-misc/oil">oil</Link>.</p>
+<p>A common source of illumination in the Lands of the Linnorm Kings, 1 pint of whale oil burns for 10 hours in a <Link to="/eq-misc/lantern">lantern</Link> or <Link to="/eq-misc/lamp">lamp</Link>. It otherwise functions as normal <Link to="/eq-misc/oil">oil</Link>.</p>
 </>};
 const _wheelchair = {title: "Wheelchair", jsx: <><h2 id="eq-misc-wheelchair-wheelchair">Wheelchair</h2>
 <p><strong>Sources</strong> <Link to="/source/adventurers_armory_2">Adventurer's Armory 2 pg. 13</Link>  </p>
 <Tabular format="misc" a="20" b="25" d="gear" />
-<p>This device is a chair, typically made from wood, with large wheels attached on either side. A wheelchair can seat a single Medium or Small creature. When seated in a wheelchair, you can propel yourself along a reasonably flat surface at your base speed as a <strong className="hl">move action</strong>, so long as you have at least one hand free. Moving twice in a round or taking the run action requires you to have both hands free. Moving uphill or over rough terrain halves the speed you move in a wheelchair, and certain terrain (such as fallen logs) may be entirely impassable. A wheelchair has <Link to="/rule/hardness">hardness</Link> 5 and 30 hit points.</p>
+<p>This device is a chair, typically made from wood, with large wheels attached on either side. A wheelchair can seat a single Medium or Small creature. When seated in a wheelchair, you can propel yourself along a reasonably flat surface at your base speed as a <strong className="hl">move action</strong>, so long as you have at least one hand free. Moving twice in a round or taking the <Link to="/rule/run">run</Link> action requires you to have both hands free. Moving uphill or over rough terrain halves the speed you move in a wheelchair, and certain terrain (such as fallen logs) may be entirely impassable. A wheelchair has <Link to="/rule/hardness">hardness</Link> 5 and 30 hit points.</p>
 </>};
 const _whet_bone = {title: "Whet bone", jsx: <><h2 id="eq-misc-whet_bone-whet-bone">Whet bone</h2>
 <p><strong>Sources</strong> <Link to="/source/animal_archive">Animal Archive pg. 12</Link>  </p>
@@ -1831,7 +1868,8 @@ const _whet_bone = {title: "Whet bone", jsx: <><h2 id="eq-misc-whet_bone-whet-bo
 const _whetstone = {title: "Whetstone", jsx: <><h2 id="eq-misc-whetstone-whetstone">Whetstone</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 58</Link>, <Link to="/source/adventurers_armory">Adventurer's Armory pg. 19</Link>, <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 158</Link>  </p>
 <Tabular format="misc" a="0.02" b="1" d="gear" />
-<p>A whetstone allows you to sharpen a blade by sliding it against the stone at a precise angle. Honing a blade with a whetstone requires about 15 minutes of work and grants the weapon a +1 bonus on your damage roll the first time you hit with it. This only works on nonmagical blades.</p>
+<p>A whetstone allows you to sharpen a blade by sliding it against the stone at a precise angle.</p>
+<p><Icons id="eq-misc-whetstone-boost-icons" wrapper="prefixIcon" list={["boost"]} /> Honing a blade with a whetstone requires about 15 minutes of work and grants the weapon a +1 bonus on your damage roll the first time you hit with it. This only works on nonmagical blades.</p>
 </>};
 const _whip_training = {title: "Whip, training", jsx: <><h2 id="eq-misc-whip_training-whip-training">Whip, training</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_race_guide">Advanced Race Guide pg. 76</Link>  </p>
@@ -1847,7 +1885,9 @@ const _whiskey_cup = {title: "Whiskey (cup)", jsx: <><h2 id="eq-misc-whiskey_cup
 const _whistle_signal = {title: "Whistle (signal)", jsx: <><h2 id="eq-misc-whistle_signal-whistle">Whistle</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 57</Link>, <Link to="/source/advanced_players_guide">Advanced Player's Guide pg. 183</Link>, <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 158</Link>, <Link to="/source/adventurers_armory">Adventurer's Armory pg. 19</Link>  </p>
 <Tabular format="misc" a="8 sp (signal), 9 sp (silent)" b="&mdash; (signal), &mdash; (silent)" c="x" d="gear" />
-<p>With a DC 5 Perform (wind) check, you can use a whistle to signal the same sorts of situations as signal horns. A whistle's piercing report can be clearly heard (Perception DC 0) up to a quarter-mile away. For each quarter-mile beyond, Perception checks to hear a whistle take a -2 penalty. Silent whistles that only animals and other creatures with keen hearing can hear also exist.</p>
+<p>With a DC 5 <Link to="/skill/perform">Perform</Link> (wind) check, you can use a whistle to signal the same sorts of situations as signal horns. A whistle's piercing report can be clearly heard (<Link to="/skill/perception">Perception</Link> DC 0) up to a quarter-mile away. For each quarter-mile beyond, Perception checks to hear a whistle take a -2 penalty.</p>
+<p>Silent whistles that only animals and other creatures with keen hearing can hear also exist.</p>
+<p><strong className="hl">Also see:</strong> <Link to="/eq-misc/beast_whistle">Beast whistle</Link>, <Link to="/eq-misc/beast_hunter_whistle">beast-hunter whistle</Link>, <Link to="/eq-misc/cave_whistle">cave whistle</Link>, and <Link to="/eq-misc/sherrifs_whistle">sherrif's whistle</Link>.</p>
 </>};
 const _wig = {title: "Wig", jsx: <><h2 id="eq-misc-wig-wig">Wig</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 89</Link>, <Link to="/source/adventurers_armory">Adventurer's Armory pg. 19</Link>  </p>
@@ -1905,7 +1945,8 @@ const _wing_cloak = {title: "Wing cloak", jsx: <><h2 id="eq-misc-wing_cloak-wing
 const _wing_hobble = {title: "Wing hobble", jsx: <><h2 id="eq-misc-wing_hobble-wing-hobble">Wing hobble</h2>
 <p><strong>Sources</strong> <Link to="/source/dragonslayers_handbook">Dragonslayer's Handbook pg. 27</Link>  </p>
 <Tabular format="misc" a="75 gp" b="1-20 lbs." c="x" d="gear" />
-<p>This large weight is attached to a sharp steel hook which doubles as a carabiner. Once the steel hook is punched through the skin of a flying creature's wing, the carabiner locks shut. The weight then acts as an anchor, unbalancing the creature's wings, which prevents the creature from flying. The application of wing hobbles causes 1d4 points of piercing damage, and does not permanently disable the creature should the hobble be removed. A wing hobble can be attached to a pinned creature's wing with a successful grapple check. Removing a wing hobble from a creature's wing is a <strong className="hl">full-round action</strong> that provokes attacks of opportunity and requires the use of two hands.</p>
+<p>This large weight is attached to a sharp steel hook which doubles as a carabiner. Once the steel hook is punched through the skin of a flying creature's wing, the carabiner locks shut. The weight then acts as an anchor, unbalancing the creature's wings, which prevents the creature from flying.</p>
+<p><Icons id="eq-misc-wing_hobble-lower-icons" wrapper="prefixIcon" list={["lower"]} /> The application of wing hobbles causes 1d4 points of piercing damage, and does not permanently disable the creature should the hobble be removed. A wing hobble can be attached to a <Link to="/rule/pinned">pinned</Link> creature's wing with a successful <Link to="/rule/grapple">grapple</Link> check. Removing a wing hobble from a creature's wing is a <strong className="hl">full-round action</strong> that provokes attacks of opportunity and requires the use of two hands.</p>
 </>};
 const _wing_hooks = {title: "Wing hooks", jsx: <><h2 id="eq-misc-wing_hooks-wing-hooks">Wing hooks</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_wilderness">Ultimate Wilderness pg. 13</Link>  </p>
@@ -1922,12 +1963,17 @@ const _wing_oil = {title: "Wing oil", jsx: <><h2 id="eq-misc-wing_oil-wing-oil">
 const _wing_sheaths = {title: "Wing sheaths", jsx: <><h2 id="eq-misc-wing_sheaths-wing-sheaths">Wing sheaths</h2>
 <p><strong>Sources</strong> <Link to="/source/adventurers_armory_2">Adventurer's Armory 2 pg. 13</Link>  </p>
 <Tabular format="misc" a="10" b="10" d="gear" />
-<p>Wing sheaths are protective coverings created from thick fabric or canvas. The sheaths are designed to tightly cover a pair of wings to keep them hidden beneath a cloak or loose-fitting clothing. Noticing hidden wings bound within wing sheaths requires a successful DC 20 Perception check. Donning or removing wing sheaths requires 1 minute, or a <strong className="hl">full-round action</strong> with assistance. Wing sheaths can be burst with a successful DC 22 Strength check.</p>
+<p>Wing sheaths are protective coverings created from thick fabric or canvas. The sheaths are designed to tightly cover a pair of wings to keep them hidden beneath a cloak or loose-fitting clothing.</p>
+<p>Noticing hidden wings bound within wing sheaths requires a successful DC 20 <Link to="/skill/perception">Perception</Link> check. Donning or removing wing sheaths requires 1 minute, or a <strong className="hl">full-round action</strong> with assistance. Wing sheaths can be burst with a successful DC 22 Strength check.</p>
 </>};
 const _wing_staff = {title: "Wing staff", jsx: <><h2 id="eq-misc-wing_staff-wing-staff">Wing staff</h2>
 <p><strong>Sources</strong> <Link to="/source/inner_sea_intrigue">Inner Sea Intrigue pg. 50</Link>  </p>
 <Tabular format="misc" a="1000" b="6" d="gear" />
-<p>This <Link to="/eq-weapon/quarterstaff">quarterstaff</Link> can unfold two sails on each side to become a simple glider that takes up no more space than its wielder. With a successful DC 10 Fly check as a <strong className="hl">full-round action</strong>, any Small or Medium creature holding the unfurled glider can glide downward at a 45-degree angle in a straight or diagonal line at a speed of 60 feet per round. Unfolding the wings is a <strong className="hl">full-round action</strong>. The wing staff imposes a -4 penalty on Fly checks because of its poor maneuverability and cannot be used to fly at other angles. A character may gain an advantage in an appropriate terrain tile during a pursuit, such as taking a shortcut by gliding over a forest. A wing staff's sails have AC 9 and <Link to="/rule/hardness">hardness</Link> 0, and take double damage from acid and fire attacks. The sails have 20 hit points; if they take 9 points of damage, the sails and the staff gain the <Link to="/misc/broken">broken</Link> condition, and the sails don't function until repaired. When the sails are furled, a wing staff functions as a normal quarterstaff and can be enhanced as normal (this doesn't affect the sails), though if the staff gains the broken condition, the sails are also broken.</p>
+<p>This <Link to="/eq-weapon/quarterstaff">quarterstaff</Link> can unfold two sails on each side to become a simple glider that takes up no more space than its wielder.</p>
+<p><Icons id="eq-misc-wing_staff-power-icons" wrapper="prefixIcon" list={["power"]} /> With a successful DC 10 <Link to="/skill/fly">Fly</Link> check as a <strong className="hl">full-round action</strong>, any Small or Medium creature holding the unfurled glider can glide downward at a 45-degree angle in a straight or diagonal line at a speed of 60 feet per round. Unfolding the wings is a <strong className="hl">full-round action</strong>.</p>
+<p><Icons id="eq-misc-wing_staff-down-icons" wrapper="prefixIcon" list={["down"]} /> The wing staff imposes a -4 penalty on Fly checks because of its poor maneuverability and cannot be used to fly at other angles.</p>
+<p><Icons id="eq-misc-wing_staff-info-icons" wrapper="prefixIcon" list={["info"]} /> A character may gain an advantage in an appropriate terrain tile during a <Link to="/rule/pursuit">pursuit</Link>, such as taking a shortcut by gliding over a forest. A wing staff's sails have AC 9 and <Link to="/rule/hardness">hardness</Link> 0, and take double damage from acid and fire attacks. The sails have 20 hit points; if they take 9 points of damage, the sails and the staff gain the <Link to="/misc/broken">broken</Link> condition, and the sails don't function until repaired.</p>
+<p>When the sails are furled, a wing staff functions as a normal quarterstaff and can be enhanced as normal (this doesn't affect the sails), though if the staff gains the broken condition, the sails are also broken.</p>
 </>};
 const _winged_fetish_pharasma = {title: "Winged fetish", jsx: <><h2 id="eq-misc-winged_fetish_pharasma-winged-fetish">Winged fetish</h2>
 <p><strong>Sources</strong> <Link to="/source/faiths_of_balance">Faiths of Balance pg. 25</Link>  </p>
@@ -1952,7 +1998,7 @@ const _wire = {title: "Wire", jsx: <><h2 id="eq-misc-wire-wire">Wire</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 58</Link>  </p>
 <Tabular format="misc" a="5" b="0.5" d="gear" />
 <p>This 6-foot length of copper wire is strong and flexible. By attaching it to two <Link to="/eq-misc/piton">pitons</Link> or <Link to="/eq-misc/iron_spike">iron spikes</Link> across an area, you can create a simple tripwire trap.</p>
-<TrapInfo id="tripwire-trap-trap" cr="&#8531;" pdc="15" dddc="10" automatic trigger="location" eff="trip combat maneuver +5 (+10 if the target is running)">Tripwire Trap</TrapInfo>
+<TrapInfo start id="tripwire-trap-trap" cr="&#8531;" pdc="15" dddc="10" automatic trigger="location" eff="trip combat maneuver +5 (+10 if the target is running)">Tripwire Trap</TrapInfo>
 </>};
 const _wismuth_salix = {title: "Wismuth salix", jsx: <><h2 id="eq-misc-wismuth_salix-wismuth-salix">Wismuth salix</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 101</Link>  </p>
@@ -2008,7 +2054,9 @@ const _wrist_sheath_spring_loaded = {title: "Wrist sheath (spring loaded)", jsx:
 const _wrist_sheath = {title: "Wrist sheath", jsx: <><h2 id="eq-misc-wrist_sheath-wrist-sheath">Wrist sheath</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 58</Link>, <Link to="/source/adventurers_armory">Adventurer's Armory pg. 19</Link>  </p>
 <Tabular format="misc" a="1" b="1" d="gear" />
-<p>This is a sheath designed to be strapped to your forearm and hidden under a long sleeve. The sheath can hold one forearm-length item, such as a <Link to="/eq-weapon/dagger">dagger</Link>, <Link to="/eq-weapon/dart">dart</Link>, or wand, or up to five arrows or crossbow bolts. As a <strong className="hl">move action</strong>, you can bend your wrist to cause some or all of these items to drop into your hand (provoking attacks of opportunity as normal). You have a +2 bonus on Sleight of Hand checks made to oppose the Perception check of someone observing or frisking you to determine items in the sheath. You can only wear one wrist sheath per arm.</p>
+<p>This is a sheath designed to be strapped to your forearm and hidden under a long sleeve. The sheath can hold one forearm-length item, such as a <Link to="/eq-weapon/dagger">dagger</Link>, <Link to="/eq-weapon/dart">dart</Link>, or wand, or up to five arrows or crossbow bolts.</p>
+<p><Icons id="eq-misc-wrist_sheath-power-icons" wrapper="prefixIcon" list={["power"]} /> As a <strong className="hl">move action</strong>, you can bend your wrist to cause some or all of these items to drop into your hand (provoking attacks of opportunity as normal).</p>
+<p><Icons id="eq-misc-wrist_sheath-def-icons" wrapper="prefixIcon" list={["def"]} /> You have a +2 bonus on <Link to="/skill/sleight_of_hand">Sleight of Hand</Link> checks made to oppose the <Link to="/skill/perception">Perception</Link> check of someone observing or frisking you to determine items in the sheath. You can only wear one wrist sheath per arm.</p>
 </>};
 const _wyrm_pesh = {title: "Wyrm pesh", jsx: <><h2 id="eq-misc-wyrm_pesh-wyrm-pesh">Wyrm pesh</h2>
 <p><strong>Sources</strong> <Link to="/source/dragonslayers_handbook">Dragonslayer's Handbook pg. 19</Link>  </p>
@@ -2042,9 +2090,11 @@ const _yogurt = {title: "Yogurt", jsx: <><h2 id="eq-misc-yogurt-yogurt">Yogurt</
 const _zip_line_hook_masterwork = {title: "Zip-line hook (masterwork)", jsx: <><h2 id="eq-misc-zip_line_hook_masterwork-zip-line-hook">Zip-line hook</h2>
 <p><strong>Sources</strong> <Link to="/source/villain_codex">Villain Codex pg. 128</Link>  </p>
 <Tabular format="misc" a="55 gp (masterwork), 5 gp (normal)" b="1 lb. (masterwork), 1 lb. (normal)" c="x" d="gear" />
-<p>This blunt iron hook secures to the user's forearm with a sturdy strap. When this item is hooked onto a rope or a similar object that has been fastened at a downward angle, the owner can use it to climb down the rope at a speed of 30 feet as a <strong className="hl">move action</strong> instead of climbing at her normal speed, but the user must take at least one <strong className="hl">move action</strong> doing so each round or she falls. Using a zip-line hook in this way requires a successful DC 5 Climb check for declinations of 90 degrees (straight down), increasing by 5 for every 15 degrees off that baseline in either direction, to a maximum DC of 30 at a 15- or 165-degree declination. It is impossible to utilize a zip-line hook on a rope without a slope, or to ascend an upward-sloping one.</p>
-<p>Zip-line hooks are designed for use with two hands. A character can use a zip-line hook one-handed, but if she does so, she takes a -8 penalty on her Climb checks. Moving via a zip line is considered rigorous motion for the purpose of casting spells. If a zip line or its rope becomes broken while in use, the character using the zip line falls.</p>
-<p>A zip-line hook can be improvised from cloth, leather, or any flexible hook-shaped object. Each time the character uses a <strong className="hl">move action</strong> to move with an improvised zip-line hook, the hook takes 1d6 points of damage from friction. A masterwork zip-line hook grants a +2 circumstance bonus on Climb checks to descend a rope.</p>
+<p>This blunt iron hook secures to the user's forearm with a sturdy strap.</p>
+<p><Icons id="eq-misc-zip_line_hook_masterwork-power-icons" wrapper="prefixIcon" list={["power"]} /> When this item is hooked onto a <Link to="/eq-misc/rope">rope</Link> or a similar object that has been fastened at a downward angle, the owner can use it to climb down the rope at a speed of 30 feet as a <strong className="hl">move action</strong> instead of climbing at her normal speed, but the user must take at least one <strong className="hl">move action</strong> doing so each round or she falls. Using a zip-line hook in this way requires a successful DC 5 <Link to="/skill/climb">Climb</Link> check for declinations of 90 degrees (straight down), increasing by 5 for every 15 degrees off that baseline in either direction, to a maximum DC of 30 at a 15- or 165-degree declination. It is impossible to utilize a zip-line hook on a rope without a slope, or to ascend an upward-sloping one.</p>
+<p><Icons id="eq-misc-zip_line_hook_masterwork-warning-icons" wrapper="prefixIcon" list={["warning"]} /> Zip-line hooks are designed for use with two hands. A character can use a zip-line hook one-handed, but if she does so, she takes a -8 penalty on her Climb checks. Moving via a zip line is considered rigorous motion for the purpose of casting spells. If a zip line or its rope becomes broken while in use, the character using the zip line falls.</p>
+<p>A zip-line hook can be improvised from cloth, leather, or any flexible hook-shaped object. Each time the character uses a <strong className="hl">move action</strong> to move with an improvised zip-line hook, the hook takes 1d6 points of damage from friction.</p>
+<p><Icons id="eq-misc-zip_line_hook_masterwork-boost-icons" wrapper="prefixIcon" list={["boost"]} /> A masterwork zip-line hook grants a +2 circumstance bonus on Climb checks to descend a rope.</p>
 </>};
 const _zombie_slayers_kit = {title: "Zombie slayer's kit", jsx: <><h2 id="eq-misc-zombie_slayers_kit-zombie-slayers-kit">Zombie slayer's kit</h2>
 <p><strong>Sources</strong> <Link to="/source/undead_slayers_handbook">Undead Slayer's Handbook pg. 15</Link>  </p>
@@ -2054,7 +2104,8 @@ const _zombie_slayers_kit = {title: "Zombie slayer's kit", jsx: <><h2 id="eq-mis
 const _gas_mask = {title: "Gas mask", jsx: <><h2 id="eq-misc-gas_mask-gas-mask-modern">Gas mask (modern)</h2>
 <p><strong>Sources</strong> <Link to="/source/pathfinder_71_rasputin_must_die">Pathfinder #71: Rasputin Must Die! pg. 67</Link>  </p>
 <Tabular format="misc" id="areyou" a="25" b="1" d="gear" />
-<p>Gas masks are rubberized-cloth masks fitted with thick glass eyepieces and a charcoal-dust filter in a rectangular canister that screws in near the mouthpiece. A gas mask is worn tightly around the head and face, allowing the user to breathe in hazardous environments. A gas mask grants immunity to inhaled poisons and other nonmagical airborne attacks that require you to breathe them, and a +2 bonus on saving throws against magical cloud or magical gas attacks. Using a gas mask imposes a -2 penalty on hearing- and sight-based Perception checks. A gas mask's filter canister can be used for 8 hours before needing to be replaced.</p>
+<p>Gas masks are rubberized-cloth masks fitted with thick glass eyepieces and a charcoal-dust filter in a rectangular canister that screws in near the mouthpiece. A gas mask is worn tightly around the head and face, allowing the user to breathe in hazardous environments.</p>
+<p><Icons id="eq-misc-gas_mask-def-down-icons" wrapper="prefixIcon" list={["def","down"]} /> A gas mask grants immunity to inhaled poisons and other nonmagical airborne attacks that require you to breathe them, and a +2 bonus on saving throws against magical cloud or magical gas attacks. Using a gas mask imposes a -2 penalty on hearing- and sight-based <Link to="/skill/perception">Perception</Link> checks. A gas mask's filter canister can be used for 8 hours before needing to be replaced.</p>
 <h3 id="eq-misc-gas_mask-gas-mask-cannister">Gas mask cannister</h3>
 <Tabular format="misc" id="mymummy" a="5" b="1" d="gear" />
 </>};

@@ -51,7 +51,7 @@ const _poison_latch_needle = {title: "Poison latch needle", jsx: <><h2 id="eq-mi
 <Tabular format="misc" a="200" b="x" d="gear" />
 <p>This delicate needle is attached to fine springs and a small reservoir that contracts on itself when the trap is disturbed or grabbed, turning a minor prick into a painful injection. This trap is normally hidden under door latches, drawer handles, and other small openings where it can deliver any injury poison, destroying itself in the process.</p>
 <p><Icons id="eq-misc-poison_latch_needle-warning-icons" wrapper="prefixIcon" list={["warning"]} /> A roll of natural 1 on the skill check to install the trap exposes its installer to the poison. A poison latch needle cannot be reused.</p>
-<TrapInfo id="poison-latch-needle-trap-trap" cr="&mdash;" pdc="20" dddc="20" trigger="touch" eff="Atk +5 melee (1 damage plus poison)">Poison Latch Needle Trap</TrapInfo>
+<TrapInfo start id="poison-latch-needle-trap-trap" cr="&mdash;" pdc="20" dddc="20" trigger="touch" eff="Atk +5 melee (1 damage plus poison)">Poison Latch Needle Trap</TrapInfo>
 <Tabular format="craft" a="20" b="Traps" />
 </>};
 const _poison_lip_paint = {title: "Poison lip paint", jsx: <><h2 id="eq-misc-poison_lip_paint-poison-lip-paint">Poison lip paint</h2>
@@ -265,7 +265,7 @@ const _portable_bolt_trap = {title: "Portable bolt trap", jsx: <><h2 id="eq-misc
 <Tabular format="misc" a="125" b="9" d="gear" />
 <p>This specialized <Link to="/eq-weapon/heavy_crossbow">heavy crossbow</Link> is hooked to a trip line that can be strung across any opening up to 10 feet wide, much like that of a <Link to="/eq-misc/bell_tripwire_trap">bell tripwire trap</Link>. When the line is tripped, the crossbow fires its bolt toward the space where the line was tripped. The crossbow must have line of effect to the target space for the trap to work.</p>
 <p>Placing a portable bolt trap requires 10 minutes of effort to properly calibrate the shot and conceal the line and crossbow. The trap can be placed in as little as 1 minute, but doing so imposes a -4 penalty on the crossbow's attack roll, and the DC of the <Link to="/skill/perception">Perception</Link> check to notice the trap is reduced by 4.</p>
-<TrapInfo id="portable-bolt-trap-trap" cr="&frac12;" pdc="20" dddc="20" manual trigger="touch" eff="Atk +10 ranged (1d10/19-20)">Portable Bolt Trap</TrapInfo>
+<TrapInfo start id="portable-bolt-trap-trap" cr="&frac12;" pdc="20" dddc="20" manual trigger="touch" eff="Atk +10 ranged (1d10/19-20)">Portable Bolt Trap</TrapInfo>
 <Tabular format="craft" a="20" b="Traps" />
 </>};
 const _portable_bridge = {title: "Portable bridge", jsx: <><h2 id="eq-misc-portable_bridge-portable-bridge">Portable bridge</h2>
@@ -388,6 +388,7 @@ const _prosthetic_arm = {title: "Prosthetic (arm)", jsx: <><h2 id="eq-misc-prost
 <Tabular format="misc" a="10 gp (arm), 1 gp (foot), 1 gp (hand), 20 gp (leg)" b="3 lbs. (arm), 2 lbs. (foot), 1 lb. (hand), 6 lbs. (leg)" c="x" d="gear" />
 <p>People who lose hands, arms, legs, or feet in combat sometimes replace them with prosthetics: realistic simulations of their missing limbs. Usually carved of wood and painted to match the wearer's skin tone, these items have limited functionality, allowing a legless person to walk at half speed, or enabling an armless person to hold a shield in a fixed position, but little more.</p>
 <p>Clever individuals have been known to create small compartments in their prosthetics, just large enough to hold very small objects. A prosthetic hand or foot can hold an item with negligible weight, while a prosthetic limb can hold up to 1 or 2 pounds.</p>
+<p><strong className="hl">Also see:</strong> <Link to="/eq-misc/peg_leg">Peg leg</Link>.</p>
 </>};
 const _prowlers_palliative = {title: "Prowler's palliative", jsx: <><h2 id="eq-misc-prowlers_palliative-prowlers-palliative">Prowler's palliative</h2>
 <p><strong>Sources</strong> <Link to="/source/potions_and_poisons">Potions and Poisons pg. 23</Link>  </p>
@@ -416,7 +417,7 @@ const _pull_cord_grenade = {title: "Pull-cord grenade", jsx: <><h2 id="eq-misc-p
 <p><strong>Sources</strong> <Link to="/source/black_markets">Black Markets pg. 21</Link>  </p>
 <Tabular format="misc" a="150" b="2" d="gear" />
 <p>This clay container resembles a <Link to="/eq-weapon/fuse_grenade">fuse grenade</Link>, but trails a pulley and wire rather than a fuse. Pulling the cord (a <strong className="hl">move action</strong>) sparks a <Link to="/eq-misc/flint_and_steel">flint and steel</Link> within the device, causing the grenade to explode. The pull cord can be attached to a door or drawer within 5 feet, or strung across a 5-foot square, causing the grenade to detonate when its tripwire is disturbed. A pull-cord grenade cannot be reused.</p>
-<TrapInfo id="pull-cord-grenade-trap-trap" cr="&mdash;" pdc="15" dddc="15" trigger="touch" eff="explosion (2d6 bludgeoning damage and 1d6 fire damage); Reflex DC 15 half; multiple targets (all targets within 10 feet)">Pull-cord Grenade Trap</TrapInfo>
+<TrapInfo start id="pull-cord-grenade-trap-trap" cr="&mdash;" pdc="15" dddc="15" trigger="touch" eff="explosion (2d6 bludgeoning damage and 1d6 fire damage); Reflex DC 15 half; multiple targets (all targets within 10 feet)">Pull-cord Grenade Trap</TrapInfo>
 <Tabular format="craft" a="25" b="Traps" />
 </>};
 const _pulque_cup = {title: "Pulque (cup)", jsx: <><h2 id="eq-misc-pulque_cup-pulque">Pulque</h2>
@@ -2521,11 +2522,11 @@ const _trapped_item_trapped_disguise_kit = {hasJL:true,title: "Trapped item (tra
 <h3 id="eq-misc-trapped_item_trapped_disguise_kit-trapped-disguise-kit" data-hash-target>Trapped Disguise Kit</h3>
 <Tabular format="misc" id="disguise" a="50" b="8" d="tools" />
 <p><Icons id="eq-misc-trapped_item_trapped_disguise_kit-lower-icons" wrapper="prefixIcon" list={["lower"]} /> This appears to be a normal <Link to="/eq-misc/disguise_kit">disguise kit</Link>, except that if any of the makeup or false facial hair is applied, the victim is marked with a strong scent. This scent mark decreases the DC of tracking the victim by scent by 4. The mark can be washed off with vigorous scrubbing, but otherwise fades on its own over several days.</p>
-<TrapInfo id="trapped-disguise-kit-trap" cr="&mdash;" pdc="25" dddc="25" repair trigger="touch" eff="scent mark; never miss; onset delay (1 round)">Trapped Disguise Kit</TrapInfo>
+<TrapInfo start id="trapped-disguise-kit-trap" cr="&mdash;" pdc="25" dddc="25" repair trigger="touch" eff="scent mark; never miss; onset delay (1 round)">Trapped Disguise Kit</TrapInfo>
 <h3 id="eq-misc-trapped_item_trapped_disguise_kit-trapped-scroll-case" data-hash-target>Trapped Scroll Case</h3>
 <Tabular format="misc" id="case" a="40" b="1" d="tools" />
 <p><Icons id="eq-misc-trapped_item_trapped_disguise_kit-aura-icons" wrapper="prefixIcon" list={["aura"]} /> This seemingly innocuous <Link to="/eq-misc/scroll_case">scroll case</Link> contains a glass pellet filled with gaseous poison. This pellet breaks when the case is opened, filling a 5-foot square with toxic gas. This poisonous cloud disperses after 1 round.</p>
-<TrapInfo id="trapped-scroll-case-trap" cr="&mdash;" pdc="20" dddc="20" trigger="touch" eff="poison gas">Trapped Scroll Case</TrapInfo>
+<TrapInfo start id="trapped-scroll-case-trap" cr="&mdash;" pdc="20" dddc="20" trigger="touch" eff="poison gas">Trapped Scroll Case</TrapInfo>
 </>};
 const _pomander_nobles = {..._pomander_merchants, title: "Pomander (noble's)"};
 const _pot_iron = {..._pot_common, title: "Pot (iron)"};

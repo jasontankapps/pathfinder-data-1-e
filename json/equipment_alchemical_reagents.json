@@ -637,7 +637,7 @@
 			"",
 			"‹SOURCE Adventurer's Armory/27›",
 			"",
-			"::tabular{format=alchstats a=\"20 gp\" b=\"1/2 lb.\" c=misc d=Smokestick}",
+			"::tabular{format=alchstats a=\"20 gp\" b=\"&frac12& lb.\" c=misc d=Smokestick}",
 			"",
 			"These items work best with spells that create clouds or smoke.",
 			"",

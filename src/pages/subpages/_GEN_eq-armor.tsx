@@ -555,7 +555,7 @@ const _living_steel_heavy_shield = {title: "Living Steel Heavy Shield", jsx: <><
 </>};
 const _darkwood_buckler = {title: "Darkwood Buckler", jsx: <><h2 id="eq-armor-darkwood_buckler-darkwood-buckler">Darkwood Buckler</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 131</Link>, <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 467</Link>  </p>
-<Tabular format="armor" a="203 gp" b="2-1/2 lbs." c="x" e="1" f="x" g="0" h="5" />
+<Tabular format="armor" a="203 gp" b="2&frac12; lbs." c="x" e="1" f="x" g="0" h="5" />
 <p>This nonmagical masterwork <Link to="/eq-armor/light_wooden_shield">light wooden shield</Link> is made out of <Link to="/eq-material/darkwood">darkwood</Link>. It has no enhancement bonus, but its construction material makes it lighter than a normal wooden shield. It has no armor check penalty.</p>
 </>};
 const _darkwood_shield = {title: "Darkwood Shield", jsx: <><h2 id="eq-armor-darkwood_shield-darkwood-shield">Darkwood Shield</h2>

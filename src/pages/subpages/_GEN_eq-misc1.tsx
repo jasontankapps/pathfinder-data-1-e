@@ -897,7 +897,7 @@ const _autosniper_trap = {title: "Autosniper trap", jsx: <><h2 id="eq-misc-autos
 <Tabular format="misc" a="250" b="1" d="gear" />
 <p>This framework consists of a small tripod, a spool of wire, and a series of levels. As part of the action to set up the trap, the autosniper is attached to any Small or Medium crossbow and its wire strung across one or two 5-foot squares within 10 feet. Once set, the autosniper fires the attached crossbow automatically at the first Tiny or larger creature that disturbs its tripwire. An autosniper cannot reload the crossbow to which it is attached.</p>
 <p><Icons id="eq-misc-autosniper_trap-warning-icons" wrapper="prefixIcon" list={["warning"]} /> The general bulkiness of an autosniper's framework imposes a -2 penalty on any attempts to use its attached crossbow as a ranged weapon. An autosniper can be removed from a crossbow with 1 minute of work.</p>
-<TrapInfo id="autosniper-trap-trap" cr="&mdash;" pdc="15" dddc="15" manual trigger="touch" eff="Atk +5 ranged (damage varies by crossbow)">Autosniper Trap</TrapInfo>
+<TrapInfo start id="autosniper-trap-trap" cr="&mdash;" pdc="15" dddc="15" manual trigger="touch" eff="Atk +5 ranged (damage varies by crossbow)">Autosniper Trap</TrapInfo>
 <Tabular format="craft" a="25" b="Traps" />
 </>};
 const _axe_beak_combat_trained = {title: "Axe beak (combat trained)", jsx: <><h2 id="eq-misc-axe_beak_combat_trained-axe-beak-combat-trained">Axe beak (combat trained)</h2>
@@ -970,7 +970,7 @@ const _balloon_trap = {title: "Balloon trap", jsx: <><h2 id="eq-misc-balloon_tra
 <p><strong>Sources</strong> <Link to="/source/dragonslayers_handbook">Dragonslayer's Handbook pg. 26</Link>  </p>
 <Tabular format="misc" a="150" b="4" d="gear" />
 <p>This trap consists of a buoyant balloon tied to an anchor by a very thin strand of metal. The strand acts as a vertical tripwire that triggers the trap, targeting any flying creature that contacts it. The trap's creator may set any number of mechanical or magical effects to be triggered when the trap is activated. Balloon traps are especially useful against creatures with large wingspans, or when the balloon is concealed, as in a tree canopy or smoke cover. Below is a sample balloon trap.</p>
-<TrapInfo id="sirocco-balloon-trap-trap" magic cr="14" pdc="31" dddc="31" trigger="touch" eff={<>spell effect (<Link to="/spell/sirocco">sirocco</Link>, 4d6+11 fire damage [DC 19 Fort for half] plus <Link to="/misc/fatigued">fatigued</Link>, knocked <Link to="/rule/prone">prone</Link> [DC 19 Fort avoids], flying creatures grounded [DC 15 Fly avoids]); multiple targets (all creatures in a 20-ft.-radius, 60-ft.-high cylinder centered on the balloon trap tripwire)</>}>Sirocco Balloon Trap</TrapInfo>
+<TrapInfo start id="sirocco-balloon-trap-trap" magic cr="14" pdc="31" dddc="31" trigger="touch" eff={<>spell effect (<Link to="/spell/sirocco">sirocco</Link>, 4d6+11 fire damage [DC 19 Fort for half] plus <Link to="/misc/fatigued">fatigued</Link>, knocked <Link to="/rule/prone">prone</Link> [DC 19 Fort avoids], flying creatures grounded [DC 15 Fly avoids]); multiple targets (all creatures in a 20-ft.-radius, 60-ft.-high cylinder centered on the balloon trap tripwire)</>}>Sirocco Balloon Trap</TrapInfo>
 </>};
 const _bamboo_palace = {title: "Bamboo palace", jsx: <><h2 id="eq-misc-bamboo_palace-bamboo-palace">Bamboo palace</h2>
 <p><strong>Sources</strong> <Link to="/source/lost_treasures">Lost Treasures pg. 18</Link>  </p>
@@ -1065,17 +1065,17 @@ const _bear_trap_offset = {title: "Bear trap (offset)", jsx: <><h2 id="eq-misc-b
 <h3 id="eq-misc-bear_trap_offset-bear-trap-offset">Bear Trap (offset)</h3>
 <Tabular format="misc" id="offset" a="3" b="10" d="tools" />
 <p>An offset bear trap is a specialized variety of a <Link to="/eq-misc/bear_trap">bear trap</Link> constructed with offset jaws coated in resin. It inflicts less damage on captured creatures but holds them more securely, and is therefore primarily used by trappers or bounty hunters who do not want to risk killing their prey. Offset bear traps are almost always secured to the ground by a heavy spike and chain so the captured creature can't wander far.</p>
-<TrapInfo id="offset-bear-trap-trap" cr="&frac12;" pdc="15" dddc="20" manual trigger="location" eff={<>Atk +10 melee (1d6+2); jaws spring shut around the creature's ankle and hold the creature immobile; the creature can escape with a DC 20 <Link to="/skill/disable_device">Disable Device</Link> check, DC 24 <Link to="/skill/escape_artist">Escape Artist</Link> check, or DC 28 Strength check</>}>Offset Bear Trap</TrapInfo>
+<TrapInfo start id="offset-bear-trap-trap" cr="&frac12;" pdc="15" dddc="20" manual trigger="location" eff={<>Atk +10 melee (1d6+2); jaws spring shut around the creature's ankle and hold the creature immobile; the creature can escape with a DC 20 <Link to="/skill/disable_device">Disable Device</Link> check, DC 24 <Link to="/skill/escape_artist">Escape Artist</Link> check, or DC 28 Strength check</>}>Offset Bear Trap</TrapInfo>
 <h3 id="eq-misc-bear_trap_offset-bear-trap-sawtooth">Bear Trap (sawtooth)</h3>
 <Tabular format="misc" id="sawtooth" a="1800" b="20" d="tools" />
 <p>A sawtooth bear trap has vicious jaws and tighter springs. Used primarily against humanoids or monsters rather than animals, sawtooth bear traps are often painted in camouflaged colors to blend in with the trap site. Most include locking plates over the spring mechanisms to prevent tampering by intelligent victims.</p>
-<TrapInfo id="sawtooth-bear-trap-trap" cr="5" pdc="25" dddc="25" manual trigger="location" eff="Atk +15 melee (3d6+9); serrated jaws spring shut around the creature's ankle and halve the creature's base speed (or hold the creature immobile if the trap is attached to a solid object); the creature can escape with a DC 25 Disable Device check, DC 28 Escape Artist check, or DC 32 Strength check">Sawtooth Bear Trap</TrapInfo>
+<TrapInfo start id="sawtooth-bear-trap-trap" cr="5" pdc="25" dddc="25" manual trigger="location" eff="Atk +15 melee (3d6+9); serrated jaws spring shut around the creature's ankle and halve the creature's base speed (or hold the creature immobile if the trap is attached to a solid object); the creature can escape with a DC 25 Disable Device check, DC 28 Escape Artist check, or DC 32 Strength check">Sawtooth Bear Trap</TrapInfo>
 </>};
 const _bear_trap = {title: "Bear trap", jsx: <><h2 id="eq-misc-bear_trap-bear-trap">Bear trap</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 77</Link>, <Link to="/source/advanced_players_guide">Advanced Player's Guide pg. 184</Link>, <Link to="/source/adventurers_armory">Adventurer's Armory pg. 19</Link>  </p>
 <Tabular format="misc" a="2" b="10" d="tools" />
 <p>Although intended for trapping large animals, bear traps work as well for trapping humanoids or monsters. The hinged jaws of the trap are attached to a chain, which in turn is secured to a spike driven into the ground to ensure that the victim cannot simply crawl away. Prying open the jaws or pulling the spike from the ground requires a DC 20 Strength check.</p>
-<TrapInfo id="bear-trap-trap" cr="1" pdc="15" dddc="20" manual trigger="location" eff={<>Atk +10 melee (2d6+3); sharp jaws spring shut around the creature's ankle and halve the creature's base speed (or hold the creature immobile if the trap is attached to a solid object); the creature can escape with a DC 20 <Link to="/skill/disable_device">Disable Device</Link> check, DC 22 <Link to="/skill/escape_artist">Escape Artist</Link> check, or DC 26 Strength check</>}>Bear Trap</TrapInfo>
+<TrapInfo start id="bear-trap-trap" cr="1" pdc="15" dddc="20" manual trigger="location" eff={<>Atk +10 melee (2d6+3); sharp jaws spring shut around the creature's ankle and halve the creature's base speed (or hold the creature immobile if the trap is attached to a solid object); the creature can escape with a DC 20 <Link to="/skill/disable_device">Disable Device</Link> check, DC 22 <Link to="/skill/escape_artist">Escape Artist</Link> check, or DC 26 Strength check</>}>Bear Trap</TrapInfo>
 </>};
 const _beast_lure = {title: "Beast lure", jsx: <><h2 id="eq-misc-beast_lure-beast-lure">Beast lure</h2>
 <p><strong>Sources</strong> <Link to="/source/adventurers_armory">Adventurer's Armory pg. 19</Link>  </p>
@@ -1125,7 +1125,7 @@ const _bell_tripwire_trap = {title: "Bell tripwire trap", jsx: <><h2 id="eq-misc
 <p><strong>Sources</strong> <Link to="/source/ranged_tactics_toolbox">Ranged Tactics Toolbox pg. 20</Link>  </p>
 <Tabular format="misc" a="2" b="2" d="gear" />
 <p>This fine, 10-foot-long tripwire is attached to a loud bell and comes with pitons to fix the trap in place. The trap can be set across doorways, hallways, or narrow passes or between trees or rocks. Arming the trap properly takes 5 minutes; it can be set up in as little as 1 minute, but doing so reduces the DC to notice and disarm the trap by 5. The trap has the following statistics.</p>
-<TrapInfo id="bell-tripwire-trap-trap" cr="&mdash;" pdc="20" dddc="20" manual trigger="touch" eff="bell rings (Perception DC 0 to hear)">Bell Tripwire Trap</TrapInfo>
+<TrapInfo start id="bell-tripwire-trap-trap" cr="&mdash;" pdc="20" dddc="20" manual trigger="touch" eff="bell rings (Perception DC 0 to hear)">Bell Tripwire Trap</TrapInfo>
 <Tabular format="craft" a="15" b="Traps" />
 </>};
 const _bell = {title: "Bell", jsx: <><h2 id="eq-misc-bell-bell">Bell</h2>
@@ -2276,7 +2276,7 @@ const _contracting_rope = {title: "Contracting rope", jsx: <><h2 id="eq-misc-con
 const _conversation_tube = {title: "Conversation tube", jsx: <><h2 id="eq-misc-conversation_tube-conversation-tube">Conversation tube</h2>
 <p><strong>Sources</strong> <Link to="/source/adventurers_armory_2">Adventurer's Armory 2 pg. 12</Link>  </p>
 <Tabular format="misc" a="10" b="3" d="gear" />
-<p><Icons id="eq-misc-conversation_tube-power-icons" wrapper="prefixIcon" list={["power"]} /> Used to carry out a private conversation even in a crowded room or public place, this 5-foot-long, 1/2-inch-wide leather hose widens into a copper bell at each end. To use it, one conversation partner holds her end to her ear while her partner speaks into his end, switching their postures for each reply.</p>
+<p><Icons id="eq-misc-conversation_tube-power-icons" wrapper="prefixIcon" list={["power"]} /> Used to carry out a private conversation even in a crowded room or public place, this 5-foot-long, &frac12;-inch-wide leather hose widens into a copper bell at each end. To use it, one conversation partner holds her end to her ear while her partner speaks into his end, switching their postures for each reply.</p>
 <p><Icons id="eq-misc-conversation_tube-def-icons" wrapper="prefixIcon" list={["def"]} /> Conversing through a conversation tube increases the DC of <Link to="/skill/perception">Perception</Link> checks to eavesdrop on the conversation by +5 and negates the risk of lip reading but takes twice as long as conversing normally.</p>
 </>};
 const _convocation_bells = {title: "Convocation bells", jsx: <><h2 id="eq-misc-convocation_bells-convocation-bells">Convocation bells</h2>

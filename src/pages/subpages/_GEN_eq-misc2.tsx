@@ -179,7 +179,7 @@ const _flask_launcher = {title: "Flask launcher", jsx: <><h2 id="eq-misc-flask_l
 <Tabular format="misc" a="300" b="9" d="gear" />
 <p>This crossbow-style device is modified to throw splash weapons or contact poisons rather than firing bolts. Its trigger connects to a long spool of wire, which can be strung across one or two 5-foot squares within 10 feet. Once set, the flask launcher can be loaded with a thrown splash weapon or vial of contact poison (which must be purchased separately). The flask launcher fires automatically at the first Tiny or larger creature that disturbs its tripwire. Alchemist bombs cannot be fired by a flask launcher.</p>
 <p><Icons id="eq-misc-flask_launcher-ranged-icons" wrapper="prefixIcon" list={["ranged"]} /> The flask launcher isn't designed to be used as a ranged weapon; treat it as an <Link to="/misc/improvised_weapon">improvised weapon</Link> with a 10-foot range increment. Reloading the launcher is a <strong className="hl">full-round action</strong> that requires two hands and provokes an attack of opportunity.</p>
-<TrapInfo id="flash-launcher-trap-trap" cr="&mdash;" pdc="15" dddc="15" manual trigger="touch" eff="Atk +5 ranged touch (effects vary by payload)">Flash Launcher Trap</TrapInfo>
+<TrapInfo start id="flash-launcher-trap-trap" cr="&mdash;" pdc="15" dddc="15" manual trigger="touch" eff="Atk +5 ranged touch (effects vary by payload)">Flash Launcher Trap</TrapInfo>
 <Tabular format="craft" a="25" b="Traps" />
 </>};
 const _flask = {title: "Flask", jsx: <><h2 id="eq-misc-flask-flask">Flask</h2>
@@ -1395,7 +1395,7 @@ const _just_scale_abadar = {title: "Just scale", jsx: <><h2 id="eq-misc-just_sca
 <p><strong>Sources</strong> <Link to="/source/faiths_of_balance">Faiths of Balance pg. 25</Link>  </p>
 <Tabular format="misc" a="50" b="1" d="foci" e="Abadar" />
 <p>This set of small gold-plated scales is inscribed with words from Abadar's holy text.</p>
-<p><Icons id="eq-misc-just_scale_abadar-boost-icons" wrapper="prefixIcon" list={["boost"]} /> When activated, its presence aids in negotiations, making attempts to change the attitude of another person by one step a <strong className="hl">swift action</strong> instead of requiring 1 minute. The user must touch the scales and speak to the intended target as part of the skill check. The item remains activated for 1 hour, or until it has been used to influence a number of creatures equal to 1/2 the effective cleric level of the person who activated it.</p>
+<p><Icons id="eq-misc-just_scale_abadar-boost-icons" wrapper="prefixIcon" list={["boost"]} /> When activated, its presence aids in negotiations, making attempts to change the attitude of another person by one step a <strong className="hl">swift action</strong> instead of requiring 1 minute. The user must touch the scales and speak to the intended target as part of the skill check. The item remains activated for 1 hour, or until it has been used to influence a number of creatures equal to &frac12; the effective cleric level of the person who activated it.</p>
 </>};
 const _kaava_musk = {title: "Kaava musk", jsx: <><h2 id="eq-misc-kaava_musk-kaava-musk">Kaava musk</h2>
 <p><strong>Sources</strong> <Link to="/source/sargava_the_lost_colony">Sargava, the Lost Colony pg. 24</Link>, <Link to="/source/adventurers_armory">Adventurer's Armory pg. 19</Link>  </p>

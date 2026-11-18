@@ -95,7 +95,7 @@
 			"",
 			"@I-warning A roll of natural 1 on the skill check to install the trap exposes its installer to the poison. A poison latch needle cannot be reused.",
 			"",
-			"::trap[Poison Latch Needle Trap]{cr=\"&mdash&\" mechanical pdc=20 dddc=20 trigger=touch eff=\"Atk +5 melee (1 damage plus poison)\"}",
+			"::trap[Poison Latch Needle Trap]{start cr=\"&mdash&\" mechanical pdc=20 dddc=20 trigger=touch eff=\"Atk +5 melee (1 damage plus poison)\"}",
 			"",
 			"::tabular{format=craft a=20 b=Traps}"
 		]
@@ -360,7 +360,7 @@
 			"",
 			"Placing a portable bolt trap requires 10 minutes of effort to properly calibrate the shot and conceal the line and crossbow. The trap can be placed in as little as 1 minute, but doing so imposes a -4 penalty on the crossbow's attack roll, and the DC of the ‹skill/Perception› check to notice the trap is reduced by 4.",
 			"",
-			"::trap[Portable Bolt Trap]{cr=\"&frac12&\" mechanical pdc=20 dddc=20 trigger=touch manual eff=\"Atk +10 ranged (1d10/19-20)\"}",
+			"::trap[Portable Bolt Trap]{start cr=\"&frac12&\" mechanical pdc=20 dddc=20 trigger=touch manual eff=\"Atk +10 ranged (1d10/19-20)\"}",
 			"",
 			"::tabular{format=craft a=20 b=Traps}"
 		]
@@ -661,7 +661,9 @@
 			"",
 			"People who lose hands, arms, legs, or feet in combat sometimes replace them with prosthetics: realistic simulations of their missing limbs. Usually carved of wood and painted to match the wearer's skin tone, these items have limited functionality, allowing a legless person to walk at half speed, or enabling an armless person to hold a shield in a fixed position, but little more.",
 			"",
-			"Clever individuals have been known to create small compartments in their prosthetics, just large enough to hold very small objects. A prosthetic hand or foot can hold an item with negligible weight, while a prosthetic limb can hold up to 1 or 2 pounds."
+			"Clever individuals have been known to create small compartments in their prosthetics, just large enough to hold very small objects. A prosthetic hand or foot can hold an item with negligible weight, while a prosthetic limb can hold up to 1 or 2 pounds.",
+			"",
+			"@HL[Also see:] ‹eq-misc/Peg leg›."
 		]
 	},
 	"prosthetic_foot": {
@@ -739,7 +741,7 @@
 			"",
 			"This clay container resembles a ‹eq-weapon/fuse grenade›, but trails a pulley and wire rather than a fuse. Pulling the cord (a @HL[move action]) sparks a ‹eq-misc/flint and steel› within the device, causing the grenade to explode. The pull cord can be attached to a door or drawer within 5 feet, or strung across a 5-foot square, causing the grenade to detonate when its tripwire is disturbed. A pull-cord grenade cannot be reused.",
 			"",
-			"::trap[Pull-cord Grenade Trap]{cr=\"&mdash&\" mechanical pdc=15 dddc=15 trigger=touch eff=\"explosion (2d6 bludgeoning damage and 1d6 fire damage); Reflex DC 15 half; multiple targets (all targets within 10 feet)\"}",
+			"::trap[Pull-cord Grenade Trap]{start cr=\"&mdash&\" mechanical pdc=15 dddc=15 trigger=touch eff=\"explosion (2d6 bludgeoning damage and 1d6 fire damage); Reflex DC 15 half; multiple targets (all targets within 10 feet)\"}",
 			"",
 			"::tabular{format=craft a=25 b=Traps}"
 		]
@@ -5137,7 +5139,7 @@
 			"",
 			"@I-lower This appears to be a normal ‹eq-misc/disguise kit›, except that if any of the makeup or false facial hair is applied, the victim is marked with a strong scent. This scent mark decreases the DC of tracking the victim by scent by 4. The mark can be washed off with vigorous scrubbing, but otherwise fades on its own over several days.",
 			"",
-			"::trap[Trapped Disguise Kit]{cr=\"&mdash&\" mechanical pdc=25 dddc=25 trigger=touch repair eff=\"scent mark; never miss; onset delay (1 round)\"}",
+			"::trap[Trapped Disguise Kit]{start cr=\"&mdash&\" mechanical pdc=25 dddc=25 trigger=touch repair eff=\"scent mark; never miss; onset delay (1 round)\"}",
 			"",
 			"::h3[Trapped Scroll Case]{jl}",
 			"",
@@ -5145,7 +5147,7 @@
 			"",
 			"@I-aura This seemingly innocuous ‹eq-misc/scroll case› contains a glass pellet filled with gaseous poison. This pellet breaks when the case is opened, filling a 5-foot square with toxic gas. This poisonous cloud disperses after 1 round.",
 			"",
-			"::trap[Trapped Scroll Case]{cr=\"&mdash&\" mechanical pdc=20 dddc=20 trigger=touch eff=\"poison gas\"}"
+			"::trap[Trapped Scroll Case]{start cr=\"&mdash&\" mechanical pdc=20 dddc=20 trigger=touch eff=\"poison gas\"}"
 		]
 	},
 	"trapped_item_trapped_scroll_case": {
