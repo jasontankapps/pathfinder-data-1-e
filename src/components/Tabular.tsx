@@ -695,9 +695,9 @@ const FormatObject: { [x: string]: FormatProps } = {
 		required: ["p", "w", "a", "l", "s", "c"],
 		className: "startAlign",
 		formatter: (props) => {
-			const {id, p, d, e, x, r, m, t, w, a, l, s, c, z} = props;
-			// p=price (weight is always --) d=damage e=critical
-			//   x=range (text) r=range (ft) m=minimum range (ft)
+			const {id, p, v, d, e, x, r, m, t, w, a, l, s, c, z} = props;
+			// p=price (weight is always --) v=price should be printed verbatim
+			//   d=damage e=critical x=range (text) r=range (ft) m=minimum range (ft)
 			//   t=type w=crew a=aim l=load s=speed (ft) c=category z=size
 			const range = x || (r ? (
 				<>{r} ft.{
@@ -723,7 +723,7 @@ const FormatObject: { [x: string]: FormatProps } = {
 				<table><tbody>
 					<tr>
 						<th id={id + "-price"} className="hl">Price</th>
-						<td headers={id + "-price"} colSpan={3}>{translateGp(Number(p) || 0)}</td>
+						<td headers={id + "-price"} colSpan={3}>{v ? p : translateGp(Number(p) || 0)}</td>
 						<th id={id + "-weight"} className="hl">Weight</th>
 						<td headers={id + "-weight"} colSpan={3}>&mdash;</td>
 					</tr>
