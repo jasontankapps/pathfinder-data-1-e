@@ -221,6 +221,7 @@
 			"@I-def Wearing quilted cloth armor gives you DR 3/- against small ranged piercing weapons. The special layers of the armor have no effect on other kinds of weapons."
 		]
 	},
+	"quilted": { "redirect": "quilted_cloth" },
 	"reinforced_tunic": {
 		"name": "Reinforced tunic",
 		"sources": [ "Adventurer's Armory 2" ],

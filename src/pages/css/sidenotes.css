@@ -155,6 +155,7 @@ ion-content#main.noElephant :is(div, blockquote).showIfNoElephant {
 }
 
 div.sideNoteWrap + div.tableWrap,
+div.tableWrap + div.sideNoteWrap,
 div.table + div.sideNoteWrap {
 	margin-block-start: 1rem;
 }
