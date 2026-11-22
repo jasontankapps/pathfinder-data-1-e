@@ -778,6 +778,32 @@ const FormatObject: { [x: string]: FormatProps } = {
 				</tbody></table>
 			);
 		}
+	},
+	sbook: {
+		required: ["v"],
+		className: "startAlign",
+		formatter: (props) => {
+			const {o, p, v, r} = props;
+			// o=opposition schools, p=protection, v=value, r=value w/prep ritual
+			return (
+				<table><tbody>
+					{o ? <tr>
+						<th scope="row" className="hl">Opposition</th>
+						<td>{o}</td>
+					</tr> : ""}
+					{p ? <tr>
+						<th scope="row" className="hl">Protection</th>
+						<td>{p}</td>
+					</tr> : ""}
+					<tr>
+						<th scope="row" className="hl">Value</th>
+						<td>{translateGp(Number(v) || 0)} gp{
+							r ? ` (${translateGp(Number(r) || 0)} gp with the preparation ritual)` : ""
+						}</td>
+					</tr>
+				</tbody></table>
+			);
+		}
 	}
 };
 
