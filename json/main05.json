@@ -22,6 +22,8 @@
 			"",
 			"::main[Ranged Weapons]{to=main/equipment_weapons_ranged endem=\"(65 items)\"}",
 			"",
+			"::main[Weapon Enhancements]{to=main/equipment_weaponenhancements ind endem=\"(10 items)\"}",
+			"",
 			"::main[Ammunition]{to=main/equipment_weapons_ammunition endem=\"(40 items)\"}",
 			"",
 			"::main[Alchemical Weapons]{to=main/equipment_weapons_alchemical endem=\"(97 items)\"}",
