@@ -201,6 +201,10 @@ div.tableWrap + aside {
 	margin-block-start: 1rem;
 }
 
+div.noBullet ul > li {
+	list-style-type: none;
+}
+
 div.compressed > :is(p,div,blockquote),
 div.compressed > blockquote > p {
 	margin-block: 0;

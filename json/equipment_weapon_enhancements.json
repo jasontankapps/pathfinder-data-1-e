@@ -12,12 +12,15 @@
 		"sources": [ "Adventurer's Armory" ],
 		"description": [
 			"## Consecrated weapon",
-			"‹SOURCE Adventurer's Armory/24›  ",
-			"**Price** +150 gp; **Weight** 2 lbs.  ",
-			"**Category** Channel Foci  ",
-			"**Deity** Any",
+			"‹SOURCE Adventurer's Armory/24›",
 			"",
-			"Consecrated weapons may be of any type - swords, axes, masterwork, ‹eq-material/mithral›, and even magical - and function appropriately. When activated, the cleric charges the weapon with positive or negative energy (as appropriate) so it deals extra damage when it hits a target. This functions like the ‹feat/Channel Smite› feat, except the additional damage is equal to half the cleric's ‹ability/channel energy› damage (the target makes a Will save as normal, based on the cleric's channel energy DC). The weapon remains charged with this energy until it successfully strikes a creature or 24 hours pass, whichever comes first. Creatures other than the cleric are able to use the charged weapon and this ability."
+			"::tabular{format=misc a=150 b=0 c=M d=foci}",
+			"",
+			"Consecrated weapons may be of any type - swords, axes, ‹rule/masterwork<_w›, ‹eq-material/mithral›, and even magical - and function appropriately.",
+			"",
+			"When activated, the cleric charges the weapon with positive or negative energy (as appropriate) so it deals extra damage when it hits a target. This functions like the ‹feat/Channel Smite› feat, except the additional damage is equal to half the cleric's ‹ability/channel energy› damage (the target makes a Will save as normal, based on the cleric's channel energy DC).",
+			"",
+			"The weapon remains charged with this energy until it successfully strikes a creature or 24 hours pass, whichever comes first. Creatures other than the cleric are able to use the charged weapon and this ability."
 		]
 	},
 	"sawback_sword": {
@@ -28,9 +31,9 @@
 		],
 		"description": [
 			"## Sawback sword",
-			"‹SOURCE Ultimate Equipment/57;Adventurer's Armory/19›  ",
-			"**Price** +5 gp; **Weight** -  ",
-			"**Category** Adventuring Gear",
+			"‹SOURCE Ultimate Equipment/57;Adventurer's Armory/19›",
+			"",
+			"::tabular{format=weap1 a=5 b=x c=M}",
 			"",
 			"This is a modification to any light or heavy blade rather than a unique weapon type. The saw blade on the back of the sword lets you use it to perform crude carpentry."
 		]
@@ -40,11 +43,13 @@
 		"sources": [ "Advanced Race Guide" ],
 		"description": [
 			"## Undine weaponshaft",
-			"‹SOURCE Advanced Race Guide/177›  ",
-			"**Price** +300 gp; **Weight** -  ",
-			"**Category** Adventuring Gear",
+			"‹SOURCE Advanced Race Guide/177›",
 			"",
-			"‹race/Undine«s› incorporate a unique design when crafting shafted weapons such as quarterstaves, spears, and tridents. Instead of a solid shaft, the weapon is built around a pipe of wood or metal, with the butt end sealed and the front end left open. As a full-round action, an undine can make a single melee attack with the weapon and use her hydraulic push spell-like ability against the target of that melee attack. The weapon otherwise functions like a standard weapon of its type, and can be made of special materials (such as ‹eq-material/mithral› or ‹eq-material/adamantine›) and ‹rule/masterwork<_w› quality."
+			"::tabular{format=weap1 a=300 b=x c=M}",
+			"",
+			"‹race/Undine«s› incorporate a unique design when crafting shafted weapons such as ‹eq-weapon/quartersta«ves<ff›, ‹eq-weapon/spear«s›, and ‹eq-weapon/trident«s›. Instead of a solid shaft, the weapon is built around a pipe of wood or metal, with the butt end sealed and the front end left open.",
+			"",
+			"@I-melee As a @HL[full-round action], an undine can make a single melee attack with the weapon and use her *hydraulic push* spell-like ability against the target of that melee attack. The weapon otherwise functions like a standard weapon of its type, and can be made of special materials (such as ‹eq-material/mithral› or ‹eq-material/adamantine›) and ‹rule/masterwork<_w› quality."
 		]
 	},
 	"brutally_weighted": {
@@ -52,11 +57,15 @@
 		"sources": [ "Adventurer's Armory 2" ],
 		"description": [
 			"## Brutally weighted",
-			"‹SOURCE Adventurer's Armory 2/10›  ",
-			"**Price** +1,500 gp **Weight** +1 lb.  ",
-			"**Category** Modification; **Proficiency** Modification",
+			"‹SOURCE Adventurer's Armory 2/10›",
 			"",
-			"A brutally weighted weapon is balanced to put more weight on the striking surface, knocking targets off balance with every blow. Only bludgeoning melee weapons can be brutally weighted. This modification can be added to a ‹eq-weapon/greatclub› or ‹eq-weapon/tetsubo› without increasing its weapon's proficiency category, but doing so increases the cost of modification by an additional 1,500 gp. A creature hit with a brutally weighted weapon takes a -2 penalty to its CMD against bull rush, reposition, and trip combat maneuvers until the end of its next turn or until after it is subject to such a maneuver (whichever comes first)."
+			"::tabular{format=weap1 a=1500 b=1 c=M}",
+			"",
+			"A brutally weighted weapon is balanced to put more weight on the striking surface, knocking targets off balance with every blow. Only bludgeoning melee weapons can be brutally weighted.",
+			"",
+			"@I-info This modification can be added to a ‹eq-weapon/greatclub› or ‹eq-weapon/tetsubo› without increasing its weapon's proficiency category, but doing so increases the cost of modification by an additional 1,500 gp.",
+			"",
+			"@I-lower A creature hit with a brutally weighted weapon takes a -2 penalty to its CMD against ‹rule/bull rush›, ‹rule/reposition›, and ‹rule/trip› combat maneuvers until the end of its next turn or until after it is subject to such a maneuver (whichever comes first)."
 		]
 	},
 	"dual_balanced": {
@@ -64,11 +73,13 @@
 		"sources": [ "Adventurer's Armory 2" ],
 		"description": [
 			"## Dual-balanced",
-			"‹SOURCE Adventurer's Armory 2/10›  ",
-			"**Cost** +2,000 gp **Weight** -  ",
-			"**Category** Modification; **Proficiency** Modification",
+			"‹SOURCE Adventurer's Armory 2/10›",
 			"",
-			"Dual-balanced weapons are balanced to be wielded in tandem. Only melee weapons can be dual-balanced. When wielding two weapons with the dual-balanced modification, reduce any ‹rule/two-weapon fighting› penalties by 1 for both weapons. The weapons do not need to be the same type, but both must have the dual-balanced modification."
+			"::tabular{format=weap1 a=2000 b=x c=M}",
+			"",
+			"Dual-balanced weapons are balanced to be wielded in tandem. Only melee weapons can be dual-balanced.",
+			"",
+			"@I-boost When wielding two weapons with the dual-balanced modification, reduce any ‹rule/two-weapon fighting› penalties by 1 for both weapons. The weapons do not need to be the same type, but both must have the dual-balanced modification."
 		]
 	},
 	"jagged_hooks": {
@@ -76,11 +87,13 @@
 		"sources": [ "Adventurer's Armory 2" ],
 		"description": [
 			"## Jagged hooks",
-			"‹SOURCE Adventurer's Armory 2/10›  ",
-			"**Cost** +1,000 gp **Weight** +1 lb.  ",
-			"**Category** Modification; **Proficiency** Modification",
+			"‹SOURCE Adventurer's Armory 2/10›",
 			"",
-			"Brutal hooks and barbs are worked along the weapon's blade or length. Only piercing or slashing weapons can have jagged hooks. Projectile weapons can't have jagged hooks, but their ammunition can. A weapon with jagged hooks deals additional damage equal to the weapon's critical hit multiplier on a confirmed critical hit; this additional damage is added to the final total, and is not multiplied by the critical hit multiplier."
+			"::tabular{format=weap1 a=1000 b=1 c=M}",
+			"",
+			"Brutal hooks and barbs are worked along the weapon's blade or length. Only piercing or slashing weapons can have jagged hooks. Projectile weapons can't have jagged hooks, but their ammunition can.",
+			"",
+			"@I-boost A weapon with jagged hooks deals additional damage equal to the weapon's critical hit multiplier on a confirmed critical hit; this additional damage is added to the final total, and is not multiplied by the critical hit multiplier."
 		]
 	},
 	"razor_sharp": {
@@ -88,11 +101,13 @@
 		"sources": [ "Adventurer's Armory 2" ],
 		"description": [
 			"## Razor-sharp",
-			"‹SOURCE Adventurer's Armory 2/10›  ",
-			"**Cost** +1,000 gp **Weight** -  ",
-			"**Category** Modification; **Proficiency** Modification",
+			"‹SOURCE Adventurer's Armory 2/10›",
 			"",
-			"The weapon's edge is honed to incredible sharpness. The weapon's edge dulls after a number of daily uses, but the bonus can be reset by spending 15 minutes ‹eq-misc/whet«ting<stone› the blade after a night's rest. Only piercing or slashing weapons can have the razor-sharp modification. Projectile weapons can't be razor-sharp, but their ammunition can. A razor-sharp weapon gains a +1 bonus on weapon damage rolls for a number of attacks each day equal to 3 + your base attack bonus."
+			"::tabular{format=weap1 a=1000 b=x c=M}",
+			"",
+			"@I-info The weapon's edge is honed to incredible sharpness. The weapon's edge dulls after a number of daily uses, but the bonus can be reset by spending 15 minutes ‹eq-misc/whet«ting<stone› the blade after a night's rest. Only piercing or slashing weapons can have the razor-sharp modification. Projectile weapons can't be razor-sharp, but their ammunition can.",
+			"",
+			"@I-boost A razor-sharp weapon gains a +1 bonus on weapon damage rolls for a number of attacks each day equal to 3 + your base attack bonus."
 		]
 	},
 	"serrated_edge": {
@@ -100,11 +115,15 @@
 		"sources": [ "Adventurer's Armory 2" ],
 		"description": [
 			"## Serrated edge",
-			"‹SOURCE Adventurer's Armory 2/10›  ",
-			"**Cost** +2,000 gp **Weight** -  ",
-			"**Category** Modification; **Proficiency** Modification",
+			"‹SOURCE Adventurer's Armory 2/10›",
 			"",
-			"The weapon's blade inflicts wounds that bleed profusely. Only piercing or slashing melee weapons can have a serrated edge. This modification can be added to a ‹eq-weapon/sawtooth sabre› or ‹eq-weapon/rhoka sword› without increasing its weapon proficiency category, but doing so increases the cost of modification by 2,000 gp. When you make an attack with a weapon with a serrated edge, you can take a -2 penalty on the attack roll. If you do and the attack deals damage, the weapon also inflicts 1 point of ‹rule/bleed› damage. This bleed stacks with itself (to a maximum equal to the weapon's critical multiplier), but does not stack with bleed from other sources."
+			"::tabular{format=weap1 a=2000 b=x c=M}",
+			"",
+			"The weapon's blade inflicts wounds that bleed profusely. Only piercing or slashing melee weapons can have a serrated edge.",
+			"",
+			"@I-info This modification can be added to a ‹eq-weapon/sawtooth sabre› or ‹eq-weapon/rhoka sword› without increasing its weapon proficiency category, but doing so increases the cost of modification by 2,000 gp.",
+			"",
+			"@I-down-boost When you make an attack with a weapon with a serrated edge, you can take a -2 penalty on the attack roll. If you do and the attack deals damage, the weapon also inflicts 1 point of ‹rule/bleed› damage. This bleed stacks with itself (to a maximum equal to the weapon's critical multiplier), but does not stack with bleed from other sources."
 		]
 	},
 	"tactically_adapted": {
@@ -112,11 +131,13 @@
 		"sources": [ "Adventurer's Armory 2" ],
 		"description": [
 			"## Tactically adapted",
-			"‹SOURCE Adventurer's Armory 2/10›  ",
-			"**Cost** +2,000 gp **Weight** -  ",
-			"**Category** Modification; **Proficiency** Modification",
+			"‹SOURCE Adventurer's Armory 2/10›",
 			"",
-			"A tactically adapted weapon is designed for specialized tactics rather than just swinging and stabbing. Only melee weapons can be tactically adapted. When this quality is added to a weapon, choose a weapon quality from the following list: ‹misc/blocking›, ‹misc/brace›, ‹misc/disarm›, ‹misc/distracting›, ‹misc/nonlethal›, ‹misc/performance›, or ‹misc/trip›. The modified weapon gains that weapon quality."
+			"::tabular{format=weap1 a=2000 b=x c=M}",
+			"",
+			"A tactically adapted weapon is designed for specialized tactics rather than just swinging and stabbing. Only melee weapons can be tactically adapted.",
+			"",
+			"@I-boost When this quality is added to a weapon, choose a weapon quality from the following list: ‹misc/blocking›, ‹misc/brace›, ‹misc/disarm›, ‹misc/distracting›, ‹misc/nonlethal›, ‹misc/performance›, or ‹misc/trip›. The modified weapon gains that weapon quality."
 		]
 	},
 	"versatile_design": {
@@ -124,11 +145,15 @@
 		"sources": [ "Adventurer's Armory 2" ],
 		"description": [
 			"## Versatile design",
-			"‹SOURCE Adventurer's Armory 2/10›  ",
-			"**Cost** +500 gp **Weight** -  ",
-			"**Category** Modification; **Proficiency** Modification",
+			"‹SOURCE Adventurer's Armory 2/10›",
 			"",
-			"A weapon with the versatile design modification is easier to wield for those skilled with other weapon groups. When versatile design is added to a weapon, choose a ‹ability/fighter »weapon group<s›. The modified weapon is considered to be a weapon of that weapon group (such as for the ‹class/fighter«'s› weapon training class feature). A melee weapon cannot be considered part of a weapon group for ranged weapons, and vice versa."
+			"::tabular{format=weap1 a=500 b=x c=M}",
+			"",
+			"A weapon with the versatile design modification is easier to wield for those skilled with other weapon groups.",
+			"",
+			"@I-boost When versatile design is added to a weapon, choose a ‹ability/fighter »weapon group<s›. The modified weapon is considered to be a weapon of that weapon group (such as for the ‹class/fighter«'s› weapon training class feature).",
+			"",
+			"@I-info A melee weapon cannot be considered part of a weapon group for ranged weapons, and vice versa."
 		]
 	}
 }

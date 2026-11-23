@@ -781,7 +781,7 @@ const FormatObject: { [x: string]: FormatProps } = {
 	},
 	sbook: {
 		required: ["v"],
-		className: "startAlign",
+		className: "startAlign lessRound",
 		formatter: (props) => {
 			const {o, p, v, r} = props;
 			// o=opposition schools, p=protection, v=value, r=value w/prep ritual
@@ -797,8 +797,8 @@ const FormatObject: { [x: string]: FormatProps } = {
 					</tr> : ""}
 					<tr>
 						<th scope="row" className="hl">Value</th>
-						<td>{translateGp(Number(v) || 0)} gp{
-							r ? ` (${translateGp(Number(r) || 0)} gp with the preparation ritual)` : ""
+						<td>{translateGp(Number(v) || 0)}{
+							r ? ` (${translateGp(Number(r) || 0)} with the preparation ritual)` : ""
 						}</td>
 					</tr>
 				</tbody></table>
