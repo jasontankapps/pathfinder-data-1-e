@@ -70,6 +70,24 @@ const translateWeight = (x: number) => {
 	return <>{y ? y.toLocaleString() : ""}{fraction}</>;
 };
 
+const category = (i: string) => {
+	switch(i) {
+		case "one":
+			return "One-Handed";
+		case "two":
+			return "Two-Handed";
+		case "light":
+			return "Light";
+		case "ranged":
+			return "Ranged";
+		case "ammo":
+			return "Ammunition";
+		case "alch":
+			return "Alchemical Weapon";
+	}
+	return "";
+}
+
 const FormatObject: { [x: string]: FormatProps } = {
 	conmod: {
 		required: ["a", "b", "c", "d"],
@@ -241,15 +259,16 @@ const FormatObject: { [x: string]: FormatProps } = {
 		className: "startAlign",
 		possiblyRequired: ["d","e","f","g","i","j"],
 		formatter: props => {
-			const {id, a, b, c, d} = props;
+			const {id, a, b, c, d, k} = props;
 			// a = cost in gp
 			// b = weight in lbs
 			// c = 'x' indicates the above should be rendered verbatim,
 			//     'M' indicates this is a modification to a base price
 			// d..k - if present, we add in weap2
+			// k = if present (but not d..j), indicates a category
 			const verbatim = c === "x";
 			const price = Number(a) || 0;
-			const weight = Number(b) || 0;
+			const weight = Number(b);
 			const mod = c === "M";
 			return (
 				<table><tbody>
@@ -263,15 +282,23 @@ const FormatObject: { [x: string]: FormatProps } = {
 							verbatim ? b : (
 								weight === weight ? (
 									(mod && weight >= 0 ? "+" : "")
-									+ weight.toLocaleString()
-									+ " lb"
-									+ (weight === 1 ? "" : "s")
-									+ "."
+									+ translateWeight(weight)
+									+ (
+										(mod && weight === 0) ? "" : (
+											(weight <= 1 && weight >= -1) ? " lb." : " lbs."
+										)
+									)
 								) : <>&mdash;</>
 							)
 						}</td>
 					</tr>
 					{ d ? FormatObject.weap2.formatter(props) : <></> }
+					{ !d && k ? (
+						<tr>
+							<th scope="row">Category</th>
+							<td colSpan={3}>{category(String(k)) || k}</td>
+						</tr>
+					) : <></> }
 				</tbody></table>
 			);
 		},
@@ -333,19 +360,7 @@ const FormatObject: { [x: string]: FormatProps } = {
 			return (
 				<ul>
 					{ h ? <li><b>Special Qualities:</b> {h}</li> : <></> }
-					<li><b>Weapon Category:</b> {
-						i === "one" ? "One-Handed" : (
-							i === "two" ? "Two-Handed" : (
-								i === "light" ? "Light" : (
-									i === "ranged" ? "Ranged" : (
-										i === "ammo" ? "Ammunition" : (
-											i === "alch" ? "Alchemical Weapon" : i
-										)
-									)
-								)
-							)
-						)
-					}</li>
+					<li><b>Weapon Category:</b> {category(String(i)) || i}</li>
 					<li><b>Proficiency Type:</b> {
 						j === "E" ? "Exotic" : (
 							j === "M" ? "Martial" : (
