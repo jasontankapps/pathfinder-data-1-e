@@ -340,7 +340,7 @@ const _alchemist = {hasJL:true,title: "Alchemist", jsx: <><div className="jumpLi
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Ability">You receive <Link to="/feat/brew_potion">Brew Potion</Link> as a bonus feat. You can brew potions of any formulae you know (up to 3rd level), using your alchemist level as your caster level. The spell must be one that can be made into a potion. You do not need to meet the prerequisites for this feat.</Pair>
 </Ability>
-<Ability id="bomb-su" icon={["zap"]}>
+<Ability id="bomb-su" icon={["splash"]}>
 <Pair single id="bomb-su">Bomb (Su)</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Usage">You can use a number of bombs each day equal to your class level + your Intelligence modifier.</Pair>

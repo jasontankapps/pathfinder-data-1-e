@@ -754,7 +754,7 @@
 			"",
 			"A dragon's stomach contains highly corrosive acid that can be crafted into an alchemical item called *dragon's gut.*",
 			"",
-			"@I-ranged When used as a ‹rule/throw«n» splash weapon›, *dragon's gut* deals 2d4 points of acid damage plus, on a direct hit, an additional 1d4 points of acid damage the following round, and it deals 1 point of acid damage to all creatures within 5 feet of the impact point as normal splash damage.",
+			"@I-splash When used as a ‹rule/throw«n» splash weapon›, *dragon's gut* deals 2d4 points of acid damage plus, on a direct hit, an additional 1d4 points of acid damage the following round, and it deals 1 point of acid damage to all creatures within 5 feet of the impact point as normal splash damage.",
 			"",
 			"The ‹feat/Dragoncrafting› feat and a successful DC 20 ‹skill/Craft› (alchemy) check are required to convert 1 vial of stomach acid into 1 vial of *dragon's gut.*"
 		]
@@ -1885,7 +1885,7 @@
 			"",
 			"The powder in this minute glass vial is made of caustic soda treated with consecrated ashes, and is harmless to living flesh but dangerous to the deceased.",
 			"",
-			"@I-zap-lower *Necrosalt* can be ‹rule/throw«n as a» splash weapon› with a range increment of 5 feet. On a successful ranged touch attack, 1 dose of *necrosalt* deals 1d4 points of damage to a struck corporeal undead creature. For 3 rounds afterward, it deals an additional 1d4 points of damage to its victim at the beginning of the victim's turn. Intelligent undead creatures can brush *necrosalt* off their bodies and end its effect as a @HL[move action].",
+			"@I-splash-lower *Necrosalt* can be ‹rule/throw«n as a» splash weapon› with a range increment of 5 feet. On a successful ranged touch attack, 1 dose of *necrosalt* deals 1d4 points of damage to a struck corporeal undead creature. For 3 rounds afterward, it deals an additional 1d4 points of damage to its victim at the beginning of the victim's turn. Intelligent undead creatures can brush *necrosalt* off their bodies and end its effect as a @HL[move action].",
 			"",
 			"::tabular{format=craftalch a=30}"
 		]
@@ -2017,7 +2017,7 @@
 			"",
 			"@I-def By dabbing this oil on her face, neck, or arms as a @HL[standard action], a Pathfinder gains a +2 alchemical bonus on saving throws against effects with the emotion descriptor and on secondary saving throws made to resist ‹spell/dominate person› and similar compulsion effects that would force her to harm her allies or betray her mission. Applied in this way, a vial of *nostalgia oil* remains potent for 8 hours or until washed off with soap and water.",
 			"",
-			"@I-zap *Nostalgia oil* can also be ‹rule/throw«n as a» splash weapon›, extending its benefits for 1 hour to any Pathfinder struck with a direct hit.",
+			"@I-splash *Nostalgia oil* can also be ‹rule/throw«n as a» splash weapon›, extending its benefits for 1 hour to any Pathfinder struck with a direct hit.",
 			"",
 			"@I-aura Alternatively, a creature can mix it with a pint of lantern ‹eq-misc/oil› or piece of ‹eq-misc/incense›, which grants half the *nostalgia oil's* benefits to all Pathfinders within 20 feet of the lantern or censor for 1 hour; any strong wind (21+ mph) dissipates the aroma for 1 minute.",
 			"",
@@ -2220,7 +2220,7 @@
 			"",
 			"Drow alchemists of House Tracinoa developed this mixture to function as a lure for mindless oozes.",
 			"",
-			"@I-zap You can throw a flask of *ooze attractant* as a ‹rule/splash weapon›. On a direct hit, each mindless ooze within 60 feet must succeed at a DC 12 Will save or be compelled to approach the target for the next 1d4+1 rounds. On a miss, an ooze still attempts a Will save, but on a failure it instead approaches the square in which the flask landed.",
+			"@I-splash You can throw a flask of *ooze attractant* as a ‹rule/splash weapon›. On a direct hit, each mindless ooze within 60 feet must succeed at a DC 12 Will save or be compelled to approach the target for the next 1d4+1 rounds. On a miss, an ooze still attempts a Will save, but on a failure it instead approaches the square in which the flask landed.",
 			"",
 			"Once an ooze moves adjacent to the targeted creature or into the targeted square, it resumes its normal behavior. An ooze can be affected by *ooze attractant* only once in a 24-hour period."
 		]
@@ -4061,7 +4061,7 @@
 			"",
 			"@I-lower A creature or object marked with *waspguts* attracts angry insects. Vermin within 30 feet attack the target over other available creatures. Wasps are affected at a range of up to 1 mile; in most environments where wasps live, the target is stung by at least one wild wasp per hour. The effect lasts 8 hours or until washed or scraped off (a @HL[full-round action]).",
 			"",
-			"@I-zap Waspguts can also be thrown as a ‹rule/splash weapon›. A direct hit deals no damage, but exposes the target to the *waspguts'* effects.",
+			"@I-splash Waspguts can also be thrown as a ‹rule/splash weapon›. A direct hit deals no damage, but exposes the target to the *waspguts'* effects.",
 			"",
 			"::tabular{format=craftalch a=20}"
 		]

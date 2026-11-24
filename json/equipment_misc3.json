@@ -1241,7 +1241,7 @@
 			"",
 			"@I-lower As a @HL[full-round action] that provokes attacks of opportunity, a dose of repellent salts can be applied to a 5-foot-square area that functions as ‹rule/difficult terrain› for the salt's attuned creature type. Any creature can sweep the salts aside as a @HL[move action] (or as a @HL[full-round action] for an attuned creature, which deals that creature 2d4 points of acid damage in the process); moderate wind also disperses all repellent salts in a square (including the draft created by a winged creature of at least Medium size that flies within 5 feet of the salts).",
 			"",
-			"@I-ranged Alternatively, a vial of repellent salts can be used as a ‹rule/splash weapon› against the target creature, with a successful hit dealing 2d4 points of acid damage to the creature struck (or 1 point to an attuned creature within 5 feet of the target and thus exposed to the attack's splash)."
+			"@I-splash Alternatively, a vial of repellent salts can be used as a ‹rule/splash weapon› against the target creature, with a successful hit dealing 2d4 points of acid damage to the creature struck (or 1 point to an attuned creature within 5 feet of the target and thus exposed to the attack's splash)."
 		]
 	},
 	"retort": {

@@ -390,7 +390,7 @@ const _firebrand = {title: "Firebrand", jsx: <><h2 id="arc-gunslinger-firebrand-
 <Pair title="Swift Action">The firebrand can spend 1 grit point to add her Charisma modifier to the DCs of all <Link to="/eq-weapon/dragons_breath_cartridge">dragon's breath cartridges</Link> she fires until the end of her turn.</Pair>
 <Pair title="Passive Ability">Her attacks with dragon's breath cartridges misfire only if a 1 is rolled on two or more of the damage dice.</Pair>
 </Ability>
-<Ability id="big-boom-su" extraClasses="subAbility" icon={["ranged"]}>
+<Ability id="big-boom-su" extraClasses="subAbility" icon={["cone","splash"]}>
 <Pair single id="big-boom-su" flavor="A firebrand can channel her explosive potential into a mighty blast.">Big Boom! (Su)</Pair>
 <Pair hl title="Replaces"><Link to="/deed/dead_shot">Dead shot</Link> deed</Pair>
 <Pair title="Gained">At 7th Level</Pair>
@@ -403,11 +403,11 @@ const _firebrand = {title: "Firebrand", jsx: <><h2 id="arc-gunslinger-firebrand-
 <Pair title="Gained">At 4th Level</Pair>
 <Pair title="Passive Ability">The fire damage of the first dragon's breath cartridge fired by the firebrand each round increases by a number of d6s equal to <Link to="/misc/one_fourth">one-fourth</Link> of her gunslinger level (to a maximum total of 7d6 at 20th level).</Pair>
 </Ability>
-<Ability id="bombs-su" icon={["zap"]}>
+<Ability id="bombs-su" icon={["splash"]}>
 <Pair single id="bombs-su">Bombs (Su)</Pair>
 <Pair hl title="Replaces">Gun training</Pair>
 <Pair title="Gained">At 5th Level</Pair>
-<Pair title="Ability">The firebrand gains the bombs ability as an <Link to="/class/alchemist">alchemist</Link> of her gunslinger level - 4, using her Charisma modifier in place of her Intelligence modifier to determine her number of bombs per day and the DC to avoid splash damage. The firebrand adds her Charisma modifier to her bombs' damage instead of her Intelligence modifier, even if she has the <em>throw anything</em> class feature. In addition, the firebrand's bombs are always under the effect of the <Link to="/discovery/explosive_bomb">explosive bomb</Link> discovery.</Pair>
+<Pair title="Ability">The firebrand gains the <em>bombs</em> ability as an <Link to="/class/alchemist">alchemist</Link> of her gunslinger level - 4, using her Charisma modifier in place of her Intelligence modifier to determine her number of bombs per day and the DC to avoid splash damage. The firebrand adds her Charisma modifier to her bombs' damage instead of her Intelligence modifier, even if she has the <em>throw anything</em> class feature. In addition, the firebrand's bombs are always under the effect of the <Link to="/discovery/explosive_bomb">explosive bomb</Link> discovery.</Pair>
 <Pair title="Special">Firebrand levels do not stack with levels in other classes with the bombs class feature.</Pair>
 </Ability>
 </>};
@@ -862,7 +862,7 @@ const _scatter_gunner = {title: "Scatter Gunner", jsx: <><h2 id="arc-gunslinger-
 <Pair title="At 13th Level">The additional damage becomes 2d6.</Pair>
 <Pair title="At 19th Level">The additional damage increases to 3d6.</Pair>
 </Ability>
-<Ability id="satchel-shot-ex" extraClasses="subAbility" icon={["ranged"]}>
+<Ability id="satchel-shot-ex" extraClasses="subAbility" icon={["splash"]}>
 <Pair single id="satchel-shot-ex">Satchel Shot (Ex)</Pair>
 <Pair hl title="Replaces"><Link to="/deed/targeting">Targeting</Link> deed</Pair>
 <Pair title="Gained">At 7th Level</Pair>

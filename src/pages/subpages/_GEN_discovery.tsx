@@ -286,7 +286,7 @@ const _psychoactive_bomb = {title: "Psychoactive Bomb", addenda: ["primarybomb"]
 </Ability>
 </>};
 const _rocket_bomb = {title: "Rocket Bomb", addenda: ["primarybomb"], jsx: <><p><strong>Sources</strong> <Link to="/source/advanced_race_guide">Advanced Race Guide</Link></p>
-<Ability id="rocket-bomb" icon={["power","ranged"]}>
+<Ability id="rocket-bomb" icon={["power","splash"]}>
 <Pair single id="rocket-bomb">Rocket Bomb</Pair>
 <Pair title="Prerequisites"><Link to="/race/goblin">Goblin</Link>, 6th-level alchemist</Pair>
 <Pair title="Ability">Alchemists with this discovery can prepare special rockets to deliver their bombs. <em>Rocket bombs</em> travel farther and explode bigger than normal bombs, but cannot target individual creatures. <em>Rocket bombs</em> explode in a 20-foot radius, and all creatures in that area take the alchemist's normal splash damage. The range increment on a <em>rocket bomb</em> is 50 feet.</Pair>

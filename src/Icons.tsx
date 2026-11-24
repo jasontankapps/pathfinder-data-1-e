@@ -57,6 +57,7 @@ const Icons: FC = () => {
 					<Icon incoming={icon} icon="bowman">A ranged attack or ranged attack effect.</Icon>
 					<Icon incoming={icon} icon="magic-palm">Some sort of melee touch attack.</Icon>
 					<Icon incoming={icon} icon="smoking-finger">A ranged touch attack, or some sort of magical ranged attack.</Icon>
+					<Icon incoming={icon} icon="splash">A splash weapon, or something akin to that sort of effect.</Icon>
 					<Icon incoming={icon} icon="magic-swirl">General magical, supernatural, or uncanny ability; or a magic trait.</Icon>
 					<Icon incoming={icon} icon="barbed-arrow">A line-effect magical attack.</Icon>
 					<Icon incoming={icon} icon="tornado-discs">A cone-effect magical attack.</Icon>

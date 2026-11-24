@@ -423,6 +423,7 @@ const makeAbilityBlock = ({
 				case "warning":
 				case "select":
 				case "boom":
+				case "splash":
 					return i;
 			}
 			logError(`---> Missing or invalid icon [${i}][${text}]`);

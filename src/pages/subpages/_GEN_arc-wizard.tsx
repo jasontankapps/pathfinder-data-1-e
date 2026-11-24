@@ -12,7 +12,7 @@ const _arcane_bomber = {title: "Arcane Bomber", jsx: <><h2 id="arc-wizard-arcane
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Ability">The arcane bomber gains an ability nearly identical to the <Link to="/class/alchemist">alchemist's</Link> <em>bomb</em> ability. Unlike the alchemist, at 1st level, the arcane bomber chooses one type of energy from the following list: acid, cold, fire, and electricity. He can throw bombs of that type, but cannot modify them with discoveries. This ability stacks with the alchemist <em>bomb</em> ability to determine the level of bomb damage, but an arcane bomber that becomes an alchemist does not gain that class's <em>bomb</em> ability, nor does an alchemist that becomes an arcane bomber gain this <em>bomb</em> ability.</Pair>
 </Ability>
-<Ability id="bomb-su" extraClasses="subAbility" icon={["zap"]}>
+<Ability id="bomb-su" extraClasses="subAbility" icon={["splash"]}>
 <Pair single id="bomb-su" flavor="Relevant text from the alchemist class ability.">Bomb (Su)</Pair>
 <Pair title="Gained">At 1st Level</Pair>
 <Pair title="Usage">You can use a number of bombs each day equal to your class level + your Intelligence modifier.</Pair>
