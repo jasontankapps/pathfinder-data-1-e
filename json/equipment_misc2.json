@@ -2771,7 +2771,17 @@
 			"‹SOURCE Alchemy Manual/27›  ",
 			"::tabular{format=misc a=200 b=\"0.5\" d=atool}",
 			"",
-			"@HL[Mythic:] If you are a mythic divine spellcaster and burn this incense while preparing spells, you can expend two uses of mythic power to prepare any one spell as a mythic spell (but not as an augmented mythic spell), even if you're normally unable to cast the mythic version of that spell. *Incense of divinity* burns for 1 hour; you can prepare as many mythic spells as you are able to during this time, but you must expend two uses of mythic power for each mythic spell so prepared.",
+			":::mythic",
+			"",
+			"If you are a mythic divine spellcaster and burn this incense while preparing spells, you can expend two uses of mythic power to prepare any one spell as a mythic spell (but not as an augmented mythic spell), even if you're normally unable to cast the mythic version of that spell. *Incense of divinity* burns for 1 hour; you can prepare as many mythic spells as you are able to during this time, but you must expend two uses of mythic power for each mythic spell so prepared.",
+			"",
+			":::",
+			"",
+			":::div{className=showIfNoMythic}",
+			"",
+			"*This item only has use for a mythic character. You have toggled Mythic feats and spells off on the [settings page](settings). You will need to toggle it back on in order to see this.*",
+			"",
+			":::",
 			"",
 			"::tabular{format=spontalch a=\"lunary50/phos150\" b=exposure c=30 d=\"1 hour\" f=filter g=tool}"
 		]

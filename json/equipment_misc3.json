@@ -4266,7 +4266,17 @@
 			"‹SOURCE Alchemy Manual/27›  ",
 			"::tabular{format=misc a=80 b=1 d=rem}",
 			"",
-			"@HL[Mythic:] Consuming a vial of *surge syrup* grants you a +1d4 alchemical bonus on your next mythic surge roll. Every round after you consume *surge syrup* that you don't use your surge ability, the bonus provided by this item decreases by 1 (minimum 0).",
+			":::mythic",
+			"",
+			"Consuming a vial of *surge syrup* grants you a +1d4 alchemical bonus on your next mythic surge roll. Every round after you consume *surge syrup* that you don't use your surge ability, the bonus provided by this item decreases by 1 (minimum 0).",
+			"",
+			":::",
+			"",
+			":::div{className=showIfNoMythic}",
+			"",
+			"*This item only has use for a mythic character. You have toggled Mythic feats and spells off on the [settings page](settings). You will need to toggle it back on in order to see this.*",
+			"",
+			":::",
 			"",
 			"::tabular{format=spontalch a=\"lunary12/wine40/urea40\" b=congelation c=25 d=\"10 minutes\" f=\"alchemist's lab\" g=remedy}"
 		]

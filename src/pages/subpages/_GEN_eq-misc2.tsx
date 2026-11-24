@@ -1,4 +1,5 @@
-import Link from '../../components/Link';
+import {IonIcon} from '@ionic/react';
+import Link, {ThLink} from '../../components/Link';
 import {Block,Row,Cell} from '../../components/Block';
 import ScrollContainer from '../../components/ScrollContainer';
 import InnerLink from '../../components/InnerLink';
@@ -1193,7 +1194,10 @@ const _imposing_war_paint = {title: "Imposing war paint", jsx: <><h2 id="eq-misc
 const _incense_of_divinity = {title: "Incense of divinity", jsx: <><h2 id="eq-misc-incense_of_divinity-incense-of-divinity">Incense of divinity</h2>
 <p><strong>Sources</strong> <Link to="/source/alchemy_manual">Alchemy Manual pg. 27</Link>  </p>
 <Tabular format="misc" a="200" b="0.5" d="atool" />
-<p><strong className="hl">Mythic:</strong> If you are a mythic divine spellcaster and burn this incense while preparing spells, you can expend two uses of mythic power to prepare any one spell as a mythic spell (but not as an augmented mythic spell), even if you're normally unable to cast the mythic version of that spell. <em>Incense of divinity</em> burns for 1 hour; you can prepare as many mythic spells as you are able to during this time, but you must expend two uses of mythic power for each mythic spell so prepared.</p>
+<div className="sideNoteWrap singular optional mythic"><ScrollContainer id="eq-misc-incense_of_divinity--table-0"><table><tbody><tr><ThLink scope="row" to="/rule/mythic_feats"><IonIcon aria-label="Mythic Rules" icon="/icons/ancient-sword.svg" /></ThLink><td><p>If you are a mythic divine spellcaster and burn this incense while preparing spells, you can expend two uses of mythic power to prepare any one spell as a mythic spell (but not as an augmented mythic spell), even if you're normally unable to cast the mythic version of that spell. <em>Incense of divinity</em> burns for 1 hour; you can prepare as many mythic spells as you are able to during this time, but you must expend two uses of mythic power for each mythic spell so prepared.</p>
+</td></tr></tbody></table></ScrollContainer></div><div className="showIfNoMythic">
+<p><em>This item only has use for a mythic character. You have toggled Mythic feats and spells off on the <Link to="/settings">settings page</Link>. You will need to toggle it back on in order to see this.</em></p>
+</div>
 <Tabular format="spontalch" a="lunary50/phos150" b="exposure" c="30" d="1 hour" f="filter" g="tool" />
 </>};
 const _incense = {title: "Incense", jsx: <><h2 id="eq-misc-incense-incense">Incense</h2>
