@@ -20,7 +20,7 @@ export const AboutInfo: React.FC<{className: string}> = ({className}) => (
 			<IonItemDivider><IonLabel>Credits</IonLabel></IonItemDivider>
 			<IonItem><IonLabel>
 				<p>App Icon is based on "Gift of Knowledge" by <a href="https://lorcblog.blogspot.com/" data-outgoing>Lorc</a>. The following icons are also by Lorc. (CC BY 3.0)</p>
-				<p className="icons icons30">
+				<p className="icons icons31">
 					<IonIcon icon="/icons/battle-gear.svg" />
 					<IonIcon icon="/icons/croc-jaws.svg" />
 					<IonIcon icon="/icons/bolt-eye.svg" />

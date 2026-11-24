@@ -1,5 +1,6 @@
+import {IonIcon} from '@ionic/react';
 import DisplayTable from '../../components/DisplayTable';
-import Link from '../../components/Link';
+import Link, {ThLink} from '../../components/Link';
 import ScrollContainer from '../../components/ScrollContainer';
 import InnerLink from '../../components/InnerLink';
 const _field_scriveners_desk = {title: "Field Scrivener's Desk", jsx: <><h2 id="magic-wondrous-field_scriveners_desk-field-scriveners-desk">Field Scrivener's Desk</h2>
@@ -677,8 +678,8 @@ const _harp_of_shattering = {title: "Harp of Shattering", jsx: <><h2 id="magic-w
 const _harp_of_slumber = {title: "Harp of Slumber", jsx: <><h2 id="magic-wondrous-harp_of_slumber-harp-of-slumber">Harp of Slumber</h2>
 <p><strong>Sources</strong> <Link to="/source/giant_hunters_handbook">Giant Hunter's Handbook pg. 28</Link><br/><strong>Aura</strong> faint enchantment; <strong>CL</strong> 5th<br/><strong>Slot</strong> none; <strong>Price</strong> 37,500 gp; <strong>Weight</strong> 5 lbs.</p>
 <p>Despite having the strength and texture of unhewn stone, this pale white harp is sculpted from solid glass. A harp of slumber has several effects when played. At will, the user can produce a lullaby effect by plucking a single string. Up to three times per day, the user can strum the harp to produce a <em>sleep</em> effect. If the performer succeeds at a DC 13 <Link to="/skill/perform">Perform (string)</Link> skill check, this use of the harp functions as <em>deep slumber</em> instead. The DC for these effects increases by 2 against creatures with the giant subtype.</p>
-<p><strong className="hl">Mythic:</strong> A mythic performer can expend one use of mythic power when strumming a harp of slumber in order to augment the effect it creates to <em>mythic sleep,</em> or <em>mythic deep slumber</em> if the performer also succeeds at a DC 13 Perform (string) check.</p>
-<h3 id="magic-wondrous-harp_of_slumber-construction">Construction</h3>
+<div className="sideNoteWrap singular optional mythic"><ScrollContainer id="magic-wondrous-harp_of_slumber--table-0"><table><tbody><tr><ThLink scope="row" to="/rule/mythic_feats"><IonIcon aria-label="Mythic Rules" icon="/icons/ancient-sword.svg" /></ThLink><td><p>A mythic performer can expend one use of mythic power when strumming a harp of slumber in order to augment the effect it creates to <em>mythic sleep,</em> or <em>mythic deep slumber</em> if the performer also succeeds at a DC 13 Perform (string) check.</p>
+</td></tr></tbody></table></ScrollContainer></div><h3 id="magic-wondrous-harp_of_slumber-construction">Construction</h3>
 <p><strong>Requirements</strong> <Link to="/feat/craft_wondrous_item">Craft Wondrous Item</Link>, <Link to="/feat/mythic_crafter">Mythic Crafter</Link>, <Link to="/spell/deep_slumber">deep slumber</Link>, <Link to="/spell/lullaby">lullaby</Link>, <Link to="/spell/sleep">sleep</Link>; <strong>Cost</strong> 18,250 gp</p>
 </>};
 const _harp_of_storms = {title: "Harp of Storms", jsx: <><h2 id="magic-wondrous-harp_of_storms-harp-of-storms">Harp of Storms</h2>

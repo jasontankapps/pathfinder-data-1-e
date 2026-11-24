@@ -1,4 +1,5 @@
-import Link from '../../components/Link';
+import {IonIcon} from '@ionic/react';
+import Link, {ThLink} from '../../components/Link';
 import {Block,Row,Cell} from '../../components/Block';
 import ScrollContainer from '../../components/ScrollContainer';
 import InnerLink from '../../components/InnerLink';
@@ -2153,7 +2154,10 @@ const _sureseal_bladder_mundane = {title: "Sureseal bladder (mundane)", jsx: <><
 const _surge_syrup = {title: "Surge syrup", jsx: <><h2 id="eq-misc-surge_syrup-surge-syrup">Surge syrup</h2>
 <p><strong>Sources</strong> <Link to="/source/alchemy_manual">Alchemy Manual pg. 27</Link>  </p>
 <Tabular format="misc" a="80" b="1" d="rem" />
-<p><strong className="hl">Mythic:</strong> Consuming a vial of <em>surge syrup</em> grants you a +1d4 alchemical bonus on your next mythic surge roll. Every round after you consume <em>surge syrup</em> that you don't use your surge ability, the bonus provided by this item decreases by 1 (minimum 0).</p>
+<div className="sideNoteWrap singular optional mythic"><ScrollContainer id="eq-misc-surge_syrup--table-0"><table><tbody><tr><ThLink scope="row" to="/rule/mythic_feats"><IonIcon aria-label="Mythic Rules" icon="/icons/ancient-sword.svg" /></ThLink><td><p>Consuming a vial of <em>surge syrup</em> grants you a +1d4 alchemical bonus on your next mythic surge roll. Every round after you consume <em>surge syrup</em> that you don't use your surge ability, the bonus provided by this item decreases by 1 (minimum 0).</p>
+</td></tr></tbody></table></ScrollContainer></div><div className="showIfNoMythic">
+<p><em>This item only has use for a mythic character. You have toggled Mythic feats and spells off on the <Link to="/settings">settings page</Link>. You will need to toggle it back on in order to see this.</em></p>
+</div>
 <Tabular format="spontalch" a="lunary12/wine40/urea40" b="congelation" c="25" d="10 minutes" f="alchemist's lab" g="remedy" />
 </>};
 const _surgeons_tools = {title: "Surgeon's tools", jsx: <><h2 id="eq-misc-surgeons_tools-surgeons-tools">Surgeon's tools</h2>
