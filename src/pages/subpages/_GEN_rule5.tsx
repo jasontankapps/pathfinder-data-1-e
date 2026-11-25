@@ -1154,7 +1154,7 @@ const _charge = {title: "Charge", parent_topics: ["combat","special_attacks"], s
 <p>A charging character gets a +2 bonus on combat maneuver attack rolls made to <Link to="/rule/bull_rush">bull rush</Link> an opponent.</p>
 <p>Even if you have extra attacks, such as from having a high enough base attack bonus or from using multiple weapons, you only get to make one attack during a charge.</p>
 <p><strong className="hl">Lances and Charge Attacks:</strong> A lance deals double damage if employed by a mounted character in a charge.</p>
-<p><strong className="hl">Weapons Readied against a Charge:</strong> Spears, tridents, and other weapons with the brace feature deal double damage when readied (set) and used against a charging character.</p>
+<p><strong className="hl">Weapons Readied against a Charge:</strong> Spears, tridents, and other weapons with the <Link to="/misc/brace">brace</Link> feature deal double damage when readied (set) and used against a charging character.</p>
 </>};
 const _combat_maneuvers = {title: "Combat Maneuvers", parent_topics: ["combat","special_attacks"], siblings: ["aid_another_2","charge","combat_maneuvers","feint","mounted_combat","throw_splash_weapon","two_weapon_fighting"], subtopics: ["bull_rush","dirty_trick","disarm","drag","grapple","overrun","reposition","steal","sunder","trip"], jsx: <><p><strong>Sources</strong> <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 198</Link></p>
 <p>During combat, you can attempt to perform a number of maneuvers that can hinder or even cripple your foe, including bull rush, disarm, grapple, overrun, sunder, and trip. Although these maneuvers have vastly different results, they all use a similar mechanic to determine success.</p>

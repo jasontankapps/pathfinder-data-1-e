@@ -1705,6 +1705,7 @@
 			"wondrous_items"
 		]
 	},
+	"potion": { "redirect": "potions" },
 	"rings": {
 		"name": "Rings",
 		"subtitle": "Magic Items",

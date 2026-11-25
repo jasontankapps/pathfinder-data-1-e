@@ -222,7 +222,7 @@ const _discoveries = {hasJL:true,title: "Alchemist Discoveries", topLink: ["Alch
 <Pair title="Ability"><em>Psychoactive bombs</em> are mixed with neurotoxic extracts that heighten certain sensations. A creature struck by a <em>psychoactive bomb</em> takes a -1 penalty on saving throws against charm, emotion, fear, and pain effects, and the DC for Intimidate checks against the victim decreases by 2. This effect lasts for 1 hour per alchemist level.</Pair>
 <Pair title="Special">These penalties do not stack, and a creature can only be affected by a single <em>psychoactive bomb</em> at a time. A <em>psychoactive bomb</em> deals 1d6 fewer hit points of damage than normal.</Pair>
 </Ability>
-<Ability id="discoveryrocketbomb-rocket-bomb-fn9-4" icon={["power","ranged"]}>
+<Ability id="discoveryrocketbomb-rocket-bomb-fn9-4" icon={["power","splash"]}>
 <Pair single id="discoveryrocketbomb-rocket-bomb-fn9-4"><Link to="/discovery/rocket_bomb">⮞</Link> Rocket Bomb <sup><InnerLink showBacklink="backlink-ability-discoveries-fake-fn-9.4" id="ability-discoveries-fake-fn-9.4" data-hash-target to="ability-discoveries-fake-fn-9-target">9</InnerLink></sup></Pair>
 <Pair title="Prerequisites"><Link to="/race/goblin">Goblin</Link>, 6th-level alchemist</Pair>
 <Pair title="Ability">Alchemists with this discovery can prepare special rockets to deliver their bombs. <em>Rocket bombs</em> travel farther and explode bigger than normal bombs, but cannot target individual creatures. <em>Rocket bombs</em> explode in a 20-foot radius, and all creatures in that area take the alchemist's normal splash damage. The range increment on a <em>rocket bomb</em> is 50 feet.</Pair>
