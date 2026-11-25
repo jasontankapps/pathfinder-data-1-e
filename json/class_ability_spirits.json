@@ -68,7 +68,7 @@
 			"",
 			"### Greater Spirit Power",
 			"",
-			"::ab[Fleet Charge (Su)]{icon=power ability=\"You can take a @HLswift_action and a @HLfull-round_action to move up to your speed and then make a full attack. This special action doesn't combine with *sudden attack,* but works as normal with effects such as *haste* and *two-weapon fighting.*\" special=\"As soon as you begin moving, you are considered to have begun the full-round action, even if circumstances prevent you from attacking at the end of your movement.\"}",
+			"::ab[Fleet Charge (Su)]{icon=power ability=\"You can take a @WA and a @RA to move up to your speed and then make a full attack. This special action doesn't combine with *sudden attack,* but works as normal with effects such as *haste* and *two-weapon fighting.*\" special=\"As soon as you begin moving, you are considered to have begun the full-round action, even if circumstances prevent you from attacking at the end of your movement.\"}",
 			"",
 			"### Supreme Spirit Power",
 			"",
@@ -102,7 +102,7 @@
 			"",
 			"### Greater Spirit Power",
 			"",
-			"::ab[Sudden Block (Su)]{icon=protect-power ability=\"After an enemy's attack would hit you or an adjacent creature, you can use *spirit surge* to increase the victim's AC, possibly causing the attack to fail, by rolling your *spirit surge* die and adding it to the chosen character's AC. You must not be flat-footed, and you must be aware of the attack.\" special=\"If use of this ability causes the enemy's attack to miss, you can make an attack at your highest base attack bonus against that enemy as an @HLimmediate_action.\"}",
+			"::ab[Sudden Block (Su)]{icon=protect-power ability=\"After an enemy's attack would hit you or an adjacent creature, you can use *spirit surge* to increase the victim's AC, possibly causing the attack to fail, by rolling your *spirit surge* die and adding it to the chosen character's AC. You must not be flat-footed, and you must be aware of the attack.\" special=\"If use of this ability causes the enemy's attack to miss, you can make an attack at your highest base attack bonus against that enemy as an @IA.\"}",
 			"",
 			"### Supreme Spirit Power",
 			"",
@@ -170,11 +170,11 @@
 			"",
 			"### Greater Spirit Power",
 			"",
-			"::ab[Decisive Strike (Su)]{icon=select-power swift=\"You can allow the marshal to gain 1 point of influence over you to allow an ally within 30 feet who can see and hear you to make a single melee or ranged attack during your turn.~~~You can use this ability as a @HLstandard_action to instead allow the ally to perform any standard action.\" special=\"You can use *inspiring call* as a @HLmove_action.\"}",
+			"::ab[Decisive Strike (Su)]{icon=select-power swift=\"You can allow the marshal to gain 1 point of influence over you to allow an ally within 30 feet who can see and hear you to make a single melee or ranged attack during your turn.~~~You can use this ability as a @SA to instead allow the ally to perform any standard action.\" special=\"You can use *inspiring call* as a @MA.\"}",
 			"",
 			"### Supreme Spirit Power",
 			"",
-			"::ab[Legendary Marshal (Su)]{icon=boost ability=\"You can use a lesser *spirit surge* without incurring influence. This lesser surge adds a maximum of 1d6 to the roll and does not apply your *spirit bonus,* regardless of other effects or abilities you have that alter your *spirit surge.* A lesser surge still counts as a *spirit surge* for the purpose of the limit of one *spirit surge* per round, but it does not consume any free uses of *spirit surge* you may have from effects such as *taboo.*\" special=\"You can use *inspiring call* as a @HLswift_action.\"}"
+			"::ab[Legendary Marshal (Su)]{icon=boost ability=\"You can use a lesser *spirit surge* without incurring influence. This lesser surge adds a maximum of 1d6 to the roll and does not apply your *spirit bonus,* regardless of other effects or abilities you have that alter your *spirit surge.* A lesser surge still counts as a *spirit surge* for the purpose of the limit of one *spirit surge* per round, but it does not consume any free uses of *spirit surge* you may have from effects such as *taboo.*\" special=\"You can use *inspiring call* as a @WA.\"}"
 		]
 	},
 	"trickster": {
@@ -346,11 +346,11 @@
 			"",
 			"### Lesser Spirit Power",
 			"",
-			"::ab[Princely Humor (Su)]{icon=power ability=\"You gain ‹feat/Improved Dirty Trick› and ‹feat/Improved Feint› as bonus feats.\" ability2=\"When you successfully perform a dirty trick, you can allow Beldam's spirit to gain 1 point of influence over you to target that opponent with ‹spell/hideous laughter› (DC = 10 + 1/2 your medium level + your Charisma modifier) as a @HLfree_action that does not provoke an attack of opportunity, in addition to the effects of the dirty trick.\" order=a2}",
+			"::ab[Princely Humor (Su)]{icon=power ability=\"You gain ‹feat/Improved Dirty Trick› and ‹feat/Improved Feint› as bonus feats.\" ability2=\"When you successfully perform a dirty trick, you can allow Beldam's spirit to gain 1 point of influence over you to target that opponent with ‹spell/hideous laughter› (DC = 10 + 1/2 your medium level + your Charisma modifier) as a @FA that does not provoke an attack of opportunity, in addition to the effects of the dirty trick.\" order=a2}",
 			"",
 			"### Greater Spirit Power",
 			"",
-			"::ab[Atrocious Gift (Su)]{icon=touch ability=\"You can allow Beldam to gain 1 point of influence over you to make a melee touch attack against another creature as a @HLstandard_action. If you hit, you can transfer one disease or poison from yourself to the touched creature. You are immediately cured of the disease or poison and the target must attempt a saving throw against the transferred affliction (at the affliction's save DC) or suffer its effect or initial effect immediately. The target then continues to suffer from the affliction's normal effects thereafter.\"}"
+			"::ab[Atrocious Gift (Su)]{icon=touch ability=\"You can allow Beldam to gain 1 point of influence over you to make a melee touch attack against another creature as a @SA. If you hit, you can transfer one disease or poison from yourself to the touched creature. You are immediately cured of the disease or poison and the target must attempt a saving throw against the transferred affliction (at the affliction's save DC) or suffer its effect or initial effect immediately. The target then continues to suffer from the affliction's normal effects thereafter.\"}"
 		]
 	},
 	"butcher": {
@@ -473,7 +473,7 @@
 			"",
 			"### Intermediate Spirit Power",
 			"",
-			"::ab[Song of Valor (Su)]{icon=aura-boost standard=\"You can begin a performance that fills allies with power and confidence. Any ally that participated in your *seance* who can hear your performance receives a morale bonus to Strength and Constitution equal to your *spirit bonus.*~~~You can maintain this performance for a number of rounds equal to your Charisma modifier plus your *spirit bonus.* These rounds need not be consecutive. Maintaining your performance is a @HLfree_action.\"}",
+			"::ab[Song of Valor (Su)]{icon=aura-boost standard=\"You can begin a performance that fills allies with power and confidence. Any ally that participated in your *seance* who can hear your performance receives a morale bonus to Strength and Constitution equal to your *spirit bonus.*~~~You can maintain this performance for a number of rounds equal to your Charisma modifier plus your *spirit bonus.* These rounds need not be consecutive. Maintaining your performance is a @FA.\"}",
 			"",
 			"### Supreme Spirit Power",
 			"",
@@ -607,7 +607,7 @@
 			"",
 			"### Greater Spirit Power",
 			"",
-			"::ab[Slumbering Sword (Su)]{icon=protect immediate=\"When an ally within 30 feet is attacked, you can allow Namzaruum to gain 1 point of influence over you to provide partial ‹rule/cover› to that ally for a single attack. The ally must be able to see and hear you for this ability to function.~~~If the attack against your ally misses, your ally can make an attack of opportunity against the enemy who made the attack if that enemy is within your ally's reach.\" special=\"You can use this ability as a @HLstandard_action to instead grant an ally partial cover for 1 round, but missed attacks against the ally do not provoke attacks of opportunity.\" replace=\"Decisive strike\"}"
+			"::ab[Slumbering Sword (Su)]{icon=protect immediate=\"When an ally within 30 feet is attacked, you can allow Namzaruum to gain 1 point of influence over you to provide partial ‹rule/cover› to that ally for a single attack. The ally must be able to see and hear you for this ability to function.~~~If the attack against your ally misses, your ally can make an attack of opportunity against the enemy who made the attack if that enemy is within your ally's reach.\" special=\"You can use this ability as a @SA to instead grant an ally partial cover for 1 round, but missed attacks against the ally do not provoke attacks of opportunity.\" replace=\"Decisive strike\"}"
 		]
 	},
 	"nex": {
@@ -747,7 +747,7 @@
 			"",
 			"### Intermediate Spirit Power",
 			"",
-			"::ab[Master Summoner (Su)]{icon=magic order=ua2 useInc=medium~2 useM ability=\"You can cast any *summon monster* spell as a @HLstandard_action instead of a full-round action.\" ability2=\"Additionally, you can allow Sulesh to gain 1 point of influence over you and expend one of your highest-level spell slots to summon a monster that can be summoned with a *summon monster* spell 1 level higher than the highest one you can cast.\" replace=\"Arcane surge\"}"
+			"::ab[Master Summoner (Su)]{icon=magic order=ua2 useInc=medium~2 useM ability=\"You can cast any *summon monster* spell as a @SA instead of a full-round action.\" ability2=\"Additionally, you can allow Sulesh to gain 1 point of influence over you and expend one of your highest-level spell slots to summon a monster that can be summoned with a *summon monster* spell 1 level higher than the highest one you can cast.\" replace=\"Arcane surge\"}"
 		]
 	},
 	"taldaris": {
@@ -844,7 +844,7 @@
 			"",
 			"### Greater Spirit Power",
 			"",
-			"::ab[Inspiring Call (Su)]{icon=boost move=\"You can grant all allies who can see and hear you a competence bonus equal to your *spirit bonus* on either saving throws or attack and damage rolls. You choose which bonus to grant each time you use inspiring call. This ability lasts for 1 round.\" special=\"If you have the *legendary marshal* supreme spirit power, you can use inspiring call as a @HLswift_action.\" alter=\"Inspiring call\"}"
+			"::ab[Inspiring Call (Su)]{icon=boost move=\"You can grant all allies who can see and hear you a competence bonus equal to your *spirit bonus* on either saving throws or attack and damage rolls. You choose which bonus to grant each time you use inspiring call. This ability lasts for 1 round.\" special=\"If you have the *legendary marshal* supreme spirit power, you can use inspiring call as a @WA.\" alter=\"Inspiring call\"}"
 		]
 	},
 	"aeon": {

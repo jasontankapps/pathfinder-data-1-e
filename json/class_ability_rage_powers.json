@@ -60,7 +60,7 @@
 		"compilationSources": [ [ "Dirty Tactics Toolbox" ] ],
 		"level": 1,
 		"description": [
-			"::ab{icon=melee title=\"&L&Viper's Kiss (Ex)&FN&\" ability=\"The barbarian can drink 1 dose of an ingested poison as a @HLmove_action (instead of a standard action) as long as she starts the turn with the poison in her hand. She can hold this dose within her mouth for a number of rounds equal to her Constitution modifier (minimum 1 round) without suffering harmful effects. If the barbarian still holds the poison in her mouth after this time, she consumes the poison.~~~While the dose is held within her mouth, the barbarian's next successful bite attack applies the effect of the poison with an immediate onset; this consumes the dose.\" prereq=\"‹ragepower/Animal fury› or a has bite attack while *raging*\"}"
+			"::ab{icon=melee title=\"&L&Viper's Kiss (Ex)&FN&\" ability=\"The barbarian can drink 1 dose of an ingested poison as a @MA (instead of a standard action) as long as she starts the turn with the poison in her hand. She can hold this dose within her mouth for a number of rounds equal to her Constitution modifier (minimum 1 round) without suffering harmful effects. If the barbarian still holds the poison in her mouth after this time, she consumes the poison.~~~While the dose is held within her mouth, the barbarian's next successful bite attack applies the effect of the poison with an immediate onset; this consumes the dose.\" prereq=\"‹ragepower/Animal fury› or a has bite attack while *raging*\"}"
 		]
 	},
 	"vipers_breath": {
@@ -343,7 +343,7 @@
 		"compilationSources": [ [ "Advanced Player's Guide" ] ],
 		"level": 2,
 		"description": [
-			"::ab{icon=boost-melee title=\"&L&Greater Ferocious Trample (Ex)&FN&\" ability=\"A barbarian's mount can affect creatures up to its own size with its *ferocious trample.* In addition, it can make an ‹rule/overrun› combat maneuver check as a @HLfree_action against a creature that fails its Reflex save (or chooses not to save in order to take an attack of opportunity) against its trample.\" prereq=\"12th-level barbarian, ‹ragepower/ferocious trample›\"}"
+			"::ab{icon=boost-melee title=\"&L&Greater Ferocious Trample (Ex)&FN&\" ability=\"A barbarian's mount can affect creatures up to its own size with its *ferocious trample.* In addition, it can make an ‹rule/overrun› combat maneuver check as a @FA against a creature that fails its Reflex save (or chooses not to save in order to take an attack of opportunity) against its trample.\" prereq=\"12th-level barbarian, ‹ragepower/ferocious trample›\"}"
 		]
 	},
 	"ferocious_trample_greater": { "redirect": "greater_ferocious_trample" },
@@ -457,7 +457,7 @@
 		"description": [
 			":::ab{icon=touch title=\"&L&Hissing Rage (Su)&FN&\" usage=\"Once per hour\" action=\"Standard Action\"}",
 			"",
-			"Once per hour, the barbarian can spit venom at an adjacent enemy. She must make a touch attack to successfully spit on a foe in this way, but she can also apply this poison as a @HL[swift action] when she hits with a bite attack.",
+			"Once per hour, the barbarian can spit venom at an adjacent enemy. She must make a touch attack to successfully spit on a foe in this way, but she can also apply this poison as a @WA when she hits with a bite attack.",
 			"",
 			"::aff[Hissing Rage Poison]{iconP type=\"Bite-contact or injury\" freqR=6 dcF dcLev=barbarian dcIt=her dcMod=Con effStr=\"1d2\" cure2c}",
 			"",
@@ -846,7 +846,7 @@
 		"compilationSources": [ [ "Ultimate Combat" ] ],
 		"level": 1,
 		"description": [
-			"::ab{icon=power title=\"&L&Bestial Leaper (Ex)&FN&\" ability=\"While *raging,* the barbarian can take a @HLmove_action to move and can take her normal @HLstandard_action at any point during the move.\" prereq=\"6th-level barbarian, ‹ragepower/raging leaper›\"}"
+			"::ab{icon=power title=\"&L&Bestial Leaper (Ex)&FN&\" ability=\"While *raging,* the barbarian can take a @MA to move and can take her normal @SA at any point during the move.\" prereq=\"6th-level barbarian, ‹ragepower/raging leaper›\"}"
 		]
 	},
 	"raging_flier": {
@@ -861,7 +861,7 @@
 		"name": "Raging Grappler",
 		"compilationSources": [ [ "People of the River" ] ],
 		"description": [
-			"::ab{icon=melee title=\"&L&Raging Grappler (Ex)&FN&\" ability=\"While *raging,* the barbarian grapples her foes with the power and viciousness of a river crocodile. As long as she is *raging,* whenever the barbarian succeeds at a check to start a ‹rule/grapple›, she can choose to deal damage as if she had also succeeded at a check to maintain the grapple.~~~In addition, while she is *raging,* whenever the barbarian succeeds at a combat maneuver check to maintain a grapple, she can choose to give herself, the target of her grapple, or both the ‹rule/prone› condition as a @HLfree_action while continuing to maintain the grapple.\"}"
+			"::ab{icon=melee title=\"&L&Raging Grappler (Ex)&FN&\" ability=\"While *raging,* the barbarian grapples her foes with the power and viciousness of a river crocodile. As long as she is *raging,* whenever the barbarian succeeds at a check to start a ‹rule/grapple›, she can choose to deal damage as if she had also succeeded at a check to maintain the grapple.~~~In addition, while she is *raging,* whenever the barbarian succeeds at a combat maneuver check to maintain a grapple, she can choose to give herself, the target of her grapple, or both the ‹rule/prone› condition as a @FA while continuing to maintain the grapple.\"}"
 		]
 	},
 	"raging_swimmer": {
@@ -1505,7 +1505,7 @@
 		"category": "Totem",
 		"compilationSources": [ [ "Ultimate Combat" ] ],
 		"description": [
-			"::ab{icon=skill-power title=\"&L&Dragon Totem Wings (Su)&FN&\" order=ps passive=\"When a barbarian selects this rage power, ‹skill/Fly› (Dex) becomes a class skill for her.\" standard=\"While *raging* and wearing medium or lighter armor, the barbarian can manifest a pair of spiritual dragon wings that grant her a fly speed equal to her base speed (average maneuverability). She can expend 2 rounds of her *rage* to instead use an @HLimmediate_action to gain this fly speed.\" special=\"She can end her fly speed at any time, even when it is not her turn. Each round she spends *raging* and flying counts as 2 rounds of *rage.* Her ability to fly ends automatically when she ceases *raging.*\" prereq=\"‹ragepower/Dragon totem›, ‹ragepower/dragon totem resilience›, 10th-level barbarian\"}"
+			"::ab{icon=skill-power title=\"&L&Dragon Totem Wings (Su)&FN&\" order=ps passive=\"When a barbarian selects this rage power, ‹skill/Fly› (Dex) becomes a class skill for her.\" standard=\"While *raging* and wearing medium or lighter armor, the barbarian can manifest a pair of spiritual dragon wings that grant her a fly speed equal to her base speed (average maneuverability). She can expend 2 rounds of her *rage* to instead use an @IA to gain this fly speed.\" special=\"She can end her fly speed at any time, even when it is not her turn. Each round she spends *raging* and flying counts as 2 rounds of *rage.* Her ability to fly ends automatically when she ceases *raging.*\" prereq=\"‹ragepower/Dragon totem›, ‹ragepower/dragon totem resilience›, 10th-level barbarian\"}"
 		],
 		"topLink": ["Totem Warrior", "arc-barbarian/totem_warrior"]
 	},
@@ -1536,7 +1536,7 @@
 		"level": 2,
 		"compilationSources": [ [ "Blood of the Elements" ] ],
 		"description": [
-			"::ab{icon=aura-lower-def title=\"&L&Greater Air Totem (Su)&FN&\" passive=\"While *raging,* the barbarian is surrounded by an aura of howling winds. Creatures attempting to cast spells while adjacent to the barbarian must succeed at a ‹rule/concentration› check (DC 15 + spell level), and ranged attack rolls against the barbarian take a -4 penalty.~~~Creatures smaller than the barbarian that attack the barbarian in melee with a natural weapon or touch attack must succeed at a Fortitude save (DC 10 + 1/2 the barbarian's level + the barbarian's Constitution modifier) or the attack fails and the creature is flung back 5 feet and knocked ‹rule/prone›.\" special=\"The barbarian can suspend this aura as a @HLfree_action.\" prereq=\"10th-level barbarian, ‹ragepower/air totem›\"}"
+			"::ab{icon=aura-lower-def title=\"&L&Greater Air Totem (Su)&FN&\" passive=\"While *raging,* the barbarian is surrounded by an aura of howling winds. Creatures attempting to cast spells while adjacent to the barbarian must succeed at a ‹rule/concentration› check (DC 15 + spell level), and ranged attack rolls against the barbarian take a -4 penalty.~~~Creatures smaller than the barbarian that attack the barbarian in melee with a natural weapon or touch attack must succeed at a Fortitude save (DC 10 + 1/2 the barbarian's level + the barbarian's Constitution modifier) or the attack fails and the creature is flung back 5 feet and knocked ‹rule/prone›.\" special=\"The barbarian can suspend this aura as a @FA.\" prereq=\"10th-level barbarian, ‹ragepower/air totem›\"}"
 		],
 		"topLink": ["Totem Warrior", "arc-barbarian/totem_warrior"]
 	},
@@ -1578,7 +1578,7 @@
 		"level": 2,
 		"compilationSources": [ [ "Blood of the Elements" ] ],
 		"description": [
-			"::ab{icon=aura-lower title=\"&L&Greater Fire Totem (Su)&FN&\" passive=\"While *raging,* the barbarian can envelope herself in a cloud of smoke that fills a 10-foot-radius sphere and follows her as she moves. Creatures in the affected area must succeed at Fortitude saves each round or ‹rule/suffer the effects of breathing heavy smoke»<forest_fires›. The barbarian is immune to the smoke's effects, including vision obstruction. She can end this smoke as a @HLfree_action, or it can be dispersed by wind in the same manner as a ‹spell/fog cloud› spell.\" prereq=\"10th-level barbarian, ‹ragepower/fire totem›\"}"
+			"::ab{icon=aura-lower title=\"&L&Greater Fire Totem (Su)&FN&\" passive=\"While *raging,* the barbarian can envelope herself in a cloud of smoke that fills a 10-foot-radius sphere and follows her as she moves. Creatures in the affected area must succeed at Fortitude saves each round or ‹rule/suffer the effects of breathing heavy smoke»<forest_fires›. The barbarian is immune to the smoke's effects, including vision obstruction. She can end this smoke as a @FA, or it can be dispersed by wind in the same manner as a ‹spell/fog cloud› spell.\" prereq=\"10th-level barbarian, ‹ragepower/fire totem›\"}"
 		],
 		"topLink": ["Totem Warrior", "arc-barbarian/totem_warrior"]
 	},

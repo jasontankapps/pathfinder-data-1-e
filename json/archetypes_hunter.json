@@ -56,7 +56,7 @@
 			"",
 			"::ab[Savage Diplomacy (Ex)]{l=2 icon=boost passive=\"While in humanoid form, a chameleon adept's animal companion grants its master a +2 circumstance bonus on Diplomacy and Intimidate checks. *Savage diplomacy* functions only as long as the creature being influenced can see both the companion and the master.\" increment=\"This bonus~5~4\" replace=\"Precise companion\"}",
 			"",
-			"::ab[Animal Shape (Su)]{l=5 icon=magic standard=\"A chameleon adept can assume a form superficially identical to her animal companion's animal form. She gains no bonuses or natural attacks while in this form, only forms of movement. Her size category does not change. This is a polymorph effect.\" useL=hunter useUnit=m useNC=1 special=\"She can dismiss this ability at any point as a @HLstandard_action.\" replace=\"Woodland stride\"}",
+			"::ab[Animal Shape (Su)]{l=5 icon=magic standard=\"A chameleon adept can assume a form superficially identical to her animal companion's animal form. She gains no bonuses or natural attacks while in this form, only forms of movement. Her size category does not change. This is a polymorph effect.\" useL=hunter useUnit=m useNC=1 special=\"She can dismiss this ability at any point as a @SA.\" replace=\"Woodland stride\"}",
 			"",
 			"::ab[Improved Shifting Companion (Su)]{l=10 head icon=magic ability=\"A chameleon adept's animal companion improves its ability to change shape. It can use *wild shape,* as a ‹class/druid› of half the hunter's level, to gain the effects of ‹spell/beast shape I.› Unlike a druid's *wild shape,* this ability does not improve to encompass larger or smaller animals or elementals.\" replace=\"Raise animal companion\"}",
 			"",
@@ -122,7 +122,7 @@
 			"",
 			"::ab[Skill Bond (Ex)]{l=3 icon=power ability=\"A courtly hunter's animal companion gains the courtly hunter's class skills as class skills. Her animal companion can use the courtly hunter's skill ranks in a skill in place of its own, but only to a maximum of the courtly hunter's hunter level (for instance, if a character had 3 levels in courtly hunter and 5 ranks in Diplomacy, her animal companion could either share 3 ranks with skill bond or use its own ranks, whichever would result in a higher total skill bonus).\" replace=\"Hunter tactics~the hunter's bonus teamwork feats\"}",
 			"",
-			"::ab[Alternate Form (Su)]{l=7 icon=magic ability=\"The courtly hunter's animal companion learns an additional subtle form. When the courtly hunter gains this ability, she chooses a Tiny animal. When under the effects of the *subtle companion* ability, the courtly hunter's animal companion can change between a shrunken, more innocuous version of its original shape or the shape of the chosen animal as a @HLstandard_action. When it transforms, it loses abilities dependent on its original shape and gains abilities from its new shape as ‹spell/beast shape II›.\" imp13=\"The courtly hunter can select an additional form to add to the animal companion's list of choices while it is in its polymorphed form.\" imp19=\"She can select a fourth such form.\" replace=\"Bonus tricks\"}"
+			"::ab[Alternate Form (Su)]{l=7 icon=magic ability=\"The courtly hunter's animal companion learns an additional subtle form. When the courtly hunter gains this ability, she chooses a Tiny animal. When under the effects of the *subtle companion* ability, the courtly hunter's animal companion can change between a shrunken, more innocuous version of its original shape or the shape of the chosen animal as a @SA. When it transforms, it loses abilities dependent on its original shape and gains abilities from its new shape as ‹spell/beast shape II›.\" imp13=\"The courtly hunter can select an additional form to add to the animal companion's list of choices while it is in its polymorphed form.\" imp19=\"She can select a fourth such form.\" replace=\"Bonus tricks\"}"
 		]
 	},
 	"divine_hunter": {
@@ -164,7 +164,7 @@
 			"",
 			":::ab{title=\"Feral Focus (Su)\" action=Ability l=1 icon=power alter=\"Animal focus\" replace=\"Hunter tactics~speak with master\"}",
 			"",
-			"A feral hunter gains a limited ability to change her shape into hybrid animal forms. This functions as the *animal focus* class feature, except that the hunter always applies the animal aspect to herself, and there is no limit to this ability's duration. She can end this ability as a @HL[free action].",
+			"A feral hunter gains a limited ability to change her shape into hybrid animal forms. This functions as the *animal focus* class feature, except that the hunter always applies the animal aspect to herself, and there is no limit to this ability's duration. She can end this ability as a @FA.",
 			"",
 			"When a feral hunter uses this ability, her body takes on cosmetic aspects of an animal, such as furry skin, longer nails, elongated teeth, and oddly colored eyes; these changes do not grant her any abilities other than what is stated in the *animal focus,* and end when she takes on a different aspect or ends the ability. This physical change is a ‹spelldef/polymorph› effect, though the effects of the *animal focus* are not.",
 			"",
@@ -278,7 +278,7 @@
 			"",
 			"When a packmaster gains a level, she must decide how to allocate the increase among her animal companions, including whether or not to add a new 1st-level companion. Once a hunter level is allocated to a particular companion, it cannot be redistributed while that companion is in the packmaster's service. She must release the companion or wait until the companion dies to allocate its levels to another companion, which she can then do the next time she refreshes her spell slots for the day. The *share spells* animal companion ability applies to only one animal companion at a time - the packmaster cannot use it to cast a spell that affects only a single target and have the spell affect all of her animal companions.",
 			"",
-			"A packmaster's *precise companion, woodland stride,* and *teamwork feats* apply to only one of her animal companions at a time. (For example, a packmaster can apply *precise companion* to one companion, *woodland stride* to another, and a given teamwork feat to a third, but cannot apply any of those to two animal companions at once.) As a @HL[swift action], she can change which companion gains any or all of these benefits.",
+			"A packmaster's *precise companion, woodland stride,* and *teamwork feats* apply to only one of her animal companions at a time. (For example, a packmaster can apply *precise companion* to one companion, *woodland stride* to another, and a given teamwork feat to a third, but cannot apply any of those to two animal companions at once.) As a @WA, she can change which companion gains any or all of these benefits.",
 			"",
 			":::",
 			"",
@@ -311,7 +311,7 @@
 			"",
 			"::ab[Additional Traps (Ex or Su)]{l=3 icon=power ability=\"A patient ambusher can learn a new type of trap, selected from the list of ‹ability/ranger traps›. Once a trap is learned, it can't be unlearned and replaced with a different type of trap.\" incrementOrd=She~3~3 incrementDesc=\"gains a~learns a\" incrementEnd=\" ranger trap.\" special=\"The patient ambusher cannot learn an individual trap more than once.\" replace=\"Teamwork feats\"}",
 			"",
-			"::ab[Launch Trap (Su)]{l=10 icon=power order=an ability=\"A patient ambusher can affix a magical ranger trap to an arrow, a crossbow bolt, or a thrown weapon, allowing her to set the trap remotely or use it as a direct attack. Attaching the trap to the projectile is part of the @HLfull-round_action to create a new trap. The trapped projectile is fired or thrown in the normal manner.\" info=\"If fired at a square, the trap is treated as if the hunter had set the trap in that square, except the DC is 5 lower than normal. If the trap is fired at a creature, the target takes damage from the ranged weapon and is treated as if it had triggered the trap (attempting a saving throw, if any).\" special=\"The attack has a maximum range of 60 feet, and penalties from range increments apply on the attack roll. The duration of the trap starts when it is created, not when it is triggered.\" replace=\"Raise animal companion\"}"
+			"::ab[Launch Trap (Su)]{l=10 icon=power order=an ability=\"A patient ambusher can affix a magical ranger trap to an arrow, a crossbow bolt, or a thrown weapon, allowing her to set the trap remotely or use it as a direct attack. Attaching the trap to the projectile is part of the @RA to create a new trap. The trapped projectile is fired or thrown in the normal manner.\" info=\"If fired at a square, the trap is treated as if the hunter had set the trap in that square, except the DC is 5 lower than normal. If the trap is fired at a creature, the target takes damage from the ranged weapon and is treated as if it had triggered the trap (attempting a saving throw, if any).\" special=\"The attack has a maximum range of 60 feet, and penalties from range increments apply on the attack roll. The duration of the trap starts when it is created, not when it is triggered.\" replace=\"Raise animal companion\"}"
 		]
 	},
 	"pelagic_hunter": {
@@ -405,7 +405,7 @@
 			"",
 			"A primal companion hunter can awaken a primal creature from within his animal companion. The animal companion gains a pool of 2 evolution points that can be used to temporarily give the companion ‹ability/evolutions› as if it were an eidolon. A primal companion hunter uses her hunter level to determine her effective ‹class/summoner› level for the purpose of qualifying for evolutions and determining their effects.",
 			"",
-			"Activating these evolutions on the animal companion is a @HL[swift action]. An animal companion transformed in this way cannot exceed the maximum number of attacks available to the eidolon of a summoner whose class level equals that of the hunter. While transformed in this way, the animal companion's type changes to ‹type/magical beast›, though the primal companion hunter still treats it as an animal for the purpose of the Handle Animal skill.",
+			"Activating these evolutions on the animal companion is a @WA. An animal companion transformed in this way cannot exceed the maximum number of attacks available to the eidolon of a summoner whose class level equals that of the hunter. While transformed in this way, the animal companion's type changes to ‹type/magical beast›, though the primal companion hunter still treats it as an animal for the purpose of the Handle Animal skill.",
 			"",
 			"If a primal companion hunter's animal companion is dead, she can apply these evolutions to herself instead of to her animal companion. Uses of this ability count toward the hunter's maximum daily duration of evolution use.",
 			"",
@@ -413,7 +413,7 @@
 			"",
 			"::ab[Primal Surge (Su)]{l=8 icon=boost usage=\"Once per day\" swift=\"A primal companion hunter can touch her animal companion and grant it one evolution that costs up to 4 evolution points. The companion must meet the prerequisites of the selected evolution. Unlike the evolutions from *primal transformation,* this evolution is not set; it can be changed each time the hunter uses this ability. Using *primal surge* activates the *primal transformation* ability on the companion if it isn't already active. This effect lasts until the hunter ends the *primal transformation.* This does not allow a companion to exceed its maximum number of natural attacks.\" special=\"This ability can grant only one evolution at a time, even if the chosen evolution could be selected multiple times. This ability can grant an evolution that allows additional evolution points to be spent to upgrade that evolution (such as ‹evolution/damage reduction› or ‹evolution/flight›), and any points left over can be spent on such upgrades. This ability cannot be used to grant an upgrade to an evolution that the companion already possesses.\" replace=\"Second animal focus\"}",
 			"",
-			"::ab[Primal Master (Su)]{l=20 icon=boost ability=\"A primal companion hunter becomes in tune with his primal nature. He can activate his companion's primal aspect as a @HLfree_action. When using *primal surge,* he can grant his companion two evolutions instead of one (each costing up to 4 evolution points).\" replace=\"Master hunter\"}"
+			"::ab[Primal Master (Su)]{l=20 icon=boost ability=\"A primal companion hunter becomes in tune with his primal nature. He can activate his companion's primal aspect as a @FA. When using *primal surge,* he can grant his companion two evolutions instead of one (each costing up to 4 evolution points).\" replace=\"Master hunter\"}"
 		]
 	},
 	"roof_runner": {
@@ -498,7 +498,7 @@
 			"",
 			":::ab{l=1 icon=boost action=Ability title=\"Shared Strength (Su)\" replace=\"Animal focus\" imp8=\"The totem-bonded manifests two aspects of her animal companion. The animal companion gains a +1 bonus on saving throws and a +2 bonus on checks with each skill in which it has at least 1 rank.\" imp15=\"The damage dealt by any natural attacks granted by this ability increases by two die steps. The animal companion's bonuses on saving throws and skill checks increase to +2 and +4 respectively.\" useL=hunter useUnit=m useNC=1}",
 			"",
-			"The connection the totem-bonded has with her animal companion allows them to draw upon one another's strength. The totem-bonded can activate this ability as a @HL[swift action]. The effect ends immediately if the animal companion is ever more than 100 feet away from the totem-bonded.",
+			"The connection the totem-bonded has with her animal companion allows them to draw upon one another's strength. The totem-bonded can activate this ability as a @WA. The effect ends immediately if the animal companion is ever more than 100 feet away from the totem-bonded.",
 			"",
 			"While the *shared strength* ability is active, the totem-bonded manifests one aspect of her animal companion drawn from the following list.",
 			"",
@@ -523,7 +523,7 @@
 			"",
 			"The totem-bonded can select only a movement speed or natural attack that her animal companion also has, and an aspect cannot cause her speed or size to exceed that of her animal companion with this ability.",
 			"",
-			"A totem-bonded's animal companion also benefits from the *shared strength* ability, and while it is active, the animal understands the totem-bonded's known languages and can be pushed to perform an unfamiliar trick as a @HL[free action].",
+			"A totem-bonded's animal companion also benefits from the *shared strength* ability, and while it is active, the animal understands the totem-bonded's known languages and can be pushed to perform an unfamiliar trick as a @FA.",
 			"",
 			":::"
 		]

@@ -142,6 +142,20 @@ const getInlineDirectives = (globalVariable, marker = "@") => {
 				});
 			}
 			switch(tag) {
+				case "SA":
+					return "<strong className=\"hl\">standard action</strong>";
+				case "MA":
+					return "<strong className=\"hl\">move action</strong>";
+				case "MEA":
+					return "<strong className=\"hl\">move-equivalent action</strong>";
+				case "FA":
+					return "<strong className=\"hl\">free action</strong>";
+				case "RA":
+					return "<strong className=\"hl\">full-round action</strong>";
+				case "WA":
+					return "<strong className=\"hl\">swift action</strong>";
+				case "IA":
+					return "<strong className=\"hl\">immediate action</strong>";
 				case "b":
 					tag = "strong";
 					break;

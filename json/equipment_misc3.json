@@ -46,7 +46,7 @@
 			"‹SOURCE Alchemy Manual/6›  ",
 			"::tabular{format=misc a=50 b=\"0.5\" d=tools}",
 			"",
-			"Loading this long bronze tube with a dose of ingested poison and 10 gp worth of gold dust is a @HL[standard action]. When you blow on a *poison belcher* like a blowgun, it sprays the poison out the other end.",
+			"Loading this long bronze tube with a dose of ingested poison and 10 gp worth of gold dust is a @SA. When you blow on a *poison belcher* like a blowgun, it sprays the poison out the other end.",
 			"",
 			"@I-zap The *poison belcher* is a simple weapon that strikes as a ranged touch attack with a range increment of 10 feet and a maximum range of 30 feet. If hit, the target must save against the poison as if it had been ingested."
 		]
@@ -214,7 +214,7 @@
 			"‹SOURCE Ultimate Equipment/57›  ",
 			"::tabular{format=misc a=50 b=1 d=gear}",
 			"",
-			"This scabbard contains strips of natural sea sponges on its interior. By carefully pouring a dose of poison into the empty scabbard (a @HL[full-round action]), you saturate the sponges with the toxin, which keeps it viable and wet for up to 4 hours.",
+			"This scabbard contains strips of natural sea sponges on its interior. By carefully pouring a dose of poison into the empty scabbard (a @RA), you saturate the sponges with the toxin, which keeps it viable and wet for up to 4 hours.",
 			"",
 			"Preparing the scabbard carries the normal risk of poisoning yourself, just like poisoning a weapon. The next weapon you draw from the scabbard is automatically poisoned as if you had directly applied poison to it (but does not risk poisoning you); this consumes the poison in the scabbard.",
 			"",
@@ -490,9 +490,9 @@
 			"",
 			"This egg-sized sponge is covered in a layer of waterproof edible wax, designed to absorb 1 dose of a potion.",
 			"",
-			"@I-power Chewing a potion sponge and swallowing its liquid contents is a @HL[full-round action]. A creature of at least Large size can swallow the sponge in its entirely; other creatures must spit out the sponge once it's depleted (a @HL[free action]). Unlike a potion that is drunk from a vial, a potion sponge can be used underwater.",
+			"@I-power Chewing a potion sponge and swallowing its liquid contents is a @RA. A creature of at least Large size can swallow the sponge in its entirely; other creatures must spit out the sponge once it's depleted (a @FA). Unlike a potion that is drunk from a vial, a potion sponge can be used underwater.",
 			"",
-			"@I-info A potion can be poured from a vial into a sponge potion (or squeezed from a sponge into a vial) as a @HL[full-round action]. The potion sponge is immune to attacks that specifically target crystal, glass, ceramic, or porcelain, such as ‹spell/shatter›. It otherwise works like a potion vial.",
+			"@I-info A potion can be poured from a vial into a sponge potion (or squeezed from a sponge into a vial) as a @RA. The potion sponge is immune to attacks that specifically target crystal, glass, ceramic, or porcelain, such as ‹spell/shatter›. It otherwise works like a potion vial.",
 			"",
 			"::tabular{format=craftalch a=15}"
 		]
@@ -507,7 +507,7 @@
 			"",
 			"This steel sphere is about the size of a standard cannon ball, though it's significantly lighter. Small holes pock the surface of the sphere, which can be unscrewed into two hemispherical pieces. By filling the intricate hollows in an opened powder ball with a specific mixture of volatile chemical reagents (which can typically be purchased in Highhelm for around 200 gp) and inserting a proprietary fuse, an individual can use the weapon as a time-delayed explosive device, throwing it as a ‹rule/splash weapon› or simply placing it where she wants it to explode.",
 			"",
-			"@I-boom The fuse can be ignited as a @HL[move action]; 1d4 rounds afterward, the powder ball explodes, dealing 2d6 points of fire damage to anything in a 10-foot-radius ‹misc/burst› (DC 15 for half). A powder ball explodes in this way three times - the second explosion occurs 1d3 rounds after the initial explosion, and the third explosion occurs 1d2 rounds after the second. After the third explosion, the empty powder ball can be refilled and used again."
+			"@I-boom The fuse can be ignited as a @MA; 1d4 rounds afterward, the powder ball explodes, dealing 2d6 points of fire damage to anything in a 10-foot-radius ‹misc/burst› (DC 15 for half). A powder ball explodes in this way three times - the second explosion occurs 1d3 rounds after the initial explosion, and the third explosion occurs 1d2 rounds after the second. After the third explosion, the empty powder ball can be refilled and used again."
 		]
 	},
 	"powder_ball_fuel": {
@@ -579,7 +579,7 @@
 			"‹SOURCE Alchemy Manual/18›  ",
 			"::tabular{format=misc a=1000 b=15 d=bm}",
 			"",
-			"A premium hookah is similar to a standard ‹eq-misc/hookah›, except it sports enough hoses for up to eight adjacent creatures to use, and the bowl has three separate compartments, each of which can store a different type of inhalable drug, alchemical powder, or alchemical liquid. Each compartment can hold up to 3 doses of an inhalable substance (so a premium hookah can hold up to 9 doses total). Consuming these contents is still a @HL[move action]. You can reload a single compartment as a move action, or you can reload all three compartments as a @HL[full-round action]."
+			"A premium hookah is similar to a standard ‹eq-misc/hookah›, except it sports enough hoses for up to eight adjacent creatures to use, and the bowl has three separate compartments, each of which can store a different type of inhalable drug, alchemical powder, or alchemical liquid. Each compartment can hold up to 3 doses of an inhalable substance (so a premium hookah can hold up to 9 doses total). Consuming these contents is still a @MA. You can reload a single compartment as a move action, or you can reload all three compartments as a @RA."
 		]
 	},
 	"pressure_pill": {
@@ -590,7 +590,7 @@
 			"‹SOURCE Aquatic Adventures/56›  ",
 			"::tabular{format=misc a=75 b=x d=atool}",
 			"",
-			"@I-def When you swallow this marble-shaped alchemical pill as a @HL[full-round action], it instantly adjusts your body to the surrounding [water pressure](rule/oceanic_zones), though you take 3 points of nonlethal damage for every 100 feet of adjustment necessary."
+			"@I-def When you swallow this marble-shaped alchemical pill as a @RA, it instantly adjusts your body to the surrounding [water pressure](rule/oceanic_zones), though you take 3 points of nonlethal damage for every 100 feet of adjustment necessary."
 		]
 	},
 	"printing_press_1_page": {
@@ -739,7 +739,7 @@
 			"‹SOURCE Black Markets/21›  ",
 			"::tabular{format=misc a=150 b=2 d=gear}",
 			"",
-			"This clay container resembles a ‹eq-weapon/fuse grenade›, but trails a pulley and wire rather than a fuse. Pulling the cord (a @HL[move action]) sparks a ‹eq-misc/flint and steel› within the device, causing the grenade to explode. The pull cord can be attached to a door or drawer within 5 feet, or strung across a 5-foot square, causing the grenade to detonate when its tripwire is disturbed. A pull-cord grenade cannot be reused.",
+			"This clay container resembles a ‹eq-weapon/fuse grenade›, but trails a pulley and wire rather than a fuse. Pulling the cord (a @MA) sparks a ‹eq-misc/flint and steel› within the device, causing the grenade to explode. The pull cord can be attached to a door or drawer within 5 feet, or strung across a 5-foot square, causing the grenade to detonate when its tripwire is disturbed. A pull-cord grenade cannot be reused.",
 			"",
 			"::trap[Pull-cord Grenade Trap]{start cr=\"&mdash&\" mechanical pdc=15 dddc=15 trigger=touch eff=\"explosion (2d6 bludgeoning damage and 1d6 fire damage); Reflex DC 15 half; multiple targets (all targets within 10 feet)\"}",
 			"",
@@ -782,7 +782,7 @@
 			"‹SOURCE Adventurer's Armory/19›  ",
 			"::tabular{format=misc a=75 b=5 d=gear}",
 			"",
-			"This metal container holds 4 gallons of water. As a @HL[standard action] that provokes attacks of opportunity, you can use the hand pump and hose at the top to spray water up to 10 feet away. Pumping uses 1 gallon of water for every round of use and can extinguish nonmagical fires in 1 square. A full canister weighs 37 pounds."
+			"This metal container holds 4 gallons of water. As a @SA that provokes attacks of opportunity, you can use the hand pump and hose at the top to spray water up to 10 feet away. Pumping uses 1 gallon of water for every round of use and can extinguish nonmagical fires in 1 square. A full canister weighs 37 pounds."
 		]
 	},
 	"purification_pellet": {
@@ -914,7 +914,7 @@
 			"‹SOURCE Ultimate Intrigue/234›  ",
 			"::tabular{format=misc a=varies b=\"5 lbs.\" c=x d=cloth}",
 			"",
-			"A quick-change outfit is actually two different sets of attire sewn together, one inside the other. The quick-change outfit allows the wearer to rapidly change from one outfit into another by reversing (pulling inside out) the entire outfit. It takes a @HL[full-round action] to slip out of the quick-change outfit, reverse it, and put it back on.",
+			"A quick-change outfit is actually two different sets of attire sewn together, one inside the other. The quick-change outfit allows the wearer to rapidly change from one outfit into another by reversing (pulling inside out) the entire outfit. It takes a @RA to slip out of the quick-change outfit, reverse it, and put it back on.",
 			"",
 			"The two different outfits can appear to be of any variety, such as a ‹eq-misc/noble's outfit› on one side and a ‹eq-misc/monk's outfit› on the other. The appearance is only superficial, so the outfits do not grant any special bonuses (such as a ‹eq-misc/cold-weather outfit«'s› benefits against exposure to cold).",
 			"",
@@ -1222,9 +1222,9 @@
 			"‹SOURCE Merchant's Manifest/6›  ",
 			"::tabular{format=misc a=5 b=\"0.5\" d=gear}",
 			"",
-			"@I-info This foot-long strip of double-sided alchemical adhesive is sealed with waxed paper. When unsealed (this requires a @HL[move action]) and pressed between two surfaces (this also requires a @HL[move action]), a remora pad creates a firm and waterproof bond between two creatures or objects for up to 24 hours. If two creatures connect themselves in this way, both gain the ‹rule/grapple«d» condition<s›. However, if they are different size categories, only the smaller creature gains this condition.",
+			"@I-info This foot-long strip of double-sided alchemical adhesive is sealed with waxed paper. When unsealed (this requires a @MA) and pressed between two surfaces (this also requires a @MA), a remora pad creates a firm and waterproof bond between two creatures or objects for up to 24 hours. If two creatures connect themselves in this way, both gain the ‹rule/grapple«d» condition<s›. However, if they are different size categories, only the smaller creature gains this condition.",
 			"",
-			"This bond survives light buffeting and movement, such as that created by incoming tides or by one attached surface dragging the other along underwater. Sharp tugs can break the seal fairly easily, and a willingly attached creature can pull free of the pad with a successful DC 5 Strength check as a @HL[standard action] (DC 10 as a @HL[swift action]). This weakness makes remora pads fairly ineffective when attempting to ‹rule/grapple› a target, though a grappling creature that sticks itself to a target with a remora pad receives a +6 circumstance bonus on grapple combat maneuver checks to sustain the grapple in subsequent rounds (instead of the normal +5 bonus).",
+			"This bond survives light buffeting and movement, such as that created by incoming tides or by one attached surface dragging the other along underwater. Sharp tugs can break the seal fairly easily, and a willingly attached creature can pull free of the pad with a successful DC 5 Strength check as a @SA (DC 10 as a @WA). This weakness makes remora pads fairly ineffective when attempting to ‹rule/grapple› a target, though a grappling creature that sticks itself to a target with a remora pad receives a +6 circumstance bonus on grapple combat maneuver checks to sustain the grapple in subsequent rounds (instead of the normal +5 bonus).",
 			"",
 			"A remora pad's bond is strong enough to support 200 pounds of material, so bonding two heavier objects together requires multiple pads. Underwater travelers often use remora pads to attach themselves to trained aquatic animals for long journeys."
 		]
@@ -1239,7 +1239,7 @@
 			"",
 			"This fine alchemical salt has been developed to work against particular types of foes. A batch of repellent salts is attuned to undead or a selected outsider race, such as angels, demons, or devils.",
 			"",
-			"@I-lower As a @HL[full-round action] that provokes attacks of opportunity, a dose of repellent salts can be applied to a 5-foot-square area that functions as ‹rule/difficult terrain› for the salt's attuned creature type. Any creature can sweep the salts aside as a @HL[move action] (or as a @HL[full-round action] for an attuned creature, which deals that creature 2d4 points of acid damage in the process); moderate wind also disperses all repellent salts in a square (including the draft created by a winged creature of at least Medium size that flies within 5 feet of the salts).",
+			"@I-lower As a @RA that provokes attacks of opportunity, a dose of repellent salts can be applied to a 5-foot-square area that functions as ‹rule/difficult terrain› for the salt's attuned creature type. Any creature can sweep the salts aside as a @MA (or as a @RA for an attuned creature, which deals that creature 2d4 points of acid damage in the process); moderate wind also disperses all repellent salts in a square (including the draft created by a winged creature of at least Medium size that flies within 5 feet of the salts).",
 			"",
 			"@I-splash Alternatively, a vial of repellent salts can be used as a ‹rule/splash weapon› against the target creature, with a successful hit dealing 2d4 points of acid damage to the creature struck (or 1 point to an attuned creature within 5 feet of the target and thus exposed to the attack's splash)."
 		]
@@ -1274,7 +1274,7 @@
 			"‹SOURCE Monster Codex/177›  ",
 			"::tabular{format=misc a=75 b=\"0.5\" d=atool}",
 			"",
-			"When applied to the nose as a @HL[standard action], this alchemical paste traps airborne particles and sharpens your olfactory receptors, heightening your sense of smell.",
+			"When applied to the nose as a @SA, this alchemical paste traps airborne particles and sharpens your olfactory receptors, heightening your sense of smell.",
 			"",
 			"@I-power-boost You gain the ‹umr/scent› ability, except you can detect creatures and odors at only half the distance. If you already have the scent ability, *rhinarium paste* increases the range at which you can detect creatures by 50%. *Rhinarium paste's* effects lasts for 1 hour.",
 			"",
@@ -1404,7 +1404,7 @@
 			"",
 			"This thin length of rope has many oddly shaped bits of hollow metal fixed along its length.",
 			"",
-			"@I-aura-lower As a @HL[standard action], a creature can swing a roar cord over its head to generate a variety of eerie noises. For the next round, any creature within 60 feet of the roar cord takes a -2 penalty on ‹skill/Perception› checks that rely on sound and a -1 penalty on saving throws against fear effects.",
+			"@I-aura-lower As a @SA, a creature can swing a roar cord over its head to generate a variety of eerie noises. For the next round, any creature within 60 feet of the roar cord takes a -2 penalty on ‹skill/Perception› checks that rely on sound and a -1 penalty on saving throws against fear effects.",
 			"",
 			"@I-boost The roar cord can be used as a bardic instrument (string) that grants the bard a +2 bonus on Perform checks when using the ‹performance/countersong› bardic performance."
 		]
@@ -1419,7 +1419,7 @@
 			"",
 			"Two separate compartments make up this black glass canister the size of a helmet. The large lower compartment contains hundreds of jagged shards of obsidian. The upper airtight chamber contains a sticky resin that hardens immediately upon contact with air.",
 			"",
-			"@I-melee When you strike the canister with a bludgeoning melee weapon as a @HL[standard action], both compartments shatter, causing the obsidian shards to adhere to the weapon. The weapon deals piercing damage rather than bludgeoning damage for 10 minutes, at which point the resin dries and the shards fall off, or until you roll a natural 1 on an attack roll, which causes the shards to break off prematurely. If the weapon is made of a special material, the special properties of its material are suppressed while the obsidian shards adhere to the weapon.",
+			"@I-melee When you strike the canister with a bludgeoning melee weapon as a @SA, both compartments shatter, causing the obsidian shards to adhere to the weapon. The weapon deals piercing damage rather than bludgeoning damage for 10 minutes, at which point the resin dries and the shards fall off, or until you roll a natural 1 on an attack roll, which causes the shards to break off prematurely. If the weapon is made of a special material, the special properties of its material are suppressed while the obsidian shards adhere to the weapon.",
 			"",
 			"@I-warning If you use a *rockshard canister* to coat an unarmed strike or natural weapon, you take 2d6 points of piercing damage when shattering the canister to apply the shards. For unarmed attacks, this can be avoided by carefully applying thick leather or rope straps to your hands and feet, which requires 5 minutes of work, prior to smashing the canister."
 		]
@@ -1460,7 +1460,7 @@
 			"‹SOURCE Adventurer's Armory 2/13›  ",
 			"::tabular{format=misc a=250 b=30 d=gear}",
 			"",
-			"This large, portable spool of rope or cord contains a clockwork mechanism to reel the rope back in. You can unspool the rope from the mechanism at a rate of 30 feet per round. Activating the mechanism as a @HL[move action] causes the rope to retract at a rate of 100 feet per round, pulling up to 200 pounds of attached weight. The mechanism works more slowly with increased weight, retracting the rope at a rate of 50 feet per round with more than 200 pounds but up to 300 pounds of attached weight. Weight in excess of 300 pounds prevents the mechanism from functioning.",
+			"This large, portable spool of rope or cord contains a clockwork mechanism to reel the rope back in. You can unspool the rope from the mechanism at a rate of 30 feet per round. Activating the mechanism as a @MA causes the rope to retract at a rate of 100 feet per round, pulling up to 200 pounds of attached weight. The mechanism works more slowly with increased weight, retracting the rope at a rate of 50 feet per round with more than 200 pounds but up to 300 pounds of attached weight. Weight in excess of 300 pounds prevents the mechanism from functioning.",
 			"",
 			"A rope recaller is sold with 100 feet of ‹eq-misc/hemp rope› already attached, but can hold up to 1,000 feet of rope. Replacing or adding rope to the device requires 1 minute of work for every 100 feet of rope."
 		]
@@ -1475,7 +1475,7 @@
 			"",
 			"You can place this metal contraption onto a taut section of a ‹eq-misc/rope› connecting a high point to a lower one, allowing you to slide down the length of the rope with ease. Using a roperunner requires only one hand, leaving the other hand free during the descent.",
 			"",
-			"Attaching the roperunner to a rope is a @HL[move action]. Beginning the descent is a @HL[swift action]. You slide down the rope at a rate of 60 feet per round. This requires no action on your part, but you must move along the length of the rope in the downward direction. Retrieving the roperunner once you have come to a stop at the end of the rope is a @HL[move action]. You can let go of the roperunner as a @HL[free action]."
+			"Attaching the roperunner to a rope is a @MA. Beginning the descent is a @WA. You slide down the rope at a rate of 60 feet per round. This requires no action on your part, but you must move along the length of the rope in the downward direction. Retrieving the roperunner once you have come to a stop at the end of the rope is a @MA. You can let go of the roperunner as a @FA."
 		]
 	},
 	"rounders_gear": {
@@ -1749,7 +1749,7 @@
 			"",
 			"Saws can take many different shapes, from small carpentry saws to the long, two-handled saws used by lumberjacks.",
 			"",
-			"@I-power You can insert a saw between a door and its frame to cut through wooden bolts or bars, dealing 5 hit points per round plus your Strength modifier to the sawed object as a @HL[full-round action]. Hearing the sawing requires a successful DC 10 ‹skill/Perception› check.",
+			"@I-power You can insert a saw between a door and its frame to cut through wooden bolts or bars, dealing 5 hit points per round plus your Strength modifier to the sawed object as a @RA. Hearing the sawing requires a successful DC 10 ‹skill/Perception› check.",
 			"",
 			"Saws used to cut ice on rivers have a point on the end to break through the ice before cutting."
 		]
@@ -1961,7 +1961,7 @@
 			"‹SOURCE Ultimate Equipment/57›  ",
 			"::tabular{format=misc a=5 b=1 d=gear}",
 			"",
-			"This wooden box easily holds 10 scrolls and has small clips or bookmarks for easier indexing. Retrieving a scroll from a held scroll box is a @HL[move action]. A scroll box has ‹rule/hardness› 5, 5 hit points, a break DC of 20. A scroll box is water-tight."
+			"This wooden box easily holds 10 scrolls and has small clips or bookmarks for easier indexing. Retrieving a scroll from a held scroll box is a @MA. A scroll box has ‹rule/hardness› 5, 5 hit points, a break DC of 20. A scroll box is water-tight."
 		]
 	},
 	"scroll_case": {
@@ -1977,7 +1977,7 @@
 			"‹SOURCE Ultimate Equipment/57;PRPG Core Rulebook/158;Adventurer's Armory/19;Advanced Player's Guide/183›  ",
 			"::tabular{format=misc a=1 b=\"0.5\" d=gear}",
 			"",
-			"A leather or wooden scroll case easily holds four scrolls; you can cram more inside, but retrieving any of them becomes a @HL[full-round action] rather than a @HL[move action]. You must destroy the scroll case to damage its contents (‹rule/hardness› 2 for leather or 5 for wood, 2 hit points, break DC 15). A scroll case is not watertight, and must still be protected from the elements."
+			"A leather or wooden scroll case easily holds four scrolls; you can cram more inside, but retrieving any of them becomes a @RA rather than a @MA. You must destroy the scroll case to damage its contents (‹rule/hardness› 2 for leather or 5 for wood, 2 hit points, break DC 15). A scroll case is not watertight, and must still be protected from the elements."
 		]
 	},
 	"scroll_case_spring_loaded": {
@@ -1988,7 +1988,7 @@
 			"‹SOURCE Adventurer's Armory 2/13›  ",
 			"::tabular{format=misc a=5 b=1 d=gear}",
 			"",
-			"This specialized scroll case can hold a single scroll and features a leather strap to hang the case from a belt or backpack. Retrieving the scroll held within is a @HL[swift action]. Preparing the case for this use requires cranking the case's tiny gears and springs into place (a @HL[full-round action] that provokes an attack of opportunity)."
+			"This specialized scroll case can hold a single scroll and features a leather strap to hang the case from a belt or backpack. Retrieving the scroll held within is a @WA. Preparing the case for this use requires cranking the case's tiny gears and springs into place (a @RA that provokes an attack of opportunity)."
 		]
 	},
 	"sealing_wax": {
@@ -2037,11 +2037,11 @@
 			"",
 			"A second-story harness is a series of straps, trusses, and buckles that can be worn over clothing or armor.",
 			"",
-			"@I-power A second-story harness allows the wearer to, as a @HL[move action], secure herself in place on a vertical surface so that both her hands are free. The wearer can remain in this position without needing to make additional ‹skill/Climb› checks, and does not lose her Dexterity bonus to AC as long as she remains anchored.",
+			"@I-power A second-story harness allows the wearer to, as a @MA, secure herself in place on a vertical surface so that both her hands are free. The wearer can remain in this position without needing to make additional ‹skill/Climb› checks, and does not lose her Dexterity bonus to AC as long as she remains anchored.",
 			"",
 			"@I-down-boost As long as the wearer is anchored in this way, she cannot move and gains a +5 circumstance bonus on Climb checks made to avoid falling whenever she takes damage.",
 			"",
-			"The wearer can release herself to start moving again as a @HL[move action]."
+			"The wearer can release herself to start moving again as a @MA."
 		]
 	},
 	"seeing_slime": {
@@ -2050,7 +2050,7 @@
 		"description": [
 			"## Seeing Slime",
 			"‹SOURCE Ultimate Wilderness/155›  ",
-			"::tabular{format=misc a=160 b=x d=herb e=19 f=\"1 dose\" g=\"any underground\" h=\"After collecting this rare slime mold from where it naturally occurs in the lightless depths, the herbalist must combine the slime with mineral salts and store it in an airtight container such as a bottle or jar.\" i=\"@I-power-boost The slime causes mild skin rashes, but it grants darkvision out to a range of 30 feet for 24 hours if applied to the eyes (a @HLfull-round_action that provokes attacks of opportunity). If the subject already had darkvision, the darkvision's range increases by 30 feet. Frequent use of this herb causes permanent purple blotches on the skin around the user's eyes.\"}",
+			"::tabular{format=misc a=160 b=x d=herb e=19 f=\"1 dose\" g=\"any underground\" h=\"After collecting this rare slime mold from where it naturally occurs in the lightless depths, the herbalist must combine the slime with mineral salts and store it in an airtight container such as a bottle or jar.\" i=\"@I-power-boost The slime causes mild skin rashes, but it grants darkvision out to a range of 30 feet for 24 hours if applied to the eyes (a @RA that provokes attacks of opportunity). If the subject already had darkvision, the darkvision's range increases by 30 feet. Frequent use of this herb causes permanent purple blotches on the skin around the user's eyes.\"}",
 			"",
 			"This violet slime mold is found only in rock formations containing nodules of agate."
 		]
@@ -2224,7 +2224,7 @@
 			"",
 			"The ground carcasses of goldbelly stinkbugs - insects native to the Mindspin Mountains - give this paint its characteristic yellow hue.",
 			"",
-			"@I-boost When applied as a @HL[full-round action], this fine paste makes your head glow as though with an unearthly halo. You gain a +2 alchemical bonus to your caster level for any spells you cast that target one or more of your allies.",
+			"@I-boost When applied as a @RA, this fine paste makes your head glow as though with an unearthly halo. You gain a +2 alchemical bonus to your caster level for any spells you cast that target one or more of your allies.",
 			"",
 			"@I-warning The quicksilver in shaman's paint is harmful to living creatures. If you wear shaman's paint for more than 1 minute per day, you take 1 point of ‹rule/Wisdom damage›, plus 1 point of Wisdom damage for every minute you wear the paint that day after the first.",
 			"",
@@ -2481,7 +2481,7 @@
 			"‹SOURCE Ultimate Equipment/57;Adventurer's Armory/19;Advanced Player's Guide/181›  ",
 			"::tabular{format=misc a=20 b=0 c=M d=gear}",
 			"",
-			"This ring has a tiny compartment under the setting, typically used to hold poison. Opening and closing a ring is a @HL[move action]; doing so unseen requires a DC 20 ‹skill/Sleight of Hand› check."
+			"This ring has a tiny compartment under the setting, typically used to hold poison. Opening and closing a ring is a @MA; doing so unseen requires a DC 20 ‹skill/Sleight of Hand› check."
 		]
 	},
 	"poison_pill_ring": { "redirect": "poison_pill_signet_ring" },
@@ -2498,7 +2498,7 @@
 			"",
 			"The menacing, eyeless masks of ‹pclass/Hellknight signifer«s› were first created by members of the ‹hkorder/Order of the Gate› and are semi-transparent on the inside. Those who wear them are treated as if they were wearing ‹eq-misc/smoked goggles›.",
 			"",
-			"@I-power A character with the Hellknight signifer prestige class can see through the mask as normal, but can also adjust her mask as a @HL[standard action] to function as a pair of smoked goggles once more. Signifer masks are often enhanced, becoming variants of items that take up the head item slot. Additionally, when a character takes levels in the Hellknight signifer prestige class, this mask grants the benefits and capabilities of the *signifer mask* supernatural ability."
+			"@I-power A character with the Hellknight signifer prestige class can see through the mask as normal, but can also adjust her mask as a @SA to function as a pair of smoked goggles once more. Signifer masks are often enhanced, becoming variants of items that take up the head item slot. Additionally, when a character takes levels in the Hellknight signifer prestige class, this mask grants the benefits and capabilities of the *signifer mask* supernatural ability."
 		]
 	},
 	"silence_dust": {
@@ -2511,7 +2511,7 @@
 			"",
 			"@I-boom This ashen powder can be thrown as a ‹rule/splash weapon›, muffling all sound within a 15-foot-radius sphere centered on the point of impact. ‹skill/Perception› checks to notice sound emanating from or passing through the cloud take a -10 penalty.",
 			"",
-			"@I-def Alternatively, applying a dose of *silence dust* to your feet as a @HL[standard action] grants you a +5 circumstance bonus on Stealth checks to avoid being heard while walking. The dust is effective for 1 minute before it disperses.",
+			"@I-def Alternatively, applying a dose of *silence dust* to your feet as a @SA grants you a +5 circumstance bonus on Stealth checks to avoid being heard while walking. The dust is effective for 1 minute before it disperses.",
 			"",
 			"::tabular{format=spontalch a=\"lunary12/myrrh40\" b=calcination c=20 d=\"1 hour\" f=crucible g=tool}"
 		]
@@ -2693,7 +2693,7 @@
 			"",
 			"@I-boost-down Wearing skis allows you to move on snow and ice at normal speed, but your movement is reduced to 5 feet on all other terrain.",
 			"",
-			"You normally use a pair of spiked poles to help you move and maintain balance while skiing, but ‹eq-weapon/javelin«s›, ‹eq-weapon/shortspear«s›, or even trimmed-down saplings will do if nothing else more suitable is available. Donning or removing a ski is a @HL[full-round action], though the laces can be cut as a @HL[move action] (which requires repairing or replacing the laces if you want to use the skis again).",
+			"You normally use a pair of spiked poles to help you move and maintain balance while skiing, but ‹eq-weapon/javelin«s›, ‹eq-weapon/shortspear«s›, or even trimmed-down saplings will do if nothing else more suitable is available. Donning or removing a ski is a @RA, though the laces can be cut as a @MA (which requires repairing or replacing the laces if you want to use the skis again).",
 			"",
 			"Also see: ‹eq-misc/skis and poles›."
 		]
@@ -2800,7 +2800,7 @@
 			"‹SOURCE Advanced Class Guide/205›  ",
 			"::tabular{format=misc a=100 b=1 d=tools}",
 			"",
-			"@I-power When worn inside voluminous sleeves, this leather holster allows you to draw a concealed ‹eq-weapon/hand crossbow› or ‹eq-weapon/coat pistol› as a @HL[move action]. The weapon sits on sliders and is drawn directly into the hand.",
+			"@I-power When worn inside voluminous sleeves, this leather holster allows you to draw a concealed ‹eq-weapon/hand crossbow› or ‹eq-weapon/coat pistol› as a @MA. The weapon sits on sliders and is drawn directly into the hand.",
 			"",
 			"Unlike a ‹eq-misc/wrist sheath›, a sleeve holster is bulky enough that it is obvious on close inspection, though under a loose enough garment it might not provoke a reactive ‹skill/Perception› check. An individual sleeve holster fits for either a hand crossbow or a coat pistol, but not both."
 		]
@@ -3016,7 +3016,7 @@
 			"‹SOURCE Adventurer's Armory 2/27›  ",
 			"::tabular{format=misc a=50 b=x d=conc}",
 			"",
-			"@I-power-down This lime-green goo turns your saliva venomous. Once during the concoction's duration, as a @HL[swift action], you can lick or spit on a held weapon to apply a dose of ‹eq-poison/black adder venom› to the weapon. If you are a ‹race/vishkanya›, you instead apply the poison granted by your *toxic* racial trait; this does not count against that trait's uses per day. The concoction weakens your physical defenses, imparting a -1 penalty on your Fortitude saving throws."
+			"@I-power-down This lime-green goo turns your saliva venomous. Once during the concoction's duration, as a @WA, you can lick or spit on a held weapon to apply a dose of ‹eq-poison/black adder venom› to the weapon. If you are a ‹race/vishkanya›, you instead apply the poison granted by your *toxic* racial trait; this does not count against that trait's uses per day. The concoction weakens your physical defenses, imparting a -1 penalty on your Fortitude saving throws."
 		]
 	},
 	"snorkel_common": {
@@ -3027,7 +3027,7 @@
 			"‹SOURCE Ultimate Equipment/57›  ",
 			"::tabular{format=misc id=snorkel a=\"0.5\" b=x d=gear}",
 			"",
-			"This waterproof wooden tube has a curved end with a mouthpiece. When you hold the mouthpiece in your mouth, the tube extends past your face and toward the back of your head, allowing you to breathe indefinitely when swimming facedown or barely submerged. If you submerge the tip of the snorkel, it floods with water and can't be used to breathe until you clear the water from it (requiring a @HL[move action] and full access to air). A typical snorkel's length is about 15 inches; any shorter than this and it tends to fill with water when you swim, but any longer and you're not moving enough fresh air through the snorkel to be effective.",
+			"This waterproof wooden tube has a curved end with a mouthpiece. When you hold the mouthpiece in your mouth, the tube extends past your face and toward the back of your head, allowing you to breathe indefinitely when swimming facedown or barely submerged. If you submerge the tip of the snorkel, it floods with water and can't be used to breathe until you clear the water from it (requiring a @MA and full access to air). A typical snorkel's length is about 15 inches; any shorter than this and it tends to fill with water when you swim, but any longer and you're not moving enough fresh air through the snorkel to be effective.",
 			"",
 			"::h3[Masterwork Snorkel]{jl}",
 			"",
@@ -3265,7 +3265,7 @@
 			"",
 			"This is little more than a handle with a cup, loop, or spur to hold the butt of a ‹eq-weapon/dart›, ‹eq-weapon/javelin›, or ‹eq-weapon/shortspear›.",
 			"",
-			"@I-boost Using a spear-thrower to throw such a weapon doubles the projectile's range increment. Setting a weapon into a spear-thrower is a @HL[move action]; by taking the ‹feat/Rapid Reload› (spear-thrower) feat, you reduce this to a @HL[free action]."
+			"@I-boost Using a spear-thrower to throw such a weapon doubles the projectile's range increment. Setting a weapon into a spear-thrower is a @MA; by taking the ‹feat/Rapid Reload› (spear-thrower) feat, you reduce this to a @FA."
 		]
 	},
 	"speech_resin": {
@@ -3291,7 +3291,7 @@
 			"",
 			"This sheath is designed to be strapped around your forearm, but it is too bulky to be hidden under a long sleeve. It can hold one forearm-length item, such as a ‹eq-weapon/dagger›, ‹eq-weapon/dart›, potion, scroll containing a single spell, or wand.",
 			"",
-			"@I-power As a @HL[swift action], you can bend your wrist to cause the sheathed item to drop into your hand (provoking attacks of opportunity as normal for retrieving an item). Placing an item in the sheath is a @HL[full-round action] that provokes attacks of opportunity.",
+			"@I-power As a @WA, you can bend your wrist to cause the sheathed item to drop into your hand (provoking attacks of opportunity as normal for retrieving an item). Placing an item in the sheath is a @RA that provokes attacks of opportunity.",
 			"",
 			"You can wear only one ‹eq-misc/wrist sheath› per arm that you have."
 		]
@@ -3454,9 +3454,9 @@
 			"",
 			"This alchemical fluid is viscous and clear, and it emits a strong chemical smell when exposed to air. Vermin are attracted to it and perceive anything marked with it as prey.",
 			"",
-			"@I-lower Spiders, insects, and similar vermin gain a +5 bonus on ‹skill/Perception› checks and attack rolls against a creature marked with *spiderdraw;* if these creatures have the ‹umr/scent› ability, they can detect a marked creature at five times the normal range, note its direction as a @HL[free action], and pinpoint it when it is within 25 feet.",
+			"@I-lower Spiders, insects, and similar vermin gain a +5 bonus on ‹skill/Perception› checks and attack rolls against a creature marked with *spiderdraw;* if these creatures have the ‹umr/scent› ability, they can detect a marked creature at five times the normal range, note its direction as a @FA, and pinpoint it when it is within 25 feet.",
 			"",
-			"Drow sometimes use *spiderdraw* as a contact poison or ‹rule/splash weapon› against opponents, allowing vermin to focus on the marked targets while the drow retreat, regroup, or move to a more advantageous position. Washing off the *spiderdraw* is a @HL[full-round action] requiring at least a gallon of water or other suitable washing liquid; otherwise, the effects last for 1 hour.",
+			"Drow sometimes use *spiderdraw* as a contact poison or ‹rule/splash weapon› against opponents, allowing vermin to focus on the marked targets while the drow retreat, regroup, or move to a more advantageous position. Washing off the *spiderdraw* is a @RA requiring at least a gallon of water or other suitable washing liquid; otherwise, the effects last for 1 hour.",
 			"",
 			"::tabular{format=craftalch a=20}"
 		]
@@ -3471,7 +3471,7 @@
 			"",
 			"A spike hilt can be added to any one-handed or two-handed sword or hafted weapon, which conceals a ‹eq-weapon/dagger› within the larger weapon. An observer who succeeds at a DC 20 ‹skill/Perception› check while carefully examining the larger weapon notices the spike hilt.",
 			"",
-			"Drawing a dagger from the spike hilt is a @HL[swift action]. This dagger can be made ‹rule/masterwork<_w› or turned into a magic weapon at the normal cost."
+			"Drawing a dagger from the spike hilt is a @WA. This dagger can be made ‹rule/masterwork<_w› or turned into a magic weapon at the normal cost."
 		]
 	},
 	"spiked_focus_ward": {
@@ -3510,7 +3510,7 @@
 			"‹SOURCE Alchemy Manual/9›  ",
 			"::tabular{format=misc a=35 b=x d=atool}",
 			"",
-			"@I-lower This fiber is composed of tiny strands of razor-sharp glass laced with alchemical elements. Anyone who touches it finds her skin irritated by countless tiny abrasions. Though it causes only minor discomfort, it opens the skin enough for poison to seep through, allowing injury poisons to be delivered to the affected creature as if they were contact poisons. The abrasions last for 1 hour or until cleaned and treated with a successful DC 10 ‹skill/Heal› check (a @HL[full-round action]).",
+			"@I-lower This fiber is composed of tiny strands of razor-sharp glass laced with alchemical elements. Anyone who touches it finds her skin irritated by countless tiny abrasions. Though it causes only minor discomfort, it opens the skin enough for poison to seep through, allowing injury poisons to be delivered to the affected creature as if they were contact poisons. The abrasions last for 1 hour or until cleaned and treated with a successful DC 10 ‹skill/Heal› check (a @RA).",
 			"",
 			"Poisoners sometimes place *spirit of glass* in a target's wardrobe or amid her personal effects along with a rag soaked in poison. *Spirit of glass* is often mistaken for lint or loose cloth, though it and the abrasions it causes can be identified with a successful DC 15 ‹skill/Craft› (alchemy) check or DC 17 Heal check. *Spirit of glass* can be used only once before it is expended.",
 			"",
@@ -3579,7 +3579,7 @@
 			"‹SOURCE Undead Slayer's Handbook/13›  ",
 			"::tabular{format=misc a=300 b=1 d=atool}",
 			"",
-			"@I-melee-down When you slash this alchemically treated iron spike against your flesh - a @HL[move action] that deals 1d6 points of damage - the *spike* extends and becomes a ‹eq-weapon/short sword› with the ‹magic-enh/ghost touch› weapon special ability. The *spike* reverts to its old form after 10 minutes, corroded and useless. Should a *spiritbane spike* rematerialize within a corporeal body, it is shunted to the nearest empty space without effect.",
+			"@I-melee-down When you slash this alchemically treated iron spike against your flesh - a @MA that deals 1d6 points of damage - the *spike* extends and becomes a ‹eq-weapon/short sword› with the ‹magic-enh/ghost touch› weapon special ability. The *spike* reverts to its old form after 10 minutes, corroded and useless. Should a *spiritbane spike* rematerialize within a corporeal body, it is shunted to the nearest empty space without effect.",
 			"",
 			"::tabular{format=craftalch a=25}"
 		]
@@ -3786,7 +3786,7 @@
 			"‹SOURCE Potions and Poisons/23›  ",
 			"::tabular{format=misc a=300 b=x d=tinc}",
 			"",
-			"@I-power-down This clear liquid glows with pale light. For 4 hours after drinking this tincture, you emit light as a ‹eq-misc/torch›. You are constantly ‹misc/dazzled› during this time. If any effect would cause you to become dazzled during this time, you are instead ‹misc/blinded›. While under the effect of this tincture, you can intensify your glow as a @HL[swift action] to that of bright light, as per ‹spell/daylight›, for 1 round. After activating the bright light effect, you emit only dim light with a range of 10 feet for the remainder of the tincture's duration.",
+			"@I-power-down This clear liquid glows with pale light. For 4 hours after drinking this tincture, you emit light as a ‹eq-misc/torch›. You are constantly ‹misc/dazzled› during this time. If any effect would cause you to become dazzled during this time, you are instead ‹misc/blinded›. While under the effect of this tincture, you can intensify your glow as a @WA to that of bright light, as per ‹spell/daylight›, for 1 round. After activating the bright light effect, you emit only dim light with a range of 10 feet for the remainder of the tincture's duration.",
 			"",
 			"::tabular{format=craftalch a=30}"
 		]
@@ -3852,7 +3852,7 @@
 			"‹SOURCE Advanced Race Guide/118›  ",
 			"::tabular{format=misc a=50 b=x d=rem}",
 			"",
-			"@I-def Drinking a vial of this bland, bluish liquid grants you a +5 alchemical bonus on Fortitude saves to avoid ‹misc/nausea› or ‹misc/sickness› for 1 hour. If you are already nauseated, you can drink *stillgut* as a @HL[move action]. Drinking it in this fashion grants you a second saving throw (without the +5 bonus).",
+			"@I-def Drinking a vial of this bland, bluish liquid grants you a +5 alchemical bonus on Fortitude saves to avoid ‹misc/nausea› or ‹misc/sickness› for 1 hour. If you are already nauseated, you can drink *stillgut* as a @MA. Drinking it in this fashion grants you a second saving throw (without the +5 bonus).",
 			"",
 			"Goblins often use *stillgut* so they can choke down meat or other foods in advanced stages of rot or decay.",
 			"",
@@ -3869,9 +3869,9 @@
 			"",
 			"This item consists of a pair of wooden poles with a footrest halfway up. By standing on the footrests and holding the tops of the poles you can avoid certain ground-based threats to your feet. For example, you can use stilts to cross water without getting wet, but you would still activate a trap that triggers when you walk in a certain area.",
 			"",
-			"@I-down Using stilts reduces your base speed from 30 feet to 20 feet, or from 20 feet to 15 feet. You can hop off your stilts as a @HL[move action], or as a @HL[free action] with a successful DC 10 ‹skill/Acrobatics› check.",
+			"@I-down Using stilts reduces your base speed from 30 feet to 20 feet, or from 20 feet to 15 feet. You can hop off your stilts as a @MA, or as a @FA with a successful DC 10 ‹skill/Acrobatics› check.",
 			"",
-			"@I-warning You must use both your hands to walk with stilts. Walking with stilts requires a DC 5 Acrobatics check for each move. Failing this check means you do not move for that @HL[move action]; failing by 5 or more means you fall off the stilts. If you want to use one hand for something else while standing on stilts, you must succeed at a DC 10 Acrobatics check or lose the action; if you want to use two hands, the DC increases to 20.",
+			"@I-warning You must use both your hands to walk with stilts. Walking with stilts requires a DC 5 Acrobatics check for each move. Failing this check means you do not move for that @MA; failing by 5 or more means you fall off the stilts. If you want to use one hand for something else while standing on stilts, you must succeed at a DC 10 Acrobatics check or lose the action; if you want to use two hands, the DC increases to 20.",
 			"",
 			"@I-down Stilts for a Medium creature raise you 2 feet above the ground; stilts for a Small creature raise you 1 foot from the ground. You can use taller stilts, but each additional foot of elevation increases the Acrobatics DCs of using stilts by +5. A stilt has ‹rule/hardness› 5 and 10 hit points. If you only have one stilt, your speed drops to 5 feet because you can only hop rather than walk.",
 			"",
@@ -3879,7 +3879,7 @@
 			"",
 			"::tabular{format=misc id=masterwork a=5 b=10 d=gear}",
 			"",
-			"These stilts strap to your feet and legs, allowing you to use your hands for other tasks without penalty. Walking on masterwork stilts requires a DC 10 Acrobatics check. Attaching or removing a masterwork stilt is a @HL[full-round action]."
+			"These stilts strap to your feet and legs, allowing you to use your hands for other tasks without penalty. Walking on masterwork stilts requires a DC 10 Acrobatics check. Attaching or removing a masterwork stilt is a @RA."
 		]
 	},
 	"stilts_masterwork": {
@@ -3949,7 +3949,7 @@
 			"",
 			"This gritty, gray ointment weakens rocky materials.",
 			"",
-			"When applied to an object made of stone, it reduces the object's ‹rule/hardness› by 3 for 10 minutes. As a @HL[standard action], a creature can apply the paste to affect one 5-foot-square or a Medium or smaller creature. The paste only affects hardness, not damage reduction or similar defenses.",
+			"When applied to an object made of stone, it reduces the object's ‹rule/hardness› by 3 for 10 minutes. As a @SA, a creature can apply the paste to affect one 5-foot-square or a Medium or smaller creature. The paste only affects hardness, not damage reduction or similar defenses.",
 			"",
 			"::tabular{format=craftalch a=20}"
 		]
@@ -4175,7 +4175,7 @@
 			"",
 			"This lumpy, lard-like, alchemical substance is designed to protect armor and weapons from dents and cracks that commonly develop in close-combat equipment. When liberally applied to armor or weapons, the material provides a greasy surface that blunts impacts, causes blades to slide aside, and strengthens the gear it is applied to.",
 			"",
-			"@I-def A single container holds enough *sunderblock* to coat a single weapon or suit of armor as a @HL[full-round action]. The effects aren't pronounced enough to increase the Armor Class bonus of a suit of armor, but the ‹rule/hardness› of armors and weapons coated with sunderblock increases by 5. This bonus lasts for 12 hours, at which point the greasy substance dries and flakes away."
+			"@I-def A single container holds enough *sunderblock* to coat a single weapon or suit of armor as a @RA. The effects aren't pronounced enough to increase the Armor Class bonus of a suit of armor, but the ‹rule/hardness› of armors and weapons coated with sunderblock increases by 5. This bonus lasts for 12 hours, at which point the greasy substance dries and flakes away."
 		]
 	},
 	"sundered_mask_nethys": {
@@ -4204,7 +4204,7 @@
 			"‹SOURCE Alchemy Manual/30;PRPG Core Rulebook/158;Ultimate Equipment/103›  ",
 			"::tabular{format=misc a=2 b=1 d=atool}",
 			"",
-			"@I-power This 1-foot-long, gold-tipped iron rod glows brightly when struck (a @HL[standard action]). It sheds normal light in a 30-foot radius and increases the ‹rule/light level› by one step for an additional 30 feet beyond that area (darkness becomes dim light and dim light becomes normal light). A *sunrod* does not increase the light level in normal light or bright light. It glows for 6 hours, after which the gold tip is burned out and worthless.",
+			"@I-power This 1-foot-long, gold-tipped iron rod glows brightly when struck (a @SA). It sheds normal light in a 30-foot radius and increases the ‹rule/light level› by one step for an additional 30 feet beyond that area (darkness becomes dim light and dim light becomes normal light). A *sunrod* does not increase the light level in normal light or bright light. It glows for 6 hours, after which the gold tip is burned out and worthless.",
 			"",
 			"::tabular{format=spontalch a=\"mag2/phos2\" b=ceration c=25 d=\"10 minutes\" f=crucible g=tool}"
 		]
@@ -4249,7 +4249,7 @@
 			"",
 			"A sureseal bladder is made of a thin membrane that won't allow liquid through. By passing a solid spout or tube through the membrane, you can fill the bladder without allowing in any ambient seawater, and the membrane seals behind the spout. Once the bladder is full, the drinker can nip on the end of the membrane in order to sip the drink at her leisure, slowly crumpling the bladder for eventual disposal.",
 			"",
-			"The cheaper mundane sureseal bladders hold about 2 cups of liquid and work best for enjoying a favorite drink; the listed weight assumes the mundane sureseal bladder is full. Potions rely on drinking the entire dose, so potion sureseal bladders, while much smaller (just large enough for a potion), are pressurized in order to expel the entire potion at once without losing any of it, allowing the drinker to drink them as a @HL[standard action] just like drinking a potion above the waves. Either type of sureseal bladder can be used only once."
+			"The cheaper mundane sureseal bladders hold about 2 cups of liquid and work best for enjoying a favorite drink; the listed weight assumes the mundane sureseal bladder is full. Potions rely on drinking the entire dose, so potion sureseal bladders, while much smaller (just large enough for a potion), are pressurized in order to expel the entire potion at once without losing any of it, allowing the drinker to drink them as a @SA just like drinking a potion above the waves. Either type of sureseal bladder can be used only once."
 		]
 	},
 	"sureseal_bladder_potion": {
@@ -4306,7 +4306,7 @@
 			"",
 			"When ingested, this thick red gelatinous substance seeks out and surgically eliminates invasive threats to the body.",
 			"",
-			"@I-aid Consuming *surgical jelly* immediately ends any ‹rule/infestations› (such as ‹infestation/rot grubs›), implanted eggs (such as those implanted by ‹monster/xill«s›), or other non-disease effects that can be cured by ‹spell/remove disease›, so long as such a cure does not require a caster level check. Consuming a pot of *surgical jelly* is a @HL[full-round action].",
+			"@I-aid Consuming *surgical jelly* immediately ends any ‹rule/infestations› (such as ‹infestation/rot grubs›), implanted eggs (such as those implanted by ‹monster/xill«s›), or other non-disease effects that can be cured by ‹spell/remove disease›, so long as such a cure does not require a caster level check. Consuming a pot of *surgical jelly* is a @RA.",
 			"",
 			"::tabular{format=craftalch a=25}"
 		]
@@ -4660,7 +4660,7 @@
 			"",
 			"@I-def The occupants of a tent that is fitted with the cover gain a +5 circumstance bonus on saves to resist the adverse effects of dust storms, rain, snow, and other harmful weather conditions. The occupants also gain DR 5/- against swarm damage caused by ‹subtype/swarm«s› composed of Diminutive or smaller creatures outside the tent. If an occupant takes no damage from a swarm as a result of this DR, she is not affected by the swarm's *distraction* ability.",
 			"",
-			"@I-warning The swarm can attempt a DC 20 Reflex save as a @HL[full-round action] to enter the tent and deal full damage in subsequent rounds."
+			"@I-warning The swarm can attempt a DC 20 Reflex save as a @RA to enter the tent and deal full damage in subsequent rounds."
 		]
 	},
 	"tent": { "redirect": "tent_small" },
@@ -4678,7 +4678,7 @@
 			"",
 			"A hanging tent is a ‹eq-misc/small tent› (able to comfortably house a single Medium creature) with a teardrop shape, which hangs from a sturdy anchor rope. The rope can be tied to a tree limb, ‹eq-misc/grappling hook›, or even a ‹eq-misc/piton› hammered into a cliff side.",
 			"",
-			"Hanging tents are used primarily in mountainous terrain (where no flat surface may be available for camping) and swamps (where no dry ground may be available). Climbing in or out of a hanging tent is a @HL[full-round action] that requires a DC 10 ‹skill/Climb› check. Failure indicates another attempt must be made, while failure by 5 or more indicates the camper has fallen from the tent."
+			"Hanging tents are used primarily in mountainous terrain (where no flat surface may be available for camping) and swamps (where no dry ground may be available). Climbing in or out of a hanging tent is a @RA that requires a DC 10 ‹skill/Climb› check. Failure indicates another attempt must be made, while failure by 5 or more indicates the camper has fallen from the tent."
 		]
 	},
 	"tepache_cup": {
@@ -4763,7 +4763,7 @@
 			"‹SOURCE Dungeoneer's Handbook/25›  ",
 			"::tabular{format=misc a=\"70 gp (common), 820 gp (mithral)\" b=\"3 lbs. (common), 1&frac12& lbs. (mithral)\" c=x d=tools}",
 			"",
-			"@I-power-down These long-reaching extenders can be attached to or detached from ‹eq-misc/thieves' tools› as a @HL[standard action], allowing the user to make ‹skill/Disable Device› checks on devices in any space he could reach with a reach weapon. High-quality mirrors on the shafts let him see what he's doing, but he takes a -4 penalty on Disable Device checks when working on a device more than 5 feet away."
+			"@I-power-down These long-reaching extenders can be attached to or detached from ‹eq-misc/thieves' tools› as a @SA, allowing the user to make ‹skill/Disable Device› checks on devices in any space he could reach with a reach weapon. High-quality mirrors on the shafts let him see what he's doing, but he takes a -4 penalty on Disable Device checks when working on a device more than 5 feet away."
 		]
 	},
 	"thieves_tool_extenders_mithral": {
@@ -4854,7 +4854,7 @@
 			"",
 			"This intricate glass and metal jug vibrates gently, and contains a light cloud of white vapor and crackling blue electricity. Djinn of the Plane of Air use *thunder kettles* to capture the essence of air and lightning elementals within planar super storms.",
 			"",
-			"@I-aura-lower When uncorked as a @HL[standard action], a *thunder kettle* releases a rumbling cacophony of thunder in a 10-foot-radius ‹misc/burst›. Creatures in the area must succeed at a DC 16 Fortitude save or take 1d6 points of sonic damage and become ‹misc/staggered› for 1 round. A successful save halves the damage and negates the staggered condition.",
+			"@I-aura-lower When uncorked as a @SA, a *thunder kettle* releases a rumbling cacophony of thunder in a 10-foot-radius ‹misc/burst›. Creatures in the area must succeed at a DC 16 Fortitude save or take 1d6 points of sonic damage and become ‹misc/staggered› for 1 round. A successful save halves the damage and negates the staggered condition.",
 			"",
 			"::tabular{format=craftalch a=25}"
 		]
@@ -4887,7 +4887,7 @@
 			"",
 			"This gum has alchemical properties that allow it to soak up magical energy and release it when the gum is chewed.",
 			"",
-			"@I-magic As a @HL[standard action], a stick of tiller's gum can be imbued with a spell of up to 3rd level with a casting time of less than 1 minute and that targets one or more creatures, as if the gum were the target of the spell. The gum holds the spell's charge for 1 hour, during which time a creature capable of casting the stored spell can chew the gum as a @HL[standard action] to gain the spell's effects, expending the stored spell and destroying the gum. The stored spell uses the original caster's level to determine its effects.",
+			"@I-magic As a @SA, a stick of tiller's gum can be imbued with a spell of up to 3rd level with a casting time of less than 1 minute and that targets one or more creatures, as if the gum were the target of the spell. The gum holds the spell's charge for 1 hour, during which time a creature capable of casting the stored spell can chew the gum as a @SA to gain the spell's effects, expending the stored spell and destroying the gum. The stored spell uses the original caster's level to determine its effects.",
 			"",
 			"If the spell-imbued gum isn't used before an hour passes, it is ruined.",
 			"",
@@ -4906,7 +4906,7 @@
 			"‹SOURCE Alchemy Manual/30;Ultimate Equipment/103;PRPG Core Rulebook/158›  ",
 			"::tabular{format=misc a=1 b=x d=atool}",
 			"",
-			"The alchemical substance on the end of this small, wooden stick ignites when struck against a rough surface (a @HL[move action]). Creating a flame with a tindertwig is much faster than creating a flame with tinder and a ‹eq-misc/flint and steel› or magnifying glass. Lighting a torch with a tindertwig is a @HL[standard action] rather than a full-round action, and lighting any other fire with one is at least a standard action. A tindertwig burns for 1d2 rounds and sheds light as a ‹eq-misc/candle›. Tindertwigs are waterproof, but must be dried before you can strike them.",
+			"The alchemical substance on the end of this small, wooden stick ignites when struck against a rough surface (a @MA). Creating a flame with a tindertwig is much faster than creating a flame with tinder and a ‹eq-misc/flint and steel› or magnifying glass. Lighting a torch with a tindertwig is a @SA rather than a full-round action, and lighting any other fire with one is at least a standard action. A tindertwig burns for 1d2 rounds and sheds light as a ‹eq-misc/candle›. Tindertwigs are waterproof, but must be dried before you can strike them.",
 			"",
 			"::tabular{format=spontalch a=\"brim2/phos1\" b=ceration c=25 d=\"10 minutes\" f=crucible g=tool}"
 		]
@@ -4923,7 +4923,7 @@
 			"",
 			"@I-boost While the lenses are properly aligned, the wearer gains a +2 circumstance bonus on ‹skill/Appraise› and ‹skill/Craft› checks involving items that are small or highly detailed and on sight-based ‹skill/Perception› checks when she uses an action to inspect something within 5 feet.",
 			"",
-			"However, the arms become misaligned if the wearer falls ‹rule/prone› or is ‹rule/grappled›, or if the helmet is damaged (‹rule/hardness› 5, 2 hit points). If the arms are misaligned, they lose their usefulness until readjusted (a @HL[full-round action] that provokes attacks of opportunity)."
+			"However, the arms become misaligned if the wearer falls ‹rule/prone› or is ‹rule/grappled›, or if the helmet is damaged (‹rule/hardness› 5, 2 hit points). If the arms are misaligned, they lose their usefulness until readjusted (a @RA that provokes attacks of opportunity)."
 		]
 	},
 	"titans_tonic": {
@@ -5013,7 +5013,7 @@
 			"",
 			"A *tossglove* is a hefty leather and metal glove made for holding and throwing an insect, snake, or other tiny creature that would otherwise bite the goblin. Those who don't use a *tossglove* when attempting to sling such creatures provoke an attack of opportunity from the animal they attempt to throw or stash.",
 			"",
-			"@I-info The glove has overlapping plates that cover the goblin's arm up to the elbow. It's a @HL[full-round action] to put on or take off a *tossglove,* and while it's worn, that hand can't be used to perform acts of fine manipulation (such as making a ‹skill/Disable Device› check or firing an arrow). The gloved hand can still wield a melee weapon."
+			"@I-info The glove has overlapping plates that cover the goblin's arm up to the elbow. It's a @RA to put on or take off a *tossglove,* and while it's worn, that hand can't be used to perform acts of fine manipulation (such as making a ‹skill/Disable Device› check or firing an arrow). The gloved hand can still wield a melee weapon."
 		]
 	},
 	"toxic_censer": {

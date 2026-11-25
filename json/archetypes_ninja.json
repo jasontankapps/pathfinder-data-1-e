@@ -66,7 +66,7 @@
 			"",
 			"::ab[Weapon and Armor Proficiencies]{icon=power info=\"In addition to having the ninja's normal weapon and armor proficiencies, the mask of the Living God is proficient with ‹eq-weapon/bolas›, ‹eq-weapon/sap«s›, and ‹eq-weapon/whip«s›.\" alter=\"Weapon and armor proficiency\"}",
 			"",
-			"::ab[Mask (Ex)]{icon=warning ability=\"A mask of the Living God has a mask that is a symbol of his faith and the myriad powers invested in him. Abilities granted by this class other than *undercover faith* function only while the mask of the Living God is wearing his mask. Putting on or removing this mask is a @HLmove_action.\"}",
+			"::ab[Mask (Ex)]{icon=warning ability=\"A mask of the Living God has a mask that is a symbol of his faith and the myriad powers invested in him. Abilities granted by this class other than *undercover faith* function only while the mask of the Living God is wearing his mask. Putting on or removing this mask is a @MA.\"}",
 			"",
 			"::ab[Undercover Faith (Ex)]{l=1 icon=power ability=\"When not wearing his mask, a mask of the Living God can take on an utterly mundane identity as if he were a ‹class/vigilante› with the ‹soctalent/many guises› social talent. While in a mundane identity, the mask of the Living God cannot wear his mask; putting it on while in a mundane identity immediately ends the mundane identity and its effects.\" special=\"Changing into this mundane identity takes 1 minute and must be done out of sight to preserve the mask of the Living God's secret. The time it takes the mask of the Living God to change into a mundane identity cannot be decreased.\" replace=\"Poison use\"}",
 			"",

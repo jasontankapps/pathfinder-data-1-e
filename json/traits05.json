@@ -175,7 +175,7 @@
 		"compilationSources": [ [ "Blood of Angels" ] ],
 		"category": "Aasimar-Lawbringer",
 		"description": [
-			"::trait{title=\"&L&Lantern Spirit&FN&\" type=Race req=\"‹race/Aasimar›; Lawbringer\" flavor=\"Your celestial ancestor was a ‹monster/lantern archon› for centuries before ascending to a higher rank.\" benefit=\"You feel a strange sense of nostalgia whenever you use your ‹spell/continual flame› spell-like ability, and can use it as a @HLmove_action instead of a standard action.\"}"
+			"::trait{title=\"&L&Lantern Spirit&FN&\" type=Race req=\"‹race/Aasimar›; Lawbringer\" flavor=\"Your celestial ancestor was a ‹monster/lantern archon› for centuries before ascending to a higher rank.\" benefit=\"You feel a strange sense of nostalgia whenever you use your ‹spell/continual flame› spell-like ability, and can use it as a @MA instead of a standard action.\"}"
 		],
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
@@ -247,7 +247,7 @@
 		"compilationSources": [ [ "People of the Stars" ] ],
 		"category": "Android",
 		"description": [
-			"::trait{title=\"&L&Nanite Revival&FN&\" type=Race req=\"‹race/Android›\" flavor=\"You can instinctively activate your nanites to save your life.\" benefit=\"Once per day as an @HLimmediate_action, you can command your nanites to stabilize you while you are ‹misc/dying›, even while unconscious or helpless. This does not count as a use of your *nanite surge* ability.\"}"
+			"::trait{title=\"&L&Nanite Revival&FN&\" type=Race req=\"‹race/Android›\" flavor=\"You can instinctively activate your nanites to save your life.\" benefit=\"Once per day as an @IA, you can command your nanites to stabilize you while you are ‹misc/dying›, even while unconscious or helpless. This does not count as a use of your *nanite surge* ability.\"}"
 		],
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
@@ -445,7 +445,7 @@
 		"compilationSources": [ [ "Agents of Evil" ] ],
 		"category": "Drow",
 		"description": [
-			"::trait{title=\"&L&Arcane Prodigy&FN&\" type=Race req=\"‹race/Drow›\" benefit=\"Once per day as an @HLimmediate_action, you can double the duration of one of your racial spell-like abilities, as if using the ‹feat/Extend Spell› metamagic feat.\"}"
+			"::trait{title=\"&L&Arcane Prodigy&FN&\" type=Race req=\"‹race/Drow›\" benefit=\"Once per day as an @IA, you can double the duration of one of your racial spell-like abilities, as if using the ‹feat/Extend Spell› metamagic feat.\"}"
 		],
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
@@ -867,7 +867,7 @@
 		"compilationSources": [ [ "Inner Sea Races" ] ],
 		"category": "Other Races-Gathlain",
 		"description": [
-			"::trait{title=\"&L&Frustrating&FN&\" type=Race req=\"‹race/Gathlain›\" flavor=\"You can get anyone's attention, even when they are focused elsewhere.\" benefit=\"You can make ‹skill/Bluff› checks to create a diversion for allies within 30 feet to hide (provided they readied an action to hide), and you can make Bluff checks to feint for one adjacent ally of your choice. Either use of this ability is a @HLstandard_action.\"}"
+			"::trait{title=\"&L&Frustrating&FN&\" type=Race req=\"‹race/Gathlain›\" flavor=\"You can get anyone's attention, even when they are focused elsewhere.\" benefit=\"You can make ‹skill/Bluff› checks to create a diversion for allies within 30 feet to hide (provided they readied an action to hide), and you can make Bluff checks to feint for one adjacent ally of your choice. Either use of this ability is a @SA.\"}"
 		],
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
@@ -915,7 +915,7 @@
 		"compilationSources": [ [ "Inner Sea Races" ] ],
 		"category": "Other Races-Gillman",
 		"description": [
-			"::trait{title=\"&L&Memory Mastery&FN&\" type=Race req=\"‹race/Gillman›\" flavor=\"You can suppress your own memories to help tell more convincing lies.\" benefit=\"Once per day as an @HLimmediate_action, you can cause yourself to forget a single event or fact for a period of 10 minutes. Enemies reading your mind cannot learn the information. Until the memory returns, you gain a +10 trait bonus on ‹skill/Bluff› checks to convince others that you do not know the information.\"}"
+			"::trait{title=\"&L&Memory Mastery&FN&\" type=Race req=\"‹race/Gillman›\" flavor=\"You can suppress your own memories to help tell more convincing lies.\" benefit=\"Once per day as an @IA, you can cause yourself to forget a single event or fact for a period of 10 minutes. Enemies reading your mind cannot learn the information. Until the memory returns, you gain a +10 trait bonus on ‹skill/Bluff› checks to convince others that you do not know the information.\"}"
 		],
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
@@ -1032,7 +1032,7 @@
 		"compilationSources": [ [ "Goblins of Golarion" ] ],
 		"category": "Goblin",
 		"description": [
-			"::trait{title=\"&L&Advantageous Distraction&FN&\" type=Race req=\"‹race/Goblin›\" flavor=\"Like most goblins, you're easily distracted. Unlike most goblins, though, you have a knack for being distracted at the right time, especially when it comes to avoiding pain.\" benefit=\"Once per day as a @HLswift_action, you can be momentarily distracted in combat: ducking an axe swing to inspect a toadstool, or stooping behind a tree to lick some bark and accidentally avoiding an arrow, and so on. When you activate this ability, you gain a +2 dodge bonus to your AC for 1 round.\"}"
+			"::trait{title=\"&L&Advantageous Distraction&FN&\" type=Race req=\"‹race/Goblin›\" flavor=\"Like most goblins, you're easily distracted. Unlike most goblins, though, you have a knack for being distracted at the right time, especially when it comes to avoiding pain.\" benefit=\"Once per day as a @WA, you can be momentarily distracted in combat: ducking an axe swing to inspect a toadstool, or stooping behind a tree to lick some bark and accidentally avoiding an arrow, and so on. When you activate this ability, you gain a +2 dodge bonus to your AC for 1 round.\"}"
 		],
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
@@ -1101,7 +1101,7 @@
 		"compilationSources": [ [ "Goblins of Golarion" ] ],
 		"category": "Goblin",
 		"description": [
-			"::trait{title=\"&L&Foul Belch&FN&\" type=Race req=\"‹race/Goblin›\" benefit=\"Once per day as a @HLstandard_action, you can force a particularly odious belch at a single opponent within 5 feet. The character affected must make a DC 12 Fortitude save or be ‹misc/sickened› for 1d6 rounds. The save DC is Constitution-based.\"}"
+			"::trait{title=\"&L&Foul Belch&FN&\" type=Race req=\"‹race/Goblin›\" benefit=\"Once per day as a @SA, you can force a particularly odious belch at a single opponent within 5 feet. The character affected must make a DC 12 Fortitude save or be ‹misc/sickened› for 1d6 rounds. The save DC is Constitution-based.\"}"
 		],
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
@@ -1370,7 +1370,7 @@
 		"compilationSources": [ [ "Heroes of the Wild" ] ],
 		"category": "Half-orc",
 		"description": [
-			"::trait{title=\"&L&Wild Ferocity&FN&\" type=Race req=\"‹race/Half-orc›\" benefit=\"Select one terrain type from the ranger's ‹ability/favored terrain› list. While in this terrain type, taking a @HLstandard_action while ‹misc/disabled› does not cause you to take the normal 1 point of damage. You can use this trait when acting as if disabled despite having a negative hit point total as a result of *orc ferocity* or the ‹feat/Diehard› feat.\"}"
+			"::trait{title=\"&L&Wild Ferocity&FN&\" type=Race req=\"‹race/Half-orc›\" benefit=\"Select one terrain type from the ranger's ‹ability/favored terrain› list. While in this terrain type, taking a @SA while ‹misc/disabled› does not cause you to take the normal 1 point of damage. You can use this trait when acting as if disabled despite having a negative hit point total as a result of *orc ferocity* or the ‹feat/Diehard› feat.\"}"
 		],
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
@@ -1836,7 +1836,7 @@
 		"compilationSources": [ [ "Inner Sea Races" ] ],
 		"category": "Human-Garundi",
 		"description": [
-			"::trait{title=\"&L&Effortless Aid&FN&\" type=Race req=\"‹race/Human›; Garundi\" flavor=\"You naturally observe others, and move to complement them.\" benefit=\"Once per day as a @HLmove_action, you can select an adjacent ally. For the next minute, you can take 10 on attack rolls and skill checks to use the ‹rule/aid another<_2› action to aid that ally, even if you are distracted.\"}"
+			"::trait{title=\"&L&Effortless Aid&FN&\" type=Race req=\"‹race/Human›; Garundi\" flavor=\"You naturally observe others, and move to complement them.\" benefit=\"Once per day as a @MA, you can select an adjacent ally. For the next minute, you can take 10 on attack rolls and skill checks to use the ‹rule/aid another<_2› action to aid that ally, even if you are distracted.\"}"
 		],
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
@@ -1971,7 +1971,7 @@
 		"compilationSources": [ [ "Inner Sea Races" ] ],
 		"category": "Human-Keleshite",
 		"description": [
-			"::trait{title=\"&L&Tempestuous Combatant&FN&\" type=Race req=\"‹race/Human›; Keleshite\" flavor=\"You move confidently in the face of danger.\" benefit=\"Once per day as a @HLswift_action, you can choose one opponent. You and your mount (if any) do not provoke attacks of opportunity from that opponent for moving within or exiting his threatened area.\"}"
+			"::trait{title=\"&L&Tempestuous Combatant&FN&\" type=Race req=\"‹race/Human›; Keleshite\" flavor=\"You move confidently in the face of danger.\" benefit=\"Once per day as a @WA, you can choose one opponent. You and your mount (if any) do not provoke attacks of opportunity from that opponent for moving within or exiting his threatened area.\"}"
 		],
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
@@ -2169,7 +2169,7 @@
 		"compilationSources": [ [ "Inner Sea Races" ] ],
 		"category": "Human-Shoanti",
 		"description": [
-			"::trait{title=\"&L&Favored Champion&FN&\" type=Race req=\"‹race/Human›; Shoanti\" flavor=\"Omens from the spirits indicated you would be a great champion against your tribe's enemies.\" benefit=\"Once per day as an @HLimmediate_action when you fail a combat maneuver check, you can reroll it. You must take the second result even if it is worse.\"}"
+			"::trait{title=\"&L&Favored Champion&FN&\" type=Race req=\"‹race/Human›; Shoanti\" flavor=\"Omens from the spirits indicated you would be a great champion against your tribe's enemies.\" benefit=\"Once per day as an @IA when you fail a combat maneuver check, you can reroll it. You must take the second result even if it is worse.\"}"
 		],
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
@@ -2331,7 +2331,7 @@
 		"compilationSources": [ [ "Humans of Golarion" ] ],
 		"category": "Human-Ulfen",
 		"description": [
-			"::trait{title=\"&L&Shield Bearer&FN&\" type=Race req=\"‹race/Human›; Ulfen\" flavor=\"You have survived many battles thanks to your skill with your shield.\" benefit=\"When performing a ‹misc/shield bash›, you deal 1 additional point of damage. Also, once per day on your turn as a @HLfree_action, you may provide one adjacent ally a +2 trait bonus to his AC. This bonus lasts for 1 round, so long as you and the target remain adjacent to one another. You can only use this ability if you are using a shield. You retain your shield bonus to your armor class when using this ability.\"}"
+			"::trait{title=\"&L&Shield Bearer&FN&\" type=Race req=\"‹race/Human›; Ulfen\" flavor=\"You have survived many battles thanks to your skill with your shield.\" benefit=\"When performing a ‹misc/shield bash›, you deal 1 additional point of damage. Also, once per day on your turn as a @FA, you may provide one adjacent ally a +2 trait bonus to his AC. This bonus lasts for 1 round, so long as you and the target remain adjacent to one another. You can only use this ability if you are using a shield. You retain your shield bonus to your armor class when using this ability.\"}"
 		],
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
@@ -2430,7 +2430,7 @@
 		"compilationSources": [ [ "Humans of Golarion" ] ],
 		"category": "Human-Vudrani",
 		"description": [
-			"::trait{title=\"&L&Open Palm of Irori&FN&\" type=Race req=\"‹race/Human›; Vudrani\" flavor=\"Your practice of the tenets of Vudrani martial arts has granted you a perfect balance between body and spirit.\" benefit=\"You gain a +1 trait bonus on ‹skill/Acrobatics› and ‹skill/Knowledge (religion)› checks. If you have a *ki pool,* once per day as a @HLswift_action, you may channel your *ki* during an unarmed strike, gaining a +2 trait bonus on one damage roll. This additional damage is ‹misc/precision damage›.\"}"
+			"::trait{title=\"&L&Open Palm of Irori&FN&\" type=Race req=\"‹race/Human›; Vudrani\" flavor=\"Your practice of the tenets of Vudrani martial arts has granted you a perfect balance between body and spirit.\" benefit=\"You gain a +1 trait bonus on ‹skill/Acrobatics› and ‹skill/Knowledge (religion)› checks. If you have a *ki pool,* once per day as a @WA, you may channel your *ki* during an unarmed strike, gaining a +2 trait bonus on one damage roll. This additional damage is ‹misc/precision damage›.\"}"
 		],
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
@@ -2484,7 +2484,7 @@
 		"compilationSources": [ [ "People of the Sands" ] ],
 		"category": "Geniekin-Ifrit",
 		"description": [
-			"::trait{title=\"&L&Snap Ignition&FN&\" type=Race req=\"‹race/Ifrit›\" flavor=\"You are a pyromaniac by nature and love nothing more than setting fires.\" benefit=\"As a @HLfull-round_action, you can produce a small flame at the end of your finger that ignites combustible materials as a ‹eq-misc/tindertwig›. Alternatively, you can maintain a flame equivalent to a ‹eq-misc/candle› by spending a @HLstandard_action each round to concentrate on it.\"}"
+			"::trait{title=\"&L&Snap Ignition&FN&\" type=Race req=\"‹race/Ifrit›\" flavor=\"You are a pyromaniac by nature and love nothing more than setting fires.\" benefit=\"As a @RA, you can produce a small flame at the end of your finger that ignites combustible materials as a ‹eq-misc/tindertwig›. Alternatively, you can maintain a flame equivalent to a ‹eq-misc/candle› by spending a @SA each round to concentrate on it.\"}"
 		],
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
@@ -2502,7 +2502,7 @@
 		"compilationSources": [ [ "People of the Stars" ] ],
 		"category": "Kasatha",
 		"description": [
-			"::trait{title=\"&L&Adroit&FN&\" type=Race req=\"‹race/Kasatha›\" benefit=\"If one of your hands is free and your base attack bonus is +1 or higher, you can draw a weapon as a @HLfree_action combined with any @HLmove_action (including move actions to direct spells, manipulate items, stand up, and so on).\"}"
+			"::trait{title=\"&L&Adroit&FN&\" type=Race req=\"‹race/Kasatha›\" benefit=\"If one of your hands is free and your base attack bonus is +1 or higher, you can draw a weapon as a @FA combined with any @MA (including move actions to direct spells, manipulate items, stand up, and so on).\"}"
 		],
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
@@ -2790,7 +2790,7 @@
 		"compilationSources": [ [ "People of the Stars" ] ],
 		"category": "Lashunta",
 		"description": [
-			"::trait{title=\"&L&Tactile Telekinesis&FN&\" type=Race req=\"‹race/Lashunta›\" benefit=\"Once per day as a @HLswift_action, you can add a trait bonus equal to your Intelligence modifier on Strength checks and Strength-based skill checks you attempt before the beginning of your next turn.\"}"
+			"::trait{title=\"&L&Tactile Telekinesis&FN&\" type=Race req=\"‹race/Lashunta›\" benefit=\"Once per day as a @WA, you can add a trait bonus equal to your Intelligence modifier on Strength checks and Strength-based skill checks you attempt before the beginning of your next turn.\"}"
 		],
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
@@ -2844,7 +2844,7 @@
 		"compilationSources": [ [ "Blood of the Elements" ] ],
 		"category": "Geniekin-Oread",
 		"description": [
-			"::trait{title=\"&L&Earthsense&FN&\" type=Race req=\"‹race/Oread›\" flavor=\"You were inexplicably transformed in the womb by elemental forces, making your connection to the earth exceptionally strong.\" benefit=\"As a @HLswift_action, you can gain ‹umr/tremorsense› to a range of 60 feet until the beginning of your next turn. You can use this ability once per day at 1st level, plus one additional time per day at 5th level and every 5 levels thereafter, to a maximum of five times per day at 20th level.\"}"
+			"::trait{title=\"&L&Earthsense&FN&\" type=Race req=\"‹race/Oread›\" flavor=\"You were inexplicably transformed in the womb by elemental forces, making your connection to the earth exceptionally strong.\" benefit=\"As a @WA, you can gain ‹umr/tremorsense› to a range of 60 feet until the beginning of your next turn. You can use this ability once per day at 1st level, plus one additional time per day at 5th level and every 5 levels thereafter, to a maximum of five times per day at 20th level.\"}"
 		],
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
@@ -3033,7 +3033,7 @@
 		"compilationSources": [ [ "Blood of the Moon" ] ],
 		"category": "Skinwalker-Werecrocodile-kin",
 		"description": [
-			"::trait{title=\"&L&Terrifying Lunge&FN&\" type=Race req=\"‹race/Skinwalker›; Werecrocodile-kin\" flavor=\"Once badly bitten by a stronger werecrocodile-kin, you learned the importance of showing your strength.\" benefit=\"Once per day, when you hit a ‹rule/flat-footed› foe with a melee attack, you can make an ‹skill/Intimidate› check to demoralize that foe as a @HLswift_action. Intimidate becomes a class skill for you.\"}"
+			"::trait{title=\"&L&Terrifying Lunge&FN&\" type=Race req=\"‹race/Skinwalker›; Werecrocodile-kin\" flavor=\"Once badly bitten by a stronger werecrocodile-kin, you learned the importance of showing your strength.\" benefit=\"Once per day, when you hit a ‹rule/flat-footed› foe with a melee attack, you can make an ‹skill/Intimidate› check to demoralize that foe as a @WA. Intimidate becomes a class skill for you.\"}"
 		],
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
@@ -3096,7 +3096,7 @@
 		"compilationSources": [ [ "Blood of the Moon" ] ],
 		"category": "Skinwalker-Werewolf-kin",
 		"description": [
-			"::trait{title=\"&L&Lycanthropic Bloodlust&FN&\" type=Race req=\"‹race/Skinwalker›; Werewolf-kin\" flavor=\"When your lycanthropic heritage awakened, you thrilled at any excuse for violence. Although you might have learned to focus or suppress this urge, it still gives you energy in a fight.\" benefit=\"Once per day, when you deal damage to a foe with a natural attack, you may gain 1d6 ‹rule/temporary hit points› as an @HLimmediate_action. These temporary hit points last for 1 minute.\"}"
+			"::trait{title=\"&L&Lycanthropic Bloodlust&FN&\" type=Race req=\"‹race/Skinwalker›; Werewolf-kin\" flavor=\"When your lycanthropic heritage awakened, you thrilled at any excuse for violence. Although you might have learned to focus or suppress this urge, it still gives you energy in a fight.\" benefit=\"Once per day, when you deal damage to a foe with a natural attack, you may gain 1d6 ‹rule/temporary hit points› as an @IA. These temporary hit points last for 1 minute.\"}"
 		],
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
@@ -3105,7 +3105,7 @@
 		"compilationSources": [ [ "Blood of the Moon" ] ],
 		"category": "Skinwalker-Werewolf-kin",
 		"description": [
-			"::trait{title=\"&L&Shared Curse&FN&\" type=Race req=\"‹race/Skinwalker›; Werewolf-kin\" flavor=\"A portion of your ancestor's fell curse still courses through your blood.\" benefit=\"Once per day as a @HLstandard_action, you can share a portion of your accursed heritage with a willing ally by dealing 1 point of damage to that ally with a natural weapon. The ally gains a natural bite attack, as if from your skinwalker ability, for 2 rounds.\"}"
+			"::trait{title=\"&L&Shared Curse&FN&\" type=Race req=\"‹race/Skinwalker›; Werewolf-kin\" flavor=\"A portion of your ancestor's fell curse still courses through your blood.\" benefit=\"Once per day as a @SA, you can share a portion of your accursed heritage with a willing ally by dealing 1 point of damage to that ally with a natural weapon. The ally gains a natural bite attack, as if from your skinwalker ability, for 2 rounds.\"}"
 		],
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
@@ -3285,7 +3285,7 @@
 		"compilationSources": [ [ "Agents of Evil" ] ],
 		"category": "Tiefling",
 		"description": [
-			"::trait{title=\"&L&Enduring Heritage&FN&\" type=Race req=\"‹race/Tiefling›\" benefit=\"You can channel your evil ancestry to take advantage of any effects for which such an identity would matter (such as ‹spell/detect evil›). You detect as an evil outsider with the same number of HD as you possess. You can begin or end this effect as a @HLswift_action. You can maintain this effect for a number of rounds per day equal to your HD.\"}"
+			"::trait{title=\"&L&Enduring Heritage&FN&\" type=Race req=\"‹race/Tiefling›\" benefit=\"You can channel your evil ancestry to take advantage of any effects for which such an identity would matter (such as ‹spell/detect evil›). You detect as an evil outsider with the same number of HD as you possess. You can begin or end this effect as a @WA. You can maintain this effect for a number of rounds per day equal to your HD.\"}"
 		],
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
@@ -3411,7 +3411,7 @@
 		"compilationSources": [ [ "Blood of Fiends" ] ],
 		"category": "Tiefling",
 		"description": [
-			"::trait{title=\"&L&Suicidal&FN&\" type=Race req=\"‹race/Tiefling›\" flavor=\"Shame and horror fill your subconscious, and you never stop looking for ways to grant yourself the peace of the grave.\" benefit=\"Once per day, as an @HLimmediate_action, you can make yourself the target of any attack originally directed against a creature occupying an adjacent square.\"}"
+			"::trait{title=\"&L&Suicidal&FN&\" type=Race req=\"‹race/Tiefling›\" flavor=\"Shame and horror fill your subconscious, and you never stop looking for ways to grant yourself the peace of the grave.\" benefit=\"Once per day, as an @IA, you can make yourself the target of any attack originally directed against a creature occupying an adjacent square.\"}"
 		],
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
@@ -3627,7 +3627,7 @@
 		"compilationSources": [ [ "Inner Sea Races" ] ],
 		"category": "Triaxian",
 		"description": [
-			"::trait{title=\"&L&Dragon Friend&FN&\" type=Race req=\"‹race/Triaxian›\" flavor=\"You know how dragons move and how they perceive body language.\" benefit=\"You gain a +1 trait bonus to your CMD against dragons, and whenever you encounter a particular dragon for the first time, you can make a ‹skill/Diplomacy› check to improve its attitude toward you by a maximum of one step as a @HLfull-round_action as long as you have not acted in a hostile manner toward it.\"}"
+			"::trait{title=\"&L&Dragon Friend&FN&\" type=Race req=\"‹race/Triaxian›\" flavor=\"You know how dragons move and how they perceive body language.\" benefit=\"You gain a +1 trait bonus to your CMD against dragons, and whenever you encounter a particular dragon for the first time, you can make a ‹skill/Diplomacy› check to improve its attitude toward you by a maximum of one step as a @RA as long as you have not acted in a hostile manner toward it.\"}"
 		],
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},

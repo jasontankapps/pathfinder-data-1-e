@@ -244,7 +244,7 @@
 			"",
 			"### 1st-Level Renowned Deed",
 			"",
-			"::ab[Thundering Shot (Ex)]{icon=ranged-cone-lower flavor=\"The gunslinger's shots explode with deafening reports.\" l1=\"As a @HLstandard_action the gunslinger can spend 1 point of grit and make a single ranged attack with a firearm. All creatures in a 15-foot cone, starting at the corner of the gunslinger's square closest to the target and extending directly toward the target, must succeed at a Fortitude save (DC = 10 + half the gunslinger's class level + the gunslinger's Wisdom modifier) or be ‹misc/deafened› for 1 minute.\" replace=\"The ‹deed/gunslinger's dodge› deed and one other 1st-level deed\"}",
+			"::ab[Thundering Shot (Ex)]{icon=ranged-cone-lower flavor=\"The gunslinger's shots explode with deafening reports.\" l1=\"As a @SA the gunslinger can spend 1 point of grit and make a single ranged attack with a firearm. All creatures in a 15-foot cone, starting at the corner of the gunslinger's square closest to the target and extending directly toward the target, must succeed at a Fortitude save (DC = 10 + half the gunslinger's class level + the gunslinger's Wisdom modifier) or be ‹misc/deafened› for 1 minute.\" replace=\"The ‹deed/gunslinger's dodge› deed and one other 1st-level deed\"}",
 			"",
 			"### 7th-Level Renowned Deed",
 			"",
@@ -252,7 +252,7 @@
 			"",
 			"### 15th-Level Renowned Deed",
 			"",
-			"::ab[Lethal Patience (Ex)]{icon=ranged-lower flavor=\"While wild flurries of bullets are certainly effective at felling foes, veteran gunslingers appreciate the value of lining up the perfect shot.\" l15=\"The gunslinger can spend 1 grit point to line up a shot against a target as a @HLfull-round_action. On her next turn, she can make an attack against the target as a @HLstandard_action, and if the attack hits, the attack is treated as a critical threat.\" replace=\"The ‹deed/slinger's luck› deed and one other 15th-level deed\"}"
+			"::ab[Lethal Patience (Ex)]{icon=ranged-lower flavor=\"While wild flurries of bullets are certainly effective at felling foes, veteran gunslingers appreciate the value of lining up the perfect shot.\" l15=\"The gunslinger can spend 1 grit point to line up a shot against a target as a @RA. On her next turn, she can make an attack against the target as a @SA, and if the attack hits, the attack is treated as a critical threat.\" replace=\"The ‹deed/slinger's luck› deed and one other 15th-level deed\"}"
 		],
 		"topLink": [ "Gunslinger", "class/gunslinger" ]
 	},

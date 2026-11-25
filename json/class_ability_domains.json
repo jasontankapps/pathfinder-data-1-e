@@ -498,7 +498,7 @@
 			"",
 			"::list[Associated Deities]{hl link=faith all=Bergelmir~Bes~Bolka~Daikitsu~Dretha~Erastil~Fandarra~Folgrit~Gavidya~Iapholi~Imbrex~Inma~Isis~Jiraviddain~Kaikyton~Kurgess~Lorris~Lythertida~Mazludeh~Shei~Svarozic~Thisamet}",
 			"",
-			"::ab[Binding Ties (Su)]{replace=\"The ‹‹calming touch/#touch›› power of the Community domain\" icon=protect standard=\"You can touch an ally and remove one condition affecting the ally by transferring it to yourself. This transfer lasts a number of rounds equal to your cleric level, but you can end it as a @HLfree_action on your turn. At the end of this effect, the condition reverts to the original creature, unless it has ended or is removed by another effect. While this power is in use, the target is immune to the transferred condition.\" useMod=Wis3}",
+			"::ab[Binding Ties (Su)]{replace=\"The ‹‹calming touch/#touch›› power of the Community domain\" icon=protect standard=\"You can touch an ally and remove one condition affecting the ally by transferring it to yourself. This transfer lasts a number of rounds equal to your cleric level, but you can end it as a @FA on your turn. At the end of this effect, the condition reverts to the original creature, unless it has ended or is removed by another effect. While this power is in use, the target is immune to the transferred condition.\" useMod=Wis3}",
 			"",
 			"::spelllist[Replacement Domain Spells]{from=domain l2=\"calm emotions\" l3=\"create food and water\"}",
 			"",

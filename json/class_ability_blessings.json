@@ -74,7 +74,7 @@
 			"",
 			"::ab[Charming Presence (minor)]{icon=def flavor=\"You can touch an ally and grant an entrancing blessing.\" l1=\"For 1 minute, the ally becomes mesmerizing to her opponents, filling them with either abject admiration or paralyzing fear. This effect functions as ‹spell/sanctuary›, except if the ally attacks an opponent, the effect ends with respect to only that opponent. This is a mind-affecting effect.\"}",
 			"",
-			"::ab[Dominance Aura (major)]{icon=aura-magic l10=\"You can surround yourself with a tangible aura of majesty for 1 minute. While this aura is active, once per round as a @HLswift_action you can issue a command (as the ‹spell/command› spell) to one creature within 30 feet; the creature must succeed at a Will saving throw or submit for 1 round.\"}"
+			"::ab[Dominance Aura (major)]{icon=aura-magic l10=\"You can surround yourself with a tangible aura of majesty for 1 minute. While this aura is active, once per round as a @WA you can issue a command (as the ‹spell/command› spell) to one creature within 30 feet; the creature must succeed at a Will saving throw or submit for 1 round.\"}"
 		]
 	},
 	"community": {
@@ -114,7 +114,7 @@
 			"",
 			"::ab[Hexing Attack (minor)]{icon=lower l1=\"You can touch one weapon and enhance it to inflict a minor curse on the next target it strikes. The struck target must succeed at a Will saving throw or take a -2 penalty on attack rolls, saving throws, skill checks, or ability checks (warpriest's choice) for 1 minute.\"}",
 			"",
-			"::ab[Retributive Curse (major)]{icon=lower l10=\"As a @HLswift or @HLimmediate_action, you can inflict a curse on any adjacent creature that scores a critical hit against you or deals ‹misc/precision damage› to you. The target must succeed at a Will saving throw or be cursed.~~~Select one of the following effects: the target takes a -2 penalty to one ability score of your choice (the ability cannot be reduced below 1); the target takes a -2 penalty on attack rolls, saving throws, ability checks, and skill checks; each turn, the target has a 25% chance of taking no action (otherwise, it acts normally).~~~This curse lasts for 1 hour. A creature can be subjected to only one instance of *retributive curse* at a time. This otherwise functions as ‹spell/bestow curse›.\"}"
+			"::ab[Retributive Curse (major)]{icon=lower l10=\"As a @HLswift or @IA, you can inflict a curse on any adjacent creature that scores a critical hit against you or deals ‹misc/precision damage› to you. The target must succeed at a Will saving throw or be cursed.~~~Select one of the following effects: the target takes a -2 penalty to one ability score of your choice (the ability cannot be reduced below 1); the target takes a -2 penalty on attack rolls, saving throws, ability checks, and skill checks; each turn, the target has a 25% chance of taking no action (otherwise, it acts normally).~~~This curse lasts for 1 hour. A creature can be subjected to only one instance of *retributive curse* at a time. This otherwise functions as ‹spell/bestow curse›.\"}"
 		]
 	},
 	"darkness": {
@@ -142,7 +142,7 @@
 			"",
 			"::ab[From the Grave (minor)]{icon=boost-def flavor=\"You can take on a corpse-like visage for 1 minute, making you more intimidating and giving you undead-like protection from harm.\" l1=\"You gain a +4 bonus on Disguise checks to resemble an undead creature and on Intimidate checks, as well as a +2 profane bonus on saving throws against disease, mind-affecting effects, paralysis, poison, and stun.\"}",
 			"",
-			"::ab[Death's Touch (major)]{icon=lower l10=\"You can make a melee touch attack against an opponent to deliver grim suffering. If you succeed, you inflict 1 temporary ‹rule/negative level› on the target for 1 minute. Alternatively, you can activate this ability as a @HLswift_action upon hitting an opponent with a melee attack.\" special=\"These temporary negative levels stack. You gain no benefit from imposing these negative levels (such as the temporary hit points undead gain from ‹spell/enervation›).\"}"
+			"::ab[Death's Touch (major)]{icon=lower l10=\"You can make a melee touch attack against an opponent to deliver grim suffering. If you succeed, you inflict 1 temporary ‹rule/negative level› on the target for 1 minute. Alternatively, you can activate this ability as a @WA upon hitting an opponent with a melee attack.\" special=\"These temporary negative levels stack. You gain no benefit from imposing these negative levels (such as the temporary hit points undead gain from ‹spell/enervation›).\"}"
 		]
 	},
 	"destruction": {
@@ -226,7 +226,7 @@
 			"",
 			"::ab[Lasting Breath (minor)]{icon=def flavor=\"You can touch an ally to bless it with an extra reserve of breath.\" l1=\"For 1 minute, while the ally ‹misc/hold«s» its breath›, standard and full-round actions don't decrease the number of rounds the ally can hold its breath.\"}",
 			"",
-			"::ab[Tsunami Burst (major)]{icon=def l10=\"When you are hit by a melee attack, you can invoke this blessing as an @HLimmediate_action. A wave of water blasts out from you at your attacker, attempting a ‹rule/bull rush› combat maneuver check using your CMB but adding your Wisdom modifier instead of your Strength modifier.\"}"
+			"::ab[Tsunami Burst (major)]{icon=def l10=\"When you are hit by a melee attack, you can invoke this blessing as an @IA. A wave of water blasts out from you at your attacker, attempting a ‹rule/bull rush› combat maneuver check using your CMB but adding your Wisdom modifier instead of your Strength modifier.\"}"
 		]
 	},
 	"glory": {
@@ -240,7 +240,7 @@
 			"",
 			"::ab[Glorious Presence (minor)]{icon=def flavor=\"You can touch an ally and grant it a glorious blessing.\" l1=\"For 1 minute, the ally becomes mesmerizing to her foes. This functions as ‹spell/sanctuary›, except if the ally attacks an opponent, this effect ends with respect to only that opponent. This is a mind-affecting effect.\"}",
 			"",
-			"::ab[Demoralizing Glory (major)]{icon=lower l10=\"When you successfully damage an opponent with a melee attack or attack spell, as a @HLswift_action you can attempt to demoralize that opponent with the ‹skill/Intimidate› skill using your ranks in Intimidate or your warpriest level, whichever is higher.\"}"
+			"::ab[Demoralizing Glory (major)]{icon=lower l10=\"When you successfully damage an opponent with a melee attack or attack spell, as a @WA you can attempt to demoralize that opponent with the ‹skill/Intimidate› skill using your ranks in Intimidate or your warpriest level, whichever is higher.\"}"
 		]
 	},
 	"godclaw": {
@@ -283,7 +283,7 @@
 			"‹SOURCE Advanced Class Guide/66›  ",
 			"@HL[Deities:] ‹faith/Irori›, ‹faith/Pharasma›, ‹faith/Sarenrae›",
 			"",
-			"::ab[Powerful Healer (minor)]{icon=boost flavor=\"You can add power to a ‹main/cure spell<s› as you cast it.\" l1=\"As a @HLswift_action, you can treat any *cure* spell as if it were empowered (as the ‹feat/Empower Spell› feat), causing it to heal 50% more damage (or deal 50% more damage if used against undead). This ability doesn't stack with itself or the Empower Spell feat.\"}",
+			"::ab[Powerful Healer (minor)]{icon=boost flavor=\"You can add power to a ‹main/cure spell<s› as you cast it.\" l1=\"As a @WA, you can treat any *cure* spell as if it were empowered (as the ‹feat/Empower Spell› feat), causing it to heal 50% more damage (or deal 50% more damage if used against undead). This ability doesn't stack with itself or the Empower Spell feat.\"}",
 			"",
 			"::ab[Fast Healing (major)]{icon=aid l10=\"You can touch an ally and grant it ‹umr/fast healing› 3 for 1 minute.\"}",
 			"",
@@ -293,7 +293,7 @@
 			"",
 			"@HL[Replacement Blessing:] The following minor blessing replaces the *powerful healer* ability of the Healing blessing.",
 			"",
-			"::ab[Ameliorating Touch (minor)]{icon=aid flavor=\"Your touch is a balm to your suffering allies.\" l1=\"You can touch an ally as a @HLswift_action to temporarily relieve that ally of the ‹misc/fatigued›, ‹misc/shaken›, or ‹misc/sickened› condition. This blessing suppresses those conditions for 1 minute.\" l2=\"You can spend two uses of your blessing ability whenever you heal yourself or an ally with your *fervor* class ability to use this minor blessing as a @HLfree_action instead of a swift action.\"}",
+			"::ab[Ameliorating Touch (minor)]{icon=aid flavor=\"Your touch is a balm to your suffering allies.\" l1=\"You can touch an ally as a @WA to temporarily relieve that ally of the ‹misc/fatigued›, ‹misc/shaken›, or ‹misc/sickened› condition. This blessing suppresses those conditions for 1 minute.\" l2=\"You can spend two uses of your blessing ability whenever you heal yourself or an ally with your *fervor* class ability to use this minor blessing as a @FA instead of a swift action.\"}",
 			"",
 			"::h3[Resurrection]{jl}",
 			"",
@@ -317,7 +317,7 @@
 			"",
 			"::ab[Lore Keeper (minor)]{icon=touch flavor=\"You can touch a creature to learn about its abilities and weaknesses.\" l1=\"With a successful touch attack, you gain information as if your result on the appropriate Knowledge skill check were equal to 15 + your warpriest level + your Wisdom modifier.\"}",
 			"",
-			"::ab[Monster Lore (major)]{icon=boost-def l10=\"When you succeed at a Knowledge check against an opponent to learn about its abilities or weaknesses (or succeed at a touch attack using the *lore keeper* blessing, above), you can as a @HLswift_action gain a +2 insight bonus on attacks, saving throws, and ability and skill checks, as well as to your AC against that creature. This effect lasts for 1 minute.\"}"
+			"::ab[Monster Lore (major)]{icon=boost-def l10=\"When you succeed at a Knowledge check against an opponent to learn about its abilities or weaknesses (or succeed at a touch attack using the *lore keeper* blessing, above), you can as a @WA gain a +2 insight bonus on attacks, saving throws, and ability and skill checks, as well as to your AC against that creature. This effect lasts for 1 minute.\"}"
 		]
 	},
 	"law": {
@@ -346,9 +346,9 @@
 			"‹SOURCE Advanced Class Guide/66›  ",
 			"@HL[Deities:] ‹faith/Desna›",
 			"",
-			"::ab[Liberation (minor)]{icon=magic l1=\"For 1 round as a @HLswift_action, you can ignore impediments to your mobility and effects that cause ‹rule/paralysis› (as ‹spell/freedom of movement›). You can activate this blessing even if you're otherwise unable to take actions, but not if you're unconscious.\"}",
+			"::ab[Liberation (minor)]{icon=magic l1=\"For 1 round as a @WA, you can ignore impediments to your mobility and effects that cause ‹rule/paralysis› (as ‹spell/freedom of movement›). You can activate this blessing even if you're otherwise unable to take actions, but not if you're unconscious.\"}",
 			"",
-			"::ab[Freedom's Shout (major)]{icon=aura-magic l10=\"As a @HLswift_action you can emit a 30-foot aura that affects all allies with the *liberation* blessing described above. This effect lasts for 1 round.\"}",
+			"::ab[Freedom's Shout (major)]{icon=aura-magic l10=\"As a @WA you can emit a 30-foot aura that affects all allies with the *liberation* blessing described above. This effect lasts for 1 round.\"}",
 			"",
 			"### Freedom",
 			"",
@@ -371,7 +371,7 @@
 			"",
 			"::ab[Lucky Presence (minor)]{icon=roll flavor=\"You can touch an ally and grant it a lucky presence.\" l1=\"The target of this luck can call upon it to roll any one ability check, attack roll, saving throw, or skill check twice and take the better result. The decision to use this ability must be made before the roll is made. Once used, or once 1 minute passes, the effect ends.\"}",
 			"",
-			"::ab[Unlucky Enemy (major)]{icon=roll l10=\"As an @HLimmediate_action you can force an adjacent opponent to reroll an attack, saving throw, or skill or ability check it just attempted; it must take the lower of the two rolls. You must declare this after the roll is made but before the result is revealed.\"}"
+			"::ab[Unlucky Enemy (major)]{icon=roll l10=\"As an @IA you can force an adjacent opponent to reroll an attack, saving throw, or skill or ability check it just attempted; it must take the lower of the two rolls. You must declare this after the roll is made but before the result is revealed.\"}"
 		]
 	},
 	"madness": {
@@ -383,9 +383,9 @@
 			"‹SOURCE Advanced Class Guide/66›  ",
 			"@HL[Deities:] ‹faith/Lamashtu›",
 			"",
-			"::ab[Madness Supremacy (minor)]{icon=aid l1=\"As a @HLswift_action you can target a creature within 30 feet that has the ‹misc/cowering›, ‹misc/frightened›, ‹misc/panicked›, or ‹rule/paralyzed› condition. That condition is suspended for 1 round, and the chosen creature gains the ‹misc/confused› condition instead. The confused creature rerolls any result other than &quot&attack self&quot& or &quot&attack nearest creature.&quot& The round spent confused counts toward the duration of the suspended effect. At the end of the confused round, the suspended condition resumes.\"}",
+			"::ab[Madness Supremacy (minor)]{icon=aid l1=\"As a @WA you can target a creature within 30 feet that has the ‹misc/cowering›, ‹misc/frightened›, ‹misc/panicked›, or ‹rule/paralyzed› condition. That condition is suspended for 1 round, and the chosen creature gains the ‹misc/confused› condition instead. The confused creature rerolls any result other than &quot&attack self&quot& or &quot&attack nearest creature.&quot& The round spent confused counts toward the duration of the suspended effect. At the end of the confused round, the suspended condition resumes.\"}",
 			"",
-			"::ab[Control Madness (major)]{icon=power l10=\"As a @HLswift_action you can choose one behavior for all confused creatures within 30 feet to exhibit (as if all creatures rolled the same result). This effect lasts for 1 round. You can use this ability even while you are confused.\"}"
+			"::ab[Control Madness (major)]{icon=power l10=\"As a @WA you can choose one behavior for all confused creatures within 30 feet to exhibit (as if all creatures rolled the same result). This effect lasts for 1 round. You can use this ability even while you are confused.\"}"
 		]
 	},
 	"magic": {
@@ -416,7 +416,7 @@
 			"",
 			"::ab[Inspiring Word (minor)]{icon=boost-def l1=\"You can speak a few words to a creature within 30 feet that fill them with inspiration. You can grant that creature a +2 morale bonus on attack rolls, ability checks, skill checks, or saving throws (your choice). This effect lasts for 1 minute.\"}",
 			"",
-			"::ab[Lead by Example (major)]{icon=boost l10=\"As a @HLswift_action you can inspire your allies to follow your lead. If the following action on your turn is an attack or skill check, all allies within 30 feet who take the same action against the same foe or obstacle on their next turn gain a +4 morale bonus on that roll.\"}",
+			"::ab[Lead by Example (major)]{icon=boost l10=\"As a @WA you can inspire your allies to follow your lead. If the following action on your turn is an attack or skill check, all allies within 30 feet who take the same action against the same foe or obstacle on their next turn gain a +4 morale bonus on that roll.\"}",
 			"",
 			"### Martyr",
 			"",
@@ -437,7 +437,7 @@
 			"‹SOURCE Advanced Class Guide/67›  ",
 			"@HL[Deities:] ‹faith/Erastil›, ‹faith/Gozreh›",
 			"",
-			"::ab[Creeping Vines (minor)]{icon=lower l1=\"Upon hitting with a melee attack, as a @HLswift_action you cause the creature you hit to sprout entangling vines that attempt to hold it in place, ‹rule/entangl«ing<ed› it for 1 round (Reflex negates).\"}",
+			"::ab[Creeping Vines (minor)]{icon=lower l1=\"Upon hitting with a melee attack, as a @WA you cause the creature you hit to sprout entangling vines that attempt to hold it in place, ‹rule/entangl«ing<ed› it for 1 round (Reflex negates).\"}",
 			"",
 			"::ab[Battle Companion (major)]{icon=magic l10=\"You can summon a battle companion. This ability functions as ‹spell/summon nature's ally IV›, with a duration of 1 minute. This ability can summon only one animal, regardless of the list used, and the creature's type changes to ‹type/plant› instead of animal.\" incrementRoman=\"This now behaves as ‹spell/summon nature's~10~2~5\" incrementDesc=ally incrementEnd=\"›.\"}"
 		]
@@ -467,7 +467,7 @@
 			"",
 			"::ab[Gentle Rest (minor)]{icon=touch l1=\"You can fill a living creature with lethargy by hitting it with a melee touch attack, causing it to become ‹misc/staggered› for 1 round. If the target is already staggered, it falls asleep for 1 round instead. An undead creature that's touched is staggered for a number of rounds equal to your Wisdom modifier (minimum 1).\"}",
 			"",
-			"::ab[Back to the Grave (major)]{icon=aura l10=\"When using ‹ability/channel energy› to heal living creatures, you can take a @HLswift_action on that same turn to also deal damage to undead creatures (as your *channel energy* ability). Undead take an amount of damage equal to half the amount healed, and can attempt the normal saving throw to halve this damage.\"}"
+			"::ab[Back to the Grave (major)]{icon=aura l10=\"When using ‹ability/channel energy› to heal living creatures, you can take a @WA on that same turn to also deal damage to undead creatures (as your *channel energy* ability). Undead take an amount of damage equal to half the amount healed, and can attempt the normal saving throw to halve this damage.\"}"
 		]
 	},
 	"rune": {
@@ -493,11 +493,11 @@
 			"‹SOURCE Advanced Class Origins/25›  ",
 			"@HL[Deities:] ‹faith/Apsu›, ‹faith/Dahak›, ‹faith/Ragadahn›, ‹faith/Ydersius›",
 			"",
-			"::ab[Scaly Touch (minor)]{icon=def l1=\"You can touch an ally as a @HLstandard_action to grant it reptilian scales. For 1 minute, the ally gains an enhancement bonus to its natural armor equal to 1 + ‹misc/one-fifth› of your warpriest level.\"}",
+			"::ab[Scaly Touch (minor)]{icon=def l1=\"You can touch an ally as a @SA to grant it reptilian scales. For 1 minute, the ally gains an enhancement bonus to its natural armor equal to 1 + ‹misc/one-fifth› of your warpriest level.\"}",
 			"",
 			":::ab{title=\"Serpent Fang (major)\" icon=melee action=\"At 10th Level\"}",
 			"",
-			"As a @HLstandard_action you can manifest venomous fangs for 1 minute. These fangs grant a ‹umr/bite attack› that deals 1d4 points of damage (for a Medium warpriest, 1d3 if Small). A successful bite also afflicts the opponent with a debilitating venom.",
+			"As a @SA you can manifest venomous fangs for 1 minute. These fangs grant a ‹umr/bite attack› that deals 1d4 points of damage (for a Medium warpriest, 1d3 if Small). A successful bite also afflicts the opponent with a debilitating venom.",
 			"",
 			"::aff[Serpent Venom]{iconP type=Bite-injury dcF dcYou dcLev=warpriest dcMod=Con freqR=4 effCon=\"1d2\" cure1}",
 			"",
@@ -515,7 +515,7 @@
 			"",
 			"::ab[Flicker of Shadows (minor)]{icon=boost l1=\"You can cause a weapon you touch to warp and become insubstantial for a split second before an attack. The first attack made with this weapon each round ignores any shield bonus to Armor Class, as well as bonuses from ‹rule/cover›. Total cover still provides a creature its full benefit. This effect lasts for 1 minute.\"}",
 			"",
-			"::ab[Swift as Shadow (major)]{icon=boost l10=\"You can spend a @HLswift_action to empower yourself or an ally within 30 feet to move over the ground as easily as its shadow. The subject's land speed increases by 10 feet and it takes no movement penalties for darkness, difficult terrain, or slickness. The creature can safely move over areas of ice and even those affected by a ‹spell/grease› spell.~~~When a creature affected by this ability hits with a ‹rule/charge› attack, that attack deals an amount of additional cold damage equal to your level.\"}"
+			"::ab[Swift as Shadow (major)]{icon=boost l10=\"You can spend a @WA to empower yourself or an ally within 30 feet to move over the ground as easily as its shadow. The subject's land speed increases by 10 feet and it takes no movement penalties for darkness, difficult terrain, or slickness. The creature can safely move over areas of ice and even those affected by a ‹spell/grease› spell.~~~When a creature affected by this ability hits with a ‹rule/charge› attack, that attack deals an amount of additional cold damage equal to your level.\"}"
 		]
 	},
 	"strength": {
@@ -527,9 +527,9 @@
 			"‹SOURCE Advanced Class Guide/68›  ",
 			"@HL[Deities:] ‹faith/Cayden Cailean›, ‹faith/Gorum›, ‹faith/Irori›, ‹faith/Lamashtu›, ‹faith/Urgathoa›",
 			"",
-			"::ab[Strength Surge (minor)]{icon=boost l1=\"As a @HLswift_action you can focus your own strength. You gain an enhancement bonus equal to 1/2 your warpriest level (minimum +1) on melee attack rolls, combat maneuver checks that rely on Strength, Strength-based skills, and Strength checks for 1 round.\"}",
+			"::ab[Strength Surge (minor)]{icon=boost l1=\"As a @WA you can focus your own strength. You gain an enhancement bonus equal to 1/2 your warpriest level (minimum +1) on melee attack rolls, combat maneuver checks that rely on Strength, Strength-based skills, and Strength checks for 1 round.\"}",
 			"",
-			"::ab[Strength of Will (major)]{icon=boost-def l10=\"As a @HLswift_action you can ignore the movement penalties caused by wearing medium or heavy armor or by carrying a medium or heavy load. This effect lasts for 1 minute. During this time, you can add your Strength modifier on saving throws against effects that would cause you to become ‹rule/entangled›, ‹misc/staggered›, or ‹rule/paralyzed›.\"}"
+			"::ab[Strength of Will (major)]{icon=boost-def l10=\"As a @WA you can ignore the movement penalties caused by wearing medium or heavy armor or by carrying a medium or heavy load. This effect lasts for 1 minute. During this time, you can add your Strength modifier on saving throws against effects that would cause you to become ‹rule/entangled›, ‹misc/staggered›, or ‹rule/paralyzed›.\"}"
 		]
 	},
 	"sun": {
@@ -555,9 +555,9 @@
 			"‹SOURCE Ultimate Wilderness/97›  ",
 			"@HL[Deities:] Evil deities that offer the ‹blessing/Air› blessing or nonevil deities with disasters in their portfolios",
 			"",
-			"::ab[Dust Devil (minor)]{icon=lower l1=\"When you hit with a weapon attack, you can use a @HLswift_action to cause a sudden burst of wind and debris to swirl around your target. The target is ‹misc/dazzled› for 1 minute.\"}",
+			"::ab[Dust Devil (minor)]{icon=lower l1=\"When you hit with a weapon attack, you can use a @WA to cause a sudden burst of wind and debris to swirl around your target. The target is ‹misc/dazzled› for 1 minute.\"}",
 			"",
-			"::ab[Howling Gale (major)]{icon=aura l10=\"You can invoke a howling windstorm around yourself as a @HLstandard_action. For 1 minute, any Large or smaller creature takes twice as much movement to enter a space adjacent to you due to the winds, and thus can't ‹rule/take a 5-foot step› to move adjacent to you.\"}"
+			"::ab[Howling Gale (major)]{icon=aura l10=\"You can invoke a howling windstorm around yourself as a @SA. For 1 minute, any Large or smaller creature takes twice as much movement to enter a space adjacent to you due to the winds, and thus can't ‹rule/take a 5-foot step› to move adjacent to you.\"}"
 		]
 	},
 	"travel": {
@@ -569,9 +569,9 @@
 			"‹SOURCE Advanced Class Guide/68›  ",
 			"@HL[Deities:] ‹faith/Abadar›, ‹faith/Cayden Cailean›, ‹faith/Desna›",
 			"",
-			"::ab[Agile Feet (minor)]{icon=boost l1=\"As a @HLswift_action you gain increased mobility. For 1 round, you ignore all ‹rule/difficult terrain› (including magical terrain) and take no penalties for moving through it.\"}",
+			"::ab[Agile Feet (minor)]{icon=boost l1=\"As a @WA you gain increased mobility. For 1 round, you ignore all ‹rule/difficult terrain› (including magical terrain) and take no penalties for moving through it.\"}",
 			"",
-			"::ab[Dimensional Hop (major)]{icon=magic l10=\"You can teleport up to 20 feet as a @HLmove_action. You can increase this distance by expending another use of your *blessing* - each use spent grants an additional 20 feet. You must have line of sight to your destination. This teleportation doesn't provoke attacks of opportunity.\" special=\"You can bring other willing creatures with you, but each such creature requires expending one additional use of your *blessing,* regardless of the distance traveled. (For example, transporting yourself 40 feet costs 2 uses of your *blessing,* and transporting an additional person this distance costs 1 more use.)\"}"
+			"::ab[Dimensional Hop (major)]{icon=magic l10=\"You can teleport up to 20 feet as a @MA. You can increase this distance by expending another use of your *blessing* - each use spent grants an additional 20 feet. You must have line of sight to your destination. This teleportation doesn't provoke attacks of opportunity.\" special=\"You can bring other willing creatures with you, but each such creature requires expending one additional use of your *blessing,* regardless of the distance traveled. (For example, transporting yourself 40 feet costs 2 uses of your *blessing,* and transporting an additional person this distance costs 1 more use.)\"}"
 		]
 	},
 	"trickery": {
@@ -583,9 +583,9 @@
 			"‹SOURCE Advanced Class Guide/68›  ",
 			"@HL[Deities:] ‹faith/Asmodeus›, ‹faith/Calistria›, ‹faith/Lamashtu›, ‹faith/Norgorber›",
 			"",
-			"::ab[Double (minor)]{icon=def l1=\"As a @HLmove_action you can create an illusory double of yourself. This double functions as a single ‹spell/mirror image›, and lasts for a number of rounds equal to your warpriest level, or until the illusory duplicate is ‹spell/dispel«led› or destroyed.\" special=\"You can have no more than one double at a time. The double created by this ability doesn't stack with the additional images from the mirror image spell.\"}",
+			"::ab[Double (minor)]{icon=def l1=\"As a @MA you can create an illusory double of yourself. This double functions as a single ‹spell/mirror image›, and lasts for a number of rounds equal to your warpriest level, or until the illusory duplicate is ‹spell/dispel«led› or destroyed.\" special=\"You can have no more than one double at a time. The double created by this ability doesn't stack with the additional images from the mirror image spell.\"}",
 			"",
-			"::ab[Greater Invisibility (major)]{icon=magic l10=\"As a @HLswift_action you can become invisible for 1 round (as ‹spell/greater invisibility›).\"}"
+			"::ab[Greater Invisibility (major)]{icon=magic l10=\"As a @WA you can become invisible for 1 round (as ‹spell/greater invisibility›).\"}"
 		]
 	},
 	"void": {
@@ -599,7 +599,7 @@
 			"",
 			"::ab[Airless Touch (minor)]{icon=touch-lower l1=\"With a successful melee touch attack you can steal the breath from an opponent's lungs, leaving it unable to speak, use breath weapons, cast spells with verbal components, or do anything else requiring breath for 1 round. If the target fails at a Fortitude saving throw, it's also ‹misc/staggered› for 1 round as it catches its breath. If the target was attempting to ‹misc/hold its breath›, it can no longer do so: it must breathe on its turn or risk ‹rule/suffocation› and unconsciousness.\" special=\"Creatures that don't need to breathe are unaffected. Regardless of whether it succeeds at its saving throw, the target is immune to further uses of your *airless touch* for 24 hours.\"}",
 			"",
-			"::ab[Deny Gravity (major)]{icon=boost l10=\"As a @HLstandard_action you can touch an ally to allow her to ignore the effects of gravity for 1 minute (as ‹spell/fly›). The ally gains a fly speed of 40 feet with average maneuverability. The ally is also immune to dangerous environmental conditions (as ‹spell/life bubble›) for 1 minute.\"}"
+			"::ab[Deny Gravity (major)]{icon=boost l10=\"As a @SA you can touch an ally to allow her to ignore the effects of gravity for 1 minute (as ‹spell/fly›). The ally gains a fly speed of 40 feet with average maneuverability. The ally is also immune to dangerous environmental conditions (as ‹spell/life bubble›) for 1 minute.\"}"
 		]
 	},
 	"war": {
@@ -655,7 +655,7 @@
 			"",
 			"::ab[Leaping Flames (minor)]{icon=boost-def l1=\"You touch an ally to bless it with the speed of a wildfire for 1 minute. The ally gains a +10-foot enhancement bonus to its base speed, and the ally gains a +1 dodge bonus to its AC against attacks of opportunity.\"}",
 			"",
-			"::ab[Fiery Wake (major)]{icon=magic l10=\"When you move, you can use a @HLswift_action to invoke a blazing blessing on yourself. For the rest of your turn, your movement leaves behind a 10-foot-tall wall of opaque fire in your path. The wall burns for 1 minute. A creature that touches the wall takes 2d6 points of fire damage.\"}"
+			"::ab[Fiery Wake (major)]{icon=magic l10=\"When you move, you can use a @WA to invoke a blazing blessing on yourself. For the rest of your turn, your movement leaves behind a 10-foot-tall wall of opaque fire in your path. The wall burns for 1 minute. A creature that touches the wall takes 2d6 points of fire damage.\"}"
 		]
 	}
 }

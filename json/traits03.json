@@ -94,7 +94,7 @@
 		"compilationSources": [ [ "Strange Aeons Player's Guide" ] ],
 		"category": "Strange Aeons",
 		"description": [
-			"::trait{title=\"&L&Driven By Guilt&FN&\" type=Campaign campaign=\"Strange Aeons\" flavor=\"You awake after your ordeal with a lingering feeling that you have taken part in something outside the normal bounds of your morals. Whether you were corrupted at one point or compelled to perform some forgotten actions, this guilt drives you to fight against those forces in the world that prey upon the good. You see your present condition as a chance to redeem yourself and banish this unsettling emotion.\" benefit=\"You gain a +1 trait bonus on saving throws against any spells or spell-like abilities cast by evil creatures. In addition, once per day as a @HLswift_action, you can add your Charisma bonus to your attack rolls and deal 1 additional point of damage for each class level you have against evil creatures for 1 round.\"}"
+			"::trait{title=\"&L&Driven By Guilt&FN&\" type=Campaign campaign=\"Strange Aeons\" flavor=\"You awake after your ordeal with a lingering feeling that you have taken part in something outside the normal bounds of your morals. Whether you were corrupted at one point or compelled to perform some forgotten actions, this guilt drives you to fight against those forces in the world that prey upon the good. You see your present condition as a chance to redeem yourself and banish this unsettling emotion.\" benefit=\"You gain a +1 trait bonus on saving throws against any spells or spell-like abilities cast by evil creatures. In addition, once per day as a @WA, you can add your Charisma bonus to your attack rolls and deal 1 additional point of damage for each class level you have against evil creatures for 1 round.\"}"
 		],
 		"topLink": [ "Campaign Traits", "main/traits_campaign" ]
 	},
@@ -139,7 +139,7 @@
 		"compilationSources": [ [ "Strange Aeons Player's Guide" ] ],
 		"category": "Strange Aeons",
 		"description": [
-			"::trait{title=\"&L&Pugnacious&FN&\" type=Campaign campaign=\"Strange Aeons\" flavor=\"You awake in the asylum with sore muscles and bloody knuckles, as if you were recently in a fight. You even have a vague feeling that you won. You can't explain it, but you know that you've always been easy to set off, and your first instinct when pressed into a corner is to lash out. Stuck in the asylum sets you on edge, and you not only want to figure out what happened to you, you want to free yourself and find whoever did this to you - and make them pay.\" benefit=\"You gain a +1 trait bonus on attack rolls when threatened by two or more enemies. In addition, once per day you can gain one of the following effects as an @HLimmediate_action: You can increase the ‹misc/reach› of your melee attacks by 5 feet for 1 round, or you can treat your weapon as ‹misc/one size category larger› than it actually is for purposes of determining damage for 1 round.\"}"
+			"::trait{title=\"&L&Pugnacious&FN&\" type=Campaign campaign=\"Strange Aeons\" flavor=\"You awake in the asylum with sore muscles and bloody knuckles, as if you were recently in a fight. You even have a vague feeling that you won. You can't explain it, but you know that you've always been easy to set off, and your first instinct when pressed into a corner is to lash out. Stuck in the asylum sets you on edge, and you not only want to figure out what happened to you, you want to free yourself and find whoever did this to you - and make them pay.\" benefit=\"You gain a +1 trait bonus on attack rolls when threatened by two or more enemies. In addition, once per day you can gain one of the following effects as an @IA: You can increase the ‹misc/reach› of your melee attacks by 5 feet for 1 round, or you can treat your weapon as ‹misc/one size category larger› than it actually is for purposes of determining damage for 1 round.\"}"
 		],
 		"topLink": [ "Campaign Traits", "main/traits_campaign" ]
 	},
@@ -202,7 +202,7 @@
 		"compilationSources": [ [ "Tyrant's Grasp Player's Guide" ] ],
 		"category": "Tyrant's Grasp",
 		"description": [
-			"::trait{title=\"&L&The Optimist&FN&\" type=Campaign campaign=\"Tyrant's Grasp\" flavor=\"People don't need to take your word that things are getting better; they only need to look around and see the proof before their eyes. The town's recovery from the orc occupation more than a decade ago is all but complete, and the monster in the Sarenite temple outside of town has finally been bested. Your irrepressible sense of optimism seems to fly in the face of the hard life that most residents of Roslar's Coffer face, but you're convinced that your positive attitude lifts up your community.\" benefit=\"You gain a +1 trait bonus on saving throws against mind-affecting effects. Further, your optimism can be infectious. As a @HLswift_action a number of times per day equal to your Charisma modifier (minimum 1), you can grant this bonus to an ally within 10 feet. This bonus lasts for 1 minute.\"}"
+			"::trait{title=\"&L&The Optimist&FN&\" type=Campaign campaign=\"Tyrant's Grasp\" flavor=\"People don't need to take your word that things are getting better; they only need to look around and see the proof before their eyes. The town's recovery from the orc occupation more than a decade ago is all but complete, and the monster in the Sarenite temple outside of town has finally been bested. Your irrepressible sense of optimism seems to fly in the face of the hard life that most residents of Roslar's Coffer face, but you're convinced that your positive attitude lifts up your community.\" benefit=\"You gain a +1 trait bonus on saving throws against mind-affecting effects. Further, your optimism can be infectious. As a @WA a number of times per day equal to your Charisma modifier (minimum 1), you can grant this bonus to an ally within 10 feet. This bonus lasts for 1 minute.\"}"
 		],
 		"topLink": [ "Campaign Traits", "main/traits_campaign" ]
 	},
@@ -220,7 +220,7 @@
 		"compilationSources": [ [ "Tyrant's Grasp Player's Guide" ] ],
 		"category": "Tyrant's Grasp",
 		"description": [
-			"::trait{title=\"&L&The Pessimist&FN&\" type=Campaign campaign=\"Tyrant's Grasp\" flavor=\"You expect the worst and have rarely been disappointed. Your dour outlook may hail from the original destruction of Roslar's Coffer at the hands of the Twisted Nail tribe, the exile of the faithful from the nearby Sarenite temple, or some more personal misfortune, but it has set you apart among the largely forward-thinking population of Lastwall.\" benefit=\"Your faith that the worst possible outcome will occur grants you a +1 trait bonus on Will saving throws.~~~Your frustrating pessimism can spur friends to succeed just to spite you; once per day as a @HLfree_action, you can force an ally within 30 feet to reroll a saving throw she just failed, using the better of the two results.\"}"
+			"::trait{title=\"&L&The Pessimist&FN&\" type=Campaign campaign=\"Tyrant's Grasp\" flavor=\"You expect the worst and have rarely been disappointed. Your dour outlook may hail from the original destruction of Roslar's Coffer at the hands of the Twisted Nail tribe, the exile of the faithful from the nearby Sarenite temple, or some more personal misfortune, but it has set you apart among the largely forward-thinking population of Lastwall.\" benefit=\"Your faith that the worst possible outcome will occur grants you a +1 trait bonus on Will saving throws.~~~Your frustrating pessimism can spur friends to succeed just to spite you; once per day as a @FA, you can force an ally within 30 feet to reroll a saving throw she just failed, using the better of the two results.\"}"
 		],
 		"topLink": [ "Campaign Traits", "main/traits_campaign" ]
 	},
@@ -322,7 +322,7 @@
 		],
 		"category": "Wrath of the Righteous",
 		"description": [
-			"::trait{title=\"&L&Chance Encounter&FN&\" type=Campaign campaign=\"Wrath of the Righteous\" flavor=\"You always tended to get in over your head as a child, but your biggest youthful misadventure was the time you &quot&accidentally&quot& found yourself behind enemy lines in the Worldwound. You probably never would have made it back home to Kenabres if not for the help of a mysterious woman who helped you trick your way through a group of cultists. The woman never told you her name, but you remember her beauty and a deep sense of sadness she seemed to carry with her. Her skill with the bow was impressive as well, but the thing you remember most about her was the symbol of ‹faith/Desna› she wore - she often held onto it without seeming to realize it, as if the connection to the goddess was something she clung to in a sense of need, as someone might clutch at a rope while dangling over a vast pit. She left your side a few moments before you were picked up by a patrol of crusaders, who finished the job of escorting you back to safety, and you've never seen her again. Ever since, you've just been lucky when it comes to trickery.\" benefit=\"Once per day, if you fail an Acrobatics, Bluff, Disguise, Sleight of Hand, or Stealth check, you may immediately reroll that check as a @HLfree_action. You must take the second result, even if it is worse.~~~**Associated Mythic Path:** Trickster.~~~**Multiple Characters:** You and other characters were all saved by the same mysterious woman in your childhood. This could have been the same event, or she could have saved you on separate occasions - the discovery that someone else was saved by the mysterious stranger has resulted in a long friendship (or perhaps friendly rivalry) with the others she rescued.\"}"
+			"::trait{title=\"&L&Chance Encounter&FN&\" type=Campaign campaign=\"Wrath of the Righteous\" flavor=\"You always tended to get in over your head as a child, but your biggest youthful misadventure was the time you &quot&accidentally&quot& found yourself behind enemy lines in the Worldwound. You probably never would have made it back home to Kenabres if not for the help of a mysterious woman who helped you trick your way through a group of cultists. The woman never told you her name, but you remember her beauty and a deep sense of sadness she seemed to carry with her. Her skill with the bow was impressive as well, but the thing you remember most about her was the symbol of ‹faith/Desna› she wore - she often held onto it without seeming to realize it, as if the connection to the goddess was something she clung to in a sense of need, as someone might clutch at a rope while dangling over a vast pit. She left your side a few moments before you were picked up by a patrol of crusaders, who finished the job of escorting you back to safety, and you've never seen her again. Ever since, you've just been lucky when it comes to trickery.\" benefit=\"Once per day, if you fail an Acrobatics, Bluff, Disguise, Sleight of Hand, or Stealth check, you may immediately reroll that check as a @FA. You must take the second result, even if it is worse.~~~**Associated Mythic Path:** Trickster.~~~**Multiple Characters:** You and other characters were all saved by the same mysterious woman in your childhood. This could have been the same event, or she could have saved you on separate occasions - the discovery that someone else was saved by the mysterious stranger has resulted in a long friendship (or perhaps friendly rivalry) with the others she rescued.\"}"
 		],
 		"topLink": [ "Campaign Traits", "main/traits_campaign" ]
 	},
@@ -334,7 +334,7 @@
 		],
 		"category": "Wrath of the Righteous",
 		"description": [
-			"::trait{title=\"&L&Child of the Crusades (WotR)&FN&\" type=Campaign campaign=\"Wrath of the Righteous\" flavor=\"Your parents were members of the crusade, as were their parents before them. (If you are an elf, gnome, or other long-lived race, these could be brothers or cousins instead, since it's possible that the Worldwound simply didn't exist at a time before you were born.) The righteousness of the crusades sometimes feels as if it runs in your very blood, and it bolsters you against demonic influence. Your parents may be alive still, or they may have perished on a mission - that choice is up to you. You grew up knowing them, though, and their zeal and devotion to the crusade is the primary reason you feel the same way. They've told you of other family members who have also been involved in the crusade, and it's not uncommon for you to meet a distant cousin or long-lost aunt, uncle, or other family member while traveling among the border towns of Mendev. This strong family tie bolsters your mind and sense of belonging to the crusade.\" benefit=\"Once per day when you fail a saving throw against an effect created by a ‹family/demon› that would possess or incapacitate you mentally, you may immediately reroll that saving throw as a @HLfree_action. You must take the second result, even if it is worse.~~~**Associated Mythic Path:** Marshal.~~~**Multiple Characters:** If other characters take this trait, you should all be related - you can be siblings, cousins, or even more distant relations, but you should all be aware of this shared lineage.\"}"
+			"::trait{title=\"&L&Child of the Crusades (WotR)&FN&\" type=Campaign campaign=\"Wrath of the Righteous\" flavor=\"Your parents were members of the crusade, as were their parents before them. (If you are an elf, gnome, or other long-lived race, these could be brothers or cousins instead, since it's possible that the Worldwound simply didn't exist at a time before you were born.) The righteousness of the crusades sometimes feels as if it runs in your very blood, and it bolsters you against demonic influence. Your parents may be alive still, or they may have perished on a mission - that choice is up to you. You grew up knowing them, though, and their zeal and devotion to the crusade is the primary reason you feel the same way. They've told you of other family members who have also been involved in the crusade, and it's not uncommon for you to meet a distant cousin or long-lost aunt, uncle, or other family member while traveling among the border towns of Mendev. This strong family tie bolsters your mind and sense of belonging to the crusade.\" benefit=\"Once per day when you fail a saving throw against an effect created by a ‹family/demon› that would possess or incapacitate you mentally, you may immediately reroll that saving throw as a @FA. You must take the second result, even if it is worse.~~~**Associated Mythic Path:** Marshal.~~~**Multiple Characters:** If other characters take this trait, you should all be related - you can be siblings, cousins, or even more distant relations, but you should all be aware of this shared lineage.\"}"
 		],
 		"topLink": [ "Campaign Traits", "main/traits_campaign" ]
 	},
@@ -346,7 +346,7 @@
 		],
 		"category": "Wrath of the Righteous",
 		"description": [
-			"::trait{title=\"&L&Exposed to Awfulness&FN&\" type=Campaign campaign=\"Wrath of the Righteous\" flavor=\"When you were a child, you were nearly slain by a demon that managed to make its way through the wardstones into the lands beyond. The demon was slain before it could kill you, but you lingered at death's door in a coma for weeks before waking. Ever since then, you've been unusually hale and hearty, as if your body had endured its brush with awfulness by becoming supernaturally fit. But still, the scars (whether physical or purely mental) of your brush with death remain, and nightmares of what could have happened often plague your sleep. Something, be it your own personal force of will, some strange &quot&infection&quot& from the assault, or perhaps a combination of both, has made you stronger than before. You're not sure what to make of the theories that you survived this exposure to awfulness because you yourself have some trace of demonic heritage that helped give you the advantage you needed to survive; but whatever it was, you're glad for it! Your strange resistance to demonic attacks persists to this day.\" benefit=\"Once per day when you fail a saving throw against an effect created by a ‹family/demon› that would kill or physically incapacitate you, you can immediately reroll that saving throw as a @HLfree_action. You must take the second result, even if it is worse.~~~**Associated Mythic Path:** Guardian.~~~**Multiple Characters:** You and any others with this trait are related, if only distantly. You could be siblings or cousins - a condition that perhaps lends some credence to the theory that all of you share more than just a common bloodline.\"}"
+			"::trait{title=\"&L&Exposed to Awfulness&FN&\" type=Campaign campaign=\"Wrath of the Righteous\" flavor=\"When you were a child, you were nearly slain by a demon that managed to make its way through the wardstones into the lands beyond. The demon was slain before it could kill you, but you lingered at death's door in a coma for weeks before waking. Ever since then, you've been unusually hale and hearty, as if your body had endured its brush with awfulness by becoming supernaturally fit. But still, the scars (whether physical or purely mental) of your brush with death remain, and nightmares of what could have happened often plague your sleep. Something, be it your own personal force of will, some strange &quot&infection&quot& from the assault, or perhaps a combination of both, has made you stronger than before. You're not sure what to make of the theories that you survived this exposure to awfulness because you yourself have some trace of demonic heritage that helped give you the advantage you needed to survive; but whatever it was, you're glad for it! Your strange resistance to demonic attacks persists to this day.\" benefit=\"Once per day when you fail a saving throw against an effect created by a ‹family/demon› that would kill or physically incapacitate you, you can immediately reroll that saving throw as a @FA. You must take the second result, even if it is worse.~~~**Associated Mythic Path:** Guardian.~~~**Multiple Characters:** You and any others with this trait are related, if only distantly. You could be siblings or cousins - a condition that perhaps lends some credence to the theory that all of you share more than just a common bloodline.\"}"
 		],
 		"topLink": [ "Campaign Traits", "main/traits_campaign" ]
 	},
@@ -494,7 +494,7 @@
 		"name": "Prehensile Whip",
 		"compilationSources": [ [ "Adventurer's Armory" ] ],
 		"description": [
-			"::trait{title=\"&L&Prehensile Whip&FN&\" type=Equipment benefit=\"In your hand a whip has a life of its own, wrapping around pillars and beams with ease. You can use a ‹eq-weapon/whip› as if it were a rope with a ‹eq-weapon/grappling hook› at the end. Attaching your whip is a @HLstandard_action, but detaching it is a @HLfull-round_action.\"}"
+			"::trait{title=\"&L&Prehensile Whip&FN&\" type=Equipment benefit=\"In your hand a whip has a life of its own, wrapping around pillars and beams with ease. You can use a ‹eq-weapon/whip› as if it were a rope with a ‹eq-weapon/grappling hook› at the end. Attaching your whip is a @SA, but detaching it is a @RA.\"}"
 		],
 		"category": "Equipment",
 		"topLink": [ "Equipment Traits", "main/traits_equipment" ]
@@ -817,7 +817,7 @@
 		],
 		"category": "NN-Nivi Rhombodazzle",
 		"description": [
-			"::trait{title=\"&L&Agent of Chance&FN&\" type=Religion religion=\"‹faith/Nivi Rhombodazzle›\" flavor=\"You can change the fortunes of others, typically for the better.\" benefit=\"Once per day, you can allow an adjacent ally to reroll a skill check as an @HLimmediate_action before the result is revealed. The ally must take the second roll, even if it is worse.\"}"
+			"::trait{title=\"&L&Agent of Chance&FN&\" type=Religion religion=\"‹faith/Nivi Rhombodazzle›\" flavor=\"You can change the fortunes of others, typically for the better.\" benefit=\"Once per day, you can allow an adjacent ally to reroll a skill check as an @IA before the result is revealed. The ally must take the second roll, even if it is worse.\"}"
 		],
 		"topLink": [ "Religion Traits", "main/traits_religion" ]
 	},
@@ -835,7 +835,7 @@
 		"compilationSources": [ [ "Inner Sea Gods" ] ],
 		"category": "Halfling Deities-Thamir Gixx",
 		"description": [
-			"::trait{title=\"&L&Always Threatening&FN&\" type=Religion religion=\"‹faith/Thamir Gixx›\" flavor=\"You are fast on the draw.\" benefit=\"As a @HLmove_action, you can draw a light, concealed weapon for which you have ‹feat/Weapon Focus›. If you have the ‹feat/Quick Draw› feat, drawing this weapon is a @HLfree_action.\"}"
+			"::trait{title=\"&L&Always Threatening&FN&\" type=Religion religion=\"‹faith/Thamir Gixx›\" flavor=\"You are fast on the draw.\" benefit=\"As a @MA, you can draw a light, concealed weapon for which you have ‹feat/Weapon Focus›. If you have the ‹feat/Quick Draw› feat, drawing this weapon is a @FA.\"}"
 		],
 		"topLink": [ "Religion Traits", "main/traits_religion" ]
 	},
@@ -901,7 +901,7 @@
 		"compilationSources": [ [ "Divine Anthology" ] ],
 		"category": "Empyreal Lords-Ragathiel",
 		"description": [
-			"::trait{title=\"&L&Avowed Inspiration&FN&\" type=Religion religion=\"‹faith/Ragathiel›\" flavor=\"In emulation of the empyreal lord's intensely channeled rage, you are an inspiration on the battlefield.\" benefit=\"Once per day, when you attack a foe who injured you during the same combat, you can inspire allies who can see you as a @HLmove_action. Each other ally within 30 feet who can see you gains a +2 morale bonus on her next attack roll.\"}"
+			"::trait{title=\"&L&Avowed Inspiration&FN&\" type=Religion religion=\"‹faith/Ragathiel›\" flavor=\"In emulation of the empyreal lord's intensely channeled rage, you are an inspiration on the battlefield.\" benefit=\"Once per day, when you attack a foe who injured you during the same combat, you can inspire allies who can see you as a @MA. Each other ally within 30 feet who can see you gains a +2 morale bonus on her next attack roll.\"}"
 		],
 		"topLink": [ "Religion Traits", "main/traits_religion" ]
 	},
@@ -985,7 +985,7 @@
 		"compilationSources": [ [ "Orcs of Golarion" ] ],
 		"category": "Pantheons-Demon Lords-Zura",
 		"description": [
-			"::trait{title=\"&L&Blessing of the Feast&FN&\" type=Religion religion=\"‹faith/Zura›\" flavor=\"You come from a cannibal tribe, and find strength in the flesh of your foes.\" benefit=\"Whenever you eat the flesh or drink the blood of another orc - a @HLfull-round_action that provokes attacks of opportunity - you gain the favor of Zura and receive a +1 natural armor bonus for 1 minute/level. You can only receive this benefit once per day.\"}"
+			"::trait{title=\"&L&Blessing of the Feast&FN&\" type=Religion religion=\"‹faith/Zura›\" flavor=\"You come from a cannibal tribe, and find strength in the flesh of your foes.\" benefit=\"Whenever you eat the flesh or drink the blood of another orc - a @RA that provokes attacks of opportunity - you gain the favor of Zura and receive a +1 natural armor bonus for 1 minute/level. You can only receive this benefit once per day.\"}"
 		],
 		"topLink": [ "Religion Traits", "main/traits_religion" ]
 	},
@@ -1689,7 +1689,7 @@
 		"compilationSources": [ [ "Inner Sea Gods" ] ],
 		"category": "Dwarven Deities-Dranngvit",
 		"description": [
-			"::trait{title=\"&L&Furious Vengeance&FN&\" type=Religion religion=\"‹faith/Dranngvit›\" flavor=\"Once wronged, your vengeance can be swift and brutal.\" benefit=\"Once per day as an @HLimmediate_action, you gain a +1 trait bonus on a single attack roll. In addition, if the target has damaged you within the last round, you deal 1 additional point of damage on a successful hit. You must choose to use this ability before making the attack roll.\"}"
+			"::trait{title=\"&L&Furious Vengeance&FN&\" type=Religion religion=\"‹faith/Dranngvit›\" flavor=\"Once wronged, your vengeance can be swift and brutal.\" benefit=\"Once per day as an @IA, you gain a +1 trait bonus on a single attack roll. In addition, if the target has damaged you within the last round, you deal 1 additional point of damage on a successful hit. You must choose to use this ability before making the attack roll.\"}"
 		],
 		"topLink": [ "Religion Traits", "main/traits_religion" ]
 	},
@@ -1963,7 +1963,7 @@
 		"compilationSources": [ [ "Divine Anthology" ] ],
 		"category": "Empyreal Lords-Arqueros",
 		"description": [
-			"::trait{title=\"&L&Living Bulwark&FN&\" type=Religion religion=\"‹faith/Arqueros›\" flavor=\"The Golden Bulwark inspires you to give your all for those you protect.\" benefit=\"Once per day, when an adjacent ally is targeted by an attack but before the attack roll is attempted, you can interpose yourself as an @HLimmediate_action. You become the target of the attack instead.\"}"
+			"::trait{title=\"&L&Living Bulwark&FN&\" type=Religion religion=\"‹faith/Arqueros›\" flavor=\"The Golden Bulwark inspires you to give your all for those you protect.\" benefit=\"Once per day, when an adjacent ally is targeted by an attack but before the attack roll is attempted, you can interpose yourself as an @IA. You become the target of the attack instead.\"}"
 		],
 		"topLink": [ "Religion Traits", "main/traits_religion" ]
 	},
@@ -2024,7 +2024,7 @@
 		"compilationSources": [ [ "Divine Anthology" ] ],
 		"category": "Dwarven Deities-Trudd",
 		"description": [
-			"::trait{title=\"&L&Mighty Protector&FN&\" type=Religion religion=\"‹faith/Trudd›\" flavor=\"When you were too young to fight, you witnessed a great tragedy befall an innocent and you swore to Trudd you'd become strong enough to prevent something like that from happening again.\" benefit=\"Once per day when you hit a foe with a melee attack, you can attempt an ‹rule/aid another<_2› action as a @HLfree_action to increase an adjacent ally's AC against that foe. If you succeed, you grant the ally a +4 bonus to AC instead of a +2 bonus for that round.\"}"
+			"::trait{title=\"&L&Mighty Protector&FN&\" type=Religion religion=\"‹faith/Trudd›\" flavor=\"When you were too young to fight, you witnessed a great tragedy befall an innocent and you swore to Trudd you'd become strong enough to prevent something like that from happening again.\" benefit=\"Once per day when you hit a foe with a melee attack, you can attempt an ‹rule/aid another<_2› action as a @FA to increase an adjacent ally's AC against that foe. If you succeed, you grant the ally a +4 bonus to AC instead of a +2 bonus for that round.\"}"
 		],
 		"topLink": [ "Religion Traits", "main/traits_religion" ]
 	},
@@ -2349,7 +2349,7 @@
 		"compilationSources": [ [ "Blood of the Ancients", 13 ] ],
 		"category": "Azlanti-Elion",
 		"description": [
-			"::trait{title=\"&L&Sacred Orienteer&FN&\" type=Religion religion=\"‹faith/Elion›\" flavor=\"You have traveled far with only your compass and faith as your guides.\" benefit=\"You begin play with a ‹eq-misc/compass›, and any compass or ‹magic-wondrous/wayfinder› in your possession also functions as a holy symbol of Elion. Either ‹skill/Knowledge (geography)› or ‹skill/Survival› becomes a class skill for you.~~~Once per day you can consult your compass or wayfinder as a @HLfull-round_action to gain a +2 trait bonus on one Knowledge (geography) or Survival check.\"}"
+			"::trait{title=\"&L&Sacred Orienteer&FN&\" type=Religion religion=\"‹faith/Elion›\" flavor=\"You have traveled far with only your compass and faith as your guides.\" benefit=\"You begin play with a ‹eq-misc/compass›, and any compass or ‹magic-wondrous/wayfinder› in your possession also functions as a holy symbol of Elion. Either ‹skill/Knowledge (geography)› or ‹skill/Survival› becomes a class skill for you.~~~Once per day you can consult your compass or wayfinder as a @RA to gain a +2 trait bonus on one Knowledge (geography) or Survival check.\"}"
 		],
 		"topLink": [ "Religion Traits", "main/traits_religion" ]
 	},
@@ -2421,7 +2421,7 @@
 		"compilationSources": [ [ "Halflings of Golarion" ] ],
 		"category": "NG-Shelyn",
 		"description": [
-			"::trait{title=\"&L&Self-Sacrifice&FN&\" type=Religion religion=\"‹faith/Shelyn›\" req=\"‹race/Halfling›\" flavor=\"You honor your goddess through your willingness to take risks for those you care about.\" benefit=\"As a @HLmove_action, you can use your own body to grant soft ‹rule/cover› to an adjacent ally regardless of the difference in your respective sizes.\"}"
+			"::trait{title=\"&L&Self-Sacrifice&FN&\" type=Religion religion=\"‹faith/Shelyn›\" req=\"‹race/Halfling›\" flavor=\"You honor your goddess through your willingness to take risks for those you care about.\" benefit=\"As a @MA, you can use your own body to grant soft ‹rule/cover› to an adjacent ally regardless of the difference in your respective sizes.\"}"
 		],
 		"topLink": [ "Religion Traits", "main/traits_religion" ]
 	},
@@ -2526,7 +2526,7 @@
 		"compilationSources": [ [ "Inner Sea Gods" ] ],
 		"category": "CG-Milani",
 		"description": [
-			"::trait{title=\"&L&Split-Second Defense&FN&\" type=Religion religion=\"‹faith/Milani›\" benefit=\"When you are the target of an attack by an opponent that is ‹rule/flanking› you, as an @HLimmediate_action once per day you can foil that opponent's attack. For that attack, the opponent does not gain any of the bonuses or effects that are associated with flanking.\"}"
+			"::trait{title=\"&L&Split-Second Defense&FN&\" type=Religion religion=\"‹faith/Milani›\" benefit=\"When you are the target of an attack by an opponent that is ‹rule/flanking› you, as an @IA once per day you can foil that opponent's attack. For that attack, the opponent does not gain any of the bonuses or effects that are associated with flanking.\"}"
 		],
 		"topLink": [ "Religion Traits", "main/traits_religion" ]
 	},
@@ -2587,7 +2587,7 @@
 		"compilationSources": [ [ "Goblins of Golarion" ] ],
 		"category": "Goblin Deities-Hadregash",
 		"description": [
-			"::trait{title=\"&L&Strength of the Barghest&FN&\" type=Religion religion=\"‹faith/Hadregash›\" req=\"‹race/Goblin›\" flavor=\"The blood of the barghests is strong in you.\" benefit=\"Once per day as a @HLfree_action, you can gain a +2 trait bonus on any Strength check or Strength-based skill check.\"}"
+			"::trait{title=\"&L&Strength of the Barghest&FN&\" type=Religion religion=\"‹faith/Hadregash›\" req=\"‹race/Goblin›\" flavor=\"The blood of the barghests is strong in you.\" benefit=\"Once per day as a @FA, you can gain a +2 trait bonus on any Strength check or Strength-based skill check.\"}"
 		],
 		"topLink": [ "Religion Traits", "main/traits_religion" ]
 	},
@@ -2836,7 +2836,7 @@
 		],
 		"category": "CN-Gorum",
 		"description": [
-			"::trait{title=\"&L&Veteran of Battle&FN&\" type=Religion religion=\"‹faith/Gorum›\" flavor=\"You have fought in several battles, and each time felt the presence of Gorum guiding your sword-arm, making you ready to act at a moment's notice.\" benefit=\"You gain a +1 trait bonus on initiative checks, and if you are able to act during a surprise round, you may draw a weapon (but not a potion or magic item) as a @HLfree_action during that round.\"}"
+			"::trait{title=\"&L&Veteran of Battle&FN&\" type=Religion religion=\"‹faith/Gorum›\" flavor=\"You have fought in several battles, and each time felt the presence of Gorum guiding your sword-arm, making you ready to act at a moment's notice.\" benefit=\"You gain a +1 trait bonus on initiative checks, and if you are able to act during a surprise round, you may draw a weapon (but not a potion or magic item) as a @FA during that round.\"}"
 		],
 		"topLink": [ "Religion Traits", "main/traits_religion" ]
 	},
@@ -2915,7 +2915,7 @@
 		"compilationSources": [ [ "Goblins of Golarion" ] ],
 		"category": "Goblin Deities-Zarongel",
 		"description": [
-			"::trait{title=\"&L&Wolf Cub&FN&\" type=Religion religion=\"‹faith/Zarongel›\" req=\"‹race/Goblin›\" flavor=\"Your body has clumps of ugly fur, a sure sign of wolf blood! You win!\" benefit=\"Once per day as a @HLstandard_action, you can take a deep breath through your nose to gain the ‹umr/scent› ability for 1 minute.\"}"
+			"::trait{title=\"&L&Wolf Cub&FN&\" type=Religion religion=\"‹faith/Zarongel›\" req=\"‹race/Goblin›\" flavor=\"Your body has clumps of ugly fur, a sure sign of wolf blood! You win!\" benefit=\"Once per day as a @SA, you can take a deep breath through your nose to gain the ‹umr/scent› ability for 1 minute.\"}"
 		],
 		"topLink": [ "Religion Traits", "main/traits_religion" ]
 	},
@@ -3607,7 +3607,7 @@
 		"name": "The Wagon",
 		"compilationSources": [ [ "Occult Mysteries", 37 ] ],
 		"description": [
-			"::trait{title=\"&L&The Wagon&FN&\" type=Cosmic req=\"Born between 21 Erastus and 10 Arodus\" flavor=\"Like the vehicle that conveys travelers across the heavens, you are blessed with extraordinary movement capabilities.\" benefit=\"Once per day as a @HLswift_action, you can increase you move speed by 10 feet for 1 round.\"}"
+			"::trait{title=\"&L&The Wagon&FN&\" type=Cosmic req=\"Born between 21 Erastus and 10 Arodus\" flavor=\"Like the vehicle that conveys travelers across the heavens, you are blessed with extraordinary movement capabilities.\" benefit=\"Once per day as a @WA, you can increase you move speed by 10 feet for 1 round.\"}"
 		],
 		"category": "Cosmic",
 		"topLink": [ "Cosmic Traits", "main/traits_cosmic" ]

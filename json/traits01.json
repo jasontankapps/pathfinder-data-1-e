@@ -30,7 +30,7 @@
 		"name": "Accelerated Drinker",
 		"compilationSources": [ [ "Cheliax, Empire of Devils" ] ],
 		"description": [
-			"::trait{title=\"&L&Accelerated Drinker&FN&\" type=Combat flavor=\"You know how to drink a potion efficiently, such as by not using your hands, tossing it in the air and catching it in your mouth, or opening it with your teeth.\" benefit=\"You may drink a potion as a @HLmove_action instead of a standard as long as you start your turn with the potion in your hand.\"}"
+			"::trait{title=\"&L&Accelerated Drinker&FN&\" type=Combat flavor=\"You know how to drink a potion efficiently, such as by not using your hands, tossing it in the air and catching it in your mouth, or opening it with your teeth.\" benefit=\"You may drink a potion as a @MA instead of a standard as long as you start your turn with the potion in your hand.\"}"
 		],
 		"category": "Combat-ab",
 		"topLink": [ "Combat Traits", "main/traits_combat" ]
@@ -242,7 +242,7 @@
 		"name": "Born under the Dreamer",
 		"compilationSources": [ [ "People of the Stars" ] ],
 		"description": [
-			"::trait{title=\"&L&Born under the Dreamer&FN&\" type=Combat flavor=\"Your birth sign aligned significantly with Liavara on the day you were born, and you are touched by the instinctual dreaming spirit of that planet, making you naturally poised and hard to surprise.\" benefit=\"Once per day as a @HLfree_action, you can take 10 on your initiative check.\"}"
+			"::trait{title=\"&L&Born under the Dreamer&FN&\" type=Combat flavor=\"Your birth sign aligned significantly with Liavara on the day you were born, and you are touched by the instinctual dreaming spirit of that planet, making you naturally poised and hard to surprise.\" benefit=\"Once per day as a @FA, you can take 10 on your initiative check.\"}"
 		],
 		"category": "Combat-init",
 		"topLink": [ "Combat Traits", "main/traits_combat" ]
@@ -486,7 +486,7 @@
 		"name": "Elemental Apprentice",
 		"compilationSources": [ [ "Elemental Master's Handbook" ] ],
 		"description": [
-			"::trait{title=\"&L&Elemental Apprentice&FN&\" type=Combat flavor=\"You spent your childhood in a region of Golarion where the use of elemental magic is commonplace or the environment is heavily infused with elemental energies, such as the volcano Asuulek's Mouth or the hurricane-lashed Sodden Lands. Your time near raw elemental energies has inured you to taking damage from them.\" benefit=\"At character creation, select acid, cold, electricity, or fire (once chosen, this damage type can't be changed). Once per day as a @HLfree_action, when you hit a creature with a melee weapon, you can convert an amount of damage dealt by your attack equal to your character level into the selected energy type. You cannot convert this damage if any damage from the attack would normally deal a different type of energy damage (such as that of a ‹magic-enh/flaming› weapon).\"}"
+			"::trait{title=\"&L&Elemental Apprentice&FN&\" type=Combat flavor=\"You spent your childhood in a region of Golarion where the use of elemental magic is commonplace or the environment is heavily infused with elemental energies, such as the volcano Asuulek's Mouth or the hurricane-lashed Sodden Lands. Your time near raw elemental energies has inured you to taking damage from them.\" benefit=\"At character creation, select acid, cold, electricity, or fire (once chosen, this damage type can't be changed). Once per day as a @FA, when you hit a creature with a melee weapon, you can convert an amount of damage dealt by your attack equal to your character level into the selected energy type. You cannot convert this damage if any damage from the attack would normally deal a different type of energy damage (such as that of a ‹magic-enh/flaming› weapon).\"}"
 		],
 		"category": "Combat-off",
 		"topLink": [ "Combat Traits", "main/traits_combat" ]
@@ -580,7 +580,7 @@
 		"name": "Hellknight Devotion",
 		"compilationSources": [ [ "Advanced Class Origins" ] ],
 		"description": [
-			"::trait{title=\"&L&Hellknight Devotion&FN&\" type=Combat flavor=\"Your family has strong ties to a ‹rule/Hellknight<s› order, and you harness this belief as a weapon.\" benefit=\"Once per day as a @HLswift_action, you can empower the next single melee attack you make to be treated as lawful-aligned for the purpose of overcoming damage reduction.\"}"
+			"::trait{title=\"&L&Hellknight Devotion&FN&\" type=Combat flavor=\"Your family has strong ties to a ‹rule/Hellknight<s› order, and you harness this belief as a weapon.\" benefit=\"Once per day as a @WA, you can empower the next single melee attack you make to be treated as lawful-aligned for the purpose of overcoming damage reduction.\"}"
 		],
 		"category": "Combat-off",
 		"topLink": [ "Combat Traits", "main/traits_combat" ]
@@ -682,7 +682,7 @@
 		"name": "Inspiring",
 		"compilationSources": [ [ "Quests and Campaigns" ] ],
 		"description": [
-			"::trait{title=\"&L&Inspiring&FN&\" type=Combat flavor=\"As a child, you learned the power of a simple expression of faith in another when you gave a hero the inspiration to fight on in the face of terrible odds and save you from danger.\" benefit=\"As a @HLstandard_action, you can speak words of encouragement to grant a +1 morale bonus to an ally within 30 feet who can see and hear you. The ally can use this bonus on any d20 roll of her choice before the start of your next turn. You cannot use this trait to grant a bonus to yourself or to an ally who has already benefited from this trait within the last 24 hours.~~~**Suggested Characters:** ‹rule/Eagle Knights›, ‹faith/Iomedae«ans›, Mendevian crusaders.\"}"
+			"::trait{title=\"&L&Inspiring&FN&\" type=Combat flavor=\"As a child, you learned the power of a simple expression of faith in another when you gave a hero the inspiration to fight on in the face of terrible odds and save you from danger.\" benefit=\"As a @SA, you can speak words of encouragement to grant a +1 morale bonus to an ally within 30 feet who can see and hear you. The ally can use this bonus on any d20 roll of her choice before the start of your next turn. You cannot use this trait to grant a bonus to yourself or to an ally who has already benefited from this trait within the last 24 hours.~~~**Suggested Characters:** ‹rule/Eagle Knights›, ‹faith/Iomedae«ans›, Mendevian crusaders.\"}"
 		],
 		"category": "Combat-ab",
 		"topLink": [ "Combat Traits", "main/traits_combat" ]
@@ -1455,7 +1455,7 @@
 		"name": "Beacon of Faith",
 		"compilationSources": [ [ "Ultimate Campaign" ] ],
 		"description": [
-			"::trait{title=\"&L&Beacon of Faith&FN&\" type=Faith flavor=\"You wield the might of your faith with power and clarity.\" benefit=\"Once per day as a @HLfree_action, you may treat your caster level as if it were 2 levels higher when using one of the granted powers of your domain or inquisition, or when casting one of your domain spells.\"}"
+			"::trait{title=\"&L&Beacon of Faith&FN&\" type=Faith flavor=\"You wield the might of your faith with power and clarity.\" benefit=\"Once per day as a @FA, you may treat your caster level as if it were 2 levels higher when using one of the granted powers of your domain or inquisition, or when casting one of your domain spells.\"}"
 		],
 		"category": "Faith-class-cleric-inq",
 		"topLink": [ "Faith Traits", "main/traits_faith" ]
@@ -1477,7 +1477,7 @@
 		"name": "Blessed",
 		"compilationSources": [ [ "Ultimate Campaign" ] ],
 		"description": [
-			"::trait{title=\"&L&Blessed&FN&\" type=Faith flavor=\"Some divine agent watches over you and heeds your call.\" benefit=\"Once per day as a @HLswift_action, you gain a +1 trait bonus on all saving throws for 1 round.\"}"
+			"::trait{title=\"&L&Blessed&FN&\" type=Faith flavor=\"Some divine agent watches over you and heeds your call.\" benefit=\"Once per day as a @WA, you gain a +1 trait bonus on all saving throws for 1 round.\"}"
 		],
 		"category": "Faith-def",
 		"topLink": [ "Faith Traits", "main/traits_faith" ]
@@ -1495,7 +1495,7 @@
 		"name": "Born Free",
 		"compilationSources": [ [ "Faiths and Philosophies" ] ],
 		"description": [
-			"::trait{title=\"&L&Born Free&FN&\" type=Faith flavor=\"You were introduced to an individualistic belief as a youth. Thriving under the promise of control of your own destiny, you soon began to demonstrate the truth of this ideal. Though others may mock you for your unwillingness to go along with a group or accept the easy security and comfort promised by more ecclesiastical faiths, you know that the revelations and destiny you seek can only be brought about through your own actions and individual search for meaning.\" benefit=\"Once per day, after you roll a saving throw against a compulsion effect, you can choose to roll again as an @HLimmediate_action before the result of the saving throw is announced. You must keep the new roll, even if it is worse.\"}"
+			"::trait{title=\"&L&Born Free&FN&\" type=Faith flavor=\"You were introduced to an individualistic belief as a youth. Thriving under the promise of control of your own destiny, you soon began to demonstrate the truth of this ideal. Though others may mock you for your unwillingness to go along with a group or accept the easy security and comfort promised by more ecclesiastical faiths, you know that the revelations and destiny you seek can only be brought about through your own actions and individual search for meaning.\" benefit=\"Once per day, after you roll a saving throw against a compulsion effect, you can choose to roll again as an @IA before the result of the saving throw is announced. You must keep the new roll, even if it is worse.\"}"
 		],
 		"category": "Faith-def",
 		"topLink": [ "Faith Traits", "main/traits_faith" ]
@@ -1566,7 +1566,7 @@
 		"name": "Covert Channeler",
 		"compilationSources": [ [ "Black Markets" ] ],
 		"description": [
-			"::trait{title=\"&L&Covert Channeler&FN&\" type=Faith flavor=\"Your mentor in the ‹rule/Wagons of Light› taught you to hide holy symbols quickly.\" benefit=\"You can draw or stow a holy symbol as a @HLswift_action.\"}"
+			"::trait{title=\"&L&Covert Channeler&FN&\" type=Faith flavor=\"Your mentor in the ‹rule/Wagons of Light› taught you to hide holy symbols quickly.\" benefit=\"You can draw or stow a holy symbol as a @WA.\"}"
 		],
 		"category": "Faith-ab",
 		"topLink": [ "Faith Traits", "main/traits_faith" ]
@@ -1642,7 +1642,7 @@
 		"name": "Devout Visionary",
 		"compilationSources": [ [ "Faiths and Philosophies" ] ],
 		"description": [
-			"::trait{title=\"&L&Devout Visionary&FN&\" type=Faith flavor=\"As a child, you had a strange vision while suffering from a terrible illness, and only found your way back to the mundane world by following the call of a spiritual leader - perhaps a shaman's drum or a druid's lilting poetry. Since then, you have studied symbolism and dreams in the hope that you might understand your own vision, though your lessons prove just as helpful to others.\" benefit=\"You gain a +1 trait bonus on Will saving throws against spells and effects that grant the ‹misc/confused› or ‹misc/dazed› condition. Once per day as a @HLfull-round_action, you may grant an adjacent ally a new Will saving throw to end an effect that grants the confused or dazed condition.\"}"
+			"::trait{title=\"&L&Devout Visionary&FN&\" type=Faith flavor=\"As a child, you had a strange vision while suffering from a terrible illness, and only found your way back to the mundane world by following the call of a spiritual leader - perhaps a shaman's drum or a druid's lilting poetry. Since then, you have studied symbolism and dreams in the hope that you might understand your own vision, though your lessons prove just as helpful to others.\" benefit=\"You gain a +1 trait bonus on Will saving throws against spells and effects that grant the ‹misc/confused› or ‹misc/dazed› condition. Once per day as a @RA, you may grant an adjacent ally a new Will saving throw to end an effect that grants the confused or dazed condition.\"}"
 		],
 		"category": "Faith-def",
 		"topLink": [ "Faith Traits", "main/traits_faith" ]
@@ -1915,7 +1915,7 @@
 		"name": "Inspired",
 		"compilationSources": [ [ "Ultimate Campaign" ] ],
 		"description": [
-			"::trait{title=\"&L&Inspired&FN&\" type=Faith flavor=\"A positive force, philosophy, or divine presence fills you with hope, and is a guiding force of inspiration.\" benefit=\"Once per day as a @HLfree_action, roll twice and take the better result on a skill check or ability check.\"}"
+			"::trait{title=\"&L&Inspired&FN&\" type=Faith flavor=\"A positive force, philosophy, or divine presence fills you with hope, and is a guiding force of inspiration.\" benefit=\"Once per day as a @FA, roll twice and take the better result on a skill check or ability check.\"}"
 		],
 		"category": "Faith-ab",
 		"topLink": [ "Faith Traits", "main/traits_faith" ]
@@ -1942,7 +1942,7 @@
 		"name": "Jinx Eater",
 		"compilationSources": [ [ "Blood of the Beast" ] ],
 		"description": [
-			"::trait{title=\"&L&Jinx Eater&FN&\" type=Faith region=\"The Shackles\" req=\"‹race/Tengu›\" flavor=\"Your presence dampens curses and other ill effects.\" benefit=\"You gain a +1 trait bonus on saves against curses, including the hex class ability of shamans and witches. Once per day, you can grant this bonus to all allies within 30 feet for 1 round as an @HLimmediate_action.\"}"
+			"::trait{title=\"&L&Jinx Eater&FN&\" type=Faith region=\"The Shackles\" req=\"‹race/Tengu›\" flavor=\"Your presence dampens curses and other ill effects.\" benefit=\"You gain a +1 trait bonus on saves against curses, including the hex class ability of shamans and witches. Once per day, you can grant this bonus to all allies within 30 feet for 1 round as an @IA.\"}"
 		],
 		"category": "Faith-def",
 		"topLink": [ "Faith Traits", "main/traits_faith" ]
@@ -2014,7 +2014,7 @@
 		"name": "Monastic",
 		"compilationSources": [ [ "Faiths and Philosophies" ] ],
 		"description": [
-			"::trait{title=\"&L&Monastic&FN&\" type=Faith flavor=\"Either your parents sent you to be raised in a monastery, or you traveled there yourself later in life in order to escape the conflict and distractions of the greater world. There you learned to eschew the material concerns that plague so many and cloud their minds, instead embracing an ascetic lifestyle. You readily let go and step away from trouble, free from any tie or baggage that might slow your path to enlightenment - figuratively or literally.\" benefit=\"Once per day as a @HLswift_action, you gain a +1 trait bonus to Armor Class as long as you are wearing no armor, not using a shield, carrying a light load, and have nothing in your hands. This bonus lasts for 1 minute.\"}"
+			"::trait{title=\"&L&Monastic&FN&\" type=Faith flavor=\"Either your parents sent you to be raised in a monastery, or you traveled there yourself later in life in order to escape the conflict and distractions of the greater world. There you learned to eschew the material concerns that plague so many and cloud their minds, instead embracing an ascetic lifestyle. You readily let go and step away from trouble, free from any tie or baggage that might slow your path to enlightenment - figuratively or literally.\" benefit=\"Once per day as a @WA, you gain a +1 trait bonus to Armor Class as long as you are wearing no armor, not using a shield, carrying a light load, and have nothing in your hands. This bonus lasts for 1 minute.\"}"
 		],
 		"category": "Faith-def",
 		"topLink": [ "Faith Traits", "main/traits_faith" ]
@@ -2077,7 +2077,7 @@
 		"name": "Omen",
 		"compilationSources": [ [ "Ultimate Campaign" ] ],
 		"description": [
-			"::trait{title=\"&L&Omen&FN&\" type=Faith flavor=\"You are the harbinger of some future event. Whether this event bodes good or ill, you exude an ominous presence.\" benefit=\"You gain a +1 trait bonus on ‹skill/Intimidate› checks, and Intimidate is always a class skill for you. Once per day, you may attempt to demoralize an opponent as a @HLswift_action.\"}"
+			"::trait{title=\"&L&Omen&FN&\" type=Faith flavor=\"You are the harbinger of some future event. Whether this event bodes good or ill, you exude an ominous presence.\" benefit=\"You gain a +1 trait bonus on ‹skill/Intimidate› checks, and Intimidate is always a class skill for you. Once per day, you may attempt to demoralize an opponent as a @WA.\"}"
 		],
 		"category": "Faith-ab-cs-intm",
 		"topLink": [ "Faith Traits", "main/traits_faith" ]
@@ -2229,7 +2229,7 @@
 			[ "Advanced Player's Guide" ]
 		],
 		"description": [
-			"::trait{title=\"&L&Sacred Touch&FN&\" type=Faith flavor=\"You were exposed to a potent source of positive energy as a child, perhaps by being born under the right cosmic sign, or maybe because one of your parents was a gifted healer.\" benefit=\"As a @HLstandard_action, you may automatically ‹spell/stabilize› a ‹misc/dying› creature merely by touching it.\"}"
+			"::trait{title=\"&L&Sacred Touch&FN&\" type=Faith flavor=\"You were exposed to a potent source of positive energy as a child, perhaps by being born under the right cosmic sign, or maybe because one of your parents was a gifted healer.\" benefit=\"As a @SA, you may automatically ‹spell/stabilize› a ‹misc/dying› creature merely by touching it.\"}"
 		],
 		"category": "Faith-spell",
 		"topLink": [ "Faith Traits", "main/traits_faith" ]
@@ -2332,7 +2332,7 @@
 		"name": "St. Clydwell's Ward",
 		"compilationSources": [ [ "Faction Guide" ] ],
 		"description": [
-			"::trait{title=\"&L&St. Clydwell's Ward&FN&\" type=Faith req=\"Mendev Crusaders\" flavor=\"You have learned the secrets of an ancient prayer that wards off the attacks of demons.\" benefit=\"As a @HLstandard_action, you can recite a holy chant that affects ‹family/demon«s› as if you were under the effect of a ‹spell/sanctuary› spell (caster level equal to 1/2 your Hit Dice + your Charisma modifier).\"}"
+			"::trait{title=\"&L&St. Clydwell's Ward&FN&\" type=Faith req=\"Mendev Crusaders\" flavor=\"You have learned the secrets of an ancient prayer that wards off the attacks of demons.\" benefit=\"As a @SA, you can recite a holy chant that affects ‹family/demon«s› as if you were under the effect of a ‹spell/sanctuary› spell (caster level equal to 1/2 your Hit Dice + your Charisma modifier).\"}"
 		],
 		"category": "Faith-spell",
 		"topLink": [ "Faith Traits", "main/traits_faith" ]
@@ -2398,7 +2398,7 @@
 		"name": "Totemist",
 		"compilationSources": [ [ "Faiths and Philosophies" ] ],
 		"description": [
-			"::trait{title=\"&L&Totemist&FN&\" type=Faith flavor=\"You grew up in a culture where the touch of totem spirits was felt in everyday life, their subtle urgings constantly guiding you and keeping you safe. As a result, you learned quickly to ask for their help when trouble arises.\" benefit=\"Once per day, you may call upon your totem's wisdom as a @HLstandard_action. You gain the benefits of ‹spell/guidance›, except that the granted competence bonus is equal to half your character level (minimum +1). This is a supernatural ability.\"}"
+			"::trait{title=\"&L&Totemist&FN&\" type=Faith flavor=\"You grew up in a culture where the touch of totem spirits was felt in everyday life, their subtle urgings constantly guiding you and keeping you safe. As a result, you learned quickly to ask for their help when trouble arises.\" benefit=\"Once per day, you may call upon your totem's wisdom as a @SA. You gain the benefits of ‹spell/guidance›, except that the granted competence bonus is equal to half your character level (minimum +1). This is a supernatural ability.\"}"
 		],
 		"category": "Faith-spell",
 		"topLink": [ "Faith Traits", "main/traits_faith" ]
@@ -2585,7 +2585,7 @@
 		"name": "Amiable Blunder",
 		"compilationSources": [ [ "Champions of Balance" ] ],
 		"description": [
-			"::trait{title=\"&L&Amiable Blunder&FN&\" type=Social flavor=\"Your easy-going demeanor allows you to sometimes recover from potentially awkward social situations or even condemnatory faux pas.\" benefit=\"Once per day when you fail a ‹skill/Diplomacy› check by 5 or more and would cause an NPC's attitude toward you to worsen, you can immediately attempt another Diplomacy check against the same DC as a @HLfree_action. If you succeed at this second Diplomacy check, the character's attitude doesn't change, as though you had failed the original check by 4 or less.\"}"
+			"::trait{title=\"&L&Amiable Blunder&FN&\" type=Social flavor=\"Your easy-going demeanor allows you to sometimes recover from potentially awkward social situations or even condemnatory faux pas.\" benefit=\"Once per day when you fail a ‹skill/Diplomacy› check by 5 or more and would cause an NPC's attitude toward you to worsen, you can immediately attempt another Diplomacy check against the same DC as a @FA. If you succeed at this second Diplomacy check, the character's attitude doesn't change, as though you had failed the original check by 4 or less.\"}"
 		],
 		"category": "Social-ab-diplo",
 		"topLink": [ "Social Traits", "main/traits_social" ]
@@ -3235,7 +3235,7 @@
 		"name": "Grim Optimism",
 		"compilationSources": [ [ "Quests and Campaigns" ] ],
 		"description": [
-			"::trait{title=\"&L&Grim Optimism&FN&\" type=Social flavor=\"Growing up with no one to rely on but yourself, you learned to keep a realistic view of your situation and avoid falling into the trap of cynicism with a healthy dose of wit.\" benefit=\"As a @HLstandard_action, you can joke about a troublesome situation to lighten the load of dealing with it for yourself and others. You and all allies within 30 feet who can hear you gain a +2 morale bonus on saving throws against fear and pain effects for 1d4 rounds. A character cannot benefit from this effect more than once in 24 hours.~~~**Suggested Characters:** Galtans, Rahadoumi, Ustalavs.\"}"
+			"::trait{title=\"&L&Grim Optimism&FN&\" type=Social flavor=\"Growing up with no one to rely on but yourself, you learned to keep a realistic view of your situation and avoid falling into the trap of cynicism with a healthy dose of wit.\" benefit=\"As a @SA, you can joke about a troublesome situation to lighten the load of dealing with it for yourself and others. You and all allies within 30 feet who can hear you gain a +2 morale bonus on saving throws against fear and pain effects for 1d4 rounds. A character cannot benefit from this effect more than once in 24 hours.~~~**Suggested Characters:** Galtans, Rahadoumi, Ustalavs.\"}"
 		],
 		"category": "Social-def",
 		"topLink": [ "Social Traits", "main/traits_social" ]
@@ -3983,7 +3983,7 @@
 		"name": "Voices in your Head",
 		"compilationSources": [ [ "Heroes of the Darklands" ] ],
 		"description": [
-			"::trait{title=\"&L&Voices in your Head&FN&\" type=Social flavor=\"Through pacts with eldritch beings or a simple quirk of circumstance, your voice has an uncanny rapport with those swept up in madness.\" benefit=\"Once per day as an @HLimmediate_action, you can issue a command to a ‹misc/confused› creature within 30 feet. This allows the creature to immediately reroll on the ‹misc/confused« condition table›, and you can pick which of the two actions - the action of its initial roll or that of the reroll - the creature takes. Confused creatures do not need to understand you for this trait to take effect.\"}"
+			"::trait{title=\"&L&Voices in your Head&FN&\" type=Social flavor=\"Through pacts with eldritch beings or a simple quirk of circumstance, your voice has an uncanny rapport with those swept up in madness.\" benefit=\"Once per day as an @IA, you can issue a command to a ‹misc/confused› creature within 30 feet. This allows the creature to immediately reroll on the ‹misc/confused« condition table›, and you can pick which of the two actions - the action of its initial roll or that of the reroll - the creature takes. Confused creatures do not need to understand you for this trait to take effect.\"}"
 		],
 		"category": "Social-ab-other",
 		"topLink": [ "Social Traits", "main/traits_social" ]

@@ -121,7 +121,7 @@
 		"compilationSources": [ [ "Blood of the Elements" ] ],
 		"category": "Casmaron-Jalmeray",
 		"description": [
-			"::trait{title=\"&L&Alabaster Odalisque&FN&\" type=Regional region=Jalmeray req=\"‹race/Oread›\" flavor=\"The rajahs of Jalmeray favored you for your stately physique and flawless skin, and so endorsed your candidacy for tutelage at the Conservatory on the island of Grand Sarret.\" benefit=\"Trained to be the perfect bard, courtesan, or undercover operative, you gain a +1 trait bonus on two Charisma-based skills of your choice.~~~In addition, once per day as a @HLswift_action, you can brush your fingers against a closed door or stone wall up to 1 foot thick. Doing so allows you to ignore penalties on ‹skill/Perception› checks to listen through the designated object for 1 minute.\"}"
+			"::trait{title=\"&L&Alabaster Odalisque&FN&\" type=Regional region=Jalmeray req=\"‹race/Oread›\" flavor=\"The rajahs of Jalmeray favored you for your stately physique and flawless skin, and so endorsed your candidacy for tutelage at the Conservatory on the island of Grand Sarret.\" benefit=\"Trained to be the perfect bard, courtesan, or undercover operative, you gain a +1 trait bonus on two Charisma-based skills of your choice.~~~In addition, once per day as a @WA, you can brush your fingers against a closed door or stone wall up to 1 foot thick. Doing so allows you to ignore penalties on ‹skill/Perception› checks to listen through the designated object for 1 minute.\"}"
 		],
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
@@ -475,7 +475,7 @@
 		"compilationSources": [ [ "Blood of the Ancients", 25 ] ],
 		"category": "Casmaron-Ninshaburian",
 		"description": [
-			"::trait{title=\"&L&Brave Words&FN&\" type=Regional region=Ninshaburian flavor=\"You inherit your forebears' ability to fight off terror with bragging or insults.\" benefit=\"As a @HLswift_action, when you have the ‹misc/frightened› condition, you can function as if you only have the ‹misc/shaken› condition for 1 round by shouting at the source of your fear. You must be able to see the source of the fear condition.~~~You can use this trait only once per fear effect. This trait grants no benefits against the shaken or ‹misc/panicked› conditions.\"}"
+			"::trait{title=\"&L&Brave Words&FN&\" type=Regional region=Ninshaburian flavor=\"You inherit your forebears' ability to fight off terror with bragging or insults.\" benefit=\"As a @WA, when you have the ‹misc/frightened› condition, you can function as if you only have the ‹misc/shaken› condition for 1 round by shouting at the source of your fear. You must be able to see the source of the fear condition.~~~You can use this trait only once per fear effect. This trait grants no benefits against the shaken or ‹misc/panicked› conditions.\"}"
 		],
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
@@ -721,7 +721,7 @@
 		"compilationSources": [ [ "Heroes from the Fringe" ] ],
 		"category": "Other-Arcadia",
 		"description": [
-			"::trait{title=\"&L&Cliff Strider&FN&\" type=Regional region=Arcadia flavor=\"You grew up along the Grinding Coast of Arcadia, scaling perilous cliffs and dealing with the dangerous creatures that live on these rocky surfaces.\" benefit=\"As a @HLmove_action while climbing, you can climb 5 feet without provoking an attack of opportunity, even if you don't have a climb speed.\"}"
+			"::trait{title=\"&L&Cliff Strider&FN&\" type=Regional region=Arcadia flavor=\"You grew up along the Grinding Coast of Arcadia, scaling perilous cliffs and dealing with the dangerous creatures that live on these rocky surfaces.\" benefit=\"As a @MA while climbing, you can climb 5 feet without provoking an attack of opportunity, even if you don't have a climb speed.\"}"
 		],
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
@@ -820,7 +820,7 @@
 		"compilationSources": [ [ "Undead Slayer's Handbook" ] ],
 		"category": "NCAvistan-Ustalav",
 		"description": [
-			"::trait{title=\"&L&Corpse Dodger&FN&\" type=Regional region=Ustalav flavor=\"You spent your formative years in the town of Ravengro, where your proximity to both a prominent graveyard and an infamous prison left you no stranger to the occasional zombie or skeleton. As such, you developed unique methods of dodging these pests.\" benefit=\"Once per day, you can cast ‹spell/hide from undead› as a spell-like ability. The casting time is a @HLswift_action and the caster level for this effect is always 1st; this ability is otherwise identical to the spell.\"}"
+			"::trait{title=\"&L&Corpse Dodger&FN&\" type=Regional region=Ustalav flavor=\"You spent your formative years in the town of Ravengro, where your proximity to both a prominent graveyard and an infamous prison left you no stranger to the occasional zombie or skeleton. As such, you developed unique methods of dodging these pests.\" benefit=\"Once per day, you can cast ‹spell/hide from undead› as a spell-like ability. The casting time is a @WA and the caster level for this effect is always 1st; this ability is otherwise identical to the spell.\"}"
 		],
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
@@ -868,7 +868,7 @@
 		"compilationSources": [ [ "Advanced Class Origins" ] ],
 		"category": "Eye of Abendego-Mediogalti",
 		"description": [
-			"::trait{title=\"&L&Cultist Lineage&FN&\" type=Regional region=Mediogalti flavor=\"Your parents were both ‹pclass/Red Mantis assassin«s› and your family has a long tradition of service in the ‹rule/Red Mantis› cult. Your strict, fanatical upbringing and familiarity with murder have bestowed upon you an air of confidence and menace.\" benefit=\"You gain a +1 trait bonus on ‹skill/Intimidate› checks. If you act during the surprise round, as a @HLfree_action during that round you can draw a light weapon (or two if you have the ‹feat/Two-Weapon Fighting› feat).\"}"
+			"::trait{title=\"&L&Cultist Lineage&FN&\" type=Regional region=Mediogalti flavor=\"Your parents were both ‹pclass/Red Mantis assassin«s› and your family has a long tradition of service in the ‹rule/Red Mantis› cult. Your strict, fanatical upbringing and familiarity with murder have bestowed upon you an air of confidence and menace.\" benefit=\"You gain a +1 trait bonus on ‹skill/Intimidate› checks. If you act during the surprise round, as a @FA during that round you can draw a light weapon (or two if you have the ‹feat/Two-Weapon Fighting› feat).\"}"
 		],
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
@@ -1173,7 +1173,7 @@
 		"compilationSources": [ [ "Champions of Balance" ] ],
 		"category": "NEGarund-Osirion",
 		"description": [
-			"::trait{title=\"&L&Elemental Endowment&FN&\" type=Regional region=Osirion flavor=\"You see the interactions between elementals as the epitome of balance; you've studied the traditional elemental bindings of Ancient Osirion and can draw upon their power.\" benefit=\"As an @HLimmediate_action, once per day when you cast a spell with the air, earth, fire, or water descriptor, you can gain a number of ‹rule/temporary hit points› equal to the spell's level. This effect lasts for 1 minute.\"}"
+			"::trait{title=\"&L&Elemental Endowment&FN&\" type=Regional region=Osirion flavor=\"You see the interactions between elementals as the epitome of balance; you've studied the traditional elemental bindings of Ancient Osirion and can draw upon their power.\" benefit=\"As an @IA, once per day when you cast a spell with the air, earth, fire, or water descriptor, you can gain a number of ‹rule/temporary hit points› equal to the spell's level. This effect lasts for 1 minute.\"}"
 		],
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
@@ -1362,7 +1362,7 @@
 		"compilationSources": [ [ "Legacy of the First World" ] ],
 		"category": "WestAvistan-Irrisen",
 		"description": [
-			"::trait{title=\"&L&Fey Hex&FN&\" type=Regional region=Irrisen flavor=\"You have learned to incorporate fey enchantments into your hexes to snare victims that shake off your curses.\" benefit=\"Once per day as a @HLfree_action, when a creature succeeds at its saving throw against your hex that cannot target the same creature more than once per day, you can declare that creature to be subject to your fey hex. You can attempt the failed hex against the creature a second time, so long as you do so within 1 minute.\"}"
+			"::trait{title=\"&L&Fey Hex&FN&\" type=Regional region=Irrisen flavor=\"You have learned to incorporate fey enchantments into your hexes to snare victims that shake off your curses.\" benefit=\"Once per day as a @FA, when a creature succeeds at its saving throw against your hex that cannot target the same creature more than once per day, you can declare that creature to be subject to your fey hex. You can attempt the failed hex against the creature a second time, so long as you do so within 1 minute.\"}"
 		],
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
@@ -1398,7 +1398,7 @@
 		"compilationSources": [ [ "Pirates of the Inner Sea" ] ],
 		"category": "SEAvistan-Andoran",
 		"description": [
-			"::trait{title=\"&L&Fight for Liberty&FN&\" type=Regional region=Andoran flavor=\"You inspire slaves to fight for freedom with a rousing battle cry.\" benefit=\"As a @HLstandard_action, you may make a rallying cry with a DC 15 ‹skill/Perform› (oratory) check. On a successful check, any unarmed ally within 30 feet who is able to hear you gains a +2 trait bonus on attack rolls with ‹misc/improvised weapons› and unarmed strikes. This bonus lasts for 1 round per level.\"}"
+			"::trait{title=\"&L&Fight for Liberty&FN&\" type=Regional region=Andoran flavor=\"You inspire slaves to fight for freedom with a rousing battle cry.\" benefit=\"As a @SA, you may make a rallying cry with a DC 15 ‹skill/Perform› (oratory) check. On a successful check, any unarmed ally within 30 feet who is able to hear you gains a +2 trait bonus on attack rolls with ‹misc/improvised weapons› and unarmed strikes. This bonus lasts for 1 round per level.\"}"
 		],
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
@@ -1716,7 +1716,7 @@
 		"compilationSources": [ [ "Dragon Empires Primer" ] ],
 		"category": "Tian Xia-Tianjing",
 		"description": [
-			"::trait{title=\"&L&Heavenly Touch&FN&\" type=Regional region=Tianjing flavor=\"Growing up, you were exposed to everyday miracles performed by your half-celestial friends, and some of this magic rubbed off.\" benefit=\"At will, you can touch a dying creature to ‹misc/stabilize› it as a @HLstandard_action.\"}"
+			"::trait{title=\"&L&Heavenly Touch&FN&\" type=Regional region=Tianjing flavor=\"Growing up, you were exposed to everyday miracles performed by your half-celestial friends, and some of this magic rubbed off.\" benefit=\"At will, you can touch a dying creature to ‹misc/stabilize› it as a @SA.\"}"
 		],
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
@@ -1938,7 +1938,7 @@
 		"compilationSources": [ [ "Healer's Handbook" ] ],
 		"category": "WestAvistan-Irrisen",
 		"description": [
-			"::trait{title=\"&L&Jadwiga Medicine&FN&\" type=Regional region=Irrisen benefit=\"Once per day as an @HLimmediate_action when you cast a spell of the healing subschool or a hex that produces the effect of such a spell, you can attempt an ‹skill/Intimidate› check to demoralize your target or anyone who can see you within 30 feet. You gain a +2 trait bonus on this check.\"}"
+			"::trait{title=\"&L&Jadwiga Medicine&FN&\" type=Regional region=Irrisen benefit=\"Once per day as an @IA when you cast a spell of the healing subschool or a hex that produces the effect of such a spell, you can attempt an ‹skill/Intimidate› check to demoralize your target or anyone who can see you within 30 feet. You gain a +2 trait bonus on this check.\"}"
 		],
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
@@ -2488,7 +2488,7 @@
 		"compilationSources": [ [ "People of the Sands" ] ],
 		"category": "NEGarund-Osirion",
 		"description": [
-			"::trait{title=\"&L&Numerologist&FN&\" type=Regional region=Osirion flavor=\"Having studied the sciences and other formal academics in your formative years, you swiftly became interested in the esoteric numerological practices of the ancient Osirian mathematicians, and know how to apply this science to dungeons.\" benefit=\"Once per day, you can attempt a ‹skill/Perception› check while studying a trap (a @HLstandard_action). The DC of this check is equal to the ‹skill/Disable Device› DC of the trap - 5. If you succeed, you identify the DC necessary to disable the trap, as well as the DC of the Reflex save (if any) to avoid its effects.\"}"
+			"::trait{title=\"&L&Numerologist&FN&\" type=Regional region=Osirion flavor=\"Having studied the sciences and other formal academics in your formative years, you swiftly became interested in the esoteric numerological practices of the ancient Osirian mathematicians, and know how to apply this science to dungeons.\" benefit=\"Once per day, you can attempt a ‹skill/Perception› check while studying a trap (a @SA). The DC of this check is equal to the ‹skill/Disable Device› DC of the trap - 5. If you succeed, you identify the DC necessary to disable the trap, as well as the DC of the Reflex save (if any) to avoid its effects.\"}"
 		],
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
@@ -2506,7 +2506,7 @@
 		"compilationSources": [ [ "Champions of Corruption" ] ],
 		"category": "Mana Wastes-Geb",
 		"description": [
-			"::trait{title=\"&L&Obsequious Morsel&FN&\" type=Regional region=Geb flavor=\"Survival in Geb requires convincing your betters that you would be of more service to them if they let you live another day than if they turn you into an unliving thrall, and you have mastered the art of buying time against undead attacks.\" benefit=\"Once per day as a @HLswift_action, you can use ‹spell/sanctuary› as a spell-like ability (caster level = your highest caster level, or 1st if you have no caster level), with a DC equal to 10 + 1/2 your caster level (minimum 0) + your Charisma modifier. Only undead must save to attack you (other creature types are not affected). The effect ends as soon as you attack a creature, as normal.\"}"
+			"::trait{title=\"&L&Obsequious Morsel&FN&\" type=Regional region=Geb flavor=\"Survival in Geb requires convincing your betters that you would be of more service to them if they let you live another day than if they turn you into an unliving thrall, and you have mastered the art of buying time against undead attacks.\" benefit=\"Once per day as a @WA, you can use ‹spell/sanctuary› as a spell-like ability (caster level = your highest caster level, or 1st if you have no caster level), with a DC equal to 10 + 1/2 your caster level (minimum 0) + your Charisma modifier. Only undead must save to attack you (other creature types are not affected). The effect ends as soon as you attack a creature, as normal.\"}"
 		],
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
@@ -2755,7 +2755,7 @@
 		"compilationSources": [ [ "Healer's Handbook" ] ],
 		"category": "SWAvistan-Cheliax",
 		"description": [
-			"::trait{title=\"&L&Prestigious Healer&FN&\" type=Regional region=Cheliax benefit=\"Once per day as an @HLimmediate_action when you cast a spell of the healing subschool, you can attempt a ‹skill/Diplomacy› check to improve the attitude of your target or anyone within 30 feet who can see you before the end of your next turn. You gain a +2 trait bonus on this check.\"}"
+			"::trait{title=\"&L&Prestigious Healer&FN&\" type=Regional region=Cheliax benefit=\"Once per day as an @IA when you cast a spell of the healing subschool, you can attempt a ‹skill/Diplomacy› check to improve the attitude of your target or anyone within 30 feet who can see you before the end of your next turn. You gain a +2 trait bonus on this check.\"}"
 		],
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
@@ -3066,7 +3066,7 @@
 		"compilationSources": [ [ "Advanced Class Origins" ] ],
 		"category": "WestAvistan-Realm of the Mammoth Lords",
 		"description": [
-			"::trait{title=\"&L&Screaming Leap&FN&\" type=Regional region=\"Realm of the Mammoth Lords\" flavor=\"The rocky foothills of your homeland are ideal for staging leaping ambushes that leave your victims battered and routed.\" benefit=\"You gain a +1 trait bonus on melee damage rolls when you make a ‹rule/charge› attack from higher ground. Once per day, when you make a charge attack from higher ground, you can use the ‹skill/Intimidate› skill to demoralize your target as a @HLswift_action.\"}"
+			"::trait{title=\"&L&Screaming Leap&FN&\" type=Regional region=\"Realm of the Mammoth Lords\" flavor=\"The rocky foothills of your homeland are ideal for staging leaping ambushes that leave your victims battered and routed.\" benefit=\"You gain a +1 trait bonus on melee damage rolls when you make a ‹rule/charge› attack from higher ground. Once per day, when you make a charge attack from higher ground, you can use the ‹skill/Intimidate› skill to demoralize your target as a @WA.\"}"
 		],
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
@@ -3111,7 +3111,7 @@
 		"compilationSources": [ [ "Healer's Handbook" ] ],
 		"category": "Tian Xia",
 		"description": [
-			"::trait{title=\"&L&Servitor of Spirits&FN&\" type=Regional region=\"Tian Xia\" flavor=\"For as long as you can remember, the spirits have always whispered into your ears and guided you - provided that you appease them.\" benefit=\"At the start of each day, you can choose one ‹ability/medium »spirit<s› and accept one of its *taboos* for 24 hours. As long as you don't break that *taboo,* once during the next 24 hours, you can add a +1 trait bonus to any one roll, check, or saving throw (but not to AC) listed under your chosen spirit's *spirit bonus.* Using this ability is a @HLfree_action that you can use even if it isn't your turn.~~~If you are a ‹class/medium›, the spirit you choose with this trait must be the same as the spirit you are channeling and vice versa\"}"
+			"::trait{title=\"&L&Servitor of Spirits&FN&\" type=Regional region=\"Tian Xia\" flavor=\"For as long as you can remember, the spirits have always whispered into your ears and guided you - provided that you appease them.\" benefit=\"At the start of each day, you can choose one ‹ability/medium »spirit<s› and accept one of its *taboos* for 24 hours. As long as you don't break that *taboo,* once during the next 24 hours, you can add a +1 trait bonus to any one roll, check, or saving throw (but not to AC) listed under your chosen spirit's *spirit bonus.* Using this ability is a @FA that you can use even if it isn't your turn.~~~If you are a ‹class/medium›, the spirit you choose with this trait must be the same as the spirit you are channeling and vice versa\"}"
 		],
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
@@ -3165,7 +3165,7 @@
 		"compilationSources": [ [ "Champions of Corruption" ] ],
 		"category": "SWAvistan-Nidal",
 		"description": [
-			"::trait{title=\"&L&Shadowsight&FN&\" type=Regional region=Nidal flavor=\"Your people's ancient compact with Zon-Kuthon manifests strongly in you. While the darkness remains fearsome, you can at least see what lurks there.\" benefit=\"As a @HLswift_action once per day, your eyes can pierce the surrounding darkness - you gain the benefit of low-light vision for a number of rounds equal to your level.\"}"
+			"::trait{title=\"&L&Shadowsight&FN&\" type=Regional region=Nidal flavor=\"Your people's ancient compact with Zon-Kuthon manifests strongly in you. While the darkness remains fearsome, you can at least see what lurks there.\" benefit=\"As a @WA once per day, your eyes can pierce the surrounding darkness - you gain the benefit of low-light vision for a number of rounds equal to your level.\"}"
 		],
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
@@ -3525,7 +3525,7 @@
 		"compilationSources": [ [ "Healer's Handbook" ] ],
 		"category": "Eye of Abendego-The Shackles",
 		"description": [
-			"::trait{title=\"&L&Sustaining Performance&FN&\" type=Regional region=\"The Shackles\" flavor=\"Abandoned by a traditional healer at a critical time, you improvised a tale or jokes to keep up the spirits of someone in dire health.\" benefit=\"Once per day as a @HLstandard_action, you can attempt a DC 15 ‹skill/Perform› check with an audible component (such as comedy, oratory, sing, or with any instrument) to stabilize a ‹misc/dying› creature that can hear you within 30 feet. You can also attempt Perform checks instead of ‹skill/Heal› checks to provide long-term care.\"}"
+			"::trait{title=\"&L&Sustaining Performance&FN&\" type=Regional region=\"The Shackles\" flavor=\"Abandoned by a traditional healer at a critical time, you improvised a tale or jokes to keep up the spirits of someone in dire health.\" benefit=\"Once per day as a @SA, you can attempt a DC 15 ‹skill/Perform› check with an audible component (such as comedy, oratory, sing, or with any instrument) to stabilize a ‹misc/dying› creature that can hear you within 30 feet. You can also attempt Perform checks instead of ‹skill/Heal› checks to provide long-term care.\"}"
 		],
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
@@ -3660,7 +3660,7 @@
 		"compilationSources": [ [ "Inner Sea Primer" ] ],
 		"category": "NEAvistan-Numeria",
 		"description": [
-			"::trait{title=\"&L&Touched by the Sky&FN&\" type=Regional region=Numeria flavor=\"Somehow, you managed to retrieve a rare vial of fluid from a piece of crashed wreckage on the plains of Numeria. Before you could be caught with the contraband, you drank it.\" benefit=\"You now have the ability to stabilize a ‹misc/dying› creature with a touch as a @HLstandard_action.\"}"
+			"::trait{title=\"&L&Touched by the Sky&FN&\" type=Regional region=Numeria flavor=\"Somehow, you managed to retrieve a rare vial of fluid from a piece of crashed wreckage on the plains of Numeria. Before you could be caught with the contraband, you drank it.\" benefit=\"You now have the ability to stabilize a ‹misc/dying› creature with a touch as a @SA.\"}"
 		],
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
@@ -3940,7 +3940,7 @@
 		],
 		"category": "Casmaron-Qadira",
 		"description": [
-			"::trait{title=\"&L&Watching Taldor&FN&\" type=Regional region=Qadira req=\"Characters from Qadira who have had family members, neighbors, or friends affected by Taldan aggression or who have fallen victim to this hatred themselves.\" flavor=\"You have spent your adult life waiting for Taldor to give you an excuse to fight.\" benefit=\"You gain a +1 trait bonus on initiative checks, and if you are able to act during the surprise round of an encounter, you can draw a weapon (but not a potion or magic item) as a @HLfree_action during that round.\"}"
+			"::trait{title=\"&L&Watching Taldor&FN&\" type=Regional region=Qadira req=\"Characters from Qadira who have had family members, neighbors, or friends affected by Taldan aggression or who have fallen victim to this hatred themselves.\" flavor=\"You have spent your adult life waiting for Taldor to give you an excuse to fight.\" benefit=\"You gain a +1 trait bonus on initiative checks, and if you are able to act during the surprise round of an encounter, you can draw a weapon (but not a potion or magic item) as a @FA during that round.\"}"
 		],
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
@@ -4060,7 +4060,7 @@
 		"compilationSources": [ [ "Varisia, Birthplace of Legends" ] ],
 		"category": "WestAvistan-Varisia-Riddleport",
 		"description": [
-			"::trait{title=\"&L&Winner's Luck&FN&\" type=Regional region=Riddleport flavor=\"Winning at the tables in Riddleport's gambling houses can be as devastating as losing. Years of dodging the jealous blows of card table patrons have given you a sixth sense for when your luck is about to run out.\" benefit=\"Whenever you succeed at a Reflex saving throw, you may draw a weapon as an @HLimmediate_action, or a hidden weapon as a @HLmove_action.\"}"
+			"::trait{title=\"&L&Winner's Luck&FN&\" type=Regional region=Riddleport flavor=\"Winning at the tables in Riddleport's gambling houses can be as devastating as losing. Years of dodging the jealous blows of card table patrons have given you a sixth sense for when your luck is about to run out.\" benefit=\"Whenever you succeed at a Reflex saving throw, you may draw a weapon as an @IA, or a hidden weapon as a @MA.\"}"
 		],
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},

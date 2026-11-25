@@ -55,7 +55,7 @@
 			"",
 			"@I-boost While under the effects of a *fiendgore unguent,* a tiefling or an evil outsider gains a +2 circumstance bonus on Intimidate checks and a +1 circumstance bonus to the DC of all spells with the fear descriptor that they cast.",
 			"",
-			"Applying the unguent is a delicate process, requiring a @HL[full-round action], and can only be properly applied to a willing or ‹misc/helpless› creature.",
+			"Applying the unguent is a delicate process, requiring a @RA, and can only be properly applied to a willing or ‹misc/helpless› creature.",
 			"",
 			"@I-warning If applied to a creature other than a tiefling or an evil outsider, it ‹misc/sicken«s› the creature instead. The unguent's effects (either beneficial or harmful) last for 1 minute.",
 			"",
@@ -96,7 +96,7 @@
 			"",
 			"@I-def While the sponges are moist, the hood grants you a +2 resistance bonus on saving throws against inhaled poisons and other airborne attacks that require you to breathe them.",
 			"",
-			"Moistening the sponges with water is a @HL[standard action]. The sponges dry out after 1d4 &times; 10 minutes and should be thoroughly rinsed after each use."
+			"Moistening the sponges with water is a @SA. The sponges dry out after 1d4 &times; 10 minutes and should be thoroughly rinsed after each use."
 		]
 	},
 	"filter_mask": {
@@ -191,7 +191,7 @@
 			"‹SOURCE Advanced Class Guide/204›  ",
 			"::tabular{format=misc a=200 b=500 d=tools}",
 			"",
-			"This kit for a ‹eq-misc/heavy wagon› provides a water tank, platform pump, and a rotating nozzle. If the operator succeeds at a DC 20 Strength check, the fire pump releases a stream of water that reaches up to 30 feet away. Each person assisting with the pump lowers the DC by 5. Operating or assisting is a @HL[full-round action]. The pump extinguishes 5 square feet of nonmagical fire per round.",
+			"This kit for a ‹eq-misc/heavy wagon› provides a water tank, platform pump, and a rotating nozzle. If the operator succeeds at a DC 20 Strength check, the fire pump releases a stream of water that reaches up to 30 feet away. Each person assisting with the pump lowers the DC by 5. Operating or assisting is a @RA. The pump extinguishes 5 square feet of nonmagical fire per round.",
 			"",
 			"The water tank holds enough water for 10 rounds of pumping and takes 10 minutes to refill from a stream, pond, lake, or other body of water."
 		]
@@ -392,7 +392,7 @@
 			"",
 			"This crossbow-style device is modified to throw splash weapons or contact poisons rather than firing bolts. Its trigger connects to a long spool of wire, which can be strung across one or two 5-foot squares within 10 feet. Once set, the flask launcher can be loaded with a thrown splash weapon or vial of contact poison (which must be purchased separately). The flask launcher fires automatically at the first Tiny or larger creature that disturbs its tripwire. Alchemist bombs cannot be fired by a flask launcher.",
 			"",
-			"@I-ranged The flask launcher isn't designed to be used as a ranged weapon; treat it as an ‹misc/improvised weapon› with a 10-foot range increment. Reloading the launcher is a @HL[full-round action] that requires two hands and provokes an attack of opportunity.",
+			"@I-ranged The flask launcher isn't designed to be used as a ranged weapon; treat it as an ‹misc/improvised weapon› with a 10-foot range increment. Reloading the launcher is a @RA that requires two hands and provokes an attack of opportunity.",
 			"",
 			"::trap[Flash Launcher Trap]{start cr=\"&mdash&\" mechanical pdc=15 dddc=15 trigger=touch manual eff=\"Atk +5 ranged touch (effects vary by payload)\"}",
 			"",
@@ -467,7 +467,7 @@
 			"‹SOURCE Ultimate Equipment/56;PRPG Core Rulebook/158›  ",
 			"::tabular{format=misc a=1 b=x d=gear}",
 			"",
-			"Lighting a torch with a flint and steel is a @HL[full-round action]. Lighting any other fire with them takes at least that long."
+			"Lighting a torch with a flint and steel is a @RA. Lighting any other fire with them takes at least that long."
 		]
 	},
 	"flotation_device": {
@@ -554,7 +554,7 @@
 			"‹SOURCE Ultimate Equipment/56;Adventurer's Armory/19›  ",
 			"::tabular{format=misc a=2 b=16 d=gear}",
 			"",
-			"The hook, pole, and rungs of this 10-foot ladder are hinged, allowing you to fold it into a 3-foot-by-1-foot-by-1-foot bundle. Folding or unfolding it is a @HL[standard action]."
+			"The hook, pole, and rungs of this 10-foot ladder are hinged, allowing you to fold it into a 3-foot-by-1-foot-by-1-foot bundle. Folding or unfolding it is a @SA."
 		]
 	},
 	"folding_pole": {
@@ -565,7 +565,7 @@
 			"‹SOURCE Ultimate Equipment/56›  ",
 			"::tabular{format=misc a=\"0.2\" b=10 d=gear}",
 			"",
-			"This hinged pole can be unfolded and locked in place with sliding pins, creating a 10-foot pole. When collapsed, it is only 3 feet long. Assembling or collapsing the pole is a @HL[full-round action]. The hinges and pins mean it is not as strong as a one-piece pole, and is best used for probing rather than vaulting or climbing."
+			"This hinged pole can be unfolded and locked in place with sliding pins, creating a 10-foot pole. When collapsed, it is only 3 feet long. Assembling or collapsing the pole is a @RA. The hinges and pins mean it is not as strong as a one-piece pole, and is best used for probing rather than vaulting or climbing."
 		]
 	},
 	"folding_table": {
@@ -576,7 +576,7 @@
 			"‹SOURCE Ultimate Equipment/56›  ",
 			"::tabular{format=misc a=10 b=20 d=gear}",
 			"",
-			"This wooden table has jointed legs and a hinge down the middle. When fully extended, it is a 2-foot-by-4-foot table, but collapses down to 2 feet by 2 feet by 2 inches. Setting up the table is a @HL[full-round action]; collapsing it is 2 full-round actions."
+			"This wooden table has jointed legs and a hinge down the middle. When fully extended, it is a 2-foot-by-4-foot table, but collapses down to 2 feet by 2 feet by 2 inches. Setting up the table is a @RA; collapsing it is 2 full-round actions."
 		]
 	},
 	"fools_glow": {
@@ -709,7 +709,7 @@
 			"",
 			"This alchemical fertilizer boosts the growth of plants.",
 			"",
-			"@I-def As a @HL[standard action], a plant creature can absorb the fertilizer by rubbing it on its body in order to gain 1 temporary hit point per Hit Die; these temporary hit points last for 1 hour. A plant creature can only benefit from 1 dose of *fortifying fertilizer* every 24 hours.",
+			"@I-def As a @SA, a plant creature can absorb the fertilizer by rubbing it on its body in order to gain 1 temporary hit point per Hit Die; these temporary hit points last for 1 hour. A plant creature can only benefit from 1 dose of *fortifying fertilizer* every 24 hours.",
 			"",
 			"::tabular{format=craftalch a=25}"
 		]
@@ -809,7 +809,7 @@
 			"",
 			"This bone-white paste makes your face appear skeletal and emotionless, like a visage of death itself.",
 			"",
-			"@I-aura-lower When you apply *frightful war paint* to yourself (or to a willing adjacent creature) as a @HL[full-round action], attempt a ‹skill/Disguise› or Charisma check. Living creatures within 30 feet of the wearer must succeed at a Will save (DC equal to the result of your Disguise or Charisma check, maximum DC 20) or become ‹misc/shaken› for 1d4 rounds. Blind creatures and creatures out of line of sight are unaffected. A creature that succeeds at its check becomes immune to this *frightful war paint* for 24 hours.",
+			"@I-aura-lower When you apply *frightful war paint* to yourself (or to a willing adjacent creature) as a @RA, attempt a ‹skill/Disguise› or Charisma check. Living creatures within 30 feet of the wearer must succeed at a Will save (DC equal to the result of your Disguise or Charisma check, maximum DC 20) or become ‹misc/shaken› for 1d4 rounds. Blind creatures and creatures out of line of sight are unaffected. A creature that succeeds at its check becomes immune to this *frightful war paint* for 24 hours.",
 			"",
 			"@I-warning *Frightful war paint* can be worn indefinitely, but it contains quicksilver and realgar, which have deleterious mental effects. If you wear *frightful war paint* for more than 1 minute per day (whether as a single use of it or as multiple uses over several periods of time), you take 1 point of ‹rule/Constitution damage›, plus 1 point of Wisdom damage for every minute you wear the *paint* that day after the first.",
 			"",
@@ -861,7 +861,7 @@
 			"‹SOURCE People of the Sands/28›  ",
 			"::tabular{format=misc a=\"0.3\" b=x d=atool}",
 			"",
-			"Small nuggets of compressed fibers, resins, and dung, *fuel pellets* give off very little smoke when burned. Each pellet burns for 10 minutes, providing enough heat to boil water, and can be lit as a @HL[move action].",
+			"Small nuggets of compressed fibers, resins, and dung, *fuel pellets* give off very little smoke when burned. Each pellet burns for 10 minutes, providing enough heat to boil water, and can be lit as a @MA.",
 			"",
 			"::tabular{format=craftalch a=15}"
 		]
@@ -980,7 +980,7 @@
 			"",
 			"These small gray-white tablets are made of dehydrated and condensed garlic bulbs. One hour after you eat a garlic tablet, you begin to stink as the essence of the tablet seeps out of your pores. This state lasts for 4 hours. Subsequent doses of *garlic tablets* reset this duration.",
 			"",
-			"@I-power-def-warning During this time, you can keep a ‹template/vampire› at bay as a @HL[free action] without need of a holy symbol or mirror. The vampire must succeed at a DC 25 Will save to overcome its natural revulsion to garlic; failure means it must stay at least 5 feet away from you and cannot touch you or make melee attacks against you. However, unlike while keeping a vampire at bay with a mirror or holy symbol, once the vampire succeeds at its save against the *garlic tablets,* it's no longer affected by that creature's odor and may act normally without need of further saving throws.",
+			"@I-power-def-warning During this time, you can keep a ‹template/vampire› at bay as a @FA without need of a holy symbol or mirror. The vampire must succeed at a DC 25 Will save to overcome its natural revulsion to garlic; failure means it must stay at least 5 feet away from you and cannot touch you or make melee attacks against you. However, unlike while keeping a vampire at bay with a mirror or holy symbol, once the vampire succeeds at its save against the *garlic tablets,* it's no longer affected by that creature's odor and may act normally without need of further saving throws.",
 			"",
 			"@I-down *Garlic tablets* are valuable aids to vampire hunters, but while benefiting from the tablets' strong odor, you take a -2 penalty on all Charisma checks and Charisma-based skill checks for the duration of the effect. The listed price is for three tablets.",
 			"",
@@ -1021,7 +1021,7 @@
 			"",
 			"This specialized magnet straps onto a gauntlet and is powerful enough to attract metal even through leather or cloth.",
 			"",
-			"@I-def-boost  A gauntlet magnet provides a +2 bonus to your CMD against ‹rule/disarm› attempts while holding a magnetic metal weapon, shield, or item (such as one made from steel or iron). It also provides a +1 bonus on disarm attempts made with the gauntlet against magnetic objects. Attaching one of these magnets to a gauntlet or removing it is a @HL[full-round action]."
+			"@I-def-boost  A gauntlet magnet provides a +2 bonus to your CMD against ‹rule/disarm› attempts while holding a magnetic metal weapon, shield, or item (such as one made from steel or iron). It also provides a +1 bonus on disarm attempts made with the gauntlet against magnetic objects. Attaching one of these magnets to a gauntlet or removing it is a @RA."
 		]
 	},
 	"gear_maintenance_kit": {
@@ -1170,7 +1170,7 @@
 			"",
 			"This variant ‹eq-misc/sunrod› was developed by ‹race/fetchling› ‹class/alchemist«s›.",
 			"",
-			"@I-aura When twisted as a @HL[standard action], a *gloomstick* begins drawing in light from the surrounding area, reducing the ‹rule/light level› by one step (to a minimum of dim light) in a 20-foot radius.",
+			"@I-aura When twisted as a @SA, a *gloomstick* begins drawing in light from the surrounding area, reducing the ‹rule/light level› by one step (to a minimum of dim light) in a 20-foot radius.",
 			"",
 			"A *gloomstick* remains active for 1 minute before crumbling to dust.",
 			"",
@@ -1268,7 +1268,7 @@
 		"description": [
 			"## Goblinvine",
 			"‹SOURCE Ultimate Wilderness/154;Heroes of the Wild/10›  ",
-			"::tabular{format=misc a=30 b=x d=herb e=16 f=\"1 dose (1 lb.)\" g=\"any forests, mountains, plains, or swamps\" h=\"@I-warning Properly preparing a dose of goblinvine requires a successful DC 20 ‹skill/Sleight of Hand› check and 1 minute of work to weave and roll the vines into a compact, fist-sized ball so the hairy side of the leaves faces inward. On a failure by 5 or more, the leaves become torn and ruined. If gloves or gauntlets aren't worn, the preparer is automatically exposed to the goblinvine's effects. If the preparation check's result is a natural 1, the preparer is exposed to those effects regardless of any hand protection worn. The goblin vine must then be stored in an area of bright light for at least 1 hour for the inner surface of the leaves to properly &quot&sweat&quot& and build up enough irritating oil to function as a thrown weapon.\" i=\"@I-zap-lower Once woven into a tight ball of vines and left to sweat, a ball of goblinvine leaves can be used as an improvised thrown weapon as a ranged touch attack. On a hit, a target must succeed at a DC 10 Fortitude save or develop a distracting, itchy rash that imposes a -2 penalty on ability checks, attack rolls, saving throws, and skill checks. This effect persists for 10 minutes or until the rash is tended with a successful DC 12 ‹skill/Heal› check attempted as a @HLfull-round_action. This is a poison effect, but creatures with the ‹subtype/goblinoid› subtype are immune to the effect.\"}",
+			"::tabular{format=misc a=30 b=x d=herb e=16 f=\"1 dose (1 lb.)\" g=\"any forests, mountains, plains, or swamps\" h=\"@I-warning Properly preparing a dose of goblinvine requires a successful DC 20 ‹skill/Sleight of Hand› check and 1 minute of work to weave and roll the vines into a compact, fist-sized ball so the hairy side of the leaves faces inward. On a failure by 5 or more, the leaves become torn and ruined. If gloves or gauntlets aren't worn, the preparer is automatically exposed to the goblinvine's effects. If the preparation check's result is a natural 1, the preparer is exposed to those effects regardless of any hand protection worn. The goblin vine must then be stored in an area of bright light for at least 1 hour for the inner surface of the leaves to properly &quot&sweat&quot& and build up enough irritating oil to function as a thrown weapon.\" i=\"@I-zap-lower Once woven into a tight ball of vines and left to sweat, a ball of goblinvine leaves can be used as an improvised thrown weapon as a ranged touch attack. On a hit, a target must succeed at a DC 10 Fortitude save or develop a distracting, itchy rash that imposes a -2 penalty on ability checks, attack rolls, saving throws, and skill checks. This effect persists for 10 minutes or until the rash is tended with a successful DC 12 ‹skill/Heal› check attempted as a @RA. This is a poison effect, but creatures with the ‹subtype/goblinoid› subtype are immune to the effect.\"}",
 			"",
 			"The leaves of this invasive creeper are wide and covered with tiny hair-like filaments.",
 			"",
@@ -1555,7 +1555,7 @@
 			"‹SOURCE Ultimate Equipment/57;Adventurer's Armory/19›  ",
 			"::tabular{format=misc a=\"0.1\" b=3 d=gear}",
 			"",
-			"This blanket or net is attached to strong ropes, allowing you to hang it from a heavy branch or two trees and sleep above the ground. Climbing into or out of a hammock is a @HL[full-round action]. A successful DC 5 Dexterity check reduces this to a @HL[move action]."
+			"This blanket or net is attached to strong ropes, allowing you to hang it from a heavy branch or two trees and sleep above the ground. Climbing into or out of a hammock is a @RA. A successful DC 5 Dexterity check reduces this to a @MA."
 		]
 	},
 	"hand_rotary_quern": {
@@ -1762,7 +1762,7 @@
 			"‹SOURCE Merchant's Manifest/13›  ",
 			"::tabular{format=misc a=2 b=1 d=cloth}",
 			"",
-			"@I-power These thick, fur-lined gloves have several internal pockets containing segmented packets of alchemical reagents that produce heat for 4 hours when broken and mixed. The wearer can massage the gloves to activate these heat packets as a @HL[full-round action].",
+			"@I-power These thick, fur-lined gloves have several internal pockets containing segmented packets of alchemical reagents that produce heat for 4 hours when broken and mixed. The wearer can massage the gloves to activate these heat packets as a @RA.",
 			"",
 			"@I-boost While the heat packets last, the wearer ignores the Strength and Dexterity penalties from the ‹misc/fatigued› condition when performing ‹skill/Climb›, ‹skill/Disable Device›, and ‹skill/Sleight of Hand› checks.",
 			"",
@@ -2062,7 +2062,7 @@
 			"",
 			"@I-def This boot contains a hollow that grants a +4 bonus on ‹skill/Sleight of Hand› checks to conceal items within the boot while wearing it. The hollow can hold up to 8 cubic inches.",
 			"",
-			"Putting on or removing the boot is a @HL[standard action], as is retrieving or storing an item from the hollow when the boot is in hand. Adding an item to or removing one from the boot while it is worn is a @HL[full-round action]."
+			"Putting on or removing the boot is a @SA, as is retrieving or storing an item from the hollow when the boot is in hand. Adding an item to or removing one from the boot while it is worn is a @RA."
 		]
 	},
 	"hollowed_pommel": {
@@ -2343,7 +2343,7 @@
 			"‹SOURCE Alchemy Manual/18›  ",
 			"::tabular{format=misc a=400 b=10 d=bm}",
 			"",
-			"The bowl of this glass water pipe can be loaded with any inhalable drug, alchemical powder, or alchemical liquid. You must set down a hookah in a free space (a @HL[move action]) and fill the water jar with half a gallon of water (another @HL[move action]) before the hookah can be used. You can consume the contents of an adjacent hookah by sucking on one of the pipe's four hoses as a @HL[move action]. Up to 5 doses of a single substance can be loaded in the hookah at a time, and up to four adjacent creatures can use the hookah during the same round. Reloading a hookah is a @HL[standard action], regardless of the number of doses so reloaded.",
+			"The bowl of this glass water pipe can be loaded with any inhalable drug, alchemical powder, or alchemical liquid. You must set down a hookah in a free space (a @MA) and fill the water jar with half a gallon of water (another @MA) before the hookah can be used. You can consume the contents of an adjacent hookah by sucking on one of the pipe's four hoses as a @MA. Up to 5 doses of a single substance can be loaded in the hookah at a time, and up to four adjacent creatures can use the hookah during the same round. Reloading a hookah is a @SA, regardless of the number of doses so reloaded.",
 			"",
 			"Substances not intended for bodily consumption can cause harmful or even fatal effects (GM's discretion) if loaded into a hookah and inhaled, and often destroy the hookah in the process."
 		]
@@ -2356,7 +2356,7 @@
 			"‹SOURCE Monster Codex/164›  ",
 			"::tabular{format=misc a=30 b=20 d=animgear}",
 			"",
-			"This simple harness, basically just a leather lash, straps a combatant's arm to the tusk or horn of a Huge or larger animal such as a ‹monster/gorthek›. Engaging or disengaging a horn harness is a @HL[standard action] that provokes attacks of opportunity. A horn harness includes a quiver that typically holds up to 12 ‹eq-weapon/javelin«s›.",
+			"This simple harness, basically just a leather lash, straps a combatant's arm to the tusk or horn of a Huge or larger animal such as a ‹monster/gorthek›. Engaging or disengaging a horn harness is a @SA that provokes attacks of opportunity. A horn harness includes a quiver that typically holds up to 12 ‹eq-weapon/javelin«s›.",
 			"",
 			"@I-warning A creature in a horn harness gains all the bonuses and takes all the penalties for engaging in combat or casting spells while ‹rule/mounted›, but also can't do anything that requires using the hand lashed to the mount. If the mount falls in battle, the creature in the horn harness remains attached, but can attempt a DC 25 ‹skill/Ride› check to make a soft fall. If the creature in the horn harness falls unconscious, it remains strapped in, but takes an amount of damage equal to the mount's trample damage (if any) each round the monster moves."
 		]
@@ -2543,7 +2543,7 @@
 			"",
 			"A blend of finely ground plaster, burning spices, and insect secretions, *houndbane dust* deters tracking animals.",
 			"",
-			"@I-lower A single pouch can be spread over a 5-foot area as a @HL[standard action]. For 24 hours thereafter, any creature with the ‹umr/scent› ability that enters that square takes 1d2 points of damage and loses its sense of smell for 24 hours. Creatures that succeed at a DC 15 Fortitude saving throw take no damage and lose their sense of smell for only 3d6 minutes.",
+			"@I-lower A single pouch can be spread over a 5-foot area as a @SA. For 24 hours thereafter, any creature with the ‹umr/scent› ability that enters that square takes 1d2 points of damage and loses its sense of smell for 24 hours. Creatures that succeed at a DC 15 Fortitude saving throw take no damage and lose their sense of smell for only 3d6 minutes.",
 			"",
 			"::tabular{format=craftalch a=25}"
 		]
@@ -2677,7 +2677,7 @@
 			"",
 			"@I-power-down Wearing ice skates allows you to move on ice at normal speed with a successful DC 5 ‹skill/Acrobatics› check (including running and charging), but your movement is reduced to half speed on all other terrain.",
 			"",
-			"Donning or removing an ice skate is a @HL[full-round action]. Skating with only one is possible, but the DC of the Acrobatics check rises to 15.",
+			"Donning or removing an ice skate is a @RA. Skating with only one is possible, but the DC of the Acrobatics check rises to 15.",
 			"",
 			"Also see: ‹eq-misc/skates›."
 		]
@@ -2709,7 +2709,7 @@
 			"",
 			"‹race/Ifrit› ‹class/alchemist«s› claim to make this thick red oil from their own blood - hence the morbid name - but this claim is almost certainly false.",
 			"",
-			"@I-boost *Ifrit's blood* ignites upon contact with air, but burns slowly and is unsuitable for use as a splash weapon. A creature can apply a flask of *ifrit's blood* to a weapon as a @HL[standard action], wreathing the weapon in vibrant red flames for 1 minute.",
+			"@I-boost *Ifrit's blood* ignites upon contact with air, but burns slowly and is unsuitable for use as a splash weapon. A creature can apply a flask of *ifrit's blood* to a weapon as a @SA, wreathing the weapon in vibrant red flames for 1 minute.",
 			"",
 			"@I-down The oil deals 1 point of fire damage on each successful attack with the weapon and deals 1 point of fire damage to the weapon itself, bypassing the weapon's ‹rule/hardness› if any part of it is made of wood. If the oil is applied to a creature's natural weapons or unarmed strikes, the creature takes 1 point of fire damage each round (though its fire immunity or resistance still applies).",
 			"",
@@ -2756,7 +2756,7 @@
 			"",
 			"This gritty red paste makes you appear as if you were covered in dried blood.",
 			"",
-			"@I-boost When you apply *imposing war paint* as a @HL[full-round action], you gain a +4 alchemical bonus on Intimidate checks and the duration of any fear effects you create increases by 50% as long as you wear the *war paint.*",
+			"@I-boost When you apply *imposing war paint* as a @RA, you gain a +4 alchemical bonus on Intimidate checks and the duration of any fear effects you create increases by 50% as long as you wear the *war paint.*",
 			"",
 			"@I-warning Unfortunately, *imposing war paint* is made with realgar, which is toxic to living creatures. If you wear *imposing war paint* for more than 1 minute per day, you take 1 point of ‹rule/Constitution damage›, plus 1 point of Constitution damage for every minute you wear the *paint* that day after the first.",
 			"",
@@ -2983,7 +2983,7 @@
 			"‹SOURCE Alchemy Manual/11›  ",
 			"::tabular{format=misc a=20 b=4 d=atool}",
 			"",
-			"This ruby-red earth can be sprinkled over a 5-foot patch of ground as a @HL[standard action] that provokes attacks of opportunity. Non-creature plants and fungi in the area grow with alarming speed, and the ground becomes weedy, ‹rule/difficult terrain› for non-plant creatures.",
+			"This ruby-red earth can be sprinkled over a 5-foot patch of ground as a @SA that provokes attacks of opportunity. Non-creature plants and fungi in the area grow with alarming speed, and the ground becomes weedy, ‹rule/difficult terrain› for non-plant creatures.",
 			"",
 			"@I-down-aid Any non-plant creature in the square must succeed at a DC 15 Reflex save or it becomes ‹rule/entangled› by the surging plants. Any plant creature in the affected square is healed of 1d6 points of damage.",
 			"",
@@ -3074,7 +3074,7 @@
 			"## Invisible ink",
 			"‹SOURCE Ultimate Equipment/103;Adventurer's Armory/19›  ",
 			"",
-			"*Invisible ink* is a staple of spies, rebels, and secret societies everywhere. Messages written with *invisible ink* only become visible under specific circumstances. Revealing the secret message with the proper triggering agent is a @HL[full-round action] per page of text. A successful ‹skill/Craft› (alchemy) check reveals the message without the proper trigger and takes 1 hour (the DC varies by ink quality).",
+			"*Invisible ink* is a staple of spies, rebels, and secret societies everywhere. Messages written with *invisible ink* only become visible under specific circumstances. Revealing the secret message with the proper triggering agent is a @RA per page of text. A successful ‹skill/Craft› (alchemy) check reveals the message without the proper trigger and takes 1 hour (the DC varies by ink quality).",
 			"",
 			"::h3[Simple]{jl}",
 			"",
@@ -3211,9 +3211,9 @@
 			"‹SOURCE Dungeoneer's Handbook/24›  ",
 			"::tabular{format=misc a=80 b=6 d=gear}",
 			"",
-			"This device consists of one watertight central ammunition bladder and several ‹eq-misc/air bladder«s› linked by specialized nozzles. When the wielder compresses the air bladders (a @HL[standard action] that doesn't provoke attacks of opportunity), the jetcaster sprays its ammunition in a 10-foot cone. Most adventurers use a jetcaster to spray ‹eq-misc/powder› over invisible foes or ‹eq-weapon/holy water› over incorporeal undead, but it can also spray ‹eq-misc/oil›, ‹eq-weapon/itching powder›, ‹eq-weapon/sneezing powder›, or other mundane dusts and liquids.",
+			"This device consists of one watertight central ammunition bladder and several ‹eq-misc/air bladder«s› linked by specialized nozzles. When the wielder compresses the air bladders (a @SA that doesn't provoke attacks of opportunity), the jetcaster sprays its ammunition in a 10-foot cone. Most adventurers use a jetcaster to spray ‹eq-misc/powder› over invisible foes or ‹eq-weapon/holy water› over incorporeal undead, but it can also spray ‹eq-misc/oil›, ‹eq-weapon/itching powder›, ‹eq-weapon/sneezing powder›, or other mundane dusts and liquids.",
 			"",
-			"Loading the ammunition bladder is a @HL[full-round action] that provokes attacks of opportunity and requires either a 4-pint jug of liquid (weighing up to 4 pounds) or a 4-pound sack of powder; insufficient ammunition causes it to misfire harmlessly. Refilling the air bladders is a @HL[move action] that doesn't provoke attacks of opportunity. Readying and firing a jetcaster requires two hands.",
+			"Loading the ammunition bladder is a @RA that provokes attacks of opportunity and requires either a 4-pint jug of liquid (weighing up to 4 pounds) or a 4-pound sack of powder; insufficient ammunition causes it to misfire harmlessly. Refilling the air bladders is a @MA that doesn't provoke attacks of opportunity. Readying and firing a jetcaster requires two hands.",
 			"",
 			"If a jetcaster fires ordinary powder or oil, each square in the cone is coated in that substance. If a jetcaster fires holy water, itching powder, or sneezing powder, treat each square in the cone as a square of impact and each square adjacent to the cone (including the wielder's) as an adjacent square for the purpose of determining effects and DCs. Loading a jetcaster with unstable compounds such as ‹eq-weapon/acid› or ‹eq-weapon/alchemist's fire› destroys the device."
 		]
@@ -3310,7 +3310,7 @@
 			"",
 			"This set of small gold-plated scales is inscribed with words from Abadar's holy text.",
 			"",
-			"@I-boost When activated, its presence aids in negotiations, making attempts to change the attitude of another person by one step a @HL[swift action] instead of requiring 1 minute. The user must touch the scales and speak to the intended target as part of the skill check. The item remains activated for 1 hour, or until it has been used to influence a number of creatures equal to &frac12; the effective cleric level of the person who activated it."
+			"@I-boost When activated, its presence aids in negotiations, making attempts to change the attitude of another person by one step a @WA instead of requiring 1 minute. The user must touch the scales and speak to the intended target as part of the skill check. The item remains activated for 1 hour, or until it has been used to influence a number of creatures equal to &frac12; the effective cleric level of the person who activated it."
 		]
 	},
 	"just_scale": { "redirect": "just_scale_abadar" },
@@ -3327,7 +3327,7 @@
 			"",
 			"This emerald-colored adhesive is made from animal glands, urine, and other powerful scents that are difficult to wash off. A target splashed with it smells like weak prey to predators.",
 			"",
-			"@I-lower Creatures with the ‹umr/scent› ability can detect a marked creature at five times the normal range, note its direction as a @HL[free action], pinpoint it when it is within 25 feet, and track it by scent with a +5 bonus on their ‹skill/Survival› checks. Immersion in water within 1 round of exposure washes the musk off; otherwise the effect decreases by 1 range increment per day (four times normal range after 1 day, three times normal range after 2 days, and so on) until the creature is again at normal scent levels.",
+			"@I-lower Creatures with the ‹umr/scent› ability can detect a marked creature at five times the normal range, note its direction as a @FA, pinpoint it when it is within 25 feet, and track it by scent with a +5 bonus on their ‹skill/Survival› checks. Immersion in water within 1 round of exposure washes the musk off; otherwise the effect decreases by 1 range increment per day (four times normal range after 1 day, three times normal range after 2 days, and so on) until the creature is again at normal scent levels.",
 			"",
 			"::tabular{format=craftalch a=20}"
 		]
@@ -3387,9 +3387,9 @@
 			"‹SOURCE Dungeoneer's Handbook/24›  ",
 			"::tabular{format=misc a=350 b=25 d=gear}",
 			"",
-			"@I-power As a @HL[standard action] that provokes attacks of opportunity, a character can wind the key on this 4-foot-long serpentine clockwork enough to power it until the end of her next turn. For every additional @HL[standard action] spent winding it, the rattler is powered for another round, to a maximum of 10 total rounds. The mechanism ticks softly while being wound and unwinding (‹skill/Perception› DC 15 to hear).",
+			"@I-power As a @SA that provokes attacks of opportunity, a character can wind the key on this 4-foot-long serpentine clockwork enough to power it until the end of her next turn. For every additional @SA spent winding it, the rattler is powered for another round, to a maximum of 10 total rounds. The mechanism ticks softly while being wound and unwinding (‹skill/Perception› DC 15 to hear).",
 			"",
-			"When a character removes the key (a @HL[swift action]) until the rattler winds down, at the start of each of that character's turn, the rattler slithers 20 feet in a straight line, rearing up every few seconds to extend its forked tongue and make noise with its rattle (Perception DC 0 to hear). Anyone who sees it from farther than 30 feet away must succeed at a DC 10 Perception check to realize it is not an actual snake.",
+			"When a character removes the key (a @WA) until the rattler winds down, at the start of each of that character's turn, the rattler slithers 20 feet in a straight line, rearing up every few seconds to extend its forked tongue and make noise with its rattle (Perception DC 0 to hear). Anyone who sees it from farther than 30 feet away must succeed at a DC 10 Perception check to realize it is not an actual snake.",
 			"",
 			"The key-wound rattler can neither see nor hear. If it runs into an unyielding surface, it bumps around until it feels an open path, rotating first to the right and then to the left before going back the way it came. If it bumps into anything that is neither hard nor still, it attacks with its bite (+5 attack, 1d3 nonlethal damage) until the obstacle moves away.",
 			"",
@@ -3601,7 +3601,7 @@
 			"",
 			"@I-power A character wearing *leg stabilizers* can move and attempt ‹skill/Acrobatics› checks in gravity between &times;1 and &times;3 as if in gravity &times;1. A character wearing them in gravity stronger than &times;&#8531; but weaker than &times;1 gains a +10-foot circumstance bonus to his land speed. This device has no effect on other actions.",
 			"",
-			"Attaching or removing *leg stabilizers* is a @HL[full-round action]."
+			"Attaching or removing *leg stabilizers* is a @RA."
 		]
 	},
 	"leng_ruby": {
@@ -3678,13 +3678,13 @@
 			"",
 			"Originally brewed from waters adjacent to one of the Plane of Water's subaquatic suns, a vial of *light of Axtarr* glows like a ‹eq-misc/candle› until expended.",
 			"",
-			"A vial of *light of Axtarr* that is emptied underwater as a @HL[move action] forms a small orb that sheds light like a ‹eq-misc/sunrod› for 1d6 hours, after which the item is expended. Such an underwater orb remains suspended in place, not sinking, floating, or drifting away unless moved by a creature.",
+			"A vial of *light of Axtarr* that is emptied underwater as a @MA forms a small orb that sheds light like a ‹eq-misc/sunrod› for 1d6 hours, after which the item is expended. Such an underwater orb remains suspended in place, not sinking, floating, or drifting away unless moved by a creature.",
 			"",
-			"Above water, shaking a vial of *light of Axtarr* as a @HL[move action] also makes it shed light like a sunrod for 1d6 hours, after which it is expended.",
+			"Above water, shaking a vial of *light of Axtarr* as a @MA also makes it shed light like a sunrod for 1d6 hours, after which it is expended.",
 			"",
 			"@I-aura-def Any area of normal light created by *light of Axtarr* protects creatures within it from cold temperatures as per ‹spell/endure elements›.",
 			"",
-			"@I-boost Alternatively, a spellcaster holding an unused vial of *light of Axtarr* can expend it as a @HL[free action] to automatically succeed at a caster level check to cast a fire spell underwater. (Fire spells successfully cast underwater produce steam that still deals fire damage.) This alternative use does not cause the *light of Axtarr* to produce light.",
+			"@I-boost Alternatively, a spellcaster holding an unused vial of *light of Axtarr* can expend it as a @FA to automatically succeed at a caster level check to cast a fire spell underwater. (Fire spells successfully cast underwater produce steam that still deals fire damage.) This alternative use does not cause the *light of Axtarr* to produce light.",
 			"",
 			"::tabular{format=craftalch a=30}"
 		]
@@ -3699,9 +3699,9 @@
 			"",
 			"Keenly aware of their vulnerability to light and to those who wield it as a weapon, the drow have pioneered many ways to defend themselves against light-magic or otherwise. *Light-killer's grease* is a pungent, oily alchemical substance harvested from underground fungus and mixed with powdered minerals common in the deep earth.",
 			"",
-			"@I-def-down When combined correctly, this black, tarry mass absorbs light. It must be applied around a creature's eyes (a @HL[full-round action]) to function. When worn, it negates the ‹misc/dazzled› condition from exposure to bright light and grants a +1 alchemical bonus on saving throws against spells and effects with the light descriptor. The grease is considered an overpowering scent for the purpose of the ‹umr/scent› special ability, and a creature with scent can pinpoint the wearer's location at a range of 10 feet instead of 5 feet.",
+			"@I-def-down When combined correctly, this black, tarry mass absorbs light. It must be applied around a creature's eyes (a @RA) to function. When worn, it negates the ‹misc/dazzled› condition from exposure to bright light and grants a +1 alchemical bonus on saving throws against spells and effects with the light descriptor. The grease is considered an overpowering scent for the purpose of the ‹umr/scent› special ability, and a creature with scent can pinpoint the wearer's location at a range of 10 feet instead of 5 feet.",
 			"",
-			"Once applied, the grease remains potent for 1 hour. Removing the grease is a @HL[full-round action] that requires a gallon of water or another suitable washing liquid; otherwise, the visual marks can be removed, ending the effect, but the smell remains for the full duration.",
+			"Once applied, the grease remains potent for 1 hour. Removing the grease is a @RA that requires a gallon of water or another suitable washing liquid; otherwise, the visual marks can be removed, ending the effect, but the smell remains for the full duration.",
 			"",
 			"::tabular{format=craftalch a=15}"
 		]
@@ -4038,7 +4038,7 @@
 			"‹SOURCE Pathfinder #115: Trail of the Hunted/74›  ",
 			"::tabular{format=misc a=60 b=1 d=rem}",
 			"",
-			"This gray, greasy topical lotion strengthens and straightens the leg muscles of bandy-legged ‹race/hobgoblin«s›. Applying *loping ointment* requires 1 @HL[full-round action].",
+			"This gray, greasy topical lotion strengthens and straightens the leg muscles of bandy-legged ‹race/hobgoblin«s›. Applying *loping ointment* requires 1 @RA.",
 			"",
 			"@I-boost A hobgoblin under the effects of *loping ointment* gains a 10-foot alchemical bonus to his speed when using the ‹rule/charge›, ‹rule/run›, or ‹rule/withdraw› action. This bonus lasts for 10 minutes.",
 			"",
@@ -4076,7 +4076,7 @@
 		"description": [
 			"## Love-In-Idleness",
 			"‹SOURCE Ultimate Wilderness/154›  ",
-			"::tabular{format=misc a=150 b=x d=herb e=20 f=\"1 dose\" g=\"any forests\" h=\"A dose of this flower's nectar must be extracted and stored in an alchemically prepared vial with a successful DC 14 ‹skill/Craft› (alchemy) check and 1 hour's worth of work.\" i=\"@I-lower As a @HLfull-round_action, a dose of *love-in-idleness* nectar can be drizzled into the ears of a ‹misc/helpless› or willing animal or humanoid. This causes the subject to become much more susceptible to the power of suggestion and mind-affecting effects, taking a -2 penalty on Sense Motive checks and a -1 penalty on saving throws against mind-affecting effects for the next 2d4 hours. This is a poison effect.\"}",
+			"::tabular{format=misc a=150 b=x d=herb e=20 f=\"1 dose\" g=\"any forests\" h=\"A dose of this flower's nectar must be extracted and stored in an alchemically prepared vial with a successful DC 14 ‹skill/Craft› (alchemy) check and 1 hour's worth of work.\" i=\"@I-lower As a @RA, a dose of *love-in-idleness* nectar can be drizzled into the ears of a ‹misc/helpless› or willing animal or humanoid. This causes the subject to become much more susceptible to the power of suggestion and mind-affecting effects, taking a -2 penalty on Sense Motive checks and a -1 penalty on saving throws against mind-affecting effects for the next 2d4 hours. This is a poison effect.\"}",
 			"",
 			"The deep-red flower has rich nectar with a honey-like scent."
 		]
@@ -4091,7 +4091,7 @@
 			"",
 			"This alchemical perfume is distilled from a blend of humanoid pheromones and fey sweat.",
 			"",
-			"@I-boost-down When applied as a @HL[full-round action], it grants the wearer a +2 circumstance bonus on all Charisma checks and Charisma-based skill checks for 1 hour. During this time, the wearer takes a -2 penalty on saving throws against charm and fascination effects originating from fey.",
+			"@I-boost-down When applied as a @RA, it grants the wearer a +2 circumstance bonus on all Charisma checks and Charisma-based skill checks for 1 hour. During this time, the wearer takes a -2 penalty on saving throws against charm and fascination effects originating from fey.",
 			"",
 			"@I-warning Long-term use of *lover's breath* eventually results in physical changes, causing the user to vaguely resemble a fey creature such as a ‹monster/nymph› or ‹monster/dryad›, although these changes are only cosmetic."
 		]
@@ -4217,7 +4217,7 @@
 			"‹SOURCE Ultimate Equipment/57;PRPG Core Rulebook/158›  ",
 			"::tabular{format=misc a=100 b=x d=gear}",
 			"",
-			"This simple lens allows a closer look at small objects. It is also useful as a substitute for a ‹eq-misc/flint and steel› when starting fires. Lighting a fire with a magnifying glass requires bright light, such as sunlight to focus, tinder to ignite, and at least a @HL[full-round action].",
+			"This simple lens allows a closer look at small objects. It is also useful as a substitute for a ‹eq-misc/flint and steel› when starting fires. Lighting a fire with a magnifying glass requires bright light, such as sunlight to focus, tinder to ignite, and at least a @RA.",
 			"",
 			"@I-boost A magnifying glass grants a +2 circumstance bonus on ‹skill/Appraise› checks involving any item that is small or highly detailed."
 		]
@@ -4269,7 +4269,7 @@
 			"‹SOURCE Advanced Race Guide/123›  ",
 			"::tabular{format=misc a=15 b=1 c=M d=gear}",
 			"",
-			"@I-lower Barbs added to these ‹eq-misc/manacles› wound a captive who does more than move slowly and with care. A creature secured in barbed manacles takes 1 point of piercing damage if it takes more than a single @HL[move action] during a round. Rough movement of any kind, such as being struck in combat or falling ‹rule/prone›, likewise causes 1 point of damage. Attempting to break out of barbed manacles with a Strength check deals 1d4 points of piercing damage to the captive regardless of the success of the attempt.",
+			"@I-lower Barbs added to these ‹eq-misc/manacles› wound a captive who does more than move slowly and with care. A creature secured in barbed manacles takes 1 point of piercing damage if it takes more than a single @MA during a round. Rough movement of any kind, such as being struck in combat or falling ‹rule/prone›, likewise causes 1 point of damage. Attempting to break out of barbed manacles with a Strength check deals 1d4 points of piercing damage to the captive regardless of the success of the attempt.",
 			"",
 			"‹eq-misc/Fetters› can also be fitted with barbs, but the wearer can avoid damage by not taking actions that involve moving its legs. Hobgoblins often use such fetters to secure artisans to their worktables. Securing a captive with multiple sets of manacles and/or fetters doesn't cause additional damage."
 		]
@@ -4347,7 +4347,7 @@
 			"‹SOURCE Melee Tactics Toolbox/20›  ",
 			"::tabular{format=misc a=180 b=3 d=gear}",
 			"",
-			"These ‹eq-misc/masterwork manacles› are designed to swiftly secure a restrained creature. The price includes a quick-release mechanism that, when attached to a belt or pack, allows you to retrieve the quickcatch manacles with one hand as a @HL[swift action]. Quickcatch manacles include a ‹eq-misc/good lock› that locks automatically when the manacles are applied.",
+			"These ‹eq-misc/masterwork manacles› are designed to swiftly secure a restrained creature. The price includes a quick-release mechanism that, when attached to a belt or pack, allows you to retrieve the quickcatch manacles with one hand as a @WA. Quickcatch manacles include a ‹eq-misc/good lock› that locks automatically when the manacles are applied.",
 			"",
 			"@I-power When you take the tie up action in a ‹rule/grapple›, you can lock your opponent in quickcatch manacles instead of using rope. The quickcatch manacles must be sized appropriately for your opponent. Quickcatch manacles can be constructed for creatures of different sizes using the same multipliers as ordinary manacles."
 		]
@@ -4362,9 +4362,9 @@
 			"",
 			"This handheld metal cylinder is embossed with traditional symbols tied to protectiveness and has a handle that can be used to spin it. Mantra wheels are often used by divine spellcasters who are blind or have difficulty with fine gestures, or who simply enjoy using this traditional device.",
 			"",
-			"@I-magic-boost As a @HL[move action], a scroll of a divine spell can be placed inside the wheel. The handle is then spun, activating the scroll without the use of verbal or somatic components. If the wheel's user would need to attempt a caster level check to activate the scroll successfully, the wheel provides a +3 bonus on that check.",
+			"@I-magic-boost As a @MA, a scroll of a divine spell can be placed inside the wheel. The handle is then spun, activating the scroll without the use of verbal or somatic components. If the wheel's user would need to attempt a caster level check to activate the scroll successfully, the wheel provides a +3 bonus on that check.",
 			"",
-			"Spinning the wheel is part of the normal action required to activate the scroll (usually a @HL[standard action] or the spell's casting time, whichever is longer). Using the wheel to activate a scroll provokes attacks of opportunity exactly as activating a scroll (or casting the spell) normally would. The wheel can hold only one divine scroll at a time. Removing an expended scroll from a mantra wheel is a @HL[swift action]."
+			"Spinning the wheel is part of the normal action required to activate the scroll (usually a @SA or the spell's casting time, whichever is longer). Using the wheel to activate a scroll provokes attacks of opportunity exactly as activating a scroll (or casting the spell) normally would. The wheel can hold only one divine scroll at a time. Removing an expended scroll from a mantra wheel is a @WA."
 		]
 	},
 	"maple_syrup_jar": {
@@ -4908,7 +4908,7 @@
 		"description": [
 			"## Mimameith",
 			"‹SOURCE Ultimate Wilderness/154›  ",
-			"::tabular{format=misc a=600 b=x d=herb e=25 f=\"1d4 doses (5 lbs. per dose)\" g=\"any forests or mountains\" h=\"A living mimameith tree has ‹rule/hardness› 7 (rather than the typical hardness 5 for most wooden objects) and fire ‹umr/resistance› 5. When a mimameith tree is burned but lives, its bark regrows over time with pale gray scarring - such bark bears special properties. Once harvested, this bark can be processed alchemically. Doing so requires a 5-pound dose of the bark to be soaked in water for 8 hours and then boiled off to a thin layer of tacky paste with a successful DC 20 ‹skill/Craft› (alchemy) check.\" i=\"@I-def When a dose of the pasty residue from mimameith bark is applied to a creature's skin as a @HLstandard_action, the subject gains DR 2/bludgeoning, fire resistance 5, and immunity to ‹rule/bleed› effects for 1 hour.\"}",
+			"::tabular{format=misc a=600 b=x d=herb e=25 f=\"1d4 doses (5 lbs. per dose)\" g=\"any forests or mountains\" h=\"A living mimameith tree has ‹rule/hardness› 7 (rather than the typical hardness 5 for most wooden objects) and fire ‹umr/resistance› 5. When a mimameith tree is burned but lives, its bark regrows over time with pale gray scarring - such bark bears special properties. Once harvested, this bark can be processed alchemically. Doing so requires a 5-pound dose of the bark to be soaked in water for 8 hours and then boiled off to a thin layer of tacky paste with a successful DC 20 ‹skill/Craft› (alchemy) check.\" i=\"@I-def When a dose of the pasty residue from mimameith bark is applied to a creature's skin as a @SA, the subject gains DR 2/bludgeoning, fire resistance 5, and immunity to ‹rule/bleed› effects for 1 hour.\"}",
 			"",
 			"The bark of this wide-trunked but relatively squat tree is resistant to cutting and fire."
 		]
@@ -4923,7 +4923,7 @@
 			"",
 			"These alchemically prepared fungal spores are suspended in a thick green ichor. They grow in patterns that match any plant or fungal material they touch, even dead wood, causing any cuts or breaks in the matter to mend as if it had never been damaged.",
 			"",
-			"@I-aid When applied as a @HL[full-round action], *mimic fibers* heal 1d10+10 points of damage to one object made of wood, paper, earth, or other living or once-living material. Even a destroyed item can be repaired (treat as if at 0 hit points) as long as the item is in no more than two pieces and is held together at the break as the spores are applied.",
+			"@I-aid When applied as a @RA, *mimic fibers* heal 1d10+10 points of damage to one object made of wood, paper, earth, or other living or once-living material. Even a destroyed item can be repaired (treat as if at 0 hit points) as long as the item is in no more than two pieces and is held together at the break as the spores are applied.",
 			"",
 			"::tabular{format=spontalch a=\"mag6/cs6\" b=filtration c=20 d=\"10 minutes\" f=filter g=tool}"
 		]
@@ -5165,7 +5165,7 @@
 		"description": [
 			"## Moly",
 			"‹SOURCE Ultimate Wilderness/155›  ",
-			"::tabular{format=misc a=1200 b=x d=herb e=25 f=\"1 dose\" g=\"any forests or plains\" h=\"This flowering herb must be picked whole and boiled with water until the entire amount is reduced by half. The resulting mixture is then strained and poured into a shallow pan to evaporate. The resulting crust is scraped off as a powder.\" i=\"@I-def-magic Anyone wearing or carrying fresh moly gains a +4 resistance bonus on saving throws against spells and spell-like abilities. Moly remains fresh in this way for only 12 hours, regardless of magical attempts to preserve it. When processed into a powder with a successful DC 25 ‹skill/Craft› (alchemy) check, moly can be sprinkled on a creature, object, or area (a @HLstandard_action) to end a spell as if with ‹spell/dispel magic› (caster level 6th).\"}",
+			"::tabular{format=misc a=1200 b=x d=herb e=25 f=\"1 dose\" g=\"any forests or plains\" h=\"This flowering herb must be picked whole and boiled with water until the entire amount is reduced by half. The resulting mixture is then strained and poured into a shallow pan to evaporate. The resulting crust is scraped off as a powder.\" i=\"@I-def-magic Anyone wearing or carrying fresh moly gains a +4 resistance bonus on saving throws against spells and spell-like abilities. Moly remains fresh in this way for only 12 hours, regardless of magical attempts to preserve it. When processed into a powder with a successful DC 25 ‹skill/Craft› (alchemy) check, moly can be sprinkled on a creature, object, or area (a @SA) to end a spell as if with ‹spell/dispel magic› (caster level 6th).\"}",
 			"",
 			"Moly is a plant with flowers white as pure milk and roots black as night."
 		]
@@ -5212,7 +5212,7 @@
 			"",
 			"For some unknown reason, this finely crafted but mundane monkey statue repulses ‹family/oni›.",
 			"",
-			"@I-aura-lower Any creature with the oni subtype that is within 30 feet of a monkey statue takes a -1 penalty on all d20 rolls. The monkey statue can be unattended or presented by its wielder as a @HL[swift action] to cause this effect; the statue has no effect on oni if it is simply stored on a wielder's person. A wielder must have a free hand available to present the statue and gain its effect. This penalty does not stack with that from other monkey statues."
+			"@I-aura-lower Any creature with the oni subtype that is within 30 feet of a monkey statue takes a -1 penalty on all d20 rolls. The monkey statue can be unattended or presented by its wielder as a @WA to cause this effect; the statue has no effect on oni if it is simply stored on a wielder's person. A wielder must have a free hand available to present the statue and gain its effect. This penalty does not stack with that from other monkey statues."
 		]
 	},
 	"monkey": {
@@ -5252,7 +5252,7 @@
 			"",
 			"This morsel of food contains special spices that make it particularly enticing to a certain creature type.",
 			"",
-			"@I-lower A creature whose type matches the bait's must attempt a DC 12 Will save every minute it remains within 30 feet of the bait; if it fails, it takes a -2 penalty on Wisdom-based skill checks while within the area and for 1d4 minutes afterward. The creature can end this penalty by consuming the bait as a @HL[standard action]. Additionally, monster bait can be used as an additional spell component for the following spells to modify the spell's effects.",
+			"@I-lower A creature whose type matches the bait's must attempt a DC 12 Will save every minute it remains within 30 feet of the bait; if it fails, it takes a -2 penalty on Wisdom-based skill checks while within the area and for 1d4 minutes afterward. The creature can end this penalty by consuming the bait as a @SA. Additionally, monster bait can be used as an additional spell component for the following spells to modify the spell's effects.",
 			"",
 			":::block{hl}",
 			"",

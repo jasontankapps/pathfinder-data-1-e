@@ -45,7 +45,7 @@
 		"name": "Companion to the Lonely",
 		"compilationSources": [ [ "Inner Sea Intrigue", 33 ] ],
 		"description": [
-			"::ab{title=\"&L&Companion to the Lonely (Ex)&FN&\" icon=power-roll-boost-def flavor=\"Whether religiously motivated, as are followers of ‹faith/Arshea›, ‹faith/Calistria›, or ‹faith/Shelyn›, or for purely carnal reasons, physical intimacy helps the vigilante cope with the loneliness of his double life.\" ability=\"Once per day, the vigilante can spend at least 1 hour engaged in acts of physical pleasure with a willing partner to gain a pool of morale points equal to his Charisma bonus or his partner's Charisma bonus, whichever is higher. For the next 24 hours, the vigilante can spend a morale point as an @HLimmediate_action to roll a Charisma-based skill check or a Will saving throw again after rolling the die but before learning the consequences; he must take the second result even if it is lower.\"}"
+			"::ab{title=\"&L&Companion to the Lonely (Ex)&FN&\" icon=power-roll-boost-def flavor=\"Whether religiously motivated, as are followers of ‹faith/Arshea›, ‹faith/Calistria›, or ‹faith/Shelyn›, or for purely carnal reasons, physical intimacy helps the vigilante cope with the loneliness of his double life.\" ability=\"Once per day, the vigilante can spend at least 1 hour engaged in acts of physical pleasure with a willing partner to gain a pool of morale points equal to his Charisma bonus or his partner's Charisma bonus, whichever is higher. For the next 24 hours, the vigilante can spend a morale point as an @IA to roll a Charisma-based skill check or a Will saving throw again after rolling the die but before learning the consequences; he must take the second result even if it is lower.\"}"
 		]
 	},
 	"conflicted_identity": {
@@ -102,7 +102,7 @@
 		"name": "Hidden Magic",
 		"compilationSources": [ [ "Antihero's Handbook", 16 ] ],
 		"description": [
-			"::ab{title=\"&L&Hidden Magic (Ex)&FN&\" icon=def passive=\"The auras of magic items the vigilante is carrying are hidden (as per ‹spell/magic aura›). The vigilante can suppress or reactivate this effect as a @HLstandard_action.\" imp11=\"The vigilante and any magic items he is carrying appear to be nonmagical (as if he had cast ‹spell/greater magic aura›).\" prereq=\"5th-level vigilante\"}"
+			"::ab{title=\"&L&Hidden Magic (Ex)&FN&\" icon=def passive=\"The auras of magic items the vigilante is carrying are hidden (as per ‹spell/magic aura›). The vigilante can suppress or reactivate this effect as a @SA.\" imp11=\"The vigilante and any magic items he is carrying appear to be nonmagical (as if he had cast ‹spell/greater magic aura›).\" prereq=\"5th-level vigilante\"}"
 		]
 	},
 	"intrigue_feats": {
@@ -181,7 +181,7 @@
 		"name": "Quick Change",
 		"compilationSources": [ [ "Ultimate Intrigue", 12 ] ],
 		"description": [
-			"::ab{title=\"&L&Quick Change (Ex)&FN&\" icon=boost-def flavor=\"The vigilante learns to shift between his identities with ease.\" ability=\"Instead of needing 1 minute to change his identity, he can now do so as a @HLfull-round_action.\" special=\"If, after a quick change, he encounters any creature familiar with both of his identities, he must attempt a ‹skill/Disguise› check to avoid the creature seeing through his hastily donned disguise and realizing that the identities are, in fact, the same person. The vigilante can spend 1 additional round adjusting and perfecting his appearance and persona to negate the need for this check.\" prereq=\"7th-level vigilante\"}"
+			"::ab{title=\"&L&Quick Change (Ex)&FN&\" icon=boost-def flavor=\"The vigilante learns to shift between his identities with ease.\" ability=\"Instead of needing 1 minute to change his identity, he can now do so as a @RA.\" special=\"If, after a quick change, he encounters any creature familiar with both of his identities, he must attempt a ‹skill/Disguise› check to avoid the creature seeing through his hastily donned disguise and realizing that the identities are, in fact, the same person. The vigilante can spend 1 additional round adjusting and perfecting his appearance and persona to negate the need for this check.\" prereq=\"7th-level vigilante\"}"
 		]
 	},
 	"immediate_change": {
@@ -189,7 +189,7 @@
 		"level": 1,
 		"compilationSources": [ [ "Ultimate Intrigue", 11 ] ],
 		"description": [
-			"::ab{title=\"&L&Immediate Change (Ex)&FN&\" icon=boost ability=\"The vigilante can change identities as a @HLmove_action, and he no longer needs to spend extra time to adjust his appearance and persona.\" prereq=\"13th-level vigilante, ‹soctalent/quick change›\"}"
+			"::ab{title=\"&L&Immediate Change (Ex)&FN&\" icon=boost ability=\"The vigilante can change identities as a @MA, and he no longer needs to spend extra time to adjust his appearance and persona.\" prereq=\"13th-level vigilante, ‹soctalent/quick change›\"}"
 		]
 	},
 	"renown": {
@@ -348,7 +348,7 @@
 		"name": "Transformation Sequence",
 		"compilationSources": [ [ "Blood of the Beast", 15 ] ],
 		"description": [
-			"::ab{title=\"&L&Transformation Sequence (Su)&FN&\" icon=boost-down flavor=\"The vigilante's transformation between identities is assisted by magic. This makes it faster than usual, but also more noticeable.\" ability=\"The vigilante can complete the switch between his identities in 5 rounds, improving to a @HLstandard_action if he has the ‹soctalent/quick change› social talent, and to a @HLswift_action if he has the ‹soctalent/immediate change› social talent. However, the transformation causes quite a spectacle, involving loud sounds or music, brilliant colorful energies, and swift motions.\" prereq=\"Able to cast spells or spell-like abilities\" special=\"A vigilante with the ‹arc-vigilante/magical child› archetype effectively gets this social talent for free at 1st level.\"}"
+			"::ab{title=\"&L&Transformation Sequence (Su)&FN&\" icon=boost-down flavor=\"The vigilante's transformation between identities is assisted by magic. This makes it faster than usual, but also more noticeable.\" ability=\"The vigilante can complete the switch between his identities in 5 rounds, improving to a @SA if he has the ‹soctalent/quick change› social talent, and to a @WA if he has the ‹soctalent/immediate change› social talent. However, the transformation causes quite a spectacle, involving loud sounds or music, brilliant colorful energies, and swift motions.\" prereq=\"Able to cast spells or spell-like abilities\" special=\"A vigilante with the ‹arc-vigilante/magical child› archetype effectively gets this social talent for free at 1st level.\"}"
 		]
 	},
 	"well_known_expert": {

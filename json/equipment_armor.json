@@ -457,7 +457,7 @@
 			"‹SOURCE Ultimate Equipment/9;Advanced Player's Guide/179›  ",
 			"::tabular{format=armor a=50 b=20 d=4 f=3 g=\"-2\" h=20 i=2015 j=2}",
 			"",
-			"This sturdy leather coat is reinforced with metal plates sewn into the lining. An armored coat is more cumbersome than light armor but less effective than most medium armors. The advantage of it is that a person can ‹rule/don «it or remove it<armor› as a @HL[move action] (there is no \"don hastily\" option for an armored coat). If worn over other armor, use the better AC bonus and worse value in all other categories; an armored coat has no effect if worn with heavy armor. The only magic effects that apply are those of armor, clothing, or items worn on top."
+			"This sturdy leather coat is reinforced with metal plates sewn into the lining. An armored coat is more cumbersome than light armor but less effective than most medium armors. The advantage of it is that a person can ‹rule/don «it or remove it<armor› as a @MA (there is no \"don hastily\" option for an armored coat). If worn over other armor, use the better AC bonus and worse value in all other categories; an armored coat has no effect if worn with heavy armor. The only magic effects that apply are those of armor, clothing, or items worn on top."
 		]
 	},
 	"chain_coat": {
@@ -483,7 +483,7 @@
 			"",
 			"Used by the Erutaki human tribes and snowcaster elves native to the arctic tundra of the Crown of the World, this heavy parka is treated as an ‹eq-armor/armored coat›.",
 			"",
-			"@I-def-boost It provides the benefits of a ‹eq-misc/cold-weather outfit›, and it can be donned or removed as a @HL[move action].",
+			"@I-def-boost It provides the benefits of a ‹eq-misc/cold-weather outfit›, and it can be donned or removed as a @MA.",
 			"",
 			"@I-def In addition, the fluffy white fur of the parka blends into arctic landscapes, providing a +2 circumstance bonus on ‹skill/Stealth› checks in snowy environments."
 		]
@@ -1249,7 +1249,7 @@
 			"",
 			"This massive wooden shield is nearly as tall as its user.",
 			"",
-			"@I-def-down In most situations, it provides the indicated shield bonus to your AC. As a @HL[standard action], however, you can use a tower shield to grant you ‹rule/total »cover› until the beginning of your next turn. When using a tower shield in this way, you must choose one edge of your space. That edge is treated as a solid wall for attacks targeting you only. You gain total cover for attacks that pass through this edge and no cover for attacks that do not pass through this edge (see ‹rule/cover›). The shield does not, however, provide cover against targeted spells; a spellcaster can cast a spell on you by targeting the shield you are holding.",
+			"@I-def-down In most situations, it provides the indicated shield bonus to your AC. As a @SA, however, you can use a tower shield to grant you ‹rule/total »cover› until the beginning of your next turn. When using a tower shield in this way, you must choose one edge of your space. That edge is treated as a solid wall for attacks targeting you only. You gain total cover for attacks that pass through this edge and no cover for attacks that do not pass through this edge (see ‹rule/cover›). The shield does not, however, provide cover against targeted spells; a spellcaster can cast a spell on you by targeting the shield you are holding.",
 			"",
 			"@I-down You cannot bash with a tower shield, nor can you use your shield hand for anything else. When employing a tower shield in combat, you take a -2 penalty on attack rolls because of the shield's encumbrance."
 		]

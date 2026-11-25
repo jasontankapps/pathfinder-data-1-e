@@ -121,7 +121,7 @@
 			"",
 			"::ab[Blessed Secrecy (Su)]{l=4 icon=roll passive=\"When you attempt a ‹skill/Bluff›, ‹skill/Disguise›, Sleight of Hand, or ‹skill/Stealth› skill check, you can roll twice and take the more favorable result.\" useMod=Wisdom}",
 			"",
-			"::ab[Delayed Spells (Su)]{l=8 icon=magic ability=\"You can delay the effects of a spell you cast by up to 1 round per inquisitor level. You choose the duration of the delay when you cast the spell and can cause the spell to take effect immediately during the period of delay by concentrating as a @HLstandard_action.\" useInc=inquisitor~4~8}"
+			"::ab[Delayed Spells (Su)]{l=8 icon=magic ability=\"You can delay the effects of a spell you cast by up to 1 round per inquisitor level. You choose the duration of the delay when you cast the spell and can cause the spell to take effect immediately during the period of delay by concentrating as a @SA.\" useInc=inquisitor~4~8}"
 		]
 	},
 	"conversion": {
@@ -377,7 +377,7 @@
 			"",
 			"::ab[Judicious Force (Su)]{icon=boost immediate=\"If you or an ally within 10 feet makes a critical threat with a melee or ranged attack, you may add +4 to the confirmation roll. This does not stack with the ‹feat/Critical Focus› feat.\" useMod=Wisdom}",
 			"",
-			"::ab[Chains of Justice (Su)]{l=6 icon=lower-down ability=\"Once per day, you can bind an opponent within 60 feet to you with spectral chains (Will negates). When you take damage from an enemy, the bound target takes this damage as well. Whenever the bound target takes damage from you or one of your allies, you take this damage as well. You and the target are not physically bound to each other, and either can end the connection by breaking the line of effect or exceeding the ability's range. You may dismiss the chains as a @HLstandard_action.\"}"
+			"::ab[Chains of Justice (Su)]{l=6 icon=lower-down ability=\"Once per day, you can bind an opponent within 60 feet to you with spectral chains (Will negates). When you take damage from an enemy, the bound target takes this damage as well. Whenever the bound target takes damage from you or one of your allies, you take this damage as well. You and the target are not physically bound to each other, and either can end the connection by breaking the line of effect or exceeding the ability's range. You may dismiss the chains as a @SA.\"}"
 		]
 	},
 	"oblivion": {
@@ -484,7 +484,7 @@
 			"",
 			"::ab[Self-Control (Ex)]{icon=def ability=\"You possess remarkable control over your own body, and gain a +2 competence bonus on saving throws made against enchantment spells of the charm or compulsion subschool.\"}",
 			"",
-			"::ab[Beast Ride (Su)]{icon=magic l=4 standard=\"Once per day you can vacate your body and inhabit that of any creature belonging to the animal type within 30 feet for a number of rounds up to your inquisitor level.~~~While you are possessing an animal in this way, your own body becomes helpless and unaware. You can travel any distance from your body so long as you remain on the same plane, and can return to your own body as a @HLfree_action at any time.~~~If the animal or your body takes damage, or you attempt to make the animal attack or do anything out of character, the effect immediately ends and you return to your own body.\"}",
+			"::ab[Beast Ride (Su)]{icon=magic l=4 standard=\"Once per day you can vacate your body and inhabit that of any creature belonging to the animal type within 30 feet for a number of rounds up to your inquisitor level.~~~While you are possessing an animal in this way, your own body becomes helpless and unaware. You can travel any distance from your body so long as you remain on the same plane, and can return to your own body as a @FA at any time.~~~If the animal or your body takes damage, or you attempt to make the animal attack or do anything out of character, the effect immediately ends and you return to your own body.\"}",
 			"",
 			"::ab[Body Snatch (Sp)]{icon=magic l=10 immediate=\"Once per day upon falling unconscious because of dropping below 0 hit points, you can cast your soul from your body and attempt to occupy the body of another creature within 30 feet. This ability otherwise functions identically to ‹spell/magic jar› except that your actual body serves as the receptacle and you suppress the consciousness of your target rather than casting it out.~~~Your body continues to ‹misc/bleed as normal»<dying› unless it is somehow stabilized, and if its hit points drop to a negative number equal to your Constitution score, the *magic jar* effect prematurely ends and you die as normal.\"}"
 		]

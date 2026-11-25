@@ -446,7 +446,7 @@
 			"",
 			"You gain negative energy ‹umr/resistance› 2, a 5% chance to ignore critical hits and sneak attacks, and a +1 bonus on Will saves against emotion effects. By accepting 1 point of burn, you can increase the resistance to negative energy by 2, the chance to ignore critical hits and sneak attacks by 5%, and the bonus on Will saves against emotion effects by 1 until the next time your burn is removed.",
 			"",
-			"The chance of ignoring critical hits and sneak attacks granted by this wild talent stacks with the chance granted by elemental overflow to a maximum of 100%. When you accept burn while using a void wild talent, your bonus on Will saves applies against all mind-affecting effects for 1 round. You can dismiss and restore this effect as an @HL[immediate action]."
+			"The chance of ignoring critical hits and sneak attacks granted by this wild talent stacks with the chance granted by elemental overflow to a maximum of 100%. When you accept burn while using a void wild talent, your bonus on Will saves applies against all mind-affecting effects for 1 round. You can dismiss and restore this effect as an @IA."
 		]
 	},
 	"enveloping_winds": {
@@ -464,7 +464,7 @@
 			"",
 			"By accepting 1 point of burn, you can increase the miss chance by 5% until the next time your burn is removed. You can continue to accept points of burn to increase the miss chance further, up to a maximum of 75%.",
 			"",
-			"Whenever you accept burn while using an air wild talent, the energy surging through you causes your enveloping winds to also affect non-physical ranged attacks such as ray attacks for 1 round. You can dismiss or restore this effect as an @HL[immediate action]."
+			"Whenever you accept burn while using an air wild talent, the energy surging through you causes your enveloping winds to also affect non-physical ranged attacks such as ray attacks for 1 round. You can dismiss or restore this effect as an @IA."
 		]
 	},
 	"flesh_of_stone": {
@@ -480,7 +480,7 @@
 			"",
 			"You gain DR/adamantine equal to ‹misc/half› your kineticist level (DR 1/adamantine at 2nd level, up to DR 10/adamantine at 20th level). By accepting 1 point of burn, you can increase the DR by 1 until the next time your burn is removed, to a maximum DR equal to your kineticist level.",
 			"",
-			"Whenever you accept burn while using an earth wild talent, the energy surging through you causes your damage reduction to change from DR/adamantine to DR/- for 1 round. You can dismiss and restore this effect as an @HL[immediate action]."
+			"Whenever you accept burn while using an earth wild talent, the energy surging through you causes your damage reduction to change from DR/adamantine to DR/- for 1 round. You can dismiss and restore this effect as an @IA."
 		]
 	},
 	"flesh_of_wood": {
@@ -499,7 +499,7 @@
 			"",
 			"You gain a +1 enhancement bonus to your existing natural armor bonus. By accepting 1 point of burn, you can increase this enhancement bonus by 1. For every 3 levels beyond 2nd, you can accept 1 additional point of burn to further increase this enhancement bonus by 1 (2/+3 at 5th, 3/+4 at 8th, 4/+5 at 11th, 5/+6 at 14th, and 6/+7 at 17th level).",
 			"",
-			"Whenever you accept burn while using a wood wild talent, phytokinetic power causes your full natural armor bonus to apply to your touch AC for 1 round. You can dismiss and restore this effect as an @HL[immediate action]."
+			"Whenever you accept burn while using a wood wild talent, phytokinetic power causes your full natural armor bonus to apply to your touch AC for 1 round. You can dismiss and restore this effect as an @IA."
 		]
 	},
 	"force_ward": {
@@ -517,7 +517,7 @@
 			"",
 			"These temporary hit points regenerate at a rate of 1 per minute. By accepting 1 point of burn as a standard action, you can increase the maximum number of temporary hit points provided by your *force ward* by half your kineticist level until the next time your burn is removed. If you use this ability multiple times, the increases stack. For every 2 points of burn you accept in this way, your *force ward's* rate of regeneration increases by 1 hit point per minute.",
 			"",
-			"Whenever you accept burn while using an aether wild talent, you siphon some of the energy from the aether flowing through you and your *force ward* recovers a number of temporary hit points equal to your character level, up to its current maximum. You can dismiss or restore your *force ward* as an @HL[immediate action], but doing so doesn't change the number of temporary hit points available, and the temporary hit points don't recover while this ability is inactive."
+			"Whenever you accept burn while using an aether wild talent, you siphon some of the energy from the aether flowing through you and your *force ward* recovers a number of temporary hit points equal to your character level, up to its current maximum. You can dismiss or restore your *force ward* as an @IA, but doing so doesn't change the number of temporary hit points available, and the temporary hit points don't recover while this ability is inactive."
 		]
 	},
 	"searing_flesh": {
@@ -535,7 +535,7 @@
 			"",
 			"By accepting 1 point of burn, you can increase this damage by one-fourth of your kineticist level (minimum 0) until the next time your burn is removed. You can increase the damage in this way up to seven times.",
 			"",
-			"Whenever you accept burn while using a fire wild talent, the surging flame causes your *searing flesh* to deal double its current amount of damage for 1 round (a creature in a grapple with you takes a total of four times as much damage as normal). You can dismiss or restore this effect as an @HL[immediate action]."
+			"Whenever you accept burn while using a fire wild talent, the surging flame causes your *searing flesh* to deal double its current amount of damage for 1 round (a creature in a grapple with you takes a total of four times as much damage as normal). You can dismiss or restore this effect as an @IA."
 		]
 	},
 	"shroud_of_water": {
@@ -549,11 +549,11 @@
 			"",
 			"You surround yourself with a shroud of water, ice, or both that protects you from harm.",
 			"",
-			"The shroud can either cover your body, functioning as armor, or float around you and block attacks, functioning as a shield. It grants either a +4 armor bonus to AC or a +2 shield bonus to AC, and you can change the type of bonus as a @HL[standard action]. This bonus increases by 1 at 6th level, by 2 at 10th level, by 3 at 14th level, and by 4 at 18th level.",
+			"The shroud can either cover your body, functioning as armor, or float around you and block attacks, functioning as a shield. It grants either a +4 armor bonus to AC or a +2 shield bonus to AC, and you can change the type of bonus as a @SA. This bonus increases by 1 at 6th level, by 2 at 10th level, by 3 at 14th level, and by 4 at 18th level.",
 			"",
 			"By accepting 1 point of burn, you can increase the bonus by 1 until the next time your burn is removed. You can increase the bonus multiple times in this way, but it can't be increased by more than half of its starting value. When you change the shroud to grant a shield bonus, any bonus in excess of this limit doesn't apply, but it remains if you change the shroud's bonus type again.",
 			"",
-			"Whenever you accept burn while using a water wild talent, the water coalescing around you allows your shroud to grant both the armor bonus and the shield bonus for 1 round. You can dismiss or restore this effect as an @HL[immediate action]."
+			"Whenever you accept burn while using a water wild talent, the water coalescing around you allows your shroud to grant both the armor bonus and the shield bonus for 1 round. You can dismiss or restore this effect as an @IA."
 		]
 	},
 	"blade_rush": {
@@ -846,7 +846,7 @@
 			"",
 			"Your kinetic blast surrounds your foes in elemental matter.",
 			"",
-			"Whenever a blast with this infusion deals damage to a foe, that foe becomes ‹rule/entangled› for 1 minute. The foe can remove this condition as a @HL[standard action] with a successful ‹skill/Escape Artist› or Strength check (with the same DC as for saves against your kinetic blast) or by dealing an amount of damage to the entangling matter equal to double your kineticist level (the matter has hardness 0).",
+			"Whenever a blast with this infusion deals damage to a foe, that foe becomes ‹rule/entangled› for 1 minute. The foe can remove this condition as a @SA with a successful ‹skill/Escape Artist› or Strength check (with the same DC as for saves against your kinetic blast) or by dealing an amount of damage to the entangling matter equal to double your kineticist level (the matter has hardness 0).",
 			"",
 			"If the foe was already entangled by this infusion and fails its save against a second instance of this infusion, the increased amount of elemental matter fuses to the ground, causing the foe to be rooted in place as though anchored to an immobile object."
 		]
@@ -991,7 +991,7 @@
 			"",
 			"::kinetics{el=\"fire, wood\" type=\"substance infusion (Sp)\" l=3 burn=2 prereq=\"‹kinetic/foxfire› or ‹kinetic/positive blast›\" assoc=\"‹kinetic/Blue Flame Blast›, ‹kinetic/Fire Blast›, Positive Blast\" save=\"Will partial\" source=\"Ultimate Wilderness/58~;Psychic Anthology/20\"}",
 			"",
-			"Your blast leaves behind flickering flames that reveal the target's location as per ‹spell/faerie fire› for 1 minute (or until your next turn if the target succeeds at its save). This effect occurs even if the foe doesn't take damage, as long as the attack overcomes spell resistance (if any). You can reduce the blast's damage by half to increase the DC of this saving throw by 2. A creature can remove the revealing flames early by taking a @HL[full-round action] to extinguish them."
+			"Your blast leaves behind flickering flames that reveal the target's location as per ‹spell/faerie fire› for 1 minute (or until your next turn if the target succeeds at its save). This effect occurs even if the foe doesn't take damage, as long as the attack overcomes spell resistance (if any). You can reduce the blast's damage by half to increase the DC of this saving throw by 2. A creature can remove the revealing flames early by taking a @RA to extinguish them."
 		]
 	},
 	"fragmentation": {
@@ -1113,7 +1113,7 @@
 			"",
 			"You create a 20-foot-radius whirling *maelstrom* in a body of water within 120 feet (the area of the *maelstrom* does not include any squares in the radius that aren't in the water). Any creature in the *maelstrom* immediately takes one-quarter your blast's normal damage regardless of whether it succeeds at its save. A creature that succeeds at its Reflex save can choose to exit the area at the closest space.",
 			"",
-			"A creature in the *maelstrom* must succeed at a DC 35 ‹skill/Swim› check in order to swim, and any creature that enters the *maelstrom* or ends its turn in the *maelstrom* takes half your blast's normal damage. As a @HL[free action] at the beginning of your turn, you can position each creature in the *maelstrom* anywhere you choose within the affected area.",
+			"A creature in the *maelstrom* must succeed at a DC 35 ‹skill/Swim› check in order to swim, and any creature that enters the *maelstrom* or ends its turn in the *maelstrom* takes half your blast's normal damage. As a @FA at the beginning of your turn, you can position each creature in the *maelstrom* anywhere you choose within the affected area.",
 			"",
 			"This effect lasts for a number of rounds equal to your Constitution modifier or until you use this infusion again. You can use ‹kinetic/grappling infusion› with this infusion."
 		]
@@ -1153,7 +1153,7 @@
 			"",
 			"You send an elemental mass, energy ball, or object into a particular square within 30 feet, dealing ‹misc/one-fourth› of the normal amount of damage (or half the normal amount of damage, for an energy blast) to all creatures in that square.",
 			"",
-			"The *mobile blast* lasts until you dismiss it as a @HL[free action], lose consciousness, or move farther than 30 feet from it. Each round on your turn as a @HL[move action], you can move the *mobile blast* to another square within range; either way, it continues to deal damage to all creatures in its final square each round if they fail their saving throws.",
+			"The *mobile blast* lasts until you dismiss it as a @FA, lose consciousness, or move farther than 30 feet from it. Each round on your turn as a @MA, you can move the *mobile blast* to another square within range; either way, it continues to deal damage to all creatures in its final square each round if they fail their saving throws.",
 			"",
 			"You can have only a single *mobile blast* in existence at a time. If the *mobile blast's* total burn cost before applying any reduction for *gather power* is 0, it has no maximum duration. Otherwise, it lasts for a maximum number of rounds equal to your Constitution modifier, and afterward you can't create another *mobile blast* for a number of minutes equal to the number of rounds it existed.",
 			"",
@@ -1364,7 +1364,7 @@
 			"",
 			"::kinetics{el=air type=\"substance infusion\" l=3 burn=2 assoc=\"‹kinetic/Electric Blast›, ‹kinetic/Charged Water Blast›, ‹kinetic/Thunderstorm Blast›\" save=\"Will negates\" source=\"Psychic Anthology/21\"}",
 			"",
-			"Your blast sends strange electric signals through the target's body, scrambling its synapses and causing it to become ‹misc/staggered› for 1 round. The target is aware it can choose to take a @HL[move action] to remove the staggered condition inflicted by this infusion. This infusion is a mind-affecting effect."
+			"Your blast sends strange electric signals through the target's body, scrambling its synapses and causing it to become ‹misc/staggered› for 1 round. The target is aware it can choose to take a @MA to remove the staggered condition inflicted by this infusion. This infusion is a mind-affecting effect."
 		]
 	},
 	"telekinetic_boomerang": {
@@ -1378,7 +1378,7 @@
 			"",
 			"This functions as *telekinetic blast,* except you maintain an elastic strand of aether attached to the object you throw. This allows you to pull it back to you after the attack and catch it if you have enough free hands (and assuming it is small enough for you to carry). This prevents the object from taking damage, but it also prevents you from loosening the strands of aether (see *telekinetic blast*).",
 			"",
-			"Alternatively, if the attack missed, on your next turn as a @HL[standard action], you can you can snap the elastic strand back to make another attack with the same substance infusion and metakinesis, as if using a normal *telekinetic blast* (at which point the object takes damage and doesn't return to you, and you can't try again)."
+			"Alternatively, if the attack missed, on your next turn as a @SA, you can you can snap the elastic strand back to make another attack with the same substance infusion and metakinesis, as if using a normal *telekinetic blast* (at which point the object takes damage and doesn't return to you, and you can't try again)."
 		]
 	},
 	"thundering_infusion": {
@@ -1644,7 +1644,7 @@
 			"",
 			"::kinetics{el=void type=\"utility (Sp)\" l=4 burn=0 prereq=\"‹kinetic/emptiness›\" source=\"Psychic Anthology/22\"}",
 			"",
-			"@I-def-protect You are always under the effect of ‹spell/nondetection› as if you had cast it on yourself. If the effect is dispelled, you can call if forth again as a @HL[standard action]. You can accept 1 point of burn to grant a creature touched the effects of *nondetection.*"
+			"@I-def-protect You are always under the effect of ‹spell/nondetection› as if you had cast it on yourself. If the effect is dispelled, you can call if forth again as a @SA. You can accept 1 point of burn to grant a creature touched the effects of *nondetection.*"
 		]
 	},
 	"aerial_adaptation": {
@@ -1696,7 +1696,7 @@
 			"",
 			"::kinetics{el=aether type=\"utility (Sp)\" l=5 burn=0 source=\"Occult Adventures/22\"}",
 			"",
-			"@I-magic You use strands of aether to animate an object. You can animate a Medium or smaller object as an ‹monster/animated object› with no Construction Point abilities (except for *stone* or *metal [common],* if the object is constructed of one of those materials). Each round on your turn, you must take a @HL[move action] to guide the object, or it reverts to its inanimate state. By accepting 1 point of burn, you can pour a bit of your own sentience into the aether puppet, allowing the effect to persist for 1 round per kineticist level without requiring additional actions.",
+			"@I-magic You use strands of aether to animate an object. You can animate a Medium or smaller object as an ‹monster/animated object› with no Construction Point abilities (except for *stone* or *metal [common],* if the object is constructed of one of those materials). Each round on your turn, you must take a @MA to guide the object, or it reverts to its inanimate state. By accepting 1 point of burn, you can pour a bit of your own sentience into the aether puppet, allowing the effect to persist for 1 round per kineticist level without requiring additional actions.",
 			"",
 			"At 12th level, you can animate a Large or smaller object, which gains all the abilities of the Medium animated object plus the additional attack ability.",
 			"",
@@ -1728,7 +1728,7 @@
 			"",
 			"::kinetics{el=air type=\"utility (Sp)\" l=1 burn=0 source=\"Occult Adventures/23\"}",
 			"",
-			"@I-def-protect You are always surrounded by air, as ‹spell/air bubble›. As a @HL[standard action], you can accept 1 point of burn to extend the effect to a number of additional creatures equal to your Constitution modifier for 1 minute per kineticist level you possess."
+			"@I-def-protect You are always surrounded by air, as ‹spell/air bubble›. As a @SA, you can accept 1 point of burn to extend the effect to a number of additional creatures equal to your Constitution modifier for 1 minute per kineticist level you possess."
 		]
 	},
 	"greater_air_shroud": {
@@ -1866,7 +1866,7 @@
 			"",
 			"::kinetics{el=aether type=\"utility (Sp)\" l=1 burn=0 source=\"Occult Adventures/23\"}",
 			"",
-			"@I-magic This ability is similar to ‹spell/mage hand›, except you can move an object that weighs up to 5 pounds per 2 kineticist levels you possess (minimum 5 pounds), and you can move magical objects. Additionally, you can create a container of entwined strands of aether in order to hold liquids or piles of small objects of the same weight. You can dip the container to pick up or drop a liquid as a @HL[move action].",
+			"@I-magic This ability is similar to ‹spell/mage hand›, except you can move an object that weighs up to 5 pounds per 2 kineticist levels you possess (minimum 5 pounds), and you can move magical objects. Additionally, you can create a container of entwined strands of aether in order to hold liquids or piles of small objects of the same weight. You can dip the container to pick up or drop a liquid as a @MA.",
 			"",
 			"If you possess the ‹kinetic/extended range› wild talent, you can increase the range of basic telekinesis to medium range and increase the rate of movement to 30 feet per round, and if you possess the ‹kinetic/extreme range› wild talent, you can increase the range of basic telekinesis to long range and increase the rate of movement to 60 feet per round.",
 			"",
@@ -1957,7 +1957,7 @@
 			"",
 			"::kinetics{el=water type=\"utility (Sp)\" l=3 burn=1 prereq=\"‹kinetic/cold adaptation›, ‹kinetic/shroud of water›\" source=\"Occult Adventures/24\"}",
 			"",
-			"@I-aura You chill your *shroud of water* and send the cold around you, creating an aura of numbing cold around yourself. Until the next time your burn is removed, you can begin or end the cold aura at will as a @HL[swift action]. The temperature in the area 30 feet around you lowers by 5&deg; F per kineticist level you possess, to a minimum modified temperature of -10&deg; F. If this brings the temperature in the area below 40&deg; F, all creatures within 5 feet of you take a -4 penalty to Dexterity.",
+			"@I-aura You chill your *shroud of water* and send the cold around you, creating an aura of numbing cold around yourself. Until the next time your burn is removed, you can begin or end the cold aura at will as a @WA. The temperature in the area 30 feet around you lowers by 5&deg; F per kineticist level you possess, to a minimum modified temperature of -10&deg; F. If this brings the temperature in the area below 40&deg; F, all creatures within 5 feet of you take a -4 penalty to Dexterity.",
 			"",
 			"You are immune to these effects, as are creatures that are immune to cold or that benefit from effects that protect against temperature, such as ‹spell/endure elements›."
 		]
@@ -1973,7 +1973,7 @@
 			"",
 			"@I-magic You draw upon negative energy to animate a nearby corpse as a ‹template/zombie« or a fast zombie› (your choice). You can animate a zombie only if its Hit Dice are no greater than your kineticist level - 4.",
 			"",
-			"Each round on your turn, you must take a @HL[move action] to guide the zombie, or it reverts to a corpse (but retains any damage if you later turn it into a zombie again with this utility talent). By accepting 1 point of burn, you can pour a bit of your own sentience into the zombie, allowing it to persist for 1 round per kineticist level without requiring additional actions on your part, or until the next time your burn is removed if the zombie has half your maximum zombie Hit Dice or fewer.",
+			"Each round on your turn, you must take a @MA to guide the zombie, or it reverts to a corpse (but retains any damage if you later turn it into a zombie again with this utility talent). By accepting 1 point of burn, you can pour a bit of your own sentience into the zombie, allowing it to persist for 1 round per kineticist level without requiring additional actions on your part, or until the next time your burn is removed if the zombie has half your maximum zombie Hit Dice or fewer.",
 			"",
 			"At 12th level, you can animate a zombie with a number of Hit Dice no greater than your kineticist level - 2.",
 			"",
@@ -2001,7 +2001,7 @@
 			"",
 			"::kinetics{el=void type=\"utility (Sp)\" l=4 burn=0 prereq=\"‹kinetic/emptiness›\" source=\"Psychic Anthology/22\"}",
 			"",
-			"@I-def-protect The power of void protects you from curses and allows you to remove or suppress them. You gain a +4 bonus on saving throws against curses and hexes. You can accept 1 point of burn as a @HL[standard action] to attempt a caster level check to remove a curse on yourself or another as per ‹spell/remove curse›. If the curse normally could not be removed by remove curse, you can instead suppress the curse until the next time your burn is removed with a successful caster level check.",
+			"@I-def-protect The power of void protects you from curses and allows you to remove or suppress them. You gain a +4 bonus on saving throws against curses and hexes. You can accept 1 point of burn as a @SA to attempt a caster level check to remove a curse on yourself or another as per ‹spell/remove curse›. If the curse normally could not be removed by remove curse, you can instead suppress the curse until the next time your burn is removed with a successful caster level check.",
 			"",
 			"When your burn is removed, you can choose not to remove the burn you spent in this way to continue suppressing the curse without interruption. If you die, any curse suppressed in this way returns instantly."
 		]
@@ -2139,7 +2139,7 @@
 			"",
 			"Pick a type of creature usually allowed as a ‹ability/familiar› when you gain this wild talent. You gain the ‹feat/Alertness› feat and the special abilities granted by a familiar of that type.",
 			"",
-			"As a @HL[standard action], you can give the voice of the element the body of such a creature, using elemental matter of the appropriate element within 30 feet. As long as you concentrate, the familiar can take actions as a normal animal of its type, and it can move any distance away from you, though if it takes any damage or you cease concentrating, it returns to your mind. You lose Alertness while the familiar is manifested in this way.",
+			"As a @SA, you can give the voice of the element the body of such a creature, using elemental matter of the appropriate element within 30 feet. As long as you concentrate, the familiar can take actions as a normal animal of its type, and it can move any distance away from you, though if it takes any damage or you cease concentrating, it returns to your mind. You lose Alertness while the familiar is manifested in this way.",
 			"",
 			"The ‹sidekick/familiar› gains abilities as usual for a familiar of its type, though it never gains the ability to speak with animals of its kind."
 		]
@@ -2233,7 +2233,7 @@
 			"",
 			"::kinetics{el=fire type=\"utility (Sp)\" l=5 burn=1 source=\"Wilderness Origins/29\"}",
 			"",
-			"@I-magic You create a passage through a fire or pool of lava. The passage is 5 feet wide and 8 feet high. It is 10 feet long, plus 5 feet longer for every 3 kineticist levels you have. Any heat generated by the fire or lava through which the passage passes is radiated outwards, making the passage comfortable and safe. The passage lasts for 1 hour, though you can end the effect at any time as a @HL[free action]. If this effect ends while a creature is inside the tunnel, that creature is affected by the fire or lava as normal."
+			"@I-magic You create a passage through a fire or pool of lava. The passage is 5 feet wide and 8 feet high. It is 10 feet long, plus 5 feet longer for every 3 kineticist levels you have. Any heat generated by the fire or lava through which the passage passes is radiated outwards, making the passage comfortable and safe. The passage lasts for 1 hour, though you can end the effect at any time as a @FA. If this effect ends while a creature is inside the tunnel, that creature is affected by the fire or lava as normal."
 		]
 	},
 	"fire_sculptor": {
@@ -2247,7 +2247,7 @@
 			"",
 			"@I-magic You can sculpt shapes out of flame or alter a fire's spread.",
 			"",
-			"As a @HL[standard action], you can move one 5-foot square of an ongoing fire per kineticist level you possess to any square contiguous to that fire. For instance, a 4th-level kineticist could move 4 contiguous squares from the center of a 20-foot-by-20-foot fire to the fire's edge in order to create a safe path to escape. The fire continues to spread normally after you sculpt it."
+			"As a @SA, you can move one 5-foot square of an ongoing fire per kineticist level you possess to any square contiguous to that fire. For instance, a 4th-level kineticist could move 4 contiguous squares from the center of a 20-foot-by-20-foot fire to the fire's edge in order to create a safe path to escape. The fire continues to spread normally after you sculpt it."
 		]
 	},
 	"fire_steed": {
@@ -2322,7 +2322,7 @@
 			"",
 			"::kinetics{el=fire type=\"utility (Sp)\" l=3 burn=0 source=\"Occult Adventures/25\"}",
 			"",
-			"@I-power-line You shoot a burst of flame behind you as a @HL[standard action], propelling you up to 60 feet in a straight line, including into the air; any movement upward costs double. If you end your turn mid-air, you fall on your next turn unless you use flame jet again."
+			"@I-power-line You shoot a burst of flame behind you as a @SA, propelling you up to 60 feet in a straight line, including into the air; any movement upward costs double. If you end your turn mid-air, you fall on your next turn unless you use flame jet again."
 		]
 	},
 	"greater_flame_jet": {
@@ -2334,7 +2334,7 @@
 			"",
 			"::kinetics{el=fire type=\"utility (Sp)\" l=5 burn=0 prereq=\"‹kinetic/flame jet›\" source=\"Occult Adventures/25\"}",
 			"",
-			"@I-boost You can use *flame jet* as a @HL[move action] and can emanate a mild jet of flame, allowing you to hover without spending an action."
+			"@I-boost You can use *flame jet* as a @MA and can emanate a mild jet of flame, allowing you to hover without spending an action."
 		]
 	},
 	"flame_jet_greater": { "redirect": "greater_flame_jet" },
@@ -2383,7 +2383,7 @@
 			"",
 			"::kinetics{el=aether type=\"utility (Sp)\" l=5 burn=0 prereq=\"‹kinetic/force ward›\" source=\"Occult Adventures/25\"}",
 			"",
-			"@I-magic-def You create an immobile sphere or hemisphere of force around your square or squares. The force barrier functions as a ‹spell/wall of force› in all other ways. Activating this ability is a @HL[standard action], and the barrier lasts until the beginning of your next turn. Each round, just before the barrier would disappear, you can extend its duration by accepting 1 point of burn. If an attack manages to destroy the force barrier, you immediately take 1 point of burn."
+			"@I-magic-def You create an immobile sphere or hemisphere of force around your square or squares. The force barrier functions as a ‹spell/wall of force› in all other ways. Activating this ability is a @SA, and the barrier lasts until the beginning of your next turn. Each round, just before the barrier would disappear, you can extend its duration by accepting 1 point of burn. If an attack manages to destroy the force barrier, you immediately take 1 point of burn."
 		]
 	},
 	"forest_siege": {
@@ -2398,7 +2398,7 @@
 			"",
 			"::kinetics{el=wood type=\"utility (Sp)\" l=9 burn=0 source=\"Ultimate Wilderness/58~;Occult Origins/8\"}",
 			"",
-			"@I-magic You can transform available plant life into a besieging army. This functions as ‹spell/greater siege of trees›, except you need to concentrate or the effect ends, and you can change targets as a @HL[free action]. If you accept 1 point of burn, you can prolong the effect without the need for concentration until the next time you recover burn, but you need to spend a @HL[standard action] to change targets."
+			"@I-magic You can transform available plant life into a besieging army. This functions as ‹spell/greater siege of trees›, except you need to concentrate or the effect ends, and you can change targets as a @FA. If you accept 1 point of burn, you can prolong the effect without the need for concentration until the next time you recover burn, but you need to spend a @SA to change targets."
 		]
 	},
 	"foxfire": {
@@ -2417,7 +2417,7 @@
 			"",
 			"If you use foxfire with positive energy, the flames don't give off heat. If you use it with fire, the flames still aren't hot enough to deal damage immediately, but the illuminated creature counts as being under the effects of ‹rule/severe »heat› and must succeed at a Fortitude save against nonlethal damage after 10 minutes.",
 			"",
-			"A creature can extinguish the foxfire automatically as a @HL[full-round action]."
+			"A creature can extinguish the foxfire automatically as a @RA."
 		]
 	},
 	"from_the_ashes": {
@@ -2429,7 +2429,7 @@
 			"",
 			"::kinetics{el=fire type=\"utility (Sp)\" l=9 burn=2 source=\"Occult Adventures/25\"}",
 			"",
-			"@I-def-aid When you are about to fall unconscious or die from hit point damage, as an @HL[immediate action] you can burst into flames that leave behind only ash, which cannot be appreciably affected by most attacks or effects, though a ‹spell/disintegrate› spell or similar magic can annihilate it. At the start of your next turn, unless the ash has been completely destroyed, you arise in the square where the most ash is located, having taken the damage from the triggering effect but having also healed 5 points of damage per kineticist level you possess."
+			"@I-def-aid When you are about to fall unconscious or die from hit point damage, as an @IA you can burst into flames that leave behind only ash, which cannot be appreciably affected by most attacks or effects, though a ‹spell/disintegrate› spell or similar magic can annihilate it. At the start of your next turn, unless the ash has been completely destroyed, you arise in the square where the most ash is located, having taken the damage from the triggering effect but having also healed 5 points of damage per kineticist level you possess."
 		]
 	},
 	"gravity_control": {
@@ -2551,7 +2551,7 @@
 			"",
 			"::kinetics{el=fire type=\"utility (Sp)\" l=3 burn=1 prereq=\"‹kinetic/heat adaptation›, ‹kinetic/searing flesh›\" source=\"Occult Adventures/25\"}",
 			"",
-			"@I-aura-def You create an aura of shimmering heat that distorts the area around you. Until the next time your burn is removed, you can begin or end the heat aura as a @HL[swift action]. The temperature in the area 30 feet around you rises by 5&deg; F per kineticist level you possess, to a maximum modified temperature of 120&deg; F. If this brings the temperature to at least 90&deg; F, all attacks made by creatures within 5 feet of you suffer a 20% miss chance due to ‹rule/concealment›.",
+			"@I-aura-def You create an aura of shimmering heat that distorts the area around you. Until the next time your burn is removed, you can begin or end the heat aura as a @WA. The temperature in the area 30 feet around you rises by 5&deg; F per kineticist level you possess, to a maximum modified temperature of 120&deg; F. If this brings the temperature to at least 90&deg; F, all attacks made by creatures within 5 feet of you suffer a 20% miss chance due to ‹rule/concealment›.",
 			"",
 			"You are immune to these effects, as are those immune to fire or benefiting from ‹spell/endure elements›."
 		]
@@ -2570,7 +2570,7 @@
 			"",
 			"@I-def-aid Your body can produce the herbal remedies necessary to counter almost any poison. You gain a +5 alchemical bonus on saving throws against poison, as if you were always under the effect of ‹eq-misc/antitoxin›.",
 			"",
-			"You can use the *treat poison* action from the ‹skill/Heal› skill as a @HL[standard action] with a mere touch, without a healer's kit, and even on yourself; if you succeed, you grant the touched creature a +5 alchemical bonus against that specific instance of poison in addition to the normal +4 bonus from *treat poison.*",
+			"You can use the *treat poison* action from the ‹skill/Heal› skill as a @SA with a mere touch, without a healer's kit, and even on yourself; if you succeed, you grant the touched creature a +5 alchemical bonus against that specific instance of poison in addition to the normal +4 bonus from *treat poison.*",
 			"",
 			"You can accept 1 point of burn while using the *treat poison* action in this way to also produce the effects of ‹spell/neutralize poison›."
 		]
@@ -2636,7 +2636,7 @@
 			"",
 			"::kinetics{el=universal type=\"utility (Sp)\" l=1 burn=0 prereq=\"‹race/tiefling› or ‹feat/Planar Infusion› (Hell)\" save=none sr=yes source=\"Plane-Hopper's Handbook/8\"}",
 			"",
-			"@I-magic As a @HL[swift action] before using a utility talent on a willing target, you can add the effects of ‹spell/conditional favor›, except that it applies to any beneficial utility talent instead of to spells of certain schools."
+			"@I-magic As a @WA before using a utility talent on a willing target, you can add the effects of ‹spell/conditional favor›, except that it applies to any beneficial utility talent instead of to spells of certain schools."
 		]
 	},
 	"jagged_flesh": {
@@ -2660,7 +2660,7 @@
 			"",
 			"::kinetics{el=universal type=\"utility (Su)\" l=1 burn=0 source=\"Heroes of Golarion/26\"}",
 			"",
-			"@I-power You create a terrifying display of elemental power. This ability functions as ‹feat/Dazzling Display›, except you can use this ability as a @HL[standard action] and you add half your kineticist level as a bonus on your ‹skill/Intimidate› check if you've used *gather power* during the same round; doing so expends the *gathered power.*",
+			"@I-power You create a terrifying display of elemental power. This ability functions as ‹feat/Dazzling Display›, except you can use this ability as a @SA and you add half your kineticist level as a bonus on your ‹skill/Intimidate› check if you've used *gather power* during the same round; doing so expends the *gathered power.*",
 			"",
 			"This ability otherwise counts as the Dazzling Display feat; feats and other effects which affect Dazzling Display (such as ‹feat/Shatter Defenses›) apply to it, and it counts as Dazzling Display for the purpose of meeting combat feat prerequisites."
 		]
@@ -2674,7 +2674,7 @@
 			"",
 			"::kinetics{el=\"aether, earth, water, wood\" type=\"utility (Sp)\" l=1 burn=0 source=\"Occult Adventures/26\"}",
 			"",
-			"@I-def-protect You call up elemental matter to defend yourself and your allies from attacks. As a @HL[standard action], you can select one face of a square within 30 feet of you and move elemental matter to block that face, providing total ‹rule/cover› from that direction. The face you select must be supported by the ground, and the *kinetic cover* cannot support more than 5 pounds of weight. Water, ice, and telekinetic force are translucent, but earth, metal, mud, and the like are opaque and block line of sight.",
+			"@I-def-protect You call up elemental matter to defend yourself and your allies from attacks. As a @SA, you can select one face of a square within 30 feet of you and move elemental matter to block that face, providing total ‹rule/cover› from that direction. The face you select must be supported by the ground, and the *kinetic cover* cannot support more than 5 pounds of weight. Water, ice, and telekinetic force are translucent, but earth, metal, mud, and the like are opaque and block line of sight.",
 			"",
 			"A creature who strikes the *cover* can easily destroy it. Regardless of its composition, the *cover* has hardness 0, AC 5, and 2 hit points per kineticist level you possess. You can have a number of *kinetic covers* in existence equal to your Constitution modifier + ‹misc/half› of your kineticist level."
 		]
@@ -2700,7 +2700,7 @@
 			"",
 			"::kinetics{el=universal type=\"utility (Sp)\" l=5 burn=1 source=\"Occult Adventures/26\"}",
 			"",
-			"@I-magic You are able to suspend your body in a large mass of elemental matter. Until the next time your burn is removed, you can change your size to Large or shift back to your original size as a @HL[standard action]. This doesn't change your ability scores in any way.",
+			"@I-magic You are able to suspend your body in a large mass of elemental matter. Until the next time your burn is removed, you can change your size to Large or shift back to your original size as a @SA. This doesn't change your ability scores in any way.",
 			"",
 			"At 16th level, you can accept 1 additional point of burn to instead change your size to Huge.",
 			"",
@@ -2730,7 +2730,7 @@
 			"",
 			"@I-aid You recover from 1d4 points of ‹rule/ability« score» damage› to one of your physical ability scores (Strength, Dexterity, or Constitution). This also eliminates any ‹misc/fatigue› that you suffer, and improves an ‹misc/exhausted› condition to fatigued.",
 			"",
-			"If you have the ‹kinetic/kinetic healer› utility wild talent, you can use both *kineticist restoration* and *kinetic healer* on the same target with one @HL[standard action]."
+			"If you have the ‹kinetic/kinetic healer› utility wild talent, you can use both *kineticist restoration* and *kinetic healer* on the same target with one @SA."
 		]
 	},
 	"kinetic_revivification": {
@@ -3061,7 +3061,7 @@
 			"",
 			"::kinetics{el=earth type=\"utility (Sp)\" l=4 burn=0 prereq=\"‹kinetic/kinetic cover›\" save=\"see text\" sr=no source=\"Occult Adventures/26\"}",
 			"",
-			"@I-magic As a @HL[standard action], you can push or pull a 5-foot cube of earth or unworked stone within 30 feet, moving the cube 5 feet in any direction. You can create raised platforms, stairs up a cliff, holes, or other useful features. This doesn't cause the earth to float in the air, although in areas with plenty of earth, you can move a cube upward, creating a short pillar. If you move the earth beneath a creature's feet, it can attempt a DC 20 Reflex save to leap elsewhere and avoid moving along with the earth."
+			"@I-magic As a @SA, you can push or pull a 5-foot cube of earth or unworked stone within 30 feet, moving the cube 5 feet in any direction. You can create raised platforms, stairs up a cliff, holes, or other useful features. This doesn't cause the earth to float in the air, although in areas with plenty of earth, you can move a cube upward, creating a short pillar. If you move the earth beneath a creature's feet, it can attempt a DC 20 Reflex save to leap elsewhere and avoid moving along with the earth."
 		]
 	},
 	"greater_shift_earth": {
@@ -3135,7 +3135,7 @@
 			"",
 			"::kinetics{el=water type=\"utility (Sp)\" l=1 burn=0 save=\"Reflex negates\" sr=no source=\"Occult Adventures/27\"}",
 			"",
-			"@I-magic As a @HL[standard action], you call forth slippery water or ice, creating any of the effects of the ‹spell/grease› spell for 1 round. You can accept 1 point of burn at the start of your next turn to extend the duration to 1 minute per kineticist level you possess."
+			"@I-magic As a @SA, you call forth slippery water or ice, creating any of the effects of the ‹spell/grease› spell for 1 round. You can accept 1 point of burn at the start of your next turn to extend the duration to 1 minute per kineticist level you possess."
 		]
 	},
 	"smoke_storm": {
@@ -3175,7 +3175,7 @@
 			"",
 			"@I-magic You breathe a semblance of life into elemental matter, which takes the form of a Medium elemental of any of your elements as if summoned by ‹spell/summon monster IV› with a caster level equal to your kineticist level, except the elemental gains the mindless trait.",
 			"",
-			"Each round on your turn, you must take a @HL[move action] to guide the elemental or it collapses back into its component element. By accepting 1 point of burn, you can pour a bit of your own sentience into the elemental, removing the mindless quality and allowing it to persist for 1 round per kineticist level without requiring any further actions.",
+			"Each round on your turn, you must take a @MA to guide the elemental or it collapses back into its component element. By accepting 1 point of burn, you can pour a bit of your own sentience into the elemental, removing the mindless quality and allowing it to persist for 1 round per kineticist level without requiring any further actions.",
 			"",
 			"At 12th level, you can choose to form a Large elemental as if by ‹spell/summon monster V›.",
 			"",
@@ -3271,7 +3271,7 @@
 			"",
 			"::kinetics{el=aether type=\"utility (Sp)\" l=8 burn=0 prereq=\"‹kinetic/force barrier›, ‹kinetic/force ward›\" source=\"Occult Adventures/28\"}",
 			"",
-			"@I-magic You can create a globe of force, as the ‹spell/telekinetic sphere› spell, that lasts as long as you concentrate as a @HL[standard action], and you can move the globe as a @HL[move action]. You can accept 1 point of burn to increase the duration to 1 minute per level and eliminate the need to concentrate to maintain the globe."
+			"@I-magic You can create a globe of force, as the ‹spell/telekinetic sphere› spell, that lasts as long as you concentrate as a @SA, and you can move the globe as a @MA. You can accept 1 point of burn to increase the duration to 1 minute per level and eliminate the need to concentrate to maintain the globe."
 		]
 	},
 	"telekinetic_haul": {
@@ -3432,7 +3432,7 @@
 			"",
 			"::kinetics{el=earth type=\"utility (Su)\" l=3 burn=0 source=\"Occult Adventures/28\"}",
 			"",
-			"@I-power-boost You can take a @HL[move action] to gain ‹umr/tremorsense› 30 feet for 1 round on any earth or stone surface that you touch. You can accept 1 point of burn to increase the duration to 1 round per kineticist level you possess.",
+			"@I-power-boost You can take a @MA to gain ‹umr/tremorsense› 30 feet for 1 round on any earth or stone surface that you touch. You can accept 1 point of burn to increase the duration to 1 round per kineticist level you possess.",
 			"",
 			"While benefiting from this tremorsense, your ‹kinetic/earth blast«s› and composite blasts that include earth components don't suffer a miss chance from ‹rule/concealment› or total concealment against creatures you detect with your tremorsense."
 		]
@@ -3489,7 +3489,7 @@
 			"",
 			"::ab[Poison Lore (Ex)]{flavor=\"Text from the investigator class ability.\" icon=def-boost order=pa passive=\"You cannot accidentally poison yourself when applying poison to a weapon.\" ability=\"If you spend 1 minute physically examining the poison, you can attempt a ‹skill/Knowledge (nature)› check to identify any natural poison or ‹skill/Knowledge (arcana)› check to identify any magical poison (DC = the poison's saving throw DC). Lastly, once a poison is identified, you can spend 1 minute and attempt a ‹skill/Craft› (alchemy) check (DC = the poison's saving throw DC) to neutralize 1 dose of the poison. Success renders the dose harmless. You have no chance of accidentally poisoning yourself when examining or attempting to neutralize a poison.\"}",
 			"",
-			"[^N]: The investigator has no \"Swift Poisoner\" ability, but *does* have a \"Swift Alchemy\" ability that allows the investigator to apply poison to a weapon as a @HL[move action]. Consult your GM."
+			"[^N]: The investigator has no \"Swift Poisoner\" ability, but *does* have a \"Swift Alchemy\" ability that allows the investigator to apply poison to a weapon as a @MA. Consult your GM."
 		]
 	},
 	"voice_of_the_wind": {
@@ -3571,7 +3571,7 @@
 			"",
 			"::kinetics{el=water type=\"utility (Sp)\" l=3 burn=0 prereq=\"‹kinetic/kinetic cover›\" save=\"none; see text\" sr=no source=\"Occult Adventures/29\"}",
 			"",
-			"@I-magic You can manipulate massive quantities of water. As a @HL[standard action], you can raise or lower the level of water as if using ‹spell/control water›, or move an amount of water equal to 1/1,000th the amount controlled by that spell to a different location in range. The water remains where you placed it for as long as you remain motionless and take a standard action each round to concentrate on this effect.",
+			"@I-magic You can manipulate massive quantities of water. As a @SA, you can raise or lower the level of water as if using ‹spell/control water›, or move an amount of water equal to 1/1,000th the amount controlled by that spell to a different location in range. The water remains where you placed it for as long as you remain motionless and take a standard action each round to concentrate on this effect.",
 			"",
 			"This wild talent causes a ‹spell/slow› effect on creatures made of water, just like *control water* (Will negates). When you cease concentrating, the water flows normally unless you accept 1 point of burn to extend the duration and hold the water in its current position for 10 minutes per kineticist level you possess."
 		]
@@ -3670,7 +3670,7 @@
 			"",
 			"::kinetics{el=air type=\"utility (Sp)\" l=6 burn=0 prereq=\"‹kinetic/engulfing winds›\" source=\"Occult Adventures/29\"}",
 			"",
-			"@I-magic You can call forth mighty winds in an enormous area. As a @HL[standard action], you can alter the wind around you as if using ‹spell/control winds›, but the change remains only for as long as you continue to take a standard action to concentrate on this effect. If you accept 1 point of burn, you can extend the duration to 10 minutes per kineticist level you possess without your needing to concentrate."
+			"@I-magic You can call forth mighty winds in an enormous area. As a @SA, you can alter the wind around you as if using ‹spell/control winds›, but the change remains only for as long as you continue to take a standard action to concentrate on this effect. If you accept 1 point of burn, you can extend the duration to 10 minutes per kineticist level you possess without your needing to concentrate."
 		]
 	},
 	"windsight": {
@@ -3711,7 +3711,7 @@
 			"",
 			"::kinetics{el=air type=\"utility (Sp)\" l=3 burn=0 prereq=\"‹kinetic/air cushion› or ‹kinetic/air's leap›\" source=\"Occult Adventures/29\"}",
 			"",
-			"@I-power The air bends to your will, allowing you to soar to great heights. You are constantly under the effects of ‹spell/fly›. If this effect is dispelled, you can call it forth again as a @HL[standard action]."
+			"@I-power The air bends to your will, allowing you to soar to great heights. You are constantly under the effects of ‹spell/fly›. If this effect is dispelled, you can call it forth again as a @SA."
 		]
 	},
 	"wood_healer": {
@@ -3768,7 +3768,7 @@
 			"",
 			"::kinetics{el=wood type=\"utility (Su)\" l=1 burn=0 source=\"Ultimate Wilderness/61~;Occult Origins/9\"}",
 			"",
-			"@I-power You gain ‹ability/woodland stride›, as per the druid ability. Due to your ability to manipulate plants, you can attempt a caster level check (DC = 11 + the spell's caster level) as a @HL[standard action] to also ignore magically manipulated plants (but not creatures of the plant type)."
+			"@I-power You gain ‹ability/woodland stride›, as per the druid ability. Due to your ability to manipulate plants, you can attempt a caster level check (DC = 11 + the spell's caster level) as a @SA to also ignore magically manipulated plants (but not creatures of the plant type)."
 		]
 	},
 	"greater_woodland_step": {

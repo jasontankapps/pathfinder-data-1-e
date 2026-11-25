@@ -148,7 +148,7 @@
 		"category": "1",
 		"addenda": [ "1pt" ],
 		"description": [
-			"::ab{title=\"&L&Scent (Ex)&FN&\" icon=power flavor=\"The eidolon's sense of smell becomes quite acute.\" ability=\"The eidolon gains the ‹umr/scent› special quality, allowing it to detect opponents within 30 feet by sense of smell. If the opponent is upwind, the range increases to 60 feet; if the opponent is downwind, the range drops to 15 feet. Strong scents can be detected at twice the normal range.~~~*Scent* does not allow the eidolon to precisely locate the creature, only to detect its presence. It can detect the direction as a @HLmove_action. The eidolon can pinpoint the creature's location if it is within 5 feet. The eidolon can use *scent* to track creatures.\"}"
+			"::ab{title=\"&L&Scent (Ex)&FN&\" icon=power flavor=\"The eidolon's sense of smell becomes quite acute.\" ability=\"The eidolon gains the ‹umr/scent› special quality, allowing it to detect opponents within 30 feet by sense of smell. If the opponent is upwind, the range increases to 60 feet; if the opponent is downwind, the range drops to 15 feet. Strong scents can be detected at twice the normal range.~~~*Scent* does not allow the eidolon to precisely locate the creature, only to detect its presence. It can detect the direction as a @MA. The eidolon can pinpoint the creature's location if it is within 5 feet. The eidolon can use *scent* to track creatures.\"}"
 		]
 	},
 	"shared_evolution": {
@@ -157,7 +157,7 @@
 		"category": "1",
 		"addenda": [ "1pt" ],
 		"description": [
-			"::ab{title=\"&L&Shared Evolution (Su)&FN&\" icon=power choice=\"Select a 1-point or 2-point evolution the eidolon has.\" order=cs standard=\"The eidolon can touch the summoner and transfer the selected evolution to him. This functions as the ‹class/unchained_>summoner«'s aspect› ability, and the same limitations apply.\" special=\"The summoner can touch the eidolon as a @HLstandard_action to return the evolution. The evolution returns to the eidolon automatically if the eidolon is dismissed by the summoner or sent back to its home plane.\" prereq=\"‹eidolon/Twinned› eidolon\"}"
+			"::ab{title=\"&L&Shared Evolution (Su)&FN&\" icon=power choice=\"Select a 1-point or 2-point evolution the eidolon has.\" order=cs standard=\"The eidolon can touch the summoner and transfer the selected evolution to him. This functions as the ‹class/unchained_>summoner«'s aspect› ability, and the same limitations apply.\" special=\"The summoner can touch the eidolon as a @SA to return the evolution. The evolution returns to the eidolon automatically if the eidolon is dismissed by the summoner or sent back to its home plane.\" prereq=\"‹eidolon/Twinned› eidolon\"}"
 		]
 	},
 	"skilled": {
@@ -435,7 +435,7 @@
 		"category": "3",
 		"addenda": [ "3pts" ],
 		"description": [
-			"::ab{title=\"&L&Alien Consciousness (Ex)&FN&\" icon=def flavor=\"The eidolon's mind is dangerously incomprehensible to mortals who contact it.\" passive=\"Non-aberrations that read the eidolon's mind or make mental contact with it take 1d4 points of ‹rule/Wisdom damage› (or 1d8 points of sanity damage, if you use the ‹rule/sanity« rules›).~~~This contact also includes communication via telepathy - an eidolon that has telepathic capability must initiate this particular contact as a @HLswift_action against a single target in order to force its alien consciousness on another creature. A successful Will saving throw (DC = 10 + 1/2 the eidolon's HD + the eidolon's Charisma modifier) halves the damage.\" special=\"Once a creature has been subjected to the eidolon's alien consciousness, it is immune to further damage from that eidolon's alien consciousness for 24 hours. The eidolon's summoner is immune to his own eidolon's alien consciousness, but he can still be affected by other eidolons' alien consciousnesses. This is a mind-affecting effect.\" prereq=\"9th-level unchained summoner; ‹eidolon/aberrant› or ‹eidolon/protean› subtype\"}"
+			"::ab{title=\"&L&Alien Consciousness (Ex)&FN&\" icon=def flavor=\"The eidolon's mind is dangerously incomprehensible to mortals who contact it.\" passive=\"Non-aberrations that read the eidolon's mind or make mental contact with it take 1d4 points of ‹rule/Wisdom damage› (or 1d8 points of sanity damage, if you use the ‹rule/sanity« rules›).~~~This contact also includes communication via telepathy - an eidolon that has telepathic capability must initiate this particular contact as a @WA against a single target in order to force its alien consciousness on another creature. A successful Will saving throw (DC = 10 + 1/2 the eidolon's HD + the eidolon's Charisma modifier) halves the damage.\" special=\"Once a creature has been subjected to the eidolon's alien consciousness, it is immune to further damage from that eidolon's alien consciousness for 24 hours. The eidolon's summoner is immune to his own eidolon's alien consciousness, but he can still be affected by other eidolons' alien consciousnesses. This is a mind-affecting effect.\" prereq=\"9th-level unchained summoner; ‹eidolon/aberrant› or ‹eidolon/protean› subtype\"}"
 		]
 	},
 	"blindsense": {

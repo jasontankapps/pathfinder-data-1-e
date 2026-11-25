@@ -184,7 +184,7 @@
 		"category": "1",
 		"addenda": [ "1pt" ],
 		"description": [
-			"::ab{title=\"&L&Scent (Ex)&FN&\" icon=power flavor=\"An eidolon's sense of smell becomes quite acute.\" ability=\"The eidolon gains the ‹umr/scent› special quality, allowing it to detect opponents within 30 feet by sense of smell. If the opponent is upwind, the range increases to 60 feet; if downwind, it drops to 15 feet. Strong scents can be detected at twice the normal range.~~~*Scent* does not allow the eidolon to precisely locate the creature, only to detect its presence. It can detect the direction with a @HLmove_action. The eidolon can pinpoint the creature's location if it is within 5 feet. The eidolon can use *scent* to track creatures.\"}"
+			"::ab{title=\"&L&Scent (Ex)&FN&\" icon=power flavor=\"An eidolon's sense of smell becomes quite acute.\" ability=\"The eidolon gains the ‹umr/scent› special quality, allowing it to detect opponents within 30 feet by sense of smell. If the opponent is upwind, the range increases to 60 feet; if downwind, it drops to 15 feet. Strong scents can be detected at twice the normal range.~~~*Scent* does not allow the eidolon to precisely locate the creature, only to detect its presence. It can detect the direction with a @MA. The eidolon can pinpoint the creature's location if it is within 5 feet. The eidolon can use *scent* to track creatures.\"}"
 		]
 	},
 	"skilled": {
@@ -453,7 +453,7 @@
 		"category": "2",
 		"addenda": [ "2pts" ],
 		"description": [
-			"::ab{title=\"&L&Shadow Blend (Su)&FN&\" icon=def passive=\"In any condition of ‹rule/illumination› other than bright light, the eidolon disappears into the shadows, giving it ‹rule/concealment› (20% miss chance). If it has the ‹evolution/shadow form› evolution, it instead gains total concealment (50% miss chance). The eidolon can suspend or resume this ability as a @HLfree_action.\"}"
+			"::ab{title=\"&L&Shadow Blend (Su)&FN&\" icon=def passive=\"In any condition of ‹rule/illumination› other than bright light, the eidolon disappears into the shadows, giving it ‹rule/concealment› (20% miss chance). If it has the ‹evolution/shadow form› evolution, it instead gains total concealment (50% miss chance). The eidolon can suspend or resume this ability as a @FA.\"}"
 		]
 	},
 	"shadow_form": {

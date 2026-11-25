@@ -10,7 +10,7 @@
 		"name": "Break",
 		"compilationSources": [ [ "Martial Arts Handbook", 7 ] ],
 		"description": [
-			"::ab{title=\"&L&Break&FN&\" icon=melee flavor=\"The monk combines a writhing twist with a violent strike against a foe that is grappling him.\" ability=\"If the monk's attack is successful, he can attempt a ‹rule/grapple› combat maneuver check or ‹skill/Escape Artist› check as a @HLfree_action to escape a grapple, adding the strike's damage as a bonus on his check.\"}"
+			"::ab{title=\"&L&Break&FN&\" icon=melee flavor=\"The monk combines a writhing twist with a violent strike against a foe that is grappling him.\" ability=\"If the monk's attack is successful, he can attempt a ‹rule/grapple› combat maneuver check or ‹skill/Escape Artist› check as a @FA to escape a grapple, adding the strike's damage as a bonus on his check.\"}"
 		]
 	},
 	"defensive_spin": {
@@ -45,7 +45,7 @@
 		"name": "Foot Stomp",
 		"compilationSources": [ [ "Pathfinder Unchained", 19 ] ],
 		"description": [
-			"::ab{title=\"&L&Foot Stomp&FN&\" icon=lower flavor=\"The monk stomps on a foe's foot, preventing the opponent from escaping.\" ability=\"If the attack hits and the monk ends his turn adjacent to that foe, the foe's movement is restricted. Until the start of the monk's next turn, the target of this attack can move only in such a way that the space it occupies is adjacent to the monk. Alternatively, it can attempt a combat maneuver check (against the monk's CMD) as a @HLstandard_action to break free.\" special=\"This strike does not work against foes that cannot be tripped. The monk must attack with a kick to use this style strike.\"}"
+			"::ab{title=\"&L&Foot Stomp&FN&\" icon=lower flavor=\"The monk stomps on a foe's foot, preventing the opponent from escaping.\" ability=\"If the attack hits and the monk ends his turn adjacent to that foe, the foe's movement is restricted. Until the start of the monk's next turn, the target of this attack can move only in such a way that the space it occupies is adjacent to the monk. Alternatively, it can attempt a combat maneuver check (against the monk's CMD) as a @SA to break free.\" special=\"This strike does not work against foes that cannot be tripped. The monk must attack with a kick to use this style strike.\"}"
 		]
 	},
 	"hammerblow": {

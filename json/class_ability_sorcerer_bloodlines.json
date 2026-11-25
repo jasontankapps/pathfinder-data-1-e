@@ -463,7 +463,7 @@
 			"",
 			"Like that of a daemon, your magic derives from painful and lingering death.",
 			"",
-			"::ab[Wasting Ray (Sp)]{l=1 icon=select-lower standard=\"You can impose either starvation or thirst upon a living creature you can see within 30 feet. This requires the creature to make a Constitution check each round (DC 10 + 1 for each previous check) to avoid taking 1d6 points of nonlethal damage. The creature must continue to make these checks until, as a @HLfull-round_action, it quenches its thirst or sates its hunger.\" useMod=Charisma3 special=\"You can only apply this ability once every 24 hours to any given creature. Creatures that do not need to eat are immune to this effect.\"}",
+			"::ab[Wasting Ray (Sp)]{l=1 icon=select-lower standard=\"You can impose either starvation or thirst upon a living creature you can see within 30 feet. This requires the creature to make a Constitution check each round (DC 10 + 1 for each previous check) to avoid taking 1d6 points of nonlethal damage. The creature must continue to make these checks until, as a @RA, it quenches its thirst or sates its hunger.\" useMod=Charisma3 special=\"You can only apply this ability once every 24 hours to any given creature. Creatures that do not need to eat are immune to this effect.\"}",
 			"",
 			"::ab[Daemonic Resistances (Ex)]{l=3 icon=def passive=\"You gain ‹umr/resist› acid 5 and a +2 bonus on saving throws made against poison and death effects.\" imp9=\"Your resistance to acid increases to 10 and your bonus on saving throws against poison and death effects increases to +4.\"}",
 			"",
@@ -716,7 +716,7 @@
 			"",
 			"::ab[Breath Weapon (Su)]{l=9 icon=line-cone ability=\"You gain a breath weapon. This breath weapon deals 1d6 points of damage of your energy type per sorcerer level. Those caught in the area of the breath receive a Reflex save for half damage. The DC of this save is equal to 10 + half your sorcerer level + your Charisma modifier. The shape of the breath weapon depends on your dragon type (as indicated on the above chart). You can use this ability once per day.\" imp17=\"You can use this ability twice per day.\" imp20=\"You can use this ability three times a day.\"}",
 			"",
-			"::ab[Wings (Su)]{l=15 icon=power standard=\"Leathery dragon wings grow from your back, giving you a fly speed of 60 feet with average maneuverability. You can dismiss the wings as a @HLfree_action.\"}",
+			"::ab[Wings (Su)]{l=15 icon=power standard=\"Leathery dragon wings grow from your back, giving you a fly speed of 60 feet with average maneuverability. You can dismiss the wings as a @FA.\"}",
 			"",
 			"::ab[Power of Wyrms (Su)]{l=20 icon=def-power order=pa flavor=\"Your draconic heritage becomes manifest.\" passive=\"You gain immunity to paralysis, sleep, and damage of your energy type.\" ability=\"You also gain blindsense 60 feet.\"}",
 			"",
@@ -1067,7 +1067,7 @@
 			"",
 			"You have always had a tie to the natural world, and as your power increases, so does the influence of the fey over your magic.",
 			"",
-			"::ab[Laughing Touch (Sp)]{l=1 icon=zap ability=\"You can cause a creature to burst out laughing for 1 round as a melee touch attack. A laughing creature can only take a @HLmove_action but can defend itself normally. Once a creature has been affected by *laughing touch,* it is immune to its effects for 24 hours.\" useMod=Charisma3}",
+			"::ab[Laughing Touch (Sp)]{l=1 icon=zap ability=\"You can cause a creature to burst out laughing for 1 round as a melee touch attack. A laughing creature can only take a @MA but can defend itself normally. Once a creature has been affected by *laughing touch,* it is immune to its effects for 24 hours.\" useMod=Charisma3}",
 			"",
 			"::ab[Woodland Stride (Ex)]{l=3 icon=boost ability=\"You can move through any sort of undergrowth (such as natural thorns, briars, overgrown areas, and similar terrain) at your normal speed and without taking damage or suffering any other impairment. Thorns, briars, and overgrown areas that have been magically manipulated to impede motion, however, still affect you.\"}",
 			"",
@@ -1215,7 +1215,7 @@
 			"",
 			"::ab[Take Your Best Shot (Su)]{l=9 icon=select-lower immediate=\"If you are targeted by a harmful spell, spell-like ability, or supernatural ability and suffer no harm from it, whether because of a successful saving throw, spell resistance, the attack missing, or some other protection, you can make an Intimidate check to demoralize the creature that produced the effect, but only if the creature that used the harmful effect is within 30 feet and can clearly see and hear you.\" imp13=\"You can use this ability after succeeding at a saving throw to reduce the effects of an attack (if no save is allowed, you cannot use this ability).\"}",
 			"",
-			"::ab[Heroic Legends (Su)]{l=15 icon=power ability=\"You may ‹performance/inspire greatness› or ‹performance/inspire heroics› as a ‹class/bard› of your sorcerer level by sacrificing a spell slot as a @HLswift or @HLmove_action. The effect lasts a number of rounds equal to the sacrificed spell's level; this duration is doubled for human recipients.\"}",
+			"::ab[Heroic Legends (Su)]{l=15 icon=power ability=\"You may ‹performance/inspire greatness› or ‹performance/inspire heroics› as a ‹class/bard› of your sorcerer level by sacrificing a spell slot as a @HLswift or @MA. The effect lasts a number of rounds equal to the sacrificed spell's level; this duration is doubled for human recipients.\"}",
 			"",
 			"::ab[Immortal Legend (Ex)]{l=20 icon=def passive=\"You cease aging; no longer need to eat, drink, or sleep; and gain immunity to death effects and energy drain.\"}"
 		]
@@ -1294,7 +1294,7 @@
 			"",
 			"::ab[Hellfire (Sp)]{l=9 icon=boom ability=\"Once per day, you can call down a column of hellfire. This 10-foot-radius ‹misc/burst› does 1d6 points of fire damage per sorcerer level. Those caught in the area of your blast receive a Reflex save for half damage. Good creatures that fail their saves are shaken for a number of rounds equal to your sorcerer level. The DC of this save is equal to 10 + half your sorcerer level + your Charisma modifier. This power has a range of 60 feet.\" imp17=\"You can use this ability twice per day.\" imp20=\"You can use this ability three times a day.\"}",
 			"",
-			"::ab[On Dark Wings (Su)]{l=15 icon=power standard=\"You can grow fearsome bat wings, giving you a fly speed of 60 feet with average maneuverability. The wings can be dismissed as a @HLfree_action.\"}",
+			"::ab[On Dark Wings (Su)]{l=15 icon=power standard=\"You can grow fearsome bat wings, giving you a fly speed of 60 feet with average maneuverability. The wings can be dismissed as a @FA.\"}",
 			"",
 			"::ab[Power of the Pit (Su)]{l=20 icon=def-power flavor=\"Your form becomes infused with vile power.\" passive=\"You gain immunity to fire and poison. You also gain resistance to acid 10 and cold 10, and the ability to see perfectly in darkness of any kind to a range of 60 feet.\"}",
 			"",
@@ -1473,7 +1473,7 @@
 			"",
 			"::ab[Gift of Blood (Su)]{l=9 icon=down-protect standard=\"Once per day, you can choose to sacrifice some of your hit points to grant an ally double that number in ‹rule/temporary hit points›. You can sacrifice up to your character level in hit points when using this ability. These temporary hit points last up to 1 minute per sorcerer level.\" special=\"You cannot heal your sacrificed hit points until your target has lost its temporary hit points.\" imp17=\"You can use this ability twice per day.\"}",
 			"",
-			"::ab[Sacrificial Exchange (Su)]{l=15 icon=down-boost swift=\"Once per day, you can take 2 points of temporary ability damage to one of your ability scores and add a temporary +2 inherent bonus to any other ability score.~~~This bonus lasts for a maximum of 1 hour per sorcerer level or until you choose to prematurely dismiss it (a @HLfree_action), during which time the temporary ability damage cannot be healed by any means.~~~After this effect ends, you can heal the ability damage normally.\" imp20=\"You can use this ability twice per day.\"}",
+			"::ab[Sacrificial Exchange (Su)]{l=15 icon=down-boost swift=\"Once per day, you can take 2 points of temporary ability damage to one of your ability scores and add a temporary +2 inherent bonus to any other ability score.~~~This bonus lasts for a maximum of 1 hour per sorcerer level or until you choose to prematurely dismiss it (a @FA), during which time the temporary ability damage cannot be healed by any means.~~~After this effect ends, you can heal the ability damage normally.\" imp20=\"You can use this ability twice per day.\"}",
 			"",
 			"::ab[Eternal Martyr (Su)]{l=20 icon=def flavor=\"Your ancestor's act of martyrdom infuses your spirit.\" passive=\"You become immune to death effects. Material components for spells and effects to bring you back to life (such as ‹spell/raise dead› or ‹spell/resurrection›) cost half as much as normal. Your body cannot be turned into an undead creature, as though you were affected by a permanent ‹spell/hallow› effect (caster level equal to your sorcerer level).\"}",
 			"",
@@ -1658,7 +1658,7 @@
 			"",
 			"::ab[Strength of the Beast (Ex)]{l=9 icon=def passive=\"You gain a +2 inherent bonus to your Strength.\" increment=\"This bonus~9~4~4~2\"}",
 			"",
-			"::ab[Power of Giants (Sp)]{l=15 icon=boost-down-def standard=\"You grow to Large size. At this size you gain a +6 size bonus to Strength, a -2 penalty to Dexterity, a +4 size bonus to Constitution, and a +4 natural armor bonus. You may return to your normal size as a @HLstandard_action.\" special=\"You may remain in this size for up to 1 minute per character level per day; this duration does not need to be consecutive, but it must be used in 1 minute increments.\"}",
+			"::ab[Power of Giants (Sp)]{l=15 icon=boost-down-def standard=\"You grow to Large size. At this size you gain a +6 size bonus to Strength, a -2 penalty to Dexterity, a +4 size bonus to Constitution, and a +4 natural armor bonus. You may return to your normal size as a @SA.\" special=\"You may remain in this size for up to 1 minute per character level per day; this duration does not need to be consecutive, but it must be used in 1 minute increments.\"}",
 			"",
 			"::ab[Warlord Reborn (Su)]{l=20 icon=def-magic order=pa flavor=\"You become a true orc warlord of legend.\" passive=\"You gain immunity to fire and DR 5/-.\" ability=\"Once per day, you can cast *transformation* as a spell-like ability using your sorcerer level as your caster level.\"}"
 		]
@@ -1694,7 +1694,7 @@
 			"",
 			"::ab[Pestilential Breath (Su)]{l=15 icon=cone-lower flavor=\"The sickness within your body finally becomes so potent that your very breath is deadly.\" standard=\"Once per day, you can exhale a cloud of pestilence in a 30-foot cone. Those caught in the area of this miasmic cloud receive a single Fortitude save to avoid suffering the effects of two different diseases. The DC of this save is equal to 10 + half your sorcerer level + your Charisma modifier.~~~You can choose what two diseases you inflict on each target that succumbs to your plague breath, but they must be two different diseases chosen from the following list: ‹disease/blinding sickness›, ‹disease/bubonic plague›, ‹disease/cackle fever›, ‹disease/filth fever›, ‹disease/leprosy›, ‹disease/mindfire›, ‹disease/red ache›, ‹disease/shakes›, or ‹disease/slimy doom›.~~~The victim suffers the initial effects of these two diseases immediately.\" imp17=\"You can use this ability twice per day.\" imp20=\"You can use this ability three times per day.\"}",
 			"",
-			"::ab[Plague Carrier (Su)]{l=20 icon=power ability=\"Your touch inflicts ‹curse/mummy rot› on those you strike. You can choose to suppress this ability for 1 round as a @HLswift_action. You can make a touch attack to inflict this disease on a target, or transfer it as part of an attack with any melee weapon or touch-based spell. The creature touched can resist contracting *mummy rot* by making a Fortitude save - the DC is equal to 10 + half your sorcerer level + your Charisma modifier.\"}"
+			"::ab[Plague Carrier (Su)]{l=20 icon=power ability=\"Your touch inflicts ‹curse/mummy rot› on those you strike. You can choose to suppress this ability for 1 round as a @WA. You can make a touch attack to inflict this disease on a target, or transfer it as part of an attack with any melee weapon or touch-based spell. The creature touched can resist contracting *mummy rot* by making a Fortitude save - the DC is equal to 10 + half your sorcerer level + your Charisma modifier.\"}"
 		]
 	},
 	"phoenix": {
@@ -1730,11 +1730,11 @@
 			"",
 			"The phoenix is an elemental creature of sky and primal fire, and its blood within you sings with a similar power.",
 			"",
-			"::ab[The Unseen World (Su)]{l=1 icon=learn-power flavor=\"The phoenix's blood drives you to find and save lost knowledge and magical items.\" info=\"You gain ‹spell/detect magic› and ‹spell/read magic› as spells known.\" imp5=\"As a @HLswift_action, you can automatically identify the properties of a non-cursed magic item you hold; you must still identify a cursed item as normal to correctly identify it as cursed. You can use this ability a number of times equal to your Charisma modifier per day.\"}",
+			"::ab[The Unseen World (Su)]{l=1 icon=learn-power flavor=\"The phoenix's blood drives you to find and save lost knowledge and magical items.\" info=\"You gain ‹spell/detect magic› and ‹spell/read magic› as spells known.\" imp5=\"As a @WA, you can automatically identify the properties of a non-cursed magic item you hold; you must still identify a cursed item as normal to correctly identify it as cursed. You can use this ability a number of times equal to your Charisma modifier per day.\"}",
 			"",
 			"::ab[Immolation (Su)]{l=3 icon=aura-boost swift=\"You gain the ability to surround yourself in fire. This fire burns for a number of rounds per day equal to your character level plus your Charisma bonus. These rounds do not have to be consecutive.~~~Any unarmed attacks you make while affected by immolation deal an additional 1d6 points of fire damage, and any creature that ends its turn adjacent to you while you're affected by *immolation* also takes 1d6 points of fire damage.\"}",
 			"",
-			"::ab[Vermilion Wings (Su)]{l=9 icon=power standard=\"You gain the ability to grow a pair of phoenix wings from your back. The wings grant you a fly speed of 60 feet with good maneuverability. You can dismiss the wings as a @HLfree_action.\"}",
+			"::ab[Vermilion Wings (Su)]{l=9 icon=power standard=\"You gain the ability to grow a pair of phoenix wings from your back. The wings grant you a fly speed of 60 feet with good maneuverability. You can dismiss the wings as a @FA.\"}",
 			"",
 			"::ab[Restoring Flames (Sp)]{l=15 icon=magic ability=\"You can cast ‹spell/greater restoration› once per day as a spell-like ability.\"}",
 			"",
@@ -1886,7 +1886,7 @@
 			"",
 			"::ab[Mind Reader (Sp)]{l=3 icon=magic standard=\"You can read minds as a spell-like ability. This ability acts like ‹spell/detect thoughts›, except it lasts only 1 round, you use it on a single target as a standard action, and if the target fails its Will save, you gain information as if you had concentrated on it for 3 rounds.\" useInc=sorcerer~4~3 useF=\"3~1~4\"}",
 			"",
-			"::ab[Hide Aura (Sp)]{l=9 icon=def ability=\"You can conceal yourself from prying magic. This ability acts like a constant ‹spell/nondetection› spell cast upon yourself. You can end or restore this protection as a @HLmove_action.\"}",
+			"::ab[Hide Aura (Sp)]{l=9 icon=def ability=\"You can conceal yourself from prying magic. This ability acts like a constant ‹spell/nondetection› spell cast upon yourself. You can end or restore this protection as a @MA.\"}",
 			"",
 			"::ab[Alter Self (Sp)]{l=15 icon=magic ability=\"You can change your shape into that of any humanoid at will. This ability acts like ‹spell/alter self›, except you may remain in a chosen form as long as you want.\"}",
 			"",
@@ -1932,7 +1932,7 @@
 			"",
 			"::ab[Serpent's Tail (Su)]{l=9 icon=down-def-melee-boost free=\"You can transform your legs into a slithering serpentine tail. Your speed is reduced by 10 feet (to a minimum of 5 feet), and you can't be tripped. Your footwear melds into your body and is non-functional unless it provides a constant bonus and does not need to be activated. You also gain a ‹umr/tail slap› natural attack that deals 1d8 points of damage (1d6 if you are Small) + your Strength modifier.\" imp15=\"Your reach with your tail slap increases by 5 feet.\" useL=sorcerer useUnit=m useNC=1}",
 			"",
-			"::ab[Searing Heat (Su)]{l=15 icon=boost flavor=\"Your body becomes as hot as a salamander's.\" ability=\"You deal 1d6 additional points of fire damage with natural weapons and melee attacks made with metal weapons. In addition, you deal 2d6 points of fire damage per round to any creature you ‹rule/grapple›. This heat does not damage your equipment.\" special=\"You can activate or deactivate this effect as a @HLfree_action.\"}",
+			"::ab[Searing Heat (Su)]{l=15 icon=boost flavor=\"Your body becomes as hot as a salamander's.\" ability=\"You deal 1d6 additional points of fire damage with natural weapons and melee attacks made with metal weapons. In addition, you deal 2d6 points of fire damage per round to any creature you ‹rule/grapple›. This heat does not damage your equipment.\" special=\"You can activate or deactivate this effect as a @FA.\"}",
 			"",
 			"::ab[Reforged Flesh (Ex)]{l=20 icon=def passive=\"You become immune to fire damage and gain DR 10/adamantine and magic.\"}"
 		]
@@ -1968,7 +1968,7 @@
 			"",
 			":::",
 			"",
-			"::ab[Modify Onset (Su)]{l=3 icon=boost ability=\"You can increase the onset time of poisons you use by up to 1 hour per level.\" imp9=\"You can alter a poison so that it does not have an onset time, but you can trigger it as a @HLswift_action to take effect at any time, regardless of distance. If you do not trigger this poison within 1 week of poisoning a target, the poison dissipates harmlessly. The poison can be detected and removed before it is triggered using any normal methods of detecting and removing poison.\"}",
+			"::ab[Modify Onset (Su)]{l=3 icon=boost ability=\"You can increase the onset time of poisons you use by up to 1 hour per level.\" imp9=\"You can alter a poison so that it does not have an onset time, but you can trigger it as a @WA to take effect at any time, regardless of distance. If you do not trigger this poison within 1 week of poisoning a target, the poison dissipates harmlessly. The poison can be detected and removed before it is triggered using any normal methods of detecting and removing poison.\"}",
 			"",
 			"::ab[Sudden Sting (Ex, Sp)]{l=9 icon=power-magic order=a2 ability=\"When you are able to act in the surprise round, you can take a full round's worth of actions rather than just a single standard action.\" ability2=\"You can also cast ‹spell/accelerate poison› and ‹spell/delay poison› as spell-like abilities a total of three times per day.\"}",
 			"",
@@ -2478,9 +2478,9 @@
 			"",
 			"::ab[Call Ancestor (Sp)]{l=9 icon=magic standard=\"Once per day, you can grant a long-dead relative a brief facsimile of life. This functions as the ‹spell/lesser simulacrum› spell, except the simulacrum lasts only 1 round per sorcerer level you have, has the same statistics as you, and always has the likeness of an ancestor.~~~In addition, the simulacrum has lost knowledge from the past. When summoning the simulacrum, select one Knowledge skill. The simulacrum is considered trained in that skill and has a bonus on Knowledge checks of this type equal to twice your level plus your Intelligence modifier. The simulacrum is under your control, but it cannot attack or take hostile actions.\" imp17=\"You can use this ability twice per day.\" imp20=\"You can use this ability three times a day.\" special=\"You cannot have more than one ancestor simulacrum active at any one time.\"}",
 			"",
-			"::ab[Eternal Past (Su)]{l=15 icon=magic-power flavor=\"You gain an immersive mindscape.\" ability=\"This functions as a permanent ‹spell/greater create mindscape› spell, except it must appear as a lost civilization, and you do not target any other creatures when the mindscape is created. You can open a conduit to your mindscape as a @HLstandard_action at will (per the ‹spell/mindscape door› spell), allowing you or other creatures to enter or leave.~~~The mindscape is only as detailed as your knowledge of the lost civilization but still holds valuable secrets. The mindscape functions as a ‹rule/research>«library› for all Knowledge skills; while within your mindscape, you can spend 1d4 hours researching to use a ‹skill/Knowledge (history)› check in place of any other Knowledge check.\"}",
+			"::ab[Eternal Past (Su)]{l=15 icon=magic-power flavor=\"You gain an immersive mindscape.\" ability=\"This functions as a permanent ‹spell/greater create mindscape› spell, except it must appear as a lost civilization, and you do not target any other creatures when the mindscape is created. You can open a conduit to your mindscape as a @SA at will (per the ‹spell/mindscape door› spell), allowing you or other creatures to enter or leave.~~~The mindscape is only as detailed as your knowledge of the lost civilization but still holds valuable secrets. The mindscape functions as a ‹rule/research>«library› for all Knowledge skills; while within your mindscape, you can spend 1d4 hours researching to use a ‹skill/Knowledge (history)› check in place of any other Knowledge check.\"}",
 			"",
-			"::ab[Manifest Memory (Su)]{l=20 icon=boost flavor=\"You can overlay portions of your mindscape onto the world around you.\" ability=\"This functions as the ‹spell/mirage arcana› spell, except all structures and terrain created must be places appearing within your mindscape. You can use this ability at will, but you can maintain only a single *manifest memory* at any one time.\" special=\"You can allow any creature you can see who has previously entered your mindscape to automatically disbelieve the illusion as a @HLfree_action.\"}"
+			"::ab[Manifest Memory (Su)]{l=20 icon=boost flavor=\"You can overlay portions of your mindscape onto the world around you.\" ability=\"This functions as the ‹spell/mirage arcana› spell, except all structures and terrain created must be places appearing within your mindscape. You can use this ability at will, but you can maintain only a single *manifest memory* at any one time.\" special=\"You can allow any creature you can see who has previously entered your mindscape to automatically disbelieve the illusion as a @FA.\"}"
 		]
 	}
 }

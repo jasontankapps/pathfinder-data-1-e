@@ -95,7 +95,7 @@
 		"compilationSources": [ [ "Advanced Class Origins", 21 ] ],
 		"category": "Studied Target Talents",
 		"description": [
-			"::ab{title=\"&L&Studied Ally (Ex)&FN&\" icon=boost-protect move=\"The slayer can study an ally or friendly creature he can see. The slayer gains a +1 bonus on checks and attack rolls to use the ‹rule/aid another<_2› action to help with that ally's skill checks, attacks, or AC. This bonus increases at the same rate as a slayer's *studied target* bonus.\" imp7=\"A slayer can study an ally as a move or @HLswift_action.\" special=\"A slayer's *studied ally* counts against the number of *studied targets* he can have active at once.\"}"
+			"::ab{title=\"&L&Studied Ally (Ex)&FN&\" icon=boost-protect move=\"The slayer can study an ally or friendly creature he can see. The slayer gains a +1 bonus on checks and attack rolls to use the ‹rule/aid another<_2› action to help with that ally's skill checks, attacks, or AC. This bonus increases at the same rate as a slayer's *studied target* bonus.\" imp7=\"A slayer can study an ally as a move or @WA.\" special=\"A slayer's *studied ally* counts against the number of *studied targets* he can have active at once.\"}"
 		]
 	},
 	"castling": {
@@ -307,7 +307,7 @@
 		"compilationSources": [ [ "Advanced Class Guide", 54 ] ],
 		"category": "Advanced Slayer Talents",
 		"description": [
-			"::ab{title=\"&L&Assassinate (Ex)&FN&\" icon=power flavor=\"A slayer with this advanced talent can kill foes that are unable to defend themselves.\" ability=\"To attempt to assassinate a target, the slayer must first study his target for 1 round as a @HLstandard_action. On the following round, if the slayer makes a sneak attack against the target and that target is denied its Dexterity bonus to AC, the sneak attack has the additional effect of possibly killing the target. This attempt automatically fails if the target recognizes the slayer as an enemy.~~~If the sneak attack is successful, the target must attempt a Fortitude saving throw with a DC equal to 10 + 1/2 the slayer's level + the slayer's Intelligence modifier. If the target fails this save, it dies; otherwise, the target takes the sneak attack damage as normal and is then immune to that slayer's *assassinate* ability for 24 hours.\"}"
+			"::ab{title=\"&L&Assassinate (Ex)&FN&\" icon=power flavor=\"A slayer with this advanced talent can kill foes that are unable to defend themselves.\" ability=\"To attempt to assassinate a target, the slayer must first study his target for 1 round as a @SA. On the following round, if the slayer makes a sneak attack against the target and that target is denied its Dexterity bonus to AC, the sneak attack has the additional effect of possibly killing the target. This attempt automatically fails if the target recognizes the slayer as an enemy.~~~If the sneak attack is successful, the target must attempt a Fortitude saving throw with a DC equal to 10 + 1/2 the slayer's level + the slayer's Intelligence modifier. If the target fails this save, it dies; otherwise, the target takes the sneak attack damage as normal and is then immune to that slayer's *assassinate* ability for 24 hours.\"}"
 		],
 		"topLink": [ "Advanced Slayer Talents", "ability/advanced_slayer_talents" ]
 	},

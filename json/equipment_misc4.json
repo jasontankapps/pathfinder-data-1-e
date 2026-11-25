@@ -411,7 +411,7 @@
 			"",
 			"@I-aura-lower A creature with the ‹feat/Grisly Ornament› feat can hang one ornament from a display stand, causing it to emanate a fear effect that affects all creatures of that creature's specific variety within 30 feet (DC 15 Will negates). This imposes a -1 penalty (-2 if the trophy creature's CR was 8 or higher) to the same statistic the ornament would otherwise enhance, but the ornament lasts for only 24 hours before decaying.",
 			"",
-			"Setting up a stand is a @HL[full-round action], while hanging an ornament from one is a @HL[move action]."
+			"Setting up a stand is a @RA, while hanging an ornament from one is a @MA."
 		]
 	},
 	"dissipating_fan": {
@@ -426,7 +426,7 @@
 			"",
 			"@I-def While waving a dissipating fan, you gain a +2 circumstance bonus on Fortitude saving throws to avoid taking nonlethal damage from ‹rule/heat« exposure› and to avoid the effects of [smoke inhalation](rule/forest_fires).",
 			"",
-			"@I-power You can use a dissipating fan to clear nonmagical smoke, fog, or similar vapors from your square or an adjacent square as a @HL[full-round action] - although dense smoke or fog in the surrounding area eventually refills the space (how long this takes depends on the source and the size of the area, at the GM's discretion).",
+			"@I-power You can use a dissipating fan to clear nonmagical smoke, fog, or similar vapors from your square or an adjacent square as a @RA - although dense smoke or fog in the surrounding area eventually refills the space (how long this takes depends on the source and the size of the area, at the GM's discretion).",
 			"",
 			"When folded and closed, a dissipating fan is the size of a thick walking stick. Some dissipating fans are decorated with paint or elaborate embroidery, and have a higher price to reflect their adornment."
 		]
@@ -697,7 +697,7 @@
 		"description": [
 			"## Dragon Rose",
 			"‹SOURCE Ultimate Wilderness/153›  ",
-			"::tabular{format=misc a=25 b=x d=herb e=18 f=\"1 dose\" g=\"any forests or mountains\" h=\"The petals of a dragon rose must be delicately removed from the stem and then soaked in a mixture brewed from the flower stalk's sap for 2 hours; this requires a successful DC 15 ‹skill/Craft› (alchemy) check.\" i=\"@I-boost A dose of prepared dragon rose petals crushed in the hand and then smeared on a weapon (this is a @HLstandard_action) infuses the weapon with a magic aura. For 1 hour, the weapon can bypass DR/magic, although it doesn't gain any bonus on attack or damage rolls.\"}",
+			"::tabular{format=misc a=25 b=x d=herb e=18 f=\"1 dose\" g=\"any forests or mountains\" h=\"The petals of a dragon rose must be delicately removed from the stem and then soaked in a mixture brewed from the flower stalk's sap for 2 hours; this requires a successful DC 15 ‹skill/Craft› (alchemy) check.\" i=\"@I-boost A dose of prepared dragon rose petals crushed in the hand and then smeared on a weapon (this is a @SA) infuses the weapon with a magic aura. For 1 hour, the weapon can bypass DR/magic, although it doesn't gain any bonus on attack or damage rolls.\"}",
 			"",
 			"The vivid and thorny *dragon rose* is admired for its hardiness but is difficult to cultivate."
 		]
@@ -836,7 +836,7 @@
 			"‹SOURCE Ultimate Equipment/56;Advanced Player's Guide/184;Adventurer's Armory/19›  ",
 			"::tabular{format=misc a=\"0.5\" b=1 d=gear}",
 			"",
-			"A drill can create a 1-inch-diameter hole in stone, wood, or metal as a @HL[standard action]. Harder materials wear down or break the drill more quickly. Hearing the sound of drilling requires a DC 15 ‹skill/Perception› check."
+			"A drill can create a 1-inch-diameter hole in stone, wood, or metal as a @SA. Harder materials wear down or break the drill more quickly. Hearing the sound of drilling requires a DC 15 ‹skill/Perception› check."
 		]
 	},
 	"drought_powder": {
@@ -913,7 +913,7 @@
 			"‹SOURCE Ultimate Wilderness/243›  ",
 			"::tabular{format=misc a=100 b=20 d=gear}",
 			"",
-			"Sometimes referred to as a \"misery whip,\" this long blade (between 4 and 12 feet) is lined with numerous metal teeth. Thick handholds at each end of the blade allow a Medium or larger creature to grip one end with both hands. When a creature pulls on a handle (a @HL[move action]) with another creature on the opposite side ready to pull after, those wielders can use the duo saw to cut through an object at exceptional speeds. This maneuver deals 10 points of damage per round of sawing to an object, ignoring up to 5 points of hardness on any nonmetallic substance. These saws are typically employed in the felling of large trees."
+			"Sometimes referred to as a \"misery whip,\" this long blade (between 4 and 12 feet) is lined with numerous metal teeth. Thick handholds at each end of the blade allow a Medium or larger creature to grip one end with both hands. When a creature pulls on a handle (a @MA) with another creature on the opposite side ready to pull after, those wielders can use the duo saw to cut through an object at exceptional speeds. This maneuver deals 10 points of damage per round of sawing to an object, ignoring up to 5 points of hardness on any nonmetallic substance. These saws are typically employed in the felling of large trees."
 		]
 	},
 	"two_person_saw": { "redirect": "duo_saw" },
@@ -928,7 +928,7 @@
 			"‹SOURCE Adventurer's Armory 2/12;Adventurer's Armory/19›  ",
 			"::tabular{format=misc id=dusk a=35 b=4 d=gear}",
 			"",
-			"This specialized ‹eq-misc/bullseye lantern› has a ruby lens that covers the original lens, providing a deep crimson hue to the lantern's light, allowing for more stealth when used in areas of darkness. This special lens can be set in place or removed as a @HL[swift action]. While the ruby lens is in place, the lantern only provides ‹rule/dim light› in a 60-foot cone.",
+			"This specialized ‹eq-misc/bullseye lantern› has a ruby lens that covers the original lens, providing a deep crimson hue to the lantern's light, allowing for more stealth when used in areas of darkness. This special lens can be set in place or removed as a @WA. While the ruby lens is in place, the lantern only provides ‹rule/dim light› in a 60-foot cone.",
 			"",
 			"@I-info A dusk lantern's red light is imperceptible to creatures relying on darkvision as their sole form of sight.",
 			"",
@@ -1381,7 +1381,7 @@
 			"‹SOURCE Alchemy Manual/15›  ",
 			"::tabular{format=misc a=150 b=x d=rem}",
 			"",
-			"This bright pink liquid can be added to the eyes of a willing ‹monster/homunculus› as a @HL[standard action].",
+			"This bright pink liquid can be added to the eyes of a willing ‹monster/homunculus› as a @SA.",
 			"",
 			"@I-power-boost If you are the homunculus's master, you gain the ability to see through the homunculus's eyes by closing yours and concentrating, and the homunculus can see through yours in the same fashion. The eye drops also extend the range of the homunculus's telepathic link to 1 mile. The effects of the eye drops fade after 1 day.",
 			"",
@@ -1416,7 +1416,7 @@
 		"description": [
 			"## Fairy Cap",
 			"‹SOURCE Ultimate Wilderness/153›  ",
-			"::tabular{format=misc a=250 b=x d=herb e=20 f=\"1 dose\" g=\"anywhere near ley lines\" h=\"A *fairy cap* must be gently simmered (not boiled) in a mixture of water and other natural ingredients for 1 hour; this requires a successful DC 20 ‹skill/Craft› (alchemy) check. At the end of this preparation time, the yellow spots' color changes to bright orange or dark brown - there's a 50% chance of either development.\" i=\"@I-warning-magic When eaten without proper preparation, a *fairy cap* is mildly poisonous (see below), but when properly prepared, it takes on a notunpleasant tangy flavor. The final color of a properly prepared *fairy cap's* spots determines its effect when consumed. A *cap* with orange spots causes a Large or smaller creature to grow one size category, while one with brown spots causes the eater to shrink one size category. These effects function as per ‹spell/enlarge person› or ‹spell/reduce person›, except they can affect any Large or smaller living creature; the effects persist for 10 minutes in either case. Whether or not it is prepared, a *fairy cap* is quite chewy, and eating it is a @HLfull-round_action.\"}",
+			"::tabular{format=misc a=250 b=x d=herb e=20 f=\"1 dose\" g=\"anywhere near ley lines\" h=\"A *fairy cap* must be gently simmered (not boiled) in a mixture of water and other natural ingredients for 1 hour; this requires a successful DC 20 ‹skill/Craft› (alchemy) check. At the end of this preparation time, the yellow spots' color changes to bright orange or dark brown - there's a 50% chance of either development.\" i=\"@I-warning-magic When eaten without proper preparation, a *fairy cap* is mildly poisonous (see below), but when properly prepared, it takes on a notunpleasant tangy flavor. The final color of a properly prepared *fairy cap's* spots determines its effect when consumed. A *cap* with orange spots causes a Large or smaller creature to grow one size category, while one with brown spots causes the eater to shrink one size category. These effects function as per ‹spell/enlarge person› or ‹spell/reduce person›, except they can affect any Large or smaller living creature; the effects persist for 10 minutes in either case. Whether or not it is prepared, a *fairy cap* is quite chewy, and eating it is a @RA.\"}",
 			"",
 			"::aff[Fairy Cap]{iconP type=Ingested saveF=13 onset=\"1 minute\" freqM=6 eff=\"‹misc/nauseated› for 1 minute\" cure1}",
 			"",
@@ -1474,7 +1474,7 @@
 			"",
 			"@I-power Once exposed to air, this greenish alchemical sludge quickly takes on a faint glow. This glow provides dim ‹rule/illumination› in the area immediately surrounding the fist-sized lump of *false ectoplasm.* This glow-in-the-dark effect lasts for 1 hour before the substance begins to decompose into a brownish goo.",
 			"",
-			"A successful DC 20 ‹skill/Sleight of Hand› check allows a user to open a vial of *false ectoplasm* and deposit it on an adjacent surface as a @HL[move action]; a successful opposed ‹skill/Perception› check is enough to notice this trickery."
+			"A successful DC 20 ‹skill/Sleight of Hand› check allows a user to open a vial of *false ectoplasm* and deposit it on an adjacent surface as a @MA; a successful opposed ‹skill/Perception› check is enough to notice this trickery."
 		]
 	},
 	"false_manacles": {
@@ -1488,7 +1488,7 @@
 			"‹SOURCE Ultimate Equipment/56;Adventurer's Armory/19›  ",
 			"::tabular{format=misc a=65 b=2 d=gear}",
 			"",
-			"These manacles are nearly indistinguishable from standard ‹eq-misc/manacles› upon inspection (‹skill/Perception› DC 25). A wearer who knows the location of the secret catch can open them as a @HL[standard action]; otherwise they act like masterwork manacles. Some appear to be of common quality, though false manacles are always masterwork."
+			"These manacles are nearly indistinguishable from standard ‹eq-misc/manacles› upon inspection (‹skill/Perception› DC 25). A wearer who knows the location of the secret catch can open them as a @SA; otherwise they act like masterwork manacles. Some appear to be of common quality, though false manacles are always masterwork."
 		]
 	},
 	"manacles_false": { "redirect": "false_manacles" },
@@ -1502,7 +1502,7 @@
 			"",
 			"These prosthetics are used as a replacement for lost or missing teeth. False teeth fashioned from wood or animal teeth are more common, while masterwork varieties are sculpted from bone or porcelain.",
 			"",
-			"Clockwork false teeth are novelties with mechanisms allowing the teeth to clatter and move on their own. Winding the clockworks is a @HL[move action], and the teeth move forward over flat surfaces at a rate of 5 feet per round for 10 rounds after one winding."
+			"Clockwork false teeth are novelties with mechanisms allowing the teeth to clatter and move on their own. Winding the clockworks is a @MA, and the teeth move forward over flat surfaces at a rate of 5 feet per round for 10 rounds after one winding."
 		]
 	},
 	"false_teeth_common": {
@@ -1695,7 +1695,7 @@
 			"‹SOURCE Advanced Race Guide/37›  ",
 			"::tabular{format=misc a=10 b=1 d=atool}",
 			"",
-			"@I-power This 1-foot-long, silver-tipped tin rod glows dimly when struck as a @HL[standard action]. It sheds dim light in a 30-foot radius. However, the light given off by a moonrod is particularly easily to perceive for creatures with low-light vision. For such creatures, a moonrod increases the ‹rule/light level› by one step (to a maximum of normal) for a 60-foot radius. It glows for 6 hours, after which the silver tip is burned out and worthless.",
+			"@I-power This 1-foot-long, silver-tipped tin rod glows dimly when struck as a @SA. It sheds dim light in a 30-foot radius. However, the light given off by a moonrod is particularly easily to perceive for creatures with low-light vision. For such creatures, a moonrod increases the ‹rule/light level› by one step (to a maximum of normal) for a 60-foot radius. It glows for 6 hours, after which the silver tip is burned out and worthless.",
 			"",
 			"::tabular{format=craftalch a=25}"
 		]
@@ -1727,7 +1727,7 @@
 			"",
 			"A gritty salve with an earthy odor, *muscle grout* is frequently sold in areas where ‹monster/giant spider«s› or ‹monster/roper«s› haunt local trade routes.",
 			"",
-			"@I-def When massaged into the muscles as a @HL[full-round action], this ointment provides a +2 alchemical bonus on saving throws to resist nonmagical effects that cause ‹rule/Strength damage›. Any Strength damage you take manifests gradually as the salve slows muscle decay; anytime you take Strength damage, you take only 1 point per round until the full amount of damage is dealt. Additional Strength damage adds to the total, but is dealt only at a maximum rate of 1 point per round, as long as the *grout* is active.",
+			"@I-def When massaged into the muscles as a @RA, this ointment provides a +2 alchemical bonus on saving throws to resist nonmagical effects that cause ‹rule/Strength damage›. Any Strength damage you take manifests gradually as the salve slows muscle decay; anytime you take Strength damage, you take only 1 point per round until the full amount of damage is dealt. Additional Strength damage adds to the total, but is dealt only at a maximum rate of 1 point per round, as long as the *grout* is active.",
 			"",
 			"A dose of *muscle grout* lasts for 10 minutes. One dose of *muscle grout* is sufficient for a Medium or smaller creature; Large creatures require 2 doses, Huge creatures require 4 doses, and so on."
 		]
@@ -1826,7 +1826,7 @@
 			"",
 			"A *nature climbing harness* is a series of buckles, straps, and trusses that can be worn over clothing or light armor.",
 			"",
-			"@I-power-def-down As a @HL[standard action], you can secure yourself in place on a vertical surface so that both your hands are free. You can remain in this position without needing to attempt additional ‹skill/Climb› checks, and you don't lose your Dexterity bonus to your AC as long as you remain anchored. As long as you are anchored in this way, you cannot move, but you gain a +5 circumstance bonus on Climb checks to avoid falling whenever you take damage. You can release yourself to start moving again as a move action."
+			"@I-power-def-down As a @SA, you can secure yourself in place on a vertical surface so that both your hands are free. You can remain in this position without needing to attempt additional ‹skill/Climb› checks, and you don't lose your Dexterity bonus to your AC as long as you remain anchored. As long as you are anchored in this way, you cannot move, but you gain a +5 circumstance bonus on Climb checks to avoid falling whenever you take damage. You can release yourself to start moving again as a move action."
 		]
 	},
 	"nautical_chart": {
@@ -1885,7 +1885,7 @@
 			"",
 			"The powder in this minute glass vial is made of caustic soda treated with consecrated ashes, and is harmless to living flesh but dangerous to the deceased.",
 			"",
-			"@I-splash-lower *Necrosalt* can be ‹rule/throw«n as a» splash weapon› with a range increment of 5 feet. On a successful ranged touch attack, 1 dose of *necrosalt* deals 1d4 points of damage to a struck corporeal undead creature. For 3 rounds afterward, it deals an additional 1d4 points of damage to its victim at the beginning of the victim's turn. Intelligent undead creatures can brush *necrosalt* off their bodies and end its effect as a @HL[move action].",
+			"@I-splash-lower *Necrosalt* can be ‹rule/throw«n as a» splash weapon› with a range increment of 5 feet. On a successful ranged touch attack, 1 dose of *necrosalt* deals 1d4 points of damage to a struck corporeal undead creature. For 3 rounds afterward, it deals an additional 1d4 points of damage to its victim at the beginning of the victim's turn. Intelligent undead creatures can brush *necrosalt* off their bodies and end its effect as a @MA.",
 			"",
 			"::tabular{format=craftalch a=30}"
 		]
@@ -1896,7 +1896,7 @@
 		"description": [
 			"## Nepenthe",
 			"‹SOURCE Ultimate Wilderness/155›  ",
-			"::tabular{format=misc a=400 b=x d=herb e=20 f=\"1 dose\" g=\"warm forests or swamps\" h=\"A dose of pollen must be mixed with alchemical reagents with a successful DC 16 ‹skill/Craft› (alchemy) check and then left to sit for 1 hour before it can be used.\" i=\"@I-def-touch A dose of nepenthe pollen must be inhaled as a @HLstandard_action, whereupon the potent vapors act upon unpleasant or unknown thoughts and memories. This grants the creature a new saving throw to immediately end a single mind-affecting effect currently affecting the creature (effects that allow no saving throw cannot be removed in this way). An unwilling creature can be dosed with the pollen as a touch attack that provokes an attack of opportunity. A creature can be affected by a dose of nepenthe only once in a single 24-hour period. This is a poison effect.\"}",
+			"::tabular{format=misc a=400 b=x d=herb e=20 f=\"1 dose\" g=\"warm forests or swamps\" h=\"A dose of pollen must be mixed with alchemical reagents with a successful DC 16 ‹skill/Craft› (alchemy) check and then left to sit for 1 hour before it can be used.\" i=\"@I-def-touch A dose of nepenthe pollen must be inhaled as a @SA, whereupon the potent vapors act upon unpleasant or unknown thoughts and memories. This grants the creature a new saving throw to immediately end a single mind-affecting effect currently affecting the creature (effects that allow no saving throw cannot be removed in this way). An unwilling creature can be dosed with the pollen as a touch attack that provokes an attack of opportunity. A creature can be affected by a dose of nepenthe only once in a single 24-hour period. This is a poison effect.\"}",
 			"",
 			"This foot-tall blue-green pitcher plant produces a pollen that smells faintly of mint and lures insects and even small vertebrates toward its dangerous mouth."
 		]
@@ -1966,7 +1966,7 @@
 		"description": [
 			"## Nightsage",
 			"‹SOURCE Ultimate Wilderness/155;Heroes of the Wild/10›  ",
-			"::tabular{format=misc a=100 b=x d=herb e=14 f=\"1 dose\" g=\"any jungles\" h=\"A dose of nightsage must be sprinkled with holy water periodically over an 8-hour drying process in natural sunlight; this process requires a successful DC 12 ‹skill/Craft› (alchemy) check and one flask of ‹eq-weapon/holy water›.\" i=\"When dried nightsage is lit on fire (a @HLstandard_action), it produces a thin but pleasant-smelling smoke almost like that produced by a stick of incense. A dose of nightsage burns for 10 minutes and can be extinguished and reignited for multiple uses (but it is always used in 1 minute increments, regardless of the actual time spent burning). A moderate or stronger wind extinguishes a burning stick of nightsage.\" j=\"@I-def While nightsage burns, each corporeal undead creature within a 5-foot radius gains a +2 profane bonus on saving throws against positive energy effects (including ‹ability/channel energy› effects). Necromancers are fond of supplying their undead minions with small thuribles containing a burning stick of nightsage that can be worn while carrying out their commands.\"}",
+			"::tabular{format=misc a=100 b=x d=herb e=14 f=\"1 dose\" g=\"any jungles\" h=\"A dose of nightsage must be sprinkled with holy water periodically over an 8-hour drying process in natural sunlight; this process requires a successful DC 12 ‹skill/Craft› (alchemy) check and one flask of ‹eq-weapon/holy water›.\" i=\"When dried nightsage is lit on fire (a @SA), it produces a thin but pleasant-smelling smoke almost like that produced by a stick of incense. A dose of nightsage burns for 10 minutes and can be extinguished and reignited for multiple uses (but it is always used in 1 minute increments, regardless of the actual time spent burning). A moderate or stronger wind extinguishes a burning stick of nightsage.\" j=\"@I-def While nightsage burns, each corporeal undead creature within a 5-foot radius gains a +2 profane bonus on saving throws against positive energy effects (including ‹ability/channel energy› effects). Necromancers are fond of supplying their undead minions with small thuribles containing a burning stick of nightsage that can be worn while carrying out their commands.\"}",
 			"",
 			"The fragrant purple blossoms of this night-blooming wildflower are so deep in hue that they appear almost black."
 		]
@@ -2015,7 +2015,7 @@
 			"",
 			"‹rule/Pathfinders› pride themselves on their camaraderie, and among the worst threats are those that can magically compel agents to fight among themselves. *Nostalgia oil* is a vial of concentrated aromatics that evoke positive memories of the Grand Lodge and common trials overcome during a Pathfinder's training.",
 			"",
-			"@I-def By dabbing this oil on her face, neck, or arms as a @HL[standard action], a Pathfinder gains a +2 alchemical bonus on saving throws against effects with the emotion descriptor and on secondary saving throws made to resist ‹spell/dominate person› and similar compulsion effects that would force her to harm her allies or betray her mission. Applied in this way, a vial of *nostalgia oil* remains potent for 8 hours or until washed off with soap and water.",
+			"@I-def By dabbing this oil on her face, neck, or arms as a @SA, a Pathfinder gains a +2 alchemical bonus on saving throws against effects with the emotion descriptor and on secondary saving throws made to resist ‹spell/dominate person› and similar compulsion effects that would force her to harm her allies or betray her mission. Applied in this way, a vial of *nostalgia oil* remains potent for 8 hours or until washed off with soap and water.",
 			"",
 			"@I-splash *Nostalgia oil* can also be ‹rule/throw«n as a» splash weapon›, extending its benefits for 1 hour to any Pathfinder struck with a direct hit.",
 			"",
@@ -2191,7 +2191,7 @@
 			"‹SOURCE Ultimate Equipment/57;PRPG Core Rulebook/158›  ",
 			"::tabular{format=misc a=\"0.1\" b=1 d=gear}",
 			"",
-			"A 1-pint flask of oil burns for 6 hours in a ‹eq-misc/lantern› or ‹eq-misc/lamp›. You can also use a flask of oil as a splash weapon. Use the rules for ‹eq-weapon/alchemist's fire›, except that it takes a @HL[full-round action] to prepare a flask with a fuse. Once it is thrown, there is a 50% chance of the flask igniting successfully.",
+			"A 1-pint flask of oil burns for 6 hours in a ‹eq-misc/lantern› or ‹eq-misc/lamp›. You can also use a flask of oil as a splash weapon. Use the rules for ‹eq-weapon/alchemist's fire›, except that it takes a @RA to prepare a flask with a fuse. Once it is thrown, there is a 50% chance of the flask igniting successfully.",
 			"",
 			"You can pour a pint of oil on the ground to cover an area 5 feet square, provided that the surface is smooth. If lit, the oil burns for 2 rounds and deals 1d3 points of fire damage to each creature in the area."
 		]
@@ -2233,7 +2233,7 @@
 			"‹SOURCE Dungeon Denizens Revisited/19›  ",
 			"::tabular{format=misc a=50 b=1 d=atool}",
 			"",
-			"@I-def-down This alchemical concoction can be spread over a Medium or Small creature's body as a @HL[full-round action]. It provides a +5 alchemical bonus on @HL[Escape Artist] checks, grapple checks to avoid a grapple, and Reflex saves to avoid an ooze's improved ‹umr/grab› or ‹umr/engulf› abilities, but gives a -5 penalty to ‹rule/disarm› checks, grapple checks to start or maintain a grapple or pin, and other checks that may be hindered by a loose grip (such as ‹skill/Climb›). One application lasts for up to 1 hour and can be removed with soap and water.",
+			"@I-def-down This alchemical concoction can be spread over a Medium or Small creature's body as a @RA. It provides a +5 alchemical bonus on @HL[Escape Artist] checks, grapple checks to avoid a grapple, and Reflex saves to avoid an ooze's improved ‹umr/grab› or ‹umr/engulf› abilities, but gives a -5 penalty to ‹rule/disarm› checks, grapple checks to start or maintain a grapple or pin, and other checks that may be hindered by a loose grip (such as ‹skill/Climb›). One application lasts for up to 1 hour and can be removed with soap and water.",
 			"",
 			"::tabular{format=craftalch a=25}"
 		]
@@ -2443,9 +2443,9 @@
 			"",
 			"Pain wheels are used by ‹monster/orc› marauders to blight the lands of their foes and despoil the earth for generations to come.",
 			"",
-			"@I-power-aura-lower-down When you whirl this cruel weapon above your head as a @HL[standard action], it scatters salt in a 5-foot radius centered on your space. Creatures in the affected area (including you) that have fewer than their maximum number of hit points must succeed at a DC 11 Fortitude save or be ‹misc/sickened› by pain for 1d6 rounds. Creatures affected by ‹rule/bleed› effects take a -5 penalty on their saves.",
+			"@I-power-aura-lower-down When you whirl this cruel weapon above your head as a @SA, it scatters salt in a 5-foot radius centered on your space. Creatures in the affected area (including you) that have fewer than their maximum number of hit points must succeed at a DC 11 Fortitude save or be ‹misc/sickened› by pain for 1d6 rounds. Creatures affected by ‹rule/bleed› effects take a -5 penalty on their saves.",
 			"",
-			"A successful DC 11 ‹skill/Heal› check ends the sickened condition, as does the application of any effect that heals hit point damage. A pain wheel must be loaded with a pound of salt (a @HL[move action]) before it can be used.",
+			"A successful DC 11 ‹skill/Heal› check ends the sickened condition, as does the application of any effect that heals hit point damage. A pain wheel must be loaded with a pound of salt (a @MA) before it can be used.",
 			"",
 			"@I-info You can also load a dose of ‹eq-weapon/itching powder› or another alchemical powder normally used as a ‹rule/splash weapon«s› into a pain wheel; when a pain wheel is used this way, the affected area (including your square) is treated as the splash radius for the purpose of determining the powder's effects, and there is no way to deal a direct hit with the powder."
 		]
@@ -2469,7 +2469,7 @@
 			"‹SOURCE Villain Codex/69›  ",
 			"::tabular{format=misc a=324 b=x d=atool}",
 			"",
-			"This small vial contains an alchemical suspension that preserves a sample of *pallid gift.* This functions like ‹eq-weapon/plague powder› for ‹disease/pallid gift› (DC 20), allowing the user to apply *pallid gift* to a weapon (a @HL[standard action], or whatever action the character normally takes to apply poison to a weapon if that is better) and deliver it as with an injury poison. Just as for *plague powder,* the creation of a pallid suspension exposes the crafter to the disease on each day of crafting."
+			"This small vial contains an alchemical suspension that preserves a sample of *pallid gift.* This functions like ‹eq-weapon/plague powder› for ‹disease/pallid gift› (DC 20), allowing the user to apply *pallid gift* to a weapon (a @SA, or whatever action the character normally takes to apply poison to a weapon if that is better) and deliver it as with an injury poison. Just as for *plague powder,* the creation of a pallid suspension exposes the crafter to the disease on each day of crafting."
 		]
 	},
 	"palm_paws": {
@@ -2524,7 +2524,7 @@
 			"‹SOURCE Kobolds of Golarion/29›  ",
 			"::tabular{format=misc a=10 b=2 d=atool}",
 			"",
-			"This jar of thick, gritty paste is made from coarsely ground plant matter, weak epoxy, and bat guano. When exposed to air, the moldable substance quickly creates a thin, paper-like surface, which is ideal for creating false earthen walls. Creating a 5-foot-by-5-foot section of paper wall requires a @HL[full-round action]. Though this false wall is easy to punch through, it requires a successful DC 13 ‹skill/Perception› check to identify the wall as a fake. If the creator of the paper wall spends an additional full-round action disguising the wall with dirt and pebbles, the DC increases by 2.",
+			"This jar of thick, gritty paste is made from coarsely ground plant matter, weak epoxy, and bat guano. When exposed to air, the moldable substance quickly creates a thin, paper-like surface, which is ideal for creating false earthen walls. Creating a 5-foot-by-5-foot section of paper wall requires a @RA. Though this false wall is easy to punch through, it requires a successful DC 13 ‹skill/Perception› check to identify the wall as a fake. If the creator of the paper wall spends an additional full-round action disguising the wall with dirt and pebbles, the DC increases by 2.",
 			"",
 			"::tabular{format=craftalch a=15}"
 		]
@@ -3130,7 +3130,7 @@
 			"",
 			"This vibrant, variegated gemstone is found naturally on the Elemental Plane of Earth but can also be artificially reproduced, albeit with a fair amount of difficulty. The *catalyst* is highly sought for its remarkable ability to enhance and alter alchemical tools and weapons.",
 			"",
-			"As a @HL[move action], you can apply the *catalyst* to one of the following items to enhance or alter the alchemical item's effects. If the item is not used within 3 rounds, the benefit of the enhanced alchemical item is lost and the item reverts to normal. Once applied to an item, a *planar alchemical catalyst* is expended.",
+			"As a @MA, you can apply the *catalyst* to one of the following items to enhance or alter the alchemical item's effects. If the item is not used within 3 rounds, the benefit of the enhanced alchemical item is lost and the item reverts to normal. Once applied to an item, a *planar alchemical catalyst* is expended.",
 			"",
 			":::block{hl}",
 			"",
@@ -3198,7 +3198,7 @@
 			"‹SOURCE Alchemy Manual/18›  ",
 			"::tabular{format=misc a=1500 b=4 d=bm}",
 			"",
-			"This portable ‹eq-misc/hookah› can be worn as a backpack, obviating the need to set the hookah down before filling it with water. Up to four creatures (including the wearer and any adjacent creatures) can use a traveler's hookah during the same round. While wearing a traveler's hookah, you can stopper the hookah's bowl valve as an @HL[immediate action] to prevent unwanted individuals from using it until the valve is reopened as a @HL[free action]. If you are knocked unconscious or otherwise fall prone while wearing a traveler's hookah, you must succeed at a DC 13 Reflex save or the hookah is smashed during the fall. A traveler's hookah can hold up to 5 doses of a single substance, and has four hoses."
+			"This portable ‹eq-misc/hookah› can be worn as a backpack, obviating the need to set the hookah down before filling it with water. Up to four creatures (including the wearer and any adjacent creatures) can use a traveler's hookah during the same round. While wearing a traveler's hookah, you can stopper the hookah's bowl valve as an @IA to prevent unwanted individuals from using it until the valve is reopened as a @FA. If you are knocked unconscious or otherwise fall prone while wearing a traveler's hookah, you must succeed at a DC 13 Reflex save or the hookah is smashed during the fall. A traveler's hookah can hold up to 5 doses of a single substance, and has four hoses."
 		]
 	},
 	"travelers_outfit": {
@@ -3470,7 +3470,7 @@
 			"‹SOURCE Ultimate Equipment/101›  ",
 			"::tabular{format=misc a=45 b=x d=rem}",
 			"",
-			"@I-def This thick syrup is extracted from bitter herbs and enhanced by alchemy to ward against sleep, paralysis, and the ‹misc/staggered› condition. If you drink *twitch tonic,* you gain a +2 alchemical bonus on saving throws made against these effects for the next hour. If you drink *twitch tonic* while suffering from any of these effects, you may immediately roll another saving throw against the effect (with the +2 bonus); you may gain this particular benefit only once per day. You can administer *twitch tonic* to an unconscious or paralyzed creature as a @HL[full-round action], similar to administering a potion.",
+			"@I-def This thick syrup is extracted from bitter herbs and enhanced by alchemy to ward against sleep, paralysis, and the ‹misc/staggered› condition. If you drink *twitch tonic,* you gain a +2 alchemical bonus on saving throws made against these effects for the next hour. If you drink *twitch tonic* while suffering from any of these effects, you may immediately roll another saving throw against the effect (with the +2 bonus); you may gain this particular benefit only once per day. You can administer *twitch tonic* to an unconscious or paralyzed creature as a @RA, similar to administering a potion.",
 			"",
 			"::tabular{format=craftalch a=25}"
 		]
@@ -3781,7 +3781,7 @@
 			"‹SOURCE Dungeoneer's Handbook/25›  ",
 			"::tabular{format=misc a=400 b=4 d=tools}",
 			"",
-			"A vigil cap is built like a ‹eq-misc/tinker's cap›, but with shades and wideview mirrors instead of magnifying lenses. The helmet's arms can be adjusted (as a @HL[full-round action] that provokes attacks of opportunity) into one of the following modes at a given time:",
+			"A vigil cap is built like a ‹eq-misc/tinker's cap›, but with shades and wideview mirrors instead of magnifying lenses. The helmet's arms can be adjusted (as a @RA that provokes attacks of opportunity) into one of the following modes at a given time:",
 			"",
 			">@I-boost @HL[All-Around Perspective:] When properly angled, the mirrors grant the wearer a better view of his surroundings and attacking foes. In this mode, the helmet grants a +2 circumstance bonus on reactive sight-based ‹skill/Perception› checks.",
 			">",
@@ -3809,7 +3809,7 @@
 			"‹SOURCE Legacy of the First World/7›  ",
 			"::tabular{format=misc a=40 b=x d=atool}",
 			"",
-			"This sealed copper tube contains a packet of alchemical fertilizer and several sprouted seedlings from the First World. Once shaken and opened as a @HL[standard action], the tube exudes a multitude of vines that spill into an adjacent square for 3 rounds. Left alone, these vines create an area of ‹rule/difficult terrain› in the square, but a creature holding the tube can shape the vines as they emerge into a crude tool, piece of furniture, or other object of wood or rope weighing 20 pounds or less with a successful DC 10 ‹skill/Craft› (baskets or carpentry) check. The vine construct lasts for 10 minutes before crumbling to pieces.",
+			"This sealed copper tube contains a packet of alchemical fertilizer and several sprouted seedlings from the First World. Once shaken and opened as a @SA, the tube exudes a multitude of vines that spill into an adjacent square for 3 rounds. Left alone, these vines create an area of ‹rule/difficult terrain› in the square, but a creature holding the tube can shape the vines as they emerge into a crude tool, piece of furniture, or other object of wood or rope weighing 20 pounds or less with a successful DC 10 ‹skill/Craft› (baskets or carpentry) check. The vine construct lasts for 10 minutes before crumbling to pieces.",
 			"",
 			"::tabular{format=craftalch a=25}"
 		]
@@ -3970,7 +3970,7 @@
 			"",
 			"This tiny bundle of sacred herbs and bones supposedly attracts the attention of helpful battle-spirits.",
 			"",
-			"@I-def By crushing the *pouch* as a @HL[standard action], an ‹race/orc› (or a creature from a suitably warlike culture) gains 1d4+1 temporary hit points. These temporary hit points go away after 10 minutes. A creature can only benefit from 1 *spirit pouch* at a time. Once used, the *spirit pouch* is destroyed.",
+			"@I-def By crushing the *pouch* as a @SA, an ‹race/orc› (or a creature from a suitably warlike culture) gains 1d4+1 temporary hit points. These temporary hit points go away after 10 minutes. A creature can only benefit from 1 *spirit pouch* at a time. Once used, the *spirit pouch* is destroyed.",
 			"",
 			"::tabular{format=craftalch a=20}"
 		]
@@ -3987,7 +3987,7 @@
 			"",
 			"@I-lower Unintelligent undead instinctively recoil upon touching *warding ash.* If an unintelligent undead creature moves into a space covered in *warding ash,* it must immediately end its movement in that space (Reflex DC 14 negates).",
 			"",
-			"A singe dose of *warding ash* is enough to cover a 5-foot-square space. Applying *warding ash* is a @HL[move action] that provokes attacks of opportunity. The *warding ash* becomes inert 1 minute after being laid, or after the *ash* is disturbed in any way (such as being stepped on by a creature).",
+			"A singe dose of *warding ash* is enough to cover a 5-foot-square space. Applying *warding ash* is a @MA that provokes attacks of opportunity. The *warding ash* becomes inert 1 minute after being laid, or after the *ash* is disturbed in any way (such as being stepped on by a creature).",
 			"",
 			"::tabular{format=craftalch a=25}"
 		]
@@ -4059,7 +4059,7 @@
 			"",
 			"@I-touch This golden, oily alchemical reagent can be applied to any surface or delivered as a touch attack (the wielder exposes herself unless she uses a glove and disposes of it afterward).",
 			"",
-			"@I-lower A creature or object marked with *waspguts* attracts angry insects. Vermin within 30 feet attack the target over other available creatures. Wasps are affected at a range of up to 1 mile; in most environments where wasps live, the target is stung by at least one wild wasp per hour. The effect lasts 8 hours or until washed or scraped off (a @HL[full-round action]).",
+			"@I-lower A creature or object marked with *waspguts* attracts angry insects. Vermin within 30 feet attack the target over other available creatures. Wasps are affected at a range of up to 1 mile; in most environments where wasps live, the target is stung by at least one wild wasp per hour. The effect lasts 8 hours or until washed or scraped off (a @RA).",
 			"",
 			"@I-splash Waspguts can also be thrown as a ‹rule/splash weapon›. A direct hit deals no damage, but exposes the target to the *waspguts'* effects.",
 			"",
@@ -4115,7 +4115,7 @@
 			"‹SOURCE Ultimate Equipment/103;Adventurer's Armory/19›  ",
 			"::tabular{format=misc a=25 b=1 d=atool}",
 			"",
-			"This fist-sized blue sponge absorbs up to 1 pint of water; squeezing the water out of the *sponge* filters and purifies it, making it safe for drinking, washing, and similar activities. Filling and emptying the *sponge* is a @HL[full-round action]. The filtration is enough to remove mundane impurities and common diseases, but does nothing to protect against poisons, magic, and other exotic threats. Each *sponge* can cleanse 25 pints of water before deteriorating and becoming useless.",
+			"This fist-sized blue sponge absorbs up to 1 pint of water; squeezing the water out of the *sponge* filters and purifies it, making it safe for drinking, washing, and similar activities. Filling and emptying the *sponge* is a @RA. The filtration is enough to remove mundane impurities and common diseases, but does nothing to protect against poisons, magic, and other exotic threats. Each *sponge* can cleanse 25 pints of water before deteriorating and becoming useless.",
 			"",
 			"::tabular{format=craftalch a=15}"
 		]
@@ -4223,7 +4223,7 @@
 			"",
 			"Weapon cords are 2-foot-long leather straps that attach your weapon to your wrist.",
 			"",
-			"@I-info If you drop your weapon or are disarmed, you can recover it as a @HL[move action], and it never moves any farther away from you than an adjacent square. However, you cannot switch to a different weapon without first untying the cord (a @HL[full-round action]) or cutting it (a @HL[move action] or an attack, ‹rule/hardness› 0, 1 hit point).",
+			"@I-info If you drop your weapon or are disarmed, you can recover it as a @MA, and it never moves any farther away from you than an adjacent square. However, you cannot switch to a different weapon without first untying the cord (a @RA) or cutting it (a @MA or an attack, ‹rule/hardness› 0, 1 hit point).",
 			"",
 			"Unlike with a ‹eq-armorenh/locked gauntlet›, you can still use a hand with a weapon cord, though a dangling weapon may interfere with finer actions."
 		]
@@ -4272,7 +4272,7 @@
 			"‹SOURCE Adventurer's Armory 2/13›  ",
 			"::tabular{format=misc a=20 b=25 d=gear}",
 			"",
-			"This device is a chair, typically made from wood, with large wheels attached on either side. A wheelchair can seat a single Medium or Small creature. When seated in a wheelchair, you can propel yourself along a reasonably flat surface at your base speed as a @HL[move action], so long as you have at least one hand free. Moving twice in a round or taking the ‹rule/run› action requires you to have both hands free. Moving uphill or over rough terrain halves the speed you move in a wheelchair, and certain terrain (such as fallen logs) may be entirely impassable. A wheelchair has ‹rule/hardness› 5 and 30 hit points."
+			"This device is a chair, typically made from wood, with large wheels attached on either side. A wheelchair can seat a single Medium or Small creature. When seated in a wheelchair, you can propel yourself along a reasonably flat surface at your base speed as a @MA, so long as you have at least one hand free. Moving twice in a round or taking the ‹rule/run› action requires you to have both hands free. Moving uphill or over rough terrain halves the speed you move in a wheelchair, and certain terrain (such as fallen logs) may be entirely impassable. A wheelchair has ‹rule/hardness› 5 and 30 hit points."
 		]
 	},
 	"whet_bone": {
@@ -4478,7 +4478,7 @@
 			"",
 			"This strange piece of equipment only works for ‹race/sylph«s› and similar creatures, whose light, airy bodies can be borne upon the winds. Looking like a fine silk traveler's cloak, a wing cloak is secretly reinforced with a series of wooden struts that, when locked into place, stretch the cloak's fabric into a rudimentary wing.",
 			"",
-			"@I-power-def Arranging the struts into a wing or reversing the change is a @HL[move action]. When the cloak is shaped into a wing, the wearer can make a DC 15 ‹skill/Fly› check to ‹rule/fall› safely from any height without taking falling damage, as if using ‹spell/feather fall›.",
+			"@I-power-def Arranging the struts into a wing or reversing the change is a @MA. When the cloak is shaped into a wing, the wearer can make a DC 15 ‹skill/Fly› check to ‹rule/fall› safely from any height without taking falling damage, as if using ‹spell/feather fall›.",
 			"",
 			"@I-power When falling, the wearer may make an additional DC 15 Fly check to glide, moving 5 feet laterally for every 20 feet she falls.",
 			"",
@@ -4495,7 +4495,7 @@
 			"",
 			"This large weight is attached to a sharp steel hook which doubles as a carabiner. Once the steel hook is punched through the skin of a flying creature's wing, the carabiner locks shut. The weight then acts as an anchor, unbalancing the creature's wings, which prevents the creature from flying.",
 			"",
-			"@I-lower The application of wing hobbles causes 1d4 points of piercing damage, and does not permanently disable the creature should the hobble be removed. A wing hobble can be attached to a ‹rule/pinned› creature's wing with a successful ‹rule/grapple› check. Removing a wing hobble from a creature's wing is a @HL[full-round action] that provokes attacks of opportunity and requires the use of two hands."
+			"@I-lower The application of wing hobbles causes 1d4 points of piercing damage, and does not permanently disable the creature should the hobble be removed. A wing hobble can be attached to a ‹rule/pinned› creature's wing with a successful ‹rule/grapple› check. Removing a wing hobble from a creature's wing is a @RA that provokes attacks of opportunity and requires the use of two hands."
 		]
 	},
 	"wing_hooks": {
@@ -4534,7 +4534,7 @@
 			"",
 			"Wing sheaths are protective coverings created from thick fabric or canvas. The sheaths are designed to tightly cover a pair of wings to keep them hidden beneath a cloak or loose-fitting clothing.",
 			"",
-			"Noticing hidden wings bound within wing sheaths requires a successful DC 20 ‹skill/Perception› check. Donning or removing wing sheaths requires 1 minute, or a @HL[full-round action] with assistance. Wing sheaths can be burst with a successful DC 22 Strength check."
+			"Noticing hidden wings bound within wing sheaths requires a successful DC 20 ‹skill/Perception› check. Donning or removing wing sheaths requires 1 minute, or a @RA with assistance. Wing sheaths can be burst with a successful DC 22 Strength check."
 		]
 	},
 	"wing_staff": {
@@ -4547,7 +4547,7 @@
 			"",
 			"This ‹eq-weapon/quarterstaff› can unfold two sails on each side to become a simple glider that takes up no more space than its wielder.",
 			"",
-			"@I-power With a successful DC 10 ‹skill/Fly› check as a @HL[full-round action], any Small or Medium creature holding the unfurled glider can glide downward at a 45-degree angle in a straight or diagonal line at a speed of 60 feet per round. Unfolding the wings is a @HL[full-round action].",
+			"@I-power With a successful DC 10 ‹skill/Fly› check as a @RA, any Small or Medium creature holding the unfurled glider can glide downward at a 45-degree angle in a straight or diagonal line at a speed of 60 feet per round. Unfolding the wings is a @RA.",
 			"",
 			"@I-down The wing staff imposes a -4 penalty on Fly checks because of its poor maneuverability and cannot be used to fly at other angles.",
 			"",
@@ -4579,7 +4579,7 @@
 		"description": [
 			"## Winterbite",
 			"‹SOURCE Ultimate Wilderness/155;Heroes of the Wild/10›  ",
-			"::tabular{format=misc a=20 b=x d=herb e=11 f=\"1d4 doses\" g=\"any cold\" h=\"A dose of winterbite must be dried near an open flame in which certain alchemically treated sawdust and wood chips are burned. This requires a successful DC 12 ‹skill/Craft› (alchemy) check and 1 hour.\" i=\"@I-boost When held under the nose and crushed (which takes a @HLstandard_action), a dose of prepared winterbite releases a pungent, sweet odor that clears the sinuses and sharpens the senses. For the next hour, the user of a dose of prepared winterbite gains a +2 alchemical bonus on scent-based ‹skill/Perception› checks.\"}",
+			"::tabular{format=misc a=20 b=x d=herb e=11 f=\"1d4 doses\" g=\"any cold\" h=\"A dose of winterbite must be dried near an open flame in which certain alchemically treated sawdust and wood chips are burned. This requires a successful DC 12 ‹skill/Craft› (alchemy) check and 1 hour.\" i=\"@I-boost When held under the nose and crushed (which takes a @SA), a dose of prepared winterbite releases a pungent, sweet odor that clears the sinuses and sharpens the senses. For the next hour, the user of a dose of prepared winterbite gains a +2 alchemical bonus on scent-based ‹skill/Perception› checks.\"}",
 			"",
 			"The white-veined leaves of this minty sprig carry a pleasant and soothing scent."
 		]
@@ -4735,7 +4735,7 @@
 			"‹SOURCE Adventurer's Armory/19›  ",
 			"::tabular{format=misc a=5 b=1 d=gear}",
 			"",
-			"This item works like a standard ‹eq-misc/wrist sheath›, but releasing an item from it is a @HL[swift action]. Preparing the sheath for this use requires cranking the sheath's tiny gears and springs into place (a @HL[full-round action] that provokes an attack of opportunity)."
+			"This item works like a standard ‹eq-misc/wrist sheath›, but releasing an item from it is a @WA. Preparing the sheath for this use requires cranking the sheath's tiny gears and springs into place (a @RA that provokes an attack of opportunity)."
 		]
 	},
 	"wrist_sheath": {
@@ -4751,7 +4751,7 @@
 			"",
 			"This is a sheath designed to be strapped to your forearm and hidden under a long sleeve. The sheath can hold one forearm-length item, such as a ‹eq-weapon/dagger›, ‹eq-weapon/dart›, or wand, or up to five arrows or crossbow bolts.",
 			"",
-			"@I-power As a @HL[move action], you can bend your wrist to cause some or all of these items to drop into your hand (provoking attacks of opportunity as normal).",
+			"@I-power As a @MA, you can bend your wrist to cause some or all of these items to drop into your hand (provoking attacks of opportunity as normal).",
 			"",
 			"@I-def You have a +2 bonus on ‹skill/Sleight of Hand› checks made to oppose the ‹skill/Perception› check of someone observing or frisking you to determine items in the sheath. You can only wear one wrist sheath per arm."
 		]
@@ -4777,7 +4777,7 @@
 			"",
 			"This green-tinged brew has a pungent, bitter bite. It's flavored with a variety of foul-smelling herbs and is intensely carbonated through a unique fermentation process.",
 			"",
-			"@I-down-aura-cone-lower Sometimes given to visitors as a prank, *wyrm's breath bitter* causes the drinker to become ‹misc/sickened› for 1d6 minutes (Fortitude DC 12 negates); dwarves gain a +5 racial bonus on this saving throw. After drinking a dose of *wyrm's breath bitter,* the drinker can, as a @HL[move action], unleash a thunderous and noxious belch in either a 5-foot-radius ‹misc/spread› or a 10-foot cone. Creatures in the area are ‹misc/deafened› and sickened for 1 round (Fortitude DC 12 negates).",
+			"@I-down-aura-cone-lower Sometimes given to visitors as a prank, *wyrm's breath bitter* causes the drinker to become ‹misc/sickened› for 1d6 minutes (Fortitude DC 12 negates); dwarves gain a +5 racial bonus on this saving throw. After drinking a dose of *wyrm's breath bitter,* the drinker can, as a @MA, unleash a thunderous and noxious belch in either a 5-foot-radius ‹misc/spread› or a 10-foot cone. Creatures in the area are ‹misc/deafened› and sickened for 1 round (Fortitude DC 12 negates).",
 			"",
 			"The drinker must wait 1d4 rounds before belching again, but can belch as often as desired for up to 10 minutes after drinking a *wyrm's breath bitter.*",
 			"",
@@ -4829,11 +4829,11 @@
 			"",
 			"This blunt iron hook secures to the user's forearm with a sturdy strap.",
 			"",
-			"@I-power When this item is hooked onto a ‹eq-misc/rope› or a similar object that has been fastened at a downward angle, the owner can use it to climb down the rope at a speed of 30 feet as a @HL[move action] instead of climbing at her normal speed, but the user must take at least one @HL[move action] doing so each round or she falls. Using a zip-line hook in this way requires a successful DC 5 ‹skill/Climb› check for declinations of 90 degrees (straight down), increasing by 5 for every 15 degrees off that baseline in either direction, to a maximum DC of 30 at a 15- or 165-degree declination. It is impossible to utilize a zip-line hook on a rope without a slope, or to ascend an upward-sloping one.",
+			"@I-power When this item is hooked onto a ‹eq-misc/rope› or a similar object that has been fastened at a downward angle, the owner can use it to climb down the rope at a speed of 30 feet as a @MA instead of climbing at her normal speed, but the user must take at least one @MA doing so each round or she falls. Using a zip-line hook in this way requires a successful DC 5 ‹skill/Climb› check for declinations of 90 degrees (straight down), increasing by 5 for every 15 degrees off that baseline in either direction, to a maximum DC of 30 at a 15- or 165-degree declination. It is impossible to utilize a zip-line hook on a rope without a slope, or to ascend an upward-sloping one.",
 			"",
 			"@I-warning Zip-line hooks are designed for use with two hands. A character can use a zip-line hook one-handed, but if she does so, she takes a -8 penalty on her Climb checks. Moving via a zip line is considered rigorous motion for the purpose of casting spells. If a zip line or its rope becomes broken while in use, the character using the zip line falls.",
 			"",
-			"A zip-line hook can be improvised from cloth, leather, or any flexible hook-shaped object. Each time the character uses a @HL[move action] to move with an improvised zip-line hook, the hook takes 1d6 points of damage from friction.",
+			"A zip-line hook can be improvised from cloth, leather, or any flexible hook-shaped object. Each time the character uses a @MA to move with an improvised zip-line hook, the hook takes 1d6 points of damage from friction.",
 			"",
 			"@I-boost A masterwork zip-line hook grants a +2 circumstance bonus on Climb checks to descend a rope."
 		]
@@ -4878,7 +4878,7 @@
 			"‹SOURCE Elves of Golarion/6›  ",
 			"::tabular{format=misc a=25 b=x d=elfherb}",
 			"",
-			"@I-aid Chewing a dose of dried *curewort* root heals 1d8 points of damage. Retrieving a dose from a container is a @HL[standard action] that provokes an attack of opportunity; chewing a dose is a @HL[standard action] that does not provoke an attack of opportunity. A character may combine these two actions into a @HL[full-round action] that provokes an attack of opportunity; interrupting the action stops the retrieval part of the action.",
+			"@I-aid Chewing a dose of dried *curewort* root heals 1d8 points of damage. Retrieving a dose from a container is a @SA that provokes an attack of opportunity; chewing a dose is a @SA that does not provoke an attack of opportunity. A character may combine these two actions into a @RA that provokes an attack of opportunity; interrupting the action stops the retrieval part of the action.",
 			"",
 			"Typical price per dose is 25 gp; a single plant's root is enough for 2-3 doses.",
 			"",

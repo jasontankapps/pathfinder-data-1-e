@@ -173,7 +173,7 @@
 		"compilationSources": [ [ "Adventurer's Guide", 147 ] ],
 		"category": "Other Studied Strike Talents",
 		"description": [
-			"::ab{title=\"&L&Didactic Strike&FN&\" icon=boost ability=\"When the investigator activates his *studied strike,* he can end his *studied combat* and choose not to deal his *studied strike* damage. He is instead able to show any allies within 30 feet who can see him a weak spot on the target.~~~Until the beginning of the investigator's next turn, each affected ally's first attack that hits the target deals additional damage equal to one-third the investigator's level.\" special=\"He can end this effect as an @HLimmediate_action to instead cause an affected ally's first successful attack to deal the investigator's *studied strike* damage. This additional damage is ‹misc/precision damage› and does not affect creatures that are immune to sneak attacks.\"}"
+			"::ab{title=\"&L&Didactic Strike&FN&\" icon=boost ability=\"When the investigator activates his *studied strike,* he can end his *studied combat* and choose not to deal his *studied strike* damage. He is instead able to show any allies within 30 feet who can see him a weak spot on the target.~~~Until the beginning of the investigator's next turn, each affected ally's first attack that hits the target deals additional damage equal to one-third the investigator's level.\" special=\"He can end this effect as an @IA to instead cause an affected ally's first successful attack to deal the investigator's *studied strike* damage. This additional damage is ‹misc/precision damage› and does not affect creatures that are immune to sneak attacks.\"}"
 		]
 	},
 	"quick_study": {
@@ -181,7 +181,7 @@
 		"compilationSources": [ [ "Advanced Class Guide", 32 ] ],
 		"category": "Other Studied Strike Talents",
 		"description": [
-			"::ab{title=\"&L&Quick Study (Ex)&FN&\" icon=boost ability=\"An investigator can use his *studied combat* ability as @HLswift_action instead of a move action.\"}"
+			"::ab{title=\"&L&Quick Study (Ex)&FN&\" icon=boost ability=\"An investigator can use his *studied combat* ability as @WA instead of a move action.\"}"
 		]
 	},
 	"studied_defense": {
@@ -285,7 +285,7 @@
 		"compilationSources": [ [ "Magic Tactics Toolbox", 27 ] ],
 		"category": "Inspiration Talents",
 		"description": [
-			"::ab{title=\"&L&Rapid Perception (Su)&FN&\" icon=boost ability=\"An investigator with this talent can attempt a ‹skill/Perception› check to intentionally search for a specific item or creature as a @HLswift_action instead of a move action. If she is intentionally searching for an invisible creature, the creature's bonus on its Stealth check from its ‹spell/invisibility› is halved.\" prereq=\"‹invtalent/Expanded inspiration›\"}"
+			"::ab{title=\"&L&Rapid Perception (Su)&FN&\" icon=boost ability=\"An investigator with this talent can attempt a ‹skill/Perception› check to intentionally search for a specific item or creature as a @WA instead of a move action. If she is intentionally searching for an invisible creature, the creature's bonus on its Stealth check from its ‹spell/invisibility› is halved.\" prereq=\"‹invtalent/Expanded inspiration›\"}"
 		]
 	},
 	"hidden_agendas": {
@@ -425,7 +425,7 @@
 		"compilationSources": [ [ "Disciple's Doctrine", 17 ] ],
 		"category": "Alchemist and Poison Talents",
 		"description": [
-			"::ab{title=\"&L&Greater Numerical Alchemy (Su)&FN&\" icon=boost flavor=\"The investigator can calculate his movements and account for his reactions to danger or unexpected situations with lightning speed.\" ability=\"He can expend a use of *inspiration* to mix an extract as a @HLstandard_action.\" prereq=\"‹invtalent/Numerical alchemy›, 11th-level investigator\"}"
+			"::ab{title=\"&L&Greater Numerical Alchemy (Su)&FN&\" icon=boost flavor=\"The investigator can calculate his movements and account for his reactions to danger or unexpected situations with lightning speed.\" ability=\"He can expend a use of *inspiration* to mix an extract as a @SA.\" prereq=\"‹invtalent/Numerical alchemy›, 11th-level investigator\"}"
 		]
 	},
 	"castling": {
@@ -449,7 +449,7 @@
 		"compilationSources": [ [ "Advanced Class Guide", 32 ] ],
 		"category": "Other Talents",
 		"description": [
-			"::ab{title=\"&L&Effortless Aid (Ex)&FN&\" icon=boost ability=\"The investigator can use an ‹rule/aid another<_2› action as a @HLmove_action instead of as a standard action.~~~An investigator can expend one use of *inspiration* to instead perform an aid another action as a @HLswift_action.\"}"
+			"::ab{title=\"&L&Effortless Aid (Ex)&FN&\" icon=boost ability=\"The investigator can use an ‹rule/aid another<_2› action as a @MA instead of as a standard action.~~~An investigator can expend one use of *inspiration* to instead perform an aid another action as a @WA.\"}"
 		]
 	},
 	"eldritch_conduit": {
@@ -561,7 +561,7 @@
 		"compilationSources": [ [ "Magic Tactics Toolbox", 7 ] ],
 		"category": "Other Talents",
 		"description": [
-			"::ab{title=\"&L&Spell Storing (Su)&FN&\" icon=magic ability=\"The investigator can store within himself a single targeted harmless spell of up to 2nd level. The spell must have a casting time of 1 standard action. Anytime a spell that meets these conditions is cast on the investigator, and he does not already have a spell stored, he can choose to store it rather than have it take effect immediately. Anytime afterward, as a @HLstandard_action, the investigator can have the spell take effect (acting in all ways as if it had just been cast on him).\" prereq=\"Trained in ‹skill/Use Magic Device›\"}"
+			"::ab{title=\"&L&Spell Storing (Su)&FN&\" icon=magic ability=\"The investigator can store within himself a single targeted harmless spell of up to 2nd level. The spell must have a casting time of 1 standard action. Anytime a spell that meets these conditions is cast on the investigator, and he does not already have a spell stored, he can choose to store it rather than have it take effect immediately. Anytime afterward, as a @SA, the investigator can have the spell take effect (acting in all ways as if it had just been cast on him).\" prereq=\"Trained in ‹skill/Use Magic Device›\"}"
 		]
 	},
 	"the_whole_time": {

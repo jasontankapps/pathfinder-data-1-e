@@ -156,7 +156,7 @@
 		"compilationSources": [ [ "Magical Marketplace", 26 ] ],
 		"category": "R_Primary Sneak Attack Talents",
 		"description": [
-			"::ab{title=\"&L&Sneaky Maneuver (Ex)&FN&\" icon=melee ability=\"Anytime a rogue with this talent could hit an opponent with a melee sneak attack on her turn, she may take a -2 penalty on her attack roll and attempt a ‹rule/dirty trick›, ‹rule/disarm›, ‹rule/steal›, ‹rule/sunder›, or ‹rule/trip› combat maneuver instead of dealing sneak attack damage. If the attack succeeds, the rogue deals weapon damage as normal and then attempts a combat maneuver check as a @HLswift_action (the -2 penalty only applies to the initial attack roll, not the combat maneuver check). This combat maneuver still provokes attacks of opportunity unless the rogue has a feat or ability that allows her to perform it without provoking attacks of opportunity.\"}"
+			"::ab{title=\"&L&Sneaky Maneuver (Ex)&FN&\" icon=melee ability=\"Anytime a rogue with this talent could hit an opponent with a melee sneak attack on her turn, she may take a -2 penalty on her attack roll and attempt a ‹rule/dirty trick›, ‹rule/disarm›, ‹rule/steal›, ‹rule/sunder›, or ‹rule/trip› combat maneuver instead of dealing sneak attack damage. If the attack succeeds, the rogue deals weapon damage as normal and then attempts a combat maneuver check as a @WA (the -2 penalty only applies to the initial attack roll, not the combat maneuver check). This combat maneuver still provokes attacks of opportunity unless the rogue has a feat or ability that allows her to perform it without provoking attacks of opportunity.\"}"
 		],
 		"addenda": [ "sneakattack" ]
 	},
@@ -215,7 +215,7 @@
 		"compilationSources": [ [ "Advanced Player's Guide", 130 ] ],
 		"category": "Other Sneak Attack Talents",
 		"description": [
-			"::ab{title=\"&L&Fast Getaway (Ex)&FN&\" icon=power ability=\"After successfully making a sneak attack or ‹skill/Sleight of Hand› check, a rogue with this talent can spend a @HLmove_action to take the ‹rule/withdraw› action. She can move no more than her speed during this movement.\"}"
+			"::ab{title=\"&L&Fast Getaway (Ex)&FN&\" icon=power ability=\"After successfully making a sneak attack or ‹skill/Sleight of Hand› check, a rogue with this talent can spend a @MA to take the ‹rule/withdraw› action. She can move no more than her speed during this movement.\"}"
 		]
 	},
 	"set_up": {
@@ -264,7 +264,7 @@
 		"compilationSources": [ [ "Inner Sea Combat", 16 ] ],
 		"category": "R_Other Sneak Attack Talents",
 		"description": [
-			"::ab{title=\"&L&Swimming Stunt (Ex)&FN&\" icon=lower ability=\"Once per round, when making an attack against an opponent underwater that qualifies for sneak attack damage, a rogue with this talent can attempt a Swim check as a @HLfree_action against her opponent's CMD. If the attack and Swim check are both successful, and the attack deals sneak attack damage, the rogue can choose to forgo one or more of her sneak attack dice to reduce the number of total rounds her opponent can ‹misc/hold its breath› by 1 round per die.\" prereq=\"Trained in ‹skill/Swim›\"}"
+			"::ab{title=\"&L&Swimming Stunt (Ex)&FN&\" icon=lower ability=\"Once per round, when making an attack against an opponent underwater that qualifies for sneak attack damage, a rogue with this talent can attempt a Swim check as a @FA against her opponent's CMD. If the attack and Swim check are both successful, and the attack deals sneak attack damage, the rogue can choose to forgo one or more of her sneak attack dice to reduce the number of total rounds her opponent can ‹misc/hold its breath› by 1 round per die.\" prereq=\"Trained in ‹skill/Swim›\"}"
 		]
 	},
 	"accurate_poisoner": {
@@ -304,7 +304,7 @@
 		"compilationSources": [ [ "Advanced Player's Guide", 131 ] ],
 		"category": "R_Poison Talents",
 		"description": [
-			"::ab{title=\"&L&Lasting Poison (Ex)&FN&\" icon=boost-down ability=\"A rogue with this talent can apply poison to a weapon in such a way that it is effective for two successful attacks instead of one. The poison has a reduced effect, however, and saves made against the poison receive a +2 circumstance bonus. Applying poison in this way requires a @HLfull-round_action, or a @HLstandard_action if the rogue has the ‹talent/swift poison› talent.\"}"
+			"::ab{title=\"&L&Lasting Poison (Ex)&FN&\" icon=boost-down ability=\"A rogue with this talent can apply poison to a weapon in such a way that it is effective for two successful attacks instead of one. The poison has a reduced effect, however, and saves made against the poison receive a +2 circumstance bonus. Applying poison in this way requires a @RA, or a @SA if the rogue has the ‹talent/swift poison› talent.\"}"
 		]
 	},
 	"lasting_poison_unchained_rogue": {
@@ -313,7 +313,7 @@
 		"category": "UR_Poison Talents",
 		"topLink": [ "Unchained Rogue Talents", "ability/unchained_rogue_talents" ],
 		"description": [
-			"::ab{title=\"&L&Lasting Poison (Unchained Rogue) (Ex)&FN&\" icon=boost-down ability=\"A rogue with this talent can apply poison to a weapon in such a way that it is effective for a number of successful attacks equal to her Dexterity modifier (minimum two) instead of one. This poison has a reduced effect, however, and saves made against the poison gain a +2 circumstance bonus. Applying poison in this way is a @HLfull-round_action, or a @HLstandard_action if the rogue has the ‹talent/swift poison› rogue talent.\"}"
+			"::ab{title=\"&L&Lasting Poison (Unchained Rogue) (Ex)&FN&\" icon=boost-down ability=\"A rogue with this talent can apply poison to a weapon in such a way that it is effective for a number of successful attacks equal to her Dexterity modifier (minimum two) instead of one. This poison has a reduced effect, however, and saves made against the poison gain a +2 circumstance bonus. Applying poison in this way is a @RA, or a @SA if the rogue has the ‹talent/swift poison› rogue talent.\"}"
 		]
 	},
 	"lingering_poison": {
@@ -353,7 +353,7 @@
 		"compilationSources": [ [ "Advanced Player's Guide", 131 ] ],
 		"category": "Poison Talents",
 		"description": [
-			"::ab{title=\"&L&Swift Poison (Ex)&FN&\" icon=boost ability=\"A rogue with this talent can apply poison to a weapon as a @HLmove_action, instead of a @HLstandard_action.\"}"
+			"::ab{title=\"&L&Swift Poison (Ex)&FN&\" icon=boost ability=\"A rogue with this talent can apply poison to a weapon as a @MA, instead of a @SA.\"}"
 		]
 	},
 	"toxic_regurgitation": {
@@ -377,7 +377,7 @@
 		"compilationSources": [ [ "Advanced Race Guide", 92 ] ],
 		"category": "R_Catfolk Talents",
 		"description": [
-			"::ab{title=\"&L&Disarming Luck (Ex)&FN&\" icon=def-roll prereq=\"‹race/Catfolk›\" ability=\"Once per day, when a catfolk rogue attempts to disable a device and fails by 5 or more, she can reroll the check as a @HLfree_action. She must take the result of the reroll, even if it's worse than the original roll.\"}"
+			"::ab{title=\"&L&Disarming Luck (Ex)&FN&\" icon=def-roll prereq=\"‹race/Catfolk›\" ability=\"Once per day, when a catfolk rogue attempts to disable a device and fails by 5 or more, she can reroll the check as a @FA. She must take the result of the reroll, even if it's worse than the original roll.\"}"
 		]
 	},
 	"graceful_faller": {
@@ -510,7 +510,7 @@
 		"compilationSources": [ [ "Divine Anthology", 7 ] ],
 		"category": "Use Magic Device Talents",
 		"description": [
-			"::ab{title=\"&L&Expert Cypher (Ex)&FN&\" icon=boost ability=\"A rogue with this ability can attempt a Linguistics check to decipher a single page of text as a @HLfull-round_action instead of taking 1 minute as normal.\" passive=\"When the rogue attempts a ‹skill/Use Magic Device› check to cast a spell from a scroll, she is treated as though she had the minimum score in the appropriate ability score to cast that spell.\" ability2=\"The rogue can choose to add her Intelligence modifier to her Use Magic Device skill checks instead of her Charisma modifier.\" order=ap2}"
+			"::ab{title=\"&L&Expert Cypher (Ex)&FN&\" icon=boost ability=\"A rogue with this ability can attempt a Linguistics check to decipher a single page of text as a @RA instead of taking 1 minute as normal.\" passive=\"When the rogue attempts a ‹skill/Use Magic Device› check to cast a spell from a scroll, she is treated as though she had the minimum score in the appropriate ability score to cast that spell.\" ability2=\"The rogue can choose to add her Intelligence modifier to her Use Magic Device skill checks instead of her Charisma modifier.\" order=ap2}"
 		]
 	},
 	"occult_dungeoneer": {
@@ -526,7 +526,7 @@
 		"compilationSources": [ [ "Magic Tactics Toolbox", 7 ] ],
 		"category": "Use Magic Device Talents",
 		"description": [
-			"::ab{title=\"&L&Spell Storing (Su)&FN&\" icon=magic ability=\"The rogue can store within himself a single targeted harmless spell of up to 2nd level. The spell must have a casting time of 1 standard action. Anytime a spell that meets these conditions is cast on the rogue, and he does not already have a spell stored, he can choose to store it rather than have it take effect immediately. Anytime afterward, as a @HLstandard_action, the rogue can have the spell take effect (acting in all ways as if it had just been cast on him).\" prereq=\"Trained in ‹skill/Use Magic Device›\"}"
+			"::ab{title=\"&L&Spell Storing (Su)&FN&\" icon=magic ability=\"The rogue can store within himself a single targeted harmless spell of up to 2nd level. The spell must have a casting time of 1 standard action. Anytime a spell that meets these conditions is cast on the rogue, and he does not already have a spell stored, he can choose to store it rather than have it take effect immediately. Anytime afterward, as a @SA, the rogue can have the spell take effect (acting in all ways as if it had just been cast on him).\" prereq=\"Trained in ‹skill/Use Magic Device›\"}"
 		]
 	},
 	"the_whole_time": {
@@ -538,7 +538,7 @@
 			"",
 			"A rogue with this ability is practiced at attacking from magical concealment. He can use ‹misc/spell trigger› and ‹misc/spell completion› items as if the following spells were on a spell list to which he has access: ‹spell/greater invisibility›, ‹spell/invisibility›, and ‹spell/vanish›.",
 			"",
-			"Additionally, if the rogue becomes visible as a result of a weapon or spell attack, he can sheathe his weapon as a @HL[free action] and instantly adopt a neutral posture. With a successful Bluff or Disguise check (opposed by witnesses' Sense Motive or Perception checks, whichever is higher), there is no obvious sign that the rogue is the source of the attack (though a lack of any other reasonable candidate can still lead observers to draw the correct conclusion).",
+			"Additionally, if the rogue becomes visible as a result of a weapon or spell attack, he can sheathe his weapon as a @FA and instantly adopt a neutral posture. With a successful Bluff or Disguise check (opposed by witnesses' Sense Motive or Perception checks, whichever is higher), there is no obvious sign that the rogue is the source of the attack (though a lack of any other reasonable candidate can still lead observers to draw the correct conclusion).",
 			"",
 			":::"
 		]
@@ -624,7 +624,7 @@
 		"compilationSources": [ [ "The Harrow Handbook", 20 ] ],
 		"category": "R_Other Magic-Related Talents",
 		"description": [
-			"::ab{title=\"&L&Grig Jig (Su)&FN&\" icon=magic-select flavor=\"The rogue can weave a bit of old Varisian magic into her footwork, dancing with an infectious passion that compels another nearby to join in.\" ability=\"The rogue can target one humanoid within 30 feet and attempt a ‹skill/Perform› (dance) check as a @HLfull-round_action that does not provoke an attack of opportunity. Her target must succeed at a Will save (DC equal to the rogue's Perform &#91&dance&#93&) or it begins to dance uncontrollably.~~~So long as the rogue continues to spend a full-round action dancing each round, the affected target does so as well. If the target is attacked or otherwise in immediate danger while dancing, the effect ends.~~~Each round on its turn, the target can attempt an ‹skill/Acrobatics› or Perform (dance) check or a Will save (target's choice) against the rogue's Perform (dance) check to end the effect.\" special=\"A target who resists the *jig* can not be affected by the same rogue's *jig* for 24 hours. The *grig jig* is a mind-affecting effect.\" useInc=rogue~5~+ useF=\"1~1~5~1~5\" prereq=\"Intelligence 12+\"}"
+			"::ab{title=\"&L&Grig Jig (Su)&FN&\" icon=magic-select flavor=\"The rogue can weave a bit of old Varisian magic into her footwork, dancing with an infectious passion that compels another nearby to join in.\" ability=\"The rogue can target one humanoid within 30 feet and attempt a ‹skill/Perform› (dance) check as a @RA that does not provoke an attack of opportunity. Her target must succeed at a Will save (DC equal to the rogue's Perform &#91&dance&#93&) or it begins to dance uncontrollably.~~~So long as the rogue continues to spend a full-round action dancing each round, the affected target does so as well. If the target is attacked or otherwise in immediate danger while dancing, the effect ends.~~~Each round on its turn, the target can attempt an ‹skill/Acrobatics› or Perform (dance) check or a Will save (target's choice) against the rogue's Perform (dance) check to end the effect.\" special=\"A target who resists the *jig* can not be affected by the same rogue's *jig* for 24 hours. The *grig jig* is a mind-affecting effect.\" useInc=rogue~5~+ useF=\"1~1~5~1~5\" prereq=\"Intelligence 12+\"}"
 		]
 	},
 	"scry_slip": {
@@ -694,7 +694,7 @@
 		"compilationSources": [ [ "Cohorts and Companions", 27 ] ],
 		"category": "R_Ally-Related Talents",
 		"description": [
-			"::ab{title=\"&L&Heads Up (Ex)&FN&\" icon=boost ability=\"When you make a ‹skill/Perception› check, as an @HLimmediate or @HLswift_action you can allow one adjacent ally to act as if they had also made a Perception check with the same result.\"}"
+			"::ab{title=\"&L&Heads Up (Ex)&FN&\" icon=boost ability=\"When you make a ‹skill/Perception› check, as an @HLimmediate or @WA you can allow one adjacent ally to act as if they had also made a Perception check with the same result.\"}"
 		]
 	},
 	"sacrifice_self": {
@@ -801,7 +801,7 @@
 		"compilationSources": [ [ "Blood of the Moon", 19 ] ],
 		"category": "R_Combat Talents",
 		"description": [
-			"::ab{title=\"&L&Disease Use&FN&\" icon=power-melee ability=\"A rogue with this talent can apply filth from garbage, a sewer, a city street, a polluted area, or long-unwashed clothing or fur to a weapon as a @HLstandard_action. Doing so causes the weapon to inflict ‹disease/filth fever› on its next strike. The rogue does not risk exposure to this disease unless she is damaged by the weapon.\" special=\"After a successful attack with the weapon, the filth is dispersed and must be reapplied.\"}"
+			"::ab{title=\"&L&Disease Use&FN&\" icon=power-melee ability=\"A rogue with this talent can apply filth from garbage, a sewer, a city street, a polluted area, or long-unwashed clothing or fur to a weapon as a @SA. Doing so causes the weapon to inflict ‹disease/filth fever› on its next strike. The rogue does not risk exposure to this disease unless she is damaged by the weapon.\" special=\"After a successful attack with the weapon, the filth is dispersed and must be reapplied.\"}"
 		]
 	},
 	"eerie_disappearance": {
@@ -817,7 +817,7 @@
 		"compilationSources": [ [ "Inner Sea Combat", 16 ] ],
 		"category": "R_Combat Talents",
 		"description": [
-			"::ab{title=\"&L&Escaping Stunt (Ex)&FN&\" icon=def immediate=\"A rogue with this talent can attempt an Escape Artist check in place of a Reflex saving throw against any effect that would impose the ‹rule/entangled› condition on her.\" ability=\"When she is the target of a grapple combat maneuver, a rogue with this talent can attempt an Escape Artist check as an @HLimmediate_action, using the result of the skill check in place of her CMD against that combat maneuver attempt.\" order=iau usage=\"1 grapple/day + 1 per five rogue levels\" useUnit=t useF=\"1~1~5~1~5\" prereq=\"Trained in ‹skill/Escape Artist›\"}"
+			"::ab{title=\"&L&Escaping Stunt (Ex)&FN&\" icon=def immediate=\"A rogue with this talent can attempt an Escape Artist check in place of a Reflex saving throw against any effect that would impose the ‹rule/entangled› condition on her.\" ability=\"When she is the target of a grapple combat maneuver, a rogue with this talent can attempt an Escape Artist check as an @IA, using the result of the skill check in place of her CMD against that combat maneuver attempt.\" order=iau usage=\"1 grapple/day + 1 per five rogue levels\" useUnit=t useF=\"1~1~5~1~5\" prereq=\"Trained in ‹skill/Escape Artist›\"}"
 		]
 	},
 	"false_attacker": {
@@ -947,7 +947,7 @@
 		"compilationSources": [ [ "PRPG Core Rulebook", 68 ] ],
 		"category": "R_Combat Talents",
 		"description": [
-			"::ab{title=\"&L&Stand Up (Ex)&FN&\" icon=power ability=\"A rogue with this ability can stand up from a ‹rule/prone› position as a @HLfree_action. This still provokes attacks of opportunity for standing up while threatened by a foe.\"}"
+			"::ab{title=\"&L&Stand Up (Ex)&FN&\" icon=power ability=\"A rogue with this ability can stand up from a ‹rule/prone› position as a @FA. This still provokes attacks of opportunity for standing up while threatened by a foe.\"}"
 		]
 	},
 	"stand_up_unchained_rogue": {
@@ -956,7 +956,7 @@
 		"category": "UR_Combat Talents",
 		"topLink": [ "Unchained Rogue Talents", "ability/unchained_rogue_talents" ],
 		"description": [
-			"::ab{title=\"&L&Stand Up (Unchained Rogue) (Ex)&FN&\" icon=power ability=\"A rogue with this ability can stand up from a ‹rule/prone› position as a @HLfree_action. This still provokes attacks of opportunity for standing up while threatened by a foe.\" special=\"A rogue with this ability can stand up from a prone position as a @HLswift_action without provoking attacks of opportunity.\"}"
+			"::ab{title=\"&L&Stand Up (Unchained Rogue) (Ex)&FN&\" icon=power ability=\"A rogue with this ability can stand up from a ‹rule/prone› position as a @FA. This still provokes attacks of opportunity for standing up while threatened by a foe.\" special=\"A rogue with this ability can stand up from a prone position as a @WA without provoking attacks of opportunity.\"}"
 		]
 	},
 	"stealth_stunt": {
@@ -1044,7 +1044,7 @@
 		"compilationSources": [ [ "Advanced Player's Guide", 130 ] ],
 		"category": "R_Disable Device Talents",
 		"description": [
-			"::ab{title=\"&L&Fast Picks (Ex)&FN&\" icon=boost ability=\"A rogue with this talent can use the ‹skill/Disable Device› skill to attempt to open a lock as a @HLstandard_action instead of a @HLfull-round_action.\"}"
+			"::ab{title=\"&L&Fast Picks (Ex)&FN&\" icon=boost ability=\"A rogue with this talent can use the ‹skill/Disable Device› skill to attempt to open a lock as a @SA instead of a @RA.\"}"
 		]
 	},
 	"hairpin_trick": {
@@ -1085,7 +1085,7 @@
 		"category": "UR_Disable Device Talents",
 		"topLink": [ "Unchained Rogue Talents", "ability/unchained_rogue_talents" ],
 		"description": [
-			"::ab{title=\"&L&Quick Disable (Unchained Rogue) (Ex)&FN&\" icon=boost ability=\"It takes a rogue with this ability half the normal amount of time to disable a trap using the ‹skill/Disable Device› skill (minimum 1 round). When she uses Disable Device to open a lock that would normally take a full-round action to open, she reduces the duration to a @HLstandard_action.\"}"
+			"::ab{title=\"&L&Quick Disable (Unchained Rogue) (Ex)&FN&\" icon=boost ability=\"It takes a rogue with this ability half the normal amount of time to disable a trap using the ‹skill/Disable Device› skill (minimum 1 round). When she uses Disable Device to open a lock that would normally take a full-round action to open, she reduces the duration to a @SA.\"}"
 		]
 	},
 	"camouflage": {
@@ -1253,7 +1253,7 @@
 		"compilationSources": [ [ "Blood of the Moon", 19 ] ],
 		"category": "R_Deception Talents",
 		"description": [
-			"::ab{title=\"&L&Scavenger&FN&\" icon=power-boost ability=\"A rogue with this talent can pick up and stow an object as a @HLswift_action instead of two separate move actions. She gains a +2 bonus on ‹skill/Sleight of Hand› checks to pick the pockets of creatures that are ‹misc/stunned› or ‹misc/disabled›.\"}"
+			"::ab{title=\"&L&Scavenger&FN&\" icon=power-boost ability=\"A rogue with this talent can pick up and stow an object as a @WA instead of two separate move actions. She gains a +2 bonus on ‹skill/Sleight of Hand› checks to pick the pockets of creatures that are ‹misc/stunned› or ‹misc/disabled›.\"}"
 		]
 	},
 	"terrain_mastery": {
@@ -1458,7 +1458,7 @@
 		"compilationSources": [ [ "Blood of the Moon", 19 ] ],
 		"category": "R_Other Talents",
 		"description": [
-			"::ab{title=\"&L&Quick Scrounge&FN&\" icon=boost ability=\"The rogue can search a creature, object, or area in half as much time as normal. If her ‹skill/Perception› check would normally require a full-round action or less, it becomes one step shorter along the following progression: @HLfull-round_action, @HLstandard_action, @HLmove_action, @HLswift_action, @HLimmediate_action.\" special=\"This talent has no effect on Perception checks that are attempted as free actions or Perception checks that don't require an action.\"}"
+			"::ab{title=\"&L&Quick Scrounge&FN&\" icon=boost ability=\"The rogue can search a creature, object, or area in half as much time as normal. If her ‹skill/Perception› check would normally require a full-round action or less, it becomes one step shorter along the following progression: @RA, @SA, @MA, @WA, @IA.\" special=\"This talent has no effect on Perception checks that are attempted as free actions or Perception checks that don't require an action.\"}"
 		]
 	},
 	"rapid_perception": {
@@ -1466,7 +1466,7 @@
 		"compilationSources": [ [ "Magic Tactics Toolbox", 27 ] ],
 		"category": "R_Other Talents",
 		"description": [
-			"::ab{title=\"&L&Rapid Perception (Su)&FN&\" icon=boost ability=\"A rogue with this talent can attempt a ‹skill/Perception› check to intentionally search for a specific item or creature as a @HLswift_action instead of a move action. If she is intentionally searching for an invisible creature, the creature's bonus on its Stealth check from its invisibility is halved.\"}"
+			"::ab{title=\"&L&Rapid Perception (Su)&FN&\" icon=boost ability=\"A rogue with this talent can attempt a ‹skill/Perception› check to intentionally search for a specific item or creature as a @WA instead of a move action. If she is intentionally searching for an invisible creature, the creature's bonus on its Stealth check from its invisibility is halved.\"}"
 		]
 	},
 	"riding_stunt": {
@@ -1474,7 +1474,7 @@
 		"compilationSources": [ [ "Inner Sea Combat", 16 ] ],
 		"category": "R_Other Talents",
 		"description": [
-			"::ab{title=\"&L&Riding Stunt (Ex)&FN&\" icon=boost ability=\"A rogue with this talent takes only a -2 penalty on ‹skill/Ride› checks when riding a mount bareback instead of the normal -5 penalty.~~~When using the Ride skill to make a mount leap, a rogue with this talent can use her Ride modifier or her mount's jump modifier, whichever is higher, instead of using the lower of the two.~~~A rogue with this talent gains a +5 competence bonus when using the Ride skill to soften a fall from her mount or to perform a fast mount or dismount.~~~Finally, a rogue with this talent can attempt a DC 15 Ride check to recover from a position of cover as a @HLfree_action instead of as a move action. Failing this check results in the recovery requiring a move action as normal.\" prereq=\"Trained in ‹skill/Ride›\"}"
+			"::ab{title=\"&L&Riding Stunt (Ex)&FN&\" icon=boost ability=\"A rogue with this talent takes only a -2 penalty on ‹skill/Ride› checks when riding a mount bareback instead of the normal -5 penalty.~~~When using the Ride skill to make a mount leap, a rogue with this talent can use her Ride modifier or her mount's jump modifier, whichever is higher, instead of using the lower of the two.~~~A rogue with this talent gains a +5 competence bonus when using the Ride skill to soften a fall from her mount or to perform a fast mount or dismount.~~~Finally, a rogue with this talent can attempt a DC 15 Ride check to recover from a position of cover as a @FA instead of as a move action. Failing this check results in the recovery requiring a move action as normal.\" prereq=\"Trained in ‹skill/Ride›\"}"
 		]
 	},
 	"rope_master": {
@@ -1839,7 +1839,7 @@
 		"category": "UR_Advanced Combat Talents",
 		"topLink": [ "Advanced Unchained Rogue Talents", "ability/advanced_unchained_rogue_talents" ],
 		"description": [
-			"::ab{title=\"&L&Quick Shot (Ex)&FN&\" icon=ranged ability=\"Whenever the rogue rolls initiative, she can also make a single attack with a ranged weapon as a @HLswift_action. She can use this ability only if she has a weapon in hand and it is loaded (if applicable).\" special=\"If more than one rogue has this talent, their initiative check results determine the order in which they make their attacks. After these attacks are resolved, the round proceeds as normal.\"}"
+			"::ab{title=\"&L&Quick Shot (Ex)&FN&\" icon=ranged ability=\"Whenever the rogue rolls initiative, she can also make a single attack with a ranged weapon as a @WA. She can use this ability only if she has a weapon in hand and it is loaded (if applicable).\" special=\"If more than one rogue has this talent, their initiative check results determine the order in which they make their attacks. After these attacks are resolved, the round proceeds as normal.\"}"
 		]
 	},
 	"redirect_attack": {
@@ -1848,7 +1848,7 @@
 		"category": "Advanced Combat Talents",
 		"topLink": [ "Advanced Rogue Talents", "ability/advanced_rogue_talents" ],
 		"description": [
-			"::ab{title=\"&L&Redirect Attack (Ex)&FN&\" icon=def ability=\"Once per day, when a rogue with this talent is hit with a melee attack, she can redirect the attack to strike at an adjacent creature with a @HLfree_action. The creature targeted must be within melee reach of the attack that hit the rogue, and the creature that made the attack against the rogue must make a new attack roll against the new target.\"}"
+			"::ab{title=\"&L&Redirect Attack (Ex)&FN&\" icon=def ability=\"Once per day, when a rogue with this talent is hit with a melee attack, she can redirect the attack to strike at an adjacent creature with a @FA. The creature targeted must be within melee reach of the attack that hit the rogue, and the creature that made the attack against the rogue must make a new attack roll against the new target.\"}"
 		]
 	},
 	"reflexive_shadow_shield": {
@@ -1884,7 +1884,7 @@
 		"category": "Advanced Combat Talents",
 		"topLink": [ "Advanced Rogue Talents", "ability/advanced_rogue_talents" ],
 		"description": [
-			"::ab{title=\"&L&Unwitting Ally (Ex)&FN&\" icon=power ability=\"A rogue with this talent can spend a @HLswift_action to attempt to make an opponent act like an ally for purposes of providing a ‹rule/flank› until the beginning of the rogue's next turn. The opponent must be able to hear and see the rogue, and the rogue must succeed at a Bluff check opposed by the opponent's Sense Motive. If the check succeeds, the opponent acts as an ally for the purpose of providing a flank.\" special=\"Whether or not the check succeeds, the rogue cannot use this trick again on the same opponent for the next 24 hours. If the rogue fails the check by 5 or more, she cannot use the *unwitting ally* ability on any opponent within line of sight of the failed attempt for 24 hours.\"}"
+			"::ab{title=\"&L&Unwitting Ally (Ex)&FN&\" icon=power ability=\"A rogue with this talent can spend a @WA to attempt to make an opponent act like an ally for purposes of providing a ‹rule/flank› until the beginning of the rogue's next turn. The opponent must be able to hear and see the rogue, and the rogue must succeed at a Bluff check opposed by the opponent's Sense Motive. If the check succeeds, the opponent acts as an ally for the purpose of providing a flank.\" special=\"Whether or not the check succeeds, the rogue cannot use this trick again on the same opponent for the next 24 hours. If the rogue fails the check by 5 or more, she cannot use the *unwitting ally* ability on any opponent within line of sight of the failed attempt for 24 hours.\"}"
 		]
 	},
 	"weapon_snatcher": {

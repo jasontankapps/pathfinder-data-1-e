@@ -35,7 +35,7 @@
 		"compilationSources": [ [ "Advanced Class Guide", 57 ] ],
 		"category": "3",
 		"description": [
-			"::ab{title=\"&L&Kip-Up (Ex)&FN&\" icon=power prereq=\"3rd-level swashbuckler\" move=\"While the swashbuckler has at least 1 panache point, she can kip-up from ‹rule/prone› without provoking an attack of opportunity.\" special=\"She can kip-up as a @HLswift_action instead by spending 1 panache point.\"}"
+			"::ab{title=\"&L&Kip-Up (Ex)&FN&\" icon=power prereq=\"3rd-level swashbuckler\" move=\"While the swashbuckler has at least 1 panache point, she can kip-up from ‹rule/prone› without provoking an attack of opportunity.\" special=\"She can kip-up as a @WA instead by spending 1 panache point.\"}"
 		]
 	},
 	"menacing_swordplay": {
@@ -43,7 +43,7 @@
 		"compilationSources": [ [ "Advanced Class Guide", 57 ] ],
 		"category": "3",
 		"description": [
-			"::ab{title=\"&L&Menacing Swordplay (Ex)&FN&\" icon=lower prereq=\"3rd-level swashbuckler\" ability=\"While she has at least 1 panache point, when a swashbuckler hits an opponent with a light or one-handed piercing melee weapon, she can choose to use Intimidate to demoralize that opponent as a @HLswift_action instead of a standard action.\"}"
+			"::ab{title=\"&L&Menacing Swordplay (Ex)&FN&\" icon=lower prereq=\"3rd-level swashbuckler\" ability=\"While she has at least 1 panache point, when a swashbuckler hits an opponent with a light or one-handed piercing melee weapon, she can choose to use Intimidate to demoralize that opponent as a @WA instead of a standard action.\"}"
 		]
 	},
 	"precise_strike": {
@@ -115,7 +115,7 @@
 		"compilationSources": [ [ "Advanced Class Guide", 59 ] ],
 		"category": "15",
 		"description": [
-			"::ab{title=\"&L&Dizzying Defense (Ex)&FN&\" icon=boost-def prereq=\"15th-level swashbuckler\" ability=\"While wielding a light or one-handed piercing melee weapon in one hand, the swashbuckler can spend 1 panache point to take the ‹misc/fighting defensively› action as a @HLswift_action instead of a standard action.~~~When fighting defensively in this manner, the dodge bonus to AC gained from that action increases to +4, and the penalty to attack rolls is reduced to -2.\"}"
+			"::ab{title=\"&L&Dizzying Defense (Ex)&FN&\" icon=boost-def prereq=\"15th-level swashbuckler\" ability=\"While wielding a light or one-handed piercing melee weapon in one hand, the swashbuckler can spend 1 panache point to take the ‹misc/fighting defensively› action as a @WA instead of a standard action.~~~When fighting defensively in this manner, the dodge bonus to AC gained from that action increases to +4, and the penalty to attack rolls is reduced to -2.\"}"
 		]
 	},
 	"perfect_thrust": {

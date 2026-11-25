@@ -27,7 +27,7 @@
 		"compilationSources": [ [ "Ultimate Combat", 10 ] ],
 		"category": "1",
 		"description": [
-			"::ab{title=\"&L&Quick Clear (Ex)&FN&\" icon=power prereq=\"1st-level gunslinger\" standard=\"The gunslinger can remove the broken condition from a single firearm she is currently wielding, as long as that condition was gained by a firearm misfire. The gunslinger must have at least 1 grit point to perform this deed.\" special=\"Alternatively, if the gunslinger spends 1 grit point to perform this deed, she can perform quick clear as a @HLmove-equivalent_action instead of a standard action.\"}"
+			"::ab{title=\"&L&Quick Clear (Ex)&FN&\" icon=power prereq=\"1st-level gunslinger\" standard=\"The gunslinger can remove the broken condition from a single firearm she is currently wielding, as long as that condition was gained by a firearm misfire. The gunslinger must have at least 1 grit point to perform this deed.\" special=\"Alternatively, if the gunslinger spends 1 grit point to perform this deed, she can perform quick clear as a @MEA instead of a standard action.\"}"
 		]
 	},
 	"gunslinger_initiative": {
@@ -43,7 +43,7 @@
 		"compilationSources": [ [ "Ultimate Combat", 11 ] ],
 		"category": "3",
 		"description": [
-			"::ab{title=\"&L&Pistol-Whip (Ex)&FN&\" icon=melee prereq=\"3rd-level gunslinger\" standard=\"The gunslinger can make a surprise melee attack with the butt or handle of her firearm. When she does, she is considered to be proficient with the firearm as a melee weapon and gains a bonus on the attack and damage rolls equal to the enhancement bonus of the firearm.~~~The damage dealt by the pistol-whip is of the bludgeoning type, and is determined by the size of the firearm. One-handed firearms deal 1d6 points of damage (1d4 if wielded by Small creatures) and two-handed firearms deal 1d10 points of damage (1d8 if wielded by Small creatures). Regardless of the gunslinger's size, the critical multiplier of this attack is 20/&times&2.\" special=\"If the attack hits, the gunslinger can make a ‹rule/combat maneuver› check to knock the target ‹rule/prone› as a @HLfree_action. Performing this deed costs 1 grit point.\"}"
+			"::ab{title=\"&L&Pistol-Whip (Ex)&FN&\" icon=melee prereq=\"3rd-level gunslinger\" standard=\"The gunslinger can make a surprise melee attack with the butt or handle of her firearm. When she does, she is considered to be proficient with the firearm as a melee weapon and gains a bonus on the attack and damage rolls equal to the enhancement bonus of the firearm.~~~The damage dealt by the pistol-whip is of the bludgeoning type, and is determined by the size of the firearm. One-handed firearms deal 1d6 points of damage (1d4 if wielded by Small creatures) and two-handed firearms deal 1d10 points of damage (1d8 if wielded by Small creatures). Regardless of the gunslinger's size, the critical multiplier of this attack is 20/&times&2.\" special=\"If the attack hits, the gunslinger can make a ‹rule/combat maneuver› check to knock the target ‹rule/prone› as a @FA. Performing this deed costs 1 grit point.\"}"
 		]
 	},
 	"utility_shot": {
@@ -113,7 +113,7 @@
 		"compilationSources": [ [ "Ultimate Combat", 12 ] ],
 		"category": "11",
 		"description": [
-			"::ab{title=\"&L&Lightning Reload (Ex)&FN&\" icon=boost prereq=\"11th-level gunslinger\" ability=\"As long as the gunslinger has at least 1 grit point, she can reload a single barrel of a one-handed or two-handed firearm as a @HLswift_action once per round. If she has the ‹feat/Rapid Reload› feat or is using an alchemical cartridge (or both), she can reload a single barrel of the weapon as a @HLfree_action each round instead.\" special=\"Using this deed does not provoke attacks of opportunity.\"}"
+			"::ab{title=\"&L&Lightning Reload (Ex)&FN&\" icon=boost prereq=\"11th-level gunslinger\" ability=\"As long as the gunslinger has at least 1 grit point, she can reload a single barrel of a one-handed or two-handed firearm as a @WA once per round. If she has the ‹feat/Rapid Reload› feat or is using an alchemical cartridge (or both), she can reload a single barrel of the weapon as a @FA each round instead.\" special=\"Using this deed does not provoke attacks of opportunity.\"}"
 		]
 	},
 	"evasive": {

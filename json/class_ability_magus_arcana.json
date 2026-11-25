@@ -158,7 +158,7 @@
 		"description": [
 			"‹SOURCE Ultimate Magic/11›",
 			"",
-			"::ab[Critical Strike (Su):]{icon=power-magic ability=\"Whenever the magus scores a critical hit with a melee weapon, he may cast a spell with a range of touch as a @HLswift_action, then make a touch attack with that spell against the target of the critical hit as a @HLfree_action.\" usage=\"Once per day\" prereq=\"12th-level magus\"}"
+			"::ab[Critical Strike (Su):]{icon=power-magic ability=\"Whenever the magus scores a critical hit with a melee weapon, he may cast a spell with a range of touch as a @WA, then make a touch attack with that spell against the target of the critical hit as a @FA.\" usage=\"Once per day\" prereq=\"12th-level magus\"}"
 		]
 	},
 	"dark_shifter": {
@@ -278,7 +278,7 @@
 		"description": [
 			"‹SOURCE Monster Summoner's Handbook/9›",
 			"",
-			"::ab[Intuitive Protection (Sp):]{icon=def ability=\"When a conjuration (summoning) spell is cast by an opponent and the magus successfully identifies the spell with a ‹skill/Spellcraft› check, he can spend 1 point form his arcane pool as an @HLimmediate_action to cast ‹spell/protection from chaos, evil, good,« or» law› (chosen when using this ability) on himself; this lasts a number of rounds equal to his magus level.\" imp7=\"He can instead cast ‹spell/magic circle against chaos, evil, good,« or» law› when using this ability.\" prereq=\"3rd-level magus\"}"
+			"::ab[Intuitive Protection (Sp):]{icon=def ability=\"When a conjuration (summoning) spell is cast by an opponent and the magus successfully identifies the spell with a ‹skill/Spellcraft› check, he can spend 1 point form his arcane pool as an @IA to cast ‹spell/protection from chaos, evil, good,« or» law› (chosen when using this ability) on himself; this lasts a number of rounds equal to his magus level.\" imp7=\"He can instead cast ‹spell/magic circle against chaos, evil, good,« or» law› when using this ability.\" prereq=\"3rd-level magus\"}"
 		]
 	},
 	"ki_arcana": {
@@ -350,7 +350,7 @@
 		"description": [
 			"‹SOURCE Ultimate Magic/12›",
 			"",
-			"::ab[Pool Strike (Su):]{icon=touch standard=\"The magus can expend 1 point from his arcane pool to charge his free hand with energy. He can make a melee touch attack with that hand as a @HLfree_action as part of activating this ability. If the touch attack hits, it releases the charge and deals 2d6 points of energy damage (acid, cold, electricity, or fire, chosen when he spends the arcane pool point to activate this ability).\" special=\"He can use this ability with the *spellstrike* class feature. If he misses with this attack, he can hold the charge for up to 1 minute before it dissipates.\" incrementPlain=\"The damage~3~3~3~1\" incrementEnd=\"d6.\"}"
+			"::ab[Pool Strike (Su):]{icon=touch standard=\"The magus can expend 1 point from his arcane pool to charge his free hand with energy. He can make a melee touch attack with that hand as a @FA as part of activating this ability. If the touch attack hits, it releases the charge and deals 2d6 points of energy damage (acid, cold, electricity, or fire, chosen when he spends the arcane pool point to activate this ability).\" special=\"He can use this ability with the *spellstrike* class feature. If he misses with this attack, he can hold the charge for up to 1 minute before it dissipates.\" incrementPlain=\"The damage~3~3~3~1\" incrementEnd=\"d6.\"}"
 		]
 	},
 	"pool_strike_arcing": {
@@ -359,7 +359,7 @@
 		"description": [
 			"‹SOURCE Ultimate Combat/54›",
 			"",
-			"::ab[Arcing Pool Strike (Su):]{icon=zap ability=\"The magus can expend 1 additional point from his arcane pool when using the ‹arcana/pool strike› arcana. If his attack hits, the magus can target a number of enemies within 15 feet equal to his Intelligence modifier (minimum 0) with a ranged touch attack as a @HLfree_action. Those struck take the same energy damage as the primary target of the pool strike, including increased damage on a critical hit.\" prereq=\"12th-level magus, ‹arcana/pool strike›\"}"
+			"::ab[Arcing Pool Strike (Su):]{icon=zap ability=\"The magus can expend 1 additional point from his arcane pool when using the ‹arcana/pool strike› arcana. If his attack hits, the magus can target a number of enemies within 15 feet equal to his Intelligence modifier (minimum 0) with a ranged touch attack as a @FA. Those struck take the same energy damage as the primary target of the pool strike, including increased damage on a critical hit.\" prereq=\"12th-level magus, ‹arcana/pool strike›\"}"
 		]
 	},
 	"pool_strike_clinging": {
@@ -512,7 +512,7 @@
 		"description": [
 			"‹SOURCE Blood of the Moon/21›",
 			"",
-			"::ab[Spell Trickery (Ex):]{icon=magic ability=\"When the magus successfully performs a ‹rule/dirty trick› combat maneuver, he can cast an illusion or enchantment spell he has prepared with a casting time of 1 standard action or less as a @HLswift_action.\" usage=\"Once per day\" prereq=\"12th-level magus\"}"
+			"::ab[Spell Trickery (Ex):]{icon=magic ability=\"When the magus successfully performs a ‹rule/dirty trick› combat maneuver, he can cast an illusion or enchantment spell he has prepared with a casting time of 1 standard action or less as a @WA.\" usage=\"Once per day\" prereq=\"12th-level magus\"}"
 		]
 	},
 	"spellbreaker": {
@@ -557,7 +557,7 @@
 		"description": [
 			"‹SOURCE Ranged Tactics Toolbox/13›",
 			"",
-			"::ab[Throwing Magus:]{icon=boost ability=\"Whenever the magus enhances his weapon using his arcane pool, he can spend 1 additional point from his arcane pool to add the ‹magic-enh/returning› and ‹magic-enh/throwing› abilities to the list of available weapon special abilities.~~~When the magus throws a weapon enhanced by his arcane pool and hits a foe, he regains 1 arcane pool point. The magus can regain a number of arcane pool points per day equal to his Intelligence modifier in this way.\" special=\"If he throws his held weapon and draws another in the same round, he can enhance the newly drawn weapon with his arcane pool as a @HLfree_action instead of a swift action.\"}"
+			"::ab[Throwing Magus:]{icon=boost ability=\"Whenever the magus enhances his weapon using his arcane pool, he can spend 1 additional point from his arcane pool to add the ‹magic-enh/returning› and ‹magic-enh/throwing› abilities to the list of available weapon special abilities.~~~When the magus throws a weapon enhanced by his arcane pool and hits a foe, he regains 1 arcane pool point. The magus can regain a number of arcane pool points per day equal to his Intelligence modifier in this way.\" special=\"If he throws his held weapon and draws another in the same round, he can enhance the newly drawn weapon with his arcane pool as a @FA instead of a swift action.\"}"
 		]
 	},
 	"vision_clouding_strike": {

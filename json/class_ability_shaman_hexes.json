@@ -10,7 +10,7 @@
 		"name": "Chant",
 		"compilationSources": [ [ "Advanced Class Guide", 36 ] ],
 		"description": [
-			"::ab{title=\"&L&Chant (Su)&FN&\" icon=boost ability=\"A shaman can chant as a @HLmove_action. Any creature that is within 30 feet that is under the effects of the shaman's ‹shamanhex/charm›, ‹shamanhex/evil eye›, ‹shamanhex/fortune›, ‹shamanhex/fury›, or ‹shamanhex/misfortune› hex has that effect's duration extended by 1 round.\" special=\"A shaman cannot select both this hex and the witch's ‹hex/cackle› hex.\"}"
+			"::ab{title=\"&L&Chant (Su)&FN&\" icon=boost ability=\"A shaman can chant as a @MA. Any creature that is within 30 feet that is under the effects of the shaman's ‹shamanhex/charm›, ‹shamanhex/evil eye›, ‹shamanhex/fortune›, ‹shamanhex/fury›, or ‹shamanhex/misfortune› hex has that effect's duration extended by 1 round.\" special=\"A shaman cannot select both this hex and the witch's ‹hex/cackle› hex.\"}"
 		]
 	},
 	"charm": {
@@ -87,14 +87,14 @@
 		"name": "Shapeshift",
 		"compilationSources": [ [ "Advanced Class Guide", 37 ] ],
 		"description": [
-			"::ab{title=\"&L&Shapeshift (Su)&FN&\" icon=magic ability=\"The shaman transforms herself into another form for a number of minutes per day equal to her level, as ‹spell/alter self›. This duration does not need to be consecutive, but must be spent in 1-minute increments. Changing form (including changing back) is a @HLstandard_action that doesn't provoke an attack of opportunity.\" imp8=\"This ability works as ‹spell/beast shape I›.\" imp12=\"This ability works as ‹spell/beast shape II›.\" imp16=\"This ability works as ‹spell/beast shape III›.\" imp20=\"This ability works as ‹spell/beast shape IV›.\"}"
+			"::ab{title=\"&L&Shapeshift (Su)&FN&\" icon=magic ability=\"The shaman transforms herself into another form for a number of minutes per day equal to her level, as ‹spell/alter self›. This duration does not need to be consecutive, but must be spent in 1-minute increments. Changing form (including changing back) is a @SA that doesn't provoke an attack of opportunity.\" imp8=\"This ability works as ‹spell/beast shape I›.\" imp12=\"This ability works as ‹spell/beast shape II›.\" imp16=\"This ability works as ‹spell/beast shape III›.\" imp20=\"This ability works as ‹spell/beast shape IV›.\"}"
 		]
 	},
 	"silkstring_snare": {
 		"name": "Silkstring Snare",
 		"compilationSources": [ [ "Legacy of the First World", 17 ] ],
 		"description": [
-			"::ab{title=\"&L&Silkstring Snare (Su)&FN&\" icon=lower ability=\"The shaman causes ribbons of spider silk to erupt from the ground beneath a single creature. The target must succeed at a Reflex save or be ‹rule/entangled› and anchored in place. The foe can escape the silk as a @HLstandard_action with a successful ‹skill/Escape Artist› or Strength check at the same DC, or by dealing an amount of damage to the silk equal to double the shaman's class level (the silk has hardness 0).~~~This hex lasts a number of rounds equal to 3 + the shaman's Wisdom modifier.\" special=\"A creature affected by this hex cannot be affected by it again for 24 hours.\"}"
+			"::ab{title=\"&L&Silkstring Snare (Su)&FN&\" icon=lower ability=\"The shaman causes ribbons of spider silk to erupt from the ground beneath a single creature. The target must succeed at a Reflex save or be ‹rule/entangled› and anchored in place. The foe can escape the silk as a @SA with a successful ‹skill/Escape Artist› or Strength check at the same DC, or by dealing an amount of damage to the silk equal to double the shaman's class level (the silk has hardness 0).~~~This hex lasts a number of rounds equal to 3 + the shaman's Wisdom modifier.\" special=\"A creature affected by this hex cannot be affected by it again for 24 hours.\"}"
 		]
 	},
 	"tongues": {

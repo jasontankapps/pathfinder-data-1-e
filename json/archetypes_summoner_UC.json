@@ -60,7 +60,7 @@
 			"",
 			"::cskill{gain=bluff~intm}",
 			"",
-			"::ab[Bond Alignment (Su)]{icon=aura l=2 passive=\"A devil impostor and her eidolon both radiate alignment auras of lawful evil for the purpose of divination spells that reveal auras (such as ‹spell/detect evil›), as long as they remain within 1,000 feet of one another. This does not affect other abilities that depend on alignment (such as *smite evil*).\" special=\"The devil impostor can suppress this effect for 1 minute as a @HLstandard_action.\" replace=\"Bond senses\"}",
+			"::ab[Bond Alignment (Su)]{icon=aura l=2 passive=\"A devil impostor and her eidolon both radiate alignment auras of lawful evil for the purpose of divination spells that reveal auras (such as ‹spell/detect evil›), as long as they remain within 1,000 feet of one another. This does not affect other abilities that depend on alignment (such as *smite evil*).\" special=\"The devil impostor can suppress this effect for 1 minute as a @SA.\" replace=\"Bond senses\"}",
 			"",
 			"::ab[Deceptive Eidolon]{icon=power-aura info=\"A devil impostor's eidolon always resembles a specific type of devil of the same size (caster's choice), and radiates the aura of a lawful evil outsider under magical effects such as *detect evil,* regardless of its actual alignment. The eidolon still uses its actual alignment when resolving all other alignment-dependent abilities, effects, and spells. The eidolon can have any subtype, though its appearance always remains that of a devil, and it can select only evolutions available to its true subtype.\" alter=Eidolon}",
 			"",
@@ -140,7 +140,7 @@
 			"",
 			";;;ab{head title=\"Base Form\" icon=info action=Info alter=Eidolon}",
 			"",
-			"The leshy caller chooses one of the base forms listed below for her eidolon. When the eidolon is summoned in an environment matching one of these base forms, the leshy caller can change the eidolon's base form to the matching form by sacrificing one daily use of her *summon nature's ally* ability as a @HL[free action].",
+			"The leshy caller chooses one of the base forms listed below for her eidolon. When the eidolon is summoned in an environment matching one of these base forms, the leshy caller can change the eidolon's base form to the matching form by sacrificing one daily use of her *summon nature's ally* ability as a @FA.",
 			"",
 			"Plant eidolon base forms are as follows.",
 			"",
@@ -320,7 +320,7 @@
 			"",
 			"Any creatures summoned with this ability gain immunity to electricity.",
 			"",
-			"Alternatively, whenever his eidolon is not summoned, a storm caller can expend a daily use of this ability to summon a magical storm as a @HL[standard action]. This functions as ‹spell/call lightning› with a caster level equal to his summoner level, except as noted below.",
+			"Alternatively, whenever his eidolon is not summoned, a storm caller can expend a daily use of this ability to summon a magical storm as a @SA. This functions as ‹spell/call lightning› with a caster level equal to his summoner level, except as noted below.",
 			"",
 			"Each bolt of lightning deals 1d6 points of electricity damage. As the summoner gains levels, this damage increases as indicated on the table below. The prevailing weather has no effect on the damage of the lightning bolts. The Reflex save DC is equal to 10 + half the storm caller's summoner level + his Charisma modifier. If the storm caller uses this ability again before he has used all of his available bolts of lightning (to summon another magical storm, to summon a monster, or to use the ‹spell/gate› spell), any unused bolts are expended with no effect.",
 			"",
@@ -341,7 +341,7 @@
 			"",
 			";;;",
 			"",
-			"::ab[Electrical Polarity (Su)]{l=4 icon=line ability=\"A storm caller and his eidolon can temporarily form an electrical current between them. The storm caller can expend a use of his *summon storm's fury* ability as a @HLstandard_action to create an instantaneous line of lightning between him and his eidolon, provided that the eidolon is within 60 feet of him. The lightning arc deals the same amount of damage to all creatures in the line and has the same save DC as a bolt of lightning from the *summon storm's fury* ability (unlike *call lightning,* this damage is dealt only once). The storm caller and his eidolon are not affected by this lightning.\" imp12=\"The storm caller gains the benefit of his eidolon's resistance (electricity) or immunity (electricity) evolution whenever he is within 30 feet of the eidolon.\" replace=\"Shield ally~greater shield ally\"}",
+			"::ab[Electrical Polarity (Su)]{l=4 icon=line ability=\"A storm caller and his eidolon can temporarily form an electrical current between them. The storm caller can expend a use of his *summon storm's fury* ability as a @SA to create an instantaneous line of lightning between him and his eidolon, provided that the eidolon is within 60 feet of him. The lightning arc deals the same amount of damage to all creatures in the line and has the same save DC as a bolt of lightning from the *summon storm's fury* ability (unlike *call lightning,* this damage is dealt only once). The storm caller and his eidolon are not affected by this lightning.\" imp12=\"The storm caller gains the benefit of his eidolon's resistance (electricity) or immunity (electricity) evolution whenever he is within 30 feet of the eidolon.\" replace=\"Shield ally~greater shield ally\"}",
 			"",
 			"::ab[Storm's Wings (Su)]{l=6 icon=power ability=\"A storm caller can borrow some of his eidolon's elemental might. He can gain the ‹unchevolution/flight› evolution as though he were using the summoner's *aspect* ability, deducting 2 evolution points from the eidolon's evolution pool. If he does so, his eidolon is unable to take the flight evolution as long as the storm caller has that evolution.\" imp8=\"The storm caller's eidolon can have the flight evolution even if the storm caller has that evolution.\" imp10=\"The storm caller automatically gains the flight evolution without reducing the number of evolution points available to the eidolon. He can use the *aspect* ability (and at 18th level, the *greater aspect* ability) to gain additional evolutions.\" replace=\"Maker's call~transposition\"}"
 		]
@@ -359,9 +359,9 @@
 			"",
 			"::ab[Teamwork Feats (Ex)]{icon=power l4=\"A twinned summoner gains a bonus ‹main/teamwork feat›. He must meet the prerequisites of the selected teamwork feat.\" l12=\"The summoner gains another bonus teamwork feat he meets the prerequisites of.\" special=\"The twinned summoner automatically grants all of his teamwork feats to his eidolon. The eidolon doesn't need to meet the prerequisites of these teamwork feats.\" replace=\"Shield ally~greater shield ally\"}",
 			"",
-			"::ab[Twinned Transposition (Su)]{l=6 icon=magic useInc=summoner~4~6 useF=\"6~1~4\" standard=\"A twinned summoner can swap locations with his eidolon as if each were using ‹spell/dimension door›, using the twinned summoner's caster level. If the eidolon is out of range, the ability is wasted. If either the twinned summoner or his eidolon occupies more squares than the other, each must occupy one or more squares that were occupied by the other if possible, or as close as possible if not.\" imp8=\"He can use this ability as a @HLswift_action.\" replace=\"Maker's call~transposition\"}",
+			"::ab[Twinned Transposition (Su)]{l=6 icon=magic useInc=summoner~4~6 useF=\"6~1~4\" standard=\"A twinned summoner can swap locations with his eidolon as if each were using ‹spell/dimension door›, using the twinned summoner's caster level. If the eidolon is out of range, the ability is wasted. If either the twinned summoner or his eidolon occupies more squares than the other, each must occupy one or more squares that were occupied by the other if possible, or as close as possible if not.\" imp8=\"He can use this ability as a @WA.\" replace=\"Maker's call~transposition\"}",
 			"",
-			"::ab[Twin Summoner (Su)]{l=16 icon=magic standard=\"A twinned summoner can touch his eidolon, enhancing its similarity to the summoner. The eidolon loses any natural weapons or size increases gained from evolutions, and its Intelligence, Wisdom, and Charisma scores change to match the base scores of the summoner. The eidolon can cast any of the summoner's spells known using the summoner's caster level and spell slots. It doesn't gain the benefit of any of the summoner's items, feats, or other effects that affect spellcasting.\" useL=summoner useUnit=m useNC=1 special=\"The summoner can end this effect as a @HLfree_action.\" replace=\"Merge forms\"}"
+			"::ab[Twin Summoner (Su)]{l=16 icon=magic standard=\"A twinned summoner can touch his eidolon, enhancing its similarity to the summoner. The eidolon loses any natural weapons or size increases gained from evolutions, and its Intelligence, Wisdom, and Charisma scores change to match the base scores of the summoner. The eidolon can cast any of the summoner's spells known using the summoner's caster level and spell slots. It doesn't gain the benefit of any of the summoner's items, feats, or other effects that affect spellcasting.\" useL=summoner useUnit=m useNC=1 special=\"The summoner can end this effect as a @FA.\" replace=\"Merge forms\"}"
 		]
 	}
 }

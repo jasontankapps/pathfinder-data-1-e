@@ -1736,7 +1736,7 @@
 			"",
 			"The next entry provides the DC of the Profession (herbalist) check to find and gather the herb with a day's worth of work. This is followed by the yield - the base number of doses that can be gathered each day. Extra yields can be gained with greater success on a gathering roll or by taking an entire day to do nothing but gather herbs.",
 			"",
-			"After that is a description of the terrain the herb appears in. This is followed by information about how the herb must be prepared in order for it to be used. Finally, the use for the prepared herb is detailed at the end of the block. Applying, eating, or using a prepared herb typically requires a @HL[standard action] that provokes attacks of opportunity, unless otherwise specified in the description.",
+			"After that is a description of the terrain the herb appears in. This is followed by information about how the herb must be prepared in order for it to be used. Finally, the use for the prepared herb is detailed at the end of the block. Applying, eating, or using a prepared herb typically requires a @SA that provokes attacks of opportunity, unless otherwise specified in the description.",
 			"",
 			"At the very end, there is a brief description of the herb's appearance."
 		],

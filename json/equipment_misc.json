@@ -49,7 +49,7 @@
 			"",
 			"This jar contains 6 ounces of alchemically preserved ‹monster/aboleth› mucus.",
 			"",
-			"@I-power When 1 ounce of the extract is applied to a living creature's mouth, nose, and throat (a @HL[full-round action]), the target loses its ability to breathe air but gains the ability to breathe water for 1 hour. An unwilling target can attempt a DC 14 Fortitude save to negate the effect.",
+			"@I-power When 1 ounce of the extract is applied to a living creature's mouth, nose, and throat (a @RA), the target loses its ability to breathe air but gains the ability to breathe water for 1 hour. An unwilling target can attempt a DC 14 Fortitude save to negate the effect.",
 			"",
 			"If additional doses are applied to the same creature, the duration of the effect extends by 1 hour for each ounce used, to a maximum of 3 hours."
 		]
@@ -136,7 +136,7 @@
 			"‹SOURCE Adventurer's Armory 2/12;Seekers of Secrets/42›  ",
 			"::tabular{format=misc a=20 b=3 d=gear}",
 			"",
-			"This bandolier holds six pouches along its length and a satchel at the hip. Each pouch has a stiff leather flap that can be secured against jostling with a clasp (requiring a @HL[move action] to open or close) or left unfastened for easier access. The pouches and satchel contain loops and ties for securing additional equipment. The sash buckles at the shoulder, and in an emergency can be freed with a sharp tug as a @HL[move action]."
+			"This bandolier holds six pouches along its length and a satchel at the hip. Each pouch has a stiff leather flap that can be secured against jostling with a clasp (requiring a @MA to open or close) or left unfastened for easier access. The pouches and satchel contain loops and ties for securing additional equipment. The sash buckles at the shoulder, and in an emergency can be freed with a sharp tug as a @MA."
 		]
 	},
 	"age_ointment": {
@@ -173,7 +173,7 @@
 			"‹SOURCE Pathfinder Society Field Guide/48›  ",
 			"::tabular{format=misc a=50 b=x d=rem}",
 			"",
-			"@I-aid These unpleasant-tasting, alchemically grown crystals release breathable air when chewed. A pouch of *air crystals* provides 1 minute of breathable air. Placing *air crystals* in your mouth takes a @HL[standard action]; chewing them each round is a @HL[free action].",
+			"@I-aid These unpleasant-tasting, alchemically grown crystals release breathable air when chewed. A pouch of *air crystals* provides 1 minute of breathable air. Placing *air crystals* in your mouth takes a @SA; chewing them each round is a @FA.",
 			"",
 			"@I-warning Any attempt to speak while chewing *air crystals* negates any remaining duration."
 		]
@@ -199,7 +199,7 @@
 			"",
 			"An air-breathing adventurer would need to bring over a dozen tanks full of air with her to have enough to breathe for even a single hour. Since this is impractical, alchemists developed a technique to store greater amounts of air in a smaller volume using pressure.",
 			"",
-			"Each pressurized air tank is a little smaller than half the size of a tank, but it contains enough air for a swimming character to breathe for 1 hour (the pressurized air itself weighs 7 pounds, so an empty tank weighs only 23 pounds). When a small crank is manipulated as a @HL[standard action], the tank releases just enough air for a breath, which the diving character breathes in through a straw-like tube with a semi-permeable end piece that allows air out but not water in.",
+			"Each pressurized air tank is a little smaller than half the size of a tank, but it contains enough air for a swimming character to breathe for 1 hour (the pressurized air itself weighs 7 pounds, so an empty tank weighs only 23 pounds). When a small crank is manipulated as a @SA, the tank releases just enough air for a breath, which the diving character breathes in through a straw-like tube with a semi-permeable end piece that allows air out but not water in.",
 			"",
 			"The process of refilling the air tank requires 5 gp of materials and a successful DC 20 ‹skill/Craft› (alchemy) check (failure destroys the tank) or the services of a ‹class/kineticist› with ‹kinetic/basic aerokinesis›."
 		]
@@ -259,7 +259,7 @@
 			"‹SOURCE Villain Codex/44›  ",
 			"::tabular{format=misc a=300 b=1 d=atool}",
 			"",
-			"@I-def This caustic alchemical solution dissolves blood, hair, and small pieces of flesh. Distributing it over a 5-foot square takes one @HL[full-round action] and increases the DC of ‹skill/Perception› checks to find such materials by 20. (A creature that fails the Perception check to find such materials by 5 or less realizes the area has been unnaturally cleared of them.) This applies only to the original Perception DC, not a substituted skill check like those from the cleaner or traceless archetypes.",
+			"@I-def This caustic alchemical solution dissolves blood, hair, and small pieces of flesh. Distributing it over a 5-foot square takes one @RA and increases the DC of ‹skill/Perception› checks to find such materials by 20. (A creature that fails the Perception check to find such materials by 5 or less realizes the area has been unnaturally cleared of them.) This applies only to the original Perception DC, not a substituted skill check like those from the cleaner or traceless archetypes.",
 			"",
 			"One pot of *alchemical cleaner* contains enough liquid to cover nine 5-foot squares. A pot of *alchemical cleaner* can be thrown as a ‹rule/splash weapon› and functions as an ‹eq-weapon/alkali flask› when thrown.",
 			"",
@@ -293,7 +293,7 @@
 			"‹SOURCE Ultimate Equipment/103›  ",
 			"::tabular{format=misc a=25 b=x d=atool}",
 			"",
-			"@I-boost This tiny dropper contains a liquid that speeds up the cure time of ‹eq-misc/alchemical glue›. Applying the accelerant is a @HL[standard action]. Accelerated glue is tacky after 1 round and fully cured in 1 minute. The dropper contains 20 doses; each dose is sufficient to cure one small application of alchemical glue. The entire dropper must be used to cure a full square foot of glue.",
+			"@I-boost This tiny dropper contains a liquid that speeds up the cure time of ‹eq-misc/alchemical glue›. Applying the accelerant is a @SA. Accelerated glue is tacky after 1 round and fully cured in 1 minute. The dropper contains 20 doses; each dose is sufficient to cure one small application of alchemical glue. The entire dropper must be used to cure a full square foot of glue.",
 			"",
 			"::tabular{format=craftalch a=25}"
 		]
@@ -395,7 +395,7 @@
 			"",
 			"Each small tin of this specially treated jam contains just enough of the gooey stuff to provide a ‹race/halfling› with a single serving of revitalizing nourishment.",
 			"",
-			"@I-aid-down While any creature can eat these preserves as a @HL[standard action], it only affects halflings in a beneficial way. Halflings who eat the preserves recover from ‹misc/fatigue›. Non-halflings who eat *alchemical preserves* become ‹misc/sickened› for 1 round.",
+			"@I-aid-down While any creature can eat these preserves as a @SA, it only affects halflings in a beneficial way. Halflings who eat the preserves recover from ‹misc/fatigue›. Non-halflings who eat *alchemical preserves* become ‹misc/sickened› for 1 round.",
 			"",
 			"::tabular{format=craftalch a=20}"
 		]
@@ -410,7 +410,7 @@
 			"",
 			"@I-def-boost When applied to your hands, this clear, sticky substance made from alchemically prepared pine sap provides a +2 alchemical bonus to your CMD against ‹rule/disarm› attempts, on combat maneuver checks to ‹rule/grapple›, and on ‹skill/Climb› checks; it also functions underwater.",
 			"",
-			"Applying the resin is a @HL[standard action], and it wears off 1 hour after being applied."
+			"Applying the resin is a @SA, and it wears off 1 hour after being applied."
 		]
 	},
 	"alchemical_sling_bullet": {
@@ -423,7 +423,7 @@
 			"",
 			"Used by ‹race/hobgoblin› ‹class/alchemist«s› to equip their comrades, these spherical glass vials can each be filled with 1 dose of an alchemical splash weapon, allowing them to be used as ammunition for a ‹eq-weapon/sling›. On a hit, an alchemical sling bullet shatters, affecting the target with the alchemical solution within. This deals only the splash weapon's damage (if any), not the damage a sling bullet would normally deal. This attack resolves against the target's normal AC (rather than touch AC) as with a standard sling bullet, and uses the sling's range. An alchemical sling bullet does not deal splash damage to squares adjacent to the target. If an attack roll with an alchemical sling bullet misses, the bullet and its alchemical contents are destroyed, and do not risk detonating in another square.",
 			"",
-			"Filling an alchemical sling bullet is a @HL[standard action] that provokes attacks of opportunity, and you must succeed at a DC 15 ‹skill/Craft› (alchemy) or ‹skill/Sleight of Hand› check to avoid spilling the alchemical item on yourself. On a failed check, the splash weapon explodes in your square as though you were targeted by the item (including any splash effects on adjacent squares)."
+			"Filling an alchemical sling bullet is a @SA that provokes attacks of opportunity, and you must succeed at a DC 15 ‹skill/Craft› (alchemy) or ‹skill/Sleight of Hand› check to avoid spilling the alchemical item on yourself. On a failed check, the splash weapon explodes in your square as though you were targeted by the item (including any splash effects on adjacent squares)."
 		]
 	},
 	"alchemical_solvent": {
@@ -451,7 +451,7 @@
 			"‹SOURCE Black Markets/20›  ",
 			"::tabular{format=misc a=50 b=\"0.5\" d=gear}",
 			"",
-			"This 5-foot square of paper is covered in alchemical tar on both sides. Removing its protective wax cover and applying the tar paper to a surface requires a @HL[full-round action].",
+			"This 5-foot square of paper is covered in alchemical tar on both sides. Removing its protective wax cover and applying the tar paper to a surface requires a @RA.",
 			"",
 			"Any creature that enters this space must succeed a DC 15 Reflex save or be glued to the floor, unable to move away. A victim can break free with a successful DC 17 Strength check or by dealing 15 points of damage to the tar paper with a slashing weapon. Once free, the creature moves (even if flying) at half speed.",
 			"",
@@ -728,7 +728,7 @@
 			"‹SOURCE Alchemy Manual/19›  ",
 			"::tabular{format=misc a=30 b=x d=atool}",
 			"",
-			"@I-boost-down This liquid intensifier can be added to a drug as a @HL[move action] no more than 1 round before the drug is taken. *Amp* increases all numeric effects of a drug by 50%, including any bonuses, penalties, and ability damage inflicted by the drug. Using *amp* with a drug increases the save DC to avoid becoming addicted to that drug by 2 for 1d4 days; this increase stacks.",
+			"@I-boost-down This liquid intensifier can be added to a drug as a @MA no more than 1 round before the drug is taken. *Amp* increases all numeric effects of a drug by 50%, including any bonuses, penalties, and ability damage inflicted by the drug. Using *amp* with a drug increases the save DC to avoid becoming addicted to that drug by 2 for 1d4 days; this increase stacks.",
 			"",
 			"If a drug combined with *amp* is not consumed within 1 round, the *amp* spoils and the drug becomes tainted, as if cut with ‹eq-misc/bunk›.",
 			"",
@@ -743,7 +743,7 @@
 			"‹SOURCE People of the Stars/19›  ",
 			"::tabular{format=misc a=300 b=25 d=tools}",
 			"",
-			"An anchoring balloon is a single-use alchemical device designed to provide a standing platform on a gaseous planet. When a cord is pulled as a @HL[standard action], an alchemical reaction fills the balloon with hydrogen gas almost instantly. Twenty-foot-long ropes attach the balloon to a lightweight, collapsible 10-foot-square steel basket with 5-foot-high sides. The inflated balloon is a Gargantuan object.",
+			"An anchoring balloon is a single-use alchemical device designed to provide a standing platform on a gaseous planet. When a cord is pulled as a @SA, an alchemical reaction fills the balloon with hydrogen gas almost instantly. Twenty-foot-long ropes attach the balloon to a lightweight, collapsible 10-foot-square steel basket with 5-foot-high sides. The inflated balloon is a Gargantuan object.",
 			"",
 			"Although it moves with the wind horizontally, the basket maintains its initial altitude to within a few feet so long as its load is less than 2,000 pounds (divided by the planet's gravity multiplier). Beyond that weight limit, the balloon may sink or the basket may break (at the GM's discretion). The balloon remains inflated for 24 hours before its seals fail."
 		]
@@ -792,7 +792,7 @@
 			"",
 			"@I-lower For every *angel quill arrowhead* that damages a target with DR/cold iron, the target's damage reduction decreases by 1. Up to five *angel quill arrowheads* can affect a single target at any one time, reducing the target's DR/cold iron by up to 5 (additional arrowheads have no effect aside from dealing damage as normal).",
 			"",
-			"An affected target can pull out a number of arrowheads equal to her Dexterity modifier (minimum 1) as a @HL[full-round action] with a successful DC 15 ‹skill/Heal› check. Alternatively, the application of any magical healing causes all *angel quill arrowheads* embedded in the creature to instantly fall out.",
+			"An affected target can pull out a number of arrowheads equal to her Dexterity modifier (minimum 1) as a @RA with a successful DC 15 ‹skill/Heal› check. Alternatively, the application of any magical healing causes all *angel quill arrowheads* embedded in the creature to instantly fall out.",
 			"",
 			"*Angel quill arrowheads* of ‹eq-material/silver› and ‹eq-material/adamantine› are also available for the same price, and affect creatures with DR/silver or DR/adamantine, respectively.",
 			"",
@@ -820,7 +820,7 @@
 			"",
 			"Named after a common children's toy, this metal box, typically no larger than 1 cubic foot in volume, possesses a secret compartment large enough to store one flask or vial.",
 			"",
-			"@I-zap When loaded with a splash weapon or a vial of poison (contact or inhaled poisons only) and armed as a @HL[full-round action], an *angry jack* attacks the next creature to open the box, using its spring-loaded interior to launch that item at the target as a ranged touch attack (attack bonus +0). A creature struck by a contact poison in this way is exposed to the poison as normal, but a creature is automatically exposed to a loaded inhalation poison with no attack roll needed.",
+			"@I-zap When loaded with a splash weapon or a vial of poison (contact or inhaled poisons only) and armed as a @RA, an *angry jack* attacks the next creature to open the box, using its spring-loaded interior to launch that item at the target as a ranged touch attack (attack bonus +0). A creature struck by a contact poison in this way is exposed to the poison as normal, but a creature is automatically exposed to a loaded inhalation poison with no attack roll needed.",
 			"",
 			"Identifying an *angry jack* requires a successful a DC 20 ‹skill/Perception› check. A character who is trained in the ‹skill/Disable Device› skill can spend 10 minutes disguising an armed *angry jack,* allowing her to roll a Disable Device check and use the result as the Perception DC for others to detect the true nature of the *angry jack.* The user can't take 10 or 20 on the Disable Device check."
 		]
@@ -1308,7 +1308,7 @@
 			"",
 			"A popular export from the Forest of Oils - a field of massive oil bubbles on the Elemental Plane of Water - *aquemir* is a transparent substance extracted from the skins of autonomous oil orbs and refined into a useful alchemical reagent.",
 			"",
-			"@I-power As a @HL[standard action], *aquemir* can be mixed with an alchemical remedy, extract, or potion to delay the start of its effects by 2 minutes when it is imbibed. Administering a potion or extract that's properly infused with *aquemir* requires 1 dose of *aquemir* per spell level to function in this way, whereas an alchemical remedy only requires 1 dose. If not enough *aquemir* is mixed with a potion or extract, the potion or extract's effects are not delayed at all.",
+			"@I-power As a @SA, *aquemir* can be mixed with an alchemical remedy, extract, or potion to delay the start of its effects by 2 minutes when it is imbibed. Administering a potion or extract that's properly infused with *aquemir* requires 1 dose of *aquemir* per spell level to function in this way, whereas an alchemical remedy only requires 1 dose. If not enough *aquemir* is mixed with a potion or extract, the potion or extract's effects are not delayed at all.",
 			"",
 			"@I-warning A creature can internally store only one substance that uses *aquemir;* further attempts waste all imbibed substances (and immediately render inert all potions, extracts, alchemical remedies, and so on) and cause the creature to become ‹misc/nauseated› for 1d4 rounds.",
 			"",
@@ -1439,7 +1439,7 @@
 			"",
 			"Flexible tubes connect a hand pump and a breathing mask to this reinforced leather backpack. When the hand pump is pressed, the artificial gills draw in oxygen from the surrounding water and feed it through the mask, allowing the wearer to breathe underwater for extended periods of time.",
 			"",
-			"The hand pump must be regularly depressed, requiring you to have a free hand and use a @HL[move action] each round. If you do not squeeze the hand pump in a round, you must ‹misc/hold your breath› or begin to ‹rule/suffocate›. Artificial gills eventually become clogged with particulates and must be disassembled and cleaned after 1 hour of being submerged, although this time can be dramatically shortened by murky or polluted water.",
+			"The hand pump must be regularly depressed, requiring you to have a free hand and use a @MA each round. If you do not squeeze the hand pump in a round, you must ‹misc/hold your breath› or begin to ‹rule/suffocate›. Artificial gills eventually become clogged with particulates and must be disassembled and cleaned after 1 hour of being submerged, although this time can be dramatically shortened by murky or polluted water.",
 			"",
 			"Artificial gills provide no protection against ‹rule/water>temperature» dangers« or pressure damage› in the open seas. If artificial gills are submerged more than 100 feet below the surface, they take 1d6 points of damage per round until they are either brought into shallower water or they rupture from the pressure. Artificial gills have a ‹rule/hardness› of 0, 10 hit points, and a break DC of 30."
 		]
@@ -1729,7 +1729,7 @@
 			"",
 			"Typically worn by senior members of a faith, these cumbersome but splendidly ornate garments create an aura of dignity and gravitas that few dare to challenge.",
 			"",
-			"@I-boost When activated, the garments make you seem more impressive and worthy of respect to all viewers within 60 feet of you; you may make a single ‹skill/Diplomacy› check to change the attitudes of these viewers as a @HL[swift action]. You can only use this ability on a particular viewer once per day (additional attempts have no effect, though you can still persuade viewers normally without the help of the focus)."
+			"@I-boost When activated, the garments make you seem more impressive and worthy of respect to all viewers within 60 feet of you; you may make a single ‹skill/Diplomacy› check to change the attitudes of these viewers as a @WA. You can only use this ability on a particular viewer once per day (additional attempts have no effect, though you can still persuade viewers normally without the help of the focus)."
 		]
 	},
 	"automatic_writing_planchette": {
@@ -1824,7 +1824,7 @@
 			"",
 			"::tabular{format=misc id=carry a=25 b=5 d=gear}",
 			"",
-			"Reinforced metal bars allow for this leather backpack to withstand a greater degree of stress than a traditional pack. Along with the standard backpack compartment, this pack has an additional pouch and harness at its top. Used together, the harness and pouch can safely contain a Tiny or smaller creature. While harnessed, the creature can't leave the backpack or see outside of it; it takes a @HL[full-round action] to remove the harness from a carried creature.",
+			"Reinforced metal bars allow for this leather backpack to withstand a greater degree of stress than a traditional pack. Along with the standard backpack compartment, this pack has an additional pouch and harness at its top. Used together, the harness and pouch can safely contain a Tiny or smaller creature. While harnessed, the creature can't leave the backpack or see outside of it; it takes a @RA to remove the harness from a carried creature.",
 			"",
 			"::h3[Hydration Backpack]{jl}",
 			"",
@@ -1838,7 +1838,7 @@
 			"",
 			"::tabular{format=misc id=weapon a=25 b=5 d=gear}",
 			"",
-			"This leather backpack includes a small weapons rack. The rack holds up to four weapons, such as battleaxes, longswords, maces, or short swords. Allies adjacent to you can retrieve a weapon from the rack as a @HL[move action] without provoking attacks of opportunity, as if they were simply drawing a weapon. Like a normal backpack, it can hold 2 cubic feet of material in its main compartment."
+			"This leather backpack includes a small weapons rack. The rack holds up to four weapons, such as battleaxes, longswords, maces, or short swords. Allies adjacent to you can retrieve a weapon from the rack as a @MA without provoking attacks of opportunity, as if they were simply drawing a weapon. Like a normal backpack, it can hold 2 cubic feet of material in its main compartment."
 		]
 	},
 	"backpack": {
@@ -1874,7 +1874,7 @@
 			"",
 			"This stuffed badger - a well-loved and legally protected animal in Absalom - is realistic enough to fool most other animals into thinking it is real.",
 			"",
-			"@I-lower As a @HL[move action], a wielder can use a free hand to present the plush; any Small or smaller animal with an Intelligence score of 1 or 2 that can see it takes a -2 penalty on initiative checks."
+			"@I-lower As a @MA, a wielder can use a free hand to present the plush; any Small or smaller animal with an Intelligence score of 1 or 2 that can see it takes a -2 penalty on initiative checks."
 		]
 	},
 	"badger": {
@@ -2288,7 +2288,7 @@
 			"",
 			"@I-warning If the tracking creature is following the smell of *beast-scent* itself, ‹skill/Survival› checks to track gain a +10 circumstance bonus instead.",
 			"",
-			"A single vial of *beast-scent* masks the scent of one Medium creature or two smaller creatures; larger creatures require proportionally more to gain the benefits. *Beast-scent* becomes inert after 1 hour of exposure to air. Applying a vial is a @HL[full-round action] that provokes attacks of opportunity.",
+			"A single vial of *beast-scent* masks the scent of one Medium creature or two smaller creatures; larger creatures require proportionally more to gain the benefits. *Beast-scent* becomes inert after 1 hour of exposure to air. Applying a vial is a @RA that provokes attacks of opportunity.",
 			"",
 			"::tabular{format=craftalch a=25}"
 		]
@@ -2499,7 +2499,7 @@
 		"description": [
 			"## Black Amaranth",
 			"‹SOURCE Ultimate Wilderness/152›  ",
-			"::tabular{format=misc a=100 b=x d=herb e=18 f=\"1 dose\" g=\"temperate or warm forests or plains\" h=\"The amaranth's flowers and stalks must be carefully ground into paste. This requires a successful DC 12 ‹skill/Craft› (alchemy) check and 1 hour of work.\" i=\"@I-protect A dose of black amaranth paste can be applied to a dead body to slow decay. One dose used on a Tiny or smaller creature delays the onset of decay for 3 days (as per ‹spell/gentle repose›). Two doses are needed for Small creatures, 3 for Medium creatures, 6 for Large creatures, 12 for Huge creatures, 24 for Gargantuan creatures, and 48 for Colossal creatures. Each dose applied requires a @HLfull-round_action that provokes attacks of opportunity.\"}",
+			"::tabular{format=misc a=100 b=x d=herb e=18 f=\"1 dose\" g=\"temperate or warm forests or plains\" h=\"The amaranth's flowers and stalks must be carefully ground into paste. This requires a successful DC 12 ‹skill/Craft› (alchemy) check and 1 hour of work.\" i=\"@I-protect A dose of black amaranth paste can be applied to a dead body to slow decay. One dose used on a Tiny or smaller creature delays the onset of decay for 3 days (as per ‹spell/gentle repose›). Two doses are needed for Small creatures, 3 for Medium creatures, 6 for Large creatures, 12 for Huge creatures, 24 for Gargantuan creatures, and 48 for Colossal creatures. Each dose applied requires a @RA that provokes attacks of opportunity.\"}",
 			"",
 			"Black amaranth grows in small clusters from the remains of the dead."
 		]
@@ -2689,7 +2689,7 @@
 			"",
 			"This volatile gray paste sticks to solid surfaces and creates a concentrated blast when exposed to fire, making it a valuable excavation tool.",
 			"",
-			"@I-power You can apply 1 dose of *blasting jelly* to a 5-foot square as a @HL[standard action]. The paste can be ignited with another standard action by striking it from an adjacent square with a metal weapon or object. When thus ignited or otherwise exposed to fire, the jelly explodes, dealing 2d6 points of fire damage to creatures and unattended objects within the treated square. If the ignited square is adjacent to another square containing *blasting jelly,* that square ignites as well.",
+			"@I-power You can apply 1 dose of *blasting jelly* to a 5-foot square as a @SA. The paste can be ignited with another standard action by striking it from an adjacent square with a metal weapon or object. When thus ignited or otherwise exposed to fire, the jelly explodes, dealing 2d6 points of fire damage to creatures and unattended objects within the treated square. If the ignited square is adjacent to another square containing *blasting jelly,* that square ignites as well.",
 			"",
 			"Blasting jelly deals full damage to objects made of stone or softer material. *Blasting jelly* decays relatively quickly when exposed to air, becoming inert after 4 hours if not ignited."
 		]
@@ -2761,7 +2761,7 @@
 			"‹SOURCE Blood of the Sea/18›  ",
 			"::tabular{format=misc a=25 b=1 d=atool}",
 			"",
-			"@I-aura-def When you release this vial of alchemical particles into the water as a @HL[standard action], the particles immediately neutralize the scent of exposed blood within 20 feet, rendering the blood undetectable by ‹umr/scent› (to a hunting shark, for example). *Blood neutralizer* has no effect on any blood that enters the area after the particles have been used.",
+			"@I-aura-def When you release this vial of alchemical particles into the water as a @SA, the particles immediately neutralize the scent of exposed blood within 20 feet, rendering the blood undetectable by ‹umr/scent› (to a hunting shark, for example). *Blood neutralizer* has no effect on any blood that enters the area after the particles have been used.",
 			"",
 			"::tabular{format=craftalch a=25}"
 		]
@@ -2881,7 +2881,7 @@
 		"description": [
 			"## Bloody Mandrake",
 			"‹SOURCE Ultimate Wilderness/153›  ",
-			"::tabular{format=misc a=15 b=x d=herb e=20 f=\"1d4 doses\" g=\"any plains or swamps\" h=\"A bloody mandrake must be pulped so that its sticky red sap can be gathered, skimmed, and then refined into an even stickier paste; this process requires a successful DC 15 ‹skill/Craft› (alchemy) check and 1d4 hours of work per yield.\" i=\"@I-boost One dose of bloody mandrake paste smeared on the lips (this is a @HLfree_action) during spellcasting can be used as an additional material component when casting spells that remove afflictions and conditions or that provide a morale bonus. Doing so grants a +1 bonus to the spell's effective caster level.\"}",
+			"::tabular{format=misc a=15 b=x d=herb e=20 f=\"1d4 doses\" g=\"any plains or swamps\" h=\"A bloody mandrake must be pulped so that its sticky red sap can be gathered, skimmed, and then refined into an even stickier paste; this process requires a successful DC 15 ‹skill/Craft› (alchemy) check and 1d4 hours of work per yield.\" i=\"@I-boost One dose of bloody mandrake paste smeared on the lips (this is a @FA) during spellcasting can be used as an additional material component when casting spells that remove afflictions and conditions or that provide a morale bonus. Doing so grants a +1 bonus to the spell's effective caster level.\"}",
 			"",
 			"Bloody mandrakes grow from the corpses of intelligent creatures who had supernatural powers in life. This plant's unsettlingly humanoid-shaped tuber-like roots increase fertility and vitality."
 		]
@@ -3055,7 +3055,7 @@
 			"",
 			"This braided metal cord comes with a clasp that affixes to the lock of a standard ‹eq-misc/spellbook›. The other end of the cord attaches to a belt or belt loop. The cord is 10 feet long and retractable.",
 			"",
-			"@I-def If you drop your spellbook while it's attached to the lariat, you can recover the spellbook as a @HL[standard action]. While attached to you, the book can never be farther than 10 feet from you. Unclasping the book requires a @HL[move action], or the cord can be cut to free the book (‹rule/hardness› 5, hp 10)."
+			"@I-def If you drop your spellbook while it's attached to the lariat, you can recover the spellbook as a @SA. While attached to you, the book can never be farther than 10 feet from you. Unclasping the book requires a @MA, or the cord can be cut to free the book (‹rule/hardness› 5, hp 10)."
 		]
 	},
 	"book_of_letters": {
@@ -3109,7 +3109,7 @@
 			"",
 			"This spiraled metal rod has alchemically treated bristles that can be used in the barrel of an early or advanced firearm to liquefy grime and bullet fouling while leaving a thin protective film in the bore.",
 			"",
-			"@I-boost Using this brush is a @HL[standard action], and the protective film grants a 5-foot alchemical bonus to the firearm's first range increment and a +1 alchemical bonus on attack rolls. These effects last for 1 hour or until the firearm is fired.",
+			"@I-boost Using this brush is a @SA, and the protective film grants a 5-foot alchemical bonus to the firearm's first range increment and a +1 alchemical bonus on attack rolls. These effects last for 1 hour or until the firearm is fired.",
 			"",
 			"A newly crafted *bore brush* contains 5 applications.",
 			"",
@@ -3157,7 +3157,7 @@
 			"‹SOURCE Undead Slayer's Handbook/13›  ",
 			"::tabular{format=misc a=200 b=2 d=atool}",
 			"",
-			"@I-power As a @HL[standard action], this ornate rectangular jar can be vigorously shaken to cause its contents to mix and activate. Once shaken, the contents of the jar shed light as a ‹eq-misc/sunrod› for 6 hours.",
+			"@I-power As a @SA, this ornate rectangular jar can be vigorously shaken to cause its contents to mix and activate. Once shaken, the contents of the jar shed light as a ‹eq-misc/sunrod› for 6 hours.",
 			"",
 			"@I-boom A jar of activated *bottled sunlight* can be thrown as a ‹rule/splash weapon› with a range increment of 10 feet. Upon striking a solid object, the *bottled sunlight* creates a 30-foot-radius ‹misc/burst› of natural sunlight that persists for 1 round, after which all light from the jar fades.",
 			"",
@@ -3174,7 +3174,7 @@
 			"‹SOURCE Aquatic Adventures/56›  ",
 			"::tabular{format=misc a=5 b=50 d=gear}",
 			"",
-			"This dense anchor is attached to a sturdy but easily detachable chain (removing the chain is a @HL[move action]).",
+			"This dense anchor is attached to a sturdy but easily detachable chain (removing the chain is a @MA).",
 			"",
 			"@I-down Wearing a bottomwalker's anchor all but guarantees an undersea explorer a swiftly sinking ‹rule/buoyancy›, though it also increases her armor check penalty by 1 and decreases her maximum Dexterity bonus by 1 (or sets it at +6, if the wearer didn't have a maximum Dexterity bonus). Compared to simply carrying plenty of dense items, it's unwieldy, but the advantage is that the undersea explorer can detach the anchor in a hurry in order to float to the surface, while unloading a number of dense objects might be a slow process (and could deprive the explorer of valuable gear)."
 		]
@@ -3509,7 +3509,7 @@
 			"",
 			"This fist-sized alchemically treated animal bladder is tightly sealed around a small wooden grip. By giving the handle a sharp twist you break a tiny glass ampoule just inside the bladder, filling the bag with buoyant gas and causing it to swell into a 3-foot-diameter sphere.",
 			"",
-			"@I-power Inflating the balloon is a @HL[move action]. Once filled, the balloon floats upward at a speed of 60 feet per round. The balloon can lift up to 20 pounds of weight as it rises, though carrying more than 10 pounds reduces its speed to 30 feet per round. Multiple balloons attached to a single object add their carrying capacities together when determining how much weight they can lift.",
+			"@I-power Inflating the balloon is a @MA. Once filled, the balloon floats upward at a speed of 60 feet per round. The balloon can lift up to 20 pounds of weight as it rises, though carrying more than 10 pounds reduces its speed to 30 feet per round. Multiple balloons attached to a single object add their carrying capacities together when determining how much weight they can lift.",
 			"",
 			"If a balloon is not held or bound in place in some manner, it continues to rise until it reaches a height of 600 feet, or until 10 minutes have passed, after which it pops or deflates and is destroyed.",
 			"",
@@ -3789,7 +3789,7 @@
 			"",
 			"This loose mesh of twine and varicolored cloth is used to disguise the presence of creatures or large objects. Camouflage netting must be manufactured to provide camouflage in a single type of terrain, such as snow, sand, forest, grass, swamp, urban, or water.",
 			"",
-			"@I-def-warning When you hide under the netting in the appropriate terrain, you gain a +4 circumstance bonus on ‹skill/Stealth› checks as long as you remain immobile and ‹rule/prone›. Covering up with camouflage netting is a @HL[full-round action] requiring a DC 10 ‹skill/Survival› check (failure means you do not cover yourself correctly with the netting and do not gain its bonus on Stealth checks). You have the ‹rule/entangled› condition when using the netting, except your Dexterity penalty does not affect your initiative or Stealth checks. Taking off camouflage netting is a @HL[move action], or a @HL[swift action] if combined with a move action to stand up from a prone position.",
+			"@I-def-warning When you hide under the netting in the appropriate terrain, you gain a +4 circumstance bonus on ‹skill/Stealth› checks as long as you remain immobile and ‹rule/prone›. Covering up with camouflage netting is a @RA requiring a DC 10 ‹skill/Survival› check (failure means you do not cover yourself correctly with the netting and do not gain its bonus on Stealth checks). You have the ‹rule/entangled› condition when using the netting, except your Dexterity penalty does not affect your initiative or Stealth checks. Taking off camouflage netting is a @MA, or a @WA if combined with a move action to stand up from a prone position.",
 			"",
 			"@I-protect You may spend 1 minute covering an object with camouflage netting. Make a Survival check with a -10 penalty and use the total as the Stealth check result for the object. Creatures who fail a Perception check against this Stealth DC do not recognize what the object is and usually treat it as a natural part of the terrain. For example, you can conceal a wagon as a rock or patch of brush. Covering a Large object requires two nets. Covering a Huge or Gargantuan object requires five nets and takes 10 minutes of work, and the Survival check penalty is -20 instead of -10. Camouflaging a Colossal object depends on its shape but generally requires at least 10 camouflage nets and takes 1 hour of work, and the Survival check penalty is -30 instead of -10.",
 			"",
@@ -3952,7 +3952,7 @@
 			"‹SOURCE Inner Sea World Guide/293›  ",
 			"::tabular{format=misc a=30 b=25 d=gear}",
 			"",
-			"A cannon ball is the ammunition of a ‹eq-siegeengine/cannon› and many other siege firearms. Picking up or drawing a cannon ball requires a @HL[move action] for Medium and Small creatures, but is a @HL[free action] for Large and larger creatures."
+			"A cannon ball is the ammunition of a ‹eq-siegeengine/cannon› and many other siege firearms. Picking up or drawing a cannon ball requires a @MA for Medium and Small creatures, but is a @FA for Large and larger creatures."
 		]
 	},
 	"canteen": {
@@ -4094,7 +4094,7 @@
 			"",
 			"This large glass jar is vacuum-sealed with an airtight wax plug. Inside, festering chunks of monkey meat are covered in fungal mycelium and seeded with fly eggs, though the mixture's potency is not evident until it's exposed to air.",
 			"",
-			"@I-aura-lower Once the jar is opened (a @HL[standard action]), the stench quickly becomes overpowering as the jar's contents swell and rot at an accelerated rate. Any living creature within 15 feet of the jar when it is opened must succeed at a DC 12 Fortitude save or be ‹misc/sickened› for 1d4 rounds.",
+			"@I-aura-lower Once the jar is opened (a @SA), the stench quickly becomes overpowering as the jar's contents swell and rot at an accelerated rate. Any living creature within 15 feet of the jar when it is opened must succeed at a DC 12 Fortitude save or be ‹misc/sickened› for 1d4 rounds.",
 			"",
 			"Vermin and undead have a hard time distinguishing *carrion bait* from rotten human flesh, but intelligent undead that succeed at a DC 15 ‹skill/Perception› check realize the difference. Regardless, any creature that spends more than 1 round eating the *carrion bait* quickly realizes its error, since the bait continues to swell and grow even as it's digested.",
 			"",
@@ -4310,7 +4310,7 @@
 			"",
 			"This bizarre fruit appears to be carved from stone, though it has a lovely aroma and is easily consumed. Stone fruits occasionally sprout from the strange tree-like monument known as the Celwynvian Charge, where they are gathered by licensed vendors and sold to travelers.",
 			"",
-			"@I-aid-def Eating a stone fruit hardens flesh and restores vitality. When a creature eats the fruit as a @HL[full-round action] that provokes attacks of opportunity, it immediately recovers 2d6 hit points and gains a +2 enhancement bonus to its natural armor for 1 minute."
+			"@I-aid-def Eating a stone fruit hardens flesh and restores vitality. When a creature eats the fruit as a @RA that provokes attacks of opportunity, it immediately recovers 2d6 hit points and gains a +2 enhancement bonus to its natural armor for 1 minute."
 		]
 	},
 	"censer": {
@@ -4363,7 +4363,7 @@
 			"",
 			"While ‹race/undine«s› dress sparingly, they often wear 10-foot-long belts of fine linked chain about their waists. The belts contain hinged links to which the wearer can affix various objects such as tools, small weapons, and other valuables, including links of silver and platinum, or small hammered plates of gold set with gems.",
 			"",
-			"@I-power If worn properly, the belt can hold up to 30 pounds of small items. A swimming undine can unwrap the belt as @HL[swift action] if she needs to remove it to decrease her weight load."
+			"@I-power If worn properly, the belt can hold up to 30 pounds of small items. A swimming undine can unwrap the belt as @WA if she needs to remove it to decrease her weight load."
 		]
 	},
 	"chains_of_contrition": {
@@ -4554,7 +4554,7 @@
 			"",
 			"@I-def This gray paste congeals when spread onto a surface, gradually changing color to match its surroundings. When applied, its reagents bond with chemicals in the environment, exuding a magnified aura that can fool ‹umr/blindsight› and ‹umr/blindsense›. This affects only blindsight or blindsense based on smell, taste, vibration, and similar senses; it does not affect extraordinary sight, hearing, or ‹umr/tremorsense›.",
 			"",
-			"Applying a flask of *chemical ward* to the edge of a 5-foot square takes a @HL[full-round action], creating an opaque barrier against blindsense and blindsight that lasts for 1 hour. A creature can sense through the barrier with a successful ‹skill/Perception› check (DC 15 for blindsight, 20 for blindsense), although individuals on the opposite side of the barrier can attempt ‹skill/Stealth› checks against the creature's blindsight or blindsense as though they had ‹rule/concealment›. The barrier does not inhibit movement."
+			"Applying a flask of *chemical ward* to the edge of a 5-foot square takes a @RA, creating an opaque barrier against blindsense and blindsight that lasts for 1 hour. A creature can sense through the barrier with a successful ‹skill/Perception› check (DC 15 for blindsight, 20 for blindsense), although individuals on the opposite side of the barrier can attempt ‹skill/Stealth› checks against the creature's blindsight or blindsense as though they had ‹rule/concealment›. The barrier does not inhibit movement."
 		]
 	},
 	"chest_huge": {
@@ -4609,7 +4609,7 @@
 			"",
 			"This sticky light blue paste grows pleasantly cool to the touch whenever it is exposed to light.",
 			"",
-			"@I-def Spreading a dose on your face and hands takes a @HL[full-round action] and grants you a +2 alchemical bonus on saves to resist [hot weather](rule/heat_dangers). In areas of bright light this bonus increases to +4, while in areas of ‹rule/dim light› or darkness it is negated.",
+			"@I-def Spreading a dose on your face and hands takes a @RA and grants you a +2 alchemical bonus on saves to resist [hot weather](rule/heat_dangers). In areas of bright light this bonus increases to +4, while in areas of ‹rule/dim light› or darkness it is negated.",
 			"",
 			"A dose of *chill cream* lasts for 1 hour after being applied. A newly crafted bottle of *chill cream* holds 5 doses.",
 			"",
@@ -4809,7 +4809,7 @@
 			"",
 			"A climber's plank is a 1-foot-wide wooden plank with a steel-capped spike carved on one end.",
 			"",
-			"The spiked end can be driven into a wall to create a temporary platform. Driving a climber's plank into a wall is a @HL[standard action] and requires a successful Strength check, with a DC equal to the break DC of the surface material. Removing an embedded climber's plank requires a second Strength check at the same DC.",
+			"The spiked end can be driven into a wall to create a temporary platform. Driving a climber's plank into a wall is a @SA and requires a successful Strength check, with a DC equal to the break DC of the surface material. Removing an embedded climber's plank requires a second Strength check at the same DC.",
 			"",
 			"You can easily stand on a pair of climber's planks, but standing on a single plank requires a successful DC 5 ‹skill/Acrobatics› check. Climber's planks are sold in pairs."
 		]
@@ -5017,7 +5017,7 @@
 			"‹SOURCE Ultimate Equipment/56;Adventurer's Armory/19›  ",
 			"::tabular{format=misc a=\"0.4\" b=10 d=gear}",
 			"",
-			"Hinged in two places, collapsible planks can hold 250 pounds before breaking. The 10-foot-long plank folds down into a 3-foot-by-1-foot-by-6-inch bundle. Folding or unfolding it is a @HL[standard action]."
+			"Hinged in two places, collapsible planks can hold 250 pounds before breaking. The 10-foot-long plank folds down into a 3-foot-by-1-foot-by-6-inch bundle. Folding or unfolding it is a @SA."
 		]
 	},
 	"collapsible_rowboat": {
@@ -5052,7 +5052,7 @@
 			"‹SOURCE Adventurer's Armory/19›  ",
 			"::tabular{format=misc a=1 b=1 d=gear}",
 			"",
-			"This scabbard is an ‹misc/improvised weapon› designed to allow you to remove it from your belt as a @HL[swift action] when drawing the weapon it contains. Taking the ‹feat/Equipment Trick› feat for a scabbard gives you additional combat options for using a scabbard.",
+			"This scabbard is an ‹misc/improvised weapon› designed to allow you to remove it from your belt as a @WA when drawing the weapon it contains. Taking the ‹feat/Equipment Trick› feat for a scabbard gives you additional combat options for using a scabbard.",
 			"",
 			"For the purpose of fighter ‹ability/weapon groups›, a scabbard for a heavy blade is considered a *hammer,* and a scabbard for a light blade is considered a *close* weapon."
 		]
@@ -5579,7 +5579,7 @@
 			"",
 			"Made with dragon's gall, which is harvested from a recently deceased dragon's liver, *Dahak's fire* is a volatile alchemical reagent. Though inherently inert, the substance ignites when it comes into contact with fast-moving air, which makes it ideal for application to blades or arrows.",
 			"",
-			"@I-boost When applied to a weapon or piece of ammunition as a @HL[standard action], the weapon deals an extra 2d6 points of fire damage on the next successful hit.",
+			"@I-boost When applied to a weapon or piece of ammunition as a @SA, the weapon deals an extra 2d6 points of fire damage on the next successful hit.",
 			"",
 			"The ‹feat/Dragoncrafting› feat and a successful DC 20 ‹skill/Craft› (alchemy) check are required to convert 1 vial of dragon's gall into 1 application of *Dahak's fire.*"
 		]

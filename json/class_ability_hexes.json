@@ -41,7 +41,7 @@
 			"",
 			"If it's used on a plot of land, the land begins to wither the following day, and over the next week all plants in the area die. Nothing will grow in that area so long as the curse persists. A witch can affect an area with a radius equal to her class level &times& 10 feet.",
 			"",
-			"Blighting a creature is a @HLstandard_action that requires a melee touch attack. If used on a creature of the animal or plant type, the creature gains the following ‹rule/curse<s›:",
+			"Blighting a creature is a @SA that requires a melee touch attack. If used on a creature of the animal or plant type, the creature gains the following ‹rule/curse<s›:",
 			"",
 			"::aff[Blight Hex]{iconC curse save=\"Will negates\" freq=\"1/day\" effCon=1}",
 			"",
@@ -85,7 +85,7 @@
 		"category": "hex",
 		"level": 1,
 		"description": [
-			"::ab{title=\"&L&Witch's Bottle (Su)&FN&\" icon=magic ability=\"Once per day, the witch can perform a 10-minute ritual to create a potion imbued with the power of one of her hexes. Any creature that consumes this potion is affected by the hex as if cast by its creator. The witch can't use that hex until the potion is consumed or rendered inert.\" special=\"Only hexes that can target a creature other than the witch can be distilled in this way. The potion remains potent until consumed or rendered inert by the witch as a @HLfree_action.\" prereq=\"‹hex/Cauldron›\"}"
+			"::ab{title=\"&L&Witch's Bottle (Su)&FN&\" icon=magic ability=\"Once per day, the witch can perform a 10-minute ritual to create a potion imbued with the power of one of her hexes. Any creature that consumes this potion is affected by the hex as if cast by its creator. The witch can't use that hex until the potion is consumed or rendered inert.\" special=\"Only hexes that can target a creature other than the witch can be distilled in this way. The potion remains potent until consumed or rendered inert by the witch as a @FA.\" prereq=\"‹hex/Cauldron›\"}"
 		]
 	},
 	"charm": {
@@ -399,7 +399,7 @@
 		"compilationSources": [ [ "Ultimate Magic", 81 ] ],
 		"category": "hex",
 		"description": [
-			"::ab{title=\"&L&Scar (Su)&FN&\" icon=lower ability=\"This hex curses a single target touched with horrible scars of the witch's choosing, whether something as simple as a single letter on the target's forehead or blotchy, burn-like scars on his body. The target may make a Will save to resist this hex.~~~These *scars* do not interfere with the target's senses or prevent it from using abilities, but may affect social interactions. They persist through disguises and shapechanging.\" ability2=\"The witch can user her hexes on the scarred target at a range of up to 1 mile, and she is considered to have a body part from the target for the purpose of ‹spell/scrying› and similar divination spells.\" order=a2 special=\"The witch can withdraw this hex from a target as a @HLmove_action at any range. The number of supernatural *scars* the witch can maintain at once is equal to her Intelligence bonus; once she reaches this limit, she must remove the *scar* from a current victim in order to mark another. Effects that remove curses can remove the *scar.*\"}"
+			"::ab{title=\"&L&Scar (Su)&FN&\" icon=lower ability=\"This hex curses a single target touched with horrible scars of the witch's choosing, whether something as simple as a single letter on the target's forehead or blotchy, burn-like scars on his body. The target may make a Will save to resist this hex.~~~These *scars* do not interfere with the target's senses or prevent it from using abilities, but may affect social interactions. They persist through disguises and shapechanging.\" ability2=\"The witch can user her hexes on the scarred target at a range of up to 1 mile, and she is considered to have a body part from the target for the purpose of ‹spell/scrying› and similar divination spells.\" order=a2 special=\"The witch can withdraw this hex from a target as a @MA at any range. The number of supernatural *scars* the witch can maintain at once is equal to her Intelligence bonus; once she reaches this limit, she must remove the *scar* from a current victim in order to mark another. Effects that remove curses can remove the *scar.*\"}"
 		]
 	},
 	"seduction": {
@@ -407,7 +407,7 @@
 		"compilationSources": [ [ "Legacy of the First World", 17 ] ],
 		"category": "hex",
 		"description": [
-			"::ab{title=\"&L&Seduction (Su)&FN&\" icon=lower ability=\"The witch uses enthralling movements to ‹misc/fascinate<d› a single creature within 60 feet that can see the witch. A Will save negates this effect. If the target is (or could be) sexually attracted to the witch, the save DC is increased by 2.~~~The effect lasts for 1 round, but the witch can extend this effect for 1 additional round (up to a total number of rounds equal to her class level) by taking a @HLstandard_action to continue her enthralling movements.\" imp8=\"The *fascination* effect lasts for 2 additional rounds after the witch ceases taking a standard action to maintain it.\" special=\"Whether or not the target succeeds at its save, it cannot be the target of this ability again for 1 day. This is a mind-affecting charm effect.\"}"
+			"::ab{title=\"&L&Seduction (Su)&FN&\" icon=lower ability=\"The witch uses enthralling movements to ‹misc/fascinate<d› a single creature within 60 feet that can see the witch. A Will save negates this effect. If the target is (or could be) sexually attracted to the witch, the save DC is increased by 2.~~~The effect lasts for 1 round, but the witch can extend this effect for 1 additional round (up to a total number of rounds equal to her class level) by taking a @SA to continue her enthralling movements.\" imp8=\"The *fascination* effect lasts for 2 additional rounds after the witch ceases taking a standard action to maintain it.\" special=\"Whether or not the target succeeds at its save, it cannot be the target of this ability again for 1 day. This is a mind-affecting charm effect.\"}"
 		]
 	},
 	"sink": {
@@ -423,7 +423,7 @@
 		"compilationSources": [ [ "Advanced Player's Guide", 66 ] ],
 		"category": "hex",
 		"description": [
-			"::ab{title=\"&L&Slumber (Su)&FN&\" icon=magic ability=\"A witch can cause a creature within 30 feet to fall into a deep, magical sleep, as per the spell ‹spell/sleep›. The creature receives a Will save to negate the effect. If the save fails, the creature falls asleep for a number of rounds equal to the witch's level.\" special=\"This hex can affect a creature of any HD. The creature will not wake due to noise or light, but others can rouse it with a @HLstandard_action. This hex ends immediately if the creature takes damage.~~~Whether or not the save is successful, a creature cannot be the target of this hex again for 1 day.\"}"
+			"::ab{title=\"&L&Slumber (Su)&FN&\" icon=magic ability=\"A witch can cause a creature within 30 feet to fall into a deep, magical sleep, as per the spell ‹spell/sleep›. The creature receives a Will save to negate the effect. If the save fails, the creature falls asleep for a number of rounds equal to the witch's level.\" special=\"This hex can affect a creature of any HD. The creature will not wake due to noise or light, but others can rouse it with a @SA. This hex ends immediately if the creature takes damage.~~~Whether or not the save is successful, a creature cannot be the target of this hex again for 1 day.\"}"
 		]
 	},
 	"soothsayer": {
@@ -542,7 +542,7 @@
 		"category": "majorhex",
 		"topLink": [ "Major Hexes", "ability/major_hexes" ],
 		"description": [
-			"::ab{title=\"&L&Beast Eye (Su)&FN&\" icon=magic ability=\"The witch can project her senses into an animal within 100 feet, sensing whatever it senses. She cannot control the animal's actions. She can project her senses from that animal to another within 100 feet of it as a @HLstandard_action, and can continue to make these sensory leaps, potentially viewing things very far from her actual location. She may return her senses to her own body as a @HLfree_action.~~~Normal animals get no saving throw against this ability, but animal companions, paladin mounts, and similar unusual animals may resist with a Will save; the witch may use this ability on her own familiar as if it were an animal.\" special=\"If the witch has the ‹hex/coven› hex, all other witches within 10 feet of her who also have the *coven* hex can see through this animal at will, although the acting witch still controls the ability.\" useL=witch useUnit=m useNC=1}"
+			"::ab{title=\"&L&Beast Eye (Su)&FN&\" icon=magic ability=\"The witch can project her senses into an animal within 100 feet, sensing whatever it senses. She cannot control the animal's actions. She can project her senses from that animal to another within 100 feet of it as a @SA, and can continue to make these sensory leaps, potentially viewing things very far from her actual location. She may return her senses to her own body as a @FA.~~~Normal animals get no saving throw against this ability, but animal companions, paladin mounts, and similar unusual animals may resist with a Will save; the witch may use this ability on her own familiar as if it were an animal.\" special=\"If the witch has the ‹hex/coven› hex, all other witches within 10 feet of her who also have the *coven* hex can see through this animal at will, although the acting witch still controls the ability.\" useL=witch useUnit=m useNC=1}"
 		]
 	},
 	"beasts_gift": {
@@ -614,7 +614,7 @@
 		"category": "majorhex",
 		"topLink": [ "Major Hexes", "ability/major_hexes" ],
 		"description": [
-			"::ab{title=\"&L&Hidden Home (Sp)&FN&\" icon=def-magic ability=\"The witch can conceal or disguise her home and the area around it as if using ‹spell/mirage arcana›. Before using the hex, she must spend 1 day pacing out the border of an area that measures roughly 40,000 square feet (approximately 200 feet by 200 feet) to define her home territory. Thereafter, she can use the hex to change the appearance of that area as a @HLstandard_action as long as she is within the area. The illusion persists until the witch changes or dismisses it.\" special=\"For the purpose of this ability, a witch can only have one &quot&home&quot& at a time.\"}"
+			"::ab{title=\"&L&Hidden Home (Sp)&FN&\" icon=def-magic ability=\"The witch can conceal or disguise her home and the area around it as if using ‹spell/mirage arcana›. Before using the hex, she must spend 1 day pacing out the border of an area that measures roughly 40,000 square feet (approximately 200 feet by 200 feet) to define her home territory. Thereafter, she can use the hex to change the appearance of that area as a @SA as long as she is within the area. The illusion persists until the witch changes or dismisses it.\" special=\"For the purpose of this ability, a witch can only have one &quot&home&quot& at a time.\"}"
 		]
 	},
 	"hoarfrost": {
@@ -839,7 +839,7 @@
 		"category": "grandhex",
 		"topLink": [ "Grand Hexes", "ability/grand_hexes" ],
 		"description": [
-			"::ab{title=\"&L&Death Interrupted (Su)&FN&\" icon=magic-aid ability=\"A witch with this grand hex can pluck a dead creature's soul from the River of Souls and store it in her familiar for safekeeping and eventual resurrection.~~~In order to use this ability, the witch must be adjacent to the target dead creature and her own familiar, and the ally's soul must be free and willing to return at the witch's behest. When the witch touches the creature's remains (some small portion of the creature's body must still exist, and it may have been dead for any amount of time), its soul enters the body of the witch's familiar as per ‹spell/familiar melding›, as if the witch's familiar were the target's familiar.~~~The creature's soul can remain within the witch's familiar for up to 1 hour per class level the witch has. During this time, the witch can telepathically communicate with the creature's soul (though the soul cannot do anything else), and the witch can return the ally to life. Doing so is a @HLstandard_action that returns the creature's soul to its body, brings it back to life with a number of hit points equal to 5d8 + 1 hit point per the witch's caster level. The witch must be within 300 feet of the creature's body to return it to life.\" special=\"If a creature's soul is in the witch's familiar and this effect expires, or if the witch attempts to return the creature to life but is out of range, the creature remains dead.~~~Once a creature has benefited from this hex, it cannot benefit from it again for 24 hours.\"}"
+			"::ab{title=\"&L&Death Interrupted (Su)&FN&\" icon=magic-aid ability=\"A witch with this grand hex can pluck a dead creature's soul from the River of Souls and store it in her familiar for safekeeping and eventual resurrection.~~~In order to use this ability, the witch must be adjacent to the target dead creature and her own familiar, and the ally's soul must be free and willing to return at the witch's behest. When the witch touches the creature's remains (some small portion of the creature's body must still exist, and it may have been dead for any amount of time), its soul enters the body of the witch's familiar as per ‹spell/familiar melding›, as if the witch's familiar were the target's familiar.~~~The creature's soul can remain within the witch's familiar for up to 1 hour per class level the witch has. During this time, the witch can telepathically communicate with the creature's soul (though the soul cannot do anything else), and the witch can return the ally to life. Doing so is a @SA that returns the creature's soul to its body, brings it back to life with a number of hit points equal to 5d8 + 1 hit point per the witch's caster level. The witch must be within 300 feet of the creature's body to return it to life.\" special=\"If a creature's soul is in the witch's familiar and this effect expires, or if the witch attempts to return the creature to life but is out of range, the creature remains dead.~~~Once a creature has benefited from this hex, it cannot benefit from it again for 24 hours.\"}"
 		]
 	},
 	"dire_prophecy": {
@@ -902,7 +902,7 @@
 		"category": "grandhex",
 		"topLink": [ "Grand Hexes", "ability/grand_hexes" ],
 		"description": [
-			"::ab{title=\"&L&Summon Spirit (Sp)&FN&\" icon=magic ability=\"The witch calls forth the ‹template/ghost› of a humanoid creature with no more than 18 Hit Dice. The ghost has its own personality and desires, but is willing to bargain with the witch, as if she had cast ‹spell/greater planar ally›.~~~To seal an agreement with the witch, the ghost requires life energy equal to 1 temporary ‹rule/negative level› (this is in addition to the standard payment for the ghost's service). This negative level persists as long as the ghost remains in the service of the witch; the witch can end the agreement as a @HLstandard_action, immediately removing the negative level.\"}"
+			"::ab{title=\"&L&Summon Spirit (Sp)&FN&\" icon=magic ability=\"The witch calls forth the ‹template/ghost› of a humanoid creature with no more than 18 Hit Dice. The ghost has its own personality and desires, but is willing to bargain with the witch, as if she had cast ‹spell/greater planar ally›.~~~To seal an agreement with the witch, the ghost requires life energy equal to 1 temporary ‹rule/negative level› (this is in addition to the standard payment for the ghost's service). This negative level persists as long as the ghost remains in the service of the witch; the witch can end the agreement as a @SA, immediately removing the negative level.\"}"
 		]
 	},
 	"witchs_hut": {

@@ -48,7 +48,7 @@
 		"category": "Avenger Talents",
 		"addenda": [ "avenger" ],
 		"description": [
-			"::ab{title=\"&L&Nothing Can Stop Me (Ex)&FN&\" icon=melee ability=\"Once per round, while the vigilante is moving, he can make one attack as a @HLfree_action against an unattended object in the way of his path, such as a door or table. If his attack deals enough damage to destroy the object, he can continue to move. If he doesn't destroy the object, his move ends. This attack is made as part of his @HLmove_action and doesn't count against his attacks this round. If his attack inadvertently targets a creature (such as a ‹monster/mimic›), it automatically misses and his move ends (although he can still attack the creature as normal at the end of his movement).\"}"
+			"::ab{title=\"&L&Nothing Can Stop Me (Ex)&FN&\" icon=melee ability=\"Once per round, while the vigilante is moving, he can make one attack as a @FA against an unattended object in the way of his path, such as a door or table. If his attack deals enough damage to destroy the object, he can continue to move. If he doesn't destroy the object, his move ends. This attack is made as part of his @MA and doesn't count against his attacks this round. If his attack inadvertently targets a creature (such as a ‹monster/mimic›), it automatically misses and his move ends (although he can still attack the creature as normal at the end of his movement).\"}"
 		]
 	},
 	"signature_weapon": {
@@ -218,7 +218,7 @@
 		"compilationSources": [ [ "Heroes of Golarion", 20 ] ],
 		"category": "Other Talents",
 		"description": [
-			"::ab{title=\"&L&Animal Patron (Ex)&FN&\" icon=power ability=\"The vigilante gains the benefits of one ‹class/minor »shifter« aspect› for a number of minutes per day equal to 1 + half his vigilante level. He can shift into this minor aspect as a @HLswift_action.\" prereq=\"5th-level vigilante\"}"
+			"::ab{title=\"&L&Animal Patron (Ex)&FN&\" icon=power ability=\"The vigilante gains the benefits of one ‹class/minor »shifter« aspect› for a number of minutes per day equal to 1 + half his vigilante level. He can shift into this minor aspect as a @WA.\" prereq=\"5th-level vigilante\"}"
 		]
 	},
 	"another_day": {
@@ -282,7 +282,7 @@
 		"compilationSources": [ [ "Spymaster's Handbook", 27 ] ],
 		"category": "Other Talents",
 		"description": [
-			"::ab{title=\"&L&Concealed Strike (Ex)&FN&\" icon=power ability=\"Whenever the vigilante attacks an opponent with a concealed weapon that his target wasn't aware of, he can attempt a Bluff check to ‹rule/feint› that opponent as a @HLmove_action. If he has the ‹feat/Improved Feint› feat, he attempts this check as a @HLfree_action instead.\" prereq=\"6th-level vigilante\"}"
+			"::ab{title=\"&L&Concealed Strike (Ex)&FN&\" icon=power ability=\"Whenever the vigilante attacks an opponent with a concealed weapon that his target wasn't aware of, he can attempt a Bluff check to ‹rule/feint› that opponent as a @MA. If he has the ‹feat/Improved Feint› feat, he attempts this check as a @FA instead.\" prereq=\"6th-level vigilante\"}"
 		]
 	},
 	"cunning_feint": {
@@ -290,7 +290,7 @@
 		"compilationSources": [ [ "Ultimate Intrigue", 14 ] ],
 		"category": "Other Talents",
 		"description": [
-			"::ab{title=\"&L&Cunning Feint (Ex)&FN&\" icon=power-lower ability=\"The vigilante can ‹rule/feint› as a @HLmove_action or in place of his first attack during a full attack.\" imp8=\"When the vigilante successfully feints, the opponent is denied its Dexterity bonus to AC against all attacks until the vigilante's next turn.\"}"
+			"::ab{title=\"&L&Cunning Feint (Ex)&FN&\" icon=power-lower ability=\"The vigilante can ‹rule/feint› as a @MA or in place of his first attack during a full attack.\" imp8=\"When the vigilante successfully feints, the opponent is denied its Dexterity bonus to AC against all attacks until the vigilante's next turn.\"}"
 		]
 	},
 	"deceitful_trick": {
@@ -298,7 +298,7 @@
 		"compilationSources": [ [ "Blood of the Beast", 15 ] ],
 		"category": "Other Talents",
 		"description": [
-			"::ab{title=\"&L&Deceitful Trick&FN&\" icon=melee ability=\"The vigilante can perform a ‹rule/dirty trick› combat maneuver in place of his first attack during a full attack. He can take a -4 penalty on his check in order to inflict two different conditions on his foe if he succeeds at his check. If the vigilante is successful, the target can remove both conditions as a @HLstandard_action.\" prereq=\"‹feat/Greater Dirty Trick›, ‹feat/Improved Dirty Trick›\"}"
+			"::ab{title=\"&L&Deceitful Trick&FN&\" icon=melee ability=\"The vigilante can perform a ‹rule/dirty trick› combat maneuver in place of his first attack during a full attack. He can take a -4 penalty on his check in order to inflict two different conditions on his foe if he succeeds at his check. If the vigilante is successful, the target can remove both conditions as a @SA.\" prereq=\"‹feat/Greater Dirty Trick›, ‹feat/Improved Dirty Trick›\"}"
 		]
 	},
 	"environmental_weapon": {
@@ -366,7 +366,7 @@
 		"description": [
 			"::ab{title=\"&L&Inspired Vigilante (Ex)&FN&\" head icon=power flavor=\"The vigilante's powers of deduction are far beyond the norm.\" ability=\"This ability functions similarly to the ‹class/investigator«'s› *inspiration* ability, but the vigilante's *inspiration pool* is equal to his class level (do not add his Intelligence modifier), the vigilante can never use this ability without expending a use of *inspiration,* and it doesn't count as *inspiration* for any effects that interact with or require the *inspiration* class feature.\"}",
 			"",
-			"::ab[Inspiration (Ex)]{next icon=boost order=afu flavor=\"Relevant text from the investigator class ability.\" usage=\"You can only use inspiration once per check or roll.\" ability=\"You have an inspiration pool equal to ‹misc/half› your level. Your inspiration pool refreshes each day, typically after you get a restful night's sleep.\" free=\"You can expend one use of inspiration from your pool to add 1d6 to the result of a check, including any on which you take 10 or 20. This choice is made after the check is rolled and before the results are revealed.\" special=\"Using inspiration on attack rolls and saving throws costs two uses of inspiration each time. In the case of saving throws, using inspiration is an @HLimmediate_action.\"}"
+			"::ab[Inspiration (Ex)]{next icon=boost order=afu flavor=\"Relevant text from the investigator class ability.\" usage=\"You can only use inspiration once per check or roll.\" ability=\"You have an inspiration pool equal to ‹misc/half› your level. Your inspiration pool refreshes each day, typically after you get a restful night's sleep.\" free=\"You can expend one use of inspiration from your pool to add 1d6 to the result of a check, including any on which you take 10 or 20. This choice is made after the check is rolled and before the results are revealed.\" special=\"Using inspiration on attack rolls and saving throws costs two uses of inspiration each time. In the case of saving throws, using inspiration is an @IA.\"}"
 		]
 	},
 	"instant_plan": {
@@ -489,7 +489,7 @@
 		"compilationSources": [ [ "Blood of the Beast", 15 ] ],
 		"category": "Other Talents",
 		"description": [
-			"::ab{title=\"&L&Racial Paragon&FN&\" icon=power usage=\"3 + half his vigilante level times/day (minimum 4)\" useF=\"1~4~2~1~4\" useUnit=t move=\"The vigilante can gain the benefit of a feat with a racial prerequisite he meets but doesn't have. This effect lasts for 1 minute. The vigilante must meet all the feat's prerequisites. The vigilante can use this ability again before the duration expires to replace a previous racial feat with another choice.~~~If a feat temporarily gained in this way has a daily use limitation, any uses of that feat while using this ability count toward that feat's daily limit.\" special=\"This vigilante talent can be selected multiple times. Each time it is selected after the first, the vigilante can use this ability to gain the benefits of one additional racial feat at the same time, or to reduce the action required to activate this talent by one step (a move action becomes a @HLswift_action, a swift action becomes a @HLfree_action, and a free action becomes an @HLimmediate_action).~~~If the vigilante chooses to gain the benefits of multiple feats, the feats selected must share the same racial prerequisite. He can use one of these feats to meet a prerequisite of a second feat; doing so means he cannot replace a feat currently fulfilling another's prerequisite without also replacing those feats that require it. Each individual feat selected counts toward his daily uses of this ability.\"}"
+			"::ab{title=\"&L&Racial Paragon&FN&\" icon=power usage=\"3 + half his vigilante level times/day (minimum 4)\" useF=\"1~4~2~1~4\" useUnit=t move=\"The vigilante can gain the benefit of a feat with a racial prerequisite he meets but doesn't have. This effect lasts for 1 minute. The vigilante must meet all the feat's prerequisites. The vigilante can use this ability again before the duration expires to replace a previous racial feat with another choice.~~~If a feat temporarily gained in this way has a daily use limitation, any uses of that feat while using this ability count toward that feat's daily limit.\" special=\"This vigilante talent can be selected multiple times. Each time it is selected after the first, the vigilante can use this ability to gain the benefits of one additional racial feat at the same time, or to reduce the action required to activate this talent by one step (a move action becomes a @WA, a swift action becomes a @FA, and a free action becomes an @IA).~~~If the vigilante chooses to gain the benefits of multiple feats, the feats selected must share the same racial prerequisite. He can use one of these feats to meet a prerequisite of a second feat; doing so means he cannot replace a feat currently fulfilling another's prerequisite without also replacing those feats that require it. Each individual feat selected counts toward his daily uses of this ability.\"}"
 		]
 	},
 	"returning_weapon": {
@@ -621,7 +621,7 @@
 		],
 		"category": "Other Talents",
 		"description": [
-			"::ab{title=\"&L&Team Player (Ex)&FN&\" icon=power ability=\"The vigilante gains ‹feat/Swift Aid› as a bonus feat, ignoring its prerequisites. Additionally, the vigilante can use the feat as a @HLstandard_action, in which case it applies to every ally adjacent to the vigilante.\" imp10=\"The vigilante can increase the bonus provided to one ally by this feat to +2 by using the ‹rule/aid another<_2› action as a @HLmove_action rather than as a swift action.\"}"
+			"::ab{title=\"&L&Team Player (Ex)&FN&\" icon=power ability=\"The vigilante gains ‹feat/Swift Aid› as a bonus feat, ignoring its prerequisites. Additionally, the vigilante can use the feat as a @SA, in which case it applies to every ally adjacent to the vigilante.\" imp10=\"The vigilante can increase the bonus provided to one ally by this feat to +2 by using the ‹rule/aid another<_2› action as a @MA rather than as a swift action.\"}"
 		]
 	},
 	"tigers_claws": {
@@ -645,7 +645,7 @@
 		"compilationSources": [ [ "Ultimate Intrigue", 16 ] ],
 		"category": "Other Talents",
 		"description": [
-			"::ab{title=\"&L&Unexpected Strike (Ex)&FN&\" icon=power ability=\"The vigilante gains ‹feat/Quick Draw› as a bonus feat.\" imp8=\"He can draw hidden weapons as a @HLswift_action (instead of a move action).\"}"
+			"::ab{title=\"&L&Unexpected Strike (Ex)&FN&\" icon=power ability=\"The vigilante gains ‹feat/Quick Draw› as a bonus feat.\" imp8=\"He can draw hidden weapons as a @WA (instead of a move action).\"}"
 		]
 	},
 	"vigilantes_reflexes": {
