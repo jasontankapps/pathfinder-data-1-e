@@ -35,7 +35,7 @@
 			"",
 			"::tabular{format=weap1 a=15 b=x k=alch}",
 			"",
-			"@I-def This alkaline salt counteracts the properties of oozes' acid. You can apply acid neutralizer to a piece of equipment such as a weapon or shield as a @HL[move action]. For 1 minute afterward, any acid damage that would be dealt to the protected equipment is reduced by 5 points. This does not reduce acid damage dealt to you or unprotected equipment.",
+			"@I-def This alkaline salt counteracts the properties of oozes' acid. You can apply acid neutralizer to a piece of equipment such as a weapon or shield as a @MA. For 1 minute afterward, any acid damage that would be dealt to the protected equipment is reduced by 5 points. This does not reduce acid damage dealt to you or unprotected equipment.",
 			"",
 			"@I-zap-lower You can apply a dose of acid neutralizer to an adjacent ooze creature by emptying the container on it. Treat this as a ranged touch attack that does not provoke attacks of opportunity. When used in this way, acid neutralizer prevents the ooze creature from dealing acid damage (assuming it is normally able to do so) for 1 round.",
 			"",
@@ -50,7 +50,7 @@
 			"## Alchemical coal (blinding cinders)",
 			"‹SOURCE Advanced Race Guide/135›",
 			"",
-			"@I-warning A kobold who chews and swallows this alchemically treated piece of coal (a @HL[full-round action]) can make one breath weapon attack during the next minute. If the kobold fails to make a breath attack before this minute expires, it is ‹misc/sickened› for 1 hour. Other humanoid creatures that eat alchemical coal are sickened for 1 hour (though certain other creatures may be able to use them, at the GM's discretion). Creatures that are immune to poison are immune to the sickened effect. The type of breath weapon depends on the type of alchemical coal that is chewed by the kobold.",
+			"@I-warning A kobold who chews and swallows this alchemically treated piece of coal (a @RA) can make one breath weapon attack during the next minute. If the kobold fails to make a breath attack before this minute expires, it is ‹misc/sickened› for 1 hour. Other humanoid creatures that eat alchemical coal are sickened for 1 hour (though certain other creatures may be able to use them, at the GM's discretion). Creatures that are immune to poison are immune to the sickened effect. The type of breath weapon depends on the type of alchemical coal that is chewed by the kobold.",
 			"",
 			"### Blinding Cinders",
 			"",
@@ -92,7 +92,7 @@
 			"",
 			"A direct hit deals 1d6 points of fire damage. Every creature within 5 feet of the point where the flask hits takes 1 point of fire damage from the splash. On the round following a direct hit, the target takes an additional 1d6 points of damage.",
 			"",
-			"If desired, the target can use a @HL[full-round action] to attempt to extinguish the flames before taking this additional damage. Extinguishing the flames requires a DC 15 Reflex save. Rolling on the ground provides the target a +2 bonus on the save. Leaping into a large body of water or magically extinguishing the flames automatically smothers the fire.",
+			"If desired, the target can use a @RA to attempt to extinguish the flames before taking this additional damage. Extinguishing the flames requires a DC 15 Reflex save. Rolling on the ground provides the target a +2 bonus on the save. Leaping into a large body of water or magically extinguishing the flames automatically smothers the fire.",
 			"",
 			"::tabular{format=craftalch a=20}",
 			"",
@@ -191,7 +191,7 @@
 			"",
 			"::tabular{format=weap1 a=10 b=\"0.3\" k=alch}",
 			"",
-			"This heavy iron arrowhead is sealed with an alchemical resin. Pulling a small string (a @HL[move action]) breaks the seal and triggers a reaction in the arrowhead, greatly increasing its magnetic properties.",
+			"This heavy iron arrowhead is sealed with an alchemical resin. Pulling a small string (a @MA) breaks the seal and triggers a reaction in the arrowhead, greatly increasing its magnetic properties.",
 			"",
 			"@I-boost-down You gain a +4 circumstance bonus on attack rolls when firing a lodestone arrow at a target wearing metal armor or a target made of metal, but the magnetized arrow deals only half damage on a successful hit.",
 			"",
@@ -526,7 +526,7 @@
 			"",
 			"Electricity crackles along a metal filament inside this small glass bottle.",
 			"",
-			"@I-zap-line You can open the bottle as a @HL[standard action], unleashing a small bolt of lightning toward an enemy within 20 feet of you. This is a ranged touch attack that deals 1d8 points of electricity damage. Any creature in a line between you and the target (including the target) takes 1 point of sonic damage from the terrific clap of thunder the bolt generates (Reflex DC 15 negates).",
+			"@I-zap-line You can open the bottle as a @SA, unleashing a small bolt of lightning toward an enemy within 20 feet of you. This is a ranged touch attack that deals 1d8 points of electricity damage. Any creature in a line between you and the target (including the target) takes 1 point of sonic damage from the terrific clap of thunder the bolt generates (Reflex DC 15 negates).",
 			"",
 			"::tabular{format=craftalch a=25}"
 		],
@@ -560,7 +560,7 @@
 			"",
 			"@I-splash-lower This simple clay pot has two sealed, airtight inner chambers containing alchemical liquids. The jar is thrown as a ‹rule/splash weapon›. It shatters on impact, covering the target with a mixture of the two liquids. One round later on your turn, the liquids react and explode with concussive force. The target takes 1 point of sonic damage, is ‹misc/deafened› for 1d4 rounds, and must make a DC 12 Fortitude save or be ‹misc/stunned› for 1 round. Creatures within 5 feet of the explosion take 1 point of sonic damage.",
 			"",
-			"@I-info The target can use a @HL[full-round action] to scrape or wash off the liquid before it detonates, depositing the material in its square or an adjacent square; the material detonates as normal, though the original target only takes damage as if it were within 5 feet of the explosion.",
+			"@I-info The target can use a @RA to scrape or wash off the liquid before it detonates, depositing the material in its square or an adjacent square; the material detonates as normal, though the original target only takes damage as if it were within 5 feet of the explosion.",
 			"",
 			"::tabular{format=craftalch a=25}"
 		],
@@ -577,7 +577,7 @@
 			"",
 			"This metal canister contains alchemical reactants separated by parchment and a slow-burning fuse.",
 			"",
-			"@I-boom Lighting the fuse is a @HL[move action]; 1d3 rounds later, the *chroma grenade* explodes, spewing luminescent sparks and gases that fill a 10-foot-radius area. Creatures in the area are ‹misc/dazzled› and take a -2 penalty on saving throws against illusion (pattern) spells for 3 rounds (DC 15 Will negates).",
+			"@I-boom Lighting the fuse is a @MA; 1d3 rounds later, the *chroma grenade* explodes, spewing luminescent sparks and gases that fill a 10-foot-radius area. Creatures in the area are ‹misc/dazzled› and take a -2 penalty on saving throws against illusion (pattern) spells for 3 rounds (DC 15 Will negates).",
 			"",
 			"A *chroma grenade* can be thrown as though it were a ‹rule/splash weapon› with a range increment of 10 feet.",
 			"",
@@ -924,7 +924,7 @@
 			"",
 			"These small paper or cloth cylinders or spheres are filled with a tiny charge of black powder.",
 			"",
-			"@I-aura-lower One round after lighting a *firecracker* in an adjacent square, the firework detonates with a loud bang, dealing 1d2+1 points of nonlethal damage to any creatures in the square and ‹misc/deafen«ing› them for 1d4 rounds (Fortitude DC 11 halves damage and duration of deafness). The bang also causes unintelligent animals within 20 feet of it to become ‹misc/frightened› for 1d3 rounds; an animal can overcome this effect with a successful DC 11 Will save or if an adjacent ally calms the animal with a successful DC 11 ‹skill/Handle Animal› check (an @HL[immediate action]).",
+			"@I-aura-lower One round after lighting a *firecracker* in an adjacent square, the firework detonates with a loud bang, dealing 1d2+1 points of nonlethal damage to any creatures in the square and ‹misc/deafen«ing› them for 1d4 rounds (Fortitude DC 11 halves damage and duration of deafness). The bang also causes unintelligent animals within 20 feet of it to become ‹misc/frightened› for 1d3 rounds; an animal can overcome this effect with a successful DC 11 Will save or if an adjacent ally calms the animal with a successful DC 11 ‹skill/Handle Animal› check (an @IA).",
 			"",
 			"::tabular{format=spontalch a=\"bp1/sp1\" b=calcination c=20 d=\"10 minutes\" f=crucible g=weapon}"
 		],
@@ -959,7 +959,7 @@
 			"",
 			"This hollow metal or wooden tube contains slow-burning powder.",
 			"",
-			"@I-touch When you light the fuse (a @HL[move action]), it creates a 3-foot-long, blazing fountain of red-hot fiery sparks. You wield this fountain of sparks as if it were a ‹eq-weapon/heavy mace›. Attacks with the *fountain* are melee touch attacks. The *fountain* deals 1d8 points of fire damage (your Strength modifier does not apply to the damage).",
+			"@I-touch When you light the fuse (a @MA), it creates a 3-foot-long, blazing fountain of red-hot fiery sparks. You wield this fountain of sparks as if it were a ‹eq-weapon/heavy mace›. Attacks with the *fountain* are melee touch attacks. The *fountain* deals 1d8 points of fire damage (your Strength modifier does not apply to the damage).",
 			"",
 			"The *fountain* sheds light as a ‹eq-misc/torch› and can ignite combustible materials such as parchment, straw, dry sticks, and cloth. Once ignited, it lasts for 1 minute. If extinguished before this time, the remaining duration is wasted.",
 			"",
@@ -993,9 +993,9 @@
 			"",
 			"This hollow metal cylinder is etched with various religious symbols and contains a reservoir of ‹eq-weapon/holy water›.",
 			"",
-			"@I-aura-lower When you light its fuse (a @HL[move action]), a holy fountain firework fills a 10-foot-radius ‹misc/burst› with holy water and bright light for as long as it burns. Any creature in the affected area is treated as though it had been struck with a flask of holy water, except a holy fountain firework only deals 1d4 points of damage and does not harm creatures in spaces adjacent to the affected area. Once ignited, the firework lasts for 1 minute.",
+			"@I-aura-lower When you light its fuse (a @MA), a holy fountain firework fills a 10-foot-radius ‹misc/burst› with holy water and bright light for as long as it burns. Any creature in the affected area is treated as though it had been struck with a flask of holy water, except a holy fountain firework only deals 1d4 points of damage and does not harm creatures in spaces adjacent to the affected area. Once ignited, the firework lasts for 1 minute.",
 			"",
-			"@I-info As a @HL[standard action], the firework can be extinguished before this time by being fully submerged or forcing its tip into the ground or a similar surface, but the remaining duration is wasted. A lit holy fountain firework can be picked up and moved, but the fountain's burst of holy water and light doesn't function during this time and the creature carrying the lit firework takes 1d4 points of fire damage each round she holds it.",
+			"@I-info As a @SA, the firework can be extinguished before this time by being fully submerged or forcing its tip into the ground or a similar surface, but the remaining duration is wasted. A lit holy fountain firework can be picked up and moved, but the fountain's burst of holy water and light doesn't function during this time and the creature carrying the lit firework takes 1d4 points of fire damage each round she holds it.",
 			"",
 			"::tabular{format=craftalch a=25}"
 		],
@@ -1155,7 +1155,7 @@
 			"",
 			"::tabular{format=weap1 a=50 b=x k=alch}",
 			"",
-			"@I-lower This coarse gray powder ignites and burns almost instantly if exposed to flame, significant friction, or even simple force such as throwing it against a floor (a @HL[standard action]). Creatures within a 10-foot-radius ‹misc/burst› are ‹misc/blinded› for 1 round (Fortitude DC 13 negates).",
+			"@I-lower This coarse gray powder ignites and burns almost instantly if exposed to flame, significant friction, or even simple force such as throwing it against a floor (a @SA). Creatures within a 10-foot-radius ‹misc/burst› are ‹misc/blinded› for 1 round (Fortitude DC 13 negates).",
 			"",
 			"::tabular{format=craftalch a=20}"
 		],
@@ -1173,7 +1173,7 @@
 			"",
 			"::tabular{format=weap1 a=100 b=1 k=alch}",
 			"",
-			"@I-splash This hollow clay container holds a small charge of ‹eq-reagent/black powder› and a slow-burning fuse. Lighting the fuse is a @HL[move action]; 1d3 rounds later the grenade explodes, dealing 2d6 points of bludgeoning damage and 1d6 points of fire damage in a 10-foot-radius ‹misc/burst› (Reflex DC 15 halves). You throw a fuse grenade as if it were a ‹rule/splash weapon›.",
+			"@I-splash This hollow clay container holds a small charge of ‹eq-reagent/black powder› and a slow-burning fuse. Lighting the fuse is a @MA; 1d3 rounds later the grenade explodes, dealing 2d6 points of bludgeoning damage and 1d6 points of fire damage in a 10-foot-radius ‹misc/burst› (Reflex DC 15 halves). You throw a fuse grenade as if it were a ‹rule/splash weapon›.",
 			"",
 			"::tabular{format=craftalch a=25}"
 		],
@@ -1203,7 +1203,7 @@
 			"",
 			"::tabular{format=weap1 a=250 b=50 k=alch}",
 			"",
-			"This large barrel-shaped sparkler is imbued with mysterious, hellish forces. The fuse can be lit as a @HL[standard action]; 1d4 rounds later, the sparkler crackles violently with sickly-green sparks that take the form of an army of ferocious devils.",
+			"This large barrel-shaped sparkler is imbued with mysterious, hellish forces. The fuse can be lit as a @SA; 1d4 rounds later, the sparkler crackles violently with sickly-green sparks that take the form of an army of ferocious devils.",
 			"",
 			"@I-aura-lower Creatures within a 10-foot-radius ‹misc/burst› take 3d6 points of fire damage and become ‹misc/shaken› for 2 rounds; a target can attempt a DC 15 Will save to halve the damage and the duration of the shaken condition.",
 			"",
@@ -1248,7 +1248,7 @@
 			"",
 			"::tabular{format=weap1 a=30 b=\"0.5\" k=alch}",
 			"",
-			"This violet balm comes in a small ceramic pot. When applied to a weapon as a @HL[standard action], it forms a transparent coating.",
+			"This violet balm comes in a small ceramic pot. When applied to a weapon as a @SA, it forms a transparent coating.",
 			"",
 			"@I-boost Weapons coated in this balm deal an additional 2d4 points of damage to undead or evil outsiders. A creature affected by the balm must succeed at a DC 10 Reflex save or take an additional 1d4 points of damage the following round. Any nonmagical weapon coated with the balm affects incorporeal undead or evil outsiders as if it were a magic weapon. Any magic weapon coated with the balm affects incorporeal undead or evil outsiders as if the weapon had the ‹magic-enh/ghost touch› special ability.",
 			"",
@@ -1326,7 +1326,7 @@
 			"",
 			"@I-zap-warning You may spit a mouthful of *keros oil* past an open flame (such as a ‹eq-misc/candle›, ‹eq-misc/tindertwig›, or ‹eq-misc/torch›) to ignite it, creating a brief burst of fire. If you use it to attack, the attack is a ranged touch attack with a maximum range of 5 feet that deals 1d3 points of fire damage. If you roll a 1 on your attack roll, you accidentally inhale or swallow some of the burning fuel; you take 1d6 points of fire damage and are ‹misc/nauseated› for 1 round.",
 			"",
-			"A bottle of *keros oil* holds enough for 10 mouthfuls; taking a mouthful from the bottle is a @HL[standard action] (the ‹feat/Rapid Reload› feat reduces this to a @HL[move action]).",
+			"A bottle of *keros oil* holds enough for 10 mouthfuls; taking a mouthful from the bottle is a @SA (the ‹feat/Rapid Reload› feat reduces this to a @MA).",
 			"",
 			"::tabular{format=craftalch a=15}"
 		],
@@ -1356,9 +1356,9 @@
 			"",
 			"::tabular{format=weap1 a=40 b=2 k=alch}",
 			"",
-			"@I-melee You can empty the contents of this palm-sized metal tube with a quick flick of your wrist (a @HL[move action]), causing the bubbling transparent liquid within to instantly solidify into a jagged crystalline blade. By holding the tube, you can then use the crystalline blade as if it were a Medium ‹eq-weapon/short sword› with the ‹misc/fragile› quality. The blade lasts for 10 minutes, after which it evaporates, leaving nothing behind but the tube.",
+			"@I-melee You can empty the contents of this palm-sized metal tube with a quick flick of your wrist (a @MA), causing the bubbling transparent liquid within to instantly solidify into a jagged crystalline blade. By holding the tube, you can then use the crystalline blade as if it were a Medium ‹eq-weapon/short sword› with the ‹misc/fragile› quality. The blade lasts for 10 minutes, after which it evaporates, leaving nothing behind but the tube.",
 			"",
-			"You can add one dose of poison to the liquid in the bottle, which acts like applying a dose of poison to a weapon except it is a @HL[full-round action]; when the liquid turns into a solid blade, the weapon includes one application of that poison. When the blade evaporates, the poison does so as well.",
+			"You can add one dose of poison to the liquid in the bottle, which acts like applying a dose of poison to a weapon except it is a @RA; when the liquid turns into a solid blade, the weapon includes one application of that poison. When the blade evaporates, the poison does so as well.",
 			"",
 			"::tabular{format=craftalch a=15}"
 		],
@@ -1430,7 +1430,7 @@
 			"",
 			"These secretions are only one of the many spores and fluids that the ‹monster/mu spore«s› of Orv produce, but this is one of the few that surface dwellers have learned to safely use.",
 			"",
-			"@I-power-boost This clear secretion can be added to any alchemical weapon, including an alchemist's bombs, as a @HL[move action]. When mixed in this way, the affected alchemical weapon ignores half the hardness of any wooden objects it strikes. Alternatively, against creatures primarily made of wood (such as ‹monster/treant«s› or ‹monster/wood golem«s›), such weapons ignore the first 5 points of damage reduction the creatures has."
+			"@I-power-boost This clear secretion can be added to any alchemical weapon, including an alchemist's bombs, as a @MA. When mixed in this way, the affected alchemical weapon ignores half the hardness of any wooden objects it strikes. Alternatively, against creatures primarily made of wood (such as ‹monster/treant«s› or ‹monster/wood golem«s›), such weapons ignore the first 5 points of damage reduction the creatures has."
 		],
 		"topLink": [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ]
 	},
@@ -1527,9 +1527,9 @@
 			"",
 			"@I-info The application of the powder depends on the disease from which it is refined.",
 			"",
-			">@I-power Someone using powder made from diseases contracted by ingestion must apply it to food (a @HL[full-round action]) for the victim to consume.",
+			">@I-power Someone using powder made from diseases contracted by ingestion must apply it to food (a @RA) for the victim to consume.",
 			">",
-			">@I-power Those using powder made from diseases contracted by injury must apply the powder to weapons (a @HL[standard action], as per the ‹rule/poison« application› rules) and deal damage to victims to subject them to the contagion.",
+			">@I-power Those using powder made from diseases contracted by injury must apply the powder to weapons (a @SA, as per the ‹rule/poison« application› rules) and deal damage to victims to subject them to the contagion.",
 			">",
 			">@I-splash Diseases contracted by inhalation require the user to disperse the powder by throwing it into the air. Throwing a handful of *plague powder* is a ‹rule/throw_>splash «attack<weapon› with a range increment of 5 feet. Anyone standing in the square of impact must succeed at a save with a DC equal to that of the disease from which the powder is made to avoid contracting the illness, while those in adjacent squares must attempt the same save with a +4 bonus.",
 			">",
@@ -1612,7 +1612,7 @@
 			"",
 			"::tabular{format=weap1 a=45 b=1 k=alch}",
 			"",
-			"@I-splash-aura This yellow ball of volatile resin has a hemp wick. Lighting the fuse is a @HL[move action]; 1d3-1 rounds later (a result of 0 rounds takes place at the end of your turn), the *shriek bomb* explodes, dealing 2d6 points of sonic damage to creatures in a 10-foot radius ‹misc/burst› (Fortitude DC 15 half). A *shriek bomb* can be thrown as a ‹rule/splash weapon› with a range of 10 feet.",
+			"@I-splash-aura This yellow ball of volatile resin has a hemp wick. Lighting the fuse is a @MA; 1d3-1 rounds later (a result of 0 rounds takes place at the end of your turn), the *shriek bomb* explodes, dealing 2d6 points of sonic damage to creatures in a 10-foot radius ‹misc/burst› (Fortitude DC 15 half). A *shriek bomb* can be thrown as a ‹rule/splash weapon› with a range of 10 feet.",
 			"",
 			"::tabular{format=spontalch a=\"mag20/myrrh30/sp5\" b=congelation c=20 d=\"10 minutes\" f=\"alchemist's lab\" g=weapon}"
 		],
@@ -1771,7 +1771,7 @@
 			"",
 			"::tabular{format=weap1 a=100 b=1 k=alch}",
 			"",
-			"@I-splash This hollow clay container holds ‹eq-reagent/black powder›, a slow-burning fuse, and rock salt or hard beads of resin or rubber. Lighting the fuse is a @HL[move action]; 1d3 rounds later, the *sting grenade* explodes, dealing 2d6 points of nonlethal damage and 1d6 points of fire damage in a 10-foot-radius ‹misc/burst› (Reflex DC 15 half). A *sting grenade* is treated as a ‹rule/splash weapon› with a range increment of 10 feet.",
+			"@I-splash This hollow clay container holds ‹eq-reagent/black powder›, a slow-burning fuse, and rock salt or hard beads of resin or rubber. Lighting the fuse is a @MA; 1d3 rounds later, the *sting grenade* explodes, dealing 2d6 points of nonlethal damage and 1d6 points of fire damage in a 10-foot-radius ‹misc/burst› (Reflex DC 15 half). A *sting grenade* is treated as a ‹rule/splash weapon› with a range increment of 10 feet.",
 			"",
 			"::tabular{format=craftalch a=25}"
 		],
@@ -1889,7 +1889,7 @@
 			"",
 			"A *tar bomb* is an easy weapon to make, and devastating in use. A head-sized lump of tar is wrapped around a rope and set on fire. You use the rope to lob the burning tar onto an enemy's deck, where it sticks and sets the ship alight.",
 			"",
-			"@I-zap In many ways, a *tar bomb* functions as a less potent version of ‹eq-weapon/alchemist's fire›, as it deals less damage and lacks the splash damage of the more expensive substance. Treat this attack as a ranged touch attack with a range increment of 10 feet. Lighting a *tar bomb* is a @HL[move action].",
+			"@I-zap In many ways, a *tar bomb* functions as a less potent version of ‹eq-weapon/alchemist's fire›, as it deals less damage and lacks the splash damage of the more expensive substance. Treat this attack as a ranged touch attack with a range increment of 10 feet. Lighting a *tar bomb* is a @MA.",
 			"",
 			"A hit with a *tar bomb* deals 1d4 points of fire damage and has the potential to set the struck object or creature on fire, causing an additional 1d6 points of fire damage each round unless the target or an adjacent creature makes a DC 15 Reflex save to extinguish the flames as a full-round action. Knocking the *tar bomb* or the burning creature or object into a body of water or magically extinguishing the flames automatically smothers the fire.",
 			"",
@@ -1908,7 +1908,7 @@
 			"",
 			"Used by the dwarves of Dongun Hold to excavate precious crystals from deep underground, this heavy ceramic canister is packed with inert fibers surrounding a large alchemically infused black powder charge with a fuse.",
 			"",
-			"@I-boom-lower Lighting the fuse is a @HL[move action]; 1d3 rounds after the fuse is lit, the charge explodes, dealing 2d6 points of bludgeoning damage and 2d6 points of sonic damage in a 10-foot-radius ‹misc/burst› (Reflex DC 15 half). Creatures in the area of effect are knocked ‹rule/prone› and ‹misc/deafened› (a successful saving throw negates being knocked prone and reduces the deafened condition to 1 round).",
+			"@I-boom-lower Lighting the fuse is a @MA; 1d3 rounds after the fuse is lit, the charge explodes, dealing 2d6 points of bludgeoning damage and 2d6 points of sonic damage in a 10-foot-radius ‹misc/burst› (Reflex DC 15 half). Creatures in the area of effect are knocked ‹rule/prone› and ‹misc/deafened› (a successful saving throw negates being knocked prone and reduces the deafened condition to 1 round).",
 			"",
 			"::tabular{format=craftalch a=25}"
 		],
@@ -2128,7 +2128,7 @@
 			"",
 			"Specially crafted from solid ‹eq-material/darkwood›, heartstake bolts are specifically designed to slay ‹template/vampire«s›.",
 			"",
-			"@I-down A heartstake bolt can be fired from any crossbow, but it imposes a -2 penalty on the attack roll and halves the range increment of the weapon. A vampire struck with a heartstake bolt takes the normal damage but must also succeed at a DC 20 Fortitude saving throw or fall to the ground ‹misc/helpless› for 1 round. While the vampire is helpless in this manner, a creature can attempt to use the heartstake bolt to finish off the vampire by driving it through the vampire's heart as a @HL[full-round action]. Once the debilitating effect of the heartstake bolt has ended, the vampire can pull out the bolt as a @HL[move action].",
+			"@I-down A heartstake bolt can be fired from any crossbow, but it imposes a -2 penalty on the attack roll and halves the range increment of the weapon. A vampire struck with a heartstake bolt takes the normal damage but must also succeed at a DC 20 Fortitude saving throw or fall to the ground ‹misc/helpless› for 1 round. While the vampire is helpless in this manner, a creature can attempt to use the heartstake bolt to finish off the vampire by driving it through the vampire's heart as a @RA. Once the debilitating effect of the heartstake bolt has ended, the vampire can pull out the bolt as a @MA.",
 			"",
 			"@I-info A vampire slain with a heartstake bolt is subject to the rules and limitations of slaying a vampire with a wooden stake as described under vampire weaknesses.",
 			"",
@@ -2230,7 +2230,7 @@
 			"## Halfling sharpstones",
 			"‹SOURCE Halflings of Golarion/23›",
 			"",
-			"A thin layer of baked clay covers the spikes and jagged ridges covering this specially designed ‹eq-weapon/s_>bullet›. A proficient user knows how to crack the clay (a @HL[free action]) so that it peels off from either the spikes or ridges when fired, dealing either piercing or slashing damage.",
+			"A thin layer of baked clay covers the spikes and jagged ridges covering this specially designed ‹eq-weapon/s_>bullet›. A proficient user knows how to crack the clay (a @FA) so that it peels off from either the spikes or ridges when fired, dealing either piercing or slashing damage.",
 			"",
 			"::tabular{format=weap1 a=\"0.1\" b=\"0.5\" i=ammo j=X}",
 			"",
@@ -2262,7 +2262,7 @@
 			"",
 			"These bullets are actually made from a porous stone or heavy wood that absorbs liquids and shatters on impact.",
 			"",
-			"*Spongestones* are often used to deliver poison or burning oil. A flask of ‹eq-misc/oil› completely saturates 10 *spongestones.* When ignited (a @HL[free action] if fire is available), a burning, oil-soaked *spongestone* deals +1d2 fire damage and can ignite combustible materials (such as a thatched roof).",
+			"*Spongestones* are often used to deliver poison or burning oil. A flask of ‹eq-misc/oil› completely saturates 10 *spongestones.* When ignited (a @FA if fire is available), a burning, oil-soaked *spongestone* deals +1d2 fire damage and can ignite combustible materials (such as a thatched roof).",
 			"",
 			"@I-warning Allowing a *spongestone* to burn in a sling's cup for more than 1d3 rounds gives the ‹eq-weapon/sling› the ‹misc/broken› condition.",
 			"",
@@ -2281,7 +2281,7 @@
 			"",
 			"A metal cage behind this ‹eq-weapon/arrow's› point contains flammable material.",
 			"",
-			"@I-down-info You take a -1 penalty on attack rolls when firing incendiary arrows. You can light up to six incendiary arrows as a @HL[full-round action] (a @HL[standard action] if you use a ‹eq-misc/tindertwig›) that provokes attacks of opportunity. Once lit, the arrow burns for 2 rounds.",
+			"@I-down-info You take a -1 penalty on attack rolls when firing incendiary arrows. You can light up to six incendiary arrows as a @RA (a @SA if you use a ‹eq-misc/tindertwig›) that provokes attacks of opportunity. Once lit, the arrow burns for 2 rounds.",
 			"",
 			"@I-boost A lit incendiary arrow deals an additional 1 point of fire damage. On a critical hit, the target must succeed at a DC 15 Reflex save or ‹rule/catch fire›.",
 			"",
@@ -2396,7 +2396,7 @@
 			"",
 			"@I-boost They deal normal damage but then become embedded in the wound and deal an additional 1 point of ‹rule/bleed› damage each round for 1d6 rounds from their irritating sap. Creatures immune to poison are immune to this extra damage.",
 			"",
-			"@I-warning A creature can remove an embedded thistle arrow as a @HL[move action] without provoking attacks of opportunity, but doing so deals an additional 1d3 points of damage as the thorny barbs are pulled free. A DC 12 ‹skill/Heal› check (made as a @HL[standard action]) can pull free a thistle arrow's head without dealing any additional damage.",
+			"@I-warning A creature can remove an embedded thistle arrow as a @MA without provoking attacks of opportunity, but doing so deals an additional 1d3 points of damage as the thorny barbs are pulled free. A DC 12 ‹skill/Heal› check (made as a @SA) can pull free a thistle arrow's head without dealing any additional damage.",
 			"",
 			"::tabular{format=weap1 a=1 b=\"0.15\" i=ammo j=X}",
 			"",
@@ -2446,12 +2446,13 @@
 			"## Battle aspergillum",
 			"‹SOURCE Ultimate Equipment/17;Advanced Player's Guide/176›",
 			"",
-			"Named for the common aspergillum, a mace-like tool used by priests to sprinkle holy water, this light mace has a hollow head and a metal plug closing off the hole through which the head is filled. When the mace strikes a creature, holy water sprinkles out through tiny holes throughout the weapon's head; creatures subject to damage from ‹eq-weapon/holy water› take 1 point of damage in addition to the normal effect of being struck by the mace (a nonmagical aspergillum can deal holy water damage to an incorporeal creature in this manner, even if the mace itself deals no damage). After 5 hits, the battle aspergillum is empty and needs to be refilled. Filling it with holy water is a standard action that provokes attacks of opportunity (like drinking a potion). A filled aspergillum is normally carried upright, to prevent the holy water from leaking out as the weapon moves.",
+			"Named for the common aspergillum, a mace-like tool used by priests to sprinkle holy water, this ‹eq-weapon/light mace› has a hollow head and a metal plug closing off the hole through which the head is filled.",
 			"",
-			"**Cost** 5 gp **Weight** 4 lbs.  ",
-			"**Damage** 1d4 (small), 1d6 (medium); **Critical** &times;2; **Range** -; **Type** B; **Special** see text  ",
-			"**Category** Light; **Proficiency** Simple  ",
-			"**‹ability/Weapon Group<s›** Hammers"
+			"@I-boost When the mace strikes a creature, holy water sprinkles out through tiny holes throughout the weapon's head; creatures subject to damage from ‹eq-weapon/holy water› take 1 point of damage in addition to the normal effect of being struck by the mace (a nonmagical aspergillum can deal holy water damage to an incorporeal creature in this manner, even if the mace itself deals no damage).",
+			"",
+			"@I-info After 5 hits, the battle aspergillum is empty and needs to be refilled. Filling it with holy water is a @SA that provokes attacks of opportunity (like drinking a ‹rule/potion›). A filled aspergillum is normally carried upright, to prevent the holy water from leaking out as the weapon moves.",
+			"",
+			"::tabular{format=weap1 a=5 b=4 d=s1d4~m1d6 e=x2 f=x g=B h=\"see text\" i=light j=S k=Hammers}"
 		],
 		"topLink": [ "Light Weapons", "main/equipment_weapons_light" ]
 	},
@@ -2466,9 +2467,7 @@
 			"",
 			"A brass knife has the ‹misc/fragile› quality. A fragile weapon gains the broken condition if the wielder rolls a natural 1 on an attack roll with the weapon. If a fragile weapon is already broken, rolling a natural 1 destroys it instead.",
 			"",
-			"**Cost** 2 gp **Weight** 1 lb.  ",
-			"**Damage** 1d3 (small), 1d4 (medium); **Critical** 19-20/&times;2; **Range** 10 ft.; **Type** P or S; **Special** fragile  ",
-			"**Category** Light; **Proficiency** Simple"
+			"::tabular{format=weap1 a=2 b=1 d=s1d3~m1d4 e=r19x2 f=10 g=\"P or S\" h=fragile i=light j=S}"
 		],
 		"topLink": [ "Light Weapons", "main/equipment_weapons_light" ]
 	},
@@ -2483,12 +2482,9 @@
 			"## Brass knuckles",
 			"‹SOURCE Ultimate Equipment/17;Adventurer's Armory/2;Advanced Player's Guide/176›",
 			"",
-			"These weapons fit snugly around the knuckles and allow you to deal lethal damage with an unarmed strike. You may hold, but not wield, a weapon or other object in a hand wearing brass knuckles. You may cast a spell with a somatic component while wearing brass knuckles if you make a successful ‹rule/concentration› check (DC 10 + the level of the spell you're casting). Monks are proficient with brass knuckles. Brass knuckles can't be disarmed.",
+			"These weapons fit snugly around the knuckles and allow you to deal lethal damage with an unarmed strike. You may hold, but not wield, a weapon or other object in a hand wearing brass knuckles. You may cast a spell with a somatic component while wearing brass knuckles if you make a successful ‹rule/concentration› check (DC 10 + the level of the spell you're casting). Monks are proficient with brass knuckles. Brass knuckles can't be ‹rule/disarm«ed›.",
 			"",
-			"**Cost** 1 gp **Weight** 1 lb.  ",
-			"**Damage** 1d2 (small), 1d3 (medium); **Critical** &times;2; **Range** -; **Type** B; **Special** ‹misc/monk›, see text  ",
-			"**Category** Light; **Proficiency** Simple  ",
-			"**‹ability/Weapon Group<s›** Close; Monk"
+			"::tabular{format=weap1 a=1 b=1 d=s1d2~m1d3 e=x2 f=x g=B h=\"‹misc/monk›, see text\" i=light j=S k=\"Close; Monk\"}"
 		],
 		"topLink": [ "Light Weapons", "main/equipment_weapons_light" ]
 	},
@@ -2503,12 +2499,13 @@
 			"## Cestus",
 			"‹SOURCE Ultimate Equipment/17;Adventurer's Armory/3;Advanced Player's Guide/176›",
 			"",
-			"The cestus is a glove of leather or thick cloth that covers the wielder from mid-finger to mid-forearm. The close combat weapon is reinforced with metal plates over the fingers and often lined with wicked spikes along the backs of the hands and wrists. While wearing a cestus, you are considered armed and your unarmed attacks deal lethal damage. If you are proficient with a cestus, you can have your unarmed strikes deal bludgeoning or piercing damage. Monks are proficient with the cestus. When using a cestus, your fingers are mostly exposed, allowing you to wield or carry items in that hand, but the constriction of the weapon at your knuckles gives you a -2 penalty on all precision-based tasks involving that hand (such as opening locks). A cestus can't be disarmed.",
+			"The cestus is a glove of leather or thick cloth that covers the wielder from mid-finger to mid-forearm. The close combat weapon is reinforced with metal plates over the fingers and often lined with wicked spikes along the backs of the hands and wrists.",
 			"",
-			"**Cost** 5 gp **Weight** 1 lb.  ",
-			"**Damage** 1d3 (small), 1d4 (medium); **Critical** 19-20/&times;2; **Range** -; **Type** B or P; **Special** ‹misc/monk›, see text  ",
-			"**Category** Light; **Proficiency** Simple  ",
-			"**‹ability/Weapon Group<s›** Close; Monk"
+			"While wearing a cestus, you are considered armed and your unarmed attacks deal lethal damage. If you are proficient with a cestus, you can have your unarmed strikes deal bludgeoning or piercing damage. Monks are proficient with the cestus.",
+			"",
+			"When using a cestus, your fingers are mostly exposed, allowing you to wield or carry items in that hand, but the constriction of the weapon at your knuckles gives you a -2 penalty on all precision-based tasks involving that hand (such as [opening locks](skill/disable_device)). A cestus can't be ‹rule/disarm«ed›.",
+			"",
+			"::tabular{format=weap1 a=5 b=1 d=s1d3~m1d4 e=r19x2 f=x g=\"B or P\" h=\"‹misc/monk›, see text\" i=light j=S k=\"Close; Monk\"}"
 		],
 		"topLink": [ "Light Weapons", "main/equipment_weapons_light" ]
 	},
@@ -2522,12 +2519,11 @@
 			"## Dagger",
 			"‹SOURCE Ultimate Equipment/17;PRPG Core Rulebook/142›",
 			"",
-			"A dagger is a fighting knife. Its blade is usually less than 1 foot long, and can be curved or straight, with one edge or two. Dagger designs vary widely, and can have many different names (such as a thrusting dagger being called a \"dirk\"). You get a +2 bonus on Sleight of Hand skill checks made to conceal a dagger on your body.",
+			"A dagger is a fighting knife. Its blade is usually less than 1 foot long, and can be curved or straight, with one edge or two. Dagger designs vary widely, and can have many different names (such as a thrusting dagger being called a \"dirk\").",
 			"",
-			"**Cost** 2 gp **Weight** 1 lb.  ",
-			"**Damage** 1d3 (small), 1d4 (medium); **Critical** 19-20/&times;2; **Range** 10 ft.; **Type** P or S; **Special** -  ",
-			"**Category** Light; **Proficiency** Simple  ",
-			"**‹ability/Weapon Group<s›** Blades, Light; Thrown; Tribal"
+			"@I-def You get a +2 bonus on ‹skill/Sleight of Hand› skill checks made to conceal a dagger on your body.",
+			"",
+			"::tabular{format=weap1 a=2 b=1 d=s1d3~m1d4 e=r19x2 f=10 g=\"P or S\" h=\"-\" i=light j=S k=\"Blades, Light; Thrown; Tribal\"}"
 		],
 		"topLink": [ "Light Weapons", "main/equipment_weapons_light" ]
 	},
@@ -2541,12 +2537,11 @@
 			"## Gauntlet",
 			"‹SOURCE Ultimate Equipment/17;PRPG Core Rulebook/142›",
 			"",
-			"This metal glove lets you deal lethal damage rather than nonlethal damage with unarmed strikes. A strike with a gauntlet is otherwise considered an unarmed attack. The cost and weight given are for a single gauntlet. Medium and heavy armors (except breastplates) come with gauntlets. Your opponent cannot use a disarm action to disarm you of gauntlets.",
+			"This metal glove lets you deal lethal damage rather than nonlethal damage with unarmed strikes. A strike with a gauntlet is otherwise considered an unarmed attack.",
 			"",
-			"**Cost** 2 gp **Weight** 1 lb.  ",
-			"**Damage** 1d2 (small), 1d3 (medium); **Critical** &times;2; **Range** -; **Type** B; **Special** -  ",
-			"**Category** Light; **Proficiency** Simple  ",
-			"**‹ability/Weapon Group<s›** Close"
+			"The cost and weight given are for a single gauntlet. Medium and heavy armors (except breastplates) come with gauntlets. Your opponent cannot use a ‹rule/disarm› action to disarm you of gauntlets.",
+			"",
+			"::tabular{format=weap1 a=2 b=1 d=s1d2~m1d3 e=x2 f=x g=B h=\"-\" i=light j=S k=Close}"
 		],
 		"topLink": [ "Light Weapons", "main/equipment_weapons_light" ]
 	},
@@ -2559,10 +2554,7 @@
 			"",
 			"The hanbo is a staff less than a yard long, often carved to look like a walking stick.",
 			"",
-			"**Cost** 1 gp **Weight** 2 lbs.  ",
-			"**Damage** 1d4 (small), 1d6 (medium); **Critical** &times;2; **Range** -; **Type** B; **Special** ‹misc/monk›, ‹misc/trip›  ",
-			"**Category** Light; **Proficiency** Simple  ",
-			"**‹ability/Weapon Group<s›** Monk"
+			"::tabular{format=weap1 a=1 b=2 d=s1d4~m1d6 e=x2 f=x g=B h=\"‹misc/monk›, ‹misc/trip›\" i=light j=S k=Monk}"
 		],
 		"topLink": [ "Light Weapons", "main/equipment_weapons_light" ]
 	},
@@ -2573,11 +2565,13 @@
 			"## Handwraps",
 			"‹SOURCE Martial Arts Handbook/30›",
 			"",
-			"Many unarmed fighters wrap their hands in cloth to minimize injuries to their fists. Some martial artists also weave small coins or metal bars into their handwraps, adding special material effects as well. Handwraps don't alter the damage a character's unarmed attacks deal. However, masterwork handwraps can be enchanted as weapons, providing their benefits on unarmed attacks the character makes with her hands. A character can't benefit from both handwraps and other items that provide enhancement bonuses or weapon special abilities (such as an ‹magic-wondrous/amulet of mighty fists›) on the same attack.",
+			"Many unarmed fighters wrap their hands in cloth to minimize injuries to their fists. Some martial artists also weave small coins or metal bars into their handwraps, adding special material effects as well.",
 			"",
-			"**Cost** 0.1 gp **Weight** -  ",
-			"**Damage** - (small), - (medium); **Critical** -; **Range** -; **Type** -; **Special** see text  ",
-			"**Category** Light; **Proficiency** Simple"
+			"Handwraps don't alter the damage a character's unarmed attacks deal. However, ‹rule/masterwork<_w› handwraps can be enchanted as weapons, providing their benefits on unarmed attacks the character makes with her hands.",
+			"",
+			"A character can't benefit from both handwraps and other items that provide enhancement bonuses or weapon special abilities (such as an ‹magic-wondrous/amulet of mighty fists›) on the same attack.",
+			"",
+			"::tabular{format=weap1 a=\"0.1\" b=x d=\"s&mdash&~m&mdash&\" e=\"-\" f=x g=- h=\"see text\" i=light j=S}"
 		],
 		"topLink": [ "Light Weapons", "main/equipment_weapons_light" ]
 	},
@@ -2592,11 +2586,9 @@
 			"## Hook hand",
 			"‹SOURCE Villain Codex/188;Pirates of the Inner Sea/19;Skull and Shackles Player's Guide/6›",
 			"",
-			"Pirates who lose a hand in the course of their adventures sometimes attach hooks to their wrists. Hook hands can't be disarmed. They generally don't interfere with day-to-day activities, but can't be used for tasks that would require an actual hand (such as completing somatic components, drawing arrows, or holding a weapon with both hands).",
+			"Pirates who lose a hand in the course of their adventures sometimes attach hooks to their wrists. Hook hands can't be ‹rule/disarm«ed›. They generally don't interfere with day-to-day activities, but can't be used for tasks that would require an actual hand (such as completing somatic components, drawing arrows, or holding a weapon with both hands).",
 			"",
-			"**Cost** 10 gp **Weight** 1 lb.  ",
-			"**Damage** 1d3 (small), 1d4 (medium); **Critical** &times;2; **Range** -; **Type** S; **Special** ‹misc/disarm›  ",
-			"**Category** Light; **Proficiency** Simple"
+			"::tabular{format=weap1 a=10 b=1 d=s1d3~m1d4 e=x2 f=x g=S h=\"‹misc/disarm›\" i=light j=S}"
 		],
 		"topLink": [ "Light Weapons", "main/equipment_weapons_light" ]
 	},
@@ -2607,11 +2599,11 @@
 			"## Kunai",
 			"‹SOURCE Ranged Tactics Toolbox/18›",
 			"",
-			"Crafted from a single piece of iron, a kunai has a leaf-shaped blade and a ring for a pommel. Adapted from the common trowel, the kunai has a thick blade that is sharpened only near the tip. Unlike finer weapons, the kunai can readily substitute for a ‹eq-misc/crowbar› or ‹eq-misc/piton› without being damaged in the process.",
+			"Crafted from a single piece of iron, a kunai has a leaf-shaped blade and a ring for a pommel. Adapted from the common trowel, the kunai has a thick blade that is sharpened only near the tip.",
 			"",
-			"**Cost** 2 gp **Weight** 2 lbs.  ",
-			"**Damage** 1d3 (small), 1d4 (medium); **Critical** &times;2; **Range** 10 ft.; **Type** B or P; **Special** -  ",
-			"**Category** Light; **Proficiency** Simple"
+			"@I-power Unlike finer weapons, the kunai can readily substitute for a ‹eq-misc/crowbar› or ‹eq-misc/piton› without being damaged in the process.",
+			"",
+			"::tabular{format=weap1 a=2 b=2 d=s1d3~m1d4 e=x2 f=10 g=\"B or P\" h=\"-\" i=light j=S}"
 		],
 		"topLink": [ "Light Weapons", "main/equipment_weapons_light" ]
 	},
@@ -2627,10 +2619,7 @@
 			"",
 			"A mace is made up of an ornate metal head attached to a simple wooden or metal shaft. The mace's head is usually flanged to cause more pain or damage. Some more primitive maces are made with stone bound to a wooden haft with leather straps.",
 			"",
-			"**Cost** 5 gp **Weight** 4 lbs.  ",
-			"**Damage** 1d4 (small), 1d6 (medium); **Critical** &times;2; **Range** -; **Type** B; **Special** -  ",
-			"**Category** Light; **Proficiency** Simple  ",
-			"**‹ability/Weapon Group<s›** Hammers"
+			"::tabular{format=weap1 a=5 b=4 d=s1d4~m1d6 e=x2 f=x g=B h=\"-\" i=light j=S k=Hammers}"
 		],
 		"topLink": [ "Light Weapons", "main/equipment_weapons_light" ]
 	},
@@ -2646,10 +2635,7 @@
 			"",
 			"A punching dagger's blade is attached to a horizontal handle that projects out from the fist when held.",
 			"",
-			"**Cost** 2 gp **Weight** 1 lb.  ",
-			"**Damage** 1d3 (small), 1d4 (medium); **Critical** &times;3; **Range** -; **Type** P; **Special** -  ",
-			"**Category** Light; **Proficiency** Simple  ",
-			"**‹ability/Weapon Group<s›** Close"
+			"::tabular{format=weap1 a=2 b=1 d=s1d3~m1d4 e=x3 f=x g=P h=\"-\" i=light j=S k=Close}"
 		],
 		"topLink": [ "Light Weapons", "main/equipment_weapons_light" ]
 	},
@@ -2665,10 +2651,7 @@
 			"",
 			"Originating as a farming tool used for reaping grain, this one-handed weapon has a blade with a strong curve that can easily catch an opponent's limb or armor. Its blade can be either smooth or serrated, and some fighting sickles are sharpened on both sides near the point, making it easier to hook into an opponent's flesh.",
 			"",
-			"**Cost** 6 gp **Weight** 2 lbs.  ",
-			"**Damage** 1d4 (small), 1d6 (medium); **Critical** &times;2; **Range** -; **Type** S; **Special** ‹misc/trip›  ",
-			"**Category** Light; **Proficiency** Simple  ",
-			"**‹ability/Weapon Group<s›** Blades, Light"
+			"::tabular{format=weap1 a=6 b=2 d=s1d4~m1d6 e=x2 f=x g=S h=\"‹misc/trip›\" i=light j=S k=\"Blades, Light\"}"
 		],
 		"topLink": [ "Light Weapons", "main/equipment_weapons_light" ]
 	},
@@ -2679,11 +2662,13 @@
 			"## Spider-leg sickle",
 			"‹SOURCE The House on Hook Street/13›",
 			"",
-			"This wickedly curved sickle is cast in the form of a segmented spider's leg. It has the same statistics as a normal ‹eq-weapon/sickle› and can trip opponents, but deals piercing damage rather than slashing damage. The leather-wrapped handle contains a hollow recess that can hold a single dose of poison. Filling the reservoir is a full-round action that carries the usual risks of poisoning yourself. Once filled, the reservoir keeps the blade saturated and viable for up to 2 hours. The first successful attack made with the spider-leg sickle during this time administers and expends the dose of poison. Mog-Lathar's deacons carry masterwork versions of these weapons. The cult uses ‹eq-poison/blue whinnis› poison, and within the radius of ‹magic-artifact/the dreamstone«'s› effects the unconsciousness effect may trigger lucid dreaming.",
+			"This wickedly curved sickle is cast in the form of a segmented spider's leg. It has the same statistics as a normal ‹eq-weapon/sickle› and can trip opponents, but deals piercing damage rather than slashing damage.",
 			"",
-			"**Cost** 15 gp **Weight** 2 lbs.  ",
-			"**Damage** 1d4 (small), 1d6 (medium); **Critical** &times;2; **Range** -; **Type** P; **Special** ‹misc/trip›  ",
-			"**Category** Light; **Proficiency** Simple"
+			"The leather-wrapped handle contains a hollow recess that can hold a single dose of poison. Filling the reservoir is a @RA that carries the usual risks of poisoning yourself. Once filled, the reservoir keeps the blade saturated and viable for up to 2 hours. The first successful attack made with the spider-leg sickle during this time administers and expends the dose of poison.",
+			"",
+			"Mog-Lathar's deacons carry ‹rule/masterwork<_w› versions of these weapons. The cult uses ‹eq-poison/blue whinnis› poison, and within the radius of ‹magic-artifact/the dreamstone«'s› effects the unconsciousness effect may trigger lucid dreaming.",
+			"",
+			"::tabular{format=weap1 a=15 b=2 d=s1d4~m1d6 e=x2 f=x g=P h=\"‹misc/trip›\" i=light j=S}"
 		],
 		"topLink": [ "Light Weapons", "main/equipment_weapons_light" ]
 	},
@@ -2697,12 +2682,11 @@
 			"## Spiked gauntlet",
 			"‹SOURCE Ultimate Equipment/17;PRPG Core Rulebook/142›",
 			"",
-			"This is a ‹eq-weapon/gauntlet› of thick leather or metal with blades or spikes protruding from above the knuckles, allowing the wearer to stab with the force of a punch. The cost and weight given are for a single gauntlet. An attack with a spiked gauntlet is considered an armed attack. Your opponent cannot disarm you of spiked gauntlets.",
+			"This is a ‹eq-weapon/gauntlet› of thick leather or metal with blades or spikes protruding from above the knuckles, allowing the wearer to stab with the force of a punch.",
 			"",
-			"**Cost** 5 gp **Weight** 1 lb.  ",
-			"**Damage** 1d3 (small), 1d4 (medium); **Critical** &times;2; **Range** -; **Type** P; **Special** -  ",
-			"**Category** Light; **Proficiency** Simple  ",
-			"**‹ability/Weapon Group<s›** Close"
+			"The cost and weight given are for a single gauntlet. An attack with a spiked gauntlet is considered an armed attack. Your opponent cannot ‹rule/disarm› you of spiked gauntlets.",
+			"",
+			"::tabular{format=weap1 a=5 b=1 d=s1d3~m1d4 e=x2 f=x g=P h=\"-\" i=light j=S k=Close}"
 		],
 		"topLink": [ "Light Weapons", "main/equipment_weapons_light" ]
 	},
@@ -2713,11 +2697,11 @@
 			"## Spring blade",
 			"‹SOURCE Ultimate Intrigue/232›",
 			"",
-			"This 4-inch blade is attached via a hinge to a wooden handle with a slot in the center, into which the blade can be folded. With a click of a switch, a spring thrusts the blade outward, where it locks into place until it is reset. Releasing the blade is a free action, and resetting it is a move action. The handle must be in your hand for the blade to be released; placing it in your hand requires the same type of action as drawing a weapon. A spring blade is easy to conceal: an observer must succeed at a DC 20 Perception check to notice the blade hidden within the wooden handle, and you gain a +4 bonus on Sleight of Hand checks to conceal a spring blade on your body.",
+			"This 4-inch blade is attached via a hinge to a wooden handle with a slot in the center, into which the blade can be folded. With a click of a switch, a spring thrusts the blade outward, where it locks into place until it is reset.",
 			"",
-			"**Cost** 70 gp **Weight** 1 lb.  ",
-			"**Damage** 1d3 (small), 1d4 (medium); **Critical** &times;2; **Range** 10 ft.; **Type** P or S; **Special** -  ",
-			"**Category** Light; **Proficiency** Simple"
+			"Releasing the blade is a @FA, and resetting it is a @MA. The handle must be in your hand for the blade to be released; placing it in your hand requires the same type of action as ‹rule/drawing a weapon›. A spring blade is easy to conceal: an observer must succeed at a DC 20 ‹skill/Perception› check to notice the blade hidden within the wooden handle, and you gain a +4 bonus on ‹skill/Sleight of Hand› checks to conceal a spring blade on your body.",
+			"",
+			"::tabular{format=weap1 a=70 b=1 d=s1d3~m1d4 e=x2 f=10 g=\"P or S\" h=\"-\" i=light j=S}"
 		],
 		"topLink": [ "Light Weapons", "main/equipment_weapons_light" ]
 	},
@@ -2728,12 +2712,11 @@
 			"## Traveling kettle",
 			"‹SOURCE Martial Arts Handbook/30›",
 			"",
-			"These small tea kettles are made with clamping lids and heavily reinforced handles, allowing them to be swung like a club. A traveling kettle with boiling water inside deals an additional 1 point of fire damage on a hit. Boiling water cools to a non-damaging temperature after 5 minutes.",
+			"These small tea kettles are made with clamping lids and heavily reinforced handles, allowing them to be swung like a club.",
 			"",
-			"**Cost** 5 gp **Weight** 2 lbs.  ",
-			"**Damage** 1d4 (small), 1d6 (medium); **Critical** &times;2; **Range** -; **Type** B; **Special** ‹misc/monk›, see text  ",
-			"**Category** Light; **Proficiency** Simple  ",
-			"**‹ability/Weapon Group<s›** Monk"
+			"@I-boost A traveling kettle with boiling water inside deals an additional 1 point of fire damage on a hit. Boiling water cools to a non-damaging temperature after 5 minutes.",
+			"",
+			"::tabular{format=weap1 a=5 b=2 d=s1d4~m1d6 e=x2 f=x g=B h=\"‹misc/monk›, see text\" i=light j=S k=Monk}"
 		],
 		"topLink": [ "Light Weapons", "main/equipment_weapons_light" ]
 	},
@@ -2751,10 +2734,7 @@
 			"",
 			"This close combat weapon is just a sharpened piece of wood. ‹eq-misc/Iron spike«s› that are used as weapons deal damage as wooden stakes.",
 			"",
-			"**Cost** - **Weight** 1 lb.  ",
-			"**Damage** 1d3 (small), 1d4 (medium); **Critical** &times;2; **Range** 10 ft.; **Type** P; **Special** -  ",
-			"**Category** Light; **Proficiency** Simple  ",
-			"**‹ability/Weapon Group<s›** Close"
+			"::tabular{format=weap1 a=0 b=1 d=s1d3~m1d4 e=x2 f=10 g=P h=\"-\" i=light j=S k=Close}"
 		],
 		"topLink": [ "Light Weapons", "main/equipment_weapons_light" ]
 	},
@@ -2765,11 +2745,11 @@
 			"## Baston fighting stick",
 			"‹SOURCE Merchant's Manifest/11›",
 			"",
-			"These weapons are treated sticks of wood, either left bare or covered in elaborate decorative designs. Baston fighting sticks vary in length from 2 to 4 feet, with thicknesses varying between 1 to 3 inches. In most applications, these weapons are similar to ‹eq-weapon/club«s› or ‹eq-weapon/quarterstaff«s›, but in the hands of a trained expert, they truly shine. A creature with the ‹feat/Combat Reflexes› feat treats the weapon as having the ‹misc/blocking› and ‹misc/performance› weapon special features.",
+			"These weapons are treated sticks of wood, either left bare or covered in elaborate decorative designs. Baston fighting sticks vary in length from 2 to 4 feet, with thicknesses varying between 1 to 3 inches. In most applications, these weapons are similar to ‹eq-weapon/club«s› or ‹eq-weapon/quarterstaff«s›, but in the hands of a trained expert, they truly shine.",
 			"",
-			"**Cost** 10 gp **Weight** 2 lbs.  ",
-			"**Damage** 1d4 (small), 1d6 (medium); **Critical** &times;2; **Range** -; **Type** B; **Special** ‹misc/monk›, see text  ",
-			"**Category** One-Handed; **Proficiency** Simple"
+			"@I-boost A creature with the ‹feat/Combat Reflexes› feat treats the weapon as having the ‹misc/blocking› and ‹misc/performance› weapon special features.",
+			"",
+			"::tabular{format=weap1 a=10 b=2 d=s1d4~m1d6 e=x2 f=x g=B h=\"‹misc/monk›, see text\" i=one j=S}"
 		],
 		"topLink": [ "One-Handed Weapons", "main/equipment_weapons_one_handed" ]
 	},
@@ -2785,10 +2765,7 @@
 			"",
 			"This weapon is usually just a shaped piece of wood, sometimes with a few nails or studs embedded in it.",
 			"",
-			"**Cost** - **Weight** 3 lbs.  ",
-			"**Damage** 1d4 (small), 1d6 (medium); **Critical** &times;2; **Range** 10 ft.; **Type** B; **Special** -  ",
-			"**Category** One-Handed; **Proficiency** Simple  ",
-			"**‹ability/Weapon Group<s›** Hammers; Thrown; Tribal"
+			"::tabular{format=weap1 a=0 b=3 d=s1d4~m1d6 e=x2 f=10 g=B h=\"-\" i=one j=S k=\"Hammers; Thrown; Tribal\"}"
 		],
 		"topLink": [ "One-Handed Weapons", "main/equipment_weapons_one_handed" ]
 	},
@@ -2804,10 +2781,7 @@
 			"",
 			"A heavy mace has a larger head and a longer handle than a ‹eq-weapon/light mace›.",
 			"",
-			"**Cost** 12 gp **Weight** 8 lbs.  ",
-			"**Damage** 1d6 (small), 1d8 (medium); **Critical** &times;2; **Range** -; **Type** B; **Special** -  ",
-			"**Category** One-Handed; **Proficiency** Simple  ",
-			"**‹ability/Weapon Group<s›** Hammers"
+			"::tabular{format=weap1 a=12 b=8 d=s1d6~m1d8 e=x2 f=x g=B h=\"-\" i=one j=S k=Hammers}"
 		],
 		"topLink": [ "One-Handed Weapons", "main/equipment_weapons_one_handed" ]
 	},
@@ -2821,12 +2795,9 @@
 			"## Mere club",
 			"‹SOURCE Ultimate Equipment/17;Adventurer's Armory/4›",
 			"",
-			"A Stone Age weapon traditionally made of carved stone, a mere (MEH-reh) is a short, flat-sided, sharp-pointed club.",
+			"A Stone Age weapon traditionally made of carved ‹eq-material/stone›, a mere (MEH-reh) is a short, flat-sided, sharp-pointed club.",
 			"",
-			"**Cost** 2 gp **Weight** 2 lbs.  ",
-			"**Damage** 1d3 (small), 1d4 (medium); **Critical** &times;2; **Range** -; **Type** B or P; **Special** ‹misc/fragile›  ",
-			"**Category** One-Handed; **Proficiency** Simple  ",
-			"**‹ability/Weapon Group<s›** Close; Hammers"
+			"::tabular{format=weap1 a=2 b=2 d=s1d3~m1d4 e=x2 f=x g=\"B or P\" h=\"‹misc/fragile›\" i=one j=S k=\"Close; Hammers\"}"
 		],
 		"topLink": [ "One-Handed Weapons", "main/equipment_weapons_one_handed" ]
 	},
@@ -2842,10 +2813,7 @@
 			"",
 			"A morningstar is a spiked metal ball affixed to a handle.",
 			"",
-			"**Cost** 8 gp **Weight** 6 lbs.  ",
-			"**Damage** 1d6 (small), 1d8 (medium); **Critical** &times;2; **Range** -; **Type** B and P; **Special** -  ",
-			"**Category** One-Handed; **Proficiency** Simple  ",
-			"**‹ability/Weapon Group<s›** Flails"
+			"::tabular{format=weap1 a=8 b=6 d=s1d6~m1d8 e=x2 f=x g=\"B and P\" h=\"-\" i=one j=S k=Flails}"
 		],
 		"topLink": [ "One-Handed Weapons", "main/equipment_weapons_one_handed" ]
 	},
@@ -2861,10 +2829,7 @@
 			"",
 			"A shortspear is about 3 feet in length, making it a suitable thrown weapon.",
 			"",
-			"**Cost** 1 gp **Weight** 3 lbs.  ",
-			"**Damage** 1d4 (small), 1d6 (medium); **Critical** &times;2; **Range** 20 ft.; **Type** P; **Special** -  ",
-			"**Category** One-Handed; **Proficiency** Simple  ",
-			"**‹ability/Weapon Group<s›** Spears; Thrown; Tribal"
+			"::tabular{format=weap1 a=1 b=3 d=s1d4~m1d6 e=x2 f=20 g=P h=\"-\" i=one j=S k=\"Spears; Thrown; Tribal\"}"
 		],
 		"topLink": [ "One-Handed Weapons", "main/equipment_weapons_one_handed" ]
 	},
@@ -2882,14 +2847,11 @@
 			"## Bayonet",
 			"‹SOURCE Ultimate Equipment/17;Adventurer's Armory/2;Pirates of the Inner Sea/19;Advanced Player's Guide/176;Skull and Shackles Player's Guide/6;Pathfinder #71: Rasputin Must Die!/67›",
 			"",
-			"Bayonets are close combat weapons designed to fit into the grooves or muzzles of crossbows and firearms. They allow you to make melee attacks with these weapons but render them temporarily useless as ranged weapons. Attaching or removing a bayonet is a move action.",
+			"Bayonets are close combat weapons designed to fit into the grooves or muzzles of ‹eq-weapon/crossbow«s› and ‹main/equipment_>firearms›. They allow you to make melee attacks with these weapons but render them temporarily useless as ranged weapons. Attaching or removing a bayonet is a @MA.",
 			"",
-			"**Bayonet, Socket:** A socket bayonet fits onto a lug mounted on the barrel of some modern firearms. It has the same statistics as a bayonet, but a firearm fitted with a bayonet lug can be fired while the bayonet is in place, albeit with a -2 penalty on attack rolls. Each bayonet is designed for a specific model of firearm.",
+			"@HL[Socket Bayonet:] A socket bayonet fits onto a lug mounted on the barrel of some modern firearms. It has the same statistics as a bayonet, but a firearm fitted with a bayonet lug can be fired while the bayonet is in place, albeit with a -2 penalty on attack rolls. Each bayonet is designed for a specific model of firearm.",
 			"",
-			"**Cost** 5 gp **Weight** 1 lb.  ",
-			"**Damage** 1d4 (small), 1d6 (medium); **Critical** &times;2; **Range** -; **Type** P; **Special** -  ",
-			"**Category** Two-Handed; **Proficiency** Simple  ",
-			"**‹ability/Weapon Group<s›** Blades, Light; Close"
+			"::tabular{format=weap1 a=5 b=1 d=s1d4~m1d6 e=x2 f=x g=P h=\"-\" i=two j=S k=\"Blades, Light; Close\"}"
 		],
 		"topLink": [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ]
 	},
@@ -2903,12 +2865,11 @@
 			"## Boar spear",
 			"‹SOURCE Ultimate Equipment/17;Advanced Player's Guide/176›",
 			"",
-			"This spear has a metal crossbar to protect you against onrushing attackers. If you ready a boar spear against a charge and your attack hits, you gain a +2 shield bonus to your AC against that creature until your next turn.",
+			"This spear has a metal crossbar to protect you against onrushing attackers.",
 			"",
-			"**Cost** 5 gp **Weight** 8 lbs.  ",
-			"**Damage** 1d6 (small), 1d8 (medium); **Critical** &times;2; **Range** -; **Type** P; **Special** ‹misc/brace›, see text  ",
-			"**Category** Two-Handed; **Proficiency** Simple  ",
-			"**‹ability/Weapon Group<s›** Spears"
+			"@I-def If you ‹rule/ready› a boar spear against a charge and your attack hits, you gain a +2 shield bonus to your AC against that creature until your next turn.",
+			"",
+			"::tabular{format=weap1 a=5 b=8 d=s1d6~m1d8 e=x2 f=x g=P h=\"‹misc/brace›, see text\" i=two j=S k=Spears}"
 		],
 		"topLink": [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ]
 	},
@@ -2922,11 +2883,11 @@
 			"## Boarding pike",
 			"‹SOURCE Pirates of the Inner Sea/19;Skull and Shackles Player's Guide/6›",
 			"",
-			"A boarding pike is an 8-foot-long pole topped with a foot-long tapered metal tip. Boarding pikes look much like ‹eq-weapon/longspear«s›, but the metal pike is designed to flow into the wooden haft, leaving no grooves, collars, or spikes that could trap salt water and cause rust. Boarding pikes are mainly used defensively, to repel boarding actions. The pikes are kept in brackets around the mast, so sailors can quickly grab pikes and brace them against the gunwale to repel boarders.",
+			"A boarding pike is an 8-foot-long pole topped with a foot-long tapered metal tip. Boarding pikes look much like ‹eq-weapon/longspear«s›, but the metal pike is designed to flow into the wooden haft, leaving no grooves, collars, or spikes that could trap salt water and cause rust.",
 			"",
-			"**Cost** 8 gp **Weight** 9 lbs.  ",
-			"**Damage** 1d6 (small), 1d8 (medium); **Critical** &times;3; **Range** -; **Type** P; **Special** ‹misc/brace›, ‹misc/reach›  ",
-			"**Category** Two-Handed; **Proficiency** Simple"
+			"Boarding pikes are mainly used defensively, to repel boarding actions. The pikes are kept in brackets around the mast, so sailors can quickly grab pikes and brace them against the gunwale to repel boarders.",
+			"",
+			"::tabular{format=weap1 a=8 b=9 d=s1d6~m1d8 e=x3 f=x g=P h=\"‹misc/brace›, ‹misc/reach›\" i=two j=S}"
 		],
 		"topLink": [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ]
 	},
@@ -2939,10 +2900,7 @@
 			"",
 			"Adapted from a garden rake, the kumade consists of a wood or bamboo pole topped with a metal claw. The rake head doubles as a ‹eq-weapon/grappling hook›. When a kumade is secured to a surface, such as a rafter or window sill, its handle can be climbed as a 5-foot length of rope.",
 			"",
-			"**Cost** 5 gp **Weight** 4 lbs.  ",
-			"**Damage** 1d4 (small), 1d6 (medium); **Critical** &times;3; **Range** -; **Type** P; **Special** ‹misc/grapple›  ",
-			"**Category** Two-Handed; **Proficiency** Simple  ",
-			"**‹ability/Weapon Group<s›** Axes"
+			"::tabular{format=weap1 a=5 b=4 d=s1d4~m1d6 e=x3 f=x g=P h=\"‹misc/grapple›\" i=two j=S k=Axes}"
 		],
 		"topLink": [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ]
 	},
@@ -2953,12 +2911,9 @@
 			"## Kumade, collapsible",
 			"‹SOURCE Melee Tactics Toolbox/19›",
 			"",
-			"This weapon acts as a ‹eq-weapon/kumade›, but the handle consists of bamboo sections held together by a taut rope running through the center. Releasing the rope is a standard action that provokes attacks of opportunity and causes the weapon to collapse into a bundle that fits into a backpack. Reassembling the collapsible kumade requires a full-round action that provokes attacks of opportunity.",
+			"This weapon acts as a ‹eq-weapon/kumade›, but the handle consists of bamboo sections held together by a taut rope running through the center. Releasing the rope is a @SA that provokes attacks of opportunity and causes the weapon to collapse into a bundle that fits into a ‹eq-misc/backpack›. Reassembling the collapsible kumade requires a @RA that provokes attacks of opportunity.",
 			"",
-			"**Cost** 10 gp **Weight** 4 lbs.  ",
-			"**Damage** 1d4 (small), 1d6 (medium); **Critical** &times;3; **Range** -; **Type** P; **Special** ‹misc/grapple›  ",
-			"**Category** Two-Handed; **Proficiency** Simple  ",
-			"**‹ability/Weapon Group<s›** Axes"
+			"::tabular{format=weap1 a=10 b=4 d=s1d4~m1d6 e=x3 f=x g=P h=\"‹misc/grapple›\" i=two j=S k=Axes}"
 		],
 		"topLink": [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ]
 	},
@@ -2969,12 +2924,11 @@
 			"## Lantern staff",
 			"‹SOURCE Adventurer's Armory 2/9›",
 			"",
-			"This long metal staff has reservoirs for lamp ‹eq-misc/oil›, and a lantern-like structure at its head. The lantern staff is fueled as and provides light as a ‹eq-misc/hooded lantern›. While lit, attacks with the lantern staff deal 1 point of fire damage in addition to the normal damage. Any effects that apply to a ‹eq-weapon/quarterstaff›, except those that require it be used as a double weapon, also apply to a lantern staff.",
+			"This long metal staff has reservoirs for lamp ‹eq-misc/oil›, and a lantern-like structure at its head. The lantern staff is fueled as and provides light as a ‹eq-misc/hooded lantern›.",
 			"",
-			"**Cost** 15 gp **Weight** 9 lbs.  ",
-			"**Damage** 1d4 (small), 1d6 (medium); **Critical** &times;3; **Range** -; **Type** B; **Special** see text  ",
-			"**Category** Two-Handed; **Proficiency** Simple  ",
-			"**‹ability/Weapon Group<s›** Hammers"
+			"@I-info While lit, attacks with the lantern staff deal 1 point of fire damage in addition to the normal damage. Any effects that apply to a ‹eq-weapon/quarterstaff›, except those that require it be used as a double weapon, also apply to a lantern staff.",
+			"",
+			"::tabular{format=weap1 a=15 b=9 d=s1d4~m1d6 e=x3 f=x g=B h=\"see text\" i=two j=S k=Hammers}"
 		],
 		"topLink": [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ]
 	},
@@ -2990,10 +2944,7 @@
 			"",
 			"A longspear is about 8 feet in length.",
 			"",
-			"**Cost** 5 gp **Weight** 9 lbs.  ",
-			"**Damage** 1d6 (small), 1d8 (medium); **Critical** &times;3; **Range** -; **Type** P; **Special** ‹misc/brace›, ‹misc/reach›  ",
-			"**Category** Two-Handed; **Proficiency** Simple  ",
-			"**‹ability/Weapon Group<s›** Spears"
+			"::tabular{format=weap1 a=5 b=9 d=s1d6~m1d8 e=x3 f=x g=P h=\"‹misc/brace›, ‹misc/reach›\" i=two j=S k=Spears}"
 		],
 		"topLink": [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ]
 	},
@@ -3009,10 +2960,7 @@
 			"",
 			"A quarterstaff is a simple piece of wood, about 5 feet in length. In battle, it's held with one hand at the butt and the other a quarter of the way up the staff, allowing it to block blows and make quick strikes.",
 			"",
-			"**Cost** - **Weight** 4 lbs.  ",
-			"**Damage** 1d4/1d4 (small), 1d6/1d6 (medium); **Critical** &times;2; **Range** -; **Type** B; **Special** ‹misc/double›, ‹misc/monk›  ",
-			"**Category** Two-Handed; **Proficiency** Simple  ",
-			"**‹ability/Weapon Group<s›** Double; Monk"
+			"::tabular{format=weap1 a=0 b=4 d=\"s1d4/1d4~m1d6/1d6\" e=x2 f=x g=B h=\"‹misc/double›, ‹misc/monk›\" i=two j=S k=\"Double; Monk\"}"
 		],
 		"topLink": [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ]
 	},
@@ -3028,10 +2976,7 @@
 			"",
 			"A spear is 5 feet in length and can be thrown.",
 			"",
-			"**Cost** 2 gp **Weight** 6 lbs.  ",
-			"**Damage** 1d6 (small), 1d8 (medium); **Critical** &times;3; **Range** 20 ft.; **Type** P; **Special** ‹misc/brace›  ",
-			"**Category** Two-Handed; **Proficiency** Simple  ",
-			"**‹ability/Weapon Group<s›** Spears; Thrown; Tribal"
+			"::tabular{format=weap1 a=2 b=6 d=s1d6~m1d8 e=x3 f=20 g=P h=\"‹misc/brace›\" i=two j=S k=\"Spears; Thrown; Tribal\"}"
 		],
 		"topLink": [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ]
 	},
@@ -3042,12 +2987,9 @@
 			"## Weighted spear",
 			"‹SOURCE Melee Tactics Toolbox/19›",
 			"",
-			"This pole has a spear head at one end and a mace head at the other. It can be wielded like a standard spear (though it isn't balanced for throwing), or it can be used as a double weapon, alternately thrusting and bashing.",
+			"This pole has a ‹eq-weapon/spear› head at one end and a ‹eq-weapon/light_>mace› head at the other. It can be wielded like a standard spear (though it isn't balanced for throwing), or it can be used as a double weapon, alternately thrusting and bashing.",
 			"",
-			"**Cost** 10 gp **Weight** 8 lbs.  ",
-			"**Damage** 1d6/1d4 (small), 1d8/1d6 (medium); **Critical** &times;3/&times;2; **Range** -; **Type** B or P; **Special** ‹misc/brace›, ‹misc/double›  ",
-			"**Category** Two-Handed; **Proficiency** Simple  ",
-			"**‹ability/Weapon Group<s›** Double; Spears"
+			"::tabular{format=weap1 a=10 b=8 d=\"s1d6/1d4~m1d8/1d6\" e=\"&times&3/&times&2\" f=x g=\"B or P\" h=\"‹misc/brace›, ‹misc/double›\" i=two j=S k=\"Double; Spears\"}"
 		],
 		"topLink": [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ]
 	},
@@ -3065,10 +3007,7 @@
 			"",
 			"Blowguns are generally used to deliver debilitating (but rarely fatal) ‹main/equipment_>poisons› from a distance. They are nearly silent when fired.",
 			"",
-			"**Cost** 2 gp **Weight** 1 lb.  ",
-			"**Damage** 1 (small), 1d2 (medium); **Critical** &times;2; **Range** 20 ft.; **Type** P; **Special** -  ",
-			"**Category** Ranged; **Proficiency** Simple  ",
-			"**‹ability/Weapon Group<s›** Thrown"
+			"::tabular{format=weap1 a=2 b=1 d=s1~m1d2 e=x2 f=20 g=P h=\"-\" i=ranged j=S k=Thrown}"
 		],
 		"topLink": [ "Ranged Weapons", "main/equipment_weapons_ranged" ]
 	},
@@ -3083,12 +3022,9 @@
 			"## Dart",
 			"‹SOURCE Ranged Tactics Toolbox/0;PRPG Core Rulebook/142;Ultimate Equipment/17›",
 			"",
-			"This thrown weapon is larger than an arrow and shorter than a javelin, with a weighted tip and a shorter range than a javelin. Most darts are wooden shafts with a thick metal point.",
+			"This thrown weapon is larger than an ‹eq-weapon/arrow› and shorter than a ‹eq-weapon/javelin›, with a weighted tip and a shorter range than a javelin. Most darts are wooden shafts with a thick metal point.",
 			"",
-			"**Cost** 0.5 gp **Weight** 0.5 lb.  ",
-			"**Damage** 1d3 (small), 1d4 (medium); **Critical** &times;2; **Range** 20 ft.; **Type** P; **Special** -  ",
-			"**Category** Ranged; **Proficiency** Simple  ",
-			"**‹ability/Weapon Group<s›** Thrown"
+			"::tabular{format=weap1 a=\"0.5\" b=\"0.5\" d=s1d3~m1d4 e=x2 f=20 g=P h=\"-\" i=ranged j=S k=Thrown}"
 		],
 		"topLink": [ "Ranged Weapons", "main/equipment_weapons_ranged" ]
 	},
@@ -3103,14 +3039,11 @@
 			"## Heavy crossbow",
 			"‹SOURCE Ranged Tactics Toolbox/0;PRPG Core Rulebook/142;Ultimate Equipment/17›",
 			"",
-			"You draw a heavy crossbow back by turning a small winch. Loading a heavy crossbow is a full-round action that provokes attacks of opportunity. A heavy crossbow fires crossbow bolts.",
+			"You draw a heavy crossbow back by turning a small winch. Loading a heavy crossbow is a @RA that provokes attacks of opportunity. A heavy crossbow fires ‹eq-weapon/crossbow bolts›.",
 			"",
-			"Normally, operating a heavy crossbow requires two hands. However, you can shoot, but not load, a heavy crossbow with one hand at a -4 penalty on attack rolls. You can shoot a heavy crossbow with each hand, but you take a penalty on attack rolls as if attacking with two one-handed weapons. This penalty is cumulative with the penalty for one-handed firing.",
+			"@I-info-down Normally, operating a heavy crossbow requires two hands. However, you can shoot, but not load, a heavy crossbow with one hand at a -4 penalty on attack rolls. You can shoot a heavy crossbow with each hand, but you take a penalty on attack rolls as if attacking with ‹rule/two« one-handed» weapon«s<_fighting›. This penalty is cumulative with the penalty for one-handed firing.",
 			"",
-			"**Cost** 50 gp **Weight** 8 lbs.  ",
-			"**Damage** 1d8 (small), 1d10 (medium); **Critical** 19-20/&times;2; **Range** 120 ft.; **Type** P; **Special** -  ",
-			"**Category** Ranged; **Proficiency** Simple  ",
-			"**‹ability/Weapon Group<s›** Crossbows"
+			"::tabular{format=weap1 a=50 b=8 d=s1d8~m1d10 e=r19x2 f=120 g=P h=\"-\" i=ranged j=S k=Crossbows}"
 		],
 		"topLink": [ "Ranged Weapons", "main/equipment_weapons_ranged" ]
 	},
@@ -3126,12 +3059,9 @@
 			"## Javelin",
 			"‹SOURCE Ranged Tactics Toolbox/0;PRPG Core Rulebook/142;Ultimate Combat/144;Ultimate Equipment/17›",
 			"",
-			"A javelin is a thin throwing spear. Since it is not designed for melee, you are treated as nonproficient with it and take a -4 penalty on attack rolls if you use a javelin as a melee weapon.",
+			"@I-info A javelin is a thin throwing spear. Since it is not designed for melee, you are treated as nonproficient with it and take a -4 penalty on attack rolls if you use a javelin as a melee weapon.",
 			"",
-			"**Cost** 1 gp **Weight** 2 lbs.  ",
-			"**Damage** 1d4 (small), 1d6 (medium); **Critical** &times;2; **Range** 30 ft.; **Type** P; **Special** -  ",
-			"**Category** Ranged; **Proficiency** Simple  ",
-			"**‹ability/Weapon Group<s›** Spears; Thrown"
+			"::tabular{format=weap1 a=1 b=2 d=s1d4~m1d6 e=x2 f=30 g=P h=\"-\" i=ranged j=S k=\"Spears; Thrown\"}"
 		],
 		"topLink": [ "Ranged Weapons", "main/equipment_weapons_ranged" ]
 	},
@@ -3169,14 +3099,11 @@
 			"## Light crossbow",
 			"‹SOURCE Ranged Tactics Toolbox/0;PRPG Core Rulebook/142;Ultimate Equipment/17›",
 			"",
-			"You draw a light crossbow back by pulling a lever. Loading a light crossbow is a move action that provokes attacks of opportunity. A light crossbow fires crossbow bolts.",
+			"You draw a light crossbow back by pulling a lever. Loading a light crossbow is a @MA that provokes attacks of opportunity. A light crossbow fires ‹eq-weapon/crossbow bolts›.",
 			"",
-			"Normally, operating a light crossbow requires two hands. However, you can shoot, but not load, a light crossbow with one hand at a -2 penalty on attack rolls. You can shoot a light crossbow with each hand, but you take a penalty on attack rolls as if attacking with two light weapons. This penalty is cumulative with the penalty for one-handed firing.",
+			"@I-info-down Normally, operating a light crossbow requires two hands. However, you can shoot, but not load, a light crossbow with one hand at a -2 penalty on attack rolls. You can shoot a light crossbow with each hand, but you take a penalty on attack rolls as if attacking with ‹rule/two« light» weapon«s<_fighting›. This penalty is cumulative with the penalty for one-handed firing.",
 			"",
-			"**Cost** 35 gp **Weight** 4 lbs.  ",
-			"**Damage** 1d6 (small), 1d8 (medium); **Critical** 19-20/&times;2; **Range** 80 ft.; **Type** P; **Special** -  ",
-			"**Category** Ranged; **Proficiency** Simple  ",
-			"**‹ability/Weapon Group<s›** Crossbows"
+			"::tabular{format=weap1 a=35 b=4 d=s1d6~m1d8 e=r19x2 f=80 g=P h=\"-\" i=ranged j=S k=Crossbows}"
 		],
 		"topLink": [ "Ranged Weapons", "main/equipment_weapons_ranged" ]
 	},
@@ -3191,14 +3118,13 @@
 			"## Sling",
 			"‹SOURCE Ranged Tactics Toolbox/0;PRPG Core Rulebook/142;Ultimate Equipment/17›",
 			"",
-			"A sling is little more than a leather cup attached to a pair of strings. Your Strength modifier applies to damage rolls when you use a sling, just as it does for thrown weapons. You can fire, but not load, a sling with one hand. Loading a sling is a move action that requires two hands and provokes attacks of opportunity.",
+			"A sling is little more than a leather cup attached to a pair of strings. Your Strength modifier applies to damage rolls when you use a sling, just as it does for thrown weapons. You can fire, but not load, a sling with one hand. Loading a sling is a @MA that requires two hands and provokes attacks of opportunity.",
 			"",
-			"A sling fires ‹eq-weapon/sling bullet«s›. You can hurl ordinary stones with a sling, but stones are not as dense or as round as bullets. Thus, such an attack deals damage as if the weapon were designed for a creature ‹misc/one size category smaller› than you and you take a -1 penalty on attack rolls.",
+			"A sling fires ‹eq-weapon/sling bullet«s›.",
 			"",
-			"**Cost** - **Weight** -  ",
-			"**Damage** 1d3 (small), 1d4 (medium); **Critical** &times;2; **Range** 50 ft.; **Type** B; **Special** -  ",
-			"**Category** Ranged; **Proficiency** Simple  ",
-			"**‹ability/Weapon Group<s›** Thrown"
+			"@I-warning You can hurl ordinary stones with a sling, but stones are not as dense or as round as bullets. Thus, such an attack deals damage as if the weapon were designed for a creature ‹misc/one size category smaller› than you and you take a -1 penalty on attack rolls.",
+			"",
+			"::tabular{format=weap1 a=0 b=x d=s1d3~m1d4 e=x2 f=50 g=B h=\"-\" i=ranged j=S k=Thrown}"
 		],
 		"topLink": [ "Ranged Weapons", "main/equipment_weapons_ranged" ]
 	},
@@ -3209,11 +3135,9 @@
 			"## Stingchuck",
 			"‹SOURCE Adventurer's Armory/5›",
 			"",
-			"A stingchuck is a foul bag made of a humanoid's head with the brain removed and the skull heavily scored so that it bursts open when thrown. Normally filled with biting vermin, it acts as a ‹rule/splash weapon›. When it hits, the vermin bite and sting the target, dealing 1d6 points of damage and forcing a DC 11 Fortitude save to avoid being ‹misc/nauseated› for 1d3 rounds. Each round a creature remains nauseated by a stingchuck, it takes 1 additional point of damage from the biting vermin. All creatures within the splash effect take 1 point of damage from the vermin but do not risk being nauseated.",
+			"@I-splash-lower A stingchuck is a foul bag made of a humanoid's head with the brain removed and the skull heavily scored so that it bursts open when thrown. Normally filled with biting vermin, it acts as a ‹rule/splash weapon›. When it hits, the vermin bite and sting the target, dealing 1d6 points of damage and forcing a DC 11 Fortitude save to avoid being ‹misc/nauseated› for 1d3 rounds. Each round a creature remains nauseated by a stingchuck, it takes 1 additional point of damage from the biting vermin. All creatures within the splash effect take 1 point of damage from the vermin but do not risk being nauseated.",
 			"",
-			"**Cost** - **Weight** 9 lbs.  ",
-			"**Damage** 1d3 (small), 1d4 (medium); **Critical** &times;2; **Range** 10 ft.; **Type** B; **Special** see text  ",
-			"**Category** Ranged; **Proficiency** Simple"
+			"::tabular{format=weap1 a=0 b=9 d=s1d3~m1d4 e=x2 f=10 g=B h=\"see text\" i=ranged j=S}"
 		],
 		"topLink": [ "Ranged Weapons", "main/equipment_weapons_ranged" ]
 	},
@@ -3224,15 +3148,13 @@
 			"## Stonebow",
 			"‹SOURCE Ranged Tactics Toolbox/19›",
 			"",
-			"A stonebow, or bullet crossbow, resembles a light crossbow except for the distinct U-shaped bend in the stock. Instead of bolts, the stonebow shoots ‹eq-weapon/sling bullet«s›. The bow has two strings with a leather pocket between them to hold the bullet. Loading a stonebow is a move action (a free action if you have the ‹feat/Rapid Reload› feat) that provokes attacks of opportunity.",
+			"A stonebow, or bullet crossbow, resembles a ‹eq-weapon/light crossbow› except for the distinct U-shaped bend in the stock. Instead of bolts, the stonebow shoots ‹eq-weapon/sling bullet«s›. The bow has two strings with a leather pocket between them to hold the bullet. Loading a stonebow is a @MA (a @FA if you have the ‹feat/Rapid Reload› feat) that provokes attacks of opportunity.",
 			"",
-			"You can shoot ordinary stones with a stonebow, but stones aren't as dense or as round as bullets. When using stones, you take a -1 penalty on attack rolls and deal damage as if the weapon were designed for a creature ‹misc/one size category smaller› than you.",
+			"@I-warning You can shoot ordinary stones with a stonebow, but stones aren't as dense or as round as bullets. When using stones, you take a -1 penalty on attack rolls and deal damage as if the weapon were designed for a creature ‹misc/one size category smaller› than you.",
 			"",
-			"You can shoot, but not load, a stonebow with one hand, but doing so imposes a -2 penalty on your attack rolls. You can shoot a stonebow with each hand, but you take a penalty on attack rolls as if attacking with two light weapons. This penalty is cumulative with the penalty for firing one-handed.",
+			"@I-info-down You can shoot, but not load, a stonebow with one hand, but doing so imposes a -2 penalty on your attack rolls. You can shoot a stonebow with each hand, but you take a penalty on attack rolls as if attacking with ‹rule/two« light» weapon«s<_fighting›. This penalty is cumulative with the penalty for firing one-handed.",
 			"",
-			"**Cost** 35 gp **Weight** 4 lbs.  ",
-			"**Damage** 1d4 (small), 1d6 (medium); **Critical** &times;2; **Range** 50 ft.; **Type** B; **Special** -  ",
-			"**Category** Ranged; **Proficiency** Simple"
+			"::tabular{format=weap1 a=35 b=4 d=s1d4~m1d6 e=x2 f=50 g=B h=\"-\" i=ranged j=S}"
 		],
 		"topLink": [ "Ranged Weapons", "main/equipment_weapons_ranged" ]
 	},
@@ -3249,10 +3171,7 @@
 			"",
 			"Above water, this weapon is identical to a heavy crossbow. You may use it underwater, where it has a range increment of 20 feet. It counts as a ‹eq-weapon/heavy crossbow› for the purposes of proficiencies and special abilities.",
 			"",
-			"**Cost** 100 gp **Weight** 8 lbs.  ",
-			"**Damage** 1d8 (small), 1d10 (medium); **Critical** 19-20/&times;2; **Range** 120 ft.; **Type** P; **Special** -  ",
-			"**Category** Ranged; **Proficiency** Simple  ",
-			"**‹ability/Weapon Group<s›** Crossbows"
+			"::tabular{format=weap1 a=100 b=8 d=s1d8~m1d10 e=r19x2 f=120 g=P h=\"-\" i=ranged j=S k=Crossbows}"
 		],
 		"topLink": [ "Ranged Weapons", "main/equipment_weapons_ranged" ]
 	},
@@ -3280,10 +3199,7 @@
 			"",
 			"An underwater light crossbow functions like its normal counterpart above water, and can be used underwater. When fired underwater, the crossbow has a range increment of 20 feet. Anyone proficient with a normal ‹eq-weapon/light crossbow› can use an underwater light crossbow.",
 			"",
-			"**Cost** 70 gp **Weight** 4 lbs.  ",
-			"**Damage** 1d6 (small), 1d8 (medium); **Critical** 19-20/&times;2; **Range** 80 ft.; **Type** P; **Special** -  ",
-			"**Category** Ranged; **Proficiency** Simple  ",
-			"**‹ability/Weapon Group<s›** Crossbows"
+			"::tabular{format=weap1 a=70 b=4 d=s1d6~m1d8 e=r19x2 f=80 g=P h=\"-\" i=ranged j=S k=Crossbows}"
 		],
 		"topLink": [ "Ranged Weapons", "main/equipment_weapons_ranged" ]
 	},
