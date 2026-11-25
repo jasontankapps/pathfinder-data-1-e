@@ -1369,7 +1369,7 @@ const _lungchuan_tamo = {title: "Lungchuan tamo", topLink: ["Light Weapons","mai
 const _machete = {title: "Machete", topLink: ["Light Weapons","main/equipment_weapons_light"], jsx: <><h2 id="eq-weapon-machete-machete">Machete</h2>
 <p><strong>Sources</strong> <Link to="/source/melee_tactics_toolbox">Melee Tactics Toolbox pg. 19</Link></p>
 <p>This tool is a wide, single-edged blade about 2 feet in length. Most often used to hack through dense vegetation, it works equally well as a weapon.</p>
-<p><Icons id="eq-weapon-machete-boost-icons" wrapper="prefixIcon" list={["boost"]} /> A character proficient with a machete gains a +1 circumstance bonus on <Link to="/rule/survival">Survival</Link> checks to get along in the wild.</p>
+<p><Icons id="eq-weapon-machete-boost-icons" wrapper="prefixIcon" list={["boost"]} /> A character proficient with a machete gains a +1 circumstance bonus on <Link to="/skill/survival">Survival</Link> checks to get along in the wild.</p>
 <Tabular format="weap1" a="10" b="2" d="s1d4~m1d6" e="r19x2" f="x" g="S" h="-" i="light" j="M" k="Blades, Light" />
 </>};
 const _sap = {title: "Sap", topLink: ["Light Weapons","main/equipment_weapons_light"], jsx: <><h2 id="eq-weapon-sap-sap">Sap</h2>
@@ -1380,7 +1380,7 @@ const _sap = {title: "Sap", topLink: ["Light Weapons","main/equipment_weapons_li
 const _sea_knife = {title: "Sea-knife", topLink: ["Light Weapons","main/equipment_weapons_light"], jsx: <><h2 id="eq-weapon-sea_knife-sea-knife">Sea-knife</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_race_guide">Advanced Race Guide pg. 189</Link></p>
 <p>A sea-knife is a long-handled weapon with a short blade. It is designed to be strapped to the ankle or foot of the wielder, pointing downward and jutting out beyond the wearer's leg.</p>
-<p>Donning or removing a sea-knife is a <strong className="hl">full-round action</strong>. The wearer cannot use a leg with a sea-knife strapped to it for walking or <Link to="/rule/run">running</Link>. A sea-knife can be used as a light melee weapon when the wielder is swimming, flying, or <Link to="/misc/prone">prone</Link>. This allows the wielder to use a two-handed weapon, or wield a weapon with one hand and carry a shield, and still make <Link to="/rule/off_hand">off-hand</Link> attacks with the sea-knife.</p>
+<p>Donning or removing a sea-knife is a <strong className="hl">full-round action</strong>. The wearer cannot use a leg with a sea-knife strapped to it for walking or <Link to="/rule/run">running</Link>. A sea-knife can be used as a light melee weapon when the wielder is swimming, flying, or <Link to="/rule/prone">prone</Link>. This allows the wielder to use a two-handed weapon, or wield a weapon with one hand and carry a shield, and still make <Link to="/rule/off_hand">off-hand</Link> attacks with the sea-knife.</p>
 <p><Icons id="eq-weapon-sea_knife-down-icons" wrapper="prefixIcon" list={["down"]} /> Attacks made with a sea-knife take a -2 circumstance penalty on attack rolls in addition to all other attack penalties.</p>
 <Tabular format="weap1" a="8" b="1" d="s1d3~m1d4" e="r19x2" f="x" g="S" h="-" i="light" j="M" />
 </>};

@@ -11,10 +11,7 @@
 			"",
 			"A guisarme is an 8-foot-long shaft with a blade and a hook mounted at the tip.",
 			"",
-			"**Cost** 9 gp **Weight** 12 lbs.  ",
-			"**Damage** 1d6 (small), 2d4 (medium); **Critical** &times;3; **Range** -; **Type** S; **Special** ‹misc/reach›, ‹misc/trip›  ",
-			"**Category** Two-Handed; **Proficiency** Martial  ",
-			"**‹ability/Weapon Group<s›** Polearms"
+			"::tabular{format=weap1 a=9 b=12 d=s1d6~m2d4 e=x3 f=x g=S h=\"‹misc/reach›, ‹misc/trip›\" i=two j=M k=Polearms}"
 		],
 		"topLink": [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ]
 	},
@@ -28,12 +25,9 @@
 			"## Halberd",
 			"‹SOURCE Ultimate Equipment/19;PRPG Core Rulebook/143›",
 			"",
-			"A halberd is similar to a 5-foot-long spear, but it also has a small, axe-like head mounted near the tip.",
+			"A halberd is similar to a 5-foot-long ‹eq-weapon/spear›, but it also has a small, axe-like head mounted near the tip.",
 			"",
-			"**Cost** 10 gp **Weight** 12 lbs.  ",
-			"**Damage** 1d8 (small), 1d10 (medium); **Critical** &times;3; **Range** -; **Type** P or S; **Special** ‹misc/brace›, ‹misc/trip›  ",
-			"**Category** Two-Handed; **Proficiency** Martial  ",
-			"**‹ability/Weapon Group<s›** Polearms"
+			"::tabular{format=weap1 a=10 b=12 d=s1d8~m1d10 e=x3 f=x g=\"P or S\" h=\"‹misc/brace›, ‹misc/trip›\" i=two j=M k=Polearms}"
 		],
 		"topLink": [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ]
 	},
@@ -49,10 +43,7 @@
 			"",
 			"Similar to a ‹eq-weapon/light flail›, a heavy flail has a larger metal ball and a longer handle.",
 			"",
-			"**Cost** 15 gp **Weight** 10 lbs.  ",
-			"**Damage** 1d8 (small), 1d10 (medium); **Critical** 19-20/&times;2; **Range** -; **Type** B; **Special** ‹misc/disarm›, ‹misc/trip›  ",
-			"**Category** Two-Handed; **Proficiency** Martial  ",
-			"**‹ability/Weapon Group<s›** Flails"
+			"::tabular{format=weap1 a=15 b=10 d=s1d8~m1d10 e=r19x2 f=x g=B h=\"‹misc/disarm›, ‹misc/trip›\" i=two j=M k=Flails}"
 		],
 		"topLink": [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ]
 	},
@@ -66,12 +57,9 @@
 			"## Hooked lance",
 			"‹SOURCE Ultimate Equipment/19;Ultimate Combat/131›",
 			"",
-			"This slender, 10-foot-long polearm has an added hook protruding from the head that is used to snag the clothing and armor of opponents. A hooked lance, unlike a lance, can't be wielded in one hand while mounted and doesn't deal extra damage if used while mounted.",
+			"This slender, 10-foot-long polearm has an added hook protruding from the head that is used to snag the clothing and armor of opponents. A hooked lance, unlike a ‹eq-weapon/lance›, can't be wielded in one hand while mounted and doesn't deal extra damage if used while mounted.",
 			"",
-			"**Cost** 3 gp **Weight** 10 lbs.  ",
-			"**Damage** 1d6 (small), 1d8 (medium); **Critical** &times;4; **Range** -; **Type** P; **Special** ‹misc/reach›, ‹misc/trip›  ",
-			"**Category** Two-Handed; **Proficiency** Martial  ",
-			"**‹ability/Weapon Group<s›** Polearms"
+			"::tabular{format=weap1 a=3 b=10 d=s1d6~m1d8 e=x4 f=x g=P h=\"‹misc/reach›, ‹misc/trip›\" i=two j=M k=Polearms}"
 		],
 		"topLink": [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ]
 	},
@@ -90,10 +78,7 @@
 			"",
 			"Crafted by goblins for battling horses, this weapon is essentially a long-handled ‹eq-weapon/halberd› with an enlarged hook on the blade. Most horsechoppers are sized for Small creatures.",
 			"",
-			"**Cost** 10 gp **Weight** 12 lbs.  ",
-			"**Damage** 1d8 (small), 1d10 (medium); **Critical** &times;3; **Range** -; **Type** P or S; **Special** ‹misc/reach›, ‹misc/trip›  ",
-			"**Category** Two-Handed; **Proficiency** Martial  ",
-			"**‹ability/Weapon Group<s›** Polearms"
+			"::tabular{format=weap1 a=10 b=12 d=s1d8~m1d10 e=x3 f=x g=\"P or S\" h=\"‹misc/reach›, ‹misc/trip›\" i=two j=M k=Polearms}"
 		],
 		"topLink": [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ]
 	},
@@ -107,12 +92,9 @@
 			"## Lance",
 			"‹SOURCE Ultimate Equipment/19;PRPG Core Rulebook/143›",
 			"",
-			"A lance deals double damage when used from the back of a charging mount. While mounted, you can wield a lance with one hand.",
+			"@I-boost A lance deals double damage when used from the back of a charging mount. While mounted, you can wield a lance with one hand.",
 			"",
-			"**Cost** 10 gp **Weight** 10 lbs.  ",
-			"**Damage** 1d6 (small), 1d8 (medium); **Critical** &times;3; **Range** -; **Type** P; **Special** ‹misc/reach›  ",
-			"**Category** Two-Handed; **Proficiency** Martial  ",
-			"**‹ability/Weapon Group<s›** Spears"
+			"::tabular{format=weap1 a=10 b=10 d=s1d6~m1d8 e=x3 f=x g=P h=\"‹misc/reach›\" i=two j=M k=Spears}"
 		],
 		"topLink": [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ]
 	},
@@ -127,12 +109,11 @@
 			"## Lucerne hammer",
 			"‹SOURCE Ultimate Equipment/19;Adventurer's Armory/4;Advanced Player's Guide/179›",
 			"",
-			"This polearm has both a pronged hammer head for crushing blows and a spiked head for piercing and peeling armor. The long haft allows the wielder to put amazing force behind the head of this weapon. You gain a +2 bonus on combat maneuver checks to ‹rule/sunder› medium or heavy armor with a lucerne hammer.",
+			"This polearm has both a pronged hammer head for crushing blows and a spiked head for piercing and peeling armor. The long haft allows the wielder to put amazing force behind the head of this weapon.",
 			"",
-			"**Cost** 15 gp **Weight** 12 lbs.  ",
-			"**Damage** 1d10 (small), 1d12 (medium); **Critical** &times;2; **Range** -; **Type** B or P; **Special** ‹misc/brace›, ‹misc/reach›, see text  ",
-			"**Category** Two-Handed; **Proficiency** Martial  ",
-			"**‹ability/Weapon Group<s›** Polearms"
+			"@I-boost You gain a +2 bonus on combat maneuver checks to ‹rule/sunder› medium or heavy armor with a lucerne hammer.",
+			"",
+			"::tabular{format=weap1 a=15 b=12 d=s1d10~m1d12 e=x2 f=x g=\"B or P\" h=\"‹misc/brace›, ‹misc/reach›, see text\" i=two j=M k=Polearms}"
 		],
 		"topLink": [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ]
 	},
@@ -145,10 +126,7 @@
 			"",
 			"A mattock resembles a two-handed pick, but with a chisel-like blade instead of a point.",
 			"",
-			"**Cost** 12 gp **Weight** 12 lbs.  ",
-			"**Damage** 1d6 (small), 2d4 (medium); **Critical** &times;4; **Range** -; **Type** P; **Special** ‹misc/fragile›  ",
-			"**Category** Two-Handed; **Proficiency** Martial  ",
-			"**‹ability/Weapon Group<s›** Axes"
+			"::tabular{format=weap1 a=12 b=12 d=s1d6~m2d4 e=x4 f=x g=P h=\"‹misc/fragile›\" i=two j=M k=Axes}"
 		],
 		"topLink": [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ]
 	},
@@ -164,10 +142,7 @@
 			"",
 			"This polearm is a double weapon. One side is fitted with a broad, shovel-like sharpened blade, while the opposite side is fitted with a crescent blade that juts out like a pair of bull's horns. The monk's spade does many types of damage. The type of damage it deals depends on how it is wielded, with the spade side able to bludgeon and slash and the crescent side able to slash and pierce.",
 			"",
-			"**Cost** 20 gp **Weight** 12 lbs.  ",
-			"**Damage** 1d4/1d4 (small), 1d6/1d6 (medium); **Critical** &times;2; **Range** -; **Type** B or P or S; **Special** ‹misc/double›, ‹misc/monk›  ",
-			"**Category** Two-Handed; **Proficiency** Martial  ",
-			"**‹ability/Weapon Group<s›** Double; Monk; Polearms"
+			"::tabular{format=weap1 a=20 b=12 d=\"s1d4/1d4~m1d6/1d6\" e=x2 f=x g=\"B or P or S\" h=\"‹misc/double›, ‹misc/monk›\" i=two j=M k=\"Double; Monk; Polearms\"}"
 		],
 		"topLink": [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ]
 	},
@@ -183,10 +158,7 @@
 			"",
 			"The naginata consists of a 6-foot staff affixed to a 2-foot-long, slightly curved, sword-like blade. The shaft is designed to keep the wielder out of reach from swords and shorter weapons.",
 			"",
-			"**Cost** 35 gp **Weight** 9 lbs.  ",
-			"**Damage** 1d6 (small), 1d8 (medium); **Critical** &times;4; **Range** -; **Type** S; **Special** ‹misc/reach›  ",
-			"**Category** Two-Handed; **Proficiency** Martial  ",
-			"**‹ability/Weapon Group<s›** Polearms"
+			"::tabular{format=weap1 a=35 b=9 d=s1d6~m1d8 e=x4 f=x g=S h=\"‹misc/reach›\" i=two j=M k=Polearms}"
 		],
 		"topLink": [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ]
 	},
@@ -200,12 +172,9 @@
 			"## Nodachi",
 			"‹SOURCE Ultimate Equipment/19;Ultimate Combat/133›",
 			"",
-			"This very long, two-handed weapon has a slender but wickedly sharp 4-foot-long blade at one end. It is predominantly used by ground troops to attack mounted warriors, and can be used to hack riders from their mounts or set to receive a charge.",
+			"This very long, two-handed weapon has a slender but wickedly sharp 4-foot-long blade at one end. It is predominantly used by ground troops to attack mounted warriors, and can be used to hack riders from their mounts or set to receive a ‹rule/charge›.",
 			"",
-			"**Cost** 60 gp **Weight** 8 lbs.  ",
-			"**Damage** 1d8 (small), 1d10 (medium); **Critical** 18-20/&times;2; **Range** -; **Type** S or P; **Special** ‹misc/brace›  ",
-			"**Category** Two-Handed; **Proficiency** Martial  ",
-			"**‹ability/Weapon Group<s›** Blades, Heavy; Polearms"
+			"::tabular{format=weap1 a=60 b=8 d=s1d8~m1d10 e=r18x2 f=x g=\"S or P\" h=\"‹misc/brace›\" i=two j=M k=\"Blades, Heavy; Polearms\"}"
 		],
 		"topLink": [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ]
 	},
@@ -222,12 +191,9 @@
 			"## Ogre hook",
 			"‹SOURCE Ultimate Equipment/19;Rise of the Runelords Player's Guide/11;Pathfinder Campaign Setting/209;Inner Sea World Guide/290;Adventurer's Armory/0›",
 			"",
-			"This large crook of sharpened metal makes it easy to trip and catch fleeing opponents. Invented by ogres, most ogre hooks are Large-sized and crudely fashioned - often from metal torn from previous victims' weapons and armor. Despite their poor workmanship, the rarity and peril involved in getting ogre hooks make such items quite valuable.",
+			"This large crook of sharpened metal makes it easy to trip and catch fleeing opponents. Invented by ‹monster/ogre«s›, most ogre hooks are Large-sized and crudely fashioned - often from metal torn from previous victims' weapons and armor. Despite their poor workmanship, the rarity and peril involved in getting ogre hooks make such items quite valuable.",
 			"",
-			"**Cost** 24 gp **Weight** 10 lbs.  ",
-			"**Damage** 1d8 (small), 1d10 (medium); **Critical** &times;3; **Range** -; **Type** P; **Special** ‹misc/trip›  ",
-			"**Category** Two-Handed; **Proficiency** Martial  ",
-			"**‹ability/Weapon Group<s›** Polearms"
+			"::tabular{format=weap1 a=24 b=10 d=s1d8~m1d10 e=x3 f=x g=P h=\"‹misc/trip›\" i=two j=M k=Polearms}"
 		],
 		"topLink": [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ]
 	},
@@ -238,12 +204,9 @@
 			"## Planson",
 			"‹SOURCE Melee Tactics Toolbox/19›",
 			"",
-			"This 5-foot tapered pole is bound in metal with a narrow metal spike projecting from the top. The planson can be used as a club or as a sturdy, if top-heavy, spear to stop a charge.",
+			"This 5-foot tapered pole is bound in metal with a narrow metal spike projecting from the top. The planson can be used as a ‹eq-weapon/club› or as a sturdy, if top-heavy, ‹eq-weapon/spear› to stop a ‹rule/charge›.",
 			"",
-			"**Cost** 10 gp **Weight** 10 lbs.  ",
-			"**Damage** 1d8 (small), 1d10 (medium); **Critical** &times;2; **Range** -; **Type** B or P; **Special** ‹misc/brace›  ",
-			"**Category** Two-Handed; **Proficiency** Martial  ",
-			"**‹ability/Weapon Group<s›** Hammers; Spears"
+			"::tabular{format=weap1 a=10 b=10 d=s1d8~m1d10 e=x2 f=x g=\"B or P\" h=\"‹misc/brace›\" i=two j=M k=\"Hammers; Spears\"}"
 		],
 		"topLink": [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ]
 	},
@@ -259,10 +222,7 @@
 			"",
 			"Similar in appearance to a ‹eq-weapon/trident›, a ranseur has a single spear at its tip, flanked by a pair of short, curving blades.",
 			"",
-			"**Cost** 10 gp **Weight** 12 lbs.  ",
-			"**Damage** 1d6 (small), 2d4 (medium); **Critical** &times;3; **Range** -; **Type** P; **Special** ‹misc/disarm›, ‹misc/reach›  ",
-			"**Category** Two-Handed; **Proficiency** Martial  ",
-			"**‹ability/Weapon Group<s›** Polearms"
+			"::tabular{format=weap1 a=10 b=12 d=s1d6~m2d4 e=x3 f=x g=P h=\"‹misc/disarm›, ‹misc/reach›\" i=two j=M k=Polearms}"
 		],
 		"topLink": [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ]
 	},
@@ -273,11 +233,9 @@
 			"## Rhomphaia",
 			"‹SOURCE Ultimate Equipment/19›",
 			"",
-			"This Bronze Age weapon is an early polearm consisting of a long, single-edged blade attached to a sturdy staff, sometimes slightly curved. It serves as both a cutting and a thrusting weapon.",
+			"This ‹eq-material/Bronze› Age weapon is an early polearm consisting of a long, single-edged blade attached to a sturdy staff, sometimes slightly curved. It serves as both a cutting and a thrusting weapon.",
 			"",
-			"**Cost** 15 gp **Weight** 10 lbs.  ",
-			"**Damage** 1d6 (small), 2d4 (medium); **Critical** &times;3; **Range** -; **Type** P or S; **Special** ‹misc/brace›, ‹misc/fragile›, ‹misc/reach›  ",
-			"**Category** Two-Handed; **Proficiency** Martial"
+			"::tabular{format=weap1 a=15 b=10 d=s1d6~m2d4 e=x3 f=x g=\"P or S\" h=\"‹misc/brace›, ‹misc/fragile›, ‹misc/reach›\" i=two j=M}"
 		],
 		"topLink": [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ]
 	},
@@ -293,10 +251,7 @@
 			"",
 			"Also called a three-section staff, this weapon is divided into three 2-foot-long segments chained together, allowing the wielder greater flexibility than a normal staff and allowing the weapon to be swung rapidly to create a defensive block, wrap and catch weapons, or harness momentum via a whipping motion for powerful strikes.",
 			"",
-			"**Cost** 8 gp **Weight** 3 lbs.  ",
-			"**Damage** 1d8 (small), 1d10 (medium); **Critical** 19-20/&times;2; **Range** -; **Type** B; **Special** ‹misc/blocking›, ‹misc/disarm›, ‹misc/monk›  ",
-			"**Category** Two-Handed; **Proficiency** Martial  ",
-			"**‹ability/Weapon Group<s›** Flails; Monk"
+			"::tabular{format=weap1 a=8 b=3 d=s1d8~m1d10 e=r19x2 f=x g=B h=\"‹misc/blocking›, ‹misc/disarm›, ‹misc/monk›\" i=two j=M k=\"Flails; Monk\"}"
 		],
 		"topLink": [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ]
 	},
@@ -307,11 +262,13 @@
 			"## Sarissa",
 			"‹SOURCE Giant Hunter's Handbook/24›",
 			"",
-			"This spear-like weapon is about 15 feet long. Its unwieldy length is counterbalanced by a heavy brass base. A sarissa provides extended reach - tripling your reach rather than doubling it. A Medium wielder would threaten spaces 10 to 15 feet away, but not adjacent squares or squares 5 to 10 feet away (as with a typical reach weapon). Because of its great length and weight, a sarissa can be used to attack foes in only one direction each round. You must select a cone each round before you make any attacks with the sarissa. The weapon threatens only foes within this cone and within its extended reach. You can't change the area you threaten with the sarissa until your next turn. While you carry the sarissa pointed upward (typical for overland movement), you threaten only squares in the sarissa's reach in a cone pointed upward.",
+			"This spear-like weapon is about 15 feet long. Its unwieldy length is counterbalanced by a heavy brass base.",
 			"",
-			"**Cost** 12 gp **Weight** 12 lbs.  ",
-			"**Damage** 1d6 (small), 1d8 (medium); **Critical** &times;3; **Range** -; **Type** P; **Special** ‹misc/brace›, ‹misc/reach›, see text  ",
-			"**Category** Two-Handed; **Proficiency** Martial"
+			"@I-boost A sarissa provides extended reach - tripling your reach rather than doubling it. A Medium wielder would threaten spaces 10 to 15 feet away, but not adjacent squares or squares 5 to 10 feet away (as with a typical reach weapon).",
+			"",
+			"@I-warning Because of its great length and weight, a sarissa can be used to attack foes in only one direction each round. You must select a cone each round before you make any attacks with the sarissa. The weapon threatens only foes within this cone and within its extended reach. You can't change the area you threaten with the sarissa until your next turn. While you carry the sarissa pointed upward (typical for overland movement), you threaten only squares in the sarissa's reach in a cone pointed upward.",
+			"",
+			"::tabular{format=weap1 a=12 b=12 d=s1d6~m1d8 e=x3 f=x g=P h=\"‹misc/brace›, ‹misc/reach›, see text\" i=two j=M}"
 		],
 		"topLink": [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ]
 	},
@@ -327,10 +284,7 @@
 			"",
 			"This weapon consists of a long wooden shaft with protruding handles and a sharp curved blade set at a right angle. Derived from a farm tool used to mow down crops, a scythe requires two hands to use, and is unwieldy but capable of inflicting grievous wounds. Its connotations as a symbol of death due to its association with reaping also make the scythe a particularly intimidating weapon.",
 			"",
-			"**Cost** 18 gp **Weight** 10 lbs.  ",
-			"**Damage** 1d6 (small), 2d4 (medium); **Critical** &times;4; **Range** -; **Type** P or S; **Special** ‹misc/trip›  ",
-			"**Category** Two-Handed; **Proficiency** Martial  ",
-			"**‹ability/Weapon Group<s›** Blades, Heavy"
+			"::tabular{format=weap1 a=18 b=10 d=s1d6~m2d4 e=x4 f=x g=\"P or S\" h=\"‹misc/trip›\" i=two j=M k=\"Blades, Heavy\"}"
 		],
 		"topLink": [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ]
 	},
@@ -343,9 +297,7 @@
 			"",
 			"The blade of this weapon, which is also called an injection spear, contains a thin tube or bore that connects to a hollow container just beneath the crosspiece. A successful hit with the spear injects the liquid contents of the container (typically poison or a potion) into the target. Refilling a syringe spear takes 1 minute.",
 			"",
-			"**Cost** 100 gp **Weight** 6 lbs.  ",
-			"**Damage** 1d6 (small), 1d8 (medium); **Critical** &times;3; **Range** 20 ft.; **Type** P; **Special** ‹misc/brace›, see text  ",
-			"**Category** Two-Handed; **Proficiency** Martial"
+			"::tabular{format=weap1 a=100 b=6 d=s1d6~m1d8 e=x3 f=20 g=P h=\"‹misc/brace›, see text\" i=two j=M}"
 		],
 		"topLink": [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ]
 	},
@@ -358,9 +310,7 @@
 			"",
 			"The head of this wooden Stone Age polearm is edged with jagged bits of obsidian, glass, teeth, or similar materials. The wide head serves well for both piercing and slashing attacks.",
 			"",
-			"**Cost** 8 gp **Weight** 8 lbs.  ",
-			"**Damage** 1d8 (small), 1d10 (medium); **Critical** 19-20/&times;2; **Range** -; **Type** P or S; **Special** ‹misc/fragile›, ‹misc/reach›  ",
-			"**Category** Two-Handed; **Proficiency** Martial"
+			"::tabular{format=weap1 a=8 b=8 d=s1d8~m1d10 e=r19x2 f=x g=\"P or S\" h=\"‹misc/fragile›, ‹misc/reach›\" i=two j=M}"
 		],
 		"topLink": [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ]
 	},
@@ -374,12 +324,9 @@
 			"## Tiger fork",
 			"‹SOURCE Ultimate Equipment/19;Ultimate Combat/134›",
 			"",
-			"This long, ‹eq-weapon/trident›-like weapon consists of a three-pronged metal fork set upon an 8-foot-long shaft. It is wielded much like a staff, with the wielder grasping the shaft from the center and jabbing with its forked end. A tiger fork can be set to receive a charge.",
+			"This long, ‹eq-weapon/trident›-like weapon consists of a three-pronged metal fork set upon an 8-foot-long shaft. It is wielded much like a staff, with the wielder grasping the shaft from the center and jabbing with its forked end. A tiger fork can be set to receive a ‹rule/charge›.",
 			"",
-			"**Cost** 5 gp **Weight** 8 lbs.  ",
-			"**Damage** 1d6 (small), 1d8 (medium); **Critical** &times;2; **Range** -; **Type** P; **Special** ‹misc/brace›, ‹misc/monk›  ",
-			"**Category** Two-Handed; **Proficiency** Martial  ",
-			"**‹ability/Weapon Group<s›** Monk; Polearms; Spears"
+			"::tabular{format=weap1 a=5 b=8 d=s1d6~m1d8 e=x2 f=x g=P h=\"‹misc/brace›, ‹misc/monk›\" i=two j=M k=\"Monk; Polearms; Spears\"}"
 		],
 		"topLink": [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ]
 	},
@@ -395,10 +342,7 @@
 			"",
 			"Topping the head of this 5-foot-long shaft are three long, backward-curved blades fashioned in the appearance of a blossoming lotus. The unusually large head is designed to land heavy blows and cause multiple wounds that open away from each other.",
 			"",
-			"**Cost** 12 gp **Weight** 14 lbs.  ",
-			"**Damage** 1d8 (small), 1d10 (medium); **Critical** &times;3; **Range** -; **Type** P; **Special** ‹misc/reach›  ",
-			"**Category** Two-Handed; **Proficiency** Martial  ",
-			"**‹ability/Weapon Group<s›** Monk"
+			"::tabular{format=weap1 a=12 b=14 d=s1d8~m1d10 e=x3 f=x g=P h=\"‹misc/reach›\" i=two j=M k=Monk}"
 		],
 		"topLink": [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ]
 	},
@@ -413,12 +357,13 @@
 			"## Amentum",
 			"‹SOURCE Ranged Tactics Toolbox/0;Ultimate Combat/144;Ultimate Equipment/19›",
 			"",
-			"An amentum is a long leather thong that attaches to a standard ‹eq-weapon/javelin›. Before throwing, the amentum is wound about the javelin's shaft. You then throw the javelin while gripping the amentum, imparting spin on the weapon and greatly improving its range. Attaching an amentum to a javelin is a move action, and winding it is a full-round action. Javelins can be stored with amenta already wound about them. A javelin wound with an amentum is considered a martial weapon.",
+			"@I-boost An amentum is a long leather thong that attaches to a standard ‹eq-weapon/javelin›. Before throwing, the amentum is wound about the javelin's shaft. You then throw the javelin while gripping the amentum, imparting spin on the weapon and greatly improving its range.",
 			"",
-			"**Cost** - **Weight** 1 lb.  ",
-			"**Damage** 1d4 (small), 1d6 (medium); **Critical** &times;2; **Range** 50 ft.; **Type** P; **Special** ‹misc/performance›  ",
-			"**Category** Ranged; **Proficiency** Martial  ",
-			"**‹ability/Weapon Group<s›** Spears; Thrown"
+			"Attaching an amentum to a javelin is a @MA, and winding it is a @RA. Javelins can be stored with amenta already wound about them.",
+			"",
+			"@I-info A javelin wound with an amentum is considered a martial weapon.",
+			"",
+			"::tabular{format=weap1 a=0 b=1 d=s1d4~m1d6 e=x2 f=50 g=P h=\"‹misc/performance›\" i=ranged j=M k=\"Spears; Thrown\"}"
 		],
 		"topLink": [ "Ranged Weapons", "main/equipment_weapons_ranged" ]
 	},
@@ -432,12 +377,11 @@
 			"## Atlatl",
 			"‹SOURCE Ranged Tactics Toolbox/0;Ultimate Equipment/19›",
 			"",
-			"This Stone Age weapon is a thin piece of wood or antler used as a lever to hurl a specially fitted dart. An atlatl gives much greater range to a dart, but must be loaded like a projectile weapon. Your Strength modifier applies to damage rolls when you use an atlatl, just as it does for thrown weapons. You can fire - but not load - an atlatl with one hand. Loading an atlatl is a move action that requires two hands and provokes attacks of opportunity. The ‹feat/Rapid Reload› feat can be taken for atlatls, allowing you to load a dart as a free action.",
+			"This Stone Age weapon is a thin piece of wood or antler used as a lever to hurl a specially fitted dart. An atlatl gives much greater range to a dart, but must be loaded like a projectile weapon. Your Strength modifier applies to damage rolls when you use an atlatl, just as it does for thrown weapons.",
 			"",
-			"**Cost** 2 gp **Weight** 2 lbs.  ",
-			"**Damage** 1d4 (small), 1d6 (medium); **Critical** &times;2; **Range** 50 ft.; **Type** P; **Special** -  ",
-			"**Category** Ranged; **Proficiency** Martial  ",
-			"**‹ability/Weapon Group<s›** Thrown"
+			"You can fire - but not load - an atlatl with one hand. Loading an atlatl is a @MA that requires two hands and provokes attacks of opportunity. The ‹feat/Rapid Reload› feat can be taken for atlatls, allowing you to load a dart as a @FA.",
+			"",
+			"::tabular{format=weap1 a=2 b=2 d=s1d4~m1d6 e=x2 f=50 g=P i=ranged j=M k=Thrown}"
 		],
 		"topLink": [ "Ranged Weapons", "main/equipment_weapons_ranged" ]
 	},
@@ -453,12 +397,11 @@
 			"## Chakram",
 			"‹SOURCE Ranged Tactics Toolbox/0;Adventurer's Armory/3;Advanced Player's Guide/178;Ultimate Equipment/19›",
 			"",
-			"The chakram is a simple, elegant, and highly portable thrown weapon. It is a flat, open-centered metal discus with a sharpened edge. You can wield the chakram as a melee weapon, but it is not designed for such use; you take a -1 penalty on your attack roll with the weapon and must succeed at a DC 15 Reflex save or cut yourself on the blade (half damage, no Strength modifier). You do not need to make this save if wearing heavy armor.",
+			"The chakram is a simple, elegant, and highly portable thrown weapon. It is a flat, open-centered metal discus with a sharpened edge.",
 			"",
-			"**Cost** 1 gp **Weight** 1 lb.  ",
-			"**Damage** 1d6 (small), 1d8 (medium); **Critical** &times;2; **Range** 30 ft.; **Type** S; **Special** -  ",
-			"**Category** Ranged; **Proficiency** Martial  ",
-			"**‹ability/Weapon Group<s›** Blades, Heavy; Blades, Light; Thrown"
+			"@I-warning You can wield the chakram as a melee weapon, but it is not designed for such use; you take a -1 penalty on your attack roll with the weapon and must succeed at a DC 15 Reflex save or cut yourself on the blade (half damage, no Strength modifier). You do not need to make this save if wearing heavy armor.",
+			"",
+			"::tabular{format=weap1 a=1 b=1 d=s1d6~m1d8 e=x2 f=30 g=S i=ranged j=M k=\"Blades, Heavy; Blades, Light; Thrown\"}"
 		],
 		"topLink": [ "Ranged Weapons", "main/equipment_weapons_ranged" ]
 	},
@@ -482,40 +425,19 @@
 			"## Composite longbow",
 			"‹SOURCE Ranged Tactics Toolbox/0;PRPG Core Rulebook/143;Ultimate Equipment/19›",
 			"",
-			"You need at least two hands to use a bow, regardless of its size. You can use a composite longbow while mounted. All composite bows are made with a particular strength rating (that is, each requires a minimum Strength modifier to use it with proficiency). If your Strength modifier is less than the strength rating of the composite bow, you can't effectively use it, so you take a -2 penalty on attacks with it. The default composite longbow requires a Strength modifier of +0 or higher to use with proficiency. A composite longbow can be made with a high strength rating to take advantage of an above-average Strength score; this feature allows you to add your Strength modifier on damage rolls, up to the maximum bonus indicated for the bow. Each point of Strength bonus granted by the bow adds 100 gp to its cost. If you have a negative modifier due to low Strength, apply it to damage rolls when you use a composite longbow. A composite longbow fires arrows.",
+			"You need at least two hands to use a bow, regardless of its size.",
 			"",
-			"For the purposes of Weapon Proficiency and similar feats, a composite longbow is treated as if it were a ‹eq-weapon/longbow›.",
+			"You can use a composite longbow while mounted.",
 			"",
-			"### Composite longbow +0",
+			"@I-warning All composite bows are made with a particular strength rating (that is, each requires a minimum Strength modifier to use it with proficiency). If your Strength modifier is less than the strength rating of the composite bow, you can't effectively use it, so you take a -2 penalty on attacks with it. The default composite longbow requires a Strength modifier of +0 or higher to use with proficiency.",
 			"",
-			"**Cost** 100 gp **Weight** 3 lbs.  ",
-			"**Damage** 1d6 (small), 1d8 (medium); **Critical** &times;3; **Range** 110 ft.; **Type** P; **Special** -  ",
-			"**Category** Ranged; **Proficiency** Martial  ",
-			"**‹ability/Weapon Group<s›** Bows",
+			"@I-boost A composite longbow can be made with a high strength rating to take advantage of an above-average Strength score; this feature allows you to add your Strength modifier on damage rolls, up to the maximum bonus indicated for the bow. Each point of Strength bonus granted by the bow adds 100 gp to its cost.",
 			"",
-			"### Composite longbow +1",
+			"@I-down If you have a negative modifier due to low Strength, apply it to damage rolls when you use a composite longbow.",
 			"",
-			"**Cost** 200gp",
+			"A composite longbow fires ‹eq-weapon/arrows›. For the purposes of Weapon Proficiency and similar feats, a composite longbow is treated as if it were a ‹eq-weapon/longbow›.",
 			"",
-			"### Composite longbow +2",
-			"",
-			"**Cost** 300gp",
-			"",
-			"### Composite longbow +3",
-			"",
-			"**Cost** 400gp",
-			"",
-			"### Composite longbow +4",
-			"",
-			"**Cost** 500gp",
-			"",
-			"### Composite longbow +5",
-			"",
-			"**Cost** 600gp",
-			"",
-			"### Composite longbow +6",
-			"",
-			"**Cost** 700gp"
+			"::tabular{format=weap1 a=\"100 gp (+0), 200 gp (+1), 300 gp (+2), and so on\" b=\"3 lbs.\" c=x   d=s1d6~m1d8 e=x3 f=110 g=P i=ranged j=M k=Bows}"
 		],
 		"topLink": [ "Ranged Weapons", "main/equipment_weapons_ranged" ]
 	},
@@ -530,40 +452,19 @@
 			"## Composite shortbow",
 			"‹SOURCE Ranged Tactics Toolbox/0;PRPG Core Rulebook/143;Ultimate Equipment/19›",
 			"",
-			"You need at least two hands to use a bow, regardless of its size. You can use a composite shortbow while mounted. All composite bows are made with a particular strength rating (that is, each requires a minimum Strength modifier to use with proficiency). If your Strength modifier is lower than the strength rating of the composite bow, you can't effectively use it, so you take a -2 penalty on attacks with it. The default composite shortbow requires a Strength modifier of +0 or higher to use with proficiency. A composite shortbow can be made with a high strength rating to take advantage of an above-average Strength score; this feature allows you to add your Strength modifier on damage rolls, up to the maximum bonus indicated for the bow. Each point of Strength bonus granted by the bow adds 75 gp to its cost. If you have a negative modifier due to low Strength, apply it to damage rolls when you use a composite shortbow. A composite shortbow fires arrows.",
+			"You need at least two hands to use a bow, regardless of its size.",
 			"",
-			"For the purposes of Weapon Proficiency, ‹feat/Weapon Focus›, and similar feats, a composite shortbow is treated as if it were a ‹eq-weapon/shortbow›.",
+			"You can use a composite shortbow while mounted.",
 			"",
-			"### Composite shortbow +0",
+			"@I-warning All composite bows are made with a particular strength rating (that is, each requires a minimum Strength modifier to use with proficiency). If your Strength modifier is lower than the strength rating of the composite bow, you can't effectively use it, so you take a -2 penalty on attacks with it. The default composite shortbow requires a Strength modifier of +0 or higher to use with proficiency.",
 			"",
-			"**Cost** 75 gp **Weight** 2 lbs.  ",
-			"**Damage** 1d4 (small), 1d6 (medium); **Critical** &times;3; **Range** 70 ft.; **Type** P; **Special** -  ",
-			"**Category** Ranged; **Proficiency** Martial  ",
-			"**‹ability/Weapon Group<s›** Bows",
+			"@I-boost A composite shortbow can be made with a high strength rating to take advantage of an above-average Strength score; this feature allows you to add your Strength modifier on damage rolls, up to the maximum bonus indicated for the bow. Each point of Strength bonus granted by the bow adds 75 gp to its cost.",
 			"",
-			"### Composite shortbow +1",
+			"@I-down If you have a negative modifier due to low Strength, apply it to damage rolls when you use a composite shortbow.",
 			"",
-			"**Cost** 150gp",
+			"A composite shortbow fires ‹eq-weapon/arrows›. For the purposes of Weapon Proficiency, ‹feat/Weapon Focus›, and similar feats, a composite shortbow is treated as if it were a ‹eq-weapon/shortbow›.",
 			"",
-			"### Composite shortbow +2",
-			"",
-			"**Cost** 225gp",
-			"",
-			"### Composite shortbow +3",
-			"",
-			"**Cost** 300gp",
-			"",
-			"### Composite shortbow +4",
-			"",
-			"**Cost** 375gp",
-			"",
-			"### Composite shortbow +5",
-			"",
-			"**Cost** 450gp",
-			"",
-			"### Composite longbow +6",
-			"",
-			"**Cost** 525gp"
+			"::tabular{format=weap1 a=\"75 gp (+0), 150 gp (+1), 225 gp (+2), 300 gp (+3) and so on\" b=\"2 lbs.\" c=x   d=s1d4~m1d6 e=x3 f=70 g=P i=ranged j=M k=Bows}"
 		],
 		"topLink": [ "Ranged Weapons", "main/equipment_weapons_ranged" ]
 	},
@@ -574,11 +475,13 @@
 			"## Gastraphetes",
 			"‹SOURCE Distant Shores/12›",
 			"",
-			"The gastraphetes, sometimes called a \"belly bow,\" is an oversized crossbow reloaded by pressing one end against the ground, the other against one's abdomen, and locking the string in place through ratchet action. Reloading takes a full-round action, uses two hands, and requires that the wielder be standing. Wielding a gastraphetes requires two hands, and due to the weapon's bulk, firing it while standing without support (such as a wall, a window, or a stand) imposes a -4 penalty on attack rolls; you take no penalty for firing a gastraphetes while ‹rule/prone›. A Large or larger creature can use a gastraphetes one size smaller than itself without any support, but takes the normal penalty for firing an ‹misc/inappropriately sized weapon›.",
+			"The gastraphetes, sometimes called a \"belly bow,\" is an oversized ‹eq-weapon/crossbow› reloaded by pressing one end against the ground, the other against one's abdomen, and locking the string in place through ratchet action. Reloading takes a @RA, uses two hands, and requires that the wielder be standing.",
 			"",
-			"**Cost** 65 gp **Weight** 12 lbs.  ",
-			"**Damage** 1d10 (small), 1d12 (medium); **Critical** 19-20/&times;2; **Range** 120 ft.; **Type** P; **Special** -  ",
-			"**Category** Ranged; **Proficiency** Martial"
+			"@I-warning Wielding a gastraphetes requires two hands, and due to the weapon's bulk, firing it while standing without support (such as a wall, a window, or a stand) imposes a -4 penalty on attack rolls; you take no penalty for firing a gastraphetes while ‹rule/prone›.",
+			"",
+			"A Large or larger creature can use a gastraphetes one size smaller than itself without any support, but takes the normal penalty for firing an ‹misc/inappropriately sized weapon›.",
+			"",
+			"::tabular{format=weap1 a=65 b=12 d=s1d10~m1d12 e=r19x2 f=120 g=P i=ranged j=M}"
 		],
 		"topLink": [ "Ranged Weapons", "main/equipment_weapons_ranged" ]
 	},
@@ -593,12 +496,9 @@
 			"## Hunga munga",
 			"‹SOURCE Ranged Tactics Toolbox/0;Adventurer's Armory/3;Ultimate Equipment/19›",
 			"",
-			"Also called a mambele, danisco, goleyo, njiga, or any of many lesser-known names, this three-bladed dagger is intended for throwing but can be used as a melee weapon. Though the basic three-blade design is most common, hunga mungas can take a wide variety of forms.",
+			"Also called a mambele, danisco, goleyo, njiga, or any of many lesser-known names, this three-bladed ‹eq-weapon/dagger› is intended for throwing but can be used as a melee weapon. Though the basic three-blade design is most common, hunga mungas can take a wide variety of forms.",
 			"",
-			"**Cost** 4 gp **Weight** 3 lbs.  ",
-			"**Damage** 1d4 (small), 1d6 (medium); **Critical** &times;2; **Range** 15 ft.; **Type** P; **Special** -  ",
-			"**Category** Ranged; **Proficiency** Martial  ",
-			"**‹ability/Weapon Group<s›** Blades, Light; Thrown"
+			"::tabular{format=weap1 a=4 b=3 d=s1d4~m1d6 e=x2 f=15 g=P i=ranged j=M k=\"Blades, Light; Thrown\"}"
 		],
 		"topLink": [ "Ranged Weapons", "main/equipment_weapons_ranged" ]
 	},
@@ -609,11 +509,11 @@
 			"## Hurlbat",
 			"‹SOURCE Ranged Tactics Toolbox/18›",
 			"",
-			"A hurlbat is a ‹eq-weapon/throwing axe› made from a single piece of flat metal. Every extremity of the hurlbat is sharpened, including the point of the handle. You can wield the hurlbat as a melee weapon, but it's not designed for such use; you take a -1 penalty on melee attack rolls with the weapon, and you must succeed at a DC 15 Reflex save when making melee attacks to avoid cutting yourself on an edge and taking 1 point of slashing damage. You don't need to attempt this save while wearing heavy armor.",
+			"A hurlbat is a ‹eq-weapon/throwing axe› made from a single piece of flat metal. Every extremity of the hurlbat is sharpened, including the point of the handle.",
 			"",
-			"**Cost** 8 gp **Weight** 2 lbs.  ",
-			"**Damage** 1d4 (small), 1d6 (medium); **Critical** &times;3; **Range** 10 ft.; **Type** P and S; **Special** -  ",
-			"**Category** Ranged; **Proficiency** Martial"
+			"@I-warning You can wield the hurlbat as a melee weapon, but it's not designed for such use; you take a -1 penalty on melee attack rolls with the weapon, and you must succeed at a DC 15 Reflex save when making melee attacks to avoid cutting yourself on an edge and taking 1 point of slashing damage. You don't need to attempt this save while wearing heavy armor.",
+			"",
+			"::tabular{format=weap1 a=8 b=2 d=s1d4~m1d6 e=x3 f=10 g=\"P and S\" i=ranged j=M}"
 		],
 		"topLink": [ "Ranged Weapons", "main/equipment_weapons_ranged" ]
 	},
@@ -624,11 +524,11 @@
 			"## Jolting dart",
 			"‹SOURCE Advanced Race Guide/205›",
 			"",
-			"This alchemically grown crystal dart builds up an electrical charge when thrown. A creature struck by the dart takes normal piercing damage and 1d6 points of electricity damage. Anyone proficient in ‹eq-weapon/dart«s› can use a jolting dart. Once thrown, the dart is destroyed.",
+			"@I-boost This alchemically grown crystal dart builds up an electrical charge when thrown. A creature struck by the dart takes normal piercing damage and 1d6 points of electricity damage.",
 			"",
-			"**Cost** 100 gp **Weight** 0.5 lb.  ",
-			"**Damage** 1d3 (small), 1d4 (medium); **Critical** &times;2; **Range** 20 ft.; **Type** P; **Special** see text  ",
-			"**Category** Ranged; **Proficiency** Martial"
+			"Anyone proficient in ‹eq-weapon/dart«s› can use a jolting dart. Once thrown, the dart is destroyed.",
+			"",
+			"::tabular{format=weap1 a=100 b=\"0.5\" d=s1d3~m1d4 e=x2 f=20 g=P h=\"see text\" i=ranged j=M}"
 		],
 		"topLink": [ "Ranged Weapons", "main/equipment_weapons_ranged" ]
 	},
@@ -643,12 +543,13 @@
 			"## Longbow",
 			"‹SOURCE Ranged Tactics Toolbox/0;PRPG Core Rulebook/143;Ultimate Equipment/19›",
 			"",
-			"At almost 5 feet in height, a longbow is made up of one solid piece of carefully curved wood. You need two hands to use a bow, regardless of its size. A longbow can't be used while mounted. If you have a penalty for low Strength, apply it to damage rolls when you use a longbow. You can apply your Strength modifier to damage rolls when you use a ‹eq-weapon/composite longbow›, but not a regular longbow. A longbow fires arrows.",
+			"At almost 5 feet in height, a longbow is made up of one solid piece of carefully curved wood. You need two hands to use a bow, regardless of its size. A longbow can't be used while mounted.",
 			"",
-			"**Cost** 75 gp **Weight** 3 lbs.  ",
-			"**Damage** 1d6 (small), 1d8 (medium); **Critical** &times;3; **Range** 100 ft.; **Type** P; **Special** -  ",
-			"**Category** Ranged; **Proficiency** Martial  ",
-			"**‹ability/Weapon Group<s›** Bows"
+			"@I-warning If you have a penalty for low Strength, apply it to damage rolls when you use a longbow. You can apply your Strength modifier to damage rolls when you use a ‹eq-weapon/composite longbow›, but not a regular longbow.",
+			"",
+			"A longbow fires ‹eq-weapon/arrows›.",
+			"",
+			"::tabular{format=weap1 a=75 b=3 d=s1d6~m1d8 e=x3 f=100 g=P i=ranged j=M k=Bows}"
 		],
 		"topLink": [ "Ranged Weapons", "main/equipment_weapons_ranged" ]
 	},
@@ -659,11 +560,13 @@
 			"## Phaleros",
 			"‹SOURCE Distant Shores/12›",
 			"",
-			"A phaleros is a type of metal ‹eq-weapon/javelin› that stores a splash weapon in a small cage between the haft and the spearhead. When a phaleros strikes its target, the spearhead compresses toward the haft and breaks the payload, showering the target with its contents as though you had struck the target's square with the splash weapon. On a critical hit, you instead treat the target as though it had suffered a direct hit from the splash weapon. A phaleros is reusable, and reloading one with a splash weapon is a process that takes two rounds and provokes attacks of opportunity.",
+			"A phaleros is a type of metal ‹eq-weapon/javelin› that stores a ‹rule/splash weapon› in a small cage between the haft and the spearhead.",
 			"",
-			"**Cost** 5 gp **Weight** 3 lbs.  ",
-			"**Damage** 1d4 (small), 1d6 (medium); **Critical** &times;2; **Range** 20 ft.; **Type** P; **Special** -  ",
-			"**Category** Ranged; **Proficiency** Martial"
+			"@I-boost When a phaleros strikes its target, the spearhead compresses toward the haft and breaks the payload, showering the target with its contents as though you had struck the target's square with the splash weapon. On a critical hit, you instead treat the target as though it had suffered a direct hit from the splash weapon.",
+			"",
+			"A phaleros is reusable, and reloading one with a splash weapon is a process that takes two rounds and provokes attacks of opportunity.",
+			"",
+			"::tabular{format=weap1 a=5 b=3 d=s1d4~m1d6 e=x2 f=20 g=P i=ranged j=M}"
 		],
 		"topLink": [ "Ranged Weapons", "main/equipment_weapons_ranged" ]
 	},
@@ -679,12 +582,11 @@
 			"## Pilum",
 			"‹SOURCE Ranged Tactics Toolbox/0;Adventurer's Armory/4;Advanced Player's Guide/179;Ultimate Equipment/19›",
 			"",
-			"The tip of this heavy ‹eq-weapon/javelin› is designed to break off and embed itself into a shield once it hits. Like ammunition, a thrown pilum that hits its target is destroyed. If you hit a shield-bearing opponent with a pilum, he loses the AC bonuses from that shield until he takes a standard action to pry the remnants of the pilum from his shield.",
+			"The tip of this heavy ‹eq-weapon/javelin› is designed to break off and embed itself into a shield once it hits. Like ammunition, a thrown pilum that hits its target is destroyed.",
 			"",
-			"**Cost** 5 gp **Weight** 4 lbs.  ",
-			"**Damage** 1d6 (small), 1d8 (medium); **Critical** &times;2; **Range** 20 ft.; **Type** P; **Special** see text  ",
-			"**Category** Ranged; **Proficiency** Martial  ",
-			"**‹ability/Weapon Group<s›** Spears; Thrown"
+			"@I-lower If you hit a shield-bearing opponent with a pilum, he loses the AC bonuses from that shield until he takes a @SA to pry the remnants of the pilum from his shield.",
+			"",
+			"::tabular{format=weap1 a=5 b=4 d=s1d6~m1d8 e=x2 f=20 g=P h=\"see text\" i=ranged j=M k=\"Spears; Thrown\"}"
 		],
 		"topLink": [ "Ranged Weapons", "main/equipment_weapons_ranged" ]
 	},
@@ -699,12 +601,15 @@
 			"## Poisoned sand tube",
 			"‹SOURCE Ranged Tactics Toolbox/0;Ultimate Combat/133;Ultimate Equipment/19›",
 			"",
-			"Resembling a slim scroll case made of bamboo or metal, this tube is filled with fine sand that is soaked or coated with inhaled or contact poison. When loaded with 3 doses of these types of poison, you can blow into the tube to disperse the poisoned sand into your enemies' faces in a 15-foot cone. Each creature in the cone is affected as if afflicted with 1 dose of the poison. Even when loaded with unpoisoned sand, the tube lets loose a powerful irritant, and an opponent struck must succeed at a DC 12 Fortitude saving throw or be ‹misc/dazzled› for 1 round. Once expended, the tube must be repacked before it can be used again. Repacking a tube requires a full-round action, or a standard action if you have the ‹feat/Rapid Reload› feat.",
+			"Resembling a slim scroll case made of bamboo or metal, this tube is filled with fine sand that is soaked or coated with inhaled or contact poison.",
 			"",
-			"**Cost** 1 gp **Weight** 1 lb.  ",
-			"**Damage** special (small), special (medium); **Critical** -; **Range** -; **Type** -; **Special** see text  ",
-			"**Category** Ranged; **Proficiency** Martial  ",
-			"**‹ability/Weapon Group<s›** Thrown"
+			"@I-cone When loaded with 3 doses of these types of poison, you can blow into the tube to disperse the poisoned sand into your enemies' faces in a 15-foot cone. Each creature in the cone is affected as if afflicted with 1 dose of the poison.",
+			"",
+			"@I-lower Even when loaded with unpoisoned sand, the tube lets loose a powerful irritant, and an opponent struck must succeed at a DC 12 Fortitude saving throw or be ‹misc/dazzled› for 1 round.",
+			"",
+			"Once expended, the tube must be repacked before it can be used again. Repacking a tube requires a @RA, or a @SA if you have the ‹feat/Rapid Reload› feat.",
+			"",
+			"::tabular{format=weap1 a=1 b=1 d=sspecial~mspecial e=\"&mdash&\" f=x g=- h=\"see text\" i=ranged j=M k=Thrown}"
 		],
 		"topLink": [ "Ranged Weapons", "main/equipment_weapons_ranged" ]
 	},
@@ -715,17 +620,15 @@
 			"## Reflex bow",
 			"‹SOURCE Merchant's Manifest/11›",
 			"",
-			"These C-shaped bows are most often used in the Hongal tundra by the outriders of Tianjing, and in rare cases by the nobility of Xa Hoi. The unique shape and craft of these bows allows them to shoot with the same velocity and power as a ‹eq-weapon/longbow›. The shorter size also allows them to be wielded easily while mounted on horseback (or atop any other steed). While mounted, you gain a +1 circumstance bonus on attack rolls with a reflex bow. All reflex bows are ‹eq-weapon/composite <long>bow«s› and can be modified to benefit from high Strength scores in the same way as composite bows. Effects that apply to both longbows and shortbows also apply to reflex bows.",
+			"These C-shaped bows are most often used in the Hongal tundra by the outriders of Tianjing, and in rare cases by the nobility of Xa Hoi. The unique shape and craft of these bows allows them to shoot with the same velocity and power as a ‹eq-weapon/longbow›. The shorter size also allows them to be wielded easily while mounted on horseback (or atop any other steed).",
 			"",
-			"**Cost** 125 gp (+0) **Weight** 2 lbs.  ",
-			"**Damage** 1d4 (small), 1d6 (medium); **Critical** &times;3; **Range** 100 ft.; **Type** P; **Special** see text  ",
-			"**Category** Ranged; **Proficiency** Martial",
+			"@I-boost While mounted, you gain a +1 circumstance bonus on attack rolls with a reflex bow. All reflex bows are ‹eq-weapon/composite <long>bow«s› and can be modified to benefit from high Strength scores in the same way as composite bows.",
 			"",
-			"### Composite Bows",
+			"Effects that apply to both longbows and shortbows also apply to reflex bows.",
 			"",
-			"All composite bows are made with a particular strength rating (that is, each requires a minimum Strength modifier to use it with proficiency). If your Strength modifier is less than the strength rating of the composite bow, you can't effectively use it, so you take a -2 penalty on attacks with it. The default composite bow requires a Strength modifier of +0 or higher to use with proficiency. A composite bow can be made with a high strength rating to take advantage of an above-average Strength score; this feature allows you to add your Strength modifier on damage rolls, up to the maximum bonus indicated for the bow. Each point of Strength bonus granted by the bow adds 100 gp to its cost. If you have a negative modifier due to low Strength, apply it to damage rolls when you use a composite bow.",
+			"::tabular{format=weap1 a=\"125 gp (+0), 250 gp (+1), 375 gp (+2), 500 gp (+3), and so on\" b=\"2 lbs.\" c=x d=s1d4~m1d6 e=x3 f=100 g=P h=\"see text\" i=ranged j=M}",
 			"",
-			"**Cost** 225 gp (+1), 325 gp (+2), 425 gp (+3), 525 gp (+4), 625 gp (+5), 725 gp (+6), 825 gp (+7)"
+			">@HL[Note:] The cost for a +0 reflex bow was given as 125 gp, but the cost for upgraded reflex bows was not given in the original source. A composite longbow +0 costs 100 gp and gains +1 for every additional 100 gp. A composite shortbow costs 75 gp and gains +1 for every additional 75 gp. The similar ‹eq-weapon/spear-sling› and ‹eq-weapon/horse bow› follow this same formula. Therefore, the reflex bow was given a +1 modifier of +125 gp. As always, consult your GM for a final ruling."
 		],
 		"topLink": [ "Ranged Weapons", "main/equipment_weapons_ranged" ]
 	},
@@ -740,12 +643,13 @@
 			"## Shortbow",
 			"‹SOURCE Ranged Tactics Toolbox/0;PRPG Core Rulebook/143;Ultimate Equipment/19›",
 			"",
-			"A shortbow is made up of one piece of wood about 3 feet in length. You need two hands to use a bow, regardless of its size. You can use a shortbow while mounted. If you have a penalty for low Strength, apply it to damage rolls when you use a shortbow. If you have a bonus for high Strength, you can apply it to damage rolls when you use a ‹eq-weapon/composite shortbow›, but not a regular shortbow. A shortbow fires arrows.",
+			"A shortbow is made up of one piece of wood about 3 feet in length. You need two hands to use a bow, regardless of its size. You can use a shortbow while mounted.",
 			"",
-			"**Cost** 30 gp **Weight** 2 lbs.  ",
-			"**Damage** 1d4 (small), 1d6 (medium); **Critical** &times;3; **Range** 60 ft.; **Type** P; **Special** -  ",
-			"**Category** Ranged; **Proficiency** Martial  ",
-			"**‹ability/Weapon Group<s›** Bows"
+			"@I-warning If you have a penalty for low Strength, apply it to damage rolls when you use a shortbow. If you have a bonus for high Strength, you can apply it to damage rolls when you use a ‹eq-weapon/composite shortbow›, but not a regular shortbow.",
+			"",
+			"A shortbow fires ‹eq-weapon/arrows›.",
+			"",
+			"::tabular{format=weap1 a=30 b=2 d=s1d4~m1d6 e=x3 f=60 g=P i=ranged j=M k=Bows}"
 		],
 		"topLink": [ "Ranged Weapons", "main/equipment_weapons_ranged" ]
 	},
@@ -756,19 +660,17 @@
 			"## Spear-sling",
 			"‹SOURCE Ranged Tactics Toolbox/18›",
 			"",
-			"A spear-sling consists of a hollow tube with a loop of elastic material, such as rubber or sinew, attached to one end. The wielder draws a ‹eq-weapon/harpoon›, ‹eq-weapon/javelin›, ‹eq-weapon/shortspear›, or ‹eq-weapon/spear› through the tube, pulling the loop taut. Releasing the loop propels the shaft forward like a bow does an arrow. A harpoon, javelin, shortspear, spear, or other weapon shot from a spear-sling is treated as a projectile weapon instead of a thrown weapon, increasing its maximum range and allowing it to be used underwater. Using a spear-sling requires two hands. Loading a spear-sling is a standard action (a move action if the wielder has the ‹feat/Rapid Reload› feat) that provokes attacks of opportunity.",
+			"A spear-sling consists of a hollow tube with a loop of elastic material, such as rubber or sinew, attached to one end. The wielder draws a ‹eq-weapon/harpoon›, ‹eq-weapon/javelin›, ‹eq-weapon/shortspear›, or ‹eq-weapon/spear› through the tube, pulling the loop taut. Releasing the loop propels the shaft forward like a bow does an arrow.",
 			"",
-			"A spear-sling is made with a particular strength rating, like a composite longbow. Each point of Strength bonus granted by the sling's strength rating adds 50 gp to its cost. If you have a negative Strength modifier, apply it to damage rolls when you use a spear-sling.",
+			"@I-info A harpoon, javelin, shortspear, spear, or other weapon shot from a spear-sling is treated as a projectile weapon instead of a thrown weapon, increasing its maximum range and allowing it to be used underwater.",
 			"",
-			"**Cost** 50 gp (+0) **Weight** 2 lbs.  ",
-			"**Damage** 1d6 (small), 1d8 (medium); **Critical** &times;3; **Range** see text; **Type** P; **Special** see text  ",
-			"**Category** Ranged; **Proficiency** Martial",
+			"Using a spear-sling requires two hands. Loading a spear-sling is a @SA (a @MA if the wielder has the ‹feat/Rapid Reload› feat) that provokes attacks of opportunity.",
 			"",
-			"### Composite Bows",
+			"A spear-sling is made with a particular strength rating, like a ‹eq-weapon/composite longbow›. Each point of Strength bonus granted by the sling's strength rating adds 50 gp to its cost.",
 			"",
-			"All composite bows are made with a particular strength rating (that is, each requires a minimum Strength modifier to use it with proficiency). If your Strength modifier is less than the strength rating of the composite bow, you can't effectively use it, so you take a -2 penalty on attacks with it. The default composite bow requires a Strength modifier of +0 or higher to use with proficiency. A composite bow can be made with a high strength rating to take advantage of an above-average Strength score; this feature allows you to add your Strength modifier on damage rolls, up to the maximum bonus indicated for the bow. Each point of Strength bonus granted by the bow adds 100 gp to its cost. If you have a negative modifier due to low Strength, apply it to damage rolls when you use a composite bow.",
+			"@I-warning If you have a negative Strength modifier, apply it to damage rolls when you use a spear-sling.",
 			"",
-			"**Cost** 150 gp (+1), 250 gp (+2), 350 gp (+3), 450 gp (+4), 550 gp (+5), 650 gp (+6), 750 gp (+7)"
+			"::tabular{format=weap1 a=\"50 gp (+0), 100 gp (+1), 150 gp (+2), and so on\" b=\"2 lbs.\" c=x d=s1d6~m1d8 e=x3 f=\"see text\" g=P h=\"see text\" i=ranged j=M}"
 		],
 		"topLink": [ "Ranged Weapons", "main/equipment_weapons_ranged" ]
 	},
@@ -779,11 +681,11 @@
 			"## Throwing arrow cord",
 			"‹SOURCE Ranged Tactics Toolbox/19›",
 			"",
-			"This simple fiber or leather cord has a knot at either end. One end is wound once around the notch of a ‹eq-weapon/throwing arrow›. The cord runs taut along the shaft to the front of the arrow, where you hold the arrow to throw. The remainder of the cord wraps around your hand. The cord dramatically increases the throwing arrow's range. Attaching the cord to a throwing arrow is a move action that requires two hands and provokes attacks of opportunity. The ‹feat/Rapid Reload› feat can be taken for throwing arrow cords, allowing you to load a throwing arrow as a free action.",
+			"This simple fiber or leather cord has a knot at either end. One end is wound once around the notch of a ‹eq-weapon/throwing arrow›. The cord runs taut along the shaft to the front of the arrow, where you hold the arrow to throw. The remainder of the cord wraps around your hand.",
 			"",
-			"**Cost** - **Weight** -  ",
-			"**Damage** 1d3 (small), 1d4 (medium); **Critical** &times;2; **Range** 60 ft.; **Type** P; **Special** -  ",
-			"**Category** Ranged; **Proficiency** Martial"
+			"The cord dramatically increases the throwing arrow's range. Attaching the cord to a throwing arrow is a @MA that requires two hands and provokes attacks of opportunity. The ‹feat/Rapid Reload› feat can be taken for throwing arrow cords, allowing you to load a throwing arrow as a @FA.",
+			"",
+			"::tabular{format=weap1 a=0 b=x d=s1d3~m1d4 e=x2 f=60 g=P i=ranged j=M}"
 		],
 		"topLink": [ "Ranged Weapons", "main/equipment_weapons_ranged" ]
 	},
@@ -798,12 +700,13 @@
 			"## Tube arrow shooter",
 			"‹SOURCE Ranged Tactics Toolbox/0;Ultimate Combat/134;Ultimate Equipment/19›",
 			"",
-			"This weapon consists of a small metal tube hidden within a sleeve; the tube holds a short, spring-loaded ‹eq-weapon/bamboo shaft arrow<s›. You gain a +2 bonus on Sleight of Hand checks made to conceal a tube arrow shooter on your body. Releasing the fastener allows the spring to force the arrow out. Once a shaft is fired, the tube must be reloaded before it can be used again. Reloading a tube is a full-round action, or a standard action if the wielder has the ‹feat/Rapid Reload› feat.",
+			"This weapon consists of a small metal tube hidden within a sleeve; the tube holds a short, spring-loaded ‹eq-weapon/bamboo shaft arrow<s›.",
 			"",
-			"**Cost** 3 gp **Weight** 0.5 lb.  ",
-			"**Damage** 1d3 (small), 1d4 (medium); **Critical** &times;2; **Range** 40 ft.; **Type** P; **Special** -  ",
-			"**Category** Ranged; **Proficiency** Martial  ",
-			"**‹ability/Weapon Group<s›** Crossbows"
+			"@I-def You gain a +2 bonus on ‹skill/Sleight of Hand› checks made to conceal a tube arrow shooter on your body.",
+			"",
+			"Releasing the fastener allows the spring to force the arrow out. Once a shaft is fired, the tube must be reloaded before it can be used again. Reloading a tube is a @RA, or a @SA if the wielder has the ‹feat/Rapid Reload› feat.",
+			"",
+			"::tabular{format=weap1 a=3 b=\"0.5\" d=s1d3~m1d4 e=x2 f=40 g=P i=ranged j=M k=Crossbows}"
 		],
 		"topLink": [ "Ranged Weapons", "main/equipment_weapons_ranged" ]
 	},
