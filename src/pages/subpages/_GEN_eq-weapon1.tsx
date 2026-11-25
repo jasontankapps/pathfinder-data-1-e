@@ -399,7 +399,7 @@ const _firework_firecracker = {title: "Firework (firecracker)", topLink: ["Alche
 const _firework_firecracker_spirit = {title: "Firework (firecracker, spirit)", topLink: ["Alchemical Weapons","main/equipment_weapons_alchemical"], jsx: <><h2 id="eq-weapon-firework_firecracker_spirit-firework-firecracker-spirit">Firework (firecracker, spirit)</h2>
 <p><strong>Sources</strong> <Link to="/source/alchemy_manual">Alchemy Manual pg. 29</Link></p>
 <Tabular format="weap1" a="30" b="x" k="alch" />
-<p>These <Link to="/eq-weapon/firecracker">firecrackers</Link> are covered in magical runes and are mixed with <Link to="/eq-misc/ghost_salt">ghost salt</Link>.</p>
+<p>These <Link to="/eq-weapon/firework_firecracker">firecrackers</Link> are covered in magical runes and are mixed with <Link to="/eq-misc/ghost_salt">ghost salt</Link>.</p>
 <p><Icons id="eq-weapon-firework_firecracker_spirit-aura-lower-icons" wrapper="prefixIcon" list={["aura","lower"]} /> One round after you light a spirit firecracker in an adjacent square, the firework detonates and deals 1d4+1 points of damage to incorporeal creatures in the same space. In addition, an affected incorporeal creature with <Link to="/umr/light_sensitivity">light sensitivity</Link>, <Link to="/umr/light_blindness">light blindness</Link>, or <Link to="/umr/sunlight_powerlessness">sunlight powerlessness</Link> becomes <Link to="/misc/blinded">blinded</Link> for 1 round. A spirit firecracker has no effect on corporeal creatures.</p>
 <Tabular format="spontalch" a="bp1/brim6/sp4/silv10" b="calcination" c="25" d="1 hour" f="crucible" g="weapon" />
 </>};
@@ -800,146 +800,198 @@ const _venomblock = {title: "Venomblock", topLink: ["Alchemical Weapons","main/e
 const _arrow = {title: "Arrow", topLink: ["Ammunition","main/equipment_weapons_ammunition"], jsx: <><h2 id="eq-weapon-arrow-arrows">Arrows</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 22</Link>, <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 143</Link></p>
 <p>An arrow used as a melee weapon is treated as a light <Link to="/misc/improvised_weapon">improvised weapon</Link> (-4 penalty on attack rolls) and deals damage as a <Link to="/eq-weapon/dagger">dagger</Link> of its size (critical multiplier &times;2). Arrows come in a leather quiver that holds 20 arrows.</p>
-<p><strong>Cost</strong> 0.05 gp <strong>Weight</strong> 0.15 lbs.<br/><strong>Category</strong> Ammunition; <strong>Proficiency</strong> Ammunition</p>
-<p><strong>Note:</strong> Stats are an extrapolation from the original quantity of 20.</p>
+<Tabular format="weap1" a="0.05" b="0.15" i="ammo" j="X" />
+<blockquote>
+<p><strong className="hl">Note:</strong> Stats are an extrapolation from the original quantity of 20.</p>
+</blockquote>
 </>};
 const _arrow_iron_tipped_distance = {title: "Arrow, iron-tipped distance", topLink: ["Ammunition","main/equipment_weapons_ammunition"], jsx: <><h2 id="eq-weapon-arrow_iron_tipped_distance-arrow-iron-tipped-distance">Arrow, iron-tipped distance</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_combat">Ultimate Combat pg. 130</Link></p>
-<p>Used tactically for long-range attacks on troops, these arrows are fitted with heavy iron heads. While these heads help them travel great distances, they make the arrows less effective at dealing damage. Iron-tipped distance arrows increase their bow's range increment by 10 feet but take a -1 penalty on damage dealt per range increment (minimum 1 point of damage). They are sold in leather quivers in quantities of 20.</p>
-<p><strong>Cost</strong> 0.05 gp <strong>Weight</strong> 0.2 lbs.<br/><strong>Category</strong> Ammunition; <strong>Proficiency</strong> Ammunition</p>
-<p><strong>Note:</strong> Stats are an extrapolation from the original quantity of 20.</p>
+<p>Used tactically for long-range attacks on troops, these <Link to="/eq-weapon/arrows">arrows</Link> are fitted with heavy iron heads. While these heads help them travel great distances, they make the arrows less effective at dealing damage.</p>
+<p><Icons id="eq-weapon-arrow_iron_tipped_distance-boost-down-icons" wrapper="prefixIcon" list={["boost","down"]} /> Iron-tipped distance arrows increase their bow's range increment by 10 feet but take a -1 penalty on damage dealt per range increment (minimum 1 point of damage). They are sold in leather quivers in quantities of 20.</p>
+<Tabular format="weap1" a="0.05" b="0.2" i="ammo" j="X" />
+<blockquote>
+<p><strong className="hl">Note:</strong> Stats are an extrapolation from the original quantity of 20.</p>
+</blockquote>
 </>};
 const _atlatl_dart = {title: "Atlatl dart", topLink: ["Ammunition","main/equipment_weapons_ammunition"], jsx: <><h2 id="eq-weapon-atlatl_dart-atlatl-dart">Atlatl dart</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 22</Link></p>
 <p>An atlatl dart is the equivalent of a <Link to="/eq-weapon/javelin">javelin</Link> except it has fletching. If thrown without an <Link to="/eq-weapon/atlatl">atlatl</Link>, treat it as a javelin.</p>
-<p><strong>Cost</strong> 1 gp <strong>Weight</strong> 2 lbs.<br/><strong>Category</strong> Ammunition; <strong>Proficiency</strong> Ammunition</p>
+<Tabular format="weap1" a="1" b="2" i="ammo" j="X" />
 </>};
 const _bamboo_shaft_arrows = {title: "Bamboo shaft arrows", topLink: ["Ammunition","main/equipment_weapons_ammunition"], jsx: <><h2 id="eq-weapon-bamboo_shaft_arrows-bamboo-shaft-arrows">Bamboo shaft arrows</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 22</Link>, <Link to="/source/ultimate_combat">Ultimate Combat pg. 130</Link></p>
 <p>These foot-long arrows are used as ammunition for <Link to="/eq-weapon/tube_arrow_shooter">tube arrow shooters</Link>. As an <Link to="/misc/improvised">improvised</Link> melee weapon, they deal damage equivalent to that of a <Link to="/eq-weapon/spiked_gauntlet">spiked gauntlet</Link>. They come in a bamboo tube that holds 10 shafts.</p>
-<p><strong>Cost</strong> 0.1 gp <strong>Weight</strong> 0.05 lb.<br/><strong>Category</strong> Ammunition; <strong>Proficiency</strong> Ammunition</p>
-<p><strong>Note:</strong> Stats are an extrapolation from the original quantity of 10.</p>
+<Tabular format="weap1" a="0.1" b="0.05" i="ammo" j="X" />
+<blockquote>
+<p><strong className="hl">Note:</strong> Stats are an extrapolation from the original quantity of 10.</p>
+</blockquote>
 </>};
 const _barbed_arrow = {title: "Barbed arrow", topLink: ["Ammunition","main/equipment_weapons_ammunition"], jsx: <><h2 id="eq-weapon-barbed_arrow-barbed-arrow">Barbed arrow</h2>
 <p><strong>Sources</strong> <Link to="/source/ranged_tactics_toolbox">Ranged Tactics Toolbox pg. 19</Link></p>
-<p>The head of a barbed arrow resembles that of a <Link to="/eq-weapon/harpoon">harpoon</Link>. When a barbed arrow is attached to a length of silk rope and fired from a bow, the arrow's range increment is reduced to 30 feet, but it gains the <Link to="/misc/grapple">grapple</Link> special weapon quality. Barbed <Link to="/eq-weapon/bolt">bolts</Link> exist for crossbows.</p>
-<p><strong>Cost</strong> 0.1 gp <strong>Weight</strong> 0.15 lbs.<br/><strong>Category</strong> Ammunition; <strong>Proficiency</strong> Ammunition</p>
-<p><strong>Note:</strong> Stats are an extrapolation from the original quantity of 20.</p>
+<p>The head of a barbed <Link to="/eq-weapon/arrow">arrow</Link> resembles that of a <Link to="/eq-weapon/harpoon">harpoon</Link>.</p>
+<p><Icons id="eq-weapon-barbed_arrow-down-boost-icons" wrapper="prefixIcon" list={["down","boost"]} /> When a barbed arrow is attached to a length of <Link to="/eq-misc/silk_rope">silk rope</Link> and fired from a bow, the arrow's range increment is reduced to 30 feet, but it gains the <Link to="/misc/grapple">grapple</Link> special weapon quality.</p>
+<p>Barbed <Link to="/eq-weapon/bolt">bolts</Link> exist for crossbows.</p>
+<Tabular format="weap1" a="0.1" b="0.15" i="ammo" j="X" />
+<blockquote>
+<p><strong className="hl">Note:</strong> Stats are an extrapolation from the original quantity of 20.</p>
+</blockquote>
 </>};
 const _blowgun_darts = {title: "Blowgun darts", topLink: ["Ammunition","main/equipment_weapons_ammunition"], jsx: <><h2 id="eq-weapon-blowgun_darts-blowgun-darts">Blowgun darts</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 22</Link>, <Link to="/source/pathfinder_campaign_setting">Pathfinder Campaign Setting pg. 211</Link>, <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 142</Link></p>
 <p>The thin, light darts used in a <Link to="/eq-weapon/blowgun">blowgun</Link> are usually made of hardwood with a stabilizing fletching of down or fur. A dart is usually loaded from the back end just before firing.</p>
-<p><strong>Cost</strong> 0.05 gp <strong>Weight</strong> -<br/><strong>Category</strong> Ammunition; <strong>Proficiency</strong> Ammunition</p>
-<p><strong>Note:</strong> Stats are an extrapolation from the original quantity of 10.</p>
+<Tabular format="weap1" a="0.05" b="x" i="ammo" j="X" />
+<blockquote>
+<p><strong className="hl">Note:</strong> Stats are an extrapolation from the original quantity of 10.</p>
+</blockquote>
 </>};
 const _blunt_arrows = {title: "Blunt arrows", topLink: ["Ammunition","main/equipment_weapons_ammunition"], jsx: <><h2 id="eq-weapon-blunt_arrows-blunt-arrows">Blunt arrows</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 22</Link>, <Link to="/source/advanced_players_guide">Advanced Player's Guide pg. 176</Link></p>
-<p>These arrows have rounded wooden tips that deal bludgeoning damage rather than piercing. An archer can use a blunt arrow to deal nonlethal damage (at the normal -4 attack penalty for using a lethal weapon to deal nonlethal damage).</p>
-<p><strong>Cost</strong> 0.1 gp <strong>Weight</strong> 0.15 lbs.<br/><strong>Category</strong> Ammunition; <strong>Proficiency</strong> Ammunition</p>
-<p><strong>Note:</strong> Stats are an extrapolation from the original quantity of 20.</p>
+<p>These <Link to="/eq-weapon/arrows">arrows</Link> have rounded wooden tips that deal bludgeoning damage rather than piercing. An archer can use a blunt arrow to deal nonlethal damage (at the normal -4 attack penalty for using a lethal weapon to deal nonlethal damage).</p>
+<Tabular format="weap1" a="0.1" b="0.15" i="ammo" j="X" />
+<blockquote>
+<p><strong className="hl">Note:</strong> Stats are an extrapolation from the original quantity of 20.</p>
+</blockquote>
 </>};
 const _bolas_bolts = {title: "Bolas bolts", topLink: ["Ammunition","main/equipment_weapons_ammunition"], jsx: <><h2 id="eq-weapon-bolas_bolts-bolas-bolts">Bolas bolts</h2>
 <p><strong>Sources</strong> <Link to="/source/monster_codex">Monster Codex pg. 44</Link></p>
-<p>Bolas bolts are bolas-like projectiles used as ammunition for slaver's crossbows. If you hit a target with a bolas bolt fired from a slaver's crossbow, attempt a <Link to="/rule/trip">trip</Link> combat maneuver against your target (don't add your Strength bonus when attempting the combat maneuver check). You can't be tripped during your own trip attempt when using a bolas bolt.</p>
-<p>On a critical hit, instead of dealing extra damage, the bolas bolt ensnares its target. Your target is <Link to="/rule/entangled">entangled</Link> until it or an ally succeeds at a DC 15 Strength check to break the bolas cords. A <Link to="/eq-weapon/light_slavers_crossbow">light slaver's crossbow</Link> can entangle a target up to the same size as its intended wielder, and a <Link to="/eq-weapon/heavy_slavers_crossbow">heavy slaver's crossbow</Link> can entangle a creature up to one size larger. A masterwork bolas bolt or one with an enhancement bonus of at least +1 increases the DC of the Strength check to break the bolas to 20.</p>
+<p><Icons id="eq-weapon-bolas_bolts-melee-icons" wrapper="prefixIcon" list={["melee"]} /> Bolas bolts are <Link to="/eq-weapon/bolas">bolas</Link>-like projectiles used as ammunition for slaver's crossbows. If you hit a target with a bolas bolt fired from a slaver's crossbow, attempt a <Link to="/rule/trip">trip</Link> combat maneuver against your target (don't add your Strength bonus when attempting the combat maneuver check). You can't be tripped during your own trip attempt when using a bolas bolt.</p>
+<p><Icons id="eq-weapon-bolas_bolts-lower-icons" wrapper="prefixIcon" list={["lower"]} /> On a critical hit, instead of dealing extra damage, the bolas bolt ensnares its target. Your target is <Link to="/rule/entangled">entangled</Link> until it or an ally succeeds at a DC 15 Strength check to break the bolas cords.</p>
+<p>A <Link to="/eq-weapon/light_slavers_crossbow">light slaver's crossbow</Link> can entangle a target up to the same size as its intended wielder, and a <Link to="/eq-weapon/heavy_slavers_crossbow">heavy slaver's crossbow</Link> can entangle a creature up to one size larger. A <Link to="/rule/masterwork_w">masterwork</Link> bolas bolt or one with an enhancement bonus of at least +1 increases the DC of the Strength check to break the bolas to 20.</p>
 <p>If the attack trips and entangles a target, the creature cannot move from its square until it breaks free of the bolas cords.</p>
-<p><strong>Cost</strong> 20 gp <strong>Weight</strong> 4 lbs.<br/><strong>Category</strong> Ammunition; <strong>Proficiency</strong> Ammunition</p>
+<Tabular format="weap1" a="20" b="4" i="ammo" j="X" />
 </>};
 const _bolts_heartstake = {title: "Bolts, heartstake", topLink: ["Ammunition","main/equipment_weapons_ammunition"], jsx: <><h2 id="eq-weapon-bolts_heartstake-bolts-heartstake">Bolts, heartstake</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_race_guide">Advanced Race Guide pg. 99</Link></p>
-<p>Specially crafted from solid darkwood, heartstake bolts are specifically designed to slay <Link to="/template/vampire">vampires</Link>. A heartstake bolt can be fired from any crossbow, but it imposes a -2 penalty on the attack roll and halves the range increment of the weapon. A vampire struck with a heartstake bolt takes the normal damage but must also succeed at a DC 20 Fortitude saving throw or fall to the ground helpless for 1 round. While the vampire is helpless in this manner, a creature can attempt to use the heartstake bolt to finish off the vampire by driving it through the vampire's heart as a full-round action. Once the debilitating effect of the heartstake bolt has ended, the vampire can pull out the bolt as a move action. A vampire slain with a heartstake bolt is subject to the rules and limitations of slaying a vampire with a wooden stake as described under vampire weaknesses.</p>
+<p>Specially crafted from solid <Link to="/eq-material/darkwood">darkwood</Link>, heartstake bolts are specifically designed to slay <Link to="/template/vampire">vampires</Link>.</p>
+<p><Icons id="eq-weapon-bolts_heartstake-down-icons" wrapper="prefixIcon" list={["down"]} /> A heartstake bolt can be fired from any crossbow, but it imposes a -2 penalty on the attack roll and halves the range increment of the weapon. A vampire struck with a heartstake bolt takes the normal damage but must also succeed at a DC 20 Fortitude saving throw or fall to the ground <Link to="/misc/helpless">helpless</Link> for 1 round. While the vampire is helpless in this manner, a creature can attempt to use the heartstake bolt to finish off the vampire by driving it through the vampire's heart as a <strong className="hl">full-round action</strong>. Once the debilitating effect of the heartstake bolt has ended, the vampire can pull out the bolt as a <strong className="hl">move action</strong>.</p>
+<p><Icons id="eq-weapon-bolts_heartstake-info-icons" wrapper="prefixIcon" list={["info"]} /> A vampire slain with a heartstake bolt is subject to the rules and limitations of slaying a vampire with a wooden stake as described under vampire weaknesses.</p>
 <p>A heartstake bolt deals normal damage for the crossbow of its type.</p>
-<p><strong>Cost</strong> 20 gp <strong>Weight</strong> 0.6 lbs.<br/><strong>Category</strong> Ammunition; <strong>Proficiency</strong> Ammunition</p>
+<Tabular format="weap1" a="20" b="0.6" i="ammo" j="X" />
 </>};
 const _bullets_groaning = {title: "Bullets, groaning", topLink: ["Ammunition","main/equipment_weapons_ammunition"], jsx: <><h2 id="eq-weapon-bullets_groaning-bullets-groaning">Bullets, groaning</h2>
 <p><strong>Sources</strong> <Link to="/source/adventurers_armory">Adventurer's Armory pg. 3</Link></p>
 <p>These <Link to="/eq-weapon/sling_bullet">sling bullets</Link> are honeycombed with overlapping perforations that cause them to emit an eerie moan audible within 500 feet of their flight path.</p>
-<p><strong>Cost</strong> 0.2 gp <strong>Weight</strong> 0.5 lbs.<br/><strong>Category</strong> Ammunition; <strong>Proficiency</strong> Ammunition</p>
-<p><strong>Note:</strong> Stats are an extrapolation from the original quantity of 20.</p>
+<Tabular format="weap1" a="0.2" b="0.5" i="ammo" j="X" />
+<blockquote>
+<p><strong className="hl">Note:</strong> Stats are an extrapolation from the original quantity of 20.</p>
+</blockquote>
 </>};
 const _crossbow_bolts = {title: "Crossbow bolts", topLink: ["Ammunition","main/equipment_weapons_ammunition"], jsx: <><h2 id="eq-weapon-crossbow_bolts-crossbow-bolts">Crossbow bolts</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 22</Link>, <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 142</Link>, <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 143</Link></p>
-<p>A crossbow bolt used as a melee weapon is treated as a light <Link to="/misc/improvised_weapon">improvised weapon</Link> (-4 penalty on attack rolls) and deals damage as a <Link to="/eq-weapon/dagger">dagger</Link> of its size (critical multiplier &times;2). Bolts come in a case or quiver that holds 10 bolts. All crossbows except repeating crossbows use these kinds of crossbow bolts, which are sometimes called "quarrels."</p>
-<p><strong>Cost</strong> 0.1 gp <strong>Weight</strong> 0.1 lb.<br/><strong>Category</strong> Ammunition; <strong>Proficiency</strong> Ammunition</p>
-<p><strong>Note:</strong> Stats are an extrapolation from the original quantity of 10.</p>
+<p>A crossbow bolt used as a melee weapon is treated as a light <Link to="/misc/improvised_weapon">improvised weapon</Link> (-4 penalty on attack rolls) and deals damage as a <Link to="/eq-weapon/dagger">dagger</Link> of its size (critical multiplier &times;2). Bolts come in a case or quiver that holds 10 bolts. All <Link to="/eq-weapon/crossbow">crossbows</Link> except <Link to="/eq-weapon/repeating_crossbow">repeating crossbows</Link> use these kinds of crossbow bolts, which are sometimes called "quarrels."</p>
+<Tabular format="weap1" a="0.1" b="0.1" i="ammo" j="X" />
+<blockquote>
+<p><strong className="hl">Note:</strong> Stats are an extrapolation from the original quantity of 10.</p>
+</blockquote>
 </>};
 const _featherweight_dart = {title: "Featherweight dart", topLink: ["Ammunition","main/equipment_weapons_ammunition"], jsx: <><h2 id="eq-weapon-featherweight_dart-featherweight-dart">Featherweight dart</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_intrigue">Ultimate Intrigue pg. 232</Link></p>
-<p>These extremely small and lightweight darts function like blowgun darts, except they are used to deliver poisons surreptitiously instead of dealing damage. When you hit with a dart, the poison is injected into the target while the dart breaks off and falls away, leaving the wound hard to spot. Any amount of damage reduction, hardness, or similar protection prevents the featherweight dart from delivering its injected poison. Anyone examining the target must succeed at a DC 20 Perception check to find the puncture wound, while finding the dart itself at the location where it fell requires a successful DC 15 Perception check. This ammunition can be used in both <Link to="/eq-weapon/blowgun">blowguns</Link> and <Link to="/eq-weapon/wrist_launcher">wrist launchers</Link>.</p>
-<p><strong>Cost</strong> 0.1 gp <strong>Weight</strong> -<br/><strong>Category</strong> Ammunition; <strong>Proficiency</strong> Ammunition</p>
+<p>These extremely small and lightweight darts function like <Link to="/eq-weapon/blowgun_dart">blowgun darts</Link>, except they are used to deliver poisons surreptitiously instead of dealing damage.</p>
+<p>When you hit with a dart, the poison is injected into the target while the dart breaks off and falls away, leaving the wound hard to spot. Any amount of damage reduction, hardness, or similar protection prevents the featherweight dart from delivering its injected poison. Anyone examining the target must succeed at a DC 20 <Link to="/skill/perception">Perception</Link> check to find the puncture wound, while finding the dart itself at the location where it fell requires a successful DC 15 Perception check.</p>
+<p>This ammunition can be used in both <Link to="/eq-weapon/blowgun">blowguns</Link> and <Link to="/eq-weapon/wrist_launcher">wrist launchers</Link>.</p>
+<Tabular format="weap1" a="0.1" b="x" i="ammo" j="X" />
 </>};
 const _flight_arrows = {title: "Flight arrows", topLink: ["Ammunition","main/equipment_weapons_ammunition"], jsx: <><h2 id="eq-weapon-flight_arrows-flight-arrows">Flight arrows</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 22</Link>, <Link to="/source/advanced_players_guide">Advanced Player's Guide pg. 176</Link></p>
-<p>These arrows have light shafts and special fletching to give them greater range. A flight arrow's range increment is 20 feet greater with <Link to="/eq-weapon/longbow">longbows</Link> and 10 feet greater with <Link to="/eq-weapon/shortbow">shortbows</Link>. They deal damage as if <Link to="/misc/one_size_category_smaller">one size category smaller</Link>.</p>
-<p><strong>Cost</strong> 0.1 gp <strong>Weight</strong> 0.15 lbs.<br/><strong>Category</strong> Ammunition; <strong>Proficiency</strong> Ammunition</p>
-<p><strong>Note:</strong> Stats are an extrapolation from the original quantity of 20.</p>
+<p><Icons id="eq-weapon-flight_arrows-boost-down-icons" wrapper="prefixIcon" list={["boost","down"]} /> These <Link to="/eq-weapon/arrows">arrows</Link> have light shafts and special fletching to give them greater range. A flight arrow's range increment is 20 feet greater with <Link to="/eq-weapon/longbow">longbows</Link> and 10 feet greater with <Link to="/eq-weapon/shortbow">shortbows</Link>. They deal damage as if <Link to="/misc/one_size_category_smaller">one size category smaller</Link>.</p>
+<Tabular format="weap1" a="0.1" b="0.15" i="ammo" j="X" />
+<blockquote>
+<p><strong className="hl">Note:</strong> Stats are an extrapolation from the original quantity of 20.</p>
+</blockquote>
 </>};
 const _halfling_little_starstones = {title: "Halfling little starstones", topLink: ["Ammunition","main/equipment_weapons_ammunition"], jsx: <><h2 id="eq-weapon-halfling_little_starstones-halfling-little-starstones">Halfling little starstones</h2>
 <p><strong>Sources</strong> <Link to="/source/halflings_of_golarion">Halflings of Golarion pg. 22</Link></p>
-<p>Though they are technically sling ammunition, these thread- or cloth-wrapped pebbles are mainly used for signaling or celebration rather than battle, as they barely hit hard enough to sting. When soaked in oil or strong alcohol, they burn brightly for 1 round, illuminating an area like a <Link to="/eq-misc/candle">candle</Link> and creating brief streaks of light as they fly through the air. They generally aren't hot enough and burn out too quickly to ignite combustibles.</p>
-<p><strong>Cost</strong> 0.5 cp <strong>Weight</strong> 0.2 lbs.<br/><strong>Category</strong> Ammunition; <strong>Proficiency</strong> Ammunition</p>
-<p><strong>Note:</strong> Stats are an extrapolation from the original quantity of 10.</p>
+<p>Though they are technically <Link to="/eq-weapon/sling">sling</Link> ammunition, these thread- or cloth-wrapped pebbles are mainly used for signaling or celebration rather than battle, as they barely hit hard enough to sting. When soaked in oil or strong alcohol, they burn brightly for 1 round, illuminating an area like a <Link to="/eq-misc/candle">candle</Link> and creating brief streaks of light as they fly through the air. They generally aren't hot enough and burn out too quickly to ignite combustibles.</p>
+<Tabular format="weap1" a="&amp;frac&amp; cp" b="0.2 lbs." c="x" i="ammo" j="X" />
+<blockquote>
+<p><strong className="hl">Note:</strong> Stats are an extrapolation from the original quantity of 10.</p>
+</blockquote>
 </>};
 const _halfling_sharpstones = {title: "Halfling sharpstones", topLink: ["Ammunition","main/equipment_weapons_ammunition"], jsx: <><h2 id="eq-weapon-halfling_sharpstones-halfling-sharpstones">Halfling sharpstones</h2>
 <p><strong>Sources</strong> <Link to="/source/halflings_of_golarion">Halflings of Golarion pg. 23</Link></p>
-<p>A thin layer of baked clay covers the spikes and jagged ridges covering this specially designed bullet. A proficient user knows how to crack the clay (a free action) so that it peels off from either the spikes or ridges when fired, dealing either piercing or slashing damage.</p>
-<p><strong>Cost</strong> 0.1 gp <strong>Weight</strong> 0.5 lbs.<br/><strong>Category</strong> Ammunition; <strong>Proficiency</strong> Ammunition</p>
-<p><strong>Note:</strong> Stats are an extrapolation from the original quantity of 10.</p>
+<p>A thin layer of baked clay covers the spikes and jagged ridges covering this specially designed <Link to="/eq-weapon/s_bullet">bullet</Link>. A proficient user knows how to crack the clay (a <strong className="hl">free action</strong>) so that it peels off from either the spikes or ridges when fired, dealing either piercing or slashing damage.</p>
+<Tabular format="weap1" a="0.1" b="0.5" i="ammo" j="X" />
+<blockquote>
+<p><strong className="hl">Note:</strong> Stats are an extrapolation from the original quantity of 10.</p>
+</blockquote>
 </>};
 const _halfling_softstones = {title: "Halfling softstones", topLink: ["Ammunition","main/equipment_weapons_ammunition"], jsx: <><h2 id="eq-weapon-halfling_softstones-halfling-softstones">Halfling softstones</h2>
 <p><strong>Sources</strong> <Link to="/source/halflings_of_golarion">Halflings of Golarion pg. 23</Link></p>
 <p>These tight bundles of elastic fibers deal nonlethal damage when fired from a <Link to="/eq-weapon/sling">sling</Link>.</p>
-<p><strong>Cost</strong> 0.01 gp <strong>Weight</strong> 0.4 lbs.<br/><strong>Category</strong> Ammunition; <strong>Proficiency</strong> Ammunition</p>
-<p><strong>Note:</strong> Stats are an extrapolation from the original quantity of 10.</p>
+<Tabular format="weap1" a="0.01" b="0.4" i="ammo" j="X" />
+<blockquote>
+<p><strong className="hl">Note:</strong> Stats are an extrapolation from the original quantity of 10.</p>
+</blockquote>
 </>};
 const _halfling_spongestones = {title: "Halfling spongestones", topLink: ["Ammunition","main/equipment_weapons_ammunition"], jsx: <><h2 id="eq-weapon-halfling_spongestones-halfling-spongestones">Halfling spongestones</h2>
 <p><strong>Sources</strong> <Link to="/source/halflings_of_golarion">Halflings of Golarion pg. 23</Link></p>
-<p>These bullets are actually made from a porous stone or heavy wood that absorbs liquids and shatters on impact. Spongestones are often used to deliver poison or burning oil. A flask of <Link to="/eq-misc/oil">oil</Link> completely saturates 10 spongestones. When ignited (a free action if fire is available), a burning, oil-soaked spongestone deals +1d2 fire damage and can ignite combustible materials (such as a thatched roof). Allowing a spongestone to burn in a sling's cup for more than 1d3 rounds gives the <Link to="/eq-weapon/sling">sling</Link> the broken condition.</p>
-<p><strong>Cost</strong> 1 gp <strong>Weight</strong> 0.2 lbs.<br/><strong>Category</strong> Ammunition; <strong>Proficiency</strong> Ammunition</p>
-<p><strong>Note:</strong> Stats are an extrapolation from the original quantity of 10.</p>
+<p>These bullets are actually made from a porous stone or heavy wood that absorbs liquids and shatters on impact.</p>
+<p><em>Spongestones</em> are often used to deliver poison or burning oil. A flask of <Link to="/eq-misc/oil">oil</Link> completely saturates 10 <em>spongestones.</em> When ignited (a <strong className="hl">free action</strong> if fire is available), a burning, oil-soaked <em>spongestone</em> deals +1d2 fire damage and can ignite combustible materials (such as a thatched roof).</p>
+<p><Icons id="eq-weapon-halfling_spongestones-warning-icons" wrapper="prefixIcon" list={["warning"]} /> Allowing a <em>spongestone</em> to burn in a sling's cup for more than 1d3 rounds gives the <Link to="/eq-weapon/sling">sling</Link> the <Link to="/misc/broken">broken</Link> condition.</p>
+<Tabular format="weap1" a="1" b="0.2" i="ammo" j="X" />
+<blockquote>
+<p><strong className="hl">Note:</strong> Stats are an extrapolation from the original quantity of 10.</p>
+</blockquote>
 </>};
 const _incendiary_arrow = {title: "Incendiary arrow", topLink: ["Ammunition","main/equipment_weapons_ammunition"], jsx: <><h2 id="eq-weapon-incendiary_arrow-incendiary-arrow">Incendiary arrow</h2>
 <p><strong>Sources</strong> <Link to="/source/ranged_tactics_toolbox">Ranged Tactics Toolbox pg. 19</Link></p>
-<p>A metal cage behind this arrow's point contains flammable material. You take a -1 penalty on attack rolls when firing incendiary arrows. You can light up to six incendiary arrows as a full-round action (a standard action if you use a <Link to="/eq-misc/tindertwig">tindertwig</Link>) that provokes attacks of opportunity. Once lit, the arrow burns for 2 rounds. A lit incendiary arrow deals an additional 1 point of fire damage. On a critical hit, the target must succeed at a DC 15 Reflex save or catch fire. Incendiary bolts exist for crossbows.</p>
-<p><strong>Cost</strong> 0.5 gp <strong>Weight</strong> 0.15 lbs.<br/><strong>Category</strong> Ammunition; <strong>Proficiency</strong> Ammunition</p>
-<p><strong>Note:</strong> Stats are an extrapolation from the original quantity of 20.</p>
+<p>A metal cage behind this <Link to="/eq-weapon/arrows">arrow's</Link> point contains flammable material.</p>
+<p><Icons id="eq-weapon-incendiary_arrow-down-info-icons" wrapper="prefixIcon" list={["down","info"]} /> You take a -1 penalty on attack rolls when firing incendiary arrows. You can light up to six incendiary arrows as a <strong className="hl">full-round action</strong> (a <strong className="hl">standard action</strong> if you use a <Link to="/eq-misc/tindertwig">tindertwig</Link>) that provokes attacks of opportunity. Once lit, the arrow burns for 2 rounds.</p>
+<p><Icons id="eq-weapon-incendiary_arrow-boost-icons" wrapper="prefixIcon" list={["boost"]} /> A lit incendiary arrow deals an additional 1 point of fire damage. On a critical hit, the target must succeed at a DC 15 Reflex save or <Link to="/rule/catch_fire">catch fire</Link>.</p>
+<p>Incendiary <Link to="/eq-weapon/bolts">bolts</Link> exist for <Link to="/eq-weapon/crossbow">crossbows</Link>.</p>
+<Tabular format="weap1" a="0.5" b="0.15" i="ammo" j="X" />
+<blockquote>
+<p><strong className="hl">Note:</strong> Stats are an extrapolation from the original quantity of 20.</p>
+</blockquote>
 </>};
 const _kestros_dart = {title: "Kestros dart", topLink: ["Ammunition","main/equipment_weapons_ammunition"], jsx: <><h2 id="eq-weapon-kestros_dart-kestros-dart">Kestros dart</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 22</Link></p>
 <p>This dart, meant to be thrown using a <Link to="/eq-weapon/kestros">kestros</Link>, consists of a heavy metal point about 9 inches long attached to a shaft of wood about 12 inches long, fletched with feathers for stability. If used as a melee weapon, it is a light <Link to="/misc/improvised_weapon">improvised weapon</Link> (-4 penalty on attack rolls) and deals damage as a <Link to="/eq-weapon/dagger">dagger</Link> of its size (critical multiplier &times;2). Kestros darts come in a quiver that holds 10 darts.</p>
-<p><strong>Cost</strong> 0.5 gp <strong>Weight</strong> 0.5 lbs.<br/><strong>Category</strong> Ammunition; <strong>Proficiency</strong> Ammunition</p>
-<p><strong>Note:</strong> Stats are an extrapolation from the original quantity of 10.</p>
+<Tabular format="weap1" a="0.5" b="0.5" i="ammo" j="X" />
+<blockquote>
+<p><strong className="hl">Note:</strong> Stats are an extrapolation from the original quantity of 10.</p>
+</blockquote>
 </>};
 const _pronged_arrow = {title: "Pronged arrow", topLink: ["Ammunition","main/equipment_weapons_ammunition"], jsx: <><h2 id="eq-weapon-pronged_arrow-pronged-arrow">Pronged arrow</h2>
 <p><strong>Sources</strong> <Link to="/source/ranged_tactics_toolbox">Ranged Tactics Toolbox pg. 19</Link></p>
-<p>Rather than narrowing to a single point, a pronged arrow has a wide face with two points resembling a crescent or V-shape. Originally used for hunting game, a pronged arrow deals damage as if <Link to="/misc/one_size_category_smaller">one size category smaller</Link>, but you gain a +1 bonus on attack rolls against creatures or objects one or more size categories smaller than you.</p>
-<p><strong>Cost</strong> 0.1 gp <strong>Weight</strong> 0.15 lbs.<br/><strong>Category</strong> Ammunition; <strong>Proficiency</strong> Ammunition</p>
-<p><strong>Note:</strong> Stats are an extrapolation from the original quantity of 20.</p>
+<p>Rather than narrowing to a single point, a pronged <Link to="/eq-weapon/arrow">arrow</Link> has a wide face with two points resembling a crescent or V-shape.</p>
+<p><Icons id="eq-weapon-pronged_arrow-down-boost-icons" wrapper="prefixIcon" list={["down","boost"]} /> Originally used for hunting game, a pronged arrow deals damage as if <Link to="/misc/one_size_category_smaller">one size category smaller</Link>, but you gain a +1 bonus on attack rolls against creatures or objects one or more size categories smaller than you.</p>
+<Tabular format="weap1" a="0.1" b="0.15" i="ammo" j="X" />
+<blockquote>
+<p><strong className="hl">Note:</strong> Stats are an extrapolation from the original quantity of 20.</p>
+</blockquote>
 </>};
 const _repeating_crossbow_bolts = {title: "Repeating crossbow bolts", topLink: ["Ammunition","main/equipment_weapons_ammunition"], jsx: <><h2 id="eq-weapon-repeating_crossbow_bolts-repeating-crossbow-bolts">Repeating crossbow bolts</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 22</Link>, <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 143</Link></p>
 <p>Bolts for a <Link to="/eq-weapon/repeating_crossbow">repeating crossbow</Link> are designed to fit the bolt case of a repeating crossbow. They are slightly more expensive than regular crossbow bolts and sold in increments of 5 instead of 10 (to match the capacity of the bolt case).</p>
-<p><strong>Cost</strong> 0.2 gp <strong>Weight</strong> 0.2 lb.<br/><strong>Category</strong> Ammunition; <strong>Proficiency</strong> Ammunition</p>
-<p><strong>Note:</strong> Stats are an extrapolation from the original quantity of 5.</p>
+<Tabular format="weap1" a="0.2" b="0.2" i="ammo" j="X" />
+<blockquote>
+<p><strong className="hl">Note:</strong> Stats are an extrapolation from the original quantity of 5.</p>
+</blockquote>
 </>};
 const _sling_bullets = {title: "Sling bullets", topLink: ["Ammunition","main/equipment_weapons_ammunition"], jsx: <><h2 id="eq-weapon-sling_bullets-sling-bullets">Sling bullets</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 22</Link>, <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 142</Link></p>
 <p>Sling bullets are shaped metal balls, designed to be used by a <Link to="/eq-weapon/sling">sling</Link> or <Link to="/eq-weapon/halfling_sling_staff">halfling sling staff</Link>. Bullets come in a leather pouch that holds 10 bullets.</p>
-<p><strong>Cost</strong> 0.01 gp <strong>Weight</strong> 0.5 lbs.<br/><strong>Category</strong> Ammunition; <strong>Proficiency</strong> Ammunition</p>
-<p><strong>Note:</strong> Stats are an extrapolation from the original quantity of 10.</p>
+<Tabular format="weap1" a="0.01" b="0.5" i="ammo" j="X" />
+<blockquote>
+<p><strong className="hl">Note:</strong> Stats are an extrapolation from the original quantity of 10.</p>
+</blockquote>
 </>};
 const _smoke_arrow = {title: "Smoke arrow", topLink: ["Ammunition","main/equipment_weapons_ammunition"], jsx: <><h2 id="eq-weapon-smoke_arrow-smoke-arrow">Smoke arrow</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 22</Link>, <Link to="/source/advanced_players_guide">Advanced Player's Guide pg. 176</Link></p>
-<p>This arrow is actually a specially-shaped <Link to="/eq-misc/smokestick">smokestick</Link> that can be fired from a bow. It trails smoke as it flies, and creates a 5-foot cube of smoke where it strikes. It otherwise functions like a normal arrow in terms of damage, range, and so on.</p>
-<p><strong>Cost</strong> 10 gp <strong>Weight</strong> 0.15 lbs.<br/><strong>Category</strong> Ammunition; <strong>Proficiency</strong> Ammunition</p>
+<p><Icons id="eq-weapon-smoke_arrow-boom-icons" wrapper="prefixIcon" list={["boom"]} /> This arrow is actually a specially-shaped <Link to="/eq-misc/smokestick">smokestick</Link> that can be fired from a bow. It trails smoke as it flies, and creates a 5-foot cube of smoke where it strikes. It otherwise functions like a normal <Link to="/eq-weapon/arrow">arrow</Link> in terms of damage, range, and so on.</p>
+<Tabular format="weap1" a="10" b="0.15" i="ammo" j="X" />
 <blockquote>
 <p><strong className="hl">Note:</strong> Weight is based on 20 normal <Link to="/eq-weapon/arrows">arrows</Link> weighing three pounds. The source material lists the weight as &mdash;.</p>
 </blockquote>
 </>};
 const _thistle_arrow = {title: "Thistle arrow", topLink: ["Ammunition","main/equipment_weapons_ammunition"], jsx: <><h2 id="eq-weapon-thistle_arrow-thistle-arrow">Thistle arrow</h2>
 <p><strong>Sources</strong> <Link to="/source/adventurers_armory">Adventurer's Armory pg. 18</Link>, <Link to="/source/pathfinder_campaign_setting">Pathfinder Campaign Setting pg. 211</Link></p>
-<p>These arrows are a specialty of the Ekujae shamans, who craft the arrowheads out of the thistles of a toxic plant that most creatures find highly caustic. They deal normal damage but then become embedded in the wound and deal an additional 1 point of <Link to="/rule/bleed">bleed</Link> damage each round for 1d6 rounds from their irritating sap. Creatures immune to poison are immune to this extra damage. A creature can remove an embedded thistle arrow as a move action without provoking attacks of opportunity, but doing so deals an additional 1d3 points of damage as the thorny barbs are pulled free. A DC 12 Heal check (made as a standard action) can pull free a thistle arrow's head without dealing any additional damage.</p>
-<p><strong>Cost</strong> 1 gp <strong>Weight</strong> 0.15 lbs.<br/><strong>Category</strong> Ammunition; <strong>Proficiency</strong> Ammunition</p>
+<p>These <Link to="/eq-weapon/arrows">arrows</Link> are a specialty of the Ekujae shamans, who craft the arrowheads out of the thistles of a toxic plant that most creatures find highly caustic.</p>
+<p><Icons id="eq-weapon-thistle_arrow-boost-icons" wrapper="prefixIcon" list={["boost"]} /> They deal normal damage but then become embedded in the wound and deal an additional 1 point of <Link to="/rule/bleed">bleed</Link> damage each round for 1d6 rounds from their irritating sap. Creatures immune to poison are immune to this extra damage.</p>
+<p><Icons id="eq-weapon-thistle_arrow-warning-icons" wrapper="prefixIcon" list={["warning"]} /> A creature can remove an embedded thistle arrow as a <strong className="hl">move action</strong> without provoking attacks of opportunity, but doing so deals an additional 1d3 points of damage as the thorny barbs are pulled free. A DC 12 <Link to="/skill/heal">Heal</Link> check (made as a <strong className="hl">standard action</strong>) can pull free a thistle arrow's head without dealing any additional damage.</p>
+<Tabular format="weap1" a="1" b="0.15" i="ammo" j="X" />
 <blockquote>
 <p><strong className="hl">Note:</strong> Weight is based on 20 normal <Link to="/eq-weapon/arrows">arrows</Link> weighing three pounds. The source material never listed a weight.</p>
 </blockquote>
@@ -947,13 +999,15 @@ const _thistle_arrow = {title: "Thistle arrow", topLink: ["Ammunition","main/equ
 const _throwing_arrow = {title: "Throwing arrow", topLink: ["Ammunition","main/equipment_weapons_ammunition"], jsx: <><h2 id="eq-weapon-throwing_arrow-throwing-arrow">Throwing arrow</h2>
 <p><strong>Sources</strong> <Link to="/source/ranged_tactics_toolbox">Ranged Tactics Toolbox pg. 19</Link></p>
 <p>Too long to use in a bow, the throwing arrow has no nock at the tail. Instead, it has a notch ahead of the fletching where a <Link to="/eq-weapon/throwing_arrow_cord">throwing arrow cord</Link> can be attached. If thrown without the use of a cord, treat a throwing arrow as a <Link to="/eq-weapon/dart">dart</Link>.</p>
-<p><strong>Cost</strong> 0.5 gp <strong>Weight</strong> 0.5 lb.<br/><strong>Category</strong> Ammunition; <strong>Proficiency</strong> Ammunition</p>
+<Tabular format="weap1" a="0.5" b="0.5" i="ammo" j="X" />
 </>};
 const _whistling_arrows = {title: "Whistling arrows", topLink: ["Ammunition","main/equipment_weapons_ammunition"], jsx: <><h2 id="eq-weapon-whistling_arrows-whistling-arrows">Whistling arrows</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 22</Link>, <Link to="/source/adventurers_armory">Adventurer's Armory pg. 2</Link>, <Link to="/source/ultimate_combat">Ultimate Combat pg. 130</Link></p>
-<p>These arrows come with specially designed grooves and fletching that cause them to emit a loud keening sound audible within 500 feet of their flight path. They are sold in quantities of 20.</p>
-<p><strong>Cost</strong> 0.1 gp <strong>Weight</strong> 0.15 lbs.<br/><strong>Category</strong> Ammunition; <strong>Proficiency</strong> Ammunition</p>
-<p><strong>Note:</strong> Stats are an extrapolation from the original quantity of 20.</p>
+<p>These <Link to="/eq-weapon/arrows">arrows</Link> come with specially designed grooves and fletching that cause them to emit a loud keening sound audible within 500 feet of their flight path. They are sold in quantities of 20.</p>
+<Tabular format="weap1" a="0.1" b="0.15" i="ammo" j="X" />
+<blockquote>
+<p><strong className="hl">Note:</strong> Stats are an extrapolation from the original quantity of 20.</p>
+</blockquote>
 </>};
 const _battle_aspergillum = {title: "Battle aspergillum", topLink: ["Light Weapons","main/equipment_weapons_light"], jsx: <><h2 id="eq-weapon-battle_aspergillum-battle-aspergillum">Battle aspergillum</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 17</Link>, <Link to="/source/advanced_players_guide">Advanced Player's Guide pg. 176</Link></p>
