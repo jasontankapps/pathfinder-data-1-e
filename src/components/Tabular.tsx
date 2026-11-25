@@ -39,7 +39,7 @@ type InfoProps = "a" | "b" | "c" | "d" | "e" | "f" | "g" | "h" | "i" | "j" | "k"
 
 interface FormatProps {
 	required: InfoProps[]
-	possiblyRequired?: InfoProps[]
+	possiblyRequired?: InfoProps[][]
 	formatter: (x: BaseProps) => ReactNode
 	postFormatter?: (x: BaseProps) => ReactNode
 	className?: string
@@ -257,14 +257,18 @@ const FormatObject: { [x: string]: FormatProps } = {
 	weap1: {
 		required: ["a", "b"],
 		className: "startAlign",
-		possiblyRequired: ["d","e","f","g","i","j"],
+		possiblyRequired: [
+			["d","e","f","g","i","j"],
+			["i","j"]
+		],
 		formatter: props => {
 			const {id, a, b, c, d, k} = props;
 			// a = cost in gp
 			// b = weight in lbs
 			// c = 'x' indicates the above should be rendered verbatim,
 			//     'M' indicates this is a modification to a base price
-			// d..k - if present, we add in weap2
+			// d..g,i..j - if present, we add in weap2 fully
+			// i..j - if present (but not d..g), we add in weap2.postFromatter only
 			// k = if present (but not d..j), indicates a category
 			const verbatim = c === "x";
 			const price = Number(a) || 0;
@@ -361,13 +365,15 @@ const FormatObject: { [x: string]: FormatProps } = {
 				<ul>
 					{ h ? <li><b>Special Qualities:</b> {h}</li> : <></> }
 					<li><b>Weapon Category:</b> {category(String(i)) || i}</li>
-					<li><b>Proficiency Type:</b> {
-						j === "E" ? "Exotic" : (
-							j === "M" ? "Martial" : (
-								j === "S" ? "Simple" : j
+					{ j === "X" ? <></> : 
+						<li><b>Proficiency Type:</b> {
+							j === "E" ? "Exotic" : (
+								j === "M" ? "Martial" : (
+									j === "S" ? "Simple" : j
+								)
 							)
-						)
-					}</li>
+						}</li>
+					}
 					{k ? (
 						<li><b><Link to="/ability/weapon_groups">Fighter Weapon Groups</Link></b> {k}</li>
 					) : (<></>)}
@@ -835,9 +841,11 @@ const Tabular: FC<TabularProps> = (props) => {
 	if(
 		!required.every(x => others[x] !== undefined)
 		|| (
-			possiblyRequired && !(
-				possiblyRequired.every(x => others[x] !== undefined)
-				|| possiblyRequired.every(x => others[x] === undefined)
+			possiblyRequired && possiblyRequired.some(
+				pr => !(
+					pr.every(x => others[x] !== undefined)
+					|| pr.every(x => others[x] === undefined)
+				)
 			)
 		)
 	) {
