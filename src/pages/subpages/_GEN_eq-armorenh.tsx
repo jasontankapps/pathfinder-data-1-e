@@ -44,7 +44,7 @@ const _armor_spikes = {title: "Armor spikes", jsx: <><h2 id="eq-armorenh-armor_s
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 9</Link>, <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 151</Link>  </p>
 <Tabular format="armor" a="50" b="10" c="M" />
 <p><Icons id="eq-armorenh-armor_spikes-boost-icons" wrapper="prefixIcon" list={["boost"]} /> You can have spikes added to your armor, which allow you to deal extra piercing damage on a successful <Link to="/misc/grapple">grapple</Link> attack.</p>
-<Tabular format="weap2" d="s1d4m1d6" e="&times;2" f="x" g="P" i="light" j="M" k="Close" />
+<Tabular format="weap2" d="s1d4~m1d6" e="x2" f="x" g="P" i="light" j="M" k="Close" />
 <p><Icons id="eq-armorenh-armor_spikes-warning-icons" wrapper="prefixIcon" list={["warning"]} /> The spikes count as a martial weapon. If you are not proficient with them, you take a -4 penalty on grapple checks when you try to use them.</p>
 <p><Icons id="eq-armorenh-armor_spikes-melee-icons" wrapper="prefixIcon" list={["melee"]} /> You can also make a regular melee attack (or off-hand attack) with the spikes, and they count as a light weapon in this case. (You can't also make an attack with armor spikes if you have already made an attack with another off-hand weapon, and vice versa.)</p>
 <p><Icons id="eq-armorenh-armor_spikes-info-icons" wrapper="prefixIcon" list={["info"]} /> An enhancement bonus to a suit of armor does not improve the spikes' effectiveness, but the spikes can be made into magic weapons in their own right.</p>
@@ -67,9 +67,9 @@ const _shield_spikes = {title: "Shield spikes", jsx: <><h2 id="eq-armorenh-shiel
 <p>An enhancement bonus on a spiked shield does not improve the effectiveness of a shield bash made with it, but a spiked shield can be made into a magic weapon in its own right.</p>
 <p><Icons id="eq-armorenh-shield_spikes-def-icons" wrapper="prefixIcon" list={["def"]} /> Shield spikes cannot be disarmed.</p>
 <p><strong className="hl">Light shield</strong>  </p>
-<Tabular format="weap2" id="light" d="s1d3m1d4" e="&times;2" f="x" g="P" i="Close" j="M" />
+<Tabular format="weap2" id="light" d="s1d3~m1d4" e="x2" f="x" g="P" i="Close" j="M" />
 <p><strong className="hl">Heavy shield</strong>  </p>
-<Tabular format="weap2" id="heavy" d="s1d4m1d6" e="&times;2" f="x" g="P" i="Close" j="M" />
+<Tabular format="weap2" id="heavy" d="s1d4~m1d6" e="x2" f="x" g="P" i="Close" j="M" />
 </>};
 const _burnished = {title: "Burnished", jsx: <><h2 id="eq-armorenh-burnished-burnished">Burnished</h2>
 <p><strong>Sources</strong> <Link to="/source/adventurers_armory_2">Adventurer's Armory 2 pg. 7</Link>  </p>
@@ -125,7 +125,7 @@ const _throwing_shield = {title: "Throwing shield", jsx: <><h2 id="eq-armorenh-t
 <p><strong>Sources</strong> <Link to="/source/adventurers_armory">Adventurer's Armory pg. 19</Link>  </p>
 <Tabular format="armor" a="50" b="&mdash;" c="M" />
 <p><Icons id="eq-armorenh-throwing_shield-ranged-icons" wrapper="prefixIcon" list={["ranged"]} /> This shield is designed for throwing and comes with specially designed straps allowing you to unclasp and throw it as a <strong className="hl">free action</strong>. Tower shields cannot be throwing shields. Neither a shield's enhancement bonus to AC nor its <Link to="/eq-armorenh/shield_spikes">shield spikes</Link> apply to your attack or damage rolls.</p>
-<Tabular format="weap2" d="s1d4m1d6" e="&times;2" f="30" g="B" h={<><Link to="/misc/performance">performance</Link>, <Link to="/misc/trip">trip</Link></>} i="Thrown" j="E" />
+<Tabular format="weap2" d="s1d4~m1d6" e="x2" f="30" g="B" h={<><Link to="/misc/performance">performance</Link>, <Link to="/misc/trip">trip</Link></>} i="Thrown" j="E" />
 </>};
 const _vitalguard = {title: "Vitalguard", jsx: <><h2 id="eq-armorenh-vitalguard-vitalguard">Vitalguard</h2>
 <p><strong>Sources</strong> <Link to="/source/adventurers_armory_2">Adventurer's Armory 2 pg. 7</Link>, <Link to="/source/faction_guide">Faction Guide pg. 55</Link>  </p>

@@ -267,9 +267,9 @@ const FormatObject: { [x: string]: FormatProps } = {
 			// b = weight in lbs
 			// c = 'x' indicates the above should be rendered verbatim,
 			//     'M' indicates this is a modification to a base price
-			// d..g,i..j - if present, we add in weap2 fully
-			// i..j - if present (but not d..g), we add in weap2.postFromatter only
-			// k = if present (but not d..j), indicates a category
+			// d..g,i..j,m..n - if present, we add in weap2 fully
+			// i..j - if present (but not d..g,m..n), we add in weap2.postFromatter only
+			// k = if present (but not d..j,m..n), indicates a category
 			const verbatim = c === "x";
 			const price = Number(a) || 0;
 			const weight = Number(b);
@@ -279,7 +279,7 @@ const FormatObject: { [x: string]: FormatProps } = {
 					<tr>
 						<th id={id + "-cost"} className="hl">Price</th>
 						<td headers={id + "-cost"}>{
-							verbatim ? a : translateGp(price, mod)
+							verbatim ? a : price === 0 ? <>&mdash;</> : translateGp(price, mod)
 						}</td>
 						<th id={id + "-weight"} className="hl">Weight</th>
 						<td headers={id + "-weight"}>{
@@ -318,7 +318,7 @@ const FormatObject: { [x: string]: FormatProps } = {
 		required: ["d","e","f","g","i","j"],
 		className: "startAlign",
 		formatter: props => {
-			const {id, a, d, e, f, g} = props;
+			const {id, a, d, e, f, g, m, n} = props;
 			// a = if present and true, this is already in a table
 			//
 			// d = damage (s[dmg]m[dmg] format or plain text)
@@ -326,17 +326,22 @@ const FormatObject: { [x: string]: FormatProps } = {
 			// f = range (x = none)
 			// g = damage type
 			let damage = d;
+			let critical = e;
 			const range = Number(f);
-			const m = String(d).match(/^s(.+?)m(.+?)$/);
-			if(m) {
-				damage = m[1] + " (small), " + m[2] + " (medium)";
+			let mm = String(d).match(/^s(.+?)~m(.+?)$/);
+			if(mm) {
+				damage = mm[1] + " (small), " + mm[2] + " (medium)";
+			}
+			mm = String(e).match(/^(?:r(1[89]))?x([2-9])$/);
+			if(mm) {
+				critical = <>{mm[1] ? `${mm[1]}-20/` : ""}&times;{mm[2]}</>;
 			}
 			const core = (<>
 				<tr>
 					<th id={id + "-dmg"} className="hl">Damage</th>
 					<td headers={id + "-dmg"}>{damage}</td>
 					<th id={id + "-crit"} className="hl">Critical</th>
-					<td headers={id + "-crit"}>{e}</td>
+					<td headers={id + "-crit"}>{critical}</td>
 				</tr>
 				<tr>
 					<th id={id + "-range"} className={f === "x" ? undefined : "hl"}>Range</th>
@@ -348,6 +353,14 @@ const FormatObject: { [x: string]: FormatProps } = {
 					<th id={id + "-type"}>Dmg Type</th>
 					<td headers={id + "-type"}>{g}</td>
 				</tr>
+				{(m ||n) ? <>
+					<tr>
+						<th id={id + "-misf"}>Misfire</th>
+						<td headers={id + "-misf"}>{m}</td>
+						<th id={id + "-cap"}>Capacity</th>
+						<td headers={id + "-cap"}>{n}</td>
+					</tr>
+				</> : ""}
 			</>);
 			return a ? core : (
 				<table><tbody>

@@ -955,7 +955,7 @@
 			"",
 			"::msg-lightShield",
 			"",
-			"::tabular{format=weap2 d=s1d2m1d3 e=\"&times&2\" f=x g=B i=light j=M k=\"Close; Tribal\"}"
+			"::tabular{format=weap2 d=s1d2~m1d3 e=x2 f=x g=B i=light j=M k=\"Close; Tribal\"}"
 		],
 		"disambiguation": true
 	},
@@ -980,7 +980,7 @@
 			"",
 			"::msg-lightShield",
 			"",
-			"::tabular{format=weap2 d=s1d4m1d6 e=\"&times&2\" f=x g=S h=\"see text\" i=one j=M k=\"Heavy Blades; Close\"}"
+			"::tabular{format=weap2 d=s1d4~m1d6 e=x2 f=x g=S h=\"see text\" i=one j=M k=\"Heavy Blades; Close\"}"
 		]
 	},
 	"light_steel_shield": {
@@ -998,7 +998,7 @@
 			"",
 			"::msg-lightShield",
 			"",
-			"::tabular{format=weap2 d=s1d2m1d3 e=\"&times&2\" f=x g=B i=light j=M k=\"Close; Tribal\"}"
+			"::tabular{format=weap2 d=s1d2~m1d3 e=x2 f=x g=B i=light j=M k=\"Close; Tribal\"}"
 		]
 	},
 	"shield_light_steel": { "redirect": "light_steel_shield" },
@@ -1019,7 +1019,7 @@
 			"",
 			"::msg-lightShield",
 			"",
-			"::tabular{format=weap2 d=s1d2m1d3 e=\"&times&2\" f=x g=B i=light j=M k=\"Close; Tribal\"}"
+			"::tabular{format=weap2 d=s1d2~m1d3 e=x2 f=x g=B i=light j=M k=\"Close; Tribal\"}"
 		]
 	},
 	"shield_light_steel_quickdraw": { "redirect": "light_steel_quickdraw_shield" },
@@ -1038,7 +1038,7 @@
 			"",
 			"::msg-lightShield",
 			"",
-			"::tabular{format=weap2 d=s1d2m1d3 e=\"&times&2\" f=x g=B i=light j=M k=\"Close; Tribal\"}"
+			"::tabular{format=weap2 d=s1d2~m1d3 e=x2 f=x g=B i=light j=M k=\"Close; Tribal\"}"
 		]
 	},
 	"shield_light_wooden": { "redirect": "light_wooden_shield" },
@@ -1059,7 +1059,7 @@
 			"",
 			"::msg-lightShield",
 			"",
-			"::tabular{format=weap2 d=s1d2m1d3 e=\"&times&2\" f=x g=B i=light j=M k=\"Close; Tribal\"}"
+			"::tabular{format=weap2 d=s1d2~m1d3 e=x2 f=x g=B i=light j=M k=\"Close; Tribal\"}"
 		]
 	},
 	"shield_light_wooden_quickdraw": { "redirect": "light_wooden_quickdraw_shield" },
@@ -1088,7 +1088,7 @@
 			"::clear",
 			"::msg-lightShield",
 			"",
-			"::tabular{format=weap2 d=s1d3m1d4 e=\"&times&2\" f=x g=P h=\"‹misc/performance›\" i=light j=E k=\"Light Blades; Close\"}"
+			"::tabular{format=weap2 d=s1d3~m1d4 e=x2 f=x g=P h=\"‹misc/performance›\" i=light j=E k=\"Light Blades; Close\"}"
 		]
 	},
 	"leather_madu": { "redirect": "madu_shield_leather" },
@@ -1117,7 +1117,7 @@
 			"::clear",
 			"::msg-lightShield",
 			"",
-			"::tabular{format=weap2 d=s1d3m1d4 e=\"&times&2\" f=x g=P h=\"‹misc/performance›\" i=light j=E k=\"Light Blades; Close\"}"
+			"::tabular{format=weap2 d=s1d3~m1d4 e=x2 f=x g=P h=\"‹misc/performance›\" i=light j=E k=\"Light Blades; Close\"}"
 		]
 	},
 	"steel_madu": { "redirect": "madu_shield_steel" },
@@ -1137,7 +1137,7 @@
 			"",
 			"::msg-lightShield",
 			"",
-			"::tabular{format=weap2 d=s1d4m1d6 e=\"&times&2\" f=x g=\"P or S\" h=\"see text\" i=light j=E k=Close}"
+			"::tabular{format=weap2 d=s1d4~m1d6 e=x2 f=x g=\"P or S\" h=\"see text\" i=light j=E k=Close}"
 		]
 	},
 	"dwarven_war_shield": { "redirect": "war_shield_dwarven" },
@@ -1155,7 +1155,7 @@
 			"",
 			"::msg-heavyShield",
 			"",
-			"::tabular{format=weap2 d=s1d3m1d4 e=\"&times&2\" f=x g=B i=one j=M k=\"Close; Tribal\"}"
+			"::tabular{format=weap2 d=s1d3~m1d4 e=x2 f=x g=B i=one j=M k=\"Close; Tribal\"}"
 		],
 		"disambiguation": true
 	},
@@ -1175,7 +1175,7 @@
 			"",
 			"::msg-heavyShield",
 			"",
-			"::tabular{format=weap2 d=s1d3m1d4 e=\"&times&2\" f=x g=B i=one j=M k=\"Close; Tribal\"}"
+			"::tabular{format=weap2 d=s1d3~m1d4 e=x2 f=x g=B i=one j=M k=\"Close; Tribal\"}"
 		]
 	},
 	"shield_heavy_steel": { "redirect": "heavy_steel_shield" },
@@ -1194,7 +1194,7 @@
 			"",
 			"::msg-heavyShield",
 			"",
-			"::tabular{format=weap2 d=s1d3m1d4 e=\"&times&2\" f=x g=B i=one j=M k=\"Close; Tribal\"}"
+			"::tabular{format=weap2 d=s1d3~m1d4 e=x2 f=x g=B i=one j=M k=\"Close; Tribal\"}"
 		]
 	},
 	"shield_heavy_wooden": { "redirect": "heavy_wooden_shield" },
@@ -1213,7 +1213,7 @@
 			"",
 			"::msg-heavyShield",
 			"",
-			"::tabular{format=weap2 d=s1d3m1d4 e=\"&times&2\" f=x g=B h=\"‹misc/disarm›\" i=one j=E k=Close}"
+			"::tabular{format=weap2 d=s1d3~m1d4 e=x2 f=x g=B h=\"‹misc/disarm›\" i=one j=E k=Close}"
 		]
 	},
 	"steel_snarlshield": { "redirect": "snarlshield_steel" },
@@ -1232,7 +1232,7 @@
 			"",
 			"::msg-heavyShield",
 			"",
-			"::tabular{format=weap2 d=s1d3m1d4 e=\"&times&2\" f=x g=B h=\"‹misc/disarm›\" i=one j=E k=Close}"
+			"::tabular{format=weap2 d=s1d3~m1d4 e=x2 f=x g=B h=\"‹misc/disarm›\" i=one j=E k=Close}"
 		]
 	},
 	"wooden_snarlshield": { "redirect": "snarlshield_wooden" },
