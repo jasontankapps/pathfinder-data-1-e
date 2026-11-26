@@ -44,7 +44,7 @@
 			"| 19th | +19/+14/+9/+4 | +11 | +11 | +6 | Flawless mind | 2d8 | +4 | +60 ft. |",
 			"| 20th | +20/+15/+10/+5 | +12 | +12 | +6 | Ki power, perfect self | 2d10 | +5 | +60 ft. |",
 			"",
-			"::prof{weaps=\"club~dagger~light crossbow~heavy crossbow~handaxe~javelin~kama~nunchaku~quarterstaff~sai~short sword~shortspear~shuriken~siangham~sling~spear\" wExtra=\"Any weapon with the ‹misc/monk› special weapon quality.\" extra=\"Wearing armor or using a shield can stifle some of your abilities.\"}",
+			"::prof{weaps=\"brass knuckles~cestus~club~dagger~light crossbow~heavy crossbow~handaxe~javelin~kama~nunchaku~quarterstaff~sai~short sword~shortspear~shuriken~siangham~sling~spear~temple sword\" wExtra=\"Any weapon with the ‹misc/monk› special weapon quality.\" extra=\"Wearing armor or using a shield can stifle some of your abilities.\"}",
 			"",
 			"::ab[AC Bonus (Ex)]{jl=strip icon=def l=1 passive=\"When unarmored and unencumbered, you add your Wisdom bonus (if any) to your AC and CMD.\" imp4=\"You gain an additional bonus to AC and CMD equal to ‹misc/one-fourth› of your monk level.\" special=\"These bonuses to AC apply even against touch attacks or when you're ‹rule/flat-footed›. You lose these bonuses when immobilized or helpless, when you wear any armor, when you carry a shield, or when you carry a medium or heavy load.\"}",
 			"",
