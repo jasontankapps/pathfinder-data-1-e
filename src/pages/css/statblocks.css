@@ -22,7 +22,7 @@
 	background: var(--sb-background);
 }
 
-.hasStatblock div.reduce p strong {
+.hasStatblock div.reduce p :is(b,strong) {
 	color: var(--sb-header);
 }
 

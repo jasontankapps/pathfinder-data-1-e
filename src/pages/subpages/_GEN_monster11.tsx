@@ -449,7 +449,7 @@ const _ghole = {title: "Ghole", jsx: <><p><em>The hulking form has a long, vultu
 <Header sub>Special Abilities</Header>
 <p><strong>Bolster Disease (Su)</strong> A creature bitten by a ghole must succeed at a DC 23 Fortitude save or any disease it currently suffers from is bolstered. A disease bolstered in this way has its frequency doubled (so a disease that normally has a frequency of 1/day has its effects applied once every 12 hours) and can be cured only by magic. The bubonic plague carried by a ghole automatically gains these advantages. The save DC is Constitution-based.</p>
 <p><strong>Disease (Ex)</strong></p>
-<AffInfo type="Bite or claw-injury" save="Fort 23" freq="2/day" eff={<>1d4 <Link to="/rule/con_damage">Con damage</Link>, 1 Cha damage and target is <Link to="/misc/fatigued">fatigued</Link></>} cure="-" icon="d">Bubonic Plague</AffInfo>
+<AffInfo type="Bite or claw-injury" save="Fort 23" freq="2/day" eff={<>1d4 <Link to="/rule/con_damage">Con damage</Link>, 1 Cha damage and target is <Link to="/misc/fatigued">fatigued</Link></>} cure="&mdash;" icon="d">Bubonic Plague</AffInfo>
 <p><strong>Powerful Bite (Ex)</strong> A ghole's bite attack always applies 1-1/2 times its Strength modifier to damage rolls and threatens a critical hit on a roll of 19-20. When a ghole bites an object, its bite treats the object as having a hardness of 5 less than the object's actual hardness rating.</p>
 <p><strong>Savage the Sick (Ex)</strong> Gholes are vicious when attacking a diseased foe. Against diseased targets, a ghole gains a +2 morale bonus on attack rolls and automatically adds its sneak attack damage to any damage it deals.</p>
 <p><strong>Scent Sickness (Ex)</strong> A ghole has the scent ability against diseased creatures</p>

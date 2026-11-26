@@ -2028,7 +2028,7 @@
 			"",
 			"::mspell{sla cl=10 atWill=\"deeper darkness~fear|DC 18~greater teleport|self only~telekinesis|DC 19\" day=\"3~shadow conjuration|DC 18~shadow evocation|DC 19~~1~magic jar|DC 19~&S level 3; 1 shadow demon 50%\"}",
 			"",
-			"::mstats{str=\"-\" dex=18 con=17 int=14 wis=14 cha=19 bab=+7 cmb=+11 cmd=25 feats=\"Blind-Fight~Combat Reflexes~Improved Initiative~Lightning Reflexes\" skills=\"acro|14~bluff|14~fly|22~k|l|12~per|20~sm|12~stl|14\" racial=\"+8 Perception\" lang=\"A~C~~‹umr/telepathy› 100 ft.\"}",
+			"::mstats{str=0 dex=18 con=17 int=14 wis=14 cha=19 bab=+7 cmb=+11 cmd=25 feats=\"Blind-Fight~Combat Reflexes~Improved Initiative~Lightning Reflexes\" skills=\"acro|14~bluff|14~fly|22~k|l|12~per|20~sm|12~stl|14\" racial=\"+8 Perception\" lang=\"A~C~~‹umr/telepathy› 100 ft.\"}",
 			"",
 			"::meco{env=\"any (‹rule/the Abyss›)\" org=\"solitary, pair, or haunt (3-8)\" treasure=S}",
 			"",

@@ -206,7 +206,7 @@ const _familiar_blue_ringed_octopus = {title: "Blue-Ringed Octopus (Familiar)", 
 <p><strong>Family:</strong> <Link to="/family/familiar">Familiar</Link></p>
 </>};
 const _familiar_butterfly_moth = {title: "Butterfly/Moth (Familiar)", jsx: <><p><em>This graceful winged insect is a riot of color that glides through the air like a flittering dream.</em></p>
-<Header full><span>Butterfly/Moth</span><span>CR -</span></Header>
+<Header full><span>Butterfly/Moth</span><span>CR &mdash;</span></Header>
 <div className="reduce">
 <Info source={[["Ultimate Wilderness",192]]} xp="0" n diminutive vermin init={1} dv={60} scent pcp={1} />
 <Defense ac={[15,15,14]} mod="+1 Dex, +4 size" hp={[1,"1d8-3"]} fort="-1" ref="+1" will="+1" immune="mind-affecting effects" />
@@ -609,7 +609,7 @@ const _familiar_lemming = {title: "Lemming (Familiar)", jsx: <><p><em>This small
 <p><strong>Family:</strong> <Link to="/family/familiar">Familiar</Link></p>
 </>};
 const _familiar_leopard_slug = {title: "Leopard Slug (Familiar)", jsx: <><p><em>This dark-yellow, hand-length slug is covered in a pattern of black spots and stripes.</em></p>
-<Header full><span>Leopard Slug</span><span>CR -</span></Header>
+<Header full><span>Leopard Slug</span><span>CR &mdash;</span></Header>
 <div className="reduce">
 <Info source={[["Ultimate Wilderness",200],["Familiar Folio",30]]} xp="0" n diminutive vermin init={-3} dv={60} pcp={-2} />
 <Defense ac={[11,11,11]} mod="-3 Dex, +4 size" hp={[5,"1d8+1"]} fort="+3" ref="-3" will="-2" immune="mind-affecting effects" />

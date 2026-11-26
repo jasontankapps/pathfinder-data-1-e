@@ -97,10 +97,10 @@ div.featsTreePage section div.leaf div.coparents {
 	font-size: 0.85rem;
 	line-height: 0.85rem;
 }
-div.featsTreePage section div.leaf div.coparents strong {
+div.featsTreePage section div.leaf div.coparents :is(b,strong) {
 	color: var(--ion-color-secondary);
 }
-div.featsTreePage section > div.leaf:first-child > div.coparents > strong {
+div.featsTreePage section > div.leaf:first-child > div.coparents > :is(b,strong) {
 	color: var(--ion-color-tertiary);
 	padding-inline-start: 0.5rem;
 }

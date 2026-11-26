@@ -42,7 +42,7 @@ const _alchemists_fire = {title: "Alchemist's Fire", jsx: <><h2 id="eq-reagent-a
 </>};
 const _antiplague = {title: "Antiplague", jsx: <><h2 id="eq-reagent-antiplague-antiplague">Antiplague</h2>
 <p><strong>Sources</strong> <Link to="/source/adventurers_armory">Adventurer's Armory pg. 26</Link></p>
-<Tabular format="alchstats" a="50 gp" b="-" c="misc" d="Antiplague" />
+<Tabular format="alchstats" a="50 gp" b="x" c="misc" d="Antiplague" />
 <p>Certain healing spells have greater effects when used with this substance.</p>
 <h3><Link to="/rule/alchemical_power_components">Power Component</Link></h3><Tabular format="powercomp" a="1 (50 gp)" b={<><em>heroes' feast, remove disease</em></>} c="Uses are listed below." />
 <p><strong className="hl"><Link to="/spell/heroes_feast">Heroes' Feast</Link></strong> <strong className="hl">(M):</strong> For each vial of antiplague used as a power component, one creature eating the feast gains the benefits of antiplague for 12 hours. Antiplague's normally foul taste does not change the taste of the feast.</p>
@@ -50,55 +50,55 @@ const _antiplague = {title: "Antiplague", jsx: <><h2 id="eq-reagent-antiplague-a
 </>};
 const _antitoxin = {title: "Antitoxin", jsx: <><h2 id="eq-reagent-antitoxin-antitoxin">Antitoxin</h2>
 <p><strong>Sources</strong> <Link to="/source/adventurers_armory">Adventurer's Armory pg. 26</Link></p>
-<Tabular format="alchstats" a="50 gp" b="-" c="misc" d="Antitoxin" />
+<Tabular format="alchstats" a="50 gp" b="x" c="misc" d="Antitoxin" />
 <p>Like antiplague, this substance can augment certain healing spells.</p>
 <h3><Link to="/rule/alchemical_power_components">Power Component</Link></h3><Tabular format="powercomp" a="1 (50 gp)" b={<><em>neutralize poison (M)</em></>} c="Add +2 on your caster level check to neutralize poison on a target creature. Antitoxin has no effect when you cast the spell on an object." />
 </>};
 const _black_powder = {title: "Black Powder", jsx: <><h2 id="eq-reagent-black_powder-black-powder">Black Powder</h2>
 <p><strong>Sources</strong> <Link to="/source/alchemy_manual">Alchemy Manual pg. 0</Link></p>
-<Tabular format="alchstats" a="10 gp" b="-" c="weapon" d="Black Powder" />
+<Tabular format="alchstats" a="10 gp" b="x" c="weapon" d="Black Powder" />
 <p>Black powder is a volatile explosive and is the primary component in fireworks and other explosives.</p>
 <h3><Link to="/rule/alchemical_power_components">Power Component</Link></h3><Tabular format="powercomp" a="1 (10 gp)" b="evocation school (M)" c="+1 energy damage" />
 </>};
 const _bladeguard = {title: "Bladeguard", jsx: <><h2 id="eq-reagent-bladeguard-bladeguard">Bladeguard</h2>
 <p><strong>Sources</strong> <Link to="/source/adventurers_armory">Adventurer's Armory pg. 27</Link></p>
-<Tabular format="alchstats" a="40 gp" b="-" c="misc" d="Bladeguard" />
+<Tabular format="alchstats" a="40 gp" b="x" c="misc" d="Bladeguard" />
 <p>Weapons and armor aren't the only things bladeguard protects.</p>
 <h3><Link to="/rule/alchemical_power_components">Power Component</Link></h3><Tabular format="powercomp" a="1 (40 gp)" b={<><em>wall of iron (M)</em></>} c="For each pot of bladeguard used as a power component, you may designate one 10-foot square of iron wall that has acid resistance 10 and immunity to rusting attacks." />
 </>};
 const _brimstone = {title: "Brimstone", jsx: <><h2 id="eq-reagent-brimstone-brimstone">Brimstone</h2>
 <p><strong>Sources</strong> <Link to="/source/alchemy_manual">Alchemy Manual pg. 0</Link></p>
-<Tabular format="alchstats" a="5 sp" b="-" />
+<Tabular format="alchstats" a="5 sp" b="x" />
 <p>Brimstone, also called sulfur, has a distinctive odor and caustic properties.</p>
 <h3><Link to="/rule/alchemical_power_components">Power Component</Link></h3><Tabular format="powercomp" a="2 (1 gp)" b="acid descriptor (M)" c="+1 acid damage" />
 </>};
 const _cold_iron = {title: "Cold Iron", jsx: <><h2 id="eq-reagent-cold_iron-cold-iron">Cold Iron</h2>
 <p><strong>Sources</strong> <Link to="/source/alchemy_manual">Alchemy Manual pg. 0</Link></p>
-<Tabular format="alchstats" a="1 gp" b="-" c="material" d="Cold Iron" />
+<Tabular format="alchstats" a="1 gp" b="x" c="material" d="Cold Iron" />
 <p>Cold iron is often used to produce alloyed metals, catalysts, and items that interfere with magic.</p>
 <h3><Link to="/rule/alchemical_power_components">Power Component</Link></h3><Tabular format="powercomp" a="5 (5 gp)" b="abjuration school (M)" c="+1 caster level for the purpose of caster level and dispel checks" />
 </>};
 const _cooperation_crystals = {title: "Cooperation Crystals", jsx: <><h2 id="eq-reagent-cooperation_crystals-cooperation-crystals">Cooperation Crystals</h2>
 <p><strong>Sources</strong> <Link to="/source/plane_hoppers_handbook">Plane-Hopper's Handbook pg. 10</Link></p>
-<Tabular format="alchstats" a="300 gp" b="-" />
+<Tabular format="alchstats" a="300 gp" b="x" />
 <p>This vibrant blue-green crystal is a distillation of the spirit of cooperation characteristic of the chaotic good plane of <Link to="/rule/elysium">Elysium</Link>.</p>
 <h3><Link to="/rule/alchemical_power_components">Power Component</Link></h3><Tabular format="powercomp" a="1 (300 gp)" b="harmless spells (M or F)" c="When you use a cooperation crystal as a material component or focus for a harmless spell, treat your caster level as 1 higher for the purpose of determining the spell's duration and effect. This increase doesn't stack with other effects that raise the caster level of a spell. (You cannot use this as a material component and a focus for the same spell.)" />
 </>};
 const _cytillesh_spores = {title: "Cytillesh Spores", jsx: <><h2 id="eq-reagent-cytillesh_spores-cytillesh-spores">Cytillesh Spores</h2>
 <p><strong>Sources</strong> <Link to="/source/alchemy_manual">Alchemy Manual pg. 11</Link></p>
-<Tabular format="alchstats" a="5 gp" b="-" c="poison" d="Cytillesh Extract" />
+<Tabular format="alchstats" a="5 gp" b="x" c="poison" d="Cytillesh Extract" />
 <p>The spore of the cytillesh fungus is a versatile reagent, and is often combined with other poisonous elements to create deliriums, hallucinogens, and psychotics.</p>
 <h3><Link to="/rule/alchemical_power_components">Power Component</Link></h3><Tabular format="powercomp" a="1 (5 gp)" b="charm or compulsion subschool (M)" c="+1 caster level for the purpose of duration" />
 </>};
 const _darkwood = {title: "Darkwood", jsx: <><h2 id="eq-reagent-darkwood-darkwood">Darkwood</h2>
 <p><strong>Sources</strong> <Link to="/source/alchemy_manual">Alchemy Manual pg. 0</Link></p>
-<Tabular format="alchstats" a="2 gp" b="-" c="material" d="Darkwood" />
+<Tabular format="alchstats" a="2 gp" b="x" c="material" d="Darkwood" />
 <p>The bark of the darkwood tree is useful in numerous alchemical applications, especially those that require a light but strong foundation.</p>
 <h3><Link to="/rule/alchemical_power_components">Power Component</Link></h3><Tabular format="powercomp" a="5 (10 gp)" b="creation subschool (M)" c="+1 caster level for the purpose of the effect" />
 </>};
 const _dew_of_lunary = {title: "Dew of Lunary", jsx: <><h2 id="eq-reagent-dew_of_lunary-dew-of-lunary">Dew of Lunary</h2>
 <p><strong>Sources</strong> <Link to="/source/alchemy_manual">Alchemy Manual pg. 0</Link></p>
-<Tabular format="alchstats" a="4 gp" b="-" />
+<Tabular format="alchstats" a="4 gp" b="x" />
 <p>Dew of lunary is derived from a potent herb. It is commonly used in the creation of medicinal, protective, and divinatory items.</p>
 <h3><Link to="/rule/alchemical_power_components">Power Component</Link></h3><Tabular format="powercomp" a="5 (20 gp)" b="divination school (M)" c="+1 caster level for the purpose of effect" />
 </>};
@@ -116,13 +116,13 @@ const _dragons_gut = {title: "Dragon's Gut", jsx: <><h2 id="eq-reagent-dragons_g
 </>};
 const _fire_fragment = {title: "Fire Fragment", jsx: <><h2 id="eq-reagent-fire_fragment-fire-fragment">Fire Fragment</h2>
 <p><strong>Sources</strong> <Link to="/source/plane_hoppers_handbook">Plane-Hopper's Handbook pg. 10</Link></p>
-<Tabular format="alchstats" a="350 gp" b="-" />
+<Tabular format="alchstats" a="350 gp" b="x" />
 <p>This small, reddish crystal shard flickers with a brilliant, dancing flame - a representation of the <Link to="/rule/plane_of_fire">Plane of Fire</Link>.</p>
 <h3><Link to="/rule/alchemical_power_components">Power Component</Link></h3><Tabular format="powercomp" a="1 (350 gp)" b="fire spells (M or F)" c={<>When you use a fire fragment as a material component or focus for a spell that deals fire damage, that spell is affected as per the <Link to="/feat/flaring_spell">Flaring Spell</Link> metamagic feat (though this does not increase the spell slot that the spell uses), and you treat your caster level as 1 higher for the purpose of determining the spell's damage. (You cannot use this as a material component and a focus for the same spell.)</>} />
 </>};
 const _flash_powder = {title: "Flash Powder", jsx: <><h2 id="eq-reagent-flash_powder-flash-powder">Flash Powder</h2>
 <p><strong>Sources</strong> <Link to="/source/adventurers_armory">Adventurer's Armory pg. 27</Link></p>
-<Tabular format="alchstats" a="50 gp" b="-" c="weapon" d="Flash Powder" />
+<Tabular format="alchstats" a="50 gp" b="x" c="weapon" d="Flash Powder" />
 <p>Useful as a distraction, flash powder makes light-burst spells more dangerous.</p>
 <h3><Link to="/rule/alchemical_power_components">Power Component</Link></h3><Tabular format="powercomp" a="1 (50 gp)" b={<><em>flare, pyrotechnics</em></>} c="Uses are listed below." />
 <p><strong className="hl"><Link to="/spell/flare">Flare</Link></strong> <strong className="hl">(M):</strong> Increase the saving throw DC of the spell by 2.</p>
@@ -130,19 +130,19 @@ const _flash_powder = {title: "Flash Powder", jsx: <><h2 id="eq-reagent-flash_po
 </>};
 const _ginger_extract = {title: "Ginger Extract", jsx: <><h2 id="eq-reagent-ginger_extract-ginger-extract">Ginger Extract</h2>
 <p><strong>Sources</strong> <Link to="/source/alchemy_manual">Alchemy Manual pg. 25</Link></p>
-<Tabular format="alchstats" a="5 sp" b="-" />
+<Tabular format="alchstats" a="5 sp" b="x" />
 <p>In addition to serving as a spice and as an alchemical reagent, ginger extract has a wide variety of uses in herbal remedies that treat nausea and pain.</p>
 <h3><Link to="/rule/alchemical_power_components">Power Component</Link></h3><Tabular format="powercomp" a="10 (5 gp)" b="transmutation school (M)" c="+1 caster level for the purpose of overcoming spell resistance" />
 </>};
 const _gold = {title: "Gold", jsx: <><h2 id="eq-reagent-gold-gold">Gold</h2>
 <p><strong>Sources</strong> <Link to="/source/alchemy_manual">Alchemy Manual pg. 0</Link></p>
-<Tabular format="alchstats" a="5 gp" b="-" c="material" d="Gold" />
+<Tabular format="alchstats" a="5 gp" b="x" c="material" d="Gold" />
 <p>In its purest form, gold is a dense, non-reactive metal. Its alchemical products are useful in stains and in treating swelling, pain, and infections.</p>
 <h3><Link to="/rule/alchemical_power_components">Power Component</Link></h3><Tabular format="powercomp" a="1 (5 gp)" b="healing subschool (M)" c="+1 hit point healed" />
 </>};
 const _heavenly_quartz = {title: "Heavenly Quartz", jsx: <><h2 id="eq-reagent-heavenly_quartz-heavenly-quartz">Heavenly Quartz</h2>
 <p><strong>Sources</strong> <Link to="/source/plane_hoppers_handbook">Plane-Hopper's Handbook pg. 11</Link></p>
-<Tabular format="alchstats" a="250 gp" b="-" />
+<Tabular format="alchstats" a="250 gp" b="x" />
 <p>This fragment appears to be made of glass and gold and emits gleaming light, reminiscent of the mountain of <Link to="/rule/heaven">Heaven</Link>.</p>
 <h3><Link to="/rule/alchemical_power_components">Power Component</Link></h3><Tabular format="powercomp" a="1 (250 gp)" b="good or lawful spells with a Will saving throw (M or F)" c="When you use a Heavenly quartz as a material component or focus for a spell with the good or lawful descriptor that requires affected creatures to attempt a Will saving throw, increase the DC of that saving throw by 1; if the spell has both the good and lawful descriptors, treat the spell's caster level as if it were 1 higher for the purpose of caster level checks and dispel checks. (You cannot use this as a material component and a focus for the same spell.)" />
 </>};
@@ -169,19 +169,19 @@ const _liquid_ice = {title: "Liquid Ice", jsx: <><h2 id="eq-reagent-liquid_ice-l
 </>};
 const _magnesium = {title: "Magnesium", jsx: <><h2 id="eq-reagent-magnesium-magnesium">Magnesium</h2>
 <p><strong>Sources</strong> <Link to="/source/alchemy_manual">Alchemy Manual pg. 0</Link></p>
-<Tabular format="alchstats" a="1 gp" b="-" />
+<Tabular format="alchstats" a="1 gp" b="x" />
 <p>Magnesium is an extremely light and reactive metal that burns brightly when exposed to air. It is important for all living things, especially plants.</p>
 <h3><Link to="/rule/alchemical_power_components">Power Component</Link></h3><Tabular format="powercomp" a="2 (2 gp)" b="transmutation school (M)" c="+1 caster level for the purpose of duration" />
 </>};
 const _mugwort_extract = {title: "Mugwort Extract", jsx: <><h2 id="eq-reagent-mugwort_extract-mugwort-extract">Mugwort Extract</h2>
 <p><strong>Sources</strong> <Link to="/source/alchemy_manual">Alchemy Manual pg. 25</Link></p>
-<Tabular format="alchstats" a="2 gp" b="-" />
+<Tabular format="alchstats" a="2 gp" b="x" />
 <p>Many varieties of mugwort exist; some are used in acupuncture, while others are key ingredients in herbal remedies that ward off fatigue, cold, or even supernatural dangers.</p>
 <h3><Link to="/rule/alchemical_power_components">Power Component</Link></h3><Tabular format="powercomp" a="2 (4 gp)" b="abjuration school (M)" c="+1 caster level for the purpose of range" />
 </>};
 const _myrrh = {title: "Myrrh", jsx: <><h2 id="eq-reagent-myrrh-myrrh">Myrrh</h2>
 <p><strong>Sources</strong> <Link to="/source/alchemy_manual">Alchemy Manual pg. 0</Link></p>
-<Tabular format="alchstats" a="5 sp" b="-" />
+<Tabular format="alchstats" a="5 sp" b="x" />
 <p>Myrrh is an aromatic gum used as a base for alchemical remedies and as a sticky bonding agent.</p>
 <h3><Link to="/rule/alchemical_power_components">Power Component</Link></h3><Tabular format="powercomp" a="4 (2 gp)" b="abjuration school (M)" c="+1 caster level for the purpose of caster level checks and dispel checks" />
 </>};
@@ -199,43 +199,43 @@ const _odor_stalk = {title: "Odor Stalk", jsx: <><h2 id="eq-reagent-odor_stalk-o
 </>};
 const _pesh = {title: "Pesh", jsx: <><h2 id="eq-reagent-pesh-pesh">Pesh</h2>
 <p><strong>Sources</strong> <Link to="/source/alchemy_manual">Alchemy Manual pg. 19</Link></p>
-<Tabular format="alchstats" a="15 gp" b="-" e={<><Link to="/eq-misc/pesh">Pesh</Link> (Black Market item), <Link to="/drug/pesh">Pesh</Link> (drug)</>} />
+<Tabular format="alchstats" a="15 gp" b="x" e={<><Link to="/eq-misc/pesh">Pesh</Link> (Black Market item), <Link to="/drug/pesh">Pesh</Link> (drug)</>} />
 <p>When used as an alchemical reagent, refined pesh is often sublimated along with other reagents to create new forms of the famous drug.</p>
 <h3><Link to="/rule/alchemical_power_components">Power Component</Link></h3><Tabular format="powercomp" a="1 (15 gp)" b="enchantment school (M)" c="+1 caster level for purpose of duration" />
 </>};
 const _phosphorus = {title: "Phosphorus", jsx: <><h2 id="eq-reagent-phosphorus-phosphorus">Phosphorus</h2>
 <p><strong>Sources</strong> <Link to="/source/alchemy_manual">Alchemy Manual pg. 33</Link></p>
-<Tabular format="alchstats" a="2 sp" b="-" />
+<Tabular format="alchstats" a="2 sp" b="x" />
 <p>Phosphorus is a highly reactive mineral that glows faintly in air. Vital to all life, it is most commonly used by alchemists to create fertilizers, poisons, soaps, and tindertwigs. It is obtained by processing uric acid or bone ash.</p>
 <h3><Link to="/rule/alchemical_power_components">Power Component</Link></h3><Tabular format="powercomp" a="10 (2 gp)" b="light descriptor or teleportation subschool (M)" c="+1 caster level for the purpose of range" />
 </>};
 const _quicksilver = {title: "Quicksilver", jsx: <><h2 id="eq-reagent-quicksilver-quicksilver">Quicksilver</h2>
 <p><strong>Sources</strong> <Link to="/source/alchemy_manual">Alchemy Manual pg. 33</Link></p>
-<Tabular format="alchstats" a="1 gp" b="-" />
+<Tabular format="alchstats" a="1 gp" b="x" />
 <p>Quicksilver is a liquid metal with dangerous mental effects on those who handle it. It is most often distilled from crystalline amalgams such as cinnabar and stored in iron flasks.</p>
 <h3><Link to="/rule/alchemical_power_components">Power Component</Link></h3><Tabular format="powercomp" a="3 (3 gp)" b="mind-affecting descriptor (M)" c="+1 caster level for the purpose of duration" />
 </>};
 const _realgar = {title: "Realgar", jsx: <><h2 id="eq-reagent-realgar-realgar">Realgar</h2>
 <p><strong>Sources</strong> <Link to="/source/alchemy_manual">Alchemy Manual pg. 33</Link></p>
-<Tabular format="alchstats" a="3 gp" b="-" />
+<Tabular format="alchstats" a="3 gp" b="x" />
 <p>Realgar, also called ruby of arsenic, is a red crystal useful in creating poisons and medicines. It is commonly purified into <Link to="/eq-poison/arsenic">arsenic</Link>, a crystalline metal known as the "king of poisons" for its popularity among nobles seeking to poison their rivals.</p>
 <h3><Link to="/rule/alchemical_power_components">Power Component</Link></h3><Tabular format="powercomp" a="1 (3 gp)" b="poison descriptor (M)" c="+2 DC to identify or neutralize the poison with spells or skills" />
 </>};
 const _salt = {title: "Salt", jsx: <><h2 id="eq-reagent-salt-salt">Salt</h2>
 <p><strong>Sources</strong> <Link to="/source/alchemy_manual">Alchemy Manual pg. 33</Link></p>
-<Tabular format="alchstats" a="5 sp" b="-" />
+<Tabular format="alchstats" a="5 sp" b="x" />
 <p>Salt is a vital mineral commodity. It is most commonly used as a desiccant and as a catalyst.</p>
 <h3><Link to="/rule/alchemical_power_components">Power Component</Link></h3><Tabular format="powercomp" a="20 (10 gp)" b="necromancy school (M)" c="+1 caster level for the purpose of effect" />
 </>};
 const _saltpeter = {title: "Saltpeter", jsx: <><h2 id="eq-reagent-saltpeter-saltpeter">Saltpeter</h2>
 <p><strong>Sources</strong> <Link to="/source/alchemy_manual">Alchemy Manual pg. 33</Link></p>
-<Tabular format="alchstats" a="3 gp" b="-" />
+<Tabular format="alchstats" a="3 gp" b="x" />
 <p>Saltpeter is used to create fertilizers, propellants, fireworks, and preservatives.</p>
 <h3><Link to="/rule/alchemical_power_components">Power Component</Link></h3><Tabular format="powercomp" a="1 (1 gp)" b="fire descriptor (M)" c="+1 fire damage" />
 </>};
 const _silver = {title: "Silver", jsx: <><h2 id="eq-reagent-silver-silver">Silver</h2>
 <p><strong>Sources</strong> <Link to="/source/alchemy_manual">Alchemy Manual pg. 33</Link></p>
-<Tabular format="alchstats" a="1 gp" b="-" c="material" d="Silver" />
+<Tabular format="alchstats" a="1 gp" b="x" c="material" d="Silver" />
 <p>Silver is a lustrous precious metal used in mirrors, disinfectants, electrics, and illusion-creating magic items.</p>
 <h3><Link to="/rule/alchemical_power_components">Power Component</Link></h3><Tabular format="powercomp" a="10 (10 gp)" b="illusion school (M)" c="+1 to DC of Will saves to disbelieve" />
 </>};
@@ -250,7 +250,7 @@ const _smokestick = {title: "Smokestick", jsx: <><h2 id="eq-reagent-smokestick-s
 </>};
 const _spirit_of_wine = {title: "Spirit of Wine", jsx: <><h2 id="eq-reagent-spirit_of_wine-spirit-of-wine">Spirit of Wine</h2>
 <p><strong>Sources</strong> <Link to="/source/alchemy_manual">Alchemy Manual pg. 33</Link></p>
-<Tabular format="alchstats" a="5 sp" b="-" />
+<Tabular format="alchstats" a="5 sp" b="x" />
 <p>Spirit of wine is purified, alchemically active alcohol commonly used as a fuel or solvent in alchemical items, specialized inks, and perfumes. It is too pure to drink alone, but can be used as a reagent to form tinctures and alchemical drinks.</p>
 <h3><Link to="/rule/alchemical_power_components">Power Component</Link></h3><Tabular format="powercomp" a="6 (3 gp)" b="calling and summoning subschools (M)" c="+1 caster level for the purpose of duration" />
 </>};
@@ -273,19 +273,19 @@ const _thunderstone = {title: "Thunderstone", jsx: <><h2 id="eq-reagent-thunders
 </>};
 const _urea = {title: "Urea", jsx: <><h2 id="eq-reagent-urea-urea">Urea</h2>
 <p><strong>Sources</strong> <Link to="/source/alchemy_manual">Alchemy Manual pg. 33</Link></p>
-<Tabular format="alchstats" a="5 sp" b="-" />
+<Tabular format="alchstats" a="5 sp" b="x" />
 <p>Urea is a highly versatile reagent most commonly used in salves and as a stabilizer for particularly volatile alchemical reactions.</p>
 <h3><Link to="/rule/alchemical_power_components">Power Component</Link></h3><Tabular format="powercomp" a="4 (2 gp)" b="cold descriptor (M)" c="+1 caster level for the purpose of the effect" />
 </>};
 const _void_shard = {title: "Void Shard", jsx: <><h2 id="eq-reagent-void_shard-void-shard">Void Shard</h2>
 <p><strong>Sources</strong> <Link to="/source/plane_hoppers_handbook">Plane-Hopper's Handbook pg. 11</Link></p>
-<Tabular format="alchstats" a="250 gp" b="-" />
+<Tabular format="alchstats" a="250 gp" b="x" />
 <p>This shard seems to absorb the light around it, demonstrating the annihilatory power of the <Link to="/rule/negative_energy_plane">Negative Energy Plane</Link>.</p>
 <h3><Link to="/rule/alchemical_power_components">Power Component</Link></h3><Tabular format="powercomp" a="1 (250 gp)" b="necromancy school (M or F)" c="When you use a void crystal as a material component or focus for a spell of the necromancy school, the target takes a -2 penalty on saves against the spell. (You cannot use this as a material component and a focus for the same spell.)" />
 </>};
 const _whimsy_star = {title: "Whimsy Star", jsx: <><h2 id="eq-reagent-whimsy_star-whimsy-star">Whimsy Star</h2>
 <p><strong>Sources</strong> <Link to="/source/plane_hoppers_handbook">Plane-Hopper's Handbook pg. 11</Link></p>
-<Tabular format="alchstats" a="200 gp" b="-" />
+<Tabular format="alchstats" a="200 gp" b="x" />
 <p>The shimmering, multicolored whimsy star captures the mutability of <Link to="/rule/the_first_world">the First World</Link>.</p>
 <h3><Link to="/rule/alchemical_power_components">Power Component</Link></h3><Tabular format="powercomp" a="1 (200 gp)" b="any (M or F)" c="When you use a whimsy star as a material component or focus for a spell, roll 1d6 and consult the table below. You can't use magic or other abilities to affect the result of this roll. If a result cannot apply to your spell, then the spell resolves normally. Regardless of the result, the spell slot required to cast the spell doesn't change. (You cannot use this as a material component and a focus for the same spell.)" />
 <ScrollContainer id="eq-reagent-whimsy_star--table-0"><table>

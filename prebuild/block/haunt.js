@@ -25,7 +25,7 @@ const makeHauntBlock = ({marked2, flags, convertEncodedInfo, id, maybeClear, tex
 	if(!hp) {
 		logError("---> missing haunt hp");
 	}
-	hp && output.push(` hp="${hp}"`);
+	hp && output.push(typeof hp === "number" ? ` hp={${hp}}` : ` hp={<>${marked2.parseInline(convertEncodedInfo(hp))}</>}`);
 	weak && output.push(` weak={<>${marked2.parseInline(convertEncodedInfo(weak))}</>}`);
 	//
 	// CREATE TRIGGER AND RESET

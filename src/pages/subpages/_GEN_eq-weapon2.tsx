@@ -212,7 +212,7 @@ const _poisoned_sand_tube = {title: "Poisoned sand tube", topLink: ["Ranged Weap
 <p><Icons id="eq-weapon-poisoned_sand_tube-cone-icons" wrapper="prefixIcon" list={["cone"]} /> When loaded with 3 doses of these types of poison, you can blow into the tube to disperse the poisoned sand into your enemies' faces in a 15-foot cone. Each creature in the cone is affected as if afflicted with 1 dose of the poison.</p>
 <p><Icons id="eq-weapon-poisoned_sand_tube-lower-icons" wrapper="prefixIcon" list={["lower"]} /> Even when loaded with unpoisoned sand, the tube lets loose a powerful irritant, and an opponent struck must succeed at a DC 12 Fortitude saving throw or be <Link to="/misc/dazzled">dazzled</Link> for 1 round.</p>
 <p>Once expended, the tube must be repacked before it can be used again. Repacking a tube requires a <strong className="hl">full-round action</strong>, or a <strong className="hl">standard action</strong> if you have the <Link to="/feat/rapid_reload">Rapid Reload</Link> feat.</p>
-<Tabular format="weap1" a="1" b="1" d="sspecial~mspecial" e="&mdash;" f="x" g="-" h="see text" i="ranged" j="M" k="Thrown" />
+<Tabular format="weap1" a="1" b="1" d="sspecial~mspecial" e="&mdash;" f="x" g="&mdash;" h="see text" i="ranged" j="M" k="Thrown" />
 </>};
 const _reflex_bow = {title: "Reflex bow", topLink: ["Ranged Weapons","main/equipment_weapons_ranged"], jsx: <><h2 id="eq-weapon-reflex_bow-reflex-bow">Reflex bow</h2>
 <p><strong>Sources</strong> <Link to="/source/merchants_manifest">Merchant's Manifest pg. 11</Link></p>
@@ -914,7 +914,7 @@ const _double_crossbow = {title: "Double crossbow", topLink: ["Ranged Weapons","
 const _flask_thrower = {title: "Flask thrower", topLink: ["Ranged Weapons","main/equipment_weapons_ranged"], jsx: <><h2 id="eq-weapon-flask_thrower-flask-thrower">Flask thrower</h2>
 <p><strong>Sources</strong> <Link to="/source/adventurers_armory_2">Adventurer's Armory 2 pg. 8</Link>, <Link to="/source/gnomes_of_golarion">Gnomes of Golarion pg. 22</Link></p>
 <p>This staff has a cradle at the end, designed to hold alchemical weapons such as <Link to="/eq-weapon/acid">acid</Link>. A flask thrower significantly extends the range of thrown substances that deal splash damage, such as acid, <Link to="/eq-weapon/alchemists_fire">alchemist's fire</Link>, or <Link to="/eq-weapon/holy_water">holy water</Link>, as well as that of tools such as <Link to="/eq-weapon/tanglefoot_bag">tanglefoot bags</Link>, <Link to="/eq-weapon/thunderstone">thunderstones</Link>, or <Link to="/eq-misc/caltrops">caltrops</Link>.</p>
-<Tabular format="weap1" a="25" b="4" d="s-~m-" e="&mdash;" f="20" g="-" h="see text" i="ranged" j="E" k="Thrown" />
+<Tabular format="weap1" a="25" b="4" d="s-~m-" e="&mdash;" f="20" g="&mdash;" h="see text" i="ranged" j="E" k="Thrown" />
 </>};
 const _grappling_hook = {title: "Grappling hook", topLink: ["Ranged Weapons","main/equipment_weapons_ranged"], jsx: <><h2 id="eq-weapon-grappling_hook-grappling-hook">Grappling hook</h2>
 <p><strong>Sources</strong> <Link to="/source/pirates_of_the_inner_sea">Pirates of the Inner Sea pg. 19</Link>, <Link to="/source/skull_and_shackles_players_guide">Skull and Shackles Player's Guide pg. 6</Link></p>
@@ -978,7 +978,7 @@ const _hornbow_orc = {title: "Hornbow, orc", topLink: ["Ranged Weapons","main/eq
 const _horse_bow = {title: "Horse bow", topLink: ["Ranged Weapons","main/equipment_weapons_ranged"], jsx: <><h2 id="eq-weapon-horse_bow-horse-bow">Horse bow</h2>
 <p><strong>Sources</strong> <Link to="/source/merchants_manifest">Merchant's Manifest pg. 24</Link></p>
 <p>The horse bow functions like a <Link to="/eq-weapon/composite_longbow">composite longbow</Link>, but it is designed to be used on horseback. A rider using a horse bow can make ranged attacks while mounted; furthermore, she does not take a penalty to attack rolls when her mount is taking a double move action, and she takes only a -4 penalty on attack rolls when her mount is running. Each point of Strength bonus granted by the horse bow adds 150 gp to its cost.</p>
-<Tabular format="weap1" a="150 gp (+0), 300 gp (+1), 450 gp (+2), and so on" b="3 lbs." d="s1d6~m1d8" e="x3" f="110" g="P" i="ranged" j="E" />
+<Tabular format="weap1" a="150 gp (+0), 300 gp (+1), 450 gp (+2), and so on" b="3 lbs." c="x" d="s1d6~m1d8" e="x3" f="110" g="P" i="ranged" j="E" />
 </>};
 const _kestros = {title: "Kestros", topLink: ["Ranged Weapons","main/equipment_weapons_ranged"], jsx: <><h2 id="eq-weapon-kestros-kestros">Kestros</h2>
 <p><strong>Sources</strong> <Link to="/source/ranged_tactics_toolbox">Ranged Tactics Toolbox pg. 33</Link>, <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 21</Link></p>
@@ -989,12 +989,12 @@ const _kestros = {title: "Kestros", topLink: ["Ranged Weapons","main/equipment_w
 const _lasso = {title: "Lasso", topLink: ["Ranged Weapons","main/equipment_weapons_ranged"], jsx: <><h2 id="eq-weapon-lasso-lasso">Lasso</h2>
 <p><strong>Sources</strong> <Link to="/source/ranged_tactics_toolbox">Ranged Tactics Toolbox pg. 33</Link>, <Link to="/source/adventurers_armory">Adventurer's Armory pg. 3</Link>, <Link to="/source/advanced_players_guide">Advanced Player's Guide pg. 178</Link>, <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 21</Link></p>
 <p>This thrown weapon is a length of <Link to="/eq-misc/rope">rope</Link> with a simple open knot on one end that allows you entangle a foe like you would using a <Link to="/eq-weapon/net">net</Link>. The DC to cast a spell while <Link to="/rule/entangled">entangled</Link> with a lasso is 10 + the spell level being cast. An entangled creature can slip free with a successful DC 15 <Link to="/skill/escape_artist">Escape Artist</Link> check as a <strong className="hl">full-round action</strong>. The lasso has 2 hit points and AC 10, and requires a DC 23 Strength check to break it. On a successful hit, the lasso tightens; to use it again you must spend a <strong className="hl">standard action</strong> sliding the knot to enlarge the loop.</p>
-<Tabular format="weap1" a="0.1" b="5" d="s-~m-" e="&mdash;" f="x" g="-" h="see text" i="ranged" j="E" k="Thrown" />
+<Tabular format="weap1" a="0.1" b="5" d="s-~m-" e="&mdash;" f="x" g="&mdash;" h="see text" i="ranged" j="E" k="Thrown" />
 </>};
 const _launching_crossbow = {title: "Launching crossbow", topLink: ["Ranged Weapons","main/equipment_weapons_ranged"], jsx: <><h2 id="eq-weapon-launching_crossbow-launching-crossbow">Launching crossbow</h2>
 <p><strong>Sources</strong> <Link to="/source/adventurers_armory">Adventurer's Armory pg. 4</Link></p>
 <p>This stubby-looking <Link to="/eq-weapon/crossbow">crossbow</Link> has a cup-like attachment rather than a groove for a bolt. It is designed to launch <Link to="/rule/splash_weapon">splash weapons</Link>. Loading a launching crossbow is a <strong className="hl">full-round action</strong>.</p>
-<Tabular format="weap1" a="75" b="8" d="s-~m-" e="&mdash;" f="30" g="-" i="ranged" j="E" k="Crossbows" />
+<Tabular format="weap1" a="75" b="8" d="s-~m-" e="&mdash;" f="30" g="&mdash;" i="ranged" j="E" k="Crossbows" />
 </>};
 const _light_crank_crossbow = {title: "Light crank crossbow", topLink: ["Ranged Weapons","main/equipment_weapons_ranged"], jsx: <><h2 id="eq-weapon-light_crank_crossbow-light-crank-crossbow">Light crank crossbow</h2>
 <p><strong>Sources</strong> <Link to="/source/ranged_tactics_toolbox">Ranged Tactics Toolbox pg. 18</Link></p>
@@ -1013,7 +1013,7 @@ const _net = {title: "Net", topLink: ["Ranged Weapons","main/equipment_weapons_r
 <p><Icons id="eq-weapon-net-lower-icons" wrapper="prefixIcon" list={["lower"]} /> If you control the trailing rope by succeeding at an opposed Strength check while holding it, the entangled creature can move only within the limits that the rope allows. If the entangled creature attempts to cast a spell, it must succeed at a <Link to="/rule/concentration">concentration</Link> check with a DC of 15 + the spell's level or be unable to cast the spell.</p>
 <p>An entangled creature can escape with a successful DC 20 <Link to="/skill/escape_artist">Escape Artist</Link> check (a <strong className="hl">full-round action</strong>). The net has 5 hit points and can be burst with a successful DC 25 Strength check (also a <strong className="hl">full-round action</strong>). A net is useful only against creatures within one size category of you.</p>
 <p><Icons id="eq-weapon-net-warning-icons" wrapper="prefixIcon" list={["warning"]} /> A net must be folded to be thrown effectively. The first time you throw your net in a fight, you make a normal ranged touch attack roll. After the net is unfolded, you take a -4 penalty on attack rolls with it. It takes 2 rounds for a proficient user to fold a net and twice that long for a nonproficient one to do so.</p>
-<Tabular format="weap1" a="20" b="6" d="s-~m-" e="&mdash;" f="10" g="-" h="see text" i="ranged" j="E" k="Thrown" />
+<Tabular format="weap1" a="20" b="6" d="s-~m-" e="&mdash;" f="10" g="&mdash;" h="see text" i="ranged" j="E" k="Thrown" />
 </>};
 const _pelletbow_dwarven_heavy = {title: "Pelletbow, dwarven heavy", topLink: ["Ranged Weapons","main/equipment_weapons_ranged"], jsx: <><h2 id="eq-weapon-pelletbow_dwarven_heavy-pelletbow-dwarven-heavy">Pelletbow, dwarven heavy</h2>
 <p><strong>Sources</strong> <Link to="/source/heroes_from_the_fringe">Heroes from the Fringe pg. 8</Link></p>
@@ -1161,7 +1161,7 @@ const _double_barreled_pistol = {title: "Double-barreled pistol", topLink: ["Fir
 const _dragon_pistol = {title: "Dragon pistol", topLink: ["Firearms","main/equipment_firearms"], jsx: <><h2 id="eq-weapon-dragon_pistol-dragon-pistol">Dragon pistol</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 43</Link>, <Link to="/source/ultimate_combat">Ultimate Combat pg. 139</Link></p>
 <p>Like a miniature <Link to="/eq-weapon/blunderbuss">blunderbuss</Link>, the dragon pistol fires pellets or a bullet from its flared barrel.</p>
-<p><Icons id="eq-weapon-dragon_pistol-cone-icons" wrapper="prefixIcon" list={["cone"]} /> The dragon pistol fires in a 15-foot cone when firing pellets, and has a 10-foot range increment when firing a bullet. A dragon pistol uses either a <Link to="/eq-weapon/bullet">bullet</Link> or group of <Link to="/eq-weapon/pellets">pellets</Link> and 1 dose of <Link to="/eq-weapon/black_powder">black powder</Link>, or a single <Link to="/eq-weapon/alchemical_cartridge">alchemical cartridge</Link> (with either bullets or pellets) as ammunition.</p>
+<p>The dragon pistol fires in a 15-foot cone when firing pellets, and has a 10-foot range increment when firing a bullet. A dragon pistol uses either a <Link to="/eq-weapon/bullet">bullet</Link> or group of <Link to="/eq-weapon/pellets">pellets</Link> and 1 dose of <Link to="/eq-weapon/black_powder">black powder</Link>, or a single <Link to="/eq-weapon/alchemical_cartridge">alchemical cartridge</Link> (with either bullets or pellets) as ammunition.</p>
 <p>This is an early firearm.</p>
 <Tabular format="weap1" a="1000" b="3" d="s1d4~m1d6" e="x4" f="special" g="B and P" h={<><Link to="/misc/scatter">scatter</Link></>} m="1-2 (5 ft.)" n="1" i="one" j="E" />
 </>};
@@ -1394,13 +1394,19 @@ const _black_powder_dose = {title: "Black Powder (dose)", topLink: ["Firearms Am
 const _bullet_adamantine = {title: "Bullet, adamantine", topLink: ["Firearms Ammunition","main/equipment_firearms"], jsx: <><h2 id="eq-weapon-bullet_adamantine-bullet-adamantine">Bullet, adamantine</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_combat">Ultimate Combat pg. 141</Link></p>
 <p>These expensive <Link to="/eq-weapon/bullet">bullets</Link> are crafted from <Link to="/eq-material/adamantine">adamantine</Link>. They ignore hardness 20 or less when attacking objects.</p>
-<Tabular format="weap1" a="61" b="x" i="ammo" j="E" />
+<Tabular format="weap1" a="61" b="0.0166" i="ammo" j="E" />
+<blockquote>
+<p><strong className="hl">Note:</strong> Weight is approximate, based on 30 regular bullets weighing half a pound; 15 bullets therefore weight 0.25 lb. (&frac14; lb.), and 3 bullets weigh 0.05 lb. (&#185;&#8260;&#8322;&#8320; lb.)</p>
+</blockquote>
 </>};
 const _bullet_screaming = {title: "Bullet, screaming", topLink: ["Firearms Ammunition","main/equipment_firearms"], jsx: <><h2 id="eq-weapon-bullet_screaming-bullet-screaming">Bullet, screaming</h2>
 <p><strong>Sources</strong> <Link to="/source/heroes_of_golarion">Heroes of Golarion pg. 18</Link></p>
 <p>This ammunition makes a piercing scream when fired.</p>
 <p><Icons id="eq-weapon-bullet_screaming-boost-lower-icons" wrapper="prefixIcon" list={["boost","lower"]} /> If fired as part of an <Link to="/skill/intimidate">Intimidate</Link> check, it imparts a +5 bonus on the check. If used with the <Link to="/deed/startling_shot">startling shot</Link> deed, the target is <Link to="/rule/flat_footed">flat-footed</Link> for an additional round.</p>
-<Tabular format="weap1" a="20" b="x" i="ammo" j="E" />
+<Tabular format="weap1" a="20" b="0.0166" i="ammo" j="E" />
+<blockquote>
+<p><strong className="hl">Note:</strong> Weight is approximate, based on 30 regular bullets weighing half a pound; 15 bullets therefore weight 0.25 lb. (&frac14; lb.), and 3 bullets weigh 0.05 lb. (&#185;&#8260;&#8322;&#8320; lb.)</p>
+</blockquote>
 </>};
 const _dragoon_cartridge = {title: "Dragoon Cartridge", topLink: ["Firearms Ammunition","main/equipment_firearms"], jsx: <><h2 id="eq-weapon-dragoon_cartridge-dragoon-cartridge">Dragoon Cartridge</h2>
 <p><strong>Sources</strong> <Link to="/source/villain_codex">Villain Codex pg. 57</Link></p>
@@ -1415,7 +1421,7 @@ const _firearm_bullet = {title: "Firearm bullet", topLink: ["Firearms Ammunition
 <p>The ammunition of most one-handed and two-handed firearms, firearm bullets typically take the form of small balls of lead or some other metal. Thirty bullets weigh half a pound.</p>
 <Tabular format="weap1" a="1" b="0.0166" i="ammo" j="E" />
 <blockquote>
-<p><strong className="hl">Note:</strong> Weight is approximate, based on 30 bullets weighing half a pound; 15 bullets weigh 0.25 lb, and 3 bullets weigh 0.05 lb.</p>
+<p><strong className="hl">Note:</strong> Weight is approximate, based on 30 bullets weighing half a pound; 15 bullets therefore weight 0.25 lb. (&frac14; lb.), and 3 bullets weigh 0.05 lb. (&#185;&#8260;&#8322;&#8320; lb.)</p>
 </blockquote>
 </>};
 const _firearm_bullet_silver = {title: "Firearm bullet, silver", topLink: ["Firearms Ammunition","main/equipment_firearms"], jsx: <><h2 id="eq-weapon-firearm_bullet_silver-firearm-bullet-silver">Firearm bullet, silver</h2>
@@ -1424,7 +1430,7 @@ const _firearm_bullet_silver = {title: "Firearm bullet, silver", topLink: ["Fire
 <p><Icons id="eq-weapon-firearm_bullet_silver-down-icons" wrapper="prefixIcon" list={["down"]} /> A firearm that is shooting a silver bullet takes a -1 penalty on damage rolls (with a minimum of 1 point of damage).</p>
 <Tabular format="weap1" a="25" b="0.0166" i="ammo" j="E" />
 <blockquote>
-<p><strong className="hl">Note:</strong> Weight is based on 30 regular <Link to="/eq-weapon/bullet">bullets</Link> weighing half a pound; 15 bullets weigh 0.25 lb, and 3 bullets weigh 0.05 lb.</p>
+<p><strong className="hl">Note:</strong> Weight is based on 30 regular <Link to="/eq-weapon/bullet">bullets</Link> weighing half a pound; 15 bullets therefore weight 0.25 lb. (&frac14; lb.), and 3 bullets weigh 0.05 lb. (&#185;&#8260;&#8322;&#8320; lb.)</p>
 </blockquote>
 </>};
 const _gunsmiths_kit = {title: "Gunsmith's kit", topLink: ["Firearms Ammunition","main/equipment_firearms"], jsx: <><h2 id="eq-weapon-gunsmiths_kit-gunsmiths-kit">Gunsmith's kit</h2>
@@ -1444,7 +1450,7 @@ const _pellets_handful = {title: "Pellets (handful)", topLink: ["Firearms Ammuni
 <p>Thirty handfuls of pellets weigh half a pound.</p>
 <Tabular format="weap1" a="1" b="0.0166" i="ammo" j="E" />
 <blockquote>
-<p><strong className="hl">Note:</strong> Weight is approximate, based on 30 handfuls weighing half a pound; 15 handfuls weigh 0.25 lb, and 3 handfuls weigh 0.05 lb.</p>
+<p><strong className="hl">Note:</strong> Weight is approximate, based on 30 handfuls weighing half a pound; 15 handfuls weight 0.25 lb. (&frac14; lb.), and 3 handfuls weigh 0.05 lb. (&#185;&#8260;&#8322;&#8320; lb.)</p>
 </blockquote>
 </>};
 const _pitted_bullet = {title: "Pitted bullet", topLink: ["Firearms Ammunition","main/equipment_firearms"], jsx: <><h2 id="eq-weapon-pitted_bullet-pitted-bullet">Pitted bullet</h2>
@@ -1452,7 +1458,10 @@ const _pitted_bullet = {title: "Pitted bullet", topLink: ["Firearms Ammunition",
 <p>This ammunition is pitted with a pattern of small pocks into which specially formulated poison compounds can be applied. A poison compound is a derivative of a standard toxin that is alchemically reduced to a solid form. These can be made from any standard injury or contact poison with a successful <Link to="/skill/craft">Craft</Link> (poison) check equal to the poison's DC + 4.</p>
 <p><Icons id="eq-weapon-pitted_bullet-info-icons" wrapper="prefixIcon" list={["info"]} /> The cost of purchasing an already prepared poison compound for the purpose of treating pitted bullets is equal to the poison's base cost + 20 gp. Once crafted, the compound can be pasted into the ammunition's pitted design and allowed to harden. Upon completion, the <Link to="/eq-weapon/bullet">bullet</Link> can be fired from an appropriate firearm, releasing the poison compound into its target upon impact, but the poison's DC is reduced by 2.</p>
 <p>A pitted bullet cannot be used with an <Link to="/eq-weapon/alchemical_cartridge">alchemical cartridge</Link>. The listed cost does not include the cost of poison.</p>
-<Tabular format="weap1" a="5" b="x" i="ammo" j="E" />
+<Tabular format="weap1" a="5" b="0.0166" i="ammo" j="E" />
+<blockquote>
+<p><strong className="hl">Note:</strong> Weight is approximate, based on 30 regular bullets weighing half a pound; 15 bullets therefore weight 0.25 lb. (&frac14; lb.), and 3 bullets weigh 0.05 lb. (&#185;&#8260;&#8322;&#8320; lb.)</p>
+</blockquote>
 </>};
 const _powder_horn = {title: "Powder horn", topLink: ["Firearms Ammunition","main/equipment_firearms"], jsx: <><h2 id="eq-weapon-powder_horn-powder-horn">Powder horn</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 57</Link>, <Link to="/source/ultimate_combat">Ultimate Combat pg. 141</Link>, <Link to="/source/inner_sea_world_guide">Inner Sea World Guide pg. 293</Link></p>

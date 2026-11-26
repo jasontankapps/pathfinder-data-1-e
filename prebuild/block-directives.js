@@ -83,7 +83,7 @@ const getBlockDirectives = (globalVariable, marker = "::") => {
 				}
 				if(cr || mr) {
 					const marked2 = makeNewMarkedInstance();
-					const ender = (cr && mr) ? `CR ${cr}/MR ${mr}` : (cr ? `CR ${cr}` : `MR ${mr}`);
+					const ender = ((cr && mr) ? `CR ${cr}/MR ${mr}` : (cr ? `CR ${cr}` : `MR ${mr}`)).replaceAll("-", "&mdash;");
 					return `${maybeClear}<Header full${filler}><span>${
 						noteTags(flags, marked2.parseInline(convertEncodedInfo(text)))
 					}</span><span>${ender}</span></Header>\n`;

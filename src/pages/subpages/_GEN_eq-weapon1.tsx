@@ -51,7 +51,7 @@ const _arrow_bleeding = {title: "Arrow (bleeding)", topLink: ["Alchemical Weapon
 <p><strong>Sources</strong> <Link to="/source/alchemy_manual">Alchemy Manual pg. 20</Link>, <Link to="/source/elves_of_golarion">Elves of Golarion pg. 22</Link></p>
 <Tabular format="weap1" a="160" b="0.15" k="alch" />
 <p>This sharpened hollow tube looks like the narrow proboscis of some giant insect, but it actually comes from a carnivorous plant. A bleeding arrow deals normal damage when it hits a creature and deals 1 point of <Link to="/rule/bleed">bleed</Link> damage. A critical hit does not multiply the bleed damage.</p>
-<Tabular format="spontalch" a="dw30/myrrh90/real25" b="exposure" c="25" d="1 hour" e="-" g="weapon" />
+<Tabular format="spontalch" a="dw30/myrrh90/real25" b="exposure" c="25" d="1 hour" e="&mdash;" g="weapon" />
 <blockquote>
 <p><strong className="hl">Note:</strong> Weight is based on 20 normal arrows weighing three pounds. The source material lists the weight as &mdash;.</p>
 </blockquote>
@@ -60,7 +60,7 @@ const _arrow_durable = {title: "Arrow (durable)", topLink: ["Alchemical Weapons"
 <p><strong>Sources</strong> <Link to="/source/alchemy_manual">Alchemy Manual pg. 20</Link>, <Link to="/source/elves_of_golarion">Elves of Golarion pg. 22</Link></p>
 <Tabular format="weap1" a="1" b="0.15" k="alch" />
 <p>These arrows are tightly wrapped in strands of <Link to="/eq-misc/alchemical_glue">alchemical glue</Link>. Durable arrows don't break with normal use, whether or not they hit their target; unless a durable arrow goes missing, an archer can retrieve and reuse it again and again. Durable arrows can be broken in other ways (such as deliberate snapping, hitting a fire elemental, and so on). A magical durable arrow with an enhancement bonus or magic weapon special ability applies these magical effects only the first time it is used - afterward, the durable arrow becomes nonmagical, and it can be reused or imbued with magic again.</p>
-<Tabular format="spontalch" a="ci1/myrrh1" b="exposure" c="25" d="1 hour" e="-" g="weapon" />
+<Tabular format="spontalch" a="ci1/myrrh1" b="exposure" c="25" d="1 hour" e="&mdash;" g="weapon" />
 <blockquote>
 <p><strong className="hl">Note:</strong> Weight is based on 20 normal <Link to="/eq-weapon/arrows">arrows</Link> weighing three pounds. The source material lists the weight as &mdash;.</p>
 </blockquote>
@@ -69,7 +69,7 @@ const _arrow_dye = {title: "Arrow (dye)", topLink: ["Alchemical Weapons","main/e
 <p><strong>Sources</strong> <Link to="/source/alchemy_manual">Alchemy Manual pg. 21</Link>, <Link to="/source/elves_of_golarion">Elves of Golarion pg. 22</Link></p>
 <Tabular format="weap1" a="1" b="0.15" k="alch" />
 <p><Icons id="eq-weapon-arrow_dye-zap-icons" wrapper="prefixIcon" list={["zap"]} /> This arrow ends in a crystalline bubble filled with a viscous alchemical dyeing agent. Firing a dye arrow is a ranged touch attack; a creature struck by a dye arrow takes no damage but is splashed with enough black, blue, green, or red marker dye to coat about 1 square foot. The stain caused by marker dye cannot be washed off except with magic for the first 72 hours, but fades completely after 2 weeks.</p>
-<Tabular format="spontalch" a="ci1/phos1" b="earth" c="25" d="10 minutes" e="-" g="weapon" />
+<Tabular format="spontalch" a="ci1/phos1" b="earth" c="25" d="10 minutes" e="&mdash;" g="weapon" />
 <blockquote>
 <p><strong className="hl">Note:</strong> Weight is based on 20 normal <Link to="/eq-weapon/arrows">arrows</Link> weighing three pounds. The source material lists the weight as &mdash;.</p>
 </blockquote>
@@ -80,7 +80,7 @@ const _arrow_lodestone = {title: "Arrow (lodestone)", topLink: ["Alchemical Weap
 <p>This heavy iron arrowhead is sealed with an alchemical resin. Pulling a small string (a <strong className="hl">move action</strong>) breaks the seal and triggers a reaction in the arrowhead, greatly increasing its magnetic properties.</p>
 <p><Icons id="eq-weapon-arrow_lodestone-boost-down-icons" wrapper="prefixIcon" list={["boost","down"]} /> You gain a +4 circumstance bonus on attack rolls when firing a lodestone arrow at a target wearing metal armor or a target made of metal, but the magnetized arrow deals only half damage on a successful hit.</p>
 <p>The increased magnetism fades 1 round after you activate a lodestone arrow, after which it becomes a normal arrow.</p>
-<Tabular format="spontalch" a="myrrh8/salt6/silv4" b="exposure" c="25" d="1 hour" e="-" g="weapon" />
+<Tabular format="spontalch" a="myrrh8/salt6/silv4" b="exposure" c="25" d="1 hour" e="&mdash;" g="weapon" />
 <blockquote>
 <p><strong className="hl">Note:</strong> Weight is based on 20 normal <Link to="/eq-weapon/arrows">arrows</Link> weighing three pounds and assuming these "heavy iron" arrows weigh double that. The source material lists the weight as &mdash;.</p>
 </blockquote>
@@ -120,7 +120,7 @@ const _arrow_splintercloud = {title: "Arrow (splintercloud)", topLink: ["Alchemi
 <Tabular format="weap1" a="25" b="0.15" k="alch" />
 <p>The shaft of this arrow is formed from numerous small bone fragments that have been painstakingly glued together.</p>
 <p><Icons id="eq-weapon-arrow_splintercloud-boom-icons" wrapper="prefixIcon" list={["boom"]} /> On a successful hit, a splintercloud arrow deals normal damage as it tears itself apart, creating a burst of razor-sharp bone shards centered on the target. These shards deal 1d3 points of piercing damage to the target and any creatures adjacent to the target (Reflex DC 18 negates).</p>
-<Tabular format="spontalch" a="myrrh28/salt30" b="earth" c="25" d="10 minutes" e="-" g="weapon" />
+<Tabular format="spontalch" a="myrrh28/salt30" b="earth" c="25" d="10 minutes" e="&mdash;" g="weapon" />
 <blockquote>
 <p><strong className="hl">Note:</strong> Weight is based on 20 normal <Link to="/eq-weapon/arrows">arrows</Link> weighing three pounds. The source material lists the weight as &mdash;.</p>
 </blockquote>
@@ -139,7 +139,7 @@ const _arrow_trip = {title: "Arrow (trip)", topLink: ["Alchemical Weapons","main
 <Tabular format="weap1" a="40" b="0.2" k="alch" />
 <p>This squat arrow has a large, bulbous metal tip that expands and flattens in flight.</p>
 <p>If you hit a creature with a trip arrow, the arrow deals no damage but performs a <Link to="/rule/trip">trip</Link> combat maneuver against the target with a Combat Maneuver Bonus of +5. For the purpose of determining <Link to="/rule/combat_maneuvers">Combat Maneuver Bonuses or penalties</Link> based on size, the arrow is treated as if it were the size of the creature it was designed for.</p>
-<Tabular format="spontalch" a="ci20/mag15/myrrh20" b="earth" c="25" d="10 minutes" e="-" g="weapon" />
+<Tabular format="spontalch" a="ci20/mag15/myrrh20" b="earth" c="25" d="10 minutes" e="&mdash;" g="weapon" />
 <blockquote>
 <p><strong className="hl">Note:</strong> Weight is based on 20 normal <Link to="/eq-weapon/arrows">arrows</Link> weighing three pounds and assuming these "squat" arrows weigh slightly more. The source material lists the weight as &mdash;.</p>
 </blockquote>
@@ -155,7 +155,7 @@ const _artokuss_fire = {title: "Artokus's fire", topLink: ["Alchemical Weapons",
 </>};
 const _blanch_bomb_adamantine = {title: "Blanch bomb (adamantine)", topLink: ["Alchemical Weapons","main/equipment_weapons_alchemical"], jsx: <><h2 id="eq-weapon-blanch_bomb_adamantine-blanch-bomb">Blanch bomb</h2>
 <p><strong>Sources</strong> <Link to="/source/alchemy_manual">Alchemy Manual pg. 27</Link></p>
-<Tabular format="weap1" a="250 gp (adamantine), 150 gp (cold iron), 100gp (silver)" b="&frac12; lb." c="v" k="alch" />
+<Tabular format="weap1" a="250 gp (adamantine), 150 gp (cold iron), 100gp (silver)" b="&frac12; lb." c="x" k="alch" />
 <p>The nearly invisible gas contained in this fragile glass sphere temporarily but drastically deteriorates the defenses - both manufactured and natural - of those affected. A blanch bomb is effective only against a target that is vulnerable to the type of blanch bomb employed against it.</p>
 <p><Icons id="eq-weapon-blanch_bomb_adamantine-splash-icons" wrapper="prefixIcon" list={["splash"]} /> A blanch bomb is <Link to="/rule/throw_splash_weapon">thrown as a splash weapon</Link> with a range increment of 10 feet. Upon contact with a hard surface, the blanch bomb releases a hazy cloud of gas within a 10-foot-radius <Link to="/misc/burst">burst</Link> centered on the point of impact. This cloud lasts for 1d4+1 rounds and can be dispersed as <Link to="/spell/fog_cloud">fog cloud</Link>.</p>
 <p><Icons id="eq-weapon-blanch_bomb_adamantine-lower-icons" wrapper="prefixIcon" list={["lower"]} /> If a creature whose damage reduction is overcome by the specified substance begins its turn in the affected area, the subject's DR/adamantine, DR/cold iron, or DR/silver (depending on the type of blanch bomb used) degrades at a rate of 1 point per round for as long as the creature remains in the area (to a minimum of DR 0). If the subject ends its turn outside the affected area, the creature's damage reduction returns to its original amount at a rate of 1 point per round.</p>
@@ -1038,13 +1038,13 @@ const _dagger = {title: "Dagger", topLink: ["Light Weapons","main/equipment_weap
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 17</Link>, <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 142</Link></p>
 <p>A dagger is a fighting knife. Its blade is usually less than 1 foot long, and can be curved or straight, with one edge or two. Dagger designs vary widely, and can have many different names (such as a thrusting dagger being called a "dirk").</p>
 <p><Icons id="eq-weapon-dagger-def-icons" wrapper="prefixIcon" list={["def"]} /> You get a +2 bonus on <Link to="/skill/sleight_of_hand">Sleight of Hand</Link> skill checks made to conceal a dagger on your body.</p>
-<Tabular format="weap1" a="2" b="1" d="s1d3~m1d4" e="r19x2" f="10" g="P or S" h="-" i="light" j="S" k="Blades, Light; Thrown; Tribal" />
+<Tabular format="weap1" a="2" b="1" d="s1d3~m1d4" e="r19x2" f="10" g="P or S" i="light" j="S" k="Blades, Light; Thrown; Tribal" />
 </>};
 const _gauntlet = {title: "Gauntlet", topLink: ["Light Weapons","main/equipment_weapons_light"], jsx: <><h2 id="eq-weapon-gauntlet-gauntlet">Gauntlet</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 17</Link>, <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 142</Link></p>
 <p>This metal glove lets you deal lethal damage rather than nonlethal damage with unarmed strikes. A strike with a gauntlet is otherwise considered an unarmed attack.</p>
 <p>The cost and weight given are for a single gauntlet. Medium and heavy armors (except breastplates) come with gauntlets. Your opponent cannot use a <Link to="/rule/disarm">disarm</Link> action to disarm you of gauntlets.</p>
-<Tabular format="weap1" a="2" b="1" d="s1d2~m1d3" e="x2" f="x" g="B" h="-" i="light" j="S" k="Close" />
+<Tabular format="weap1" a="2" b="1" d="s1d2~m1d3" e="x2" f="x" g="B" i="light" j="S" k="Close" />
 </>};
 const _hanbo = {title: "Hanbo", topLink: ["Light Weapons","main/equipment_weapons_light"], jsx: <><h2 id="eq-weapon-hanbo-hanbo">Hanbo</h2>
 <p><strong>Sources</strong> <Link to="/source/adventurers_armory">Adventurer's Armory pg. 3</Link></p>
@@ -1056,7 +1056,7 @@ const _handwraps = {title: "Handwraps", topLink: ["Light Weapons","main/equipmen
 <p>Many unarmed fighters wrap their hands in cloth to minimize injuries to their fists. Some martial artists also weave small coins or metal bars into their handwraps, adding special material effects as well.</p>
 <p>Handwraps don't alter the damage a character's unarmed attacks deal. However, <Link to="/rule/masterwork_w">masterwork</Link> handwraps can be enchanted as weapons, providing their benefits on unarmed attacks the character makes with her hands.</p>
 <p>A character can't benefit from both handwraps and other items that provide enhancement bonuses or weapon special abilities (such as an <Link to="/magic-wondrous/amulet_of_mighty_fists">amulet of mighty fists</Link>) on the same attack.</p>
-<Tabular format="weap1" a="0.1" b="x" d="s&mdash;~m&mdash;" e="-" f="x" g="-" h="see text" i="light" j="S" />
+<Tabular format="weap1" a="0.1" b="x" d="s&mdash;~m&mdash;" e="&mdash;" f="x" g="&mdash;" h="see text" i="light" j="S" />
 </>};
 const _hook_hand = {title: "Hook hand", topLink: ["Light Weapons","main/equipment_weapons_light"], jsx: <><h2 id="eq-weapon-hook_hand-hook-hand">Hook hand</h2>
 <p><strong>Sources</strong> <Link to="/source/villain_codex">Villain Codex pg. 188</Link>, <Link to="/source/pirates_of_the_inner_sea">Pirates of the Inner Sea pg. 19</Link>, <Link to="/source/skull_and_shackles_players_guide">Skull and Shackles Player's Guide pg. 6</Link></p>
@@ -1067,17 +1067,17 @@ const _kunai = {title: "Kunai", topLink: ["Light Weapons","main/equipment_weapon
 <p><strong>Sources</strong> <Link to="/source/ranged_tactics_toolbox">Ranged Tactics Toolbox pg. 18</Link></p>
 <p>Crafted from a single piece of iron, a kunai has a leaf-shaped blade and a ring for a pommel. Adapted from the common trowel, the kunai has a thick blade that is sharpened only near the tip.</p>
 <p><Icons id="eq-weapon-kunai-power-icons" wrapper="prefixIcon" list={["power"]} /> Unlike finer weapons, the kunai can readily substitute for a <Link to="/eq-misc/crowbar">crowbar</Link> or <Link to="/eq-misc/piton">piton</Link> without being damaged in the process.</p>
-<Tabular format="weap1" a="2" b="2" d="s1d3~m1d4" e="x2" f="10" g="B or P" h="-" i="light" j="S" />
+<Tabular format="weap1" a="2" b="2" d="s1d3~m1d4" e="x2" f="10" g="B or P" i="light" j="S" />
 </>};
 const _light_mace = {title: "Light mace", topLink: ["Light Weapons","main/equipment_weapons_light"], jsx: <><h2 id="eq-weapon-light_mace-light-mace">Light mace</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 17</Link>, <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 142</Link></p>
 <p>A mace is made up of an ornate metal head attached to a simple wooden or metal shaft. The mace's head is usually flanged to cause more pain or damage. Some more primitive maces are made with stone bound to a wooden haft with leather straps.</p>
-<Tabular format="weap1" a="5" b="4" d="s1d4~m1d6" e="x2" f="x" g="B" h="-" i="light" j="S" k="Hammers" />
+<Tabular format="weap1" a="5" b="4" d="s1d4~m1d6" e="x2" f="x" g="B" i="light" j="S" k="Hammers" />
 </>};
 const _punching_dagger = {title: "Punching dagger", topLink: ["Light Weapons","main/equipment_weapons_light"], jsx: <><h2 id="eq-weapon-punching_dagger-punching-dagger">Punching dagger</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 17</Link>, <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 142</Link></p>
 <p>A punching dagger's blade is attached to a horizontal handle that projects out from the fist when held.</p>
-<Tabular format="weap1" a="2" b="1" d="s1d3~m1d4" e="x3" f="x" g="P" h="-" i="light" j="S" k="Close" />
+<Tabular format="weap1" a="2" b="1" d="s1d3~m1d4" e="x3" f="x" g="P" i="light" j="S" k="Close" />
 </>};
 const _sickle = {title: "Sickle", topLink: ["Light Weapons","main/equipment_weapons_light"], jsx: <><h2 id="eq-weapon-sickle-sickle">Sickle</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 17</Link>, <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 142</Link></p>
@@ -1095,13 +1095,13 @@ const _spiked_gauntlet = {title: "Spiked gauntlet", topLink: ["Light Weapons","m
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 17</Link>, <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 142</Link></p>
 <p>This is a <Link to="/eq-weapon/gauntlet">gauntlet</Link> of thick leather or metal with blades or spikes protruding from above the knuckles, allowing the wearer to stab with the force of a punch.</p>
 <p>The cost and weight given are for a single gauntlet. An attack with a spiked gauntlet is considered an armed attack. Your opponent cannot <Link to="/rule/disarm">disarm</Link> you of spiked gauntlets.</p>
-<Tabular format="weap1" a="5" b="1" d="s1d3~m1d4" e="x2" f="x" g="P" h="-" i="light" j="S" k="Close" />
+<Tabular format="weap1" a="5" b="1" d="s1d3~m1d4" e="x2" f="x" g="P" i="light" j="S" k="Close" />
 </>};
 const _spring_blade = {title: "Spring blade", topLink: ["Light Weapons","main/equipment_weapons_light"], jsx: <><h2 id="eq-weapon-spring_blade-spring-blade">Spring blade</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_intrigue">Ultimate Intrigue pg. 232</Link></p>
 <p>This 4-inch blade is attached via a hinge to a wooden handle with a slot in the center, into which the blade can be folded. With a click of a switch, a spring thrusts the blade outward, where it locks into place until it is reset.</p>
 <p>Releasing the blade is a <strong className="hl">free action</strong>, and resetting it is a <strong className="hl">move action</strong>. The handle must be in your hand for the blade to be released; placing it in your hand requires the same type of action as <Link to="/rule/drawing_a_weapon">drawing a weapon</Link>. A spring blade is easy to conceal: an observer must succeed at a DC 20 <Link to="/skill/perception">Perception</Link> check to notice the blade hidden within the wooden handle, and you gain a +4 bonus on <Link to="/skill/sleight_of_hand">Sleight of Hand</Link> checks to conceal a spring blade on your body.</p>
-<Tabular format="weap1" a="70" b="1" d="s1d3~m1d4" e="x2" f="10" g="P or S" h="-" i="light" j="S" />
+<Tabular format="weap1" a="70" b="1" d="s1d3~m1d4" e="x2" f="10" g="P or S" i="light" j="S" />
 </>};
 const _traveling_kettle = {title: "Traveling kettle", topLink: ["Light Weapons","main/equipment_weapons_light"], jsx: <><h2 id="eq-weapon-traveling_kettle-traveling-kettle">Traveling kettle</h2>
 <p><strong>Sources</strong> <Link to="/source/martial_arts_handbook">Martial Arts Handbook pg. 30</Link></p>
@@ -1112,7 +1112,7 @@ const _traveling_kettle = {title: "Traveling kettle", topLink: ["Light Weapons",
 const _wooden_stake = {title: "Wooden stake", topLink: ["Light Weapons","main/equipment_weapons_light"], jsx: <><h2 id="eq-weapon-wooden_stake-wooden-stake">Wooden stake</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 17</Link>, <Link to="/source/pathfinder_campaign_setting">Pathfinder Campaign Setting pg. 209</Link>, <Link to="/source/adventurers_armory">Adventurer's Armory pg. 5</Link>, <Link to="/source/advanced_players_guide">Advanced Player's Guide pg. 179</Link></p>
 <p>This close combat weapon is just a sharpened piece of wood. <Link to="/eq-misc/iron_spike">Iron spikes</Link> that are used as weapons deal damage as wooden stakes.</p>
-<Tabular format="weap1" a="0" b="1" d="s1d3~m1d4" e="x2" f="10" g="P" h="-" i="light" j="S" k="Close" />
+<Tabular format="weap1" a="0" b="1" d="s1d3~m1d4" e="x2" f="10" g="P" i="light" j="S" k="Close" />
 </>};
 const _baston_fighting_stick = {title: "Baston fighting stick", topLink: ["One-Handed Weapons","main/equipment_weapons_one_handed"], jsx: <><h2 id="eq-weapon-baston_fighting_stick-baston-fighting-stick">Baston fighting stick</h2>
 <p><strong>Sources</strong> <Link to="/source/merchants_manifest">Merchant's Manifest pg. 11</Link></p>
@@ -1123,12 +1123,12 @@ const _baston_fighting_stick = {title: "Baston fighting stick", topLink: ["One-H
 const _club = {title: "Club", topLink: ["One-Handed Weapons","main/equipment_weapons_one_handed"], jsx: <><h2 id="eq-weapon-club-club">Club</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 17</Link>, <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 142</Link></p>
 <p>This weapon is usually just a shaped piece of wood, sometimes with a few nails or studs embedded in it.</p>
-<Tabular format="weap1" a="0" b="3" d="s1d4~m1d6" e="x2" f="10" g="B" h="-" i="one" j="S" k="Hammers; Thrown; Tribal" />
+<Tabular format="weap1" a="0" b="3" d="s1d4~m1d6" e="x2" f="10" g="B" i="one" j="S" k="Hammers; Thrown; Tribal" />
 </>};
 const _heavy_mace = {title: "Heavy mace", topLink: ["One-Handed Weapons","main/equipment_weapons_one_handed"], jsx: <><h2 id="eq-weapon-heavy_mace-heavy-mace">Heavy mace</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 17</Link>, <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 142</Link></p>
 <p>A heavy mace has a larger head and a longer handle than a <Link to="/eq-weapon/light_mace">light mace</Link>.</p>
-<Tabular format="weap1" a="12" b="8" d="s1d6~m1d8" e="x2" f="x" g="B" h="-" i="one" j="S" k="Hammers" />
+<Tabular format="weap1" a="12" b="8" d="s1d6~m1d8" e="x2" f="x" g="B" i="one" j="S" k="Hammers" />
 </>};
 const _mere_club = {title: "Mere club", topLink: ["One-Handed Weapons","main/equipment_weapons_one_handed"], jsx: <><h2 id="eq-weapon-mere_club-mere-club">Mere club</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 17</Link>, <Link to="/source/adventurers_armory">Adventurer's Armory pg. 4</Link></p>
@@ -1138,18 +1138,18 @@ const _mere_club = {title: "Mere club", topLink: ["One-Handed Weapons","main/equ
 const _morningstar = {title: "Morningstar", topLink: ["One-Handed Weapons","main/equipment_weapons_one_handed"], jsx: <><h2 id="eq-weapon-morningstar-morningstar">Morningstar</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 17</Link>, <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 142</Link></p>
 <p>A morningstar is a spiked metal ball affixed to a handle.</p>
-<Tabular format="weap1" a="8" b="6" d="s1d6~m1d8" e="x2" f="x" g="B and P" h="-" i="one" j="S" k="Flails" />
+<Tabular format="weap1" a="8" b="6" d="s1d6~m1d8" e="x2" f="x" g="B and P" i="one" j="S" k="Flails" />
 </>};
 const _shortspear = {title: "Shortspear", topLink: ["One-Handed Weapons","main/equipment_weapons_one_handed"], jsx: <><h2 id="eq-weapon-shortspear-shortspear">Shortspear</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 17</Link>, <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 142</Link></p>
 <p>A shortspear is about 3 feet in length, making it a suitable thrown weapon.</p>
-<Tabular format="weap1" a="1" b="3" d="s1d4~m1d6" e="x2" f="20" g="P" h="-" i="one" j="S" k="Spears; Thrown; Tribal" />
+<Tabular format="weap1" a="1" b="3" d="s1d4~m1d6" e="x2" f="20" g="P" i="one" j="S" k="Spears; Thrown; Tribal" />
 </>};
 const _bayonet = {title: "Bayonet", topLink: ["Two-Handed Weapons","main/equipment_weapons_two_handed"], jsx: <><h2 id="eq-weapon-bayonet-bayonet">Bayonet</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 17</Link>, <Link to="/source/adventurers_armory">Adventurer's Armory pg. 2</Link>, <Link to="/source/pirates_of_the_inner_sea">Pirates of the Inner Sea pg. 19</Link>, <Link to="/source/advanced_players_guide">Advanced Player's Guide pg. 176</Link>, <Link to="/source/skull_and_shackles_players_guide">Skull and Shackles Player's Guide pg. 6</Link>, <Link to="/source/pathfinder_71_rasputin_must_die">Pathfinder #71: Rasputin Must Die! pg. 67</Link></p>
 <p>Bayonets are close combat weapons designed to fit into the grooves or muzzles of <Link to="/eq-weapon/crossbow">crossbows</Link> and <Link to="/main/equipment_firearms">firearms</Link>. They allow you to make melee attacks with these weapons but render them temporarily useless as ranged weapons. Attaching or removing a bayonet is a <strong className="hl">move action</strong>.</p>
 <p><strong className="hl">Socket Bayonet:</strong> A socket bayonet fits onto a lug mounted on the barrel of some modern firearms. It has the same statistics as a bayonet, but a firearm fitted with a bayonet lug can be fired while the bayonet is in place, albeit with a -2 penalty on attack rolls. Each bayonet is designed for a specific model of firearm.</p>
-<Tabular format="weap1" a="5" b="1" d="s1d4~m1d6" e="x2" f="x" g="P" h="-" i="two" j="S" k="Blades, Light; Close" />
+<Tabular format="weap1" a="5" b="1" d="s1d4~m1d6" e="x2" f="x" g="P" i="two" j="S" k="Blades, Light; Close" />
 </>};
 const _boar_spear = {title: "Boar spear", topLink: ["Two-Handed Weapons","main/equipment_weapons_two_handed"], jsx: <><h2 id="eq-weapon-boar_spear-boar-spear">Boar spear</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 17</Link>, <Link to="/source/advanced_players_guide">Advanced Player's Guide pg. 176</Link></p>
@@ -1202,23 +1202,23 @@ const _weighted_spear = {title: "Weighted spear", topLink: ["Two-Handed Weapons"
 const _blowgun = {title: "Blowgun", topLink: ["Ranged Weapons","main/equipment_weapons_ranged"], jsx: <><h2 id="eq-weapon-blowgun-blowgun">Blowgun</h2>
 <p><strong>Sources</strong> <Link to="/source/ranged_tactics_toolbox">Ranged Tactics Toolbox pg. 0</Link>, <Link to="/source/pathfinder_campaign_setting">Pathfinder Campaign Setting pg. 209</Link>, <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 142</Link>, <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 17</Link></p>
 <p>Blowguns are generally used to deliver debilitating (but rarely fatal) <Link to="/main/equipment_poisons">poisons</Link> from a distance. They are nearly silent when fired.</p>
-<Tabular format="weap1" a="2" b="1" d="s1~m1d2" e="x2" f="20" g="P" h="-" i="ranged" j="S" k="Thrown" />
+<Tabular format="weap1" a="2" b="1" d="s1~m1d2" e="x2" f="20" g="P" i="ranged" j="S" k="Thrown" />
 </>};
 const _dart = {title: "Dart", topLink: ["Ranged Weapons","main/equipment_weapons_ranged"], jsx: <><h2 id="eq-weapon-dart-dart">Dart</h2>
 <p><strong>Sources</strong> <Link to="/source/ranged_tactics_toolbox">Ranged Tactics Toolbox pg. 0</Link>, <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 142</Link>, <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 17</Link></p>
 <p>This thrown weapon is larger than an <Link to="/eq-weapon/arrow">arrow</Link> and shorter than a <Link to="/eq-weapon/javelin">javelin</Link>, with a weighted tip and a shorter range than a javelin. Most darts are wooden shafts with a thick metal point.</p>
-<Tabular format="weap1" a="0.5" b="0.5" d="s1d3~m1d4" e="x2" f="20" g="P" h="-" i="ranged" j="S" k="Thrown" />
+<Tabular format="weap1" a="0.5" b="0.5" d="s1d3~m1d4" e="x2" f="20" g="P" i="ranged" j="S" k="Thrown" />
 </>};
 const _heavy_crossbow = {title: "Heavy crossbow", topLink: ["Ranged Weapons","main/equipment_weapons_ranged"], jsx: <><h2 id="eq-weapon-heavy_crossbow-heavy-crossbow">Heavy crossbow</h2>
 <p><strong>Sources</strong> <Link to="/source/ranged_tactics_toolbox">Ranged Tactics Toolbox pg. 0</Link>, <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 142</Link>, <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 17</Link></p>
 <p>You draw a heavy crossbow back by turning a small winch. Loading a heavy crossbow is a <strong className="hl">full-round action</strong> that provokes attacks of opportunity. A heavy crossbow fires <Link to="/eq-weapon/crossbow_bolts">crossbow bolts</Link>.</p>
 <p><Icons id="eq-weapon-heavy_crossbow-info-down-icons" wrapper="prefixIcon" list={["info","down"]} /> Normally, operating a heavy crossbow requires two hands. However, you can shoot, but not load, a heavy crossbow with one hand at a -4 penalty on attack rolls. You can shoot a heavy crossbow with each hand, but you take a penalty on attack rolls as if attacking with <Link to="/rule/two_weapon_fighting">two one-handed weapons</Link>. This penalty is cumulative with the penalty for one-handed firing.</p>
-<Tabular format="weap1" a="50" b="8" d="s1d8~m1d10" e="r19x2" f="120" g="P" h="-" i="ranged" j="S" k="Crossbows" />
+<Tabular format="weap1" a="50" b="8" d="s1d8~m1d10" e="r19x2" f="120" g="P" i="ranged" j="S" k="Crossbows" />
 </>};
 const _javelin = {title: "Javelin", topLink: ["Ranged Weapons","main/equipment_weapons_ranged"], jsx: <><h2 id="eq-weapon-javelin-javelin">Javelin</h2>
 <p><strong>Sources</strong> <Link to="/source/ranged_tactics_toolbox">Ranged Tactics Toolbox pg. 0</Link>, <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 142</Link>, <Link to="/source/ultimate_combat">Ultimate Combat pg. 144</Link>, <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 17</Link></p>
 <p><Icons id="eq-weapon-javelin-info-icons" wrapper="prefixIcon" list={["info"]} /> A javelin is a thin throwing spear. Since it is not designed for melee, you are treated as nonproficient with it and take a -4 penalty on attack rolls if you use a javelin as a melee weapon.</p>
-<Tabular format="weap1" a="1" b="2" d="s1d4~m1d6" e="x2" f="30" g="P" h="-" i="ranged" j="S" k="Spears; Thrown" />
+<Tabular format="weap1" a="1" b="2" d="s1d4~m1d6" e="x2" f="30" g="P" i="ranged" j="S" k="Spears; Thrown" />
 </>};
 const _crossbow = {title: "Crossbow", topLink: ["Ranged Weapons","main/equipment_weapons_ranged"], notBookmarkable: true, jsx: <><p>There are several types of crossbow.</p>
 <ul>
@@ -1242,14 +1242,14 @@ const _light_crossbow = {title: "Light crossbow", topLink: ["Ranged Weapons","ma
 <p><strong>Sources</strong> <Link to="/source/ranged_tactics_toolbox">Ranged Tactics Toolbox pg. 0</Link>, <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 142</Link>, <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 17</Link></p>
 <p>You draw a light crossbow back by pulling a lever. Loading a light crossbow is a <strong className="hl">move action</strong> that provokes attacks of opportunity. A light crossbow fires <Link to="/eq-weapon/crossbow_bolts">crossbow bolts</Link>.</p>
 <p><Icons id="eq-weapon-light_crossbow-info-down-icons" wrapper="prefixIcon" list={["info","down"]} /> Normally, operating a light crossbow requires two hands. However, you can shoot, but not load, a light crossbow with one hand at a -2 penalty on attack rolls. You can shoot a light crossbow with each hand, but you take a penalty on attack rolls as if attacking with <Link to="/rule/two_weapon_fighting">two light weapons</Link>. This penalty is cumulative with the penalty for one-handed firing.</p>
-<Tabular format="weap1" a="35" b="4" d="s1d6~m1d8" e="r19x2" f="80" g="P" h="-" i="ranged" j="S" k="Crossbows" />
+<Tabular format="weap1" a="35" b="4" d="s1d6~m1d8" e="r19x2" f="80" g="P" i="ranged" j="S" k="Crossbows" />
 </>};
 const _sling = {title: "Sling", topLink: ["Ranged Weapons","main/equipment_weapons_ranged"], jsx: <><h2 id="eq-weapon-sling-sling">Sling</h2>
 <p><strong>Sources</strong> <Link to="/source/ranged_tactics_toolbox">Ranged Tactics Toolbox pg. 0</Link>, <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 142</Link>, <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 17</Link></p>
 <p>A sling is little more than a leather cup attached to a pair of strings. Your Strength modifier applies to damage rolls when you use a sling, just as it does for thrown weapons. You can fire, but not load, a sling with one hand. Loading a sling is a <strong className="hl">move action</strong> that requires two hands and provokes attacks of opportunity.</p>
 <p>A sling fires <Link to="/eq-weapon/sling_bullet">sling bullets</Link>.</p>
 <p><Icons id="eq-weapon-sling-warning-icons" wrapper="prefixIcon" list={["warning"]} /> You can hurl ordinary stones with a sling, but stones are not as dense or as round as bullets. Thus, such an attack deals damage as if the weapon were designed for a creature <Link to="/misc/one_size_category_smaller">one size category smaller</Link> than you and you take a -1 penalty on attack rolls.</p>
-<Tabular format="weap1" a="0" b="x" d="s1d3~m1d4" e="x2" f="50" g="B" h="-" i="ranged" j="S" k="Thrown" />
+<Tabular format="weap1" a="0" b="x" d="s1d3~m1d4" e="x2" f="50" g="B" i="ranged" j="S" k="Thrown" />
 </>};
 const _stingchuck = {title: "Stingchuck", topLink: ["Ranged Weapons","main/equipment_weapons_ranged"], jsx: <><h2 id="eq-weapon-stingchuck-stingchuck">Stingchuck</h2>
 <p><strong>Sources</strong> <Link to="/source/adventurers_armory">Adventurer's Armory pg. 5</Link></p>
@@ -1261,12 +1261,12 @@ const _stonebow = {title: "Stonebow", topLink: ["Ranged Weapons","main/equipment
 <p>A stonebow, or bullet crossbow, resembles a <Link to="/eq-weapon/light_crossbow">light crossbow</Link> except for the distinct U-shaped bend in the stock. Instead of bolts, the stonebow shoots <Link to="/eq-weapon/sling_bullet">sling bullets</Link>. The bow has two strings with a leather pocket between them to hold the bullet. Loading a stonebow is a <strong className="hl">move action</strong> (a <strong className="hl">free action</strong> if you have the <Link to="/feat/rapid_reload">Rapid Reload</Link> feat) that provokes attacks of opportunity.</p>
 <p><Icons id="eq-weapon-stonebow-warning-icons" wrapper="prefixIcon" list={["warning"]} /> You can shoot ordinary stones with a stonebow, but stones aren't as dense or as round as bullets. When using stones, you take a -1 penalty on attack rolls and deal damage as if the weapon were designed for a creature <Link to="/misc/one_size_category_smaller">one size category smaller</Link> than you.</p>
 <p><Icons id="eq-weapon-stonebow-info-down-icons" wrapper="prefixIcon" list={["info","down"]} /> You can shoot, but not load, a stonebow with one hand, but doing so imposes a -2 penalty on your attack rolls. You can shoot a stonebow with each hand, but you take a penalty on attack rolls as if attacking with <Link to="/rule/two_weapon_fighting">two light weapons</Link>. This penalty is cumulative with the penalty for firing one-handed.</p>
-<Tabular format="weap1" a="35" b="4" d="s1d4~m1d6" e="x2" f="50" g="B" h="-" i="ranged" j="S" />
+<Tabular format="weap1" a="35" b="4" d="s1d4~m1d6" e="x2" f="50" g="B" i="ranged" j="S" />
 </>};
 const _underwater_heavy_crossbow = {title: "Underwater heavy crossbow", topLink: ["Ranged Weapons","main/equipment_weapons_ranged"], jsx: <><h2 id="eq-weapon-underwater_heavy_crossbow-underwater-heavy-crossbow">Underwater heavy crossbow</h2>
 <p><strong>Sources</strong> <Link to="/source/ranged_tactics_toolbox">Ranged Tactics Toolbox pg. 0</Link>, <Link to="/source/advanced_race_guide">Advanced Race Guide pg. 195</Link>, <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 17</Link></p>
 <p>Above water, this weapon is identical to a heavy crossbow. You may use it underwater, where it has a range increment of 20 feet. It counts as a <Link to="/eq-weapon/heavy_crossbow">heavy crossbow</Link> for the purposes of proficiencies and special abilities.</p>
-<Tabular format="weap1" a="100" b="8" d="s1d8~m1d10" e="r19x2" f="120" g="P" h="-" i="ranged" j="S" k="Crossbows" />
+<Tabular format="weap1" a="100" b="8" d="s1d8~m1d10" e="r19x2" f="120" g="P" i="ranged" j="S" k="Crossbows" />
 </>};
 const _underwater_crossbow = {title: "Underwater Crossbow", topLink: ["Ranged Weapons","main/equipment_weapons_ranged"], notBookmarkable: true, jsx: <><p>There are two types of underwater crossbow.</p>
 <ul>
@@ -1277,7 +1277,7 @@ const _underwater_crossbow = {title: "Underwater Crossbow", topLink: ["Ranged We
 const _underwater_light_crossbow = {title: "Underwater light crossbow", topLink: ["Ranged Weapons","main/equipment_weapons_ranged"], jsx: <><h2 id="eq-weapon-underwater_light_crossbow-underwater-light-crossbow">Underwater light crossbow</h2>
 <p><strong>Sources</strong> <Link to="/source/ranged_tactics_toolbox">Ranged Tactics Toolbox pg. 0</Link>, <Link to="/source/advanced_race_guide">Advanced Race Guide pg. 195</Link>, <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 17</Link></p>
 <p>An underwater light crossbow functions like its normal counterpart above water, and can be used underwater. When fired underwater, the crossbow has a range increment of 20 feet. Anyone proficient with a normal <Link to="/eq-weapon/light_crossbow">light crossbow</Link> can use an underwater light crossbow.</p>
-<Tabular format="weap1" a="70" b="4" d="s1d6~m1d8" e="r19x2" f="80" g="P" h="-" i="ranged" j="S" k="Crossbows" />
+<Tabular format="weap1" a="70" b="4" d="s1d6~m1d8" e="r19x2" f="80" g="P" i="ranged" j="S" k="Crossbows" />
 </>};
 const _blade_boot = {title: "Blade boot", topLink: ["Light Weapons","main/equipment_weapons_light"], jsx: <><h2 id="eq-weapon-blade_boot-blade-boot">Blade boot</h2>
 <p><strong>Sources</strong> <Link to="/source/adventurers_armory">Adventurer's Armory pg. 2</Link></p>
@@ -1289,7 +1289,7 @@ const _boarding_axe = {title: "Boarding axe", topLink: ["Light Weapons","main/eq
 <p><strong>Sources</strong> <Link to="/source/adventurers_armory_2">Adventurer's Armory 2 pg. 8</Link>, <Link to="/source/pirates_of_the_inner_sea">Pirates of the Inner Sea pg. 19</Link>, <Link to="/source/skull_and_shackles_players_guide">Skull and Shackles Player's Guide pg. 6</Link></p>
 <p>A boarding axe is similar to a <Link to="/eq-weapon/handaxe">handaxe</Link>, but features a spike that allows the weapon to do either slashing or piercing damage.</p>
 <p><Icons id="eq-weapon-boarding_axe-boost-icons" wrapper="prefixIcon" list={["boost"]} /> When in hand, a boarding axe grants a +2 circumstance bonus on <Link to="/skill/climb">Climb</Link> checks to scale wooden or other penetrable surfaces, such as ice.</p>
-<Tabular format="weap1" a="6" b="3" d="s1d4~m1d6" e="x3" f="x" g="P or S" h="-" i="light" j="M" k="Axes" />
+<Tabular format="weap1" a="6" b="3" d="s1d4~m1d6" e="x3" f="x" g="P or S" i="light" j="M" k="Axes" />
 </>};
 const _butterfly_sword = {title: "Butterfly sword", topLink: ["Light Weapons","main/equipment_weapons_light"], jsx: <><h2 id="eq-weapon-butterfly_sword-butterfly-sword">Butterfly sword</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 18</Link>, <Link to="/source/ultimate_combat">Ultimate Combat pg. 130</Link></p>
@@ -1323,12 +1323,12 @@ const _handaxe = {title: "Handaxe", topLink: ["Light Weapons","main/equipment_we
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 18</Link>, <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 142</Link></p>
 <p>This one-handed axe is short (roughly 1 foot long) and designed for use with one hand. Unlike <Link to="/eq-weapon/throwing_axe">throwing axes</Link>, it is not well balanced for a graceful tumbling motion, and is instead heavier at its head.</p>
 <p><Icons id="eq-weapon-handaxe-info-icons" wrapper="prefixIcon" list={["info"]} /> Tomahawks, war hatchets, and other such names usually refer to hand axes.</p>
-<Tabular format="weap1" a="6" b="3" d="s1d4~m1d6" e="x3" f="x" g="S" h="-" i="light" j="M" k="Axes; Tribal" />
+<Tabular format="weap1" a="6" b="3" d="s1d4~m1d6" e="x3" f="x" g="S" i="light" j="M" k="Axes; Tribal" />
 </>};
 const _iron_brush = {title: "Iron brush", topLink: ["Light Weapons","main/equipment_weapons_light"], jsx: <><h2 id="eq-weapon-iron_brush-iron-brush">Iron brush</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 18</Link>, <Link to="/source/ultimate_combat">Ultimate Combat pg. 131</Link></p>
 <p>This is an iron-handled version of a scholar's brush with a sharpened handle. Though it does little damage, it is easily concealed (you gain a +2 bonus on <Link to="/skill/sleight_of_hand">Sleight of Hand</Link> checks made to conceal an iron brush on your body) and can be thrown short distances, or used to jab at key nerve clusters and acupuncture points to surprisingly devastating effect.</p>
-<Tabular format="weap1" a="2" b="x" d="s1d2~m1d3" e="x2" f="10" g="P" h="-" i="light" j="M" k="Close" />
+<Tabular format="weap1" a="2" b="x" d="s1d2~m1d3" e="x2" f="10" g="P" i="light" j="M" k="Close" />
 </>};
 const _jutte = {title: "Jutte", topLink: ["Light Weapons","main/equipment_weapons_light"], jsx: <><h2 id="eq-weapon-jutte-jutte">Jutte</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 18</Link>, <Link to="/source/ultimate_combat">Ultimate Combat pg. 131</Link></p>
@@ -1338,28 +1338,28 @@ const _jutte = {title: "Jutte", topLink: ["Light Weapons","main/equipment_weapon
 const _katar_tri_bladed = {title: "Katar, tri-bladed", topLink: ["Light Weapons","main/equipment_weapons_light"], jsx: <><h2 id="eq-weapon-katar_tri_bladed-katar-tri-bladed">Katar, tri-bladed</h2>
 <p><strong>Sources</strong> <Link to="/source/adventurers_armory_2">Adventurer's Armory 2 pg. 9</Link>, <Link to="/source/pathfinder_9_escape_from_old_korvosa">Pathfinder #9: Escape from Old Korvosa pg. 83</Link>, <Link to="/source/pathfinder_campaign_setting">Pathfinder Campaign Setting pg. 209</Link></p>
 <p>Where most <Link to="/eq-weapon/punching_dagger">punching daggers</Link> boast a single thick blade, the tri-bladed katar features a fan of three splayed razor edges. Any effects that apply to a punching dagger also apply to a tri-bladed katar.</p>
-<Tabular format="weap1" a="6" b="2" d="s1d3~m1d4" e="x4" f="x" g="P" h="-" i="light" j="M" k="Close" />
+<Tabular format="weap1" a="6" b="2" d="s1d3~m1d4" e="x4" f="x" g="P" i="light" j="M" k="Close" />
 </>};
 const _kerambit = {title: "Kerambit", topLink: ["Light Weapons","main/equipment_weapons_light"], jsx: <><h2 id="eq-weapon-kerambit-kerambit">Kerambit</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 18</Link>, <Link to="/source/ultimate_combat">Ultimate Combat pg. 132</Link></p>
 <p>This small, curved pull dagger has a metal loop at the base of its handle, allowing it to be secured with a pinky or worn on a string tied in the hair.</p>
 <p>While relatively small, the curved blade can create brutal wounds. Easily concealed (you gain a +2 bonus on <Link to="/skill/sleight_of_hand">Sleight of Hand</Link> checks made to conceal a kerambit on your body), it is a favorite weapon of ninja and assassins.</p>
-<Tabular format="weap1" a="2" b="x" d="s1d2~m1d3" e="x3" f="x" g="S" h="-" i="light" j="M" k="Blades, Light" />
+<Tabular format="weap1" a="2" b="x" d="s1d2~m1d3" e="x3" f="x" g="S" i="light" j="M" k="Blades, Light" />
 </>};
 const _kukri = {title: "Kukri", topLink: ["Light Weapons","main/equipment_weapons_light"], jsx: <><h2 id="eq-weapon-kukri-kukri">Kukri</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 18</Link>, <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 142</Link></p>
 <p>A kukri is a curved blade, about 1 foot in length.</p>
-<Tabular format="weap1" a="8" b="2" d="s1d3~m1d4" e="r18x2" f="x" g="S" h="-" i="light" j="M" k="Blades, Light" />
+<Tabular format="weap1" a="8" b="2" d="s1d3~m1d4" e="r18x2" f="x" g="S" i="light" j="M" k="Blades, Light" />
 </>};
 const _light_hammer = {title: "Light hammer", topLink: ["Light Weapons","main/equipment_weapons_light"], jsx: <><h2 id="eq-weapon-light_hammer-light-hammer">Light hammer</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 18</Link>, <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 142</Link></p>
 <p>A lighter version of a <Link to="/eq-weapon/warhammer">warhammer</Link>, this weapon usually has a sleek metal head with one striking surface.</p>
-<Tabular format="weap1" a="1" b="2" d="s1d3~m1d4" e="x2" f="20" g="B" h="-" i="light" j="M" k="Hammers; Thrown" />
+<Tabular format="weap1" a="1" b="2" d="s1d3~m1d4" e="x2" f="20" g="B" i="light" j="M" k="Hammers; Thrown" />
 </>};
 const _light_pick = {title: "Light pick", topLink: ["Light Weapons","main/equipment_weapons_light"], jsx: <><h2 id="eq-weapon-light_pick-light-pick">Light pick</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 18</Link>, <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 142</Link></p>
 <p>This weapon, adapted from the pickaxe tool, has a head with a slightly curved, armor-piercing spike and a hammer-like counterweight.</p>
-<Tabular format="weap1" a="4" b="3" d="s1d3~m1d4" e="x4" f="x" g="P" h="-" i="light" j="M" k="Axes" />
+<Tabular format="weap1" a="4" b="3" d="s1d3~m1d4" e="x4" f="x" g="P" i="light" j="M" k="Axes" />
 </>};
 const _lungchuan_tamo = {title: "Lungchuan tamo", topLink: ["Light Weapons","main/equipment_weapons_light"], jsx: <><h2 id="eq-weapon-lungchuan_tamo-lungchuan-tamo">Lungchuan tamo</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 18</Link>, <Link to="/source/ultimate_combat">Ultimate Combat pg. 133</Link></p>
@@ -1370,7 +1370,7 @@ const _machete = {title: "Machete", topLink: ["Light Weapons","main/equipment_we
 <p><strong>Sources</strong> <Link to="/source/melee_tactics_toolbox">Melee Tactics Toolbox pg. 19</Link></p>
 <p>This tool is a wide, single-edged blade about 2 feet in length. Most often used to hack through dense vegetation, it works equally well as a weapon.</p>
 <p><Icons id="eq-weapon-machete-boost-icons" wrapper="prefixIcon" list={["boost"]} /> A character proficient with a machete gains a +1 circumstance bonus on <Link to="/skill/survival">Survival</Link> checks to get along in the wild.</p>
-<Tabular format="weap1" a="10" b="2" d="s1d4~m1d6" e="r19x2" f="x" g="S" h="-" i="light" j="M" k="Blades, Light" />
+<Tabular format="weap1" a="10" b="2" d="s1d4~m1d6" e="r19x2" f="x" g="S" i="light" j="M" k="Blades, Light" />
 </>};
 const _sap = {title: "Sap", topLink: ["Light Weapons","main/equipment_weapons_light"], jsx: <><h2 id="eq-weapon-sap-sap">Sap</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 18</Link>, <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 142</Link></p>
@@ -1382,7 +1382,7 @@ const _sea_knife = {title: "Sea-knife", topLink: ["Light Weapons","main/equipmen
 <p>A sea-knife is a long-handled weapon with a short blade. It is designed to be strapped to the ankle or foot of the wielder, pointing downward and jutting out beyond the wearer's leg.</p>
 <p>Donning or removing a sea-knife is a <strong className="hl">full-round action</strong>. The wearer cannot use a leg with a sea-knife strapped to it for walking or <Link to="/rule/run">running</Link>. A sea-knife can be used as a light melee weapon when the wielder is swimming, flying, or <Link to="/rule/prone">prone</Link>. This allows the wielder to use a two-handed weapon, or wield a weapon with one hand and carry a shield, and still make <Link to="/rule/off_hand">off-hand</Link> attacks with the sea-knife.</p>
 <p><Icons id="eq-weapon-sea_knife-down-icons" wrapper="prefixIcon" list={["down"]} /> Attacks made with a sea-knife take a -2 circumstance penalty on attack rolls in addition to all other attack penalties.</p>
-<Tabular format="weap1" a="8" b="1" d="s1d3~m1d4" e="r19x2" f="x" g="S" h="-" i="light" j="M" />
+<Tabular format="weap1" a="8" b="1" d="s1d3~m1d4" e="r19x2" f="x" g="S" i="light" j="M" />
 </>};
 const _shang_gou = {title: "Shang gou", topLink: ["Light Weapons","main/equipment_weapons_light"], jsx: <><h2 id="eq-weapon-shang_gou-shang-gou">Shang gou</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 18</Link>, <Link to="/source/ultimate_combat">Ultimate Combat pg. 134</Link></p>
@@ -1393,30 +1393,30 @@ const _shang_gou = {title: "Shang gou", topLink: ["Light Weapons","main/equipmen
 const _short_sword = {title: "Short sword", topLink: ["Light Weapons","main/equipment_weapons_light"], jsx: <><h2 id="eq-weapon-short_sword-short-sword">Short sword</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 18</Link>, <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 142</Link></p>
 <p>Short swords are some of the most common weapons found in any martial society, and thus designs are extremely varied, depending on the region and creator. Most are around 2 feet in length. Their blades can be curved or straight, single- or double-edged, and wide or narrow. Hilts may be ornate or simple, with crossguards, basket hilts, or no guard at all. Such weapons are often used on their own, but can also be paired as a matched set, or used in conjunction with a <Link to="/eq-weapon/dagger">dagger</Link> or longer sword.</p>
-<Tabular format="weap1" a="10" b="2" d="s1d4~m1d6" e="r19x2" f="x" g="P" h="-" i="light" j="M" k="Blades, Light" />
+<Tabular format="weap1" a="10" b="2" d="s1d4~m1d6" e="r19x2" f="x" g="P" i="light" j="M" k="Blades, Light" />
 </>};
 const _starknife = {title: "Starknife", topLink: ["Light Weapons","main/equipment_weapons_light"], jsx: <><h2 id="eq-weapon-starknife-starknife">Starknife</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 18</Link>, <Link to="/source/rise_of_the_runelords_players_guide">Rise of the Runelords Player's Guide pg. 11</Link>, <Link to="/source/curse_of_the_crimson_throne_players_guide">Curse of the Crimson Throne Player's Guide pg. 13</Link>, <Link to="/source/pathfinder_campaign_setting">Pathfinder Campaign Setting pg. 209</Link>, <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 142</Link>, <Link to="/source/varisia_birthplace_of_legends">Varisia, Birthplace of Legends pg. 14</Link></p>
 <p>From a central metal ring, four tapering metal blades extend from this weapon like points on a compass rose. By gripping the crossbar that runs through the weapon's open middle, a wielder can strike with it as a deadly melee weapon.</p>
 <p>Alternatively, by gripping it by the outer rim, a starknife's light, aerodynamic design allows it to be thrown short distances in a manner similar to a <Link to="/eq-weapon/chakram">chakram</Link>.</p>
-<Tabular format="weap1" a="24" b="3" d="s1d3~m1d4" e="x3" f="20" g="P" h="-" i="light" j="M" k="Blades, Light; Thrown" />
+<Tabular format="weap1" a="24" b="3" d="s1d3~m1d4" e="x3" f="20" g="P" i="light" j="M" k="Blades, Light; Thrown" />
 </>};
 const _switchblade_knife = {title: "Switchblade knife", topLink: ["Light Weapons","main/equipment_weapons_light"], jsx: <><h2 id="eq-weapon-switchblade_knife-switchblade-knife">Switchblade knife</h2>
 <p><strong>Sources</strong> <Link to="/source/adventurers_armory">Adventurer's Armory pg. 5</Link></p>
 <p>This knife has a spring-loaded blade hidden inside the handle. It can be designed to look like another type of object (a DC 15 <Link to="/skill/perception">Perception</Link> check reveals the deception). If held in your hand, you can activate it as a <strong className="hl">free action</strong>. This weapon is treated as a <Link to="/eq-weapon/dagger">dagger</Link>.</p>
-<Tabular format="weap1" a="5" b="1" d="s1d3~m1d4" e="r19x2" f="10" g="P" h="-" i="light" j="M" />
+<Tabular format="weap1" a="5" b="1" d="s1d3~m1d4" e="r19x2" f="10" g="P" i="light" j="M" />
 </>};
 const _tailblade_ratfolk = {title: "Tailblade, ratfolk", topLink: ["Light Weapons","main/equipment_weapons_light"], jsx: <><h2 id="eq-weapon-tailblade_ratfolk-tailblade-ratfolk">Tailblade, ratfolk</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_race_guide">Advanced Race Guide pg. 154</Link></p>
 <p>A tailblade is a small, sharp knife designed to be strapped to the tip of a wielder's tail. It takes a <strong className="hl">full-round action</strong> to strap on or remove a tailblade.</p>
 <p><Icons id="eq-weapon-tailblade_ratfolk-down-icons" wrapper="prefixIcon" list={["down"]} /> The wearer can loosely attach the tailblade (without strapping it securely in place) as a <strong className="hl">move action</strong>, but using a loosely attached tailblade gives the wielder a -4 penalty on all attack rolls made with the weapon, and other creatures get a +4 bonus on <Link to="/rule/disarm">disarm</Link> combat maneuver checks to disarm the tailblade.</p>
 <p>A ratfolk wielding a tailblade can make a tail attack, adding its Strength modifier to the tailblade's damage. <Link to="/race/ratfolk">Ratfolk</Link> are considered proficient with such attacks and can apply feats or effects appropriate to natural attacks to tail attacks made with a tailblade. If used as part of a full attack action, attacks with a tailblade are considered secondary attacks.</p>
-<Tabular format="weap1" a="11" b="0.5" d="s1d2~m1d3" e="x2" f="x" g="S" h="-" i="light" j="M" />
+<Tabular format="weap1" a="11" b="0.5" d="s1d2~m1d3" e="x2" f="x" g="S" i="light" j="M" />
 </>};
 const _throwing_axe = {title: "Throwing axe", topLink: ["Light Weapons","main/equipment_weapons_light"], jsx: <><h2 id="eq-weapon-throwing_axe-throwing-axe">Throwing axe</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 18</Link>, <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 142</Link></p>
 <p>This one-handed axe is small and perfectly balanced for throwing, and can be used as a melee weapon. Throwing axes have a variety of alternative names, including franciscas, tomahawks, and more. The axe is normally gripped by the haft and thrown overhand, making one complete rotation in the air before biting into the target with the axe head.</p>
-<Tabular format="weap1" a="8" b="2" d="s1d4~m1d6" e="x2" f="10" g="S" h="-" i="light" j="M" k="Axes; Thrown; Tribal" />
+<Tabular format="weap1" a="8" b="2" d="s1d4~m1d6" e="x2" f="10" g="S" i="light" j="M" k="Axes; Thrown; Tribal" />
 </>};
 const _tonfa = {title: "Tonfa", topLink: ["Light Weapons","main/equipment_weapons_light"], jsx: <><h2 id="eq-weapon-tonfa-tonfa">Tonfa</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 18</Link>, <Link to="/source/ultimate_combat">Ultimate Combat pg. 134</Link></p>
@@ -1426,7 +1426,7 @@ const _tonfa = {title: "Tonfa", topLink: ["Light Weapons","main/equipment_weapon
 const _war_razor = {title: "War razor", topLink: ["Light Weapons","main/equipment_weapons_light"], jsx: <><h2 id="eq-weapon-war_razor-war-razor">War razor</h2>
 <p><strong>Sources</strong> <Link to="/source/book_of_the_damned">Book of the Damned pg. 93</Link>, <Link to="/source/rise_of_the_runelords_players_guide">Rise of the Runelords Player's Guide pg. 11</Link>, <Link to="/source/pathfinder_campaign_setting">Pathfinder Campaign Setting pg. 209</Link>, <Link to="/source/inner_sea_world_guide">Inner Sea World Guide pg. 290</Link>, <Link to="/source/adventurers_armory">Adventurer's Armory pg. 0</Link></p>
 <p>To all appearances, a war razor is an oversized razor or flip knife. Since the razor folds into the handle, no sheath is required, making the weapon easy to hide and thus granting the wielder a +2 bonus on <Link to="/skill/sleight_of_hand">Sleight of Hand</Link> checks to conceal the weapon on her body.</p>
-<Tabular format="weap1" a="8" b="1" d="s1d3~m1d4" e="r19x2" f="x" g="S" h="-" i="light" j="M" k="Blades, Light" />
+<Tabular format="weap1" a="8" b="1" d="s1d3~m1d4" e="r19x2" f="x" g="S" i="light" j="M" k="Blades, Light" />
 </>};
 const _wushu_dart = {title: "Wushu dart", topLink: ["Light Weapons","main/equipment_weapons_light"], jsx: <><h2 id="eq-weapon-wushu_dart-wushu-dart">Wushu dart</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 18</Link>, <Link to="/source/ultimate_combat">Ultimate Combat pg. 134</Link></p>
@@ -1441,7 +1441,7 @@ const _ankus = {title: "Ankus", topLink: ["One-Handed Weapons","main/equipment_w
 const _battleaxe = {title: "Battleaxe", topLink: ["One-Handed Weapons","main/equipment_weapons_one_handed"], jsx: <><h2 id="eq-weapon-battleaxe-battleaxe">Battleaxe</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 18</Link>, <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 142</Link></p>
 <p>The handle of this axe is long enough that you can wield it one-handed or two-handed. The head may have one blade or two, with blade shapes ranging from half-moons to squared edges like narrower versions of woodcutting axes. The wooden haft may be protected and strengthened with metal bands called langets.</p>
-<Tabular format="weap1" a="10" b="6" d="s1d6~m1d8" e="x3" f="x" g="S" h="-" i="one" j="M" k="Axes" />
+<Tabular format="weap1" a="10" b="6" d="s1d6~m1d8" e="x3" f="x" g="S" i="one" j="M" k="Axes" />
 </>};
 const _combat_scabbard = {title: "Combat scabbard", topLink: ["One-Handed Weapons","main/equipment_weapons_one_handed"], jsx: <><h2 id="eq-weapon-combat_scabbard-combat-scabbard">Combat scabbard</h2>
 <p><strong>Sources</strong> <Link to="/source/adventurers_armory">Adventurer's Armory pg. 6</Link></p>
@@ -1456,7 +1456,7 @@ const _combat_scabbard_sharpened = {title: "Combat scabbard, sharpened", topLink
 const _cutlass = {title: "Cutlass", topLink: ["One-Handed Weapons","main/equipment_weapons_one_handed"], jsx: <><h2 id="eq-weapon-cutlass-cutlass">Cutlass</h2>
 <p><strong>Sources</strong> <Link to="/source/adventurers_armory_2">Adventurer's Armory 2 pg. 8</Link>, <Link to="/source/pirates_of_the_inner_sea">Pirates of the Inner Sea pg. 19</Link>, <Link to="/source/skull_and_shackles_players_guide">Skull and Shackles Player's Guide pg. 6</Link>, <Link to="/source/villain_codex">Villain Codex pg. 188</Link></p>
 <p>This short, curved sword is favored by seafarers for close-quarters combat. It is treated as a <Link to="/eq-weapon/scimitar">scimitar</Link> for any effects that apply to scimitars.</p>
-<Tabular format="weap1" a="15" b="4" d="s1d4~m1d6" e="r18x2" f="x" g="S" h="-" i="one" j="M" k="Blades, Heavy" />
+<Tabular format="weap1" a="15" b="4" d="s1d4~m1d6" e="r18x2" f="x" g="S" i="one" j="M" k="Blades, Heavy" />
 </>};
 const _double_chicken_saber = {title: "Double chicken saber", topLink: ["One-Handed Weapons","main/equipment_weapons_one_handed"], jsx: <><h2 id="eq-weapon-double_chicken_saber-double-chicken-saber">Double chicken saber</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 18</Link>, <Link to="/source/ultimate_combat">Ultimate Combat pg. 130</Link></p>
@@ -1466,12 +1466,12 @@ const _double_chicken_saber = {title: "Double chicken saber", topLink: ["One-Han
 const _gandasa = {title: "Gandasa", topLink: ["One-Handed Weapons","main/equipment_weapons_one_handed"], jsx: <><h2 id="eq-weapon-gandasa-gandasa">Gandasa</h2>
 <p><strong>Sources</strong> <Link to="/source/melee_tactics_toolbox">Melee Tactics Toolbox pg. 19</Link></p>
 <p>A gandasa is a wide, single-edged <Link to="/eq-weapon/dagger">dagger</Link> on a 2-foot handle and is wielded in combat like an axe. This weapon is also known as an elephant knife because the connection between the blade and the handle is often decorated to resemble a stylized elephant head.</p>
-<Tabular format="weap1" a="15" b="4" d="s1d6~m2d4" e="x3" f="x" g="S" h="-" i="one" j="M" k="Axes" />
+<Tabular format="weap1" a="15" b="4" d="s1d6~m2d4" e="x3" f="x" g="S" i="one" j="M" k="Axes" />
 </>};
 const _heavy_pick = {title: "Heavy pick", topLink: ["One-Handed Weapons","main/equipment_weapons_one_handed"], jsx: <><h2 id="eq-weapon-heavy_pick-heavy-pick">Heavy pick</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 18</Link>, <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 142</Link></p>
 <p>This variant of the <Link to="/eq-weapon/light_pick">light pick</Link> has a longer handle and can be used with one or two hands. It is a common, inexpensive weapon for mounted soldiers since it can be used effectively from horseback.</p>
-<Tabular format="weap1" a="8" b="6" d="s1d4~m1d6" e="x4" f="x" g="P" h="-" i="one" j="M" k="Axes" />
+<Tabular format="weap1" a="8" b="6" d="s1d4~m1d6" e="x4" f="x" g="P" i="one" j="M" k="Axes" />
 </>};
 const _light_flail = {title: "Light flail", topLink: ["One-Handed Weapons","main/equipment_weapons_one_handed"], jsx: <><h2 id="eq-weapon-light_flail-light-flail">Light flail</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 18</Link>, <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 142</Link></p>
@@ -1489,7 +1489,7 @@ const _flail = {title: "Flail", notBookmarkable: true, jsx: <><h2 id="eq-weapon-
 const _longsword = {title: "Longsword", topLink: ["One-Handed Weapons","main/equipment_weapons_one_handed"], jsx: <><h2 id="eq-weapon-longsword-longsword">Longsword</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 18</Link>, <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 142</Link></p>
 <p>This sword is about 3&frac12; feet in length.</p>
-<Tabular format="weap1" a="15" b="4" d="s1d6~m1d8" e="r19x2" f="x" g="S" h="-" i="one" j="M" k="Blades, Heavy" />
+<Tabular format="weap1" a="15" b="4" d="s1d6~m1d8" e="r19x2" f="x" g="S" i="one" j="M" k="Blades, Heavy" />
 </>};
 const _manople = {title: "Manople", topLink: ["One-Handed Weapons","main/equipment_weapons_one_handed"], jsx: <><h2 id="eq-weapon-manople-manople">Manople</h2>
 <p><strong>Sources</strong> <Link to="/source/melee_tactics_toolbox">Melee Tactics Toolbox pg. 19</Link></p>
@@ -1505,14 +1505,14 @@ const _nine_ring_broadsword = {title: "Nine-ring broadsword", topLink: ["One-Han
 const _rapier = {title: "Rapier", topLink: ["One-Handed Weapons","main/equipment_weapons_one_handed"], jsx: <><h2 id="eq-weapon-rapier-rapier">Rapier</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 18</Link>, <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 142</Link></p>
 <p>You can use the <Link to="/feat/weapon_finesse">Weapon Finesse</Link> feat to apply your Dexterity modifier instead of your Strength modifier to attack rolls with a rapier sized for you, even though it isn't a light weapon. You can't wield a rapier in two hands in order to apply 1&frac12; times your Strength modifier to its damage.</p>
-<Tabular format="weap1" a="20" b="2" d="s1d4~m1d6" e="r18x2" f="x" g="P" h="-" i="one" j="M" k="Blades, Light" />
+<Tabular format="weap1" a="20" b="2" d="s1d4~m1d6" e="r18x2" f="x" g="P" i="one" j="M" k="Blades, Light" />
 <div className="sideNoteWrap singular optional elephant"><ScrollContainer id="eq-weapon-rapier--table-0"><table><tbody><tr><ThLink scope="row" to="/rule/the_elephant_in_the_room"><IonIcon aria-label="The Elephant in the Room" icon="/icons/elephant.svg" /></ThLink><td><p><strong>Sources</strong> <Link to="/source/the_elephant_in_the_room_feat_taxes_in_pathfinder">The Elephant in the Room: Feat Taxes in Pathfinder</Link><br/>The rapier has the <Link to="/rule/equipment_errata"><em>agile</em> weapon quality</Link>.</p>
 <p>You can apply your Dexterity modifier instead of your Strength modifier to attack rolls when wielding an agile weapon sized for you, even though it isn't a <Link to="/rule/finesse">finesse</Link> weapon.</p>
 </td></tr></tbody></table></ScrollContainer></div></>};
 const _scimitar = {title: "Scimitar", topLink: ["One-Handed Weapons","main/equipment_weapons_one_handed"], jsx: <><h2 id="eq-weapon-scimitar-scimitar">Scimitar</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 18</Link>, <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 142</Link></p>
 <p>This curved sword is shorter than a <Link to="/eq-weapon/longsword">longsword</Link> and longer than a <Link to="/eq-weapon/shortsword">shortsword</Link>. Only the outer edge is sharp, and the back is flat, giving the blade a triangular cross-section.</p>
-<Tabular format="weap1" a="15" b="4" d="s1d4~m1d6" e="r18x2" f="x" g="S" h="-" i="one" j="M" k="Blades, Heavy" />
+<Tabular format="weap1" a="15" b="4" d="s1d4~m1d6" e="r18x2" f="x" g="S" i="one" j="M" k="Blades, Heavy" />
 </>};
 const _scizore = {title: "Scizore", topLink: ["One-Handed Weapons","main/equipment_weapons_one_handed"], jsx: <><h2 id="eq-weapon-scizore-scizore">Scizore</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 18</Link>, <Link to="/source/adventurers_armory">Adventurer's Armory pg. 4</Link>, <Link to="/source/ultimate_combat">Ultimate Combat pg. 144</Link></p>
@@ -1530,7 +1530,7 @@ const _sword_cane = {title: "Sword cane", topLink: ["One-Handed Weapons","main/e
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 18</Link>, <Link to="/source/advanced_players_guide">Advanced Player's Guide pg. 179</Link></p>
 <p>This slender light blade lies within a wooden container that serves as both its scabbard and hiding place. You can draw the blade as a <strong className="hl">swift action</strong> (or a <strong className="hl">free action</strong> action if you have the <Link to="/feat/quick_draw">Quick Draw</Link> feat). An observer must succeed at a DC 20 <Link to="/skill/perception">Perception</Link> check to realize an undrawn sword cane is a weapon rather than a walking stick; the DC decreases to 10 if the observer is able to handle the weapon.</p>
 <p>You can use the <Link to="/feat/weapon_finesse">Weapon Finesse</Link> feat to apply your Dexterity modifier instead of your Strength modifier to attack rolls with a sword cane sized for you, even though it isn't a light weapon. You can't wield a sword cane in two hands in order to apply 1&frac12; times your Strength modifier to damage.</p>
-<Tabular format="weap1" a="45" b="4" d="s1d4~m1d6" e="x2" f="x" g="P" h="-" i="one" j="M" k="Blades, Light" />
+<Tabular format="weap1" a="45" b="4" d="s1d4~m1d6" e="x2" f="x" g="P" i="one" j="M" k="Blades, Light" />
 </>};
 const _terbutje = {title: "Terbutje", topLink: ["One-Handed Weapons","main/equipment_weapons_one_handed"], jsx: <><h2 id="eq-weapon-terbutje-terbutje">Terbutje</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 18</Link>, <Link to="/source/adventurers_armory">Adventurer's Armory pg. 5</Link></p>
@@ -1540,7 +1540,7 @@ const _terbutje = {title: "Terbutje", topLink: ["One-Handed Weapons","main/equip
 const _terbutje_steel = {title: "Terbutje, steel", topLink: ["One-Handed Weapons","main/equipment_weapons_one_handed"], jsx: <><h2 id="eq-weapon-terbutje_steel-terbutje-steel">Terbutje, steel</h2>
 <p><strong>Sources</strong> <Link to="/source/adventurers_armory">Adventurer's Armory pg. 5</Link></p>
 <p>This is a forged weapon built to look much like a common <Link to="/eq-weapon/terbutje">terbutje</Link>. It lacks the fragility of its non-metallic counterpart.</p>
-<Tabular format="weap1" a="20" b="4" d="s1d6~m1d8" e="r19x2" f="x" g="S" h="-" i="one" j="M" />
+<Tabular format="weap1" a="20" b="4" d="s1d6~m1d8" e="r19x2" f="x" g="S" i="one" j="M" />
 </>};
 const _trident = {title: "Trident", topLink: ["One-Handed Weapons","main/equipment_weapons_one_handed"], jsx: <><h2 id="eq-weapon-trident-trident">Trident</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 18</Link>, <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 142</Link></p>
@@ -1550,7 +1550,7 @@ const _trident = {title: "Trident", topLink: ["One-Handed Weapons","main/equipme
 const _warhammer = {title: "Warhammer", topLink: ["One-Handed Weapons","main/equipment_weapons_one_handed"], jsx: <><h2 id="eq-weapon-warhammer-warhammer">Warhammer</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 18</Link>, <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 142</Link></p>
 <p>This weapon consists of a wooden haft and a heavy, metal head. The head may be single (like a carpenter's <Link to="/eq-misc/hammer">hammer</Link>) or double (like a <Link to="/eq-misc/sledge">sledgehammer</Link>). The haft is long enough that you may wield it one- or two-handed. Though heavy and relatively slow to wield, warhammers are capable of delivering immense blows, crushing armor and flesh alike.</p>
-<Tabular format="weap1" a="12" b="5" d="s1d6~m1d8" e="x3" f="x" g="B" h="-" i="one" j="M" k="Hammers" />
+<Tabular format="weap1" a="12" b="5" d="s1d6~m1d8" e="x3" f="x" g="B" i="one" j="M" k="Hammers" />
 </>};
 const _bardiche = {title: "Bardiche", topLink: ["Two-Handed Weapons","main/equipment_weapons_two_handed"], jsx: <><h2 id="eq-weapon-bardiche-bardiche">Bardiche</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 18</Link>, <Link to="/source/adventurers_armory">Adventurer's Armory pg. 2</Link>, <Link to="/source/advanced_players_guide">Advanced Player's Guide pg. 176</Link></p>
@@ -1573,12 +1573,12 @@ const _bill = {title: "Bill", topLink: ["Two-Handed Weapons","main/equipment_wea
 const _earth_breaker = {title: "Earth breaker", topLink: ["Two-Handed Weapons","main/equipment_weapons_two_handed"], jsx: <><h2 id="eq-weapon-earth_breaker-earth-breaker">Earth breaker</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 18</Link>, <Link to="/source/rise_of_the_runelords_players_guide">Rise of the Runelords Player's Guide pg. 11</Link>, <Link to="/source/curse_of_the_crimson_throne_players_guide">Curse of the Crimson Throne Player's Guide pg. 13</Link>, <Link to="/source/pathfinder_campaign_setting">Pathfinder Campaign Setting pg. 209</Link>, <Link to="/source/inner_sea_world_guide">Inner Sea World Guide pg. 290</Link>, <Link to="/source/adventurers_armory">Adventurer's Armory pg. 0</Link>, <Link to="/source/varisia_birthplace_of_legends">Varisia, Birthplace of Legends pg. 14</Link></p>
 <p>The crude metal of this massive hammer's head ends in multiple blunt spikes that help concentrate the force of a powerful swing down into a smaller, more focused area, allowing it to smash through armor with greater ease. Due to the tremendous size and weight of its head, an earth breaker is poorly balanced, and requires two hands to properly lift and control.</p>
-<Tabular format="weap1" a="40" b="14" d="s1d10~m2d6" e="x3" f="x" g="B" h="-" i="two" j="M" k="Hammers" />
+<Tabular format="weap1" a="40" b="14" d="s1d10~m2d6" e="x3" f="x" g="B" i="two" j="M" k="Hammers" />
 </>};
 const _falchion = {title: "Falchion", topLink: ["Two-Handed Weapons","main/equipment_weapons_two_handed"], jsx: <><h2 id="eq-weapon-falchion-falchion">Falchion</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 18</Link>, <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 143</Link></p>
 <p>This sword has one curved, sharp edge like a <Link to="/eq-weapon/scimitar">scimitar</Link>, with the back edge unsharpened and either flat or slightly curved. Its weight is greater toward the end, making it better for chopping rather than stabbing.</p>
-<Tabular format="weap1" a="75" b="8" d="s1d6~m2d4" e="r18x2" f="x" g="S" h="-" i="two" j="M" k="Blades, Heavy" />
+<Tabular format="weap1" a="75" b="8" d="s1d6~m2d4" e="r18x2" f="x" g="S" i="two" j="M" k="Blades, Heavy" />
 </>};
 const _glaive = {title: "Glaive", topLink: ["Two-Handed Weapons","main/equipment_weapons_two_handed"], jsx: <><h2 id="eq-weapon-glaive-glaive">Glaive</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 18</Link>, <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 143</Link></p>
@@ -1594,17 +1594,17 @@ const _glaive_guisarme = {title: "Glaive-guisarme", topLink: ["Two-Handed Weapon
 const _greataxe = {title: "Greataxe", topLink: ["Two-Handed Weapons","main/equipment_weapons_two_handed"], jsx: <><h2 id="eq-weapon-greataxe-greataxe">Greataxe</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 18</Link>, <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 143</Link></p>
 <p>This two-handed battle axe is heavy enough that you can't wield it with one hand. The head may have one blade or two, and may be "bearded" (meaning hooked or trailing at the bottom) to increase cleaving power and help pull down enemy shields. The haft is usually 3 to 4 feet long.</p>
-<Tabular format="weap1" a="20" b="12" d="s1d10~m1d12" e="x3" f="x" g="S" h="-" i="two" j="M" k="Axes" />
+<Tabular format="weap1" a="20" b="12" d="s1d10~m1d12" e="x3" f="x" g="S" i="two" j="M" k="Axes" />
 </>};
 const _greatclub = {title: "Greatclub", topLink: ["Two-Handed Weapons","main/equipment_weapons_two_handed"], jsx: <><h2 id="eq-weapon-greatclub-greatclub">Greatclub</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 18</Link>, <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 143</Link></p>
 <p>This larger, bulkier version of the common <Link to="/eq-weapon/club">club</Link> is heavy enough that you can't wield it with one hand. It may be ornate and carved, reinforced with metal, or a simple branch from a tree. Like simple clubs, greatclubs have many names, such as cudgels, bludgeons, shillelaghs, and more.</p>
-<Tabular format="weap1" a="5" b="8" d="s1d8~m1d10" e="x2" f="x" g="B" h="-" i="two" j="M" k="Hammers; Tribal" />
+<Tabular format="weap1" a="5" b="8" d="s1d8~m1d10" e="x2" f="x" g="B" i="two" j="M" k="Hammers; Tribal" />
 </>};
 const _greatsword = {title: "Greatsword", topLink: ["Two-Handed Weapons","main/equipment_weapons_two_handed"], jsx: <><h2 id="eq-weapon-greatsword-greatsword">Greatsword</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 18</Link>, <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 143</Link></p>
 <p>This immense two-handed sword is about 5 feet in length. A greatsword may have a dulled lower blade that can be gripped.</p>
-<Tabular format="weap1" a="50" b="8" d="s1d10~m2d6" e="r19x2" f="x" g="S" h="-" i="two" j="M" k="Blades, Heavy" />
+<Tabular format="weap1" a="50" b="8" d="s1d10~m2d6" e="r19x2" f="x" g="S" i="two" j="M" k="Blades, Heavy" />
 </>};
 const _blade_of_lifes_defense = {title: "Blade of Life's Defense", topLink: ["One-Handed Weapons","main/equipment_weapons_one_handed"], jsx: <><h2 id="eq-weapon-blade_of_lifes_defense-blade-of-lifes-defense">Blade of Life's Defense</h2>
 <p><strong>Sources</strong> <Link to="/source/merchants_manifest">Merchant's Manifest pg. 7</Link>, <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 20</Link></p>
@@ -1615,28 +1615,28 @@ const _blade_of_lifes_defense = {title: "Blade of Life's Defense", topLink: ["On
 const _masterwork_silver_dagger = {title: "Masterwork Silver Dagger", topLink: ["Light Weapons","main/equipment_weapons_light"], jsx: <><h2 id="eq-weapon-masterwork_silver_dagger-masterwork-silver-dagger">Masterwork Silver Dagger</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 157</Link>, <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 471</Link></p>
 <p>As a <Link to="/rule/masterwork_w">masterwork weapon</Link>, this <Link to="/eq-material/alchemical_silver">alchemical silver</Link> <Link to="/eq-weapon/dagger">dagger</Link> has a +1 enhancement bonus on attack rolls (but not on damage rolls).</p>
-<Tabular format="weap1" a="322" b="1" d="s1d3~m1d4" e="r19x2" f="10" g="P or S" h="-" i="light" j="S" k="Blades, Light; Thrown; Tribal" />
+<Tabular format="weap1" a="322" b="1" d="s1d3~m1d4" e="r19x2" f="10" g="P or S" i="light" j="S" k="Blades, Light; Thrown; Tribal" />
 </>};
 const _cold_iron_masterwork_longsword = {title: "Cold Iron Masterwork Longsword", topLink: ["One-Handed Weapons","main/equipment_weapons_one_handed"], jsx: <><h2 id="eq-weapon-cold_iron_masterwork_longsword-cold-iron-masterwork-longsword">Cold Iron Masterwork Longsword</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 153</Link>, <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 471</Link></p>
 <p>This nonmagical <Link to="/eq-weapon/longsword">longsword</Link> is crafted out of <Link to="/eq-material/cold_iron">cold iron</Link>. As a <Link to="/rule/masterwork_w">masterwork weapon</Link>, it has a +1 enhancement bonus on attack rolls.</p>
-<Tabular format="weap1" a="330" b="4" d="s1d6~m1d8" e="r19x2" f="x" g="S" h="-" i="one" j="M" k="Blades, Heavy" />
+<Tabular format="weap1" a="330" b="4" d="s1d6~m1d8" e="r19x2" f="x" g="S" i="one" j="M" k="Blades, Heavy" />
 </>};
 const _crossbow_of_the_crab = {title: "Crossbow of the Crab", topLink: ["Ranged Weapons","main/equipment_weapons_ranged"], jsx: <><h2 id="eq-weapon-crossbow_of_the_crab-crossbow-of-the-crab">Crossbow of the Crab</h2>
 <p><strong>Sources</strong> <Link to="/source/pathfinder_123_the_flooded_cathedral">Pathfinder #123: The Flooded Cathedral pg. 46</Link></p>
 <p>This Large <Link to="/rule/masterwork_w">masterwork</Link> <Link to="/eq-weapon/repeating_heavy_crossbow">repeating heavy crossbow</Link> is powered by a system of clockwork gears and torsion springs. It functions like its normal counterpart above water, but it can also be used underwater, where it has a range increment of 50 feet. Pulling a lever on the crossbow as a <strong className="hl">move action</strong> extends and retracts the weapon's stock and opens and collapses its limbs for easy stowage, making it small enough for a Medium character to carry in a <Link to="/eq-misc/backpack">backpack</Link>. The crossbow can be enchanted with weapon abilities like any normal masterwork crossbow.</p>
 <p>When mounted on the pincers of an <Link to="/magic-wondrous/apparatus_of_the_crab">apparatus of the crab</Link> or another similar device (which takes a <strong className="hl">full-round action</strong>), a character operating the vehicle can aim and shoot the crossbow up to twice per round (attack bonus +12) by pulling the lever that normally snaps the pincers. While using the crossbow in this way, a character without <Link to="/feat/exotic_weapon_proficiency">Exotic Weapon Proficiency</Link> (repeating heavy crossbow) doesn't take a penalty for nonproficiency. While the crossbow is thus mounted, the apparatus can't make attacks with the pincers. If a character operates the lever that extends and retracts the pincers and feelers while the crossbow is mounted, the apparatus ejects the crossbow instead, enabling the vehicle to make pincer attacks again.</p>
-<Tabular format="weap1" a="2500" b="24" d="2d8 (large)" e="r19x2" f="120" g="P" h="-" i="ranged" j="E" k="Crossbows" />
+<Tabular format="weap1" a="2500" b="24" d="2d8 (large)" e="r19x2" f="120" g="P" i="ranged" j="E" k="Crossbows" />
 </>};
 const _adamantine_dagger = {title: "Adamantine Dagger", topLink: ["Light Weapons","main/equipment_weapons_light"], jsx: <><h2 id="eq-weapon-adamantine_dagger-adamantine-dagger">Adamantine Dagger</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 150</Link>, <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 471</Link></p>
 <p>This nonmagical <Link to="/eq-weapon/dagger">dagger</Link> is made out of <Link to="/eq-material/adamantine">adamantine</Link>. As a <Link to="/rule/masterwork_w">masterwork weapon</Link>, it has a +1 enhancement bonus on attack rolls.</p>
-<Tabular format="weap1" a="3002" b="1" d="s1d3~m1d4" e="r19x2" f="10" g="P or S" h="-" i="light" j="S" k="Blades, Light; Thrown; Tribal" />
+<Tabular format="weap1" a="3002" b="1" d="s1d3~m1d4" e="r19x2" f="10" g="P or S" i="light" j="S" k="Blades, Light; Thrown; Tribal" />
 </>};
 const _adamantine_battleaxe = {title: "Adamantine Battleaxe", topLink: ["One-Handed Weapons","main/equipment_weapons_one_handed"], jsx: <><h2 id="eq-weapon-adamantine_battleaxe-adamantine-battleaxe">Adamantine Battleaxe</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 150</Link>, <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 471</Link></p>
 <p>This nonmagical <Link to="/eq-weapon/battleaxe">battleaxe</Link> is made of <Link to="/eq-material/adamantine">adamantine</Link>. As a <Link to="/rule/masterwork_w">masterwork weapon</Link>, it has a +1 enhancement bonus on attack rolls.</p>
-<Tabular format="weap1" a="3010" b="6" d="s1d6~m1d8" e="x3" f="x" g="S" h="-" i="one" j="M" k="Axes" />
+<Tabular format="weap1" a="3010" b="6" d="s1d6~m1d8" e="x3" f="x" g="S" i="one" j="M" k="Axes" />
 </>};
 const _alchemical_coal_choking_smoke = {..._alchemical_coal_blinding_cinders, title: "Alchemical coal (choking smoke)"};
 const _blanch_bomb_cold_iron = {..._blanch_bomb_adamantine, title: "Blanch bomb (cold iron)"};

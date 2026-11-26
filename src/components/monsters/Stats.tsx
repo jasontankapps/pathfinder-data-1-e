@@ -308,11 +308,11 @@ const Stats: FC<StatsProps> = (props) => {
 		<>
 			<Header sub>Statistics</Header>
 			<p><strong>Str</strong> {
-				str ? (str < 0 ? `- (${0 - str} while corporeal)` : str) : "-"
+				str ? (str < 0 ? <>&mdash; (${0 - str} while corporeal)</> : str) : <>&mdash;</>
 			}, <strong>Dex</strong> {dex}, <strong>Con</strong> {
-				con || "-"
+				con || <>&mdash;</>
 			}, <strong>Int</strong> {
-				int || "-"
+				int || <>&mdash;</>
 			}, <strong>Wis</strong> {wis}, <strong>Cha</strong> {cha}</p>
 			<p><strong>Base Atk</strong> {bab}; <strong>CMB</strong> {cmb}{
 				cmbP ? ` (${cmbP})` : ""

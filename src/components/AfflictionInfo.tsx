@@ -123,7 +123,7 @@ const AffInfo: FC<PropsWithChildren<AffInfoProps>> = (props) => {
 				<tr><th scope="row">Save DC</th><td colSpan={3}>{save}</td></tr>
 				{freq ? (<>
 					<tr><th scope="row">Onset</th><td colSpan={3}>{onset || "immediate"}</td></tr>
-					<tr><th scope="row">Frequency</th><td colSpan={3}>{freq}</td></tr>
+					<tr><th scope="row">Frequency</th><td colSpan={3}>{freq === "-" ? <>&mdash;</> : freq}</td></tr>
 					{track ? (
 						<tr><th scope="row">Track</th><td colSpan={3}>{track}</td></tr>
 					) : ""}

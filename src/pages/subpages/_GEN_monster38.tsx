@@ -520,7 +520,7 @@ const _ship_in_a_bottle = {title: "Ship in a Bottle", jsx: <><p><em>A model sail
 <p>This lost soul has never accepted the sinking of its ship in life. It uses models of ships in bottles to make up for the failure that betrayed its ship, its fellow crew members, and its captain.</p>
 <Header full><span>Bottled Shipyard</span><span>CR 7</span></Header>
 <p><strong>XP</strong> 3,600<br/>LE persistent haunt (35-ft.-radius cabin on a vessel or room near docks)<br/><strong>Caster Level</strong> 10th</p>
-<HauntInfo start id="-haunt" notice="Perception DC 20 (to spot ethereal crew)" hp="31" weak="tricked by Diplomacy" trigger="proximity" reset="1 day" />
+<HauntInfo start id="-haunt" notice="Perception DC 20 (to spot ethereal crew)" hp={31} weak="tricked by Diplomacy" trigger="proximity" reset="1 day" />
 <Header sub>Effect</Header>
 <p>The haunt settles in areas with enough ships in bottles to animate a small fleet. When the area of a bottled shipyard is entered, the haunt animates a ship in a bottle (using the stats above) each round for as many rounds as there are ships in bottles to animate (usually 1d6+1). Although any ship in a bottle that the haunt animates can be attacked and destroyed as a creature, only positive energy used against the constructs damages the haunt.</p>
 <Header sub>Destruction</Header>

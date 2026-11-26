@@ -8,7 +8,7 @@ interface HauntInfoProps {
 	id: string
 	start?: boolean
 	notice: string
-	hp: string
+	hp: string | number
 	weak?: ReactNode
 	trigger: string
 	reset: string

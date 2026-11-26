@@ -251,22 +251,22 @@ section[data-footnotes] ol li p {
 	display: contents;
 }
 
-.hlBlock strong,
-:is(strong,div).hl,
+.hlBlock :is(b,strong),
+:is(strong,b,div).hl,
 div.sideNoteWrap table.hl > :is(tbody,thead,tfoot) > tr > th:not(.normal),
-:is(strong,span).bigHl {
+:is(strong,b,span).bigHl {
 	color: var(--ion-color-tertiary);
 }
 :is(th,td).hl {
 	color: var(--ion-color-tertiary) !important;
 }
 
-:is(strong,span).bigHl {
+:is(strong,b,span).bigHl {
 	font-size: 1.25em;
 }
 
-.hlBlock strong a,
-:is(strong, div, th, td).hl a,
+.hlBlock :is(b,strong) a,
+:is(strong, b, div, th, td).hl a,
 div.sideNoteWrap table.hl > :is(tbody,thead,tfoot) > tr > th:not(.normal) a,
 a[data-outgoing] {
 	color: var(--ion-color-secondary);
@@ -276,6 +276,10 @@ a[data-outgoing]::after {
 }
 :root.ion-palette-dark a[data-outgoing]::after {
 	content: url('/icons/link-external-dark.svg');
+}
+
+:is(strong, b, div, th, td).hl.clean a {
+	text-decoration: none;
 }
 
 div.basicContent.simple,

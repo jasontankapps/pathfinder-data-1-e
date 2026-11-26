@@ -87,7 +87,7 @@ export const makeMonsterStatisticsBlock = ({flags, marked2, convertEncodedInfo, 
 		} else {
 			log(`Invalid str [${str}]`);
 		}
-	} else if(typeof str !== "number" || str <= 0) {
+	} else if(typeof str !== "number") {
 		log(`Invalid str [${str}]`);
 	} else {
 		atts.push(str);
@@ -97,14 +97,14 @@ export const makeMonsterStatisticsBlock = ({flags, marked2, convertEncodedInfo, 
 	} else {
 		log(`Invalid dex [${dex}]`);
 	}
-	if(typeof con === "number" && con >= 1) {
+	if(typeof con === "number" && con >= 0) {
 		atts.push(con)
 	} else if (con === "-") {
 		atts.push(0);
 	} else {
 		log(`Invalid con [${con}]`);
 	}
-	if(typeof int === "number" && int >= 1) {
+	if(typeof int === "number" && int >= 0) {
 		atts.push(int);
 	} else if (int === "-") {
 		atts.push(0);
@@ -132,7 +132,7 @@ export const makeMonsterStatisticsBlock = ({flags, marked2, convertEncodedInfo, 
 	}
 	if(typeof cmb === "number") {
 		output.push(`cmb={${cmb}}`);
-	} else if(cmb === "-") {
+	} else if(cmb === "x") {
 		output.push("cmb={null}")
 	} else {
 		const m = cmb.match(/^\+?(-?[0-9]+)(?: \((.*)\))?$/);
@@ -145,7 +145,7 @@ export const makeMonsterStatisticsBlock = ({flags, marked2, convertEncodedInfo, 
 	}
 	if(typeof cmd === "number") {
 		output.push(`cmd={${cmd}}`);
-	} else if(cmd === "-") {
+	} else if(cmd === "x") {
 		output.push("cmd={null}")
 	} else {
 		const m = cmd.match(/^(-?[0-9]+)(?: \((.*)\))$/);

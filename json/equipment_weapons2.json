@@ -609,7 +609,7 @@
 			"",
 			"Once expended, the tube must be repacked before it can be used again. Repacking a tube requires a @RA, or a @SA if you have the ‹feat/Rapid Reload› feat.",
 			"",
-			"::tabular{format=weap1 a=1 b=1 d=sspecial~mspecial e=\"&mdash&\" f=x g=- h=\"see text\" i=ranged j=M k=Thrown}"
+			"::tabular{format=weap1 a=1 b=1 d=sspecial~mspecial e=\"&mdash&\" f=x g=\"&mdash&\" h=\"see text\" i=ranged j=M k=Thrown}"
 		],
 		"topLink": [ "Ranged Weapons", "main/equipment_weapons_ranged" ]
 	},
@@ -2645,7 +2645,7 @@
 			"",
 			"This staff has a cradle at the end, designed to hold alchemical weapons such as ‹eq-weapon/acid›. A flask thrower significantly extends the range of thrown substances that deal splash damage, such as acid, ‹eq-weapon/alchemist's fire›, or ‹eq-weapon/holy water›, as well as that of tools such as ‹eq-weapon/tanglefoot bag«s›, ‹eq-weapon/thunderstone«s›, or ‹eq-misc/caltrops›.",
 			"",
-			"::tabular{format=weap1 a=25 b=4 d=s-~m- e=\"&mdash&\" f=20 g=- h=\"see text\" i=ranged j=E k=Thrown}"
+			"::tabular{format=weap1 a=25 b=4 d=s-~m- e=\"&mdash&\" f=20 g=\"&mdash&\" h=\"see text\" i=ranged j=E k=Thrown}"
 		],
 		"topLink": [ "Ranged Weapons", "main/equipment_weapons_ranged" ]
 	},
@@ -2813,7 +2813,7 @@
 			"",
 			"The horse bow functions like a ‹eq-weapon/composite longbow›, but it is designed to be used on horseback. A rider using a horse bow can make ranged attacks while mounted; furthermore, she does not take a penalty to attack rolls when her mount is taking a double move action, and she takes only a -4 penalty on attack rolls when her mount is running. Each point of Strength bonus granted by the horse bow adds 150 gp to its cost.",
 			"",
-			"::tabular{format=weap1 a=\"150 gp (+0), 300 gp (+1), 450 gp (+2), and so on\" b=\"3 lbs.\" d=s1d6~m1d8 e=x3 f=110 g=P i=ranged j=E}"
+			"::tabular{format=weap1 a=\"150 gp (+0), 300 gp (+1), 450 gp (+2), and so on\" b=\"3 lbs.\" c=x d=s1d6~m1d8 e=x3 f=110 g=P i=ranged j=E}"
 		],
 		"topLink": [ "Ranged Weapons", "main/equipment_weapons_ranged" ]
 	},
@@ -2849,7 +2849,7 @@
 			"",
 			"This thrown weapon is a length of ‹eq-misc/rope› with a simple open knot on one end that allows you entangle a foe like you would using a ‹eq-weapon/net›. The DC to cast a spell while ‹rule/entangled› with a lasso is 10 + the spell level being cast. An entangled creature can slip free with a successful DC 15 ‹skill/Escape Artist› check as a @RA. The lasso has 2 hit points and AC 10, and requires a DC 23 Strength check to break it. On a successful hit, the lasso tightens; to use it again you must spend a @SA sliding the knot to enlarge the loop.",
 			"",
-			"::tabular{format=weap1 a=\"0.1\" b=5 d=s-~m- e=\"&mdash&\" f=x g=- h=\"see text\" i=ranged j=E k=Thrown}"
+			"::tabular{format=weap1 a=\"0.1\" b=5 d=s-~m- e=\"&mdash&\" f=x g=\"&mdash&\" h=\"see text\" i=ranged j=E k=Thrown}"
 		],
 		"topLink": [ "Ranged Weapons", "main/equipment_weapons_ranged" ]
 	},
@@ -2862,7 +2862,7 @@
 			"",
 			"This stubby-looking ‹eq-weapon/crossbow› has a cup-like attachment rather than a groove for a bolt. It is designed to launch ‹rule/splash weapon«s›. Loading a launching crossbow is a @RA.",
 			"",
-			"::tabular{format=weap1 a=75 b=8 d=s-~m- e=\"&mdash&\" f=30 g=- i=ranged j=E k=Crossbows}"
+			"::tabular{format=weap1 a=75 b=8 d=s-~m- e=\"&mdash&\" f=30 g=\"&mdash&\" i=ranged j=E k=Crossbows}"
 		],
 		"topLink": [ "Ranged Weapons", "main/equipment_weapons_ranged" ]
 	},
@@ -2913,7 +2913,7 @@
 			"",
 			"@I-warning A net must be folded to be thrown effectively. The first time you throw your net in a fight, you make a normal ranged touch attack roll. After the net is unfolded, you take a -4 penalty on attack rolls with it. It takes 2 rounds for a proficient user to fold a net and twice that long for a nonproficient one to do so.",
 			"",
-			"::tabular{format=weap1 a=20 b=6 d=s-~m- e=\"&mdash&\" f=10 g=- h=\"see text\" i=ranged j=E k=Thrown}"
+			"::tabular{format=weap1 a=20 b=6 d=s-~m- e=\"&mdash&\" f=10 g=\"&mdash&\" h=\"see text\" i=ranged j=E k=Thrown}"
 		],
 		"topLink": [ "Ranged Weapons", "main/equipment_weapons_ranged" ]
 	},
@@ -3359,7 +3359,7 @@
 			"",
 			"Like a miniature ‹eq-weapon/blunderbuss›, the dragon pistol fires pellets or a bullet from its flared barrel.",
 			"",
-			"@I-cone The dragon pistol fires in a 15-foot cone when firing pellets, and has a 10-foot range increment when firing a bullet. A dragon pistol uses either a ‹eq-weapon/bullet› or group of ‹eq-weapon/pellets› and 1 dose of ‹eq-weapon/black powder›, or a single ‹eq-weapon/alchemical cartridge› (with either bullets or pellets) as ammunition.",
+			"The dragon pistol fires in a 15-foot cone when firing pellets, and has a 10-foot range increment when firing a bullet. A dragon pistol uses either a ‹eq-weapon/bullet› or group of ‹eq-weapon/pellets› and 1 dose of ‹eq-weapon/black powder›, or a single ‹eq-weapon/alchemical cartridge› (with either bullets or pellets) as ammunition.",
 			"",
 			"This is an early firearm.",
 			"",
@@ -4021,7 +4021,9 @@
 			"",
 			"These expensive ‹eq-weapon/bullet«s› are crafted from ‹eq-material/adamantine›. They ignore hardness 20 or less when attacking objects.",
 			"",
-			"::tabular{format=weap1 a=61 b=x i=ammo j=E}"
+			"::tabular{format=weap1 a=61 b=\"0.0166\" i=ammo j=E}",
+			"",
+			">@HL[Note:] Weight is approximate, based on 30 regular bullets weighing half a pound; 15 bullets therefore weight 0.25 lb. (&frac14; lb.), and 3 bullets weigh 0.05 lb. (&#185;&#8260;&#8322;&#8320; lb.)"
 		],
 		"topLink": [ "Firearms Ammunition", "main/equipment_firearms" ]
 	},
@@ -4037,7 +4039,9 @@
 			"",
 			"@I-boost-lower If fired as part of an ‹skill/Intimidate› check, it imparts a +5 bonus on the check. If used with the ‹deed/startling shot› deed, the target is ‹rule/flat-footed› for an additional round.",
 			"",
-			"::tabular{format=weap1 a=20 b=x i=ammo j=E}"
+			"::tabular{format=weap1 a=20 b=\"0.0166\" i=ammo j=E}",
+			"",
+			">@HL[Note:] Weight is approximate, based on 30 regular bullets weighing half a pound; 15 bullets therefore weight 0.25 lb. (&frac14; lb.), and 3 bullets weigh 0.05 lb. (&#185;&#8260;&#8322;&#8320; lb.)"
 		],
 		"topLink": [ "Firearms Ammunition", "main/equipment_firearms" ]
 	},
@@ -4076,7 +4080,7 @@
 			"",
 			"::tabular{format=weap1 a=1 b=\"0.0166\" i=ammo j=E}",
 			"",
-			">@HL[Note:] Weight is approximate, based on 30 bullets weighing half a pound; 15 bullets weigh 0.25 lb, and 3 bullets weigh 0.05 lb."
+			">@HL[Note:] Weight is approximate, based on 30 bullets weighing half a pound; 15 bullets therefore weight 0.25 lb. (&frac14; lb.), and 3 bullets weigh 0.05 lb. (&#185;&#8260;&#8322;&#8320; lb.)"
 		],
 		"topLink": [ "Firearms Ammunition", "main/equipment_firearms" ]
 	},
@@ -4094,7 +4098,7 @@
 			"",
 			"::tabular{format=weap1 a=25 b=\"0.0166\" i=ammo j=E}",
 			"",
-			">@HL[Note:] Weight is based on 30 regular ‹eq-weapon/bullet«s› weighing half a pound; 15 bullets weigh 0.25 lb, and 3 bullets weigh 0.05 lb."
+			">@HL[Note:] Weight is based on 30 regular ‹eq-weapon/bullet«s› weighing half a pound; 15 bullets therefore weight 0.25 lb. (&frac14; lb.), and 3 bullets weigh 0.05 lb. (&#185;&#8260;&#8322;&#8320; lb.)"
 		],
 		"topLink": [ "Firearms Ammunition", "main/equipment_firearms" ]
 	},
@@ -4147,7 +4151,7 @@
 			"",
 			"::tabular{format=weap1 a=1 b=\"0.0166\" i=ammo j=E}",
 			"",
-			">@HL[Note:] Weight is approximate, based on 30 handfuls weighing half a pound; 15 handfuls weigh 0.25 lb, and 3 handfuls weigh 0.05 lb."
+			">@HL[Note:] Weight is approximate, based on 30 handfuls weighing half a pound; 15 handfuls weight 0.25 lb. (&frac14; lb.), and 3 handfuls weigh 0.05 lb. (&#185;&#8260;&#8322;&#8320; lb.)"
 		],
 		"topLink": [ "Firearms Ammunition", "main/equipment_firearms" ]
 	},
@@ -4168,7 +4172,9 @@
 			"",
 			"A pitted bullet cannot be used with an ‹eq-weapon/alchemical cartridge›. The listed cost does not include the cost of poison.",
 			"",
-			"::tabular{format=weap1 a=5 b=x i=ammo j=E}"
+			"::tabular{format=weap1 a=5 b=\"0.0166\" i=ammo j=E}",
+			"",
+			">@HL[Note:] Weight is approximate, based on 30 regular bullets weighing half a pound; 15 bullets therefore weight 0.25 lb. (&frac14; lb.), and 3 bullets weigh 0.05 lb. (&#185;&#8260;&#8322;&#8320; lb.)"
 		],
 		"topLink": [ "Firearms Ammunition", "main/equipment_firearms" ]
 	},

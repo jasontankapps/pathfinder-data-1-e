@@ -62,7 +62,13 @@ const translateWeight = (x: number) => {
 			case 0.75:
 				return <>&frac34;</>;
 			case 0.1:
-				return <>&#8530;</>
+				return <>&#8530;</>;
+			case 0.15:
+				return <>&#179;&#8260;&#8322;&#8320;</>;
+			case 0.05:
+				return <>&#185;&#8260;&#8322;&#8320;</>;
+			case 0.0166:
+				return <>&#185;&#8260;&#8326;&#8320;</>;
 		}
 		console.log(x, y, z);
 		return "ERROR";
@@ -153,7 +159,7 @@ const FormatObject: { [x: string]: FormatProps } = {
 						<th id={id + "-price"}>Price</th>
 						<td headers={id + "-price"}>{a}</td>
 						<th id={id + "-weight"} colSpan={((c && d) || e) ? 2 : 1}>Weight</th>
-						<td headers={id + "-weight"}>{b}</td>
+						<td headers={id + "-weight"}>{b === "x" ? <>&mdash;</> : b}</td>
 					</tr>
 					{final}
 				</tbody></table>
@@ -284,15 +290,15 @@ const FormatObject: { [x: string]: FormatProps } = {
 						<th id={id + "-weight"} className="hl">Weight</th>
 						<td headers={id + "-weight"}>{
 							verbatim ? b : (
-								weight === weight ? (
-									(mod && weight >= 0 ? "+" : "")
-									+ translateWeight(weight)
-									+ (
+								weight === weight ? <>
+									{(mod && weight >= 0 ? "+" : "")}
+									{translateWeight(weight)}
+									{
 										(mod && weight === 0) ? "" : (
 											(weight <= 1 && weight >= -1) ? " lb." : " lbs."
 										)
-									)
-								) : <>&mdash;</>
+									}
+								</> : <>&mdash;</>
 							)
 						}</td>
 					</tr>
@@ -376,7 +382,7 @@ const FormatObject: { [x: string]: FormatProps } = {
 			// k = weapon groups (ignored if not present)
 			return (
 				<ul>
-					{ h ? <li><b>Special Qualities:</b> {h}</li> : <></> }
+					{ h ? <li><b className="hl">Special Qualities:</b> {h}</li> : <></> }
 					<li><b>Weapon Category:</b> {category(String(i)) || i}</li>
 					{ j === "X" ? <></> : 
 						<li><b>Proficiency Type:</b> {
@@ -388,7 +394,7 @@ const FormatObject: { [x: string]: FormatProps } = {
 						}</li>
 					}
 					{k ? (
-						<li><b><Link to="/ability/weapon_groups">Fighter Weapon Groups</Link></b> {k}</li>
+						<li><b className="hl clean"><Link to="/ability/weapon_groups">Fighter Weapon Groups</Link></b> {k}</li>
 					) : (<></>)}
 				</ul>
 			);
@@ -467,7 +473,13 @@ const FormatObject: { [x: string]: FormatProps } = {
 							<tr>
 								<th scope="row">Deity</th>
 								<td colSpan={3}>{
-									e ? <Link to={"/faith/" + String(e).toLowerCase()}>{e}</Link> : "Any"
+									e ? <Link to={
+										"/faith/"
+										+ String(e)
+											.toLowerCase()
+											.replaceAll(" ", "_")
+											.replaceAll("-", "_")
+									}>{e}</Link> : "Any"
 								}</td>
 							</tr>
 						);
@@ -627,9 +639,9 @@ const FormatObject: { [x: string]: FormatProps } = {
 				const [ , what, amount ] = bit.match(/(brim|lunary|phos|gold|salt|urea|myrrh|wine|real|mag|qs|dw|ci|bp|ge|mw|cs|silv|sp)([0-9]+)/) || ["ERROR", "0"];
 				return `${amount} ${component(what)}`;
 			})).join(" + ");
-			const tools = e || f ? (
+			const tools = e || (f ? (
 				<Link to={"/eq-misc/" + convertTextToLink(String(f))}>{f}</Link>
-			) : <>&mdash;</>;
+			) : <>&mdash;</>);
 			return (
 				<table><tbody>
 					<tr>
@@ -712,7 +724,7 @@ const FormatObject: { [x: string]: FormatProps } = {
 			const {id, p, w, v} = props;
 			// p=price w=weight v=verbatim
 			const price = v ? p : translateGp(Number(p) || 0);
-			const weight = v ? w : translateWeight(Number(w));
+			const weight = v ? w : (w === "w" ? <>&mdash;</> : translateWeight(Number(w)));
 			return (
 				<table><tbody>
 					<tr>
@@ -854,7 +866,7 @@ const Tabular: FC<TabularProps> = (props) => {
 	if(
 		!required.every(x => others[x] !== undefined)
 		|| (
-			possiblyRequired && possiblyRequired.some(
+			possiblyRequired && possiblyRequired.every(
 				pr => !(
 					pr.every(x => others[x] !== undefined)
 					|| pr.every(x => others[x] === undefined)
