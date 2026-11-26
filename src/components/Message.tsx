@@ -1,6 +1,7 @@
 import { FC } from 'react';
 import Link from './Link';
 import Tabular from './Tabular';
+import Icons from './Icons';
 
 interface MessageProps {
 	spelldeitynote?: boolean
@@ -11,13 +12,14 @@ interface MessageProps {
 	lightShield?: boolean
 	heavyShield?: boolean
 	tearaway?: boolean
+	radium?: boolean
 }
 
 const Message: FC<MessageProps> = (props) => {
 	const {
 		spelldeitynote, altCapstoneDesc, archetypeDesc,
 		lesserOrders, lamellar, lightShield, heavyShield,
-		tearaway
+		tearaway, radium
 	} = props;
 	if(spelldeitynote) {
 		return <aside>Some spells are more common among the worshipers of a god. Worshipers of a spell's associated deity always treat the spell as common, and need not research it in order to prepare or learn it. This spell is available to members of other faiths, though some temples or religious organizations may proscribe the use of specific spells. -- <Link to="/source/inner_sea_gods">Inner Sea Gods pg. 228</Link></aside>;
@@ -50,6 +52,12 @@ const Message: FC<MessageProps> = (props) => {
 			<p><b>Sources</b> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 89</Link>; <Link to="/source/adventurers_armory">Adventurer's Armory pg. 19</Link></p>
 			<Tabular format="misc" a={5} b={0} c="M" d="cloth" />
 			<p>Sneaks and thieves know the value of a good disguise. The ability to remove that disguise in a hurry, thus revealing the next layer of disguise, is nearly as valuable. Tear-away clothing is generally loose fitting and allows another layer of clothing to be worn underneath. The seams on this clothing are designed to break easily, making it a simple matter (a <strong className="hl">standard action</strong>) to remove these items and walk away with none the wiser. Any outfit can be crafted as tear-away clothing for an additional price.</p>
+		</>);
+	} else if (radium) {
+		return (<>
+			<h3>Radium Weapons</h3>
+			<p>Barsoomian firearms are stocked with rare local woods. Metal components consist of an alloy of aluminum and steel that exceeds the strength of Earth metals (giving Barsoomian firearms a <Link to="/rule/breaking_things">hardness</Link> of 12). Radium weapons fire special cartridges that must be manufactured under artificial light, as exposure to sunlight results in an explosion. When the cartridges strike their target they shatter, exposing the radium powder within. The moment sunlight strikes this substance it explodes with considerable violence, making the weapons versatile for either direct fire or suppressive fire. Radium weapons follow the general rules for advanced firearms.</p>
+			<p><Icons id="eq-weapon-radium_pistol-splash-icons" wrapper="prefixIcon" list={["splash"]} /> All radium weapons use radium cartridges for ammunition. As a result. in addition to targeting specific creatures or objects, the wielder may fire a radium weapon at an unoccupied square similar to <Link to="rule/throw_splash_weapon">throwing a splash weapon</Link>. All creatures within 15 feet of the targeted square take 2d6 points of bludgeoning, piercing, and slashing damage (Reflex DC 15 half). Radium cartridge damage does not change based on the size of the weapon used to fire them. Radium cartridges cannot be fired effectively in this way outside the rays of the sun, such as underground or at night. Radium cartridges cost 3 gp per cartridge.</p>
 		</>);
 	}
 	return (

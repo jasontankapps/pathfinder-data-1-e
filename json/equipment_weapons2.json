@@ -628,9 +628,7 @@
 			"",
 			"::tabular{format=weap1 a=\"125 gp (+0), 250 gp (+1), 375 gp (+2), 500 gp (+3), and so on\" b=\"2 lbs.\" c=x d=s1d4~m1d6 e=x3 f=100 g=P h=\"see text\" i=ranged j=M}",
 			"",
-			">### Note",
-			"",
-			"The cost for a +0 reflex bow was given as 125 gp, but the cost for upgraded reflex bows was not given in the original source. A composite longbow +0 costs 100 gp and gains +1 for every additional 100 gp. A composite shortbow costs 75 gp and gains +1 for every additional 75 gp. The similar ‹eq-weapon/spear-sling› and ‹eq-weapon/horse bow› follow this same formula. Therefore, the reflex bow was given a +1 modifier of +125 gp. As always, consult your GM for a final ruling."
+			">@HL[Note:] The cost for a +0 reflex bow was given as 125 gp, but the cost for upgraded reflex bows was not given in the original source. A composite longbow +0 costs 100 gp and gains +1 for every additional 100 gp. A composite shortbow costs 75 gp and gains +1 for every additional 75 gp. The similar ‹eq-weapon/spear-sling› and ‹eq-weapon/horse bow› follow this same formula. Therefore, the reflex bow was given a +1 modifier of +125 gp. As always, consult your GM for a final ruling."
 		],
 		"topLink": [ "Ranged Weapons", "main/equipment_weapons_ranged" ]
 	},
@@ -1452,9 +1450,7 @@
 			"",
 			"::tabular{format=weap1 a=20 b=10 d=s1d6~m1d8 e=x2 f=x g=B h=\"‹misc/reach›, ‹misc/trip›\" i=one j=E}",
 			"",
-			">### Note",
-			"",
-			"The original source had no description. The description above is taken from the 2nd edition [Player Core](https://paizo.com/products/btq02ej2) book, page 279."
+			">@HL[Note:] The original source had no description. The description above is taken from the 2nd edition [Player Core](https://paizo.com/products/btq02ej2) book, page 279."
 		],
 		"topLink": [ "One-Handed Weapons", "main/equipment_weapons_one_handed" ]
 	},
@@ -2803,9 +2799,7 @@
 			"",
 			"::tabular{format=weap1 a=\"130 gp (+0), 260 gp (+1), 390 gp (+2), 520 gp (+3), and so on\" b=\"7 lbs.\" c=x d=s1d8~m2d6 e=x3 f=80 g=P i=ranged j=E k=Bows}",
 			"",
-			">### Note",
-			"",
-			"The cost for a +0 orc hornbow was given as 130 gp, but the cost for upgraded hornbows was not given in the original source. A composite longbow +0 costs 100 gp and gains +1 for every additional 100 gp. A composite shortbow costs 75 gp and gains +1 for every additional 75 gp. The similar ‹eq-weapon/spear-sling› and ‹eq-weapon/horse bow› follow this same formula. Therefore, the orc hornbow was given a +1 modifier of +130 gp. As always, consult your GM for a final ruling."
+			">@HL[Note:] The cost for a +0 orc hornbow was given as 130 gp, but the cost for upgraded hornbows was not given in the original source. A composite longbow +0 costs 100 gp and gains +1 for every additional 100 gp. A composite shortbow costs 75 gp and gains +1 for every additional 75 gp. The similar ‹eq-weapon/spear-sling› and ‹eq-weapon/horse bow› follow this same formula. Therefore, the orc hornbow was given a +1 modifier of +130 gp. As always, consult your GM for a final ruling."
 		],
 		"topLink": [ "Ranged Weapons", "main/equipment_weapons_ranged" ]
 	},
@@ -3273,14 +3267,11 @@
 			"## Breech-loader",
 			"‹SOURCE Heroes of Golarion/18›",
 			"",
-			"This ‹eq-weapon/double-barreled pistol› variant has its barrel attached to its stock by a hinge, enabling ammunition to be loaded quickly and easily. Reloading a breech-loader is a standard action that reloads both barrels; the ‹feat/Rapid Reload› feat reduces this to a move action.",
+			"This ‹eq-weapon/double-barreled pistol› variant has its barrel attached to its stock by a hinge, enabling ammunition to be loaded quickly and easily. Reloading a breech-loader is a @SA that reloads both barrels; the ‹feat/Rapid Reload› feat reduces this to a @MA.",
 			"",
-			"**Cost** 3,000 gp **Weight** 4 lbs.  ",
-			"**Damage** 1d4 (small), 1d6 (medium); **Critical** &times;4; **Range** 20 ft.; **Type** B and P; **Special** -  ",
-			"**Misfire** 1 (5 ft.); **Capacity** 2  ",
-			"**Category** One-Handed; **Proficiency** Exotic"
+			"::tabular{format=weap1 a=3000 b=4 d=s1d4~m1d6 e=x4 f=20 g=\"B and P\" m=\"1 (5 ft.)\" n=2 i=one j=E}"
 		],
-		"topLink": [ "One-Handed Weapons", "main/equipment_weapons_one_handed" ]
+		"topLink": [ "Firearms", "main/equipment_firearms" ]
 	},
 	"buckler_gun": {
 		"name": "Buckler gun",
@@ -3292,14 +3283,13 @@
 			"## Buckler gun",
 			"‹SOURCE Ultimate Equipment/43;Ultimate Combat/137›",
 			"",
-			"The front of this ‹eq-armor/buckler› is fitted with a small, double-barreled gun that can be shot while wearing the buckler. Unlike with a ‹eq-weapon/double-barreled pistol›, you can shoot only one barrel at a time. You must remove the buckler to reload the gun. Each barrel of a buckler gun uses either a ‹eq-weapon/bullet› and 1 dose of ‹eq-weapon/black powder› or a single ‹eq-weapon/alchemical cartridge› as ammunition. Because of its awkward construction, a buckler gun is always considered an off-handed weapon. This is an early firearm.",
+			"The front of this ‹eq-armor/buckler› is fitted with a small, double-barreled gun that can be shot while wearing the buckler. Unlike with a ‹eq-weapon/double-barreled pistol›, you can shoot only one barrel at a time. You must remove the buckler to reload the gun.",
 			"",
-			"**Cost** 750 gp **Weight** 6 lbs.  ",
-			"**Damage** 1d4 (small), 1d6 (medium); **Critical** &times;4; **Range** 10 ft.; **Type** B and P; **Special** -  ",
-			"**Misfire** 1 (5 ft.); **Capacity** 2  ",
-			"**Category** One-Handed; **Proficiency** Exotic"
+			"@I-info Each barrel of a buckler gun uses either a ‹eq-weapon/bullet› and 1 dose of ‹eq-weapon/black powder› or a single ‹eq-weapon/alchemical cartridge› as ammunition. Because of its awkward construction, a buckler gun is always considered an ‹rule/off-hand«ed› weapon. This is an early firearm.",
+			"",
+			"::tabular{format=weap1 a=750 b=6 d=s1d4~m1d6 e=x4 f=10 g=\"B and P\" m=\"1 (5 ft.)\" n=2 i=one j=E}"
 		],
-		"topLink": [ "One-Handed Weapons", "main/equipment_weapons_one_handed" ]
+		"topLink": [ "Firearms", "main/equipment_firearms" ]
 	},
 	"coat_pistol": {
 		"name": "Coat pistol",
@@ -3311,14 +3301,13 @@
 			"## Coat pistol",
 			"‹SOURCE Ultimate Equipment/43;Ultimate Combat/139›",
 			"",
-			"Though less powerful than other, larger firearms, this pistol is small enough to be easily concealed in a jacket or coat. You get a +2 bonus on Sleight of Hand checks made to conceal a coat pistol on your body. A coat pistol uses either a ‹eq-weapon/bullet› and 1 dose of ‹eq-weapon/black powder› or a single ‹eq-weapon/alchemical cartridge› as ammunition. This is an early firearm.",
+			"@I-def Though less powerful than other, larger firearms, this pistol is small enough to be easily concealed in a jacket or coat. You get a +2 bonus on ‹skill/Sleight of Hand› checks made to conceal a coat pistol on your body.",
 			"",
-			"**Cost** 750 gp **Weight** 1 lb.  ",
-			"**Damage** 1d3 (small), 1d4 (medium); **Critical** &times;3; **Range** 10 ft.; **Type** B and P; **Special** -  ",
-			"**Misfire** 1 (5 ft.); **Capacity** 1  ",
-			"**Category** One-Handed; **Proficiency** Exotic"
+			"@I-info A coat pistol uses either a ‹eq-weapon/bullet› and 1 dose of ‹eq-weapon/black powder› or a single ‹eq-weapon/alchemical cartridge› as ammunition. This is an early firearm.",
+			"",
+			"::tabular{format=weap1 a=750 b=1 d=s1d3~m1d4 e=x3 f=10 g=\"B and P\" m=\"1 (5 ft.)\" n=1 i=one j=E}"
 		],
-		"topLink": [ "One-Handed Weapons", "main/equipment_weapons_one_handed" ]
+		"topLink": [ "Firearms", "main/equipment_firearms" ]
 	},
 	"dagger_pistol": {
 		"name": "Dagger pistol",
@@ -3330,14 +3319,13 @@
 			"## Dagger pistol",
 			"‹SOURCE Ultimate Equipment/43;Ultimate Combat/139›",
 			"",
-			"A combination of a coat pistol and a blade, the dagger pistol can be used as both weapons. The awkwardness of the configuration means you do not gain the bonus on Sleight of Hand checks that either of those stand-alone weapons grants. The dagger pistol is considered a double weapon for the purpose of creating masterwork or magical versions of this weapon. If this firearm gains the ‹misc/broken› condition, both the firearm component and the dagger component are considered broken. A dagger pistol uses either a ‹eq-weapon/bullet› and 1 dose of ‹eq-weapon/black powder› or a single ‹eq-weapon/alchemical cartridge› as ammunition. This is an early firearm.",
+			"@I-info A combination of a ‹eq-weapon/coat pistol› and a [blade](eq-weapon/dagger), the dagger pistol can be used as both weapons. The awkwardness of the configuration means you do not gain the bonus on ‹skill/Sleight of Hand› checks that either of those stand-alone weapons grants. The dagger pistol is considered a ‹misc/double› weapon for the purpose of creating ‹rule/masterwork<_w› or magical versions of this weapon.",
 			"",
-			"**Cost** 740 gp **Weight** 1 lb.  ",
-			"**Damage** 1d3 (small), 1d4 (medium); **Critical** &times;3; **Range** 10 ft.; **Type** B and P; **Special** -  ",
-			"**Misfire** 1 (5 ft.); **Capacity** 1  ",
-			"**Category** One-Handed; **Proficiency** Exotic"
+			"If this firearm gains the ‹misc/broken› condition, both the firearm component and the dagger component are considered broken. A dagger pistol uses either a ‹eq-weapon/bullet› and 1 dose of ‹eq-weapon/black powder› or a single ‹eq-weapon/alchemical cartridge› as ammunition. This is an early firearm.",
+			"",
+			"::tabular{format=weap1 a=740 b=1 d=s1d3~m1d4 e=x3 f=10 g=\"B and P\" m=\"1 (5 ft.)\" n=1 i=one j=E}"
 		],
-		"topLink": [ "One-Handed Weapons", "main/equipment_weapons_one_handed" ]
+		"topLink": [ "Firearms", "main/equipment_firearms" ]
 	},
 	"double_barreled_pistol": {
 		"name": "Double-barreled pistol",
@@ -3349,14 +3337,15 @@
 			"## Double-barreled pistol",
 			"‹SOURCE Ultimate Equipment/43;Ultimate Combat/139›",
 			"",
-			"This pistol has two parallel barrels; each barrel can be fired independently as separate attacks, or both can be fired at once as a standard action (the attack action). If both barrels are shot at once, they must both target the same creature or object, and the pistol becomes wildly inaccurate, imposing a -4 penalty on each shot. This is an early firearm.",
+			"@I-info This pistol has two parallel barrels; each barrel can be fired independently as separate attacks, or both can be fired at once as a @SA (the attack action).",
 			"",
-			"**Cost** 1,750 gp **Weight** 5 lbs.  ",
-			"**Damage** 1d6 (small), 1d8 (medium); **Critical** &times;4; **Range** 20 ft.; **Type** B and P; **Special** -  ",
-			"**Misfire** 1-2 (5 ft.); **Capacity** 2  ",
-			"**Category** One-Handed; **Proficiency** Exotic"
+			"@I-warning If both barrels are shot at once, they must both target the same creature or object, and the pistol becomes wildly inaccurate, imposing a -4 penalty on each shot.",
+			"",
+			"This is an early firearm.",
+			"",
+			"::tabular{format=weap1 a=1750 b=5 d=s1d6~m1d8 e=x4 f=20 g=\"B and P\" m=\"1-2 (5 ft.)\" n=2 i=one j=E}"
 		],
-		"topLink": [ "One-Handed Weapons", "main/equipment_weapons_one_handed" ]
+		"topLink": [ "Firearms", "main/equipment_firearms" ]
 	},
 	"dragon_pistol": {
 		"name": "Dragon pistol",
@@ -3368,14 +3357,15 @@
 			"## Dragon pistol",
 			"‹SOURCE Ultimate Equipment/43;Ultimate Combat/139›",
 			"",
-			"Like a miniature ‹eq-weapon/blunderbuss›, the dragon pistol fires pellets or a bullet from its flared barrel. The dragon pistol fires in a 15-foot cone when firing pellets, and has a 10-foot range increment when firing a bullet. A dragon pistol uses either a ‹eq-weapon/bullet› or group of ‹eq-weapon/pellets› and 1 dose of ‹eq-weapon/black powder›, or a single ‹eq-weapon/alchemical cartridge› (with either bullets or pellets) as ammunition. This is an early firearm.",
+			"Like a miniature ‹eq-weapon/blunderbuss›, the dragon pistol fires pellets or a bullet from its flared barrel.",
 			"",
-			"**Cost** 1,000 gp **Weight** 3 lbs.  ",
-			"**Damage** 1d4 (small), 1d6 (medium); **Critical** &times;4; **Range** special; **Type** B and P; **Special** scatter  ",
-			"**Misfire** 1-2 (5 ft.); **Capacity** 1  ",
-			"**Category** One-Handed; **Proficiency** Exotic"
+			"@I-cone The dragon pistol fires in a 15-foot cone when firing pellets, and has a 10-foot range increment when firing a bullet. A dragon pistol uses either a ‹eq-weapon/bullet› or group of ‹eq-weapon/pellets› and 1 dose of ‹eq-weapon/black powder›, or a single ‹eq-weapon/alchemical cartridge› (with either bullets or pellets) as ammunition.",
+			"",
+			"This is an early firearm.",
+			"",
+			"::tabular{format=weap1 a=1000 b=3 d=s1d4~m1d6 e=x4 f=special g=\"B and P\" h=\"‹misc/scatter›\" m=\"1-2 (5 ft.)\" n=1 i=one j=E}"
 		],
-		"topLink": [ "One-Handed Weapons", "main/equipment_weapons_one_handed" ]
+		"topLink": [ "Firearms", "main/equipment_firearms" ]
 	},
 	"dragoon_pistol": {
 		"name": "Dragoon Pistol",
@@ -3386,12 +3376,9 @@
 			"",
 			"Like the ‹eq-weapon/dragoon musket›, this long-barreled pistol is more precise than a typical pistol but slightly less deadly on a critical hit. It can fire only ‹eq-weapon/dragoon cartridge«s› or specially modified ‹magic-weapon/mage shot›.",
 			"",
-			"**Cost** 1,500 gp **Weight** 5 lbs.  ",
-			"**Damage** 1d6 (small), 1d8 (medium); **Critical** &times;3; **Range** 30 ft.; **Type** B and P; **Special** -  ",
-			"**Misfire** 1 (5 ft.); **Capacity** 3  ",
-			"**Category** One-Handed; **Proficiency** Exotic"
+			"::tabular{format=weap1 a=1500 b=5 d=s1d6~m1d8 e=x3 f=30 g=\"B and P\" m=\"1 (5 ft.)\" n=3 i=one j=E}"
 		],
-		"topLink": [ "One-Handed Weapons", "main/equipment_weapons_one_handed" ]
+		"topLink": [ "Firearms", "main/equipment_firearms" ]
 	},
 	"paddle_foot_pistol": {
 		"name": "Paddle-foot pistol",
@@ -3400,14 +3387,15 @@
 			"## Paddle-foot pistol",
 			"‹SOURCE People of the Wastes/15›",
 			"",
-			"This early firearm has four barrels, each of which can be fired one at a time with a single adjustable flintlock. The paddle-foot pistol fires in a 20-foot cone when making a scattering shot, and it has a 20-foot range increment when firing a bullet. Additionally, the paddle-foot pistol has a maximum range of three range increments. Each barrel of a paddle-foot pistol can hold 1 dose of ‹eq-weapon/black powder›, along with either ‹eq-weapon/pellets› or a ‹eq-weapon/bullet›, or it can hold a single ‹eq-weapon/alchemical cartridge›.",
+			"This early firearm has four barrels, each of which can be fired one at a time with a single adjustable flintlock.",
 			"",
-			"**Cost** 2,500 gp **Weight** 5 lbs.  ",
-			"**Damage** 1d4 (small), 1d6 (medium); **Critical** &times;3; **Range** 20 ft.; **Type** B and P; **Special** scatter  ",
-			"**Misfire** 1-2 (5 ft.); **Capacity** 4  ",
-			"**Category** One-Handed; **Proficiency** Exotic"
+			"@I-info The paddle-foot pistol fires in a 20-foot cone when making a scattering shot, and it has a 20-foot range increment when firing a bullet. Additionally, the paddle-foot pistol has a maximum range of three range increments.",
+			"",
+			"Each barrel of a paddle-foot pistol can hold 1 dose of ‹eq-weapon/black powder›, along with either ‹eq-weapon/pellets› or a ‹eq-weapon/bullet›, or it can hold a single ‹eq-weapon/alchemical cartridge›.",
+			"",
+			"::tabular{format=weap1 a=2500 b=5 d=s1d4~m1d6 e=x3 f=20 g=\"B and P\" h=\"‹misc/scatter›\" m=\"1-2 (5 ft.)\" n=4 i=one j=E}"
 		],
-		"topLink": [ "One-Handed Weapons", "main/equipment_weapons_one_handed" ]
+		"topLink": [ "Firearms", "main/equipment_firearms" ]
 	},
 	"pepperbox": {
 		"name": "Pepperbox",
@@ -3419,14 +3407,11 @@
 			"## Pepperbox",
 			"‹SOURCE Ultimate Equipment/43;Ultimate Combat/138›",
 			"",
-			"This pistol has six barrels instead of one. The entire barrel housing can be quickly rotated by hand between shots (a free action requiring one free hand), allowing all six bullets to be fired before the weapon must be reloaded. Each barrel of a pepperbox uses either a ‹eq-weapon/bullet› and 1 dose of ‹eq-weapon/black powder› or a single ‹eq-weapon/alchemical cartridge› as ammunition. This is an early firearm.",
+			"This ‹eq-weapon/pistol› has six barrels instead of one. The entire barrel housing can be quickly rotated by hand between shots (a @FA requiring one free hand), allowing all six bullets to be fired before the weapon must be reloaded. Each barrel of a pepperbox uses either a ‹eq-weapon/bullet› and 1 dose of ‹eq-weapon/black powder› or a single ‹eq-weapon/alchemical cartridge› as ammunition. This is an early firearm.",
 			"",
-			"**Cost** 3,000 gp **Weight** 5 lbs.  ",
-			"**Damage** 1d6 (small), 1d8 (medium); **Critical** &times;4; **Range** 20 ft.; **Type** B and P; **Special** -  ",
-			"**Misfire** 1-2 (5 ft.); **Capacity** 6  ",
-			"**Category** One-Handed; **Proficiency** Exotic"
+			"::tabular{format=weap1 a=3000 b=5 d=s1d6~m1d8 e=x4 f=20 g=\"B and P\" m=\"1-2 (5 ft.)\" n=6 i=one j=E}"
 		],
-		"topLink": [ "One-Handed Weapons", "main/equipment_weapons_one_handed" ]
+		"topLink": [ "Firearms", "main/equipment_firearms" ]
 	},
 	"pistol": {
 		"name": "Pistol",
@@ -3442,12 +3427,9 @@
 			"",
 			"A pistol uses either a ‹eq-weapon/bullet› and 1 dose of ‹eq-weapon/black powder› or a single ‹eq-weapon/alchemical cartridge› as ammunition. This is an early firearm.",
 			"",
-			"**Cost** 1,000 gp **Weight** 4 lbs.  ",
-			"**Damage** 1d6 (small), 1d8 (medium); **Critical** &times;4; **Range** 20 ft.; **Type** B and P; **Special** -  ",
-			"**Misfire** 1 (5 ft.); **Capacity** 1  ",
-			"**Category** One-Handed; **Proficiency** Exotic"
+			"::tabular{format=weap1 a=1000 b=4 d=s1d6~m1d8 e=x4 f=20 g=\"B and P\" m=\"1 (5 ft.)\" n=1 i=one j=E}"
 		],
-		"topLink": [ "One-Handed Weapons", "main/equipment_weapons_one_handed" ]
+		"topLink": [ "Firearms", "main/equipment_firearms" ]
 	},
 	"sword_cane_pistol": {
 		"name": "Sword cane pistol",
@@ -3459,14 +3441,17 @@
 			"## Sword cane pistol",
 			"‹SOURCE Ultimate Equipment/43;Ultimate Combat/139›",
 			"",
-			"A combination weapon, this gun mixes a ‹eq-weapon/coat pistol› with a ‹eq-weapon/sword cane›. The sword cane pistol is considered a double weapon for the purpose of creating masterwork or magical versions of this weapon. The pistol attachment makes the nature of the weapon a little more difficult to hide. An observer must succeed at a DC 15 Perception check to realize that an undrawn sword cane pistol is a weapon rather than a simple walking stick; the DC decreases to 5 if the observer is able to handle the weapon. A sword cane pistol uses either a ‹eq-weapon/bullet› and 1 dose of ‹eq-weapon/black powder› or a single ‹eq-weapon/alchemical cartridge› as ammunition. The sword part of the weapon must be drawn in order to load the pistol part of the weapon. This is an early firearm.",
+			"A combination weapon, this gun mixes a ‹eq-weapon/coat pistol› with a ‹eq-weapon/sword cane›.",
 			"",
-			"**Cost** 775 gp **Weight** 1 lb.  ",
-			"**Damage** 1d3 (small), 1d4 (medium); **Critical** &times;3; **Range** 10 ft.; **Type** B and P; **Special** -  ",
-			"**Misfire** 1 (5 ft.); **Capacity** 1  ",
-			"**Category** One-Handed; **Proficiency** Exotic"
+			"The sword cane pistol is considered a ‹misc/double› weapon for the purpose of creating ‹rule/masterwork<_w› or magical versions of this weapon.",
+			"",
+			"@I-warning The pistol attachment makes the nature of the weapon a little more difficult to hide. An observer must succeed at a DC 15 ‹skill/Perception› check to realize that an undrawn sword cane pistol is a weapon rather than a simple walking stick; the DC decreases to 5 if the observer is able to handle the weapon.",
+			"",
+			"A sword cane pistol uses either a ‹eq-weapon/bullet› and 1 dose of ‹eq-weapon/black powder› or a single ‹eq-weapon/alchemical cartridge› as ammunition. The sword part of the weapon must be drawn in order to load the pistol part of the weapon. This is an early firearm.",
+			"",
+			"::tabular{format=weap1 a=775 b=1 d=s1d3~m1d4 e=x3 f=10 g=\"B and P\" m=\"1 (5 ft.)\" n=1 i=one j=E}"
 		],
-		"topLink": [ "One-Handed Weapons", "main/equipment_weapons_one_handed" ]
+		"topLink": [ "Firearms", "main/equipment_firearms" ]
 	},
 	"air_repeater": {
 		"name": "Air repeater",
@@ -3475,14 +3460,13 @@
 			"## Air repeater",
 			"‹SOURCE Heroes of Golarion/18›",
 			"",
-			"This long-barreled firearm is powered by a removable compressed ‹eq-weapon/air reservoir›. A misfire while an air repeater has the broken condition does not cause the firearm to explode, but it does destroy the air reservoir. An air repeater can fire 6 shots before the air reservoir is depleted. An air repeater comes with three air reservoirs. Replacing the air reservoir requires 1 minute. The ‹feat/Rapid Reload› feat reduces this to a full-round action.",
+			"This long-barreled firearm is powered by a removable compressed ‹eq-weapon/air reservoir›.",
 			"",
-			"**Cost** 600 gp **Weight** 6 lbs.  ",
-			"**Damage** 1d6 (small), 1d8 (medium); **Critical** &times;4; **Range** 50 ft.; **Type** B and P; **Special** -  ",
-			"**Misfire** 1 (see text); **Capacity** 6  ",
-			"**Category** Two-Handed; **Proficiency** Exotic"
+			"@I-info A misfire while an air repeater has the ‹misc/broken› condition does not cause the firearm to explode, but it does destroy the air reservoir. An air repeater can fire 6 shots before the air reservoir is depleted. An air repeater comes with three air reservoirs. Replacing the air reservoir requires 1 minute. The ‹feat/Rapid Reload› feat reduces this to a @RA.",
+			"",
+			"::tabular{format=weap1 a=600 b=6 d=s1d6~m1d8 e=x4 f=50 g=\"B and P\" m=\"1 (see text)\" n=6 i=two j=E}"
 		],
-		"topLink": [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ]
+		"topLink": [ "Firearms", "main/equipment_firearms" ]
 	},
 	"axe_musket": {
 		"name": "Axe musket",
@@ -3494,14 +3478,13 @@
 			"## Axe musket",
 			"‹SOURCE Ultimate Equipment/43;Ultimate Combat/137›",
 			"",
-			"This short musket features an axe blade at the end of its barrel. It can be used as both a ‹eq-weapon/musket› and a ‹eq-weapon/battleaxe›. It is considered a double weapon for the purposes of creating masterwork or magical versions of this weapon. If this firearm gains the broken condition, both the firearm component and the axe are considered broken. An axe musket uses either a ‹eq-weapon/bullet› and a single dose of ‹eq-weapon/black powder› or an ‹eq-weapon/alchemical cartridge› as ammunition. This is an early firearm.",
+			"This short musket features an axe blade at the end of its barrel. It can be used as both a ‹eq-weapon/musket› and a ‹eq-weapon/battleaxe›. It is considered a ‹misc/double› weapon for the purposes of creating ‹rule/masterwork<_w› or magical versions of this weapon. If this firearm gains the ‹misc/broken› condition, both the firearm component and the axe are considered broken.",
 			"",
-			"**Cost** 1,600 gp **Weight** 6 lbs.  ",
-			"**Damage** 1d6 (small), 1d8 (medium); **Critical** &times;4; **Range** 30 ft.; **Type** B and P; **Special** -  ",
-			"**Misfire** 1-2 (5 ft.); **Capacity** 1  ",
-			"**Category** Two-Handed; **Proficiency** Exotic"
+			"An axe musket uses either a ‹eq-weapon/bullet› and a single dose of ‹eq-weapon/black powder› or an ‹eq-weapon/alchemical cartridge› as ammunition. This is an early firearm.",
+			"",
+			"::tabular{format=weap1 a=1600 b=6 d=s1d6~m1d8 e=x4 f=30 g=\"B and P\" m=\"1-2 (5 ft.)\" n=1 i=two j=E}"
 		],
-		"topLink": [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ]
+		"topLink": [ "Firearms", "main/equipment_firearms" ]
 	},
 	"blunderbuss": {
 		"name": "Blunderbuss",
@@ -3513,14 +3496,13 @@
 			"## Blunderbuss",
 			"‹SOURCE Ultimate Equipment/43;Ultimate Combat/137›",
 			"",
-			"This weapon fires ‹eq-weapon/pellets› or a ‹eq-weapon/bullet› from its trumpet-shaped barrel, making it an effective fowling weapon or close-fighting personal defense weapon. The blunderbuss fires in a 15-foot cone when firing pellets, and has a 10-foot range increment when firing a bullet. A blunderbuss uses a bullet or pellets and a single dose of ‹eq-weapon/black powder› or a single ‹eq-weapon/alchemical cartridge› as ammunition. This is an early firearm.",
+			"This weapon fires ‹eq-weapon/pellets› or a ‹eq-weapon/bullet› from its trumpet-shaped barrel, making it an effective fowling weapon or close-fighting personal defense weapon. The blunderbuss fires in a 15-foot cone when firing pellets, and has a 10-foot range increment when firing a bullet.",
 			"",
-			"**Cost** 2,000 gp **Weight** 8 lbs.  ",
-			"**Damage** 1d6 (small), 1d8 (medium); **Critical** &times;2; **Range** special; **Type** B and P; **Special** scatter  ",
-			"**Misfire** 1-2 (10 ft.); **Capacity** 1  ",
-			"**Category** Two-Handed; **Proficiency** Exotic"
+			"A blunderbuss uses a bullet or pellets and a single dose of ‹eq-weapon/black powder› or a single ‹eq-weapon/alchemical cartridge› as ammunition. This is an early firearm.",
+			"",
+			"::tabular{format=weap1 a=2000 b=8 d=s1d6~m1d8 e=x2 f=special g=\"B and P\" h=\"‹misc/scatter›\" m=\"1-2 (10 ft.)\" n=1 i=two j=E}"
 		],
-		"topLink": [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ]
+		"topLink": [ "Firearms", "main/equipment_firearms" ]
 	},
 	"culverin": {
 		"name": "Culverin",
@@ -3532,14 +3514,15 @@
 			"## Culverin",
 			"‹SOURCE Ultimate Equipment/43;Ultimate Combat/137›",
 			"",
-			"The culverin, also known as a hand bombard, consists of a simple smoothbore tube, sealed at one end except for a small hole used to ignite a gunpowder charge. A wooden stock partially encases the barrel, allowing you to hold it under your arm with relative ease when carrying it. Firing a culverin without support (such as a wall, a window, or a stand) imposes a -4 penalty on attack rolls, and knocks you ‹rule/prone›. A culverin uses 4 doses of ‹eq-weapon/black powder› and grapeshot (a handful of ‹eq-weapon/pellets›) as ammunition. Note that these statistics simulate only the original, hand-held culverins - their larger descendants are considered cannons and are dealt with in the siege weapon section. This is an early firearm.",
+			"The culverin, also known as a hand bombard, consists of a simple smoothbore tube, sealed at one end except for a small hole used to ignite a gunpowder charge. A wooden stock partially encases the barrel, allowing you to hold it under your arm with relative ease when carrying it.",
 			"",
-			"**Cost** 4,000 gp **Weight** 40 lbs.  ",
-			"**Damage** 2d6 (small), 2d8 (medium); **Critical** &times;4; **Range** 30 ft.; **Type** B and P; **Special** scatter  ",
-			"**Misfire** 1 (10 ft.); **Capacity** 1  ",
-			"**Category** Two-Handed; **Proficiency** Exotic"
+			"@I-warning Firing a culverin without support (such as a wall, a window, or a stand) imposes a -4 penalty on attack rolls, and knocks you ‹rule/prone›. A culverin uses 4 doses of ‹eq-weapon/black powder› and grapeshot (a handful of ‹eq-weapon/pellets›) as ammunition.",
+			"",
+			"@I-info Note that these statistics simulate only the original, hand-held culverins - their larger descendants are considered ‹eq-siegeengine/cannon«s›. This is an early firearm.",
+			"",
+			"::tabular{format=weap1 a=4000 b=40 d=s2d6~m2d8 e=x4 f=30 g=\"B and P\" h=\"‹misc/scatter›\" m=\"1 (10 ft.)\" n=1 i=two j=E}"
 		],
-		"topLink": [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ]
+		"topLink": [ "Firearms", "main/equipment_firearms" ]
 	},
 	"cylinder_rifle": {
 		"name": "Cylinder rifle",
@@ -3548,14 +3531,15 @@
 			"## Cylinder rifle",
 			"‹SOURCE People of the Wastes/15›",
 			"",
-			"This long-barreled early firearm has a slim horizontal disk with eight uncovered slots, each of which can hold one ‹eq-weapon/bullet› and 1 dose of ‹eq-weapon/black powder› (but not alchemical cartridges). Each time the weapon is fired, the disk rotates to load the next available shot. Misfiring with a cylinder rifle causes rogue sparks to cause the gun to erratically fire all the remaining bullets loaded in the disk, and each stray bullet has a 50% chance to hit the wielder, dealing 1d6 points of damage. Reloading a cylinder rifle requires two full-round actions, regardless of the number of slots being loaded. The ‹feat/Rapid Reload› feat reduces this to a single full-round action.",
+			"This long-barreled early firearm has a slim horizontal disk with eight uncovered slots, each of which can hold one ‹eq-weapon/bullet› and 1 dose of ‹eq-weapon/black powder› (but not alchemical cartridges). Each time the weapon is fired, the disk rotates to load the next available shot.",
 			"",
-			"**Cost** 6,000 gp **Weight** 12 lbs.  ",
-			"**Damage** 1d6 (small), 1d8 (medium); **Critical** &times;4; **Range** 40 ft.; **Type** B and P; **Special** -  ",
-			"**Misfire** 1-3 (10 ft.); **Capacity** 8  ",
-			"**Category** Two-Handed; **Proficiency** Exotic"
+			"@I-warning Misfiring with a cylinder rifle causes rogue sparks to cause the gun to erratically fire all the remaining bullets loaded in the disk, and each stray bullet has a 50% chance to hit the wielder, dealing 1d6 points of damage.",
+			"",
+			"@I-info Reloading a cylinder rifle requires two @HL[full-round actions], regardless of the number of slots being loaded. The ‹feat/Rapid Reload› feat reduces this to a single @RA.",
+			"",
+			"::tabular{format=weap1 a=6000 b=12 d=s1d6~m1d8 e=x4 f=40 g=\"B and P\" m=\"1-3 (10 ft.)\" n=8 i=two j=E}"
 		],
-		"topLink": [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ]
+		"topLink": [ "Firearms", "main/equipment_firearms" ]
 	},
 	"double_hackbut": {
 		"name": "Double hackbut",
@@ -3567,14 +3551,17 @@
 			"## Double hackbut",
 			"‹SOURCE Ultimate Equipment/43;Ultimate Combat/137›",
 			"",
-			"This double-length rifle uses a pair of trunnions to mount its barrel into a swiveling mechanism fastened to the top of a lightweight, two-wheeled carriage. It takes a full-round action to set up the carriage. The carriage has a hind leg, allowing the wielder to wheel the device about and immediately prop it for stability during combat. Unlike other two-handed firearms, you must fire the double hackbut while it is mounted, or else firing it imparts a -4 penalty on attack rolls and the recoil knocks you ‹rule/prone›. A Large or larger creature can fire a double hackbut one size smaller than itself without the gun's mounting as a normal two-handed weapon and without the danger of being knocked prone, but takes the normal penalty for firing an ‹misc/inappropriately sized weapon›. This is an early firearm.",
+			"This double-length ‹eq-weapon/rifle› uses a pair of trunnions to mount its barrel into a swiveling mechanism fastened to the top of a lightweight, two-wheeled carriage.",
 			"",
-			"**Cost** 4,000 gp **Weight** 18 lbs.  ",
-			"**Damage** 2d10 (small), 2d12 (medium); **Critical** &times;4; **Range** 50 ft.; **Type** B and P; **Special** -  ",
-			"**Misfire** 1-2 (5 ft.); **Capacity** 2  ",
-			"**Category** Two-Handed; **Proficiency** Exotic"
+			"@I-info It takes a @RA to set up the carriage. The carriage has a hind leg, allowing the wielder to wheel the device about and immediately prop it for stability during combat.",
+			"",
+			"@I-warning Unlike other two-handed firearms, you must fire the double hackbut while it is mounted, or else firing it imparts a -4 penalty on attack rolls and the recoil knocks you ‹rule/prone›. A Large or larger creature can fire a double hackbut one size smaller than itself without the gun's mounting as a normal two-handed weapon and without the danger of being knocked prone, but takes the normal penalty for firing an ‹misc/inappropriately sized weapon›.",
+			"",
+			"This is an early firearm.",
+			"",
+			"::tabular{format=weap1 a=4000 b=18 d=s2d10~m2d12 e=x4 f=50 g=\"B and P\" m=\"1-2 (5 ft.)\" n=2 i=two j=E}"
 		],
-		"topLink": [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ]
+		"topLink": [ "Firearms", "main/equipment_firearms" ]
 	},
 	"double_barreled_musket": {
 		"name": "Double-barreled musket",
@@ -3586,14 +3573,15 @@
 			"## Double-barreled musket",
 			"‹SOURCE Ultimate Equipment/43;Ultimate Combat/138›",
 			"",
-			"This musket has two parallel barrels; each barrel can be shot independently as separate attacks, or both can be fired at once as a standard action (the attack action). If both barrels are fired at once, they must both target the same creature or object, and the gun becomes wildly inaccurate, taking a -4 penalty on each shot. Each barrel of a double-barreled musket uses either a ‹eq-weapon/bullet› and 1 dose of ‹eq-weapon/black powder› or a single ‹eq-weapon/alchemical cartridge› as ammunition. This is an early firearm.",
+			"This musket has two parallel barrels; each barrel can be shot independently as separate attacks, or both can be fired at once as a @SA (the attack action).",
 			"",
-			"**Cost** 2,500 gp **Weight** 11 lbs.  ",
-			"**Damage** 1d10 (small), 1d12 (medium); **Critical** &times;4; **Range** 10 ft.; **Type** B and P; **Special** -  ",
-			"**Misfire** 1-3 (5 ft.); **Capacity** 2  ",
-			"**Category** Two-Handed; **Proficiency** Exotic"
+			"@I-warning If both barrels are fired at once, they must both target the same creature or object, and the gun becomes wildly inaccurate, taking a -4 penalty on each shot.",
+			"",
+			"Each barrel of a double-barreled musket uses either a ‹eq-weapon/bullet› and 1 dose of ‹eq-weapon/black powder› or a single ‹eq-weapon/alchemical cartridge› as ammunition. This is an early firearm.",
+			"",
+			"::tabular{format=weap1 a=2500 b=11 d=s1d10~m1d12 e=x4 f=10 g=\"B and P\" m=\"1-3 (5 ft.)\" n=2 i=two j=E}"
 		],
-		"topLink": [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ]
+		"topLink": [ "Firearms", "main/equipment_firearms" ]
 	},
 	"dragoon_musket": {
 		"name": "Dragoon Musket",
@@ -3602,14 +3590,11 @@
 			"## Dragoon Musket",
 			"‹SOURCE Villain Codex/57›",
 			"",
-			"This long-barreled musket shoots more precisely than other muskets but is slightly less damaging on a critical hit. It can fire only ‹eq-weapon/dragoon cartridge«s› or specially modified ‹magic-weapon/mage shot›.",
+			"This long-barreled ‹eq-weapon/musket› shoots more precisely than other muskets but is slightly less damaging on a critical hit. It can fire only ‹eq-weapon/dragoon cartridge«s› or specially modified ‹magic-weapon/mage shot›.",
 			"",
-			"**Cost** 2,000 gp **Weight** 12 lbs.  ",
-			"**Damage** 1d10 (small), 1d12 (medium); **Critical** &times;3; **Range** 60 ft.; **Type** B and P; **Special** -  ",
-			"**Misfire** 1-2 (5 ft.); **Capacity** 3  ",
-			"**Category** Two-Handed; **Proficiency** Exotic"
+			"::tabular{format=weap1 a=2000 b=12 d=s1d10~m1d12 e=x3 f=60 g=\"B and P\" m=\"1-2 (5 ft.)\" n=3 i=two j=E}"
 		],
-		"topLink": [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ]
+		"topLink": [ "Firearms", "main/equipment_firearms" ]
 	},
 	"fire_lance": {
 		"name": "Fire lance",
@@ -3621,14 +3606,15 @@
 			"## Fire lance",
 			"‹SOURCE Ultimate Equipment/43;Ultimate Combat/137›",
 			"",
-			"This primitive firearm is merely a long tube that, when ignited, propels forth a short gout of flame and a ‹eq-weapon/javelin›. Unlike other firearms, the fire lance is wildly imprecise, and targets AC rather than touch AC. A fire lance is always treated as having the broken condition for the purpose of determining the effects of a misfire. A fire lance uses a javelin and 2 doses of ‹eq-weapon/black powder› as ammunition. This is an early firearm.",
+			"This primitive firearm is merely a long tube that, when ignited, propels forth a short gout of flame and a ‹eq-weapon/javelin›.",
 			"",
-			"**Cost** 25 gp **Weight** 4 lbs.  ",
-			"**Damage** 1d4 (small), 1d6 (medium); **Critical** &times;4; **Range** 10 ft.; **Type** P; **Special** -  ",
-			"**Misfire** 1-4 (5 ft.); **Capacity** 1  ",
-			"**Category** Two-Handed; **Proficiency** Exotic"
+			"@I-down Unlike other firearms, the fire lance is wildly imprecise, and targets AC rather than touch AC. A fire lance is always treated as having the ‹misc/broken› condition for the purpose of determining the effects of a misfire.",
+			"",
+			"A fire lance uses a javelin and 2 doses of ‹eq-weapon/black powder› as ammunition. This is an early firearm.",
+			"",
+			"::tabular{format=weap1 a=25 b=4 d=s1d4~m1d6 e=x4 f=10 g=P m=\"1-4 (5 ft.)\" n=1 i=two j=E}"
 		],
-		"topLink": [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ]
+		"topLink": [ "Firearms", "main/equipment_firearms" ]
 	},
 	"musket": {
 		"name": "Musket",
@@ -3642,12 +3628,9 @@
 			"",
 			"This long-barreled firearm has a much greater range than a ‹eq-weapon/pistol›. A musket uses either a ‹eq-weapon/bullet› and 1 dose of ‹eq-weapon/black powder› or a single ‹eq-weapon/alchemical cartridge› as its ammunition. This is an early firearm.",
 			"",
-			"**Cost** 1,500 gp **Weight** 9 lbs.  ",
-			"**Damage** 1d10 (small), 1d12 (medium); **Critical** &times;4; **Range** 40 ft.; **Type** B and P; **Special** -  ",
-			"**Misfire** 1-2 (5 ft.); **Capacity** 1  ",
-			"**Category** Two-Handed; **Proficiency** Exotic"
+			"::tabular{format=weap1 a=1500 b=9 d=s1d10~m1d12 e=x4 f=40 g=\"B and P\" m=\"1-2 (5 ft.)\" n=1 i=two j=E}"
 		],
-		"topLink": [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ]
+		"topLink": [ "Firearms", "main/equipment_firearms" ]
 	},
 	"warhammer_musket": {
 		"name": "Warhammer musket",
@@ -3659,14 +3642,15 @@
 			"## Warhammer musket",
 			"‹SOURCE Ultimate Equipment/43;Ultimate Combat/138›",
 			"",
-			"This musket has a warhammer head at the end of its barrel, which allows it to be used as both a ‹eq-weapon/musket› and a ‹eq-weapon/warhammer›. It is considered a double weapon for the purposes of creating masterwork or magical versions of this weapon. If this firearm gains the broken condition, both the firearm component and the warhammer are considered broken. A warhammer musket uses either a ‹eq-weapon/bullet› and 1 dose of ‹eq-weapon/black powder› or a single ‹eq-weapon/alchemical cartridge› as ammunition. This is an early firearm.",
+			"This musket has a warhammer head at the end of its barrel, which allows it to be used as both a ‹eq-weapon/musket› and a ‹eq-weapon/warhammer›.",
 			"",
-			"**Cost** 1,600 gp **Weight** 6 lbs.  ",
-			"**Damage** 1d6 (small), 1d8 (medium); **Critical** &times;4; **Range** 30 ft.; **Type** B and P; **Special** -  ",
-			"**Misfire** 1-2 (5 ft.); **Capacity** 1  ",
-			"**Category** Two-Handed; **Proficiency** Exotic"
+			"@I-info It is considered a ‹misc/double› weapon for the purposes of creating ‹rule/masterwork<_w› or magical versions of this weapon. If this firearm gains the ‹misc/broken› condition, both the firearm component and the warhammer are considered broken.",
+			"",
+			"A warhammer musket uses either a ‹eq-weapon/bullet› and 1 dose of ‹eq-weapon/black powder› or a single ‹eq-weapon/alchemical cartridge› as ammunition. This is an early firearm.",
+			"",
+			"::tabular{format=weap1 a=1600 b=6 d=s1d6~m1d8 e=x4 f=30 g=\"B and P\" m=\"1-2 (5 ft.)\" n=1 i=two j=E}"
 		],
-		"topLink": [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ]
+		"topLink": [ "Firearms", "main/equipment_firearms" ]
 	},
 	"radium_pistol": {
 		"name": "Radium pistol",
@@ -3675,20 +3659,13 @@
 			"## Radium pistol",
 			"‹SOURCE Pathfinder Worldscape #2/26›",
 			"",
-			"A radium pistol is a one-handed weapon with a revolving cylinder containing six chambers. Each chamber holds a special radium-powder cartridge, and when one cartridge is fired, the cylinder automatically rotates (no extra hand or action required). readying the next cartridge for firing.",
+			"A radium pistol is a one-handed weapon with a revolving cylinder containing six chambers. Each chamber holds a special radium-powder cartridge, and when one cartridge is fired, the cylinder automatically rotates (no extra hand or action required), readying the next cartridge for firing.",
 			"",
-			"### Radium Weapons",
+			"::tabular{format=weap1 a=4500 b=3 d=s1d6~m1d8 e=x4 f=30 g=\"B and P\" h=\"see text\" m=1 n=6 i=one j=E}",
 			"",
-			"Barsoomian firearms are stocked with rare local woods. Metal components consist of an alloy of aluminum and steel that exceeds the strength of Earth metals (giving Barsoomian firearms a hardness of 12). Radium weapons fire special cartridges that must be manufactured under artificial light, as exposure to sunlight results in an explosion. When the cartridges strike their target they shatter, exposing the radium powder within. The moment sunlight strikes this substance it explodes with considerable violence, making the weapons versatile for either direct fire or suppressive fire. Radium weapons follow the general rules for advanced firearms.",
-			"",
-			"All radium weapons use radium cartridges for ammunition. As a result. in addition to targeting specific creatures or objects, the wielder may fire a radium weapon at an unoccupied square similar to ‹rule/throw«ing a» splash weapon›. All creatures within 15 feet of the targeted square take 2d6 points of bludgeoning, piercing, and slashing damage (Reflex DC 15 half). Radium cartridge damage does not change based on the size of the weapon used to fire them. Radium cartridges cannot be fired effectively in this way outside the rays of the sun, such as underground or at night. Radium cartridges cost 3 gp per cartridge.",
-			"",
-			"**Cost** 4,500 gp **Weight** 3 lbs.  ",
-			"**Damage** 1d6 (small), 1d8 (medium); **Critical** &times;4; **Range** 30 ft.; **Type** B and P; **Special** see text  ",
-			"**Misfire** 1; **Capacity** 6  ",
-			"**Category** One-Handed; **Proficiency** Exotic"
+			"::msg-radium"
 		],
-		"topLink": [ "One-Handed Weapons", "main/equipment_weapons_one_handed" ]
+		"topLink": [ "Firearms", "main/equipment_firearms" ]
 	},
 	"revolver": {
 		"name": "Revolver",
@@ -3700,14 +3677,13 @@
 			"## Revolver",
 			"‹SOURCE Ultimate Equipment/43;Ultimate Combat/139›",
 			"",
-			"A revolver is a ‹eq-weapon/pistol› with a revolving cylinder containing six chambers. Each chamber can hold a metal cartridge, and when one cartridge is fired, the cylinder automatically rotates (no extra hand or action required), readying the next chamber for firing. A revolver uses metal cartridges as ammunition. This is an advanced firearm.",
+			"A revolver is a ‹eq-weapon/pistol› with a revolving cylinder containing six chambers. Each chamber can hold a metal cartridge, and when one cartridge is fired, the cylinder automatically rotates (no extra hand or action required), readying the next chamber for firing.",
 			"",
-			"**Cost** 4,000 gp **Weight** 4 lbs.  ",
-			"**Damage** 1d6 (small), 1d8 (medium); **Critical** &times;4; **Range** 20 ft.; **Type** B and P; **Special** -  ",
-			"**Misfire** 1; **Capacity** 6  ",
-			"**Category** One-Handed; **Proficiency** Exotic"
+			"A revolver uses ‹eq-weapon/metal cartridges› as ammunition. This is an advanced firearm.",
+			"",
+			"::tabular{format=weap1 a=4000 b=4 d=s1d6~m1d8 e=x4 f=20 g=\"B and P\" m=1 n=6 i=one j=E}"
 		],
-		"topLink": [ "One-Handed Weapons", "main/equipment_weapons_one_handed" ]
+		"topLink": [ "Firearms", "main/equipment_firearms" ]
 	},
 	"double_barreled_shotgun": {
 		"name": "Double-barreled shotgun",
@@ -3719,14 +3695,15 @@
 			"## Double-barreled shotgun",
 			"‹SOURCE Ultimate Equipment/43;Ultimate Combat/140›",
 			"",
-			"This twin-barreled shotgun can be shot one barrel at a time, or both together as one attack. A double shot that fires bullets is inaccurate, and takes a -4 penalty on both attacks. A double shot that fires bullets targets only a single creature and increases the damage of each barrel to 2d6 points (Small) or 2d8 points (Medium) for a total of 4d6 or 4d8 points of damage. A doublebarreled shotgun uses ‹eq-weapon/metal cartridge«s› (loaded with either a ‹eq-weapon/bullet› or ‹eq-weapon/pellets›) as ammunition. This is an advanced firearm.",
+			"This twin-barreled ‹eq-weapon/shotgun› can be shot one barrel at a time, or both together as one attack.",
 			"",
-			"**Cost** 7,000 gp **Weight** 15 lbs.  ",
-			"**Damage** 1d6 (small), 1d8 (medium); **Critical** &times;2; **Range** 20 ft.; **Type** B and P; **Special** scatter  ",
-			"**Misfire** 1-2; **Capacity** 2  ",
-			"**Category** Two-Handed; **Proficiency** Exotic"
+			"@I-warning A double shot that fires bullets is inaccurate, and takes a -4 penalty on both attacks. A double shot that fires bullets targets only a single creature and increases the damage of each barrel to 2d6 points (Small) or 2d8 points (Medium) for a total of 4d6 or 4d8 points of damage.",
+			"",
+			"A double-barreled shotgun uses ‹eq-weapon/metal cartridges› (loaded with either a ‹eq-weapon/bullet› or ‹eq-weapon/pellets›) as ammunition. This is an advanced firearm.",
+			"",
+			"::tabular{format=weap1 a=7000 b=15 d=s1d6~m1d8 e=x2 f=20 g=\"B and P\" h=\"‹misc/scatter›\" m=\"1-2\" n=2 i=two j=E}"
 		],
-		"topLink": [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ]
+		"topLink": [ "Firearms", "main/equipment_firearms" ]
 	},
 	"pepperbox_rifle": {
 		"name": "Pepperbox rifle",
@@ -3738,14 +3715,11 @@
 			"## Pepperbox rifle",
 			"‹SOURCE Ultimate Equipment/43;Ultimate Combat/140›",
 			"",
-			"The four barrels of this rifle are set into a turnable housing that can be quickly rotated by hand (a free action) between shots. A pepperbox rifle uses ‹eq-weapon/metal cartridge«s› as ammunition. This is an advanced firearm.",
+			"The four barrels of this ‹eq-weapon/rifle› are set into a turnable housing that can be quickly rotated by hand (a @FA) between shots. A pepperbox rifle uses ‹eq-weapon/metal cartridges› as ammunition. This is an advanced firearm.",
 			"",
-			"**Cost** 7,000 gp **Weight** 15 lbs.  ",
-			"**Damage** 1d8 (small), 1d10 (medium); **Critical** &times;4; **Range** 80 ft.; **Type** B and P; **Special** -  ",
-			"**Misfire** 1-2; **Capacity** 4  ",
-			"**Category** Two-Handed; **Proficiency** Exotic"
+			"::tabular{format=weap1 a=7000 b=15 d=s1d8~m1d10 e=x4 f=80 g=\"B and P\" m=\"1-2\" n=4 i=two j=E}"
 		],
-		"topLink": [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ]
+		"topLink": [ "Firearms", "main/equipment_firearms" ]
 	},
 	"radium_rifle": {
 		"name": "Radium rifle",
@@ -3754,20 +3728,13 @@
 			"## Radium rifle",
 			"‹SOURCE Pathfinder Worldscape #2/27›",
 			"",
-			"The long barrel and line construction of this two handed weapon allows for a range superior to even modern Earth rifles.",
+			"The long barrel and line construction of this two handed weapon allows for a range superior to even modern Earth ‹eq-weapon/rifle«s›.",
 			"",
-			"### Radium Weapons",
+			"::tabular{format=weap1 a=5500 b=10 d=s1d8~m1d10 e=x4 f=100 g=\"B and P\" h=\"see text\" m=1 n=1 i=two j=E}",
 			"",
-			"Barsoomian firearms are stocked with rare local woods. Metal components consist of an alloy of aluminum and steel that exceeds the strength of Earth metals (giving Barsoomian firearms a hardness of 12). Radium weapons fire special cartridges that must be manufactured under artificial light, as exposure to sunlight results in an explosion. When the cartridges strike their target they shatter, exposing the radium powder within. The moment sunlight strikes this substance it explodes with considerable violence, making the weapons versatile for either direct fire or suppressive fire. Radium weapons follow the general rules for advanced firearms.",
-			"",
-			"All radium weapons use radium cartridges for ammunition. As a result. in addition to targeting specific creatures or objects. the wielder may fire a radium weapon at an unoccupied square similar to ‹rule/throw«ing a» splash weapon›. All creatures within 15 feet of the targeted square take 2d6 points of bludgeoning, piercing, and slashing damage (Reflex DC 15 half). Radium cartridge damage does not change based on the size of the weapon used to fire them. Radium cartridges cannot be fired effectively in this way outside the rays of the sun, such as underground or at night. Radium cartridges cost 3 gp per cartridge.",
-			"",
-			"**Cost** 5,500 gp **Weight** 10 lbs.  ",
-			"**Damage** 1d8 (small), 1d10 (medium); **Critical** &times;4; **Range** 100 ft.; **Type** B and P; **Special** see text  ",
-			"**Misfire** 1; **Capacity** 1  ",
-			"**Category** Two-Handed; **Proficiency** Exotic"
+			"::msg-radium"
 		],
-		"topLink": [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ]
+		"topLink": [ "Firearms", "main/equipment_firearms" ]
 	},
 	"rifle": {
 		"name": "Rifle",
@@ -3781,14 +3748,11 @@
 			"",
 			"This improvement on the ‹eq-weapon/musket› features a grooved barrel that imparts a twisting, spiral motion to the bullet as it exits, stabilizing it and preventing the end-over-end tumbling common to projectiles from simpler firearms. As a result, a rifle can fire significantly farther and with more accuracy than early long-bore firearms.",
 			"",
-			"A rifle uses ‹eq-weapon/metal cartridge«s› as ammunition. This is an advanced firearm.",
+			"A rifle uses ‹eq-weapon/metal cartridges› as ammunition. This is an advanced firearm.",
 			"",
-			"**Cost** 5,000 gp **Weight** 12 lbs.  ",
-			"**Damage** 1d8 (small), 1d10 (medium); **Critical** &times;4; **Range** 80 ft.; **Type** B and P; **Special** -  ",
-			"**Misfire** 1; **Capacity** 1  ",
-			"**Category** Two-Handed; **Proficiency** Exotic"
+			"::tabular{format=weap1 a=5000 b=12 d=s1d8~m1d10 e=x4 f=80 g=\"B and P\" m=1 n=1 i=two j=E}"
 		],
-		"topLink": [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ]
+		"topLink": [ "Firearms", "main/equipment_firearms" ]
 	},
 	"shotgun": {
 		"name": "Shotgun",
@@ -3800,16 +3764,15 @@
 			"## Shotgun",
 			"‹SOURCE Ultimate Equipment/43;Ultimate Combat/140›",
 			"",
-			"This advanced version of the ‹eq-weapon/blunderbuss› shoots in a 30-foot cone when firing ‹eq-weapon/pellets›, and has a 20-foot range increment when firing a ‹eq-weapon/bullet› (often called a slug). Shotguns can either be simple and functional, or art pieces in their own right, with engravings and inlay on the stocks and breeches. Those used by the upper class are often emblazoned with images of game animals, family crests, or elaborate maker's marks.",
+			"This advanced version of the ‹eq-weapon/blunderbuss› shoots in a 30-foot cone when firing ‹eq-weapon/pellets›, and has a 20-foot range increment when firing a ‹eq-weapon/bullet› (often called a slug).",
 			"",
-			"A shotgun uses ‹eq-weapon/metal cartridge«s› (loaded with either a bullet or pellets) as ammunition. This is an advanced firearm.",
+			"Shotguns can either be simple and functional, or art pieces in their own right, with engravings and inlay on the stocks and breeches. Those used by the upper class are often emblazoned with images of game animals, family crests, or elaborate maker's marks.",
 			"",
-			"**Cost** 5,000 gp **Weight** 12 lbs.  ",
-			"**Damage** 1d6 (small), 1d8 (medium); **Critical** &times;2; **Range** 20 ft.; **Type** B and P; **Special** scatter  ",
-			"**Misfire** 1-2; **Capacity** 1  ",
-			"**Category** Two-Handed; **Proficiency** Exotic"
+			"A shotgun uses ‹eq-weapon/metal cartridges› (loaded with either a bullet or pellets) as ammunition. This is an advanced firearm.",
+			"",
+			"::tabular{format=weap1 a=5000 b=12 d=s1d6~m1d8 e=x2 f=20 g=\"B and P\" h=\"‹misc/scatter›\" m=\"1-2\" n=1 i=two j=E}"
 		],
-		"topLink": [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ]
+		"topLink": [ "Firearms", "main/equipment_firearms" ]
 	},
 	"thark_rifle": {
 		"name": "Thark rifle",
@@ -3820,18 +3783,11 @@
 			"",
 			"Similar in construction to the standard ‹eq-weapon/radium rifle› employed by Barsoom's red Martians, the Thark rifle (named for Barsoom's most prominent green Martian tribe) offers a staggering range and greater damage capacity fitting the brutality of its Large wielder. The Thark rifle is a Large two-handed weapon.",
 			"",
-			"### Radium Weapons",
+			"::tabular{format=weap1 a=6500 b=12 d=s1d8~m1d10 e=x4 f=\"1 mile\" g=\"B and P\" h=\"see text\" m=\"1-2\" n=1 i=two j=E}",
 			"",
-			"Barsoomian firearms are stocked with rare local woods. Metal components consist of an alloy of aluminum and steel that exceeds the strength of Earth metals (giving Barsoomian firarms a hardness of 12). Radium weapons fire special cartridges that must be manufactured under artificial light, as exposure to sunlight results in an explosion. When the cartridges strike their target they shatter, exposing the radium powder within. The moment sunlight strikes this substance it explodes with considerable violence, making the weapons versatile for either direct fire or suppressive fire. Radium weapons follow the general rules for advanced firearms.",
-			"",
-			"All radium weapons use radium cartridges for ammunition. As a result. in addition to targeting specific creatures or objects. the wielder may fire a radium weapon at an unoccupied square similar to ‹rule/throw«ing a» splash weapon›. All creatures within 15 feet of the targeted square take 2d6 points of bludgeoning, piercing, and slashing damage (Reflex DC 15 half). Radium cartridge damage does not change based on the size of the weapon used to fire them. Radium cartridges cannot be fired effectively in this way outside the rays of the sun, such as underground or at night. Radium cartridges cost 3 gp per cartridge.",
-			"",
-			"**Cost** 6,500 gp **Weight** 12 lbs.  ",
-			"**Damage** 1d8 (small), 1d10 (medium); **Critical** &times;4; **Range** 1 mile; **Type** B and P; **Special** see text  ",
-			"**Misfire** 1-2; **Capacity** 1  ",
-			"**Category** Two-Handed; **Proficiency** Exotic"
+			"::msg-radium"
 		],
-		"topLink": [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ]
+		"topLink": [ "Firearms", "main/equipment_firearms" ]
 	},
 	"air_reservoir": {
 		"name": "Air reservoir",
@@ -3842,10 +3798,9 @@
 			"",
 			"A spare reservoir of compressed air comes with 6 pieces of ammunition to be used with an ‹eq-weapon/air repeater›.",
 			"",
-			"**Cost** 6 gp **Weight** -  ",
-			"**Category** Ammunition; **Proficiency** Exotic"
+			"::tabular{format=weap1 a=6 b=x i=ammo j=E}"
 		],
-		"topLink": [ "Ammunition", "main/equipment_weapons_ammunition" ]
+		"topLink": [ "Firearms Ammunition", "main/equipment_firearms" ]
 	},
 	"alchemical_cartridge": {
 		"name": "Alchemical cartridge",
@@ -3861,55 +3816,99 @@
 			"",
 			"An alchemical cartridge is a prepared bundle of ‹eq-weapon/black powder› with a ‹eq-weapon/bullet› or ‹eq-weapon/pellets›, sometimes with more exotic material added, which is then wrapped in paper or cloth and sealed with beeswax, lard, or tallow. There are many types of alchemical cartridges, the simplest being the paper cartridge - a simple mix of black powder and either pellets or a bullet. Alchemical cartridges make loading a firearm easier, reducing the time to load a firearm by one step (a full-round action becomes a standard action, a standard action becomes a move action, and a move action becomes a free action), but they tend to be unstable. The misfire value of a weapon firing an alchemical cartridge increases as listed in each entry.",
 			"",
-			"@HL[Dragon's Breath Cartridge:] This cartridge contains alchemical compounds that, when fired, produce a cone of fire instead of the normal attack of a one-handed or two-handed firearm with the scatter weapon quality. The nonmagical flame deals 2d6 points of fire damage to all targets within the cone of the scatter firearm (DC 15 Reflex save for half). These cartridges cannot be used in firearms that don't have the scatter weapon quality. Because this ammunition forces a saving throw instead of making an attack roll, the misfire rules are slightly different. If you roll a 1 with either of the damage dice, the firearm misfires.[^A]  ",
-			"**Cost** 40 gp **Weight** -  ",
-			"**Category** Ammunition; **Proficiency** Exotic",
+			"::h3[Dragon's Breath Cartridge]{jl}",
 			"",
-			"@HL[Entangling Shot Cartridge:] This mix of black powder and an alchemically treated resin strong enough to survive the shot can only be loaded into a blunderbuss, a dragon pistol, or another scatter weapon. It deals half damage to those hit by a cone attack made with this weapon, but any creature hit by the shot must succeed at a DC 15 Reflex saving throw or become entangled for 2d4 rounds. An entangling shot cartridge increases the firearm's misfire value by 2.[^A]  ",
-			"**Cost** 40 gp **Weight** -  ",
-			"**Category** Ammunition; **Proficiency** Exotic",
+			"@I-cone This cartridge contains alchemical compounds that, when fired, produce a cone of fire instead of the normal attack of a one-handed or two-handed firearm with the ‹misc/scatter› weapon quality. The nonmagical flame deals 2d6 points of fire damage to all targets within the cone of the scatter firearm (DC 15 Reflex save for half).",
 			"",
-			"@HL[Flare Cartridge:] When a flare cartridge hits its target, it deals only half the normal damage, but the creature struck is blinded for 1 round (Fortitude DC 15 reduces this to dazzled), and creatures within a 20-foot ‹misc/burst› are dazzled for 1 round (Fortitude DC 15 negates the effect). Flare cartridges are also useful for sending up signal flares. Firing a flare cartridge increases the firearm's misfire value by 2 unless it is fired from a blunderbuss or a dragon pistol, in which case doing so only increases the firearm's misfire value by 1. Flares can be used only to attack single creatures; they do not work as a shot for a scatter weapon's cone attack.[^A]  ",
-			"**Cost** 10 gp **Weight** -  ",
-			"**Category** Ammunition; **Proficiency** Exotic",
+			"@I-info These cartridges cannot be used in firearms that don't have the scatter weapon quality. Because this ammunition forces a saving throw instead of making an attack roll, the misfire rules are slightly different. If you roll a 1 with either of the damage dice, the firearm misfires.[^A]",
 			"",
-			"@HL[Gray Dust Cartridge:] Packed with mysterious magic-suppressing dust from the Mana Wastes, these rounds burst on impact and inhibit spellcasting. When a gray dust cartridge strikes a target, it deals only half damage, but the creature struck takes a -10 penalty on ‹rule/concentration› checks to cast spells for 1d4 rounds and cannot cast defensively.[^B]  ",
-			"**Cost** 50 gp **Weight** -  ",
-			"**Category** Ammunition; **Proficiency** Exotic",
+			"::tabular{format=weap1 a=40 b=x i=ammo j=E}",
 			"",
-			"@HL[Gray Dust Shot Cartridge:] This version of the gray dust cartridge can be loaded only into a weapon with the scatter quality. It functions similarly to a gray dust cartridge, except upon impact it bursts into a 20-foot-radius cloud. Creatures within the cloud take a -5 penalty on concentration checks to cast spells. This cloud dissipates in 1d6 rounds in still air. Light wind disperses the cloud in 1 round.[^B]  ",
-			"**Cost** 50 gp **Weight** -  ",
-			"**Category** Ammunition; **Proficiency** Exotic",
+			"::h3[Entangling Shot Cartridge]{jl}",
 			"",
-			"@HL[Molten Cartridge:] This cartridge holds a handful of alchemically infused pellets that ignite and become molten when fired as a scattering shot with a one-handed or two-handed firearm with the scatter weapon quality. These molten projectiles deal fire damage to targets hit by the scattering shot, and each target hit must succeed at a DC 15 Reflex saving throw or take 1d6 additional points of fire damage each round as the projectiles smolder. An affected target can use a full-round action to scrape off the smoldering projectile before taking this additional damage. In addition, molten metal fragments litter the area, functioning as caltrops in each square of the scattering shot cone (except they deal fire damage). These projectiles and fragments cool down after 3 rounds, at which point they become harmless bits of metal. Firing this cartridge increases the firearm's misfire value by 2, and the cartridge can be used only in early or advanced firearms with the scatter weapon quality.[^C]  ",
-			"**Cost** 40 gp **Weight** -  ",
-			"**Category** Ammunition; **Proficiency** Exotic",
+			"This mix of black powder and an alchemically treated resin strong enough to survive the shot can only be loaded into a ‹eq-weapon/blunderbuss›, a ‹eq-weapon/dragon pistol›, or another scatter weapon.",
 			"",
-			"@HL[Paper Cartridge:] This simple mix of black powder and either pellets or a bullet increases the misfire value by 1.[^A]  ",
-			"**Cost** 12 gp **Weight** -  ",
-			"**Category** Ammunition; **Proficiency** Exotic",
+			"@I-cone-down-lower It deals half damage to those hit by a cone attack made with this weapon, but any creature hit by the shot must succeed at a DC 15 Reflex saving throw or become ‹rule/entangled› for 2d4 rounds. An *entangling shot cartridge* increases the firearm's misfire value by 2.[^A]",
 			"",
-			"@HL[Repellent Cartridge:] This cartridge can be used only in early or advanced firearms with the scatter weapon quality. To use a repellent cartridge, make a scattering shot against an AC of 5. If you succeed, you create a cone of foul fumes that lasts for 2 rounds, after which the stench becomes inert and dissipates. Any creature within this area when the fumes are created or any creature that enters the fumes while they are active must succeed at a DC 15 Fortitude save or become sickened for 1d6 rounds. Being affected by the fumes multiple times lengthens the duration of the sickened condition. If your attack results in a misfire that causes your firearm to explode, the area of the cloud is instead centered on one corner of your square (your choice), with a radius equal to the firearm's misfire burst size. Firing this cartridge increases the firearm's misfire value by 1.[^C]  ",
-			"**Cost** 30 gp **Weight** -  ",
-			"**Category** Ammunition; **Proficiency** Exotic",
+			"::tabular{format=weap1 a=40 b=x i=ammo j=E}",
 			"",
-			"@HL[Salt Shot Cartridge:] This mix of black powder and rock salt can only be loaded into a blunderbuss, a dragon pistol, or other scatter weapon. It deals nonlethal instead of lethal damage, and increases the misfire value by 1. You can use it only with a scatter weapon's cone attack.[^A]  ",
-			"**Cost** 12 gp **Weight** -  ",
-			"**Category** Ammunition; **Proficiency** Exotic",
+			"::h3[Flare Cartridge]{jl}",
 			"",
-			"@HL[Smoke Cartridge:] This cartridge can be loaded only into a weapon with the scatter quality. Upon striking a target, it deals no damage, but instead bursts into a cloud of smoke in a 20-foot radius. This smoke impairs sight beyond 5 feet; any creature farther away gains concealment (20% miss chance). The cloud disperses after 1d4 rounds, or in 1 round in light wind.[^B]  ",
-			"**Cost** 35 gp **Weight** -  ",
-			"**Category** Ammunition; **Proficiency** Exotic",
+			"@I-down-boom-lower When a *flare cartridge* hits its target, it deals only half the normal damage, but the creature struck is ‹misc/blinded› for 1 round (Fortitude DC 15 reduces this to dazzled), and creatures within a 20-foot ‹misc/burst› are dazzled for 1 round (Fortitude DC 15 negates the effect).",
 			"",
-			"@HL[Toxic Cartridge:] A toxic cartridge can be used only in early or advanced firearms with the scatter weapon quality. To use a toxic cartridge, make a scattering shot against an AC of 5. If you succeed, you create a cone of burning toxic gas that lasts for 1 rounds, after which the gas dissipates. Any creature within this area when it is created or any creature that enters the gas while it is active must succeed at a DC 15 Fortitude save or become nauseated for 1d2 rounds. Being affected by the gas multiple times lengthens the duration of the sickened condition. In addition, any creature that begins its turn in the area takes 1d6 points of fire damage. If your attack results in a misfire that causes your firearm to explode, the area of the cloud is instead centered on one corner of your square (your choice), with a radius equal to the firearm's misfire burst size. Firing this cartridge increases the firearm's misfire value by 1.[^C]  ",
-			"**Cost** 100 gp **Weight** -  ",
-			"**Category** Ammunition; **Proficiency** Exotic",
+			"Flare cartridges are also useful for sending up signal flares.",
+			"",
+			"@I-warning Firing a *flare cartridge* increases the firearm's misfire value by 2 unless it is fired from a blunderbuss or a dragon pistol, in which case doing so only increases the firearm's misfire value by 1. Flares can be used only to attack single creatures; they do not work as a shot for a scatter weapon's cone attack.[^A]",
+			"",
+			"::tabular{format=weap1 a=10 b=x i=ammo j=E}",
+			"",
+			"::h3[Gray Dust Cartridge]{jl}",
+			"",
+			"Packed with mysterious magic-suppressing dust from the Mana Wastes, these rounds burst on impact and inhibit spellcasting.",
+			"",
+			"@I-down-lower When a *gray dust cartridge* strikes a target, it deals only half damage, but the creature struck takes a -10 penalty on ‹rule/concentration› checks to cast spells for 1d4 rounds and cannot cast defensively.[^B]",
+			"",
+			"::tabular{format=weap1 a=50 b=x i=ammo j=E}",
+			"",
+			"::h3[Gray Dust Shot Cartridge]{jl}",
+			"",
+			"@I-down-boom-lower This version of the *gray dust cartridge* can be loaded only into a weapon with the scatter quality. It functions similarly to a *gray dust cartridge,* except upon impact it bursts into a 20-foot-radius cloud. Creatures within the cloud take a -5 penalty on concentration checks to cast spells. This cloud dissipates in 1d6 rounds in still air. Light ‹rule/wind› disperses the cloud in 1 round.[^B]",
+			"",
+			"::tabular{format=weap1 a=50 b=x i=ammo j=E}",
+			"",
+			"::h3[Molten Cartridge]{jl}",
+			"",
+			"This cartridge holds a handful of alchemically infused pellets that ignite and become molten when fired as a scattering shot with a one-handed or two-handed firearm with the scatter weapon quality.",
+			"",
+			"@I-info These molten projectiles deal fire damage to targets hit by the scattering shot, and each target hit must succeed at a DC 15 Reflex saving throw or take 1d6 additional points of fire damage each round as the projectiles smolder. An affected target can use a @RA to scrape off the smoldering projectile before taking this additional damage. In addition, molten metal fragments litter the area, functioning as ‹eq-misc/caltrops› in each square of the scattering shot cone (except they deal fire damage). These projectiles and fragments cool down after 3 rounds, at which point they become harmless bits of metal.",
+			"",
+			"@I-warning Firing this cartridge increases the firearm's misfire value by 2, and the cartridge can be used only in early or advanced firearms with the scatter weapon quality.[^C]",
+			"",
+			"::tabular{format=weap1 a=40 b=x i=ammo j=E}",
+			"",
+			"::h3[Paper Cartridge]{jl}",
+			"",
+			"@I-warning This simple mix of black powder and either pellets or a bullet increases the misfire value by 1.[^A]",
+			"",
+			"::tabular{format=weap1 a=12 b=x i=ammo j=E}",
+			"",
+			"::h3[Repellent Cartridge]{jl}",
+			"",
+			"This cartridge can be used only in early or advanced firearms with the scatter weapon quality.",
+			"",
+			"@I-cone-lower To use a repellent cartridge, make a scattering shot against an AC of 5. If you succeed, you create a cone of foul fumes that lasts for 2 rounds, after which the stench becomes inert and dissipates. Any creature within this area when the fumes are created or any creature that enters the fumes while they are active must succeed at a DC 15 Fortitude save or become ‹misc/sickened› for 1d6 rounds. Being affected by the fumes multiple times lengthens the duration of the sickened condition.",
+			"",
+			"@I-warning If your attack results in a misfire that causes your firearm to explode, the area of the cloud is instead centered on one corner of your square (your choice), with a radius equal to the firearm's misfire burst size. Firing this cartridge increases the firearm's misfire value by 1.[^C]",
+			"",
+			"::tabular{format=weap1 a=30 b=x i=ammo j=E}",
+			"",
+			"::h3[Salt Shot Cartridge]{jl}",
+			"",
+			"@I-info This mix of black powder and rock salt can only be loaded into a blunderbuss, a dragon pistol, or other scatter weapon. It deals nonlethal instead of lethal damage, and increases the misfire value by 1. You can use it only with a scatter weapon's cone attack.[^A]",
+			"",
+			"::tabular{format=weap1 a=12 b=x i=ammo j=E}",
+			"",
+			"::h3[Smoke Cartridge]{jl}",
+			"",
+			"@I-down-boom This cartridge can be loaded only into a weapon with the scatter quality. Upon striking a target, it deals no damage, but instead bursts into a cloud of smoke in a 20-foot radius. This smoke impairs sight beyond 5 feet; any creature farther away gains ‹rule/concealment› (20% miss chance). The cloud disperses after 1d4 rounds, or in 1 round in light wind.[^B]",
+			"",
+			"::tabular{format=weap1 a=35 b=x i=ammo j=E}",
+			"",
+			"::h3[Toxic Cartridge]{jl}",
+			"",
+			"A toxic cartridge can be used only in early or advanced firearms with the scatter weapon quality.",
+			"",
+			"@I-cone-lower To use a toxic cartridge, make a scattering shot against an AC of 5. If you succeed, you create a cone of burning toxic gas that lasts for 1 rounds, after which the gas dissipates. Any creature within this area when it is created or any creature that enters the gas while it is active must succeed at a DC 15 Fortitude save or become ‹misc/nauseated› for 1d2 rounds. Being affected by the gas multiple times lengthens the duration of the sickened condition. In addition, any creature that begins its turn in the area takes 1d6 points of fire damage.",
+			"",
+			"@I-warning If your attack results in a misfire that causes your firearm to explode, the area of the cloud is instead centered on one corner of your square (your choice), with a radius equal to the firearm's misfire burst size. Firing this cartridge increases the firearm's misfire value by 1.[^C]",
+			"",
+			"::tabular{format=weap1 a=100 b=x i=ammo j=E}",
 			"",
 			"[^A]: ‹source/Ultimate Equipment« pg. 41›",
 			"[^B]: ‹source/Heroes of Golarion« pg. 18›",
 			"[^C]: ‹source/People of the Wastes« pg. 15›"
 		],
-		"topLink": [ "Ammunition", "main/equipment_weapons_ammunition" ]
+		"topLink": [ "Firearms Ammunition", "main/equipment_firearms" ]
 	},
 	"alchemical_cartridge_dragons_breath": {
 		"name": "Alchemical cartridge (dragon's breath)",
@@ -3996,12 +3995,17 @@
 			"## Black Powder",
 			"‹SOURCE Ultimate Combat/141;Ultimate Equipment/41;Inner Sea World Guide/292›",
 			"",
-			"Black powder is the key explosive component within a firearm that enables it to function, but in larger amounts this alchemical material can be quite destructive on its own as well. A single dose of black powder is enough to power a single shot from most one-handed and two-handed firearms, while 10 doses are required to fire a cannon. Black powder is often stored and transported in kegs (which hold 100 doses), but in this quantity the powder itself becomes dangerous. Exposure to fire, electricity, or a misfire explosion causes black powder to explode - a single keg that explodes in this manner deals 5d6 points of fire damage to anyone within a 20-foot ‹misc/burst› (DC 15 Reflex half). Storing black powder in a ‹eq-weapon/powder horn› protects the powder from explosion.",
+			"‹eq-reagent/Black powder› is the key explosive component within a firearm that enables it to function, but in larger amounts this alchemical material can be quite destructive on its own as well.",
 			"",
-			"**Cost** 10 gp (dose)/1,000gp (keg) **Weight** - (dose)/5 lbs. (keg)  ",
-			"**Category** Ammunition; **Proficiency** Exotic"
+			"@I-info A single dose of black powder is enough to power a single shot from most one-handed and two-handed firearms, while 10 doses are required to fire a ‹eq-siegeengine/cannon›.",
+			"",
+			"@I-warning Black powder is often stored and transported in kegs (which hold 100 doses), but in this quantity the powder itself becomes dangerous. Exposure to fire, electricity, or a misfire explosion causes black powder to explode - a single keg that explodes in this manner deals 5d6 points of fire damage to anyone within a 20-foot ‹misc/burst› (DC 15 Reflex half).",
+			"",
+			"Storing black powder in a ‹eq-weapon/powder horn› protects the powder from explosion.",
+			"",
+			"::tabular{format=weap1 a=\"10 gp (dose)/1,000 gp (keg)\" b=\"&mdash& (dose)/5 lbs. (keg)\" c=x i=ammo j=E}"
 		],
-		"topLink": [ "Ammunition", "main/equipment_weapons_ammunition" ]
+		"topLink": [ "Firearms Ammunition", "main/equipment_firearms" ]
 	},
 	"black_powder": { "redirect": "black_powder_dose" },
 	"black_powder_keg": {
@@ -4015,12 +4019,11 @@
 			"## Bullet, adamantine",
 			"‹SOURCE Ultimate Combat/141›",
 			"",
-			"These expensive bullets are crafted from ‹eq-material/adamantine›. They ignore hardness 20 or less when attacking objects.",
+			"These expensive ‹eq-weapon/bullet«s› are crafted from ‹eq-material/adamantine›. They ignore hardness 20 or less when attacking objects.",
 			"",
-			"**Cost** 61 gp **Weight** -  ",
-			"**Category** Ammunition; **Proficiency** Exotic"
+			"::tabular{format=weap1 a=61 b=x i=ammo j=E}"
 		],
-		"topLink": [ "Ammunition", "main/equipment_weapons_ammunition" ]
+		"topLink": [ "Firearms Ammunition", "main/equipment_firearms" ]
 	},
 	"adamantine_bullet": { "redirect": "bullet_adamantine" },
 	"bullet_screaming": {
@@ -4030,12 +4033,13 @@
 			"## Bullet, screaming",
 			"‹SOURCE Heroes of Golarion/18›",
 			"",
-			"This ammunition makes a piercing scream when fired. If fired as part of an Intimidate check, it imparts a +5 bonus on the check. If used with the ‹deed/startling shot› deed, the target is ‹rule/flat-footed› for an additional round.",
+			"This ammunition makes a piercing scream when fired.",
 			"",
-			"**Cost** 20 gp **Weight** -  ",
-			"**Category** Ammunition; **Proficiency** Exotic"
+			"@I-boost-lower If fired as part of an ‹skill/Intimidate› check, it imparts a +5 bonus on the check. If used with the ‹deed/startling shot› deed, the target is ‹rule/flat-footed› for an additional round.",
+			"",
+			"::tabular{format=weap1 a=20 b=x i=ammo j=E}"
 		],
-		"topLink": [ "Ammunition", "main/equipment_weapons_ammunition" ]
+		"topLink": [ "Firearms Ammunition", "main/equipment_firearms" ]
 	},
 	"screaming_bullet": { "redirect": "bullet_screaming" },
 	"dragoon_cartridge": {
@@ -4045,14 +4049,17 @@
 			"## Dragoon Cartridge",
 			"‹SOURCE Villain Codex/57›",
 			"",
-			"These clips of ‹eq-weapon/alchemical cartridge«s› hold three ‹eq-weapon/bullet«s› and fit the slot of either the ‹eq-weapon/dragoon musket› or the ‹eq-weapon/dragoon pistol›. They allow the wielder of those firearms to fire up to three shots in quick succession without the need to reload. Once the cartridge is spent, reloading another dragoon cartridge takes a full-round action, no matter the type of dragoon firearm in question. ‹feat/Rapid Reload› can reduce the action time required, but abilities like the musket master's fast musket have no effect. Unlike other alchemical cartridges, dragoon cartridges don't increase a dragoon firearm's misfire chance by 1. Dragoon cartridges can be used only with dragoon firearms.",
+			"These clips of ‹eq-weapon/alchemical cartridge«s› hold three ‹eq-weapon/bullet«s› and fit the slot of either the ‹eq-weapon/dragoon musket› or the ‹eq-weapon/dragoon pistol›. They allow the wielder of those firearms to fire up to three shots in quick succession without the need to reload.",
+			"",
+			"Once the cartridge is spent, reloading another dragoon cartridge takes a @RA, no matter the type of dragoon firearm in question. ‹feat/Rapid Reload› can reduce the action time required, but abilities like the ‹arc-gunslinger/musket master«'s› *fast musket* have no effect.",
+			"",
+			"Unlike other alchemical cartridges, dragoon cartridges don't increase a dragoon firearm's misfire chance by 1. Dragoon cartridges can be used only with dragoon firearms.",
 			"",
 			"Magical bullets can be made in the form of dragoon cartridges, but the price and cost are three times greater than the listed value.",
 			"",
-			"**Cost** 30 gp **Weight** -  ",
-			"**Category** Ammunition; **Proficiency** Exotic"
+			"::tabular{format=weap1 a=30 b=x i=ammo j=E}"
 		],
-		"topLink": [ "Ammunition", "main/equipment_weapons_ammunition" ]
+		"topLink": [ "Firearms Ammunition", "main/equipment_firearms" ]
 	},
 	"firearm_bullet": {
 		"name": "Firearm bullet",
@@ -4067,12 +4074,11 @@
 			"",
 			"The ammunition of most one-handed and two-handed firearms, firearm bullets typically take the form of small balls of lead or some other metal. Thirty bullets weigh half a pound.",
 			"",
-			"**Cost** 1 gp **Weight** 0.0166 lbs.  ",
-			"**Category** Ammunition; **Proficiency** Exotic",
+			"::tabular{format=weap1 a=1 b=\"0.0166\" i=ammo j=E}",
 			"",
-			"**Note:** Weight is approximate, based on 30 bullets weighing half a pound; 15 bullets weigh 0.25 lb, and 3 bullets weigh 0.05 lb."
+			">@HL[Note:] Weight is approximate, based on 30 bullets weighing half a pound; 15 bullets weigh 0.25 lb, and 3 bullets weigh 0.05 lb."
 		],
-		"topLink": [ "Ammunition", "main/equipment_weapons_ammunition" ]
+		"topLink": [ "Firearms Ammunition", "main/equipment_firearms" ]
 	},
 	"bullet": { "redirect": "firearm_bullet" },
 	"firearm_bullet_silver": {
@@ -4082,14 +4088,15 @@
 			"## Firearm bullet, silver",
 			"‹SOURCE Ultimate Combat/141›",
 			"",
-			"This ammunition is specifically crafted from silver, and though nonmagical, it is particularly detrimental to lycanthropes, automatically confirming any critical threats against such creatures. A firearm that is shooting a silver bullet takes a -1 penalty on damage rolls (with a minimum of 1 point of damage).",
+			"@I-info This ammunition is specifically crafted from ‹eq-material/silver›, and though nonmagical, it is particularly detrimental to lycanthropes, automatically confirming any critical threats against such creatures.",
 			"",
-			"**Cost** 25 gp **Weight** 0.0166 lbs.  ",
-			"**Category** Ammunition; **Proficiency** Exotic",
+			"@I-down A firearm that is shooting a silver bullet takes a -1 penalty on damage rolls (with a minimum of 1 point of damage).",
 			"",
-			"**Note:** Weight is based on 30 regular bullets weighing half a pound; 15 bullets weigh 0.25 lb, and 3 bullets weigh 0.05 lb."
+			"::tabular{format=weap1 a=25 b=\"0.0166\" i=ammo j=E}",
+			"",
+			">@HL[Note:] Weight is based on 30 regular ‹eq-weapon/bullet«s› weighing half a pound; 15 bullets weigh 0.25 lb, and 3 bullets weigh 0.05 lb."
 		],
-		"topLink": [ "Ammunition", "main/equipment_weapons_ammunition" ]
+		"topLink": [ "Firearms Ammunition", "main/equipment_firearms" ]
 	},
 	"silver_firearm_bullet": { "redirect": "firearm_bullet_silver" },
 	"gunsmiths_kit": {
@@ -4101,10 +4108,9 @@
 			"",
 			"This small kit has all the tools a person needs to create, repair, and restore firearms, except for the necessary raw materials. Without such a kit, you cannot properly construct or provide upkeep for firearms.",
 			"",
-			"**Cost** 15 gp **Weight** 2 lbs.  ",
-			"**Category** Ammunition; **Proficiency** Exotic"
+			"::tabular{format=weap1 a=15 b=2 i=ammo j=E}"
 		],
-		"topLink": [ "Ammunition", "main/equipment_weapons_ammunition" ]
+		"topLink": [ "Firearms Ammunition", "main/equipment_firearms" ]
 	},
 	"metal_cartridge": {
 		"name": "Metal cartridge",
@@ -4118,11 +4124,11 @@
 			"",
 			"These sturdier versions of ‹eq-weapon/alchemical cartridge«s› serve as the ammunition for advanced firearms. They can hold either ‹eq-weapon/bullet«s› or ‹eq-weapon/pellets›.",
 			"",
-			"**Cost** 15 gp **Weight** -  ",
-			"**Category** Ammunition; **Proficiency** Exotic"
+			"::tabular{format=weap1 a=15 b=x i=ammo j=E}"
 		],
-		"topLink": [ "Ammunition", "main/equipment_weapons_ammunition" ]
+		"topLink": [ "Firearms Ammunition", "main/equipment_firearms" ]
 	},
+	"metal_cartridges": { "redirect": "metal_cartridge" },
 	"pellets_handful": {
 		"name": "Pellets (handful)",
 		"sources": [
@@ -4133,14 +4139,17 @@
 			"## Pellets (handful)",
 			"‹SOURCE Ultimate Equipment/41;Ultimate Combat/141›",
 			"",
-			"A handful of pellets, along with 1 dose of ‹eq-weapon/black powder›, is commonly used as ammunition for one-handed and two-handed firearms with the ‹misc/scatter› weapon quality, though rocks or other small bits of hard material can be used in the pellets' place. Using anything other than pellets or ‹eq-weapon/alchemical cartridge«s› when firing off a cone attack with a scatter weapon increases the weapon's misfire range by 1 (though this increase can be removed by switching back to standard ammunition). Thirty handfuls of pellets weigh half a pound.",
+			"A handful of pellets, along with 1 dose of ‹eq-weapon/black powder›, is commonly used as ammunition for one-handed and two-handed firearms with the ‹misc/scatter› weapon quality, though rocks or other small bits of hard material can be used in the pellets' place.",
 			"",
-			"**Cost** 1 gp **Weight** 0.0166 lbs.  ",
-			"**Category** Ammunition; **Proficiency** Exotic",
+			"@I-warning Using anything other than pellets or ‹eq-weapon/alchemical cartridge«s› when firing off a cone attack with a scatter weapon increases the weapon's misfire range by 1 (though this increase can be removed by switching back to standard ammunition).",
 			"",
-			"**Note:** Weight is approximate, based on 30 handfuls weighing half a pound; 15 handfuls weigh 0.25 lb, and 3 handfuls weigh 0.05 lb."
+			"Thirty handfuls of pellets weigh half a pound.",
+			"",
+			"::tabular{format=weap1 a=1 b=\"0.0166\" i=ammo j=E}",
+			"",
+			">@HL[Note:] Weight is approximate, based on 30 handfuls weighing half a pound; 15 handfuls weigh 0.25 lb, and 3 handfuls weigh 0.05 lb."
 		],
-		"topLink": [ "Ammunition", "main/equipment_weapons_ammunition" ]
+		"topLink": [ "Firearms Ammunition", "main/equipment_firearms" ]
 	},
 	"pellets": { "redirect": "pellets_handful" },
 	"pitted_bullet": {
@@ -4153,12 +4162,15 @@
 			"## Pitted bullet",
 			"‹SOURCE Ultimate Equipment/41;Ultimate Combat/141›",
 			"",
-			"This ammunition is pitted with a pattern of small pocks into which specially formulated poison compounds can be applied. A poison compound is a derivative of a standard toxin that is alchemically reduced to a solid form. These can be made from any standard injury or contact poison with a successful Craft (poison) check equal to the poison's DC + 4. The cost of purchasing an already prepared poison compound for the purpose of treating pitted bullets is equal to the poison's base cost + 20 gp. Once crafted, the compound can be pasted into the ammunition's pitted design and allowed to harden. Upon completion, the ‹eq-weapon/bullet› can be fired from an appropriate firearm, releasing the poison compound into its target upon impact, but the poison's DC is reduced by 2. A pitted bullet cannot be used with an ‹eq-weapon/alchemical cartridge›. The listed cost does not include the cost of poison.",
+			"This ammunition is pitted with a pattern of small pocks into which specially formulated poison compounds can be applied. A poison compound is a derivative of a standard toxin that is alchemically reduced to a solid form. These can be made from any standard injury or contact poison with a successful ‹skill/Craft› (poison) check equal to the poison's DC + 4.",
 			"",
-			"**Cost** 5 gp **Weight** -  ",
-			"**Category** Ammunition; **Proficiency** Exotic"
+			"@I-info The cost of purchasing an already prepared poison compound for the purpose of treating pitted bullets is equal to the poison's base cost + 20 gp. Once crafted, the compound can be pasted into the ammunition's pitted design and allowed to harden. Upon completion, the ‹eq-weapon/bullet› can be fired from an appropriate firearm, releasing the poison compound into its target upon impact, but the poison's DC is reduced by 2.",
+			"",
+			"A pitted bullet cannot be used with an ‹eq-weapon/alchemical cartridge›. The listed cost does not include the cost of poison.",
+			"",
+			"::tabular{format=weap1 a=5 b=x i=ammo j=E}"
 		],
-		"topLink": [ "Ammunition", "main/equipment_weapons_ammunition" ]
+		"topLink": [ "Firearms Ammunition", "main/equipment_firearms" ]
 	},
 	"powder_horn": {
 		"name": "Powder horn",
@@ -4173,10 +4185,9 @@
 			"",
 			"Typically crafted from hollowed-out animal horn, but increasingly crafted from metal in a wide variety of shapes, a powder horn can hold up to 10 doses of ‹eq-weapon/black powder›. A powder horn protects black powder stored within in it from exposure to fire, electricity, firearm misfires, and water, and the narrow end of the horn is useful in funneling the expensive powder carefully into the barrel of a firearm.",
 			"",
-			"**Cost** 3 gp **Weight** 1 lb.  ",
-			"**Category** Ammunition; **Proficiency** Exotic"
+			"::tabular{format=weap1 a=3 b=1 i=ammo j=E}"
 		],
-		"topLink": [ "Ammunition", "main/equipment_weapons_ammunition" ]
+		"topLink": [ "Firearms Ammunition", "main/equipment_firearms" ]
 	},
 	"maxim_m1910_machine_gun": {
 		"name": "Maxim M1910 machine gun",
@@ -4185,12 +4196,13 @@
 			"## Maxim M1910 Machine Gun",
 			"‹SOURCE Pathfinder #71: Rasputin Must Die!/64›",
 			"",
-			"This heavy machine gun uses 7.6254mmR ammunition in 250-round belts. Although a single person can fire a Maxim, it typically has a two-person crew: the gunner, and a loader who assists with feeding the ammunition belt into the weapon. As a full-round action, the loader can use a special aid another action to grant the gunner a +2 bonus on his next attack roll. Because of its size and heavy weight, a Maxim is often either mounted on a wheeled chassis with a gun shield for trench defensive use, or on the back of a horse-drawn wagon called a tachanka. Assuming a user can even lift the weapon, firing a Maxim M1910 machine gun that is not mounted imparts a -4 penalty on attack rolls and the recoil knocks the wielder prone. The Maxim M1910 is automatic-fire only. The armored shield provides cover when firing the weapon from the prone position.",
+			"This heavy machine gun uses 7.6254mmR ammunition in 250-round belts. Although a single person can fire a Maxim, it typically has a two-person crew: the gunner, and a loader who assists with feeding the ammunition belt into the weapon. As a @RA, the loader can use a special ‹rule/aid another<_2› action to grant the gunner a +2 bonus on his next attack roll.",
 			"",
-			"**Cost** 1,500 gp **Weight** 140 lbs.  ",
-			"**Damage** 2d8 (medium); **Critical** &times;4; **Range** 120 ft.; **Type** B and P; **Special** automatic  ",
-			"**Misfire** 1-2; **Capacity** 250  ",
-			"**Category** Two-Handed; **Proficiency** Exotic"
+			"@I-warning Because of its size and heavy weight, a Maxim is often either mounted on a wheeled chassis with a gun shield for trench defensive use, or on the back of a horse-drawn wagon called a tachanka. Assuming a user can even lift the weapon, firing a Maxim M1910 machine gun that is not mounted imparts a -4 penalty on attack rolls and the recoil knocks the wielder ‹rule/prone›.",
+			"",
+			"The Maxim M1910 is automatic-fire only. The armored shield provides cover when firing the weapon from the prone position.",
+			"",
+			"::tabular{format=weap1 a=1500 b=140 d=\"2d8 (medium)\" e=x4 f=120 g=\"B and P\" h=automatic m=\"1-2\" n=250 i=two j=E}"
 		]
 	},
 	"m1914_concussion_grenade": {
@@ -4200,11 +4212,11 @@
 			"## M1914 grenade (concussion)",
 			"‹SOURCE Pathfinder #71: Rasputin Must Die!/64›",
 			"",
-			"This time-delayed concussion grenade is a mainstay of trench warfare. The device appears to be little more than a metal cylinder tapering to a handle containing a spring-loaded lever. To detonate the device, you disengage the safety pin while depressing the handle's lever, which releases the firing pin when thrown. The device detonates at the beginning of your next turn, hopefully in the area you targeted. The device relies on a concussive blast to deal damage, and all creatures within a 20-foot radius take 3d6 points of bludgeoning damage (Reflex DC 15 for half ).",
+			"This time-delayed concussion grenade is a mainstay of trench warfare. The device appears to be little more than a metal cylinder tapering to a handle containing a spring-loaded lever. To detonate the device, you disengage the safety pin while depressing the handle's lever, which releases the firing pin when thrown. The device detonates at the beginning of your next turn, hopefully in the area you targeted.",
 			"",
-			"**Cost** 50 gp **Weight** 1 lb.  ",
-			"**Damage** 3d6 (medium); **Critical** &times;2; **Range** 20 ft.; **Type** B; **Special** see description  ",
-			"**Category** Explosive; **Proficiency** Exotic"
+			"@I-boom The device relies on a concussive blast to deal damage, and all creatures within a 20-foot radius take 3d6 points of bludgeoning damage (Reflex DC 15 for half ).",
+			"",
+			"::tabular{format=weap1 a=50 b=1 d=\"3d6 (medium)\" e=x2 f=20 g=B h=\"see description\" i=Explosive j=E}"
 		]
 	},
 	"mosin_nagant_m1891_rifle": {
@@ -4214,12 +4226,11 @@
 			"## Maxim M1910 Machine Gun",
 			"‹SOURCE Pathfinder #71: Rasputin Must Die!/64›",
 			"",
-			"This bolt-action rifle is the mainstay of Russian military forces. It is similar to the advanced firearms rifle with the following differences. It uses the same ammunition as the Madsen machine gun, and is fed from a 5-round internal, nondetachable magazine that is typically loaded with 5-round stripper clips (loading it is a move action). Without stripper clips, you may only reload up to 2 rounds of ammunition as a move action. Ammunition is typically sold in groups of 5 rounds. The rifle has a lug for the attachment of a socket bayonet, and can be equipped with a unique sidemount scope system.",
+			"This bolt-action rifle is the mainstay of Russian military forces. It is similar to the advanced firearms ‹eq-weapon/rifle› with the following differences. It uses the same ammunition as the Madsen machine gun, and is fed from a 5-round internal, nondetachable magazine that is typically loaded with 5-round stripper clips (loading it is a @MA). Without stripper clips, you may only reload up to 2 rounds of ammunition as a move action.",
 			"",
-			"**Cost** 500 gp **Weight** 9 lbs.  ",
-			"**Damage** 1d10 (medium); **Critical** &times;4; **Range** 80 ft.; **Type** B and P; **Special** &mdash;  ",
-			"**Misfire** 1; **Capacity** 5  ",
-			"**Category** Two-Handed; **Proficiency** Exotic"
+			"Ammunition is typically sold in groups of 5 rounds. The rifle has a lug for the attachment of a ‹eq-weapon/socket »bayonet›, and can be equipped with a unique sidemount scope system.",
+			"",
+			"::tabular{format=weap1 a=500 b=9 d=\"1d10 (medium)\" e=x4 f=80 g=\"B and P\" h=\"&mdash&\" m=1 n=5 i=two j=E}"
 		]
 	}
 }
