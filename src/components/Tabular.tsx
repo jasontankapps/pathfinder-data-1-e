@@ -65,10 +65,18 @@ const translateWeight = (x: number) => {
 				return <>&#8530;</>;
 			case 0.15:
 				return <>&#179;&#8260;&#8322;&#8320;</>;
+			case 0.2:
+				return <>&#8533;</>;
+			case 0.3:
+				return <>&#179;&#8260;&#8321;&#8320;</>;
 			case 0.05:
 				return <>&#185;&#8260;&#8322;&#8320;</>;
 			case 0.0166:
 				return <>&#185;&#8260;&#8326;&#8320;</>;
+			case 0.6:
+				return <>&#8535;</>;
+			case 0.4:
+				return <>&#8534;</>;
 		}
 		console.log(x, y, z);
 		return "ERROR";
