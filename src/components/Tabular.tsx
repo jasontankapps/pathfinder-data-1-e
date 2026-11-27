@@ -887,6 +887,108 @@ const FormatObject: { [x: string]: FormatProps } = {
 				</tbody></table>
 			);
 		}
+	},
+	techarmor: {
+		required: ["p","t","w","b","c","f"],
+		possiblyRequired: [
+			["y","u"]
+		],
+		className: "startAlign spiky",
+		formatter: (props) => {
+			const {id,p,w,b,d,c,f,y,u,v} = props;
+			// p=price
+			//   v=verbatim flag
+			// w=weight
+			// b=armor bonus
+			// d=max dex bonus
+			// c=armor check penalty
+			// f=arcane spell failure chance
+			// y=capacity
+			// u=usage
+			const nW = Number(w);
+			const nB = Number(b);
+			const acp = Number(c) || 0;
+			return (
+				<table><tbody>
+					<tr>
+						<th id={id + "-cost"} className="hl">Price</th>
+						<td headers={id + "-cost"}>{v ? p : translateGp(Number(p))}</td>
+						<th id={id + "-weight"} className="hl">Weight</th>
+						<td headers={id + "-weight"}>{
+							nW === nW ? <>{translateWeight(nW)} lb{nW >= 2 ? "s" : ""}.</> : <>&mdash;</>
+						}</td>
+						<th id={id + "-bonus"} className="hl">{d ? "Armor": "Shield"} Bonus</th>
+						<td headers={id + "-bonus"}>{nB ? "+" : ""}{b}</td>
+					</tr>{
+						y ? <tr>
+							<th id={id + "-capacity"}>Capacity</th>
+							<td headers={id + "-capacity"}>{y}</td>
+							<th id={id + "-use"} colSpan={2}>Usage</th>
+							<td headers={id + "-use"} colSpan={2}>{u}</td>
+						</tr> : <></>
+					}{
+						d ? <>
+								<tr>
+									<th id={id + "-dex"} colSpan={2}>Max Dex Bonus</th>
+									<td headers={id + "-dex"}>+{d}</td>
+									<th id={id + "-acp"} colSpan={2}>Armor Check Penalty</th>
+									<td headers={id + "-acp"}>{acp ? "-" : ""}{acp}</td>
+								</tr>
+								<tr>
+									<th scope="row" colSpan={4}>Arcane Spell Failure Chance</th>
+									<td colSpan={2}>{f}%</td>
+								</tr>
+							</> : <>
+								<tr>
+									<th id={id + "-asfc"} colSpan={2}>Arcane Spell Failure Chance</th>
+									<td headers={id + "-asfc"}>{f}%</td>
+									<th id={id + "-acp"} colSpan={2}>Armor Check Penalty</th>
+									<td headers={id + "-acp"}>{acp ? "-" : ""}{acp}</td>
+								</tr>
+							</>
+					}
+				</tbody></table>
+			);
+		},
+		postFormatter: props => {
+			const {t,s,z} = props;
+			// t=type
+			// s=speed (30ft)
+			// z=speed (20ft)
+			const nS = Number(s);
+			const nZ = Number(z);
+			return (
+				<ul>
+					<li><b>Armor Type:</b> {t}</li>
+					{
+						(s || z) ?
+							<li><b>Speed:</b> {s}{nS === nS ? " ft." : ""}/{z}{nZ === nZ ? " ft." : ""}</li>
+						: <></>
+					}
+				</ul>
+			);
+		}
+	},
+	techcraft: {
+		required: [ "c", "p", "r" ],
+		className: "spiky",
+		formatter: (props) => {
+			const {id, c, p, r, v} = props;
+			// c=craft dc
+			// p=cost
+			//     v=verbatim flag
+			// r=requirements
+			return (
+				<table><tbody>
+					<tr>
+						<th id={id + "-construct"} className="hl">Construction</th>
+						<td headers={id + "-construct"}><b>Craft DC</b> {c}; <b>Cost</b> {
+							v ? p : translateGp(Number(p))
+						};<br />{r}</td>
+					</tr>
+				</tbody></table>
+			);
+		}
 	}
 };
 
