@@ -139,6 +139,22 @@ div.sideNoteWrap.capTds td::first-letter {
 	}
 	div.sideNoteWrap.spiky table {
 		border-width: var(--full-width);
+		padding: 0;
+		overflow: hidden;
+	}
+	div.sideNoteWrap.spiky table {
+		border-shape: shape( 
+			from 1.5rem 0,
+			hline to 100%,
+			vline to 100%,
+			hline to 1.5rem,
+			line to 0 calc(100% - 0.75rem),
+			vline to 0.75rem,
+			line to 1.5rem 0,
+			close
+		) padding-box;
+	}
+	div.sideNoteWrap.startAlign.spiky table {
 		border-shape: shape( 
 			from 0 0,
 			hline to 100%,
@@ -149,7 +165,6 @@ div.sideNoteWrap.capTds td::first-letter {
 			close
 		) padding-box;
 		padding: 0 1.5rem 0 0;
-		overflow: hidden;
 	}
 	div.sideNoteWrap.spiky table tbody tr :is(th,td) {
 		border-radius: 0 !important;
