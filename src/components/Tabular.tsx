@@ -273,10 +273,11 @@ const FormatObject: { [x: string]: FormatProps } = {
 		className: "startAlign",
 		possiblyRequired: [
 			["d","e","f","g","i","j"],
-			["i","j"]
+			["i","j"],
+			["x","y","z"]
 		],
 		formatter: props => {
-			const {id, a, b, c, d, k} = props;
+			const {id, a, b, c, d, k, x, y, z} = props;
 			// a = cost in gp
 			// b = weight in lbs
 			// c = 'x' indicates the above should be rendered verbatim,
@@ -284,6 +285,7 @@ const FormatObject: { [x: string]: FormatProps } = {
 			// d..g,i..j,m..n - if present, we add in weap2 fully
 			// i..j - if present (but not d..g,m..n), we add in weap2.postFromatter only
 			// k = if present (but not d..j,m..n), indicates a category
+			// x,y,z = if present, represents the bundle size (x), price (y), and weight (z)
 			const verbatim = c === "x";
 			const price = Number(a) || 0;
 			const weight = Number(b);
@@ -310,6 +312,16 @@ const FormatObject: { [x: string]: FormatProps } = {
 							)
 						}</td>
 					</tr>
+					{ x ? (
+						<tr>
+							<th scope="row" colSpan={2} className="hl">Bundle of {x}</th>
+							<td colSpan={2}>{
+								translateGp(Number(y))
+							}; {
+								translateWeight(Number(z))
+							} lb{Number(z) > 1 ? "s" : ""}.</td>
+						</tr>
+					) : <></> }
 					{ d ? FormatObject.weap2.formatter(props) : <></> }
 					{ !d && k ? (
 						<tr>
@@ -341,22 +353,39 @@ const FormatObject: { [x: string]: FormatProps } = {
 			// g = damage type
 			let damage = d;
 			let critical = e;
+			let doubleflag: boolean | string[] = false;
 			const range = Number(f);
 			let mm = String(d).match(/^s(.+?)~m(.+?)$/);
 			if(mm) {
+				doubleflag = [mm[1], mm[2]];
 				damage = mm[1] + " (small), " + mm[2] + " (medium)";
 			}
 			mm = String(e).match(/^(?:r(1[89]))?x([2-9])$/);
 			if(mm) {
 				critical = <>{mm[1] ? `${mm[1]}-20/` : ""}&times;{mm[2]}</>;
+			} else if (critical && String(critical).includes("~~~")) {
+				const [pre, post] = String(critical).split("~~~");
+				critical = <>{pre}<br />{post}</>;
 			}
 			const core = (<>
-				<tr>
-					<th id={id + "-dmg"} className="hl">Damage</th>
-					<td headers={id + "-dmg"}>{damage}</td>
-					<th id={id + "-crit"} className="hl">Critical</th>
-					<td headers={id + "-crit"}>{critical}</td>
-				</tr>
+				{ doubleflag ? <>
+					<tr className="headerRowSpan">
+						<th id={id + "-dmg"} className="hl" rowSpan={2}>Damage</th>
+						<td headers={id + "-dmg"}>{doubleflag[0]} (small)</td>
+						<th id={id + "-crit"} className="hl" rowSpan={2}>Critical</th>
+						<td headers={id + "-crit"} className="ion-text-nowrap" rowSpan={2}>{critical}</td>
+					</tr>
+					<tr>
+						<td headers={id + "-dmg"}>{doubleflag[1]} (medium)</td>
+					</tr>
+				</> : (
+					<tr>
+						<th id={id + "-dmg"} className="hl">Damage</th>
+						<td headers={id + "-dmg"}>{damage}</td>
+						<th id={id + "-crit"} className="hl">Critical</th>
+						<td headers={id + "-crit"} className="ion-text-nowrap">{critical}</td>
+					</tr>
+				)}
 				<tr>
 					<th id={id + "-range"} className={f === "x" ? undefined : "hl"}>Range</th>
 					<td headers={id + "-type"}>{

@@ -2645,7 +2645,7 @@
 			"",
 			"This staff has a cradle at the end, designed to hold alchemical weapons such as ‹eq-weapon/acid›. A flask thrower significantly extends the range of thrown substances that deal splash damage, such as acid, ‹eq-weapon/alchemist's fire›, or ‹eq-weapon/holy water›, as well as that of tools such as ‹eq-weapon/tanglefoot bag«s›, ‹eq-weapon/thunderstone«s›, or ‹eq-misc/caltrops›.",
 			"",
-			"::tabular{format=weap1 a=25 b=4 d=s-~m- e=\"&mdash&\" f=20 g=\"&mdash&\" h=\"see text\" i=ranged j=E k=Thrown}"
+			"::tabular{format=weap1 a=25 b=4 d=\"&mdash&\" e=\"&mdash&\" f=20 g=\"&mdash&\" h=\"see text\" i=ranged j=E k=Thrown}"
 		],
 		"topLink": [ "Ranged Weapons", "main/equipment_weapons_ranged" ]
 	},
@@ -2771,7 +2771,7 @@
 			"",
 			"This crossbow shoots ammunition called ‹eq-weapon/bolas bolts› instead of crossbow bolts. It comes in both ‹eq-weapon/light<_slavers_crossbow› and heavy varieties (but not double, hand, or repeating crossbow varieties) with the same reload action as a conventional crossbow of its type.",
 			"",
-			"::tabular{format=weap1 a=400 b=12 d=s1d6~m1d8 e=\"19-20/see &quotbolas bolts&quot& text\" f=80 g=B h=\"‹misc/nonlethal›, ‹misc/trip›, see text\" i=ranged j=E}"
+			"::tabular{format=weap1 a=400 b=12 d=s1d6~m1d8 e=\"19-20/~~~see bolas bolts\" f=80 g=B h=\"‹misc/nonlethal›, ‹misc/trip›, see text\" i=ranged j=E}"
 		],
 		"topLink": [ "Ranged Weapons", "main/equipment_weapons_ranged" ]
 	},
@@ -2849,7 +2849,7 @@
 			"",
 			"This thrown weapon is a length of ‹eq-misc/rope› with a simple open knot on one end that allows you entangle a foe like you would using a ‹eq-weapon/net›. The DC to cast a spell while ‹rule/entangled› with a lasso is 10 + the spell level being cast. An entangled creature can slip free with a successful DC 15 ‹skill/Escape Artist› check as a @RA. The lasso has 2 hit points and AC 10, and requires a DC 23 Strength check to break it. On a successful hit, the lasso tightens; to use it again you must spend a @SA sliding the knot to enlarge the loop.",
 			"",
-			"::tabular{format=weap1 a=\"0.1\" b=5 d=s-~m- e=\"&mdash&\" f=x g=\"&mdash&\" h=\"see text\" i=ranged j=E k=Thrown}"
+			"::tabular{format=weap1 a=\"0.1\" b=5 d=\"&mdash&\" e=\"&mdash&\" f=x g=\"&mdash&\" h=\"see text\" i=ranged j=E k=Thrown}"
 		],
 		"topLink": [ "Ranged Weapons", "main/equipment_weapons_ranged" ]
 	},
@@ -2862,7 +2862,7 @@
 			"",
 			"This stubby-looking ‹eq-weapon/crossbow› has a cup-like attachment rather than a groove for a bolt. It is designed to launch ‹rule/splash weapon«s›. Loading a launching crossbow is a @RA.",
 			"",
-			"::tabular{format=weap1 a=75 b=8 d=s-~m- e=\"&mdash&\" f=30 g=\"&mdash&\" i=ranged j=E k=Crossbows}"
+			"::tabular{format=weap1 a=75 b=8 d=\"&mdash&\" e=\"&mdash&\" f=30 g=\"&mdash&\" i=ranged j=E k=Crossbows}"
 		],
 		"topLink": [ "Ranged Weapons", "main/equipment_weapons_ranged" ]
 	},
@@ -2888,7 +2888,7 @@
 			"",
 			"This crossbow shoots ammunition called ‹eq-weapon/bolas bolts› instead of crossbow bolts. It comes in both light and ‹eq-weapon/heavy<_slavers_crossbow› varieties (but not double, hand, or repeating crossbow varieties) with the same reload action as a conventional crossbow of its type.",
 			"",
-			"::tabular{format=weap1 a=250 b=6 d=s1d3~m1d4 e=\"19-20/see &quotbolas bolts&quot& text\" f=40 g=B h=\"‹misc/nonlethal›, ‹misc/trip›, see text\" i=ranged j=E}"
+			"::tabular{format=weap1 a=250 b=6 d=s1d3~m1d4 e=\"19-20/~~~see bolas bolts\" f=40 g=B h=\"‹misc/nonlethal›, ‹misc/trip›, see text\" i=ranged j=E}"
 		],
 		"topLink": [ "Ranged Weapons", "main/equipment_weapons_ranged" ]
 	},
@@ -2913,7 +2913,7 @@
 			"",
 			"@I-warning A net must be folded to be thrown effectively. The first time you throw your net in a fight, you make a normal ranged touch attack roll. After the net is unfolded, you take a -4 penalty on attack rolls with it. It takes 2 rounds for a proficient user to fold a net and twice that long for a nonproficient one to do so.",
 			"",
-			"::tabular{format=weap1 a=20 b=6 d=s-~m- e=\"&mdash&\" f=10 g=\"&mdash&\" h=\"see text\" i=ranged j=E k=Thrown}"
+			"::tabular{format=weap1 a=20 b=6 d=\"&mdash&\" e=\"&mdash&\" f=10 g=\"&mdash&\" h=\"see text\" i=ranged j=E k=Thrown}"
 		],
 		"topLink": [ "Ranged Weapons", "main/equipment_weapons_ranged" ]
 	},
@@ -3110,7 +3110,7 @@
 			"",
 			"@I-info The ‹rule/concentration› DC to cast while entangled in a snag net is 17 + the spell's level. The ‹skill/Escape Artist› DC to escape a snag net is 22.",
 			"",
-			"::tabular{format=weap1 a=30 b=10 d=s-~m- e=\"&mdash&\" f=10 g=P h=\"‹misc/trip›, see text\" i=ranged j=E k=Thrown}"
+			"::tabular{format=weap1 a=30 b=10 d=\"&mdash&\" e=\"&mdash&\" f=10 g=P h=\"‹misc/trip›, see text\" i=ranged j=E k=Thrown}"
 		],
 		"topLink": [ "Ranged Weapons", "main/equipment_weapons_ranged" ]
 	},
@@ -3164,7 +3164,7 @@
 			"",
 			"If you are proficient with ‹eq-weapon/hand crossbow«s›, you are also proficient with wrist launchers.",
 			"",
-			"::tabular{format=weap1 a=200 b=1 d=s-~m- e=\"&mdash&\" f=20 g=P i=ranged j=E}"
+			"::tabular{format=weap1 a=200 b=1 d=\"&mdash&\" e=\"&mdash&\" f=20 g=P i=ranged j=E}"
 		],
 		"topLink": [ "Ranged Weapons", "main/equipment_weapons_ranged" ]
 	},
@@ -3181,7 +3181,7 @@
 			"",
 			"Catfolk with the *cat's claws* racial trait are proficient with this weapon. The claw blades can be enhanced like a ‹rule/masterwork w«eapon› for the normal costs. The listed cost of the item is for one set of five claws for one hand.",
 			"",
-			"::tabular{format=weap1 a=305 b=2 d=s-~m- e=\"&mdash&\" f=x g=S h=\"catfolk only, see description\" i=light j=Special}"
+			"::tabular{format=weap1 a=305 b=2 d=\"&mdash&\" e=\"&mdash&\" f=x g=S h=\"catfolk only, see description\" i=light j=Special}"
 		],
 		"topLink": [ "Light Weapons", "main/equipment_weapons_light" ]
 	},

@@ -1414,13 +1414,13 @@
 		]
 	},
 	"arrow_grappling": {
-		"name": "Arrow (grappling)",
+		"name": "Arrow, grappling",
 		"sources": [
 			"Ultimate Equipment",
 			"Adventurer's Armory"
 		],
 		"description": [
-			"## Arrow (grappling)",
+			"## Arrow, grappling",
 			"‹SOURCE Ultimate Equipment/56;Adventurer's Armory/19›  ",
 			"::tabular{format=misc a=1 b=\"0.5\" d=gear}",
 			"",

@@ -48,7 +48,7 @@ div.sideNoteWrap table {
 	border-end-start-radius: var(--end-start-radius);
 	border-end-end-radius: var(--end-end-radius);
 }
-div.sideNoteWrap table tbody tr th:not([rowSpan]),
+div.sideNoteWrap table tbody :is(tr th:not([rowSpan]), tr.headerRowSpan th[rowSpan]),
 div.sideNoteWrap.singular table tbody tr th {
 	color: var(--table-header-fg);
 	background: var(--table-header-bg);

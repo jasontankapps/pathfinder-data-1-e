@@ -914,7 +914,7 @@ const _double_crossbow = {title: "Double crossbow", topLink: ["Ranged Weapons","
 const _flask_thrower = {title: "Flask thrower", topLink: ["Ranged Weapons","main/equipment_weapons_ranged"], jsx: <><h2 id="eq-weapon-flask_thrower-flask-thrower">Flask thrower</h2>
 <p><strong>Sources</strong> <Link to="/source/adventurers_armory_2">Adventurer's Armory 2 pg. 8</Link>, <Link to="/source/gnomes_of_golarion">Gnomes of Golarion pg. 22</Link></p>
 <p>This staff has a cradle at the end, designed to hold alchemical weapons such as <Link to="/eq-weapon/acid">acid</Link>. A flask thrower significantly extends the range of thrown substances that deal splash damage, such as acid, <Link to="/eq-weapon/alchemists_fire">alchemist's fire</Link>, or <Link to="/eq-weapon/holy_water">holy water</Link>, as well as that of tools such as <Link to="/eq-weapon/tanglefoot_bag">tanglefoot bags</Link>, <Link to="/eq-weapon/thunderstone">thunderstones</Link>, or <Link to="/eq-misc/caltrops">caltrops</Link>.</p>
-<Tabular format="weap1" a="25" b="4" d="s-~m-" e="&mdash;" f="20" g="&mdash;" h="see text" i="ranged" j="E" k="Thrown" />
+<Tabular format="weap1" a="25" b="4" d="&mdash;" e="&mdash;" f="20" g="&mdash;" h="see text" i="ranged" j="E" k="Thrown" />
 </>};
 const _grappling_hook = {title: "Grappling hook", topLink: ["Ranged Weapons","main/equipment_weapons_ranged"], jsx: <><h2 id="eq-weapon-grappling_hook-grappling-hook">Grappling hook</h2>
 <p><strong>Sources</strong> <Link to="/source/pirates_of_the_inner_sea">Pirates of the Inner Sea pg. 19</Link>, <Link to="/source/skull_and_shackles_players_guide">Skull and Shackles Player's Guide pg. 6</Link></p>
@@ -960,7 +960,7 @@ const _heavy_crank_crossbow = {title: "Heavy crank crossbow", topLink: ["Ranged 
 const _heavy_slavers_crossbow = {title: "Heavy slaver's crossbow", topLink: ["Ranged Weapons","main/equipment_weapons_ranged"], jsx: <><h2 id="eq-weapon-heavy_slavers_crossbow-heavy-slavers-crossbow">Heavy slaver's crossbow</h2>
 <p><strong>Sources</strong> <Link to="/source/monster_codex">Monster Codex pg. 45</Link></p>
 <p>This crossbow shoots ammunition called <Link to="/eq-weapon/bolas_bolts">bolas bolts</Link> instead of crossbow bolts. It comes in both <Link to="/eq-weapon/light_slavers_crossbow">light</Link> and heavy varieties (but not double, hand, or repeating crossbow varieties) with the same reload action as a conventional crossbow of its type.</p>
-<Tabular format="weap1" a="400" b="12" d="s1d6~m1d8" e="19-20/see &amp;quotbolas bolts&quot; text" f="80" g="B" h={<><Link to="/misc/nonlethal">nonlethal</Link>, <Link to="/misc/trip">trip</Link>, see text</>} i="ranged" j="E" />
+<Tabular format="weap1" a="400" b="12" d="s1d6~m1d8" e="19-20/~~~see bolas bolts" f="80" g="B" h={<><Link to="/misc/nonlethal">nonlethal</Link>, <Link to="/misc/trip">trip</Link>, see text</>} i="ranged" j="E" />
 </>};
 const _heavy_wrist_launcher = {title: "Heavy wrist launcher", topLink: ["Ranged Weapons","main/equipment_weapons_ranged"], jsx: <><h2 id="eq-weapon-heavy_wrist_launcher-heavy-wrist-launcher">Heavy wrist launcher</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_intrigue">Ultimate Intrigue pg. 232</Link></p>
@@ -989,12 +989,12 @@ const _kestros = {title: "Kestros", topLink: ["Ranged Weapons","main/equipment_w
 const _lasso = {title: "Lasso", topLink: ["Ranged Weapons","main/equipment_weapons_ranged"], jsx: <><h2 id="eq-weapon-lasso-lasso">Lasso</h2>
 <p><strong>Sources</strong> <Link to="/source/ranged_tactics_toolbox">Ranged Tactics Toolbox pg. 33</Link>, <Link to="/source/adventurers_armory">Adventurer's Armory pg. 3</Link>, <Link to="/source/advanced_players_guide">Advanced Player's Guide pg. 178</Link>, <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 21</Link></p>
 <p>This thrown weapon is a length of <Link to="/eq-misc/rope">rope</Link> with a simple open knot on one end that allows you entangle a foe like you would using a <Link to="/eq-weapon/net">net</Link>. The DC to cast a spell while <Link to="/rule/entangled">entangled</Link> with a lasso is 10 + the spell level being cast. An entangled creature can slip free with a successful DC 15 <Link to="/skill/escape_artist">Escape Artist</Link> check as a <strong className="hl">full-round action</strong>. The lasso has 2 hit points and AC 10, and requires a DC 23 Strength check to break it. On a successful hit, the lasso tightens; to use it again you must spend a <strong className="hl">standard action</strong> sliding the knot to enlarge the loop.</p>
-<Tabular format="weap1" a="0.1" b="5" d="s-~m-" e="&mdash;" f="x" g="&mdash;" h="see text" i="ranged" j="E" k="Thrown" />
+<Tabular format="weap1" a="0.1" b="5" d="&mdash;" e="&mdash;" f="x" g="&mdash;" h="see text" i="ranged" j="E" k="Thrown" />
 </>};
 const _launching_crossbow = {title: "Launching crossbow", topLink: ["Ranged Weapons","main/equipment_weapons_ranged"], jsx: <><h2 id="eq-weapon-launching_crossbow-launching-crossbow">Launching crossbow</h2>
 <p><strong>Sources</strong> <Link to="/source/adventurers_armory">Adventurer's Armory pg. 4</Link></p>
 <p>This stubby-looking <Link to="/eq-weapon/crossbow">crossbow</Link> has a cup-like attachment rather than a groove for a bolt. It is designed to launch <Link to="/rule/splash_weapon">splash weapons</Link>. Loading a launching crossbow is a <strong className="hl">full-round action</strong>.</p>
-<Tabular format="weap1" a="75" b="8" d="s-~m-" e="&mdash;" f="30" g="&mdash;" i="ranged" j="E" k="Crossbows" />
+<Tabular format="weap1" a="75" b="8" d="&mdash;" e="&mdash;" f="30" g="&mdash;" i="ranged" j="E" k="Crossbows" />
 </>};
 const _light_crank_crossbow = {title: "Light crank crossbow", topLink: ["Ranged Weapons","main/equipment_weapons_ranged"], jsx: <><h2 id="eq-weapon-light_crank_crossbow-light-crank-crossbow">Light crank crossbow</h2>
 <p><strong>Sources</strong> <Link to="/source/ranged_tactics_toolbox">Ranged Tactics Toolbox pg. 18</Link></p>
@@ -1004,7 +1004,7 @@ const _light_crank_crossbow = {title: "Light crank crossbow", topLink: ["Ranged 
 const _light_slavers_crossbow = {title: "Light slaver's crossbow", topLink: ["Ranged Weapons","main/equipment_weapons_ranged"], jsx: <><h2 id="eq-weapon-light_slavers_crossbow-light-slavers-crossbow">Light slaver's crossbow</h2>
 <p><strong>Sources</strong> <Link to="/source/monster_codex">Monster Codex pg. 45</Link></p>
 <p>This crossbow shoots ammunition called <Link to="/eq-weapon/bolas_bolts">bolas bolts</Link> instead of crossbow bolts. It comes in both light and <Link to="/eq-weapon/heavy_slavers_crossbow">heavy</Link> varieties (but not double, hand, or repeating crossbow varieties) with the same reload action as a conventional crossbow of its type.</p>
-<Tabular format="weap1" a="250" b="6" d="s1d3~m1d4" e="19-20/see &amp;quotbolas bolts&quot; text" f="40" g="B" h={<><Link to="/misc/nonlethal">nonlethal</Link>, <Link to="/misc/trip">trip</Link>, see text</>} i="ranged" j="E" />
+<Tabular format="weap1" a="250" b="6" d="s1d3~m1d4" e="19-20/~~~see bolas bolts" f="40" g="B" h={<><Link to="/misc/nonlethal">nonlethal</Link>, <Link to="/misc/trip">trip</Link>, see text</>} i="ranged" j="E" />
 </>};
 const _net = {title: "Net", topLink: ["Ranged Weapons","main/equipment_weapons_ranged"], jsx: <><h2 id="eq-weapon-net-net">Net</h2>
 <p><strong>Sources</strong> <Link to="/source/ranged_tactics_toolbox">Ranged Tactics Toolbox pg. 33</Link>, <Link to="/source/prpg_core_rulebook">PRPG Core Rulebook pg. 143</Link>, <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 21</Link></p>
@@ -1013,7 +1013,7 @@ const _net = {title: "Net", topLink: ["Ranged Weapons","main/equipment_weapons_r
 <p><Icons id="eq-weapon-net-lower-icons" wrapper="prefixIcon" list={["lower"]} /> If you control the trailing rope by succeeding at an opposed Strength check while holding it, the entangled creature can move only within the limits that the rope allows. If the entangled creature attempts to cast a spell, it must succeed at a <Link to="/rule/concentration">concentration</Link> check with a DC of 15 + the spell's level or be unable to cast the spell.</p>
 <p>An entangled creature can escape with a successful DC 20 <Link to="/skill/escape_artist">Escape Artist</Link> check (a <strong className="hl">full-round action</strong>). The net has 5 hit points and can be burst with a successful DC 25 Strength check (also a <strong className="hl">full-round action</strong>). A net is useful only against creatures within one size category of you.</p>
 <p><Icons id="eq-weapon-net-warning-icons" wrapper="prefixIcon" list={["warning"]} /> A net must be folded to be thrown effectively. The first time you throw your net in a fight, you make a normal ranged touch attack roll. After the net is unfolded, you take a -4 penalty on attack rolls with it. It takes 2 rounds for a proficient user to fold a net and twice that long for a nonproficient one to do so.</p>
-<Tabular format="weap1" a="20" b="6" d="s-~m-" e="&mdash;" f="10" g="&mdash;" h="see text" i="ranged" j="E" k="Thrown" />
+<Tabular format="weap1" a="20" b="6" d="&mdash;" e="&mdash;" f="10" g="&mdash;" h="see text" i="ranged" j="E" k="Thrown" />
 </>};
 const _pelletbow_dwarven_heavy = {title: "Pelletbow, dwarven heavy", topLink: ["Ranged Weapons","main/equipment_weapons_ranged"], jsx: <><h2 id="eq-weapon-pelletbow_dwarven_heavy-pelletbow-dwarven-heavy">Pelletbow, dwarven heavy</h2>
 <p><strong>Sources</strong> <Link to="/source/heroes_from_the_fringe">Heroes from the Fringe pg. 8</Link></p>
@@ -1080,7 +1080,7 @@ const _snag_net = {title: "Snag net", topLink: ["Ranged Weapons","main/equipment
 <p>This short, wide net is covered in barbed loops and slipknots. It works like a typical <Link to="/eq-weapon/net">net</Link>, except it has the trip weapon special feature.</p>
 <p><Icons id="eq-weapon-snag_net-melee-icons" wrapper="prefixIcon" list={["melee"]} /> If you entangle an opponent and hold the trailing rope, on your turn in place of a melee attack you may make a combat maneuver check to <Link to="/rule/trip">trip</Link> against that opponent; if you succeed, you may trip your opponent or deal 1 point of piercing damage to it.</p>
 <p><Icons id="eq-weapon-snag_net-info-icons" wrapper="prefixIcon" list={["info"]} /> The <Link to="/rule/concentration">concentration</Link> DC to cast while entangled in a snag net is 17 + the spell's level. The <Link to="/skill/escape_artist">Escape Artist</Link> DC to escape a snag net is 22.</p>
-<Tabular format="weap1" a="30" b="10" d="s-~m-" e="&mdash;" f="10" g="P" h={<><Link to="/misc/trip">trip</Link>, see text</>} i="ranged" j="E" k="Thrown" />
+<Tabular format="weap1" a="30" b="10" d="&mdash;" e="&mdash;" f="10" g="P" h={<><Link to="/misc/trip">trip</Link>, see text</>} i="ranged" j="E" k="Thrown" />
 </>};
 const _stormshaft_javelin = {title: "Stormshaft javelin", topLink: ["Ranged Weapons","main/equipment_weapons_ranged"], jsx: <><h2 id="eq-weapon-stormshaft_javelin-stormshaft-javelin">Stormshaft javelin</h2>
 <p><strong>Sources</strong> <Link to="/source/adventurers_armory_2">Adventurer's Armory 2 pg. 9</Link>, <Link to="/source/gnomes_of_golarion">Gnomes of Golarion pg. 22</Link></p>
@@ -1097,14 +1097,14 @@ const _wrist_launcher = {title: "Wrist launcher", topLink: ["Ranged Weapons","ma
 <p>This slender tube is strapped to one forearm and designed to be concealed beneath the sleeve, where the wielder can fire a <Link to="/eq-weapon/featherweight_dart">featherweight dart</Link> with a twist of the wrist. The launcher functions by means of a tightly compressed spring, and must be reloaded and re-cocked with a separate ramrod as a <strong className="hl">full-round action</strong>.</p>
 <p><Icons id="eq-weapon-wrist_launcher-def-icons" wrapper="prefixIcon" list={["def"]} /> After firing, the wearer can attempt a <Link to="/skill/sleight_of_hand">Sleight of Hand</Link> check opposed by opponents' <Link to="/skill/perception">Perception</Link> checks to keep the wrist launcher concealed.</p>
 <p>If you are proficient with <Link to="/eq-weapon/hand_crossbow">hand crossbows</Link>, you are also proficient with wrist launchers.</p>
-<Tabular format="weap1" a="200" b="1" d="s-~m-" e="&mdash;" f="20" g="P" i="ranged" j="E" />
+<Tabular format="weap1" a="200" b="1" d="&mdash;" e="&mdash;" f="20" g="P" i="ranged" j="E" />
 </>};
 const _claw_blades = {title: "Claw blades", topLink: ["Light Weapons","main/equipment_weapons_light"], jsx: <><h2 id="eq-weapon-claw_blades-claw-blades">Claw blades</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_race_guide">Advanced Race Guide pg. 93</Link></p>
 <p>These subtle blades can only be used by <Link to="/race/catfolk">catfolk</Link> with the <em>cat's claws</em> racial trait. Bought in a set of five, they fit over the wearer's claws on one hand.</p>
 <p><Icons id="eq-weapon-claw_blades-boost-icons" wrapper="prefixIcon" list={["boost"]} /> The blades grant the wearer a +1 enhancement bonus on claw attack rolls with that hand and change the weapon type from a natural weapon to a light slashing weapon.</p>
 <p>Catfolk with the <em>cat's claws</em> racial trait are proficient with this weapon. The claw blades can be enhanced like a <Link to="/rule/masterwork_w">masterwork weapon</Link> for the normal costs. The listed cost of the item is for one set of five claws for one hand.</p>
-<Tabular format="weap1" a="305" b="2" d="s-~m-" e="&mdash;" f="x" g="S" h="catfolk only, see description" i="light" j="Special" />
+<Tabular format="weap1" a="305" b="2" d="&mdash;" e="&mdash;" f="x" g="S" h="catfolk only, see description" i="light" j="Special" />
 </>};
 const _kobold_tail_long_lash = {title: "Kobold tail, long lash", topLink: ["Light Weapons","main/equipment_weapons_light"], jsx: <><h2 id="eq-weapon-kobold_tail_long_lash-kobold-tail-long-lash">Kobold tail, long lash</h2>
 <p><strong>Sources</strong> <Link to="/source/advanced_race_guide">Advanced Race Guide pg. 135</Link></p>

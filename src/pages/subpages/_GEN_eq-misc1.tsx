@@ -729,7 +729,7 @@ const _armor_truss = {title: "Armor truss", jsx: <><h2 id="eq-misc-armor_truss-a
 <p>This collection of flexible strips of wood, durable shims, and thin cords allows you to prop open the buckles, padding, and plates of armor for easy entry.</p>
 <p><Icons id="eq-misc-armor_truss-boost-def-icons" wrapper="prefixIcon" list={["boost","def"]} /> If you take at least 15 minutes preparing an empty suit of armor with an armor truss, you are considered to have help in putting on the armor and can <Link to="/rule/don_armor">don the armor</Link> in the time it usually takes to don the armor hastily without worsening armor check penalties or decreasing armor bonuses.</p>
 </>};
-const _arrow_grappling = {title: "Arrow (grappling)", jsx: <><h2 id="eq-misc-arrow_grappling-arrow-grappling">Arrow (grappling)</h2>
+const _arrow_grappling = {title: "Arrow, grappling", jsx: <><h2 id="eq-misc-arrow_grappling-arrow-grappling">Arrow, grappling</h2>
 <p><strong>Sources</strong> <Link to="/source/ultimate_equipment">Ultimate Equipment pg. 56</Link>, <Link to="/source/adventurers_armory">Adventurer's Armory pg. 19</Link>  </p>
 <Tabular format="misc" a="1" b="0.5" d="gear" />
 <p>This small <Link to="/eq-misc/grappling_hook">grappling hook</Link> is designed to be tied to a <Link to="/eq-misc/silk_rope_50_ft">silk rope</Link> and fired from a bow. When fired, it has a range increment of 30 feet. An equivalent item exists for crossbows.</p>

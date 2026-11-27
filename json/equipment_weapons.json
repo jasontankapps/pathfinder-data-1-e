@@ -47,7 +47,7 @@
 		"name": "Alchemical coal (blinding cinders)",
 		"sources": [ "Advanced Race Guide" ],
 		"description": [
-			"## Alchemical coal (blinding cinders)",
+			"## Alchemical coal",
 			"‹SOURCE Advanced Race Guide/135›",
 			"",
 			"@I-warning A kobold who chews and swallows this alchemically treated piece of coal (a @RA) can make one breath weapon attack during the next minute. If the kobold fails to make a breath attack before this minute expires, it is ‹misc/sickened› for 1 hour. Other humanoid creatures that eat alchemical coal are sickened for 1 hour (though certain other creatures may be able to use them, at the GM's discretion). Creatures that are immune to poison are immune to the sickened effect. The type of breath weapon depends on the type of alchemical coal that is chewed by the kobold.",
@@ -120,13 +120,13 @@
 		"topLink": [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ]
 	},
 	"arrow_bleeding": {
-		"name": "Arrow (bleeding)",
+		"name": "Arrow, bleeding",
 		"sources": [
 			"Alchemy Manual",
 			"Elves of Golarion"
 		],
 		"description": [
-			"## Arrow (bleeding)",
+			"## Arrow, bleeding",
 			"‹SOURCE Alchemy Manual/20;Elves of Golarion/22›",
 			"",
 			"::tabular{format=weap1 a=160 b=\"0.15\" k=alch}",
@@ -140,13 +140,13 @@
 		"topLink": [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ]
 	},
 	"arrow_durable": {
-		"name": "Arrow (durable)",
+		"name": "Arrow, durable",
 		"sources": [
 			"Alchemy Manual",
 			"Elves of Golarion"
 		],
 		"description": [
-			"## Arrow (durable)",
+			"## Arrow, durable",
 			"‹SOURCE Alchemy Manual/20;Elves of Golarion/22›",
 			"",
 			"::tabular{format=weap1 a=1 b=\"0.15\" k=alch}",
@@ -160,13 +160,13 @@
 		"topLink": [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ]
 	},
 	"arrow_dye": {
-		"name": "Arrow (dye)",
+		"name": "Arrow, dye",
 		"sources": [
 			"Alchemy Manual",
 			"Elves of Golarion"
 		],
 		"description": [
-			"## Arrow (dye)",
+			"## Arrow, dye",
 			"‹SOURCE Alchemy Manual/21;Elves of Golarion/22›",
 			"",
 			"::tabular{format=weap1 a=1 b=\"0.15\" k=alch}",
@@ -180,13 +180,13 @@
 		"topLink": [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ]
 	},
 	"arrow_lodestone": {
-		"name": "Arrow (lodestone)",
+		"name": "Arrow, lodestone",
 		"sources": [
 			"Alchemy Manual",
 			"Elves of Golarion"
 		],
 		"description": [
-			"## Arrow (lodestone)",
+			"## Arrow, lodestone",
 			"‹SOURCE Alchemy Manual/21;Elves of Golarion/22›",
 			"",
 			"::tabular{format=weap1 a=10 b=\"0.3\" k=alch}",
@@ -204,13 +204,13 @@
 		"topLink": [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ]
 	},
 	"arrow_pheromone": {
-		"name": "Arrow (pheromone)",
+		"name": "Arrow, pheromone",
 		"sources": [
 			"Alchemy Manual",
 			"Elves of Golarion"
 		],
 		"description": [
-			"## Arrow (pheromone)",
+			"## Arrow, pheromone",
 			"‹SOURCE Alchemy Manual/21;Elves of Golarion/22›",
 			"",
 			"::tabular{format=weap1 a=15 b=\"0.15\" k=alch}",
@@ -226,14 +226,14 @@
 		"topLink": [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ]
 	},
 	"arrow_raining": {
-		"name": "Arrow (raining)",
+		"name": "Arrow, raining",
 		"sources": [
 			"Daughters of Fury",
 			"Elves of Golarion",
 			"Alchemy Manual"
 		],
 		"description": [
-			"## Arrow (raining)",
+			"## Arrow, raining",
 			"‹SOURCE Daughters of Fury/13;Elves of Golarion/23;Alchemy Manual/21›",
 			"",
 			"::tabular{format=weap1 a=30 b=\"0.3\" k=alch}",
@@ -249,13 +249,13 @@
 		"topLink": [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ]
 	},
 	"arrow_slow_burn": {
-		"name": "Arrow (slow burn)",
+		"name": "Arrow, slow burn",
 		"sources": [
 			"Alchemy Manual",
 			"Elves of Golarion"
 		],
 		"description": [
-			"## Arrow (slow burn)",
+			"## Arrow, slow burn",
 			"‹SOURCE Alchemy Manual/21;Elves of Golarion/23›",
 			"",
 			"::tabular{format=weap1 a=100 b=\"0.15\" k=alch}",
@@ -271,13 +271,13 @@
 		"topLink": [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ]
 	},
 	"arrow_splintercloud": {
-		"name": "Arrow (splintercloud)",
+		"name": "Arrow, splintercloud",
 		"sources": [
 			"Alchemy Manual",
 			"Elves of Golarion"
 		],
 		"description": [
-			"## Arrow (splintercloud)",
+			"## Arrow, splintercloud",
 			"‹SOURCE Alchemy Manual/21;Elves of Golarion/23›",
 			"",
 			"::tabular{format=weap1 a=25 b=\"0.15\" k=alch}",
@@ -293,13 +293,13 @@
 		"topLink": [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ]
 	},
 	"arrow_tangleshot": {
-		"name": "Arrow (tangleshot)",
+		"name": "Arrow, tangleshot",
 		"sources": [
 			"Alchemy Manual",
 			"Elves of Golarion"
 		],
 		"description": [
-			"## Arrow (tangleshot)",
+			"## Arrow, tangleshot",
 			"‹SOURCE Alchemy Manual/21;Elves of Golarion/23›",
 			"",
 			"::tabular{format=weap1 a=20 b=\"0.25\" k=alch}",
@@ -313,13 +313,13 @@
 		"topLink": [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ]
 	},
 	"arrow_trip": {
-		"name": "Arrow (trip)",
+		"name": "Arrow, trip",
 		"sources": [
 			"Alchemy Manual",
 			"Elves of Golarion"
 		],
 		"description": [
-			"## Arrow (trip)",
+			"## Arrow, trip",
 			"‹SOURCE Alchemy Manual/21;Elves of Golarion/23›",
 			"",
 			"::tabular{format=weap1 a=40 b=\"0.2\" k=alch}",
@@ -1709,7 +1709,7 @@
 		"name": "Specialty smoke pellet (pepper)",
 		"sources": [ "Dungeoneer's Handbook" ],
 		"description": [
-			"## Specialty smoke pellet (Pepper)",
+			"## Specialty smoke pellet",
 			"‹SOURCE Dungeoneer's Handbook/27›",
 			"",
 			"@I-splash Like standard ‹eq-misc/smoke pellet«s›, these specialty pellets fill a single 5-foot square with opaque smoke for 1 round when broken. They can also be thrown as a ranged touch attack with a range increment of 10 feet. However, unlike standard smoke pellets, these pellets produce smoke that confers additional effects.",
@@ -1987,9 +1987,7 @@
 			"",
 			"An arrow used as a melee weapon is treated as a light ‹misc/improvised weapon› (-4 penalty on attack rolls) and deals damage as a ‹eq-weapon/dagger› of its size (critical multiplier &times;2). Arrows come in a leather quiver that holds 20 arrows.",
 			"",
-			"::tabular{format=weap1 a=\"0.05\" b=\"0.15\" i=ammo j=X}",
-			"",
-			">@HL[Note:] Stats are an extrapolation from the original quantity of 20."
+			"::tabular{format=weap1 a=\"0.05\" b=\"0.15\" i=ammo j=X x=20 y=1 z=3}"
 		],
 		"topLink": [ "Ammunition", "main/equipment_weapons_ammunition" ]
 	},
@@ -2005,17 +2003,15 @@
 			"",
 			"@I-boost-down Iron-tipped distance arrows increase their bow's range increment by 10 feet but take a -1 penalty on damage dealt per range increment (minimum 1 point of damage). They are sold in leather quivers in quantities of 20.",
 			"",
-			"::tabular{format=weap1 a=\"0.05\" b=\"0.2\" i=ammo j=X}",
-			"",
-			">@HL[Note:] Stats are an extrapolation from the original quantity of 20."
+			"::tabular{format=weap1 a=\"0.05\" b=\"0.2\" i=ammo j=X x=20 y=1 z=4}"
 		],
 		"topLink": [ "Ammunition", "main/equipment_weapons_ammunition" ]
 	},
 	"atlatl_dart": {
-		"name": "Atlatl dart",
+		"name": "Dart, atlatl",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
-			"## Atlatl dart",
+			"## Dart, atlatl",
 			"‹SOURCE Ultimate Equipment/22›",
 			"",
 			"An atlatl dart is the equivalent of a ‹eq-weapon/javelin› except it has fletching. If thrown without an ‹eq-weapon/atlatl›, treat it as a javelin.",
@@ -2025,28 +2021,26 @@
 		"topLink": [ "Ammunition", "main/equipment_weapons_ammunition" ]
 	},
 	"bamboo_shaft_arrows": {
-		"name": "Bamboo shaft arrows",
+		"name": "Arrow, bamboo shaft",
 		"sources": [
 			"Ultimate Equipment",
 			"Ultimate Combat"
 		],
 		"description": [
-			"## Bamboo shaft arrows",
+			"## Arrow, bamboo shaft",
 			"‹SOURCE Ultimate Equipment/22;Ultimate Combat/130›",
 			"",
 			"These foot-long arrows are used as ammunition for ‹eq-weapon/tube arrow shooter«s›. As an ‹misc/improvised› melee weapon, they deal damage equivalent to that of a ‹eq-weapon/spiked gauntlet›. They come in a bamboo tube that holds 10 shafts.",
 			"",
-			"::tabular{format=weap1 a=\"0.1\" b=\"0.05\" i=ammo j=X}",
-			"",
-			">@HL[Note:] Stats are an extrapolation from the original quantity of 10."
+			"::tabular{format=weap1 a=\"0.1\" b=\"0.05\" i=ammo j=X x=10 y=1 z=\"0.5\"}"
 		],
 		"topLink": [ "Ammunition", "main/equipment_weapons_ammunition" ]
 	},
 	"barbed_arrow": {
-		"name": "Barbed arrow",
+		"name": "Arrow, barbed",
 		"sources": [ "Ranged Tactics Toolbox" ],
 		"description": [
-			"## Barbed arrow",
+			"## Arrow, barbed",
 			"‹SOURCE Ranged Tactics Toolbox/19›",
 			"",
 			"The head of a barbed ‹eq-weapon/arrow› resembles that of a ‹eq-weapon/harpoon›.",
@@ -2055,22 +2049,20 @@
 			"",
 			"Barbed ‹eq-weapon/bolt«s› exist for crossbows.",
 			"",
-			"::tabular{format=weap1 a=\"0.1\" b=\"0.15\" i=ammo j=X}",
-			"",
-			">@HL[Note:] Stats are an extrapolation from the original quantity of 20."
+			"::tabular{format=weap1 a=\"0.1\" b=\"0.15\" i=ammo j=X x=20 y=2 z=3}"
 		],
 		"topLink": [ "Ammunition", "main/equipment_weapons_ammunition" ]
 	},
 	"barbed_bolt": { "redirect": "barbed_arrow" },
 	"blowgun_darts": {
-		"name": "Blowgun darts",
+		"name": "Darts, blowgun",
 		"sources": [
 			"Ultimate Equipment",
 			"Pathfinder Campaign Setting",
 			"PRPG Core Rulebook"
 		],
 		"description": [
-			"## Blowgun darts",
+			"## Darts, blowgun",
 			"‹SOURCE Ultimate Equipment/22;Pathfinder Campaign Setting/211;PRPG Core Rulebook/142›",
 			"",
 			"The thin, light darts used in a ‹eq-weapon/blowgun› are usually made of hardwood with a stabilizing fletching of down or fur. A dart is usually loaded from the back end just before firing.",
@@ -2083,28 +2075,28 @@
 	},
 	"blowgun_dart": { "redirect": "blowgun_darts" },
 	"blunt_arrows": {
-		"name": "Blunt arrows",
+		"name": "Arrow, blunt",
 		"sources": [
 			"Ultimate Equipment",
 			"Advanced Player's Guide"
 		],
 		"description": [
-			"## Blunt arrows",
+			"## Arrow, blunt",
 			"‹SOURCE Ultimate Equipment/22;Advanced Player's Guide/176›",
 			"",
 			"These ‹eq-weapon/arrows› have rounded wooden tips that deal bludgeoning damage rather than piercing. An archer can use a blunt arrow to deal nonlethal damage (at the normal -4 attack penalty for using a lethal weapon to deal nonlethal damage).",
 			"",
-			"::tabular{format=weap1 a=\"0.1\" b=\"0.15\" i=ammo j=X}",
+			"::tabular{format=weap1 a=\"0.1\" b=\"0.15\" i=ammo j=X x=20 y=2 z=3}",
 			"",
 			">@HL[Note:] Stats are an extrapolation from the original quantity of 20."
 		],
 		"topLink": [ "Ammunition", "main/equipment_weapons_ammunition" ]
 	},
 	"bolas_bolts": {
-		"name": "Bolas bolts",
+		"name": "Bolts, bolas",
 		"sources": [ "Monster Codex" ],
 		"description": [
-			"## Bolas bolts",
+			"## Bolts, bolas",
 			"‹SOURCE Monster Codex/44›",
 			"",
 			"@I-melee Bolas bolts are ‹eq-weapon/bolas›-like projectiles used as ammunition for slaver's crossbows. If you hit a target with a bolas bolt fired from a slaver's crossbow, attempt a ‹rule/trip› combat maneuver against your target (don't add your Strength bonus when attempting the combat maneuver check). You can't be tripped during your own trip attempt when using a bolas bolt.",
@@ -2147,37 +2139,33 @@
 			"",
 			"These ‹eq-weapon/sling bullet«s› are honeycombed with overlapping perforations that cause them to emit an eerie moan audible within 500 feet of their flight path.",
 			"",
-			"::tabular{format=weap1 a=\"0.2\" b=\"0.5\" i=ammo j=X}",
-			"",
-			">@HL[Note:] Stats are an extrapolation from the original quantity of 20."
+			"::tabular{format=weap1 a=\"0.2\" b=\"0.5\" i=ammo j=X x=10 y=2 z=5}"
 		],
 		"topLink": [ "Ammunition", "main/equipment_weapons_ammunition" ]
 	},
 	"crossbow_bolts": {
-		"name": "Crossbow bolts",
+		"name": "Bolts, crossbow",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
 		],
 		"description": [
-			"## Crossbow bolts",
+			"## Bolts, crossbow",
 			"‹SOURCE Ultimate Equipment/22;PRPG Core Rulebook/142;PRPG Core Rulebook/143›",
 			"",
 			"A crossbow bolt used as a melee weapon is treated as a light ‹misc/improvised weapon› (-4 penalty on attack rolls) and deals damage as a ‹eq-weapon/dagger› of its size (critical multiplier &times;2). Bolts come in a case or quiver that holds 10 bolts. All ‹eq-weapon/crossbow«s› except ‹eq-weapon/repeating crossbow«s› use these kinds of crossbow bolts, which are sometimes called \"quarrels.\"",
 			"",
-			"::tabular{format=weap1 a=\"0.1\" b=\"0.1\" i=ammo j=X}",
-			"",
-			">@HL[Note:] Stats are an extrapolation from the original quantity of 10."
+			"::tabular{format=weap1 a=\"0.1\" b=\"0.1\" i=ammo j=X x=10 y=1 z=1}"
 		],
 		"topLink": [ "Ammunition", "main/equipment_weapons_ammunition" ]
 	},
 	"bolt": { "redirect": "crossbow_bolts" },
 	"bolts": { "redirect": "crossbow_bolts" },
 	"featherweight_dart": {
-		"name": "Featherweight dart",
+		"name": "Dart, featherweight",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
-			"## Featherweight dart",
+			"## Dart, featherweight",
 			"‹SOURCE Ultimate Intrigue/232›",
 			"",
 			"These extremely small and lightweight darts function like ‹eq-weapon/blowgun dart«s›, except they are used to deliver poisons surreptitiously instead of dealing damage.",
@@ -2191,20 +2179,18 @@
 		"topLink": [ "Ammunition", "main/equipment_weapons_ammunition" ]
 	},
 	"flight_arrows": {
-		"name": "Flight arrows",
+		"name": "Arrow, flight",
 		"sources": [
 			"Ultimate Equipment",
 			"Advanced Player's Guide"
 		],
 		"description": [
-			"## Flight arrows",
+			"## Arrow, flight",
 			"‹SOURCE Ultimate Equipment/22;Advanced Player's Guide/176›",
 			"",
 			"@I-boost-down These ‹eq-weapon/arrows› have light shafts and special fletching to give them greater range. A flight arrow's range increment is 20 feet greater with ‹eq-weapon/longbow«s› and 10 feet greater with ‹eq-weapon/shortbow«s›. They deal damage as if ‹misc/one size category smaller›.",
 			"",
-			"::tabular{format=weap1 a=\"0.1\" b=\"0.15\" i=ammo j=X}",
-			"",
-			">@HL[Note:] Stats are an extrapolation from the original quantity of 20."
+			"::tabular{format=weap1 a=\"0.1\" b=\"0.15\" i=ammo j=X x=20 y=2 z=3}"
 		],
 		"topLink": [ "Ammunition", "main/equipment_weapons_ammunition" ]
 	},
@@ -2230,9 +2216,9 @@
 			"## Halfling sharpstones",
 			"‹SOURCE Halflings of Golarion/23›",
 			"",
-			"A thin layer of baked clay covers the spikes and jagged ridges covering this specially designed ‹eq-weapon/s_>bullet›. A proficient user knows how to crack the clay (a @FA) so that it peels off from either the spikes or ridges when fired, dealing either piercing or slashing damage.",
+			"A thin layer of baked clay covers the spikes and jagged ridges covering this specially designed ‹eq-weapon/s_>bullet›. A proficient user knows how to crack the clay (a @FA) so that it peels off from either the spikes or ridges when fired, dealing 1d3 of either piercing or slashing damage (1d4 if medium-sized).",
 			"",
-			"::tabular{format=weap1 a=\"0.1\" b=\"0.5\" i=ammo j=X}",
+			"::tabular{format=weap1 a=\"0.1\" b=\"0.5\" i=ammo j=X x=10 y=1 z=5}",
 			"",
 			">@HL[Note:] Stats are an extrapolation from the original quantity of 10."
 		],
@@ -2247,9 +2233,7 @@
 			"",
 			"These tight bundles of elastic fibers deal nonlethal damage when fired from a ‹eq-weapon/sling›.",
 			"",
-			"::tabular{format=weap1 a=\"0.01\" b=\"0.4\" i=ammo j=X}",
-			"",
-			">@HL[Note:] Stats are an extrapolation from the original quantity of 10."
+			"::tabular{format=weap1 a=\"0.01\" b=\"0.4\" i=ammo j=X x=10 y=\"0.1\" z=4}"
 		],
 		"topLink": [ "Ammunition", "main/equipment_weapons_ammunition" ]
 	},
@@ -2273,10 +2257,10 @@
 		"topLink": [ "Ammunition", "main/equipment_weapons_ammunition" ]
 	},
 	"incendiary_arrow": {
-		"name": "Incendiary arrow",
+		"name": "Arrow, incendiary",
 		"sources": [ "Ranged Tactics Toolbox" ],
 		"description": [
-			"## Incendiary arrow",
+			"## Arrow, incendiary",
 			"‹SOURCE Ranged Tactics Toolbox/19›",
 			"",
 			"A metal cage behind this ‹eq-weapon/arrow's› point contains flammable material.",
@@ -2287,91 +2271,83 @@
 			"",
 			"Incendiary ‹eq-weapon/bolts› exist for ‹eq-weapon/crossbow«s›.",
 			"",
-			"::tabular{format=weap1 a=\"0.5\" b=\"0.15\" i=ammo j=X}",
-			"",
-			">@HL[Note:] Stats are an extrapolation from the original quantity of 20."
+			"::tabular{format=weap1 a=\"0.5\" b=\"0.15\" i=ammo j=X x=20 y=10 z=3}"
 		],
 		"topLink": [ "Ammunition", "main/equipment_weapons_ammunition" ]
 	},
 	"incendiary_bolt": { "redirect": "incendiary_arrow" },
 	"kestros_dart": {
-		"name": "Kestros dart",
+		"name": "Dart, kestros",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
-			"## Kestros dart",
+			"## Dart, kestros",
 			"‹SOURCE Ultimate Equipment/22›",
 			"",
 			"This dart, meant to be thrown using a ‹eq-weapon/kestros›, consists of a heavy metal point about 9 inches long attached to a shaft of wood about 12 inches long, fletched with feathers for stability. If used as a melee weapon, it is a light ‹misc/improvised weapon› (-4 penalty on attack rolls) and deals damage as a ‹eq-weapon/dagger› of its size (critical multiplier &times;2). Kestros darts come in a quiver that holds 10 darts.",
 			"",
-			"::tabular{format=weap1 a=\"0.5\" b=\"0.5\" i=ammo j=X}",
-			"",
-			">@HL[Note:] Stats are an extrapolation from the original quantity of 10."
+			"::tabular{format=weap1 a=\"0.5\" b=\"0.5\" i=ammo j=X x=10 y=5 z=5}"
 		],
 		"topLink": [ "Ammunition", "main/equipment_weapons_ammunition" ]
 	},
 	"pronged_arrow": {
-		"name": "Pronged arrow",
+		"name": "Arrow, pronged",
 		"sources": [ "Ranged Tactics Toolbox" ],
 		"description": [
-			"## Pronged arrow",
+			"## Arrow, pronged",
 			"‹SOURCE Ranged Tactics Toolbox/19›",
 			"",
 			"Rather than narrowing to a single point, a pronged ‹eq-weapon/arrow› has a wide face with two points resembling a crescent or V-shape.",
 			"",
 			"@I-down-boost Originally used for hunting game, a pronged arrow deals damage as if ‹misc/one size category smaller›, but you gain a +1 bonus on attack rolls against creatures or objects one or more size categories smaller than you.",
 			"",
-			"::tabular{format=weap1 a=\"0.1\" b=\"0.15\" i=ammo j=X}",
+			"::tabular{format=weap1 a=\"0.1\" b=\"0.15\" i=ammo j=X x=20 y=2 z=3}",
 			"",
 			">@HL[Note:] Stats are an extrapolation from the original quantity of 20."
 		],
 		"topLink": [ "Ammunition", "main/equipment_weapons_ammunition" ]
 	},
 	"repeating_crossbow_bolts": {
-		"name": "Repeating crossbow bolts",
+		"name": "Bolts, repeating crossbow",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
 		],
 		"description": [
-			"## Repeating crossbow bolts",
+			"## Bolts, repeating crossbow",
 			"‹SOURCE Ultimate Equipment/22;PRPG Core Rulebook/143›",
 			"",
 			"Bolts for a ‹eq-weapon/repeating crossbow› are designed to fit the bolt case of a repeating crossbow. They are slightly more expensive than regular crossbow bolts and sold in increments of 5 instead of 10 (to match the capacity of the bolt case).",
 			"",
-			"::tabular{format=weap1 a=\"0.2\" b=\"0.2\" i=ammo j=X}",
-			"",
-			">@HL[Note:] Stats are an extrapolation from the original quantity of 5."
+			"::tabular{format=weap1 a=\"0.2\" b=\"0.2\" i=ammo j=X x=5 y=1 z=1}"
 		],
 		"topLink": [ "Ammunition", "main/equipment_weapons_ammunition" ]
 	},
 	"sling_bullets": {
-		"name": "Sling bullets",
+		"name": "Bullets, sling",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
 		],
 		"description": [
-			"## Sling bullets",
+			"## Bullets, sling",
 			"‹SOURCE Ultimate Equipment/22;PRPG Core Rulebook/142›",
 			"",
 			"Sling bullets are shaped metal balls, designed to be used by a ‹eq-weapon/sling› or ‹eq-weapon/halfling sling staff›. Bullets come in a leather pouch that holds 10 bullets.",
 			"",
-			"::tabular{format=weap1 a=\"0.01\" b=\"0.5\" i=ammo j=X}",
-			"",
-			">@HL[Note:] Stats are an extrapolation from the original quantity of 10."
+			"::tabular{format=weap1 a=\"0.01\" b=\"0.5\" i=ammo j=X x=10 y=\"0.1\" z=5}"
 		],
 		"topLink": [ "Ammunition", "main/equipment_weapons_ammunition" ]
 	},
 	"sling_bullet": { "redirect": "sling_bullets" },
 	"s_bullet": { "redirect": "sling_bullets" },
 	"smoke_arrow": {
-		"name": "Smoke arrow",
+		"name": "Arrow, smoke",
 		"sources": [
 			"Ultimate Equipment",
 			"Advanced Player's Guide"
 		],
 		"description": [
-			"## Smoke arrow",
+			"## Arrow, smoke",
 			"‹SOURCE Ultimate Equipment/22;Advanced Player's Guide/176›",
 			"",
 			"@I-boom This arrow is actually a specially-shaped ‹eq-misc/smokestick› that can be fired from a bow. It trails smoke as it flies, and creates a 5-foot cube of smoke where it strikes. It otherwise functions like a normal ‹eq-weapon/arrow› in terms of damage, range, and so on.",
@@ -2383,13 +2359,13 @@
 		"topLink": [ "Ammunition", "main/equipment_weapons_ammunition" ]
 	},
 	"thistle_arrow": {
-		"name": "Thistle arrow",
+		"name": "Arrow, thistle",
 		"sources": [
 			"Adventurer's Armory",
 			"Pathfinder Campaign Setting"
 		],
 		"description": [
-			"## Thistle arrow",
+			"## Arrow, thistle",
 			"‹SOURCE Adventurer's Armory/18;Pathfinder Campaign Setting/211›",
 			"",
 			"These ‹eq-weapon/arrows› are a specialty of the Ekujae shamans, who craft the arrowheads out of the thistles of a toxic plant that most creatures find highly caustic.",
@@ -2405,10 +2381,10 @@
 		"topLink": [ "Ammunition", "main/equipment_weapons_ammunition" ]
 	},
 	"throwing_arrow": {
-		"name": "Throwing arrow",
+		"name": "Arrow, throwing",
 		"sources": [ "Ranged Tactics Toolbox" ],
 		"description": [
-			"## Throwing arrow",
+			"## Arrow, throwing",
 			"‹SOURCE Ranged Tactics Toolbox/19›",
 			"",
 			"Too long to use in a bow, the throwing arrow has no nock at the tail. Instead, it has a notch ahead of the fletching where a ‹eq-weapon/throwing arrow cord› can be attached. If thrown without the use of a cord, treat a throwing arrow as a ‹eq-weapon/dart›.",
@@ -2418,21 +2394,19 @@
 		"topLink": [ "Ammunition", "main/equipment_weapons_ammunition" ]
 	},
 	"whistling_arrows": {
-		"name": "Whistling arrows",
+		"name": "Arrow, whistling",
 		"sources": [
 			"Ultimate Equipment",
 			"Adventurer's Armory",
 			"Ultimate Combat"
 		],
 		"description": [
-			"## Whistling arrows",
+			"## Arrow, whistling",
 			"‹SOURCE Ultimate Equipment/22;Adventurer's Armory/2;Ultimate Combat/130›",
 			"",
 			"These ‹eq-weapon/arrows› come with specially designed grooves and fletching that cause them to emit a loud keening sound audible within 500 feet of their flight path. They are sold in quantities of 20.",
 			"",
-			"::tabular{format=weap1 a=\"0.1\" b=\"0.15\" i=ammo j=X}",
-			"",
-			">@HL[Note:] Stats are an extrapolation from the original quantity of 20."
+			"::tabular{format=weap1 a=\"0.1\" b=\"0.15\" i=ammo j=X x=20 y=2 z=3}"
 		],
 		"topLink": [ "Ammunition", "main/equipment_weapons_ammunition" ]
 	},
